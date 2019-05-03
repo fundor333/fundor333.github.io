@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>floppy disk on Fundor 333</title>
+    <link>https://www.fundor333.com/tags/floppy-disk/</link>
+    <description>Recent content in floppy disk on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Thu, 03 May 2018 23:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fundor333.com/tags/floppy-disk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Floppy, Pycon e generatori di siti statici</title>
+      <link>https://www.fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</link>
+      <pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</guid>
+      <description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
+Quest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
+ ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
+    </item>
+    
+  </channel>
+</rss>

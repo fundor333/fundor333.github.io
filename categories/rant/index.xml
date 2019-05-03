@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rant on Fundor 333</title>
+    <link>https://www.fundor333.com/categories/rant/</link>
+    <description>Recent content in rant on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Thu, 03 May 2018 23:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fundor333.com/categories/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Floppy, Pycon e generatori di siti statici</title>
+      <link>https://www.fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</link>
+      <pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</guid>
+      <description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
+Quest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
+ ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
+    </item>
+    
+    <item>
+      <title>P2P offline come le Spie</title>
+      <link>https://www.fundor333.com/post/p2p-offline-da-spie/</link>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/p2p-offline-da-spie/</guid>
+      <description>Da poco ho scoperto che nel 2006 l&amp;rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;ldquo;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
+Partiamo con ordine: cos&amp;rsquo;è il P2P?
+P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto&amp;rdquo;. Significa che la comunicazione è tra il &amp;ldquo;mittente&amp;rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.</description>
+    </item>
+    
+    <item>
+      <title>E Talk Al Pycon9</title>
+      <link>https://www.fundor333.com/post/e-talk-al-pycon9/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/e-talk-al-pycon9/</guid>
+      <description>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
+Facciamo un po&amp;rsquo; di ordine: * Ho un blog gestito attraverso un generatore di siti statici * Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi * Ho una passione per il formato file .</description>
+    </item>
+    
+    <item>
+      <title>Titcoin e perchè non possono funzionare come credi</title>
+      <link>https://www.fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</guid>
+      <description>Nel 2014 un picolo sito porno decide di lanciare una campagna di raccolta di proposte di campagne pubblicizzarie per rilanciare il marchio con nuove proposte e le raccoglie in un Creative Director Contest in cui esce un video in cui viene pubblicizzato un nuovo sistema di pagamento attraverso una moneta &amp;ldquo;virtuale&amp;rdquo; chiamata Titcoin1 .
+Chi ha proposto questo video2 non ha controllato ma i Titcoin esiste già e questo ha provocato una serie di articoli nel 2014 che lanciano il nuovo sistema di pagamento senza andare a controllare le fonti3.</description>
+    </item>
+    
+    <item>
+      <title>DotFile e le mie config</title>
+      <link>https://www.fundor333.com/post/dotfile-e-le-mie-config/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/dotfile-e-le-mie-config/</guid>
+      <description>Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com&amp;rsquo;era.
+Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e stavo iniziando a scrivere un orrendo accrocchio per la generazione delle configurazioni in modo automatico partendo da un database sqlite, che, per quanto intelligente come idea, non è una cosa di facile gestione ne adatto alla situazione che si è creata.</description>
+    </item>
+    
+    <item>
+      <title>Un Astemio al Tezo Databeers</title>
+      <link>https://www.fundor333.com/post/astemio-al-terzo-databeers/</link>
+      <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/astemio-al-terzo-databeers/</guid>
+      <description>Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il DataBeers di Venezia.
+Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. Ci sono stati tre interventi di altrettante persone diverse:
+ Data Driven Design Leonidas Paterakis del FabLab di Venezia presenta il sistema del Data Driven Design.</description>
+    </item>
+    
+    <item>
+      <title>Il mio Paperplane</title>
+      <link>https://www.fundor333.com/post/il-mio-paperplane/</link>
+      <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/il-mio-paperplane/</guid>
+      <description>Ultimamente ho cambiato lavoro e ho cambiato alcuni aspetti secondari della mia vita di cui non sento la mancanza ma risulto stare meglio. In tutto ciò ho deciso che sono troppo vecchio (25 anni sono tanti, tutta una vita per me) e che non posso permettermi di perdere altro tempo (e qui sembro una delle vittime dei Signori Grigi di Momo). Per questo motivo mi sono lanciato in un grosso progetto personale: Paperplane.</description>
+    </item>
+    
+    <item>
+      <title>Utilizzi alternativi di Firebase</title>
+      <link>https://www.fundor333.com/post/utilizzi-alternativi-di-farebase/</link>
+      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/utilizzi-alternativi-di-farebase/</guid>
+      <description>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&amp;rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&amp;rsquo;utente.
+Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
+    </item>
+    
+    <item>
+      <title>Ruby e il mio attuale lavoro</title>
+      <link>https://www.fundor333.com/post/ruby-e-il-mio-lavoro/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/ruby-e-il-mio-lavoro/</guid>
+      <description>Come qualcuno avra notato (spero) è un bel po&amp;rsquo; che non pubblico niente di nuovo nel blog. Questo succede per due motivi:
+1. Ho iniziato a lavorare per una ditta 2. Ho lavorato sul tema di questo sito e altri siti  Questo ha portato a una enorme riduzione del mio tempo libero e, di conseguenza, il tempo che posso dedicare a questo blog.
+Queste quindi sono una specie di scuse per aver abbandonato gli articoli del blog, anche se lavorando comunque sulla grafica del sito.</description>
+    </item>
+    
+    <item>
+      <title>E si torna dal pelicano</title>
+      <link>https://www.fundor333.com/post/e-si-torna-dal-pelicano/</link>
+      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/e-si-torna-dal-pelicano/</guid>
+      <description>E sono tornato a usare Pelican&amp;hellip; Perchè???
+E&amp;rsquo; più semplice da configurare ed è più vincolante. Questo mi ha permesso di riscrivere il blog in una settimana mentre un mese mi è stato necessario per alcune modifiche per il blog con Hugo. In oltre, lavorando da circa due settimane, i miei tempi si sono modificati per cui tutti i miei &amp;ldquo;tempi buchi&amp;rdquo; sono spariti e, di conseguenza, il blog ne sta risentendo&amp;hellip; Vedremo come andrà avanti, spero bene e per una ricca via&amp;hellip; Per ora aspettatevi un periodo di non articoli fino a il raggiungimento di un mio tempismo.</description>
+    </item>
+    
+  </channel>
+</rss>

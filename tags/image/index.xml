@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>image on Fundor 333</title>
+    <link>https://www.fundor333.com/tags/image/</link>
+    <description>Recent content in image on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Tue, 16 May 2017 12:27:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.fundor333.com/tags/image/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo into Docker</title>
+      <link>https://www.fundor333.com/post/hugo-into-docker/</link>
+      <pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
+      
+      <guid>https://www.fundor333.com/post/hugo-into-docker/</guid>
+      <description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Fundor 333</title>
+    <link>https://www.fundor333.com/tags/</link>
+    <description>Recent content in Tags on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Tue, 23 Apr 2019 10:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fundor333.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>api</title>
+      <link>https://www.fundor333.com/tags/api/</link>
+      <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>django</title>
+      <link>https://www.fundor333.com/tags/django/</link>
+      <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>post</title>
+      <link>https://www.fundor333.com/tags/post/</link>
+      <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rest</title>
+      <link>https://www.fundor333.com/tags/rest/</link>
+      <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bot</title>
+      <link>https://www.fundor333.com/tags/bot/</link>
+      <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chat</title>
+      <link>https://www.fundor333.com/tags/chat/</link>
+      <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/chat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chatbot</title>
+      <link>https://www.fundor333.com/tags/chatbot/</link>
+      <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/chatbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://www.fundor333.com/tags/devops/</link>
+      <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>npm</title>
+      <link>https://www.fundor333.com/tags/npm/</link>
+      <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/npm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>filters</title>
+      <link>https://www.fundor333.com/tags/filters/</link>
+      <pubDate>Mon, 24 Sep 2018 09:03:37 +0200</pubDate>
+      
+      <guid>https://www.fundor333.com/tags/filters/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

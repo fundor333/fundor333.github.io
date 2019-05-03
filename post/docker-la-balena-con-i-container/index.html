@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="it-it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css'>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title> Docker, la balena con i container per software | Fundor 333 </title>
+  <meta name="description" content="">
+  <meta name="author" content=""> 
+  <link href="https://www.fundor333.com/post/index.xml" ref="feed" type="application/rss+xml" title="Fundor 333" />
+  
+
+</head>
+
+
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <header class="mt-5 mx-auto">
+  <nav>
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col mt-2">
+          <a href="https://www.fundor333.com/">
+            <img id="header_logo" class="rounded-circle" style="width: 200px; height: 200px;" src='/img/pilogo.jpg'>
+          </a>
+        </div>
+        <div class="col mt-5">
+          <div class="row align-middle">
+            <a href="https://www.fundor333.com/">
+              <div id="title">
+                <h2>Fundor 333</h2>
+                <h3 id="subtitle">
+                  import antigravity
+                </h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+      </div>
+      <div class="row">
+        <div class="container">
+  <nav class="nav mx-auto">
+     
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://github.com/fundor333">
+        <i class="fab fa-github" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://www.facebook.com/fundor333">
+        <i class="fab fa-facebook" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://twitter.com/fundor333">
+        <i class="fab fa-twitter" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+        <i class="fab fa-youtube" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://www.instagram.com/fundor333/">
+        <i class="fab fa-instagram" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://www.flickr.com/people/fundor333/">
+        <i class="fab fa-flickr" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+  </nav>
+  <nav class="mx-auto">
+    <ul class="nav d-flex justify-content-center">
+       
+      <li class="nav-item">
+        <a class="nav-link" href="/post/">
+          blog</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/packages/">
+          packages</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/hoarding/">
+          hoarding</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/about/">
+          about</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/talk/">
+          talk</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/event/">
+          convention</a>
+      </li>
+      
+    </ul>
+  </nav>
+</div>
+
+      </div>
+    </div>
+    <hr>
+    <div class="row mt-2 mb-2">
+      <div class="container">
+        <div class="container">
+          
+
+<div class="row">
+  <h2 class="text-center">Docker, la balena con i container per software</h2>
+</div>
+<div class="row mx-auto">
+  <a href="https://www.fundor333.com/" class="bricciole">home</a>
+  <a>~</a>
+  <a href='https://www.fundor333.com///post/docker-la-balena-con-i-container/' class="bricciole">Docker, la balena con i container per software</a>
+</div>
+<hr>
+
+<article>
+<p>Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
+Docker.<br />
+<img src="https://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png" alt="Docker" /></p>
+
+<p>La prima volta che ho incontrato Docker è stato leggendo un articolo
+sulle macchine virtuali e su come rendere uguale l&rsquo;ambiente di develop,
+testing e di produzione. Quando lo ho letto non capivo bene come
+funzionasse ma poi ho trovato degli esempi più semplici che spiegano
+bene la differenza tra i due.</p>
+
+<h2 id="la-macchina-virtuale">La macchina virtuale</h2>
+
+<p>La macchina virtuale solitamente la possiamo vedere come i vecchi hard
+disk a cassettoni: installo il sistema operativo, installo tutte le
+componenti e poi è pronto per essere inserito nella macchina affinchè
+funzioni. In oltre basta copiarlo n volte per averne n ambienti
+completamente uguali.</p>
+
+<h3 id="pregi">Pregi</h3>
+
+<p>Stabile e interamente contenuto in un unico &ldquo;ambiente&rdquo; portabile
+(solitamente è un file in cui è salvato l&rsquo;hd della macchina virtuale).</p>
+
+<h3 id="difetti">Difetti</h3>
+
+<p>Molto pesante in termini di spazio e memoria. Se ho due installazioni
+identiche che fanno girare due applicazioni diverse sulla stessa
+macchina io ho due copie delle librerie, del sistema operativo e delle
+configurazioni.</p>
+
+<p><img src="https://www.docker.com/sites/default/files/WhatIsDocker_2_VMs_0-2_2.png" alt="virtual" /><br />
+Questa immagine mostra bene come il &ldquo;guest os&rdquo; risuta essere duplicato
+(in questo caso triplicato) e non possa essere &ldquo;riutilizzato&rdquo; dalle
+altre applicazioni.</p>
+
+<h2 id="docker">Docker</h2>
+
+<p>Sul serio è un servizio differente? Si e no.</p>
+
+<p>Concettualmente è comunque un sistema di macchina virtuale. Praticamente
+è una &ldquo;torta multistrato&rdquo; di quello che Docker chiama conteiner.</p>
+
+<p>Ogni livello contiene parte dei prerequisiti divisi per livello in base
+a come è stato scritto il Dockerfile (file di configurazione per la
+creazione di conteiner docker) e se due &ldquo;applicativi docker&rdquo; o immagini
+docker utilizzano gli stessi container non genera una copia nell&rsquo;hard
+disk ma utilizza lo stesso container per entrambi.</p>
+
+<h3 id="vantaggi">Vantaggi</h3>
+
+<p>Puoi distribuire il file di configurazione (semplice file di testo,
+solitamente anche molto breve) al posto che condividere un intero disco
+virtuale e è più compatto rispetto alla virtual machine per quanto
+riguarda lo spazio occupato, in quanto c&rsquo;è solo le librerie richieste e
+nessun altra componente del sistema operativo o delle librerie.<br />
+In oltre, in caso di multiple istanze di docker risulta spesso più
+performante, sopratutto quanto più sono simili le immagini.</p>
+
+<h3 id="svantaggi">Svantaggi</h3>
+
+<p>Bisogna imparare a fare i file docker e, nel caso di una solo istanza di
+docker in funzione sulla macchina potrebbe essere più pesante di una
+macchina virtuale.<br />
+<img src="https://www.docker.com/sites/default/files/WhatIsDocker_3_Containers_2_0.png" alt="docker" /></p>
+
+<p>Personalmente ultimamente lo uso molto per sviluppare siti web. Questo
+mi permette di avere una unica installazione di php e di mysql senza
+dover spostare ogni volta i progetti all&rsquo;interno della root del web
+server ma semplicemente lanciando i file docker di quel progetto, che
+ricevono automaticamente un ip e, di conseguenza, posso visualizzarli in
+parallelo.</p>
+
+<p>Se quindi volete provare anche voi Docker vi lascio qui il
+<a href="https://www.docker.com/">link</a>.</p>
+<p>by Fundor 333</p>
+</article>
+
+<hr>
+
+ 
+<a class="tag col-4" href='https://www.fundor333.com/tags/docker'>docker</a>
+ 
+<hr>
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<hr>
+
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>
+  <div class="container mx-auto">
+      <div class="col-12 col-md-6 offset-md-3">
+        Made by
+        <a href="https://www.fundor333.com/">Fundor333</a> with
+        <i class="fa fa-heart" aria-hidden="true"></i> GoLang
+        <i class="fa fa-laptop" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="container mx-auto">
+      <div class="col-12 col-md-6 offset-md-3">
+        Powered by
+        <a href="https://gohugo.io">Go Hugo</a> =>
+        <a href="https://github.com/fundor333/fundor333.com">Source code
+        </a>
+      </div>
+  </div>
+</footer>
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+
+  </div>
+   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-44064318-2', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+</body>
+
+</html>

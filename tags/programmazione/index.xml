@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programmazione on Fundor 333</title>
+    <link>https://www.fundor333.com/tags/programmazione/</link>
+    <description>Recent content in programmazione on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Tue, 14 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fundor333.com/tags/programmazione/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emacs e mai più mouse</title>
+      <link>https://www.fundor333.com/post/emacs-e-mai-piu-mouse/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/emacs-e-mai-piu-mouse/</guid>
+      <description>&lt;p&gt;E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è &lt;em&gt;mouse free&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Ok posso capire che per la maggior parte di voi non capirà perchè questo cambiamento è rilevante per me ma, dal mio punto di vista, è un &lt;em&gt;ENORME&lt;/em&gt; upgrade tecnico. La possibilità di avere un intero editor di testo personalizzabile, multipiattaforma e completamente open source mi ha sempre particolarmente colpito ma non ho mai trovato uno che lo sentissi mio. Attualmente uso molto Atom ma lo sento molto stretto soprattutto perchè, visto che deve supportare molti linguaggi (e di conseguenza molti plugin), risulta rallentato.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Orrori delle parentesi</title>
+      <link>https://www.fundor333.com/post/orrori-delle-parentesi/</link>
+      <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/orrori-delle-parentesi/</guid>
+      <description>&lt;p&gt;(°,,,°)&lt;/p&gt;
+
+&lt;p&gt;La mia faccia quando ho aperto twitter&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Un frammento di codice con parentesi messe allineate in fondo&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Come sopravivvere a un Hackathon programmando</title>
+      <link>https://www.fundor333.com/post/sopravivvere-un-hackathon-programmando/</link>
+      <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/sopravivvere-un-hackathon-programmando/</guid>
+      <description>&lt;p&gt;Esco in questi giorni da un Hackathon organizzato dalla regione Veneto
+(&lt;a href=&#34;http://www.energic-od.eu/&#34;&gt;qui&lt;/a&gt;info), portando a casa con la mia
+squadra un felice e molto sudato terzo posto. Si ok abbiamo programmato
+in modo continuo per 24 ore ma seguendo poche regole capite
+successivamente dopo aver recuperto le ore di sonno.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

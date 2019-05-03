@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="it-it">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css'>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+  <title> Bot, Telegram e programmazione funzionale | Fundor 333 </title>
+  <meta name="description" content="">
+  <meta name="author" content=""> 
+  <link href="https://www.fundor333.com/post/index.xml" ref="feed" type="application/rss+xml" title="Fundor 333" />
+  
+
+</head>
+
+
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <header class="mt-5 mx-auto">
+  <nav>
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col mt-2">
+          <a href="https://www.fundor333.com/">
+            <img id="header_logo" class="rounded-circle" style="width: 200px; height: 200px;" src='/img/pilogo.jpg'>
+          </a>
+        </div>
+        <div class="col mt-5">
+          <div class="row align-middle">
+            <a href="https://www.fundor333.com/">
+              <div id="title">
+                <h2>Fundor 333</h2>
+                <h3 id="subtitle">
+                  import antigravity
+                </h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+      </div>
+      <div class="row">
+        <div class="container">
+  <nav class="nav mx-auto">
+     
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://github.com/fundor333">
+        <i class="fab fa-github" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://www.facebook.com/fundor333">
+        <i class="fab fa-facebook" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://twitter.com/fundor333">
+        <i class="fab fa-twitter" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+        <i class="fab fa-youtube" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://www.instagram.com/fundor333/">
+        <i class="fab fa-instagram" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+    <li class="nav-item mx-auto">
+      <a class="nav-link" href="https://www.flickr.com/people/fundor333/">
+        <i class="fab fa-flickr" aria-hidden="true"></i> &nbsp;&nbsp;</a>
+    </li>
+    
+  </nav>
+  <nav class="mx-auto">
+    <ul class="nav d-flex justify-content-center">
+       
+      <li class="nav-item">
+        <a class="nav-link" href="/post/">
+          blog</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/packages/">
+          packages</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/hoarding/">
+          hoarding</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/about/">
+          about</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/talk/">
+          talk</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/event/">
+          convention</a>
+      </li>
+      
+    </ul>
+  </nav>
+</div>
+
+      </div>
+    </div>
+    <hr>
+    <div class="row mt-2 mb-2">
+      <div class="container">
+        <div class="container">
+          
+
+<div class="row">
+  <h2 class="text-center">Bot, Telegram e programmazione funzionale</h2>
+</div>
+<div class="row mx-auto">
+  <a href="https://www.fundor333.com/" class="bricciole">home</a>
+  <a>~</a>
+  <a href='https://www.fundor333.com///post/bot-telegram-e-programmazione-funzionale/' class="bricciole">Bot, Telegram e programmazione funzionale</a>
+</div>
+<hr>
+
+<article>
+<p>Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.</p>
+
+<h2 id="l-inizio-di-tutto">L&rsquo;inizio di tutto</h2>
+
+<p>Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria <a href="https://python-telegram-bot.org/">python-telegram-bot</a> e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a &ldquo;ascoltatore&rdquo; che la esegue quando riceve il comando.</p>
+
+<p>Ad esempio se io ho definito prima qi questo frammento di codice una funzione <em>start</em> che mi gestisce il comando omonimo, poi io devo registrarla all&rsquo;updater attraverso il dispatcher come qui sotto.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">updater<span style="color:#f92672">.</span>dispatcher<span style="color:#f92672">.</span>add_handler(CommandHandler(<span style="color:#e6db74">&#39;start&#39;</span>, start))</code></pre></div>
+
+<p>Visto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un &ldquo;alias&rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.</p>
+
+<h2 id="alla-ricerca-di-una-alternativa">Alla ricerca di una alternativa</h2>
+
+<p>Da bravo programmatore ho subito pensato che:</p>
+
+<ol>
+<li>Io una cosa così la ho già vista</li>
+<li>Qualcosa dentro di me dice di guardare il mio codice di prova di <em>Flask</em></li>
+</ol>
+
+<p>Apro quindi il mio file <em>prova-stupida-flask.py</em></p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> flask <span style="color:#f92672">import</span> Flask
+
+app <span style="color:#f92672">=</span> Flask(__name__)
+
+<span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74">&#34;/&#34;</span>)
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">hello</span>():
+	<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello World!&#34;</span>
+<span style="display:block;width:100%;background-color:#3c3d38">
+</span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+	app<span style="color:#f92672">.</span>run()</code></pre></div>
+
+<p>E capisco che <em>@app.route(&ldquo;&rdquo;)</em> è un decoratore che collega la funzione <em>hello</em> a un listener che risponde all&rsquo;indirizzo <em>localhost/</em>. Esattamente quello che mi serve.</p>
+
+<p>Da una sbirciata al sorgente di Flask produco una classe che gestisce il token e contiene il metodo</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">command_handler</span>(self, name):
+	<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decorator</span>(f):
+		self<span style="color:#f92672">.</span>updater<span style="color:#f92672">.</span>dispatcher<span style="color:#f92672">.</span>add_handler(CommandHandler(name, f))
+		<span style="color:#66d9ef">return</span> f
+	<span style="color:#66d9ef">return</span> decorator</code></pre></div>
+
+<p>che mi permette di scrivere una funzione di gestione di un comando con un piccolo decoratore sopra che fa tutto il lavoro</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a6e22e">@mybot.command_handler</span>(<span style="color:#e6db74">&#39;start&#39;</span>)
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">start</span>(bot,update):
+	<span style="color:#f92672">/*</span> codice che genera il resto<span style="color:#f92672">*/</span></code></pre></div>
+
+<p>E qui felice, continuo a scrivere codice fino ad accorgermi che continuavo a riscrivere la stessa funzione a meno di alcuni &ldquo;parametri&rdquo;.</p>
+
+<p>Ho quindi scritto un nuovo generatore di funzioni in modo tale</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">location_generator</span>(bot, name, text, lonlat):
+  <span style="color:#a6e22e">@bot.command_handler</span>(name)
+  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decoreted</span>(bot, update):
+	  logging<span style="color:#f92672">.</span>info(<span style="color:#e6db74">&#34;Give the &#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; info&#34;</span>)
+	  BOTAN<span style="color:#f92672">.</span>track(update<span style="color:#f92672">.</span>message, name)
+	  bot<span style="color:#f92672">.</span>sendMessage(chat_id<span style="color:#f92672">=</span>update<span style="color:#f92672">.</span>message<span style="color:#f92672">.</span>chat_id, text<span style="color:#f92672">=</span>text,parse_mode<span style="color:#f92672">=</span>ParseMode<span style="color:#f92672">.</span>MARKDOWN)
+	  lon, lat <span style="color:#f92672">=</span> lonlat
+<span style="display:block;width:100%;background-color:#3c3d38">	  bot<span style="color:#f92672">.</span>sendLocation(chat_id<span style="color:#f92672">=</span>update<span style="color:#f92672">.</span>message<span style="color:#f92672">.</span>chat_id, latitude<span style="color:#f92672">=</span>lat, longitude<span style="color:#f92672">=</span>lon)
+</span>	<span style="color:#66d9ef">return</span> decoreted</code></pre></div>
+
+<p>In questo modo, una volta passati i parametri corretti, questo genererà una funzione per rispondere con un testo seguito da una location al comando assegnato.</p>
+
+<h2 id="conclusioni">Conclusioni</h2>
+
+<p>Personalmente sono molto soddisfatto su come mi è venuto il plugin ma non sono soddisfatto di come è fatto il modulo&hellip; Forse ci metterò mano o ne faccio uno io stesso&hellip; Vedremo</p>
+
+<p>Fundor333</p>
+<p>by Fundor 333</p>
+</article>
+
+<hr>
+
+ 
+<a class="tag col-4" href='https://www.fundor333.com/tags/telegram'>telegram</a>
+
+<a class="tag col-4" href='https://www.fundor333.com/tags/bot'>bot</a>
+
+<a class="tag col-4" href='https://www.fundor333.com/tags/python'>python</a>
+ 
+<hr>
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<hr>
+
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>
+  <div class="container mx-auto">
+      <div class="col-12 col-md-6 offset-md-3">
+        Made by
+        <a href="https://www.fundor333.com/">Fundor333</a> with
+        <i class="fa fa-heart" aria-hidden="true"></i> GoLang
+        <i class="fa fa-laptop" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="container mx-auto">
+      <div class="col-12 col-md-6 offset-md-3">
+        Powered by
+        <a href="https://gohugo.io">Go Hugo</a> =>
+        <a href="https://github.com/fundor333/fundor333.com">Source code
+        </a>
+      </div>
+  </div>
+</footer>
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+
+  </div>
+   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-44064318-2', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+</body>
+
+</html>

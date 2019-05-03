@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Fundor 333</title>
+    <link>https://www.fundor333.com/post/</link>
+    <description>Recent content in Posts on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Tue, 23 Apr 2019 10:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Django Rest Framework: Multiple post</title>
+      <link>https://www.fundor333.com/post/django-rest-framework-multiple-post/</link>
+      <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/django-rest-framework-multiple-post/</guid>
+      <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
+Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
+After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
+Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
+    </item>
+    
+    <item>
+      <title>DevOps, ChatBot e NPM</title>
+      <link>https://www.fundor333.com/post/devops-chatbot-npm/</link>
+      <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/devops-chatbot-npm/</guid>
+      <description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
+Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
+Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
+    </item>
+    
+    <item>
+      <title>Sperimentando col filtri, paginator e sorting in Django</title>
+      <link>https://www.fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</link>
+      <pubDate>Mon, 24 Sep 2018 09:03:37 +0200</pubDate>
+      
+      <guid>https://www.fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</guid>
+      <description>Ultimamente sto lavorando a tempo pieno a un progetto Django per la mia ditta. Lo abbiamo chiamato Celebro e per ora ha un grossissimo problema: filtri, sorting e paginator.
+Fondamentalmente il problema si riassume con la rubrica del personale: deve essere ordinabile, filtrabile e visibile 20 elementi alla volta. Le tre cose assieme risultano essere difficili soprattutto se usi le Class View di Django.
+Gli strumenti esaminati per risolvere il problema sono stati:</description>
+    </item>
+    
+    <item>
+      <title>Microsoft compra Atom, Electron e l&#39;Open Source</title>
+      <link>https://www.fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</link>
+      <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</guid>
+      <description>Microsoft ha acquistato GitHub. Partendo da questa cosa ci sono molti discorsi che si possono fare partendo dalla domanda che tutti si fanno: &amp;ldquo;Cosa cambierà nella gestione dei progetti Open Source e/o pubblici?&amp;ldquo;
+La risposta che apparentemente molti sviluppatori hanno date è qualcosa come &amp;ldquo;Non mi fido e non voglio rischiare&amp;rdquo; e hanno fatto la migrazione su Gitlab dei loro progetti.
+GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</description>
+    </item>
+    
+    <item>
+      <title>Floppy, Pycon e generatori di siti statici</title>
+      <link>https://www.fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</link>
+      <pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</guid>
+      <description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
+Quest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
+ ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
+    </item>
+    
+    <item>
+      <title>Tanti Auguri Nintendo Switch</title>
+      <link>https://www.fundor333.com/post/tanti-auguri-nintendo/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/tanti-auguri-nintendo/</guid>
+      <description>Esattamente un anno fa, il 3 Marzo 2017, usciva la Nintendo Switch, la prima console sia fissa che portatile che la Nintendo abbia mai fatto. In quella stessa data mi è stata regalata una Nintendo Switch con Zelda Breath of the Wild, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.1
+Oggi, a un anno dopo, mi metto a fare i conti su com&amp;rsquo;è la console e su che parte del mercato si è posizionata la console ibrida.</description>
+    </item>
+    
+    <item>
+      <title>P2P offline come le Spie</title>
+      <link>https://www.fundor333.com/post/p2p-offline-da-spie/</link>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/p2p-offline-da-spie/</guid>
+      <description>Da poco ho scoperto che nel 2006 l&amp;rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;ldquo;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
+Partiamo con ordine: cos&amp;rsquo;è il P2P?
+P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto&amp;rdquo;. Significa che la comunicazione è tra il &amp;ldquo;mittente&amp;rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.</description>
+    </item>
+    
+    <item>
+      <title>E Talk Al Pycon9</title>
+      <link>https://www.fundor333.com/post/e-talk-al-pycon9/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/e-talk-al-pycon9/</guid>
+      <description>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
+Facciamo un po&amp;rsquo; di ordine: * Ho un blog gestito attraverso un generatore di siti statici * Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi * Ho una passione per il formato file .</description>
+    </item>
+    
+    <item>
+      <title>GraphQL and working with it</title>
+      <link>https://www.fundor333.com/post/graphql-and-working-with-it/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/graphql-and-working-with-it/</guid>
+      <description>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
+If I need some data I need to go to the url of the API and go to the subpath of the data I want.
+For example if I need some posts from https://jsonplaceholder.typicode.com/ I need to go to https://jsonplaceholder.typicode.com/posts and download all the posts or pass the id in the url like in https://jsonplaceholder.</description>
+    </item>
+    
+    <item>
+      <title>Titcoin e perchè non possono funzionare come credi</title>
+      <link>https://www.fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</link>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</guid>
+      <description>Nel 2014 un picolo sito porno decide di lanciare una campagna di raccolta di proposte di campagne pubblicizzarie per rilanciare il marchio con nuove proposte e le raccoglie in un Creative Director Contest in cui esce un video in cui viene pubblicizzato un nuovo sistema di pagamento attraverso una moneta &amp;ldquo;virtuale&amp;rdquo; chiamata Titcoin1 .
+Chi ha proposto questo video2 non ha controllato ma i Titcoin esiste già e questo ha provocato una serie di articoli nel 2014 che lanciano il nuovo sistema di pagamento senza andare a controllare le fonti3.</description>
+    </item>
+    
+  </channel>
+</rss>

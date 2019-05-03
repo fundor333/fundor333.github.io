@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Fundor 333</title>
+    <link>https://www.fundor333.com/tags/hugo/</link>
+    <description>Recent content in hugo on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Sat, 24 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.fundor333.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>E si torna dal pelicano</title>
+      <link>https://www.fundor333.com/post/e-si-torna-dal-pelicano/</link>
+      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/e-si-torna-dal-pelicano/</guid>
+      <description>E sono tornato a usare Pelican&amp;hellip; Perchè???
+E&amp;rsquo; più semplice da configurare ed è più vincolante. Questo mi ha permesso di riscrivere il blog in una settimana mentre un mese mi è stato necessario per alcune modifiche per il blog con Hugo. In oltre, lavorando da circa due settimane, i miei tempi si sono modificati per cui tutti i miei &amp;ldquo;tempi buchi&amp;rdquo; sono spariti e, di conseguenza, il blog ne sta risentendo&amp;hellip; Vedremo come andrà avanti, spero bene e per una ricca via&amp;hellip; Per ora aspettatevi un periodo di non articoli fino a il raggiungimento di un mio tempismo.</description>
+    </item>
+    
+    <item>
+      <title>Hugo into Docker</title>
+      <link>https://www.fundor333.com/post/hugo-into-docker/</link>
+      <pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
+      
+      <guid>https://www.fundor333.com/post/hugo-into-docker/</guid>
+      <description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>E sono passato a Hugo</title>
+      <link>https://www.fundor333.com/post/e-sono-passato-a-hugo/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/e-sono-passato-a-hugo/</guid>
+      <description>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&amp;rsquo; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
+Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
+ La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&amp;rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
+    </item>
+    
+  </channel>
+</rss>

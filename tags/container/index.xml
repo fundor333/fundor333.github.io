@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>container on Fundor 333</title>
+    <link>https://www.fundor333.com/tags/container/</link>
+    <description>Recent content in container on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Tue, 16 May 2017 12:27:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.fundor333.com/tags/container/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo into Docker</title>
+      <link>https://www.fundor333.com/post/hugo-into-docker/</link>
+      <pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
+      
+      <guid>https://www.fundor333.com/post/hugo-into-docker/</guid>
+      <description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Scrivi, push e publica</title>
+      <link>https://www.fundor333.com/post/scrivi-push-public/</link>
+      <pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/scrivi-push-public/</guid>
+      <description>Ho riscritto interamente il blog. Ora gira tutto in Python&amp;hellip; Anche se nel server è tutto in HTML5.
+Questo perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.
+Così sono passato da un blog dinamico a uno statico.
+Come mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell&amp;rsquo;azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine.</description>
+    </item>
+    
+    <item>
+      <title>Il mio container Docker Wordpress</title>
+      <link>https://www.fundor333.com/post/mio-container-docker-wordpress/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.fundor333.com/post/mio-container-docker-wordpress/</guid>
+      <description>&lt;p&gt;Questo è un progetto nato da una mia necessità: avere wordpress
+installato senza avere tutti i file in &lt;em&gt;/var/www&lt;/em&gt; o simili ma nella
+cartella corrispondenza al progetto. Questo perchè mi è capitato e mi
+sta capitando di dover sviluppare più di un &lt;del&gt;sito internet&lt;/del&gt; tema
+wordpress in contemporanea. Questo mi ha portato a sviluppare un
+container docker wordpress.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
