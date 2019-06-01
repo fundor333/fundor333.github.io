@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/github/</link>
+    <link>https://fundor333.com/tags/github/</link>
     <description>Recent content in github on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Mon, 11 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Microsoft compra Atom, Electron e l&#39;Open Source</title>
-      <link>https://www.fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</link>
+      <link>https://fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</guid>
+      <guid>https://fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</guid>
       <description>Microsoft ha acquistato GitHub. Partendo da questa cosa ci sono molti discorsi che si possono fare partendo dalla domanda che tutti si fanno: &amp;ldquo;Cosa cambierà nella gestione dei progetti Open Source e/o pubblici?&amp;ldquo;
 La risposta che apparentemente molti sviluppatori hanno date è qualcosa come &amp;ldquo;Non mi fido e non voglio rischiare&amp;rdquo; e hanno fatto la migrazione su Gitlab dei loro progetti.
 GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</description>
@@ -24,10 +24,10 @@ GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</des
     
     <item>
       <title>Scrivi, push e publica</title>
-      <link>https://www.fundor333.com/post/scrivi-push-public/</link>
+      <link>https://fundor333.com/post/scrivi-push-public/</link>
       <pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/scrivi-push-public/</guid>
+      <guid>https://fundor333.com/post/scrivi-push-public/</guid>
       <description>Ho riscritto interamente il blog. Ora gira tutto in Python&amp;hellip; Anche se nel server è tutto in HTML5.
 Questo perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.
 Così sono passato da un blog dinamico a uno statico.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>post on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/post/</link>
+    <link>https://fundor333.com/tags/post/</link>
     <description>Recent content in post on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 23 Apr 2019 10:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Django Rest Framework: Multiple post</title>
-      <link>https://www.fundor333.com/post/django-rest-framework-multiple-post/</link>
+      <link>https://fundor333.com/post/django-rest-framework-multiple-post/</link>
       <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/django-rest-framework-multiple-post/</guid>
+      <guid>https://fundor333.com/post/django-rest-framework-multiple-post/</guid>
       <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.

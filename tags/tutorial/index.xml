@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tutorial on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/tutorial/</link>
+    <link>https://fundor333.com/tags/tutorial/</link>
     <description>Recent content in tutorial on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 25 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Come sopravivvere a un Hackathon programmando</title>
-      <link>https://www.fundor333.com/post/sopravivvere-un-hackathon-programmando/</link>
+      <link>https://fundor333.com/post/sopravivvere-un-hackathon-programmando/</link>
       <pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/sopravivvere-un-hackathon-programmando/</guid>
+      <guid>https://fundor333.com/post/sopravivvere-un-hackathon-programmando/</guid>
       <description>&lt;p&gt;Esco in questi giorni da un Hackathon organizzato dalla regione Veneto
 (&lt;a href=&#34;http://www.energic-od.eu/&#34;&gt;qui&lt;/a&gt;info), portando a casa con la mia
 squadra un felice e molto sudato terzo posto. Si ok abbiamo programmato

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>latex on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/latex/</link>
+    <link>https://fundor333.com/tags/latex/</link>
     <description>Recent content in latex on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Mon, 12 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>E Talk Al Pycon9</title>
-      <link>https://www.fundor333.com/post/e-talk-al-pycon9/</link>
+      <link>https://fundor333.com/post/e-talk-al-pycon9/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/e-talk-al-pycon9/</guid>
+      <guid>https://fundor333.com/post/e-talk-al-pycon9/</guid>
       <description>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
 Facciamo un po&amp;rsquo; di ordine: * Ho un blog gestito attraverso un generatore di siti statici * Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi * Ho una passione per il formato file .</description>
     </item>

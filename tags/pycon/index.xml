@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pycon on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/pycon/</link>
+    <link>https://fundor333.com/tags/pycon/</link>
     <description>Recent content in pycon on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Thu, 03 May 2018 23:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/pycon/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/pycon/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Floppy, Pycon e generatori di siti statici</title>
-      <link>https://www.fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</link>
+      <link>https://fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</link>
       <pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</guid>
+      <guid>https://fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</guid>
       <description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
 Quest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
  ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
@@ -24,20 +24,20 @@ Quest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
     
     <item>
       <title>E Talk Al Pycon9</title>
-      <link>https://www.fundor333.com/post/e-talk-al-pycon9/</link>
+      <link>https://fundor333.com/post/e-talk-al-pycon9/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/e-talk-al-pycon9/</guid>
+      <guid>https://fundor333.com/post/e-talk-al-pycon9/</guid>
       <description>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
 Facciamo un po&amp;rsquo; di ordine: * Ho un blog gestito attraverso un generatore di siti statici * Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi * Ho una passione per il formato file .</description>
     </item>
     
     <item>
       <title>Andando al Pycon8</title>
-      <link>https://www.fundor333.com/post/andiamo-al-pycon8/</link>
+      <link>https://fundor333.com/post/andiamo-al-pycon8/</link>
       <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/andiamo-al-pycon8/</guid>
+      <guid>https://fundor333.com/post/andiamo-al-pycon8/</guid>
       <description>&lt;p&gt;Mentre sto scrivendo io sono seduto in treno, pronto a partire per il Pycon di quest&amp;rsquo;anno.
 Questa è la mia seconda esperienza al Pycon e spero che sia interessante e istruttiva come la precedente.&lt;/p&gt;
 

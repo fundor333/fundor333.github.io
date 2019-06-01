@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fundor 333</title>
-    <link>https://www.fundor333.com/</link>
+    <link>https://fundor333.com/</link>
     <description>Recent content on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 23 Apr 2019 10:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Django Rest Framework: Multiple post</title>
-      <link>https://www.fundor333.com/post/django-rest-framework-multiple-post/</link>
+      <link>https://fundor333.com/post/django-rest-framework-multiple-post/</link>
       <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/django-rest-framework-multiple-post/</guid>
+      <guid>https://fundor333.com/post/django-rest-framework-multiple-post/</guid>
       <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
@@ -25,10 +25,10 @@ Why I can&amp;rsquo;t use the default? After you did the tutorial you have a bas
     
     <item>
       <title>DevOps, ChatBot e NPM</title>
-      <link>https://www.fundor333.com/post/devops-chatbot-npm/</link>
+      <link>https://fundor333.com/post/devops-chatbot-npm/</link>
       <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/devops-chatbot-npm/</guid>
+      <guid>https://fundor333.com/post/devops-chatbot-npm/</guid>
       <description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
 Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
 Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
@@ -36,10 +36,10 @@ Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo ch
     
     <item>
       <title>DataBeers Venezia #6</title>
-      <link>https://www.fundor333.com/event/2018-11-06-databeers-venezia-6/</link>
+      <link>https://fundor333.com/event/2018-11-06-databeers-venezia-6/</link>
       <pubDate>Tue, 06 Nov 2018 17:30:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/event/2018-11-06-databeers-venezia-6/</guid>
+      <guid>https://fundor333.com/event/2018-11-06-databeers-venezia-6/</guid>
       <description>DataBeers Venezia #6 - 30.11.18 @ Negozio Piave 67, Venezia
 We are back again, data lovers from the Lagoon!
 Great speakers for you next Friday November 30 @ Negozio Piave 67, Mestre, Venezia, starting at 18:30 sharp!
@@ -53,39 +53,39 @@ La natura dà i numeri?</description>
     
     <item>
       <title>Follow UP! Dati dal Padiglione al Forte: Il cantiere Biennale</title>
-      <link>https://www.fundor333.com/event/2018-10-11-follow-up-dati-dal-padiglione-al-forte-il-cantiere-biennale/</link>
+      <link>https://fundor333.com/event/2018-10-11-follow-up-dati-dal-padiglione-al-forte-il-cantiere-biennale/</link>
       <pubDate>Thu, 11 Oct 2018 16:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/event/2018-10-11-follow-up-dati-dal-padiglione-al-forte-il-cantiere-biennale/</guid>
+      <guid>https://fundor333.com/event/2018-10-11-follow-up-dati-dal-padiglione-al-forte-il-cantiere-biennale/</guid>
       <description>La storia delle trasformazioni dei Giardini in luogo espositivo; la costruzione dei padiglioni nazionali; la &amp;ldquo;vita&amp;rdquo; delle mostre e degli allestimenti museali. Ne parleremo con:
  Francesca Castellani (Università Iuav di Venezia) Eleonora Charans (Università Iuav di Venezia) Chiara Di Stefano (Università per Stranieri di Perugia) Cristiano Guarneri (Università degli Studi di Padova) Stefano Zaggia (Università degli Studi di Padova) Guido Zucconi (Università Iuav di Venezia)  </description>
     </item>
     
     <item>
       <title>Follow UP! Dati dal Padiglione al Forte: “Abitare” a Venezia</title>
-      <link>https://www.fundor333.com/event/2018-10-04-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia/</link>
+      <link>https://fundor333.com/event/2018-10-04-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia/</link>
       <pubDate>Thu, 04 Oct 2018 16:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/event/2018-10-04-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia/</guid>
+      <guid>https://fundor333.com/event/2018-10-04-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia/</guid>
       <description>Descrizione Matteo Basso, Federica Fava, Laura Fregolent, Renato Gibin presentano:
 Venezia verrà raccontata a partire da alcune ricerche condotte all’interno del Laboratorio di Analisi urbana e del territorio e del ClusterLab: H-City Housing in the city. Abitare e rigenerare, dell’Università IUAV di Venezia. La sovrapposizione dei risultati di diverse indagini condotte sui temi casa, commercio, uso ai piani terra e territori di margine, consentirà di restituire realtà e dinamiche di una città in veloce e continua trasformazione.</description>
     </item>
     
     <item>
       <title>Follow UP! Dati dal Padiglione al Forte: Cittadini e algoritmi, comunicazione e servizi pubblici</title>
-      <link>https://www.fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</link>
+      <link>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</link>
       <pubDate>Thu, 27 Sep 2018 16:30:20 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</guid>
+      <guid>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</guid>
       <description>Marco Goldin, il data scientist da sorriso maliardo, ci mostrerà degli algoritmi di cooccorrenza per il targeting delle comunicazioni comunali ai cittadini. DOMANDA: come si possono gestire algoritmicamente i dati delle interazioni dei cittadini? Sembra una cosa supertecnica ma serve per proporre i servizi ai cittadini ottimizzando la comunicazione con l&amp;rsquo;Amministrazione nei vari canali, che sia il sito web, i social, URP. Esempio banale: grazie all&amp;rsquo;analisi di cooccorrenza, se il cittadino 1 usa il servizio A e il cittadino 2 usa il servizio A e quello B, le macchine automaticamente propongono il servizio B anche al cittadino 1.</description>
     </item>
     
     <item>
       <title>Sperimentando col filtri, paginator e sorting in Django</title>
-      <link>https://www.fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</link>
+      <link>https://fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</link>
       <pubDate>Mon, 24 Sep 2018 09:03:37 +0200</pubDate>
       
-      <guid>https://www.fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</guid>
+      <guid>https://fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</guid>
       <description>Ultimamente sto lavorando a tempo pieno a un progetto Django per la mia ditta. Lo abbiamo chiamato Celebro e per ora ha un grossissimo problema: filtri, sorting e paginator.
 Fondamentalmente il problema si riassume con la rubrica del personale: deve essere ordinabile, filtrabile e visibile 20 elementi alla volta. Le tre cose assieme risultano essere difficili soprattutto se usi le Class View di Django.
 Gli strumenti esaminati per risolvere il problema sono stati:</description>
@@ -93,20 +93,20 @@ Gli strumenti esaminati per risolvere il problema sono stati:</description>
     
     <item>
       <title>Venezia Conta, dai dati all&#39;ambiente: Biennale Architettura Follow UP! Dal Padiglione Venezia a Forte Marghera</title>
-      <link>https://www.fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</link>
+      <link>https://fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</link>
       <pubDate>Tue, 26 Jun 2018 16:30:53 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</guid>
+      <guid>https://fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</guid>
       <description>Per il terzo incontro per il Padiglione Venezia parleremo di design della comunicazione per usare i dati per informare sull’emergenze ambientali e sociali nella città: strumenti interpretativi per affrontare la complessità.
 Dal Corso di laurea in disegno industriale e multimedia del Dipartimento di progettazione e pianificazione in ambienti complessi, verranno proposte strategie e metodi per informare sull’ambiente naturale e civile nel Comune di Venezia. Gli unici strumenti saranno i numeri e dati rilevati sul territorio e &amp;ldquo;lavorati&amp;rdquo; per diventare strumenti informativi.</description>
     </item>
     
     <item>
       <title>Microsoft compra Atom, Electron e l&#39;Open Source</title>
-      <link>https://www.fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</link>
+      <link>https://fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</guid>
+      <guid>https://fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</guid>
       <description>Microsoft ha acquistato GitHub. Partendo da questa cosa ci sono molti discorsi che si possono fare partendo dalla domanda che tutti si fanno: &amp;ldquo;Cosa cambierà nella gestione dei progetti Open Source e/o pubblici?&amp;ldquo;
 La risposta che apparentemente molti sviluppatori hanno date è qualcosa come &amp;ldquo;Non mi fido e non voglio rischiare&amp;rdquo; e hanno fatto la migrazione su Gitlab dei loro progetti.
 GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</description>
@@ -114,10 +114,10 @@ GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</des
     
     <item>
       <title>Visualising Venice: Biennale Architettura Follow UP! Dal Padiglione Venezia a Forte Marghera</title>
-      <link>https://www.fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</link>
+      <link>https://fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</link>
       <pubDate>Thu, 07 Jun 2018 16:25:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</guid>
+      <guid>https://fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</guid>
       <description>Secondo incontro del Padiglione Venezia a Forte Marghera Nelle aule seminariali - appena entrati in fondo sulla destra - incontreremo il gruppo di ricerca Visualising Venice, è un&amp;rsquo;iniziativa di Digital Humanities di studenti, studiosi e architetti con progetti di ricerca per generare modelli digitali e mappe della città di Venezia, dei suoi territori e della sua laguna. Parleremo dei casi di studio presentati al Padiglione Venezia e delle attività di raccolta, analisi e riproduzione della Città dai documenti storici.</description>
     </item>
     

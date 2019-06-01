@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>filters on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/filters/</link>
+    <link>https://fundor333.com/tags/filters/</link>
     <description>Recent content in filters on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Mon, 24 Sep 2018 09:03:37 +0200</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/filters/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/filters/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sperimentando col filtri, paginator e sorting in Django</title>
-      <link>https://www.fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</link>
+      <link>https://fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</link>
       <pubDate>Mon, 24 Sep 2018 09:03:37 +0200</pubDate>
       
-      <guid>https://www.fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</guid>
+      <guid>https://fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</guid>
       <description>Ultimamente sto lavorando a tempo pieno a un progetto Django per la mia ditta. Lo abbiamo chiamato Celebro e per ora ha un grossissimo problema: filtri, sorting e paginator.
 Fondamentalmente il problema si riassume con la rubrica del personale: deve essere ordinabile, filtrabile e visibile 20 elementi alla volta. Le tre cose assieme risultano essere difficili soprattutto se usi le Class View di Django.
 Gli strumenti esaminati per risolvere il problema sono stati:</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pipenv on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/pipenv/</link>
+    <link>https://fundor333.com/tags/pipenv/</link>
     <description>Recent content in pipenv on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/pipenv/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/pipenv/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pipenv e come tutto è in uno</title>
-      <link>https://www.fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</link>
+      <link>https://fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</guid>
+      <guid>https://fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</guid>
       <description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
 Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
     </item>

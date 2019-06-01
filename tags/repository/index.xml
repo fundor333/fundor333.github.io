@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>repository on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/repository/</link>
+    <link>https://fundor333.com/tags/repository/</link>
     <description>Recent content in repository on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Mon, 04 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/repository/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/repository/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DotFile e le mie config</title>
-      <link>https://www.fundor333.com/post/dotfile-e-le-mie-config/</link>
+      <link>https://fundor333.com/post/dotfile-e-le-mie-config/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/dotfile-e-le-mie-config/</guid>
+      <guid>https://fundor333.com/post/dotfile-e-le-mie-config/</guid>
       <description>Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com&amp;rsquo;era.
 Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e stavo iniziando a scrivere un orrendo accrocchio per la generazione delle configurazioni in modo automatico partendo da un database sqlite, che, per quanto intelligente come idea, non è una cosa di facile gestione ne adatto alla situazione che si è creata.</description>
     </item>

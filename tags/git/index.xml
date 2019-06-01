@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/git/</link>
+    <link>https://fundor333.com/tags/git/</link>
     <description>Recent content in git on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Mon, 07 Nov 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gource, visualizzare Git repository</title>
-      <link>https://www.fundor333.com/post/gource-visualizzare-git-repository/</link>
+      <link>https://fundor333.com/post/gource-visualizzare-git-repository/</link>
       <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/gource-visualizzare-git-repository/</guid>
+      <guid>https://fundor333.com/post/gource-visualizzare-git-repository/</guid>
       <description>&lt;p&gt;Quando hai un progetto Git, normalmente lo usi per fare controllo delle
 versioni.&lt;br /&gt;
 Una volta che il progetto è nella fase di rilascio tu hai quindi un
@@ -27,10 +27,10 @@ progetto.&lt;/p&gt;</description>
     
     <item>
       <title>Git, l&#39;albero delle versioni che ci salva il progetto</title>
-      <link>https://www.fundor333.com/post/git-lalbero-delle-versioni/</link>
+      <link>https://fundor333.com/post/git-lalbero-delle-versioni/</link>
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/git-lalbero-delle-versioni/</guid>
+      <guid>https://fundor333.com/post/git-lalbero-delle-versioni/</guid>
       <description>Spesso e volentieri uno dei problemi dello sviluppo di software è avere backup del codice e condividerlo in modo da poterci lavorare in più persone in contemporanea senza sovrapporre le modifiche. Queste due richieste vengono soddisfatte con un software di version controlling che permetta il lavoro di multipli utenti.
 Dopo una analisi ho capito che Git è quello che fa al caso mio.
 {.responsive-img .center-align}

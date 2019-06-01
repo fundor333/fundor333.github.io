@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>firebase on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/firebase/</link>
+    <link>https://fundor333.com/tags/firebase/</link>
     <description>Recent content in firebase on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Mon, 04 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Utilizzi alternativi di Firebase</title>
-      <link>https://www.fundor333.com/post/utilizzi-alternativi-di-farebase/</link>
+      <link>https://fundor333.com/post/utilizzi-alternativi-di-farebase/</link>
       <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/utilizzi-alternativi-di-farebase/</guid>
+      <guid>https://fundor333.com/post/utilizzi-alternativi-di-farebase/</guid>
       <description>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&amp;rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&amp;rsquo;utente.
 Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
     </item>
     
     <item>
       <title>Status del blog</title>
-      <link>https://www.fundor333.com/post/status-del-blog/</link>
+      <link>https://fundor333.com/post/status-del-blog/</link>
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/status-del-blog/</guid>
+      <guid>https://fundor333.com/post/status-del-blog/</guid>
       <description>&lt;p&gt;Questo post inizia con delle scuse🙇.&lt;br /&gt;
 Questo perchè ultimamente non ho scritto niente perchè occupato tra
 lavoro (sito per una associazione), esami e compiti da rappresentante

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>graphql on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/graphql/</link>
+    <link>https://fundor333.com/tags/graphql/</link>
     <description>Recent content in graphql on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GraphQL and working with it</title>
-      <link>https://www.fundor333.com/post/graphql-and-working-with-it/</link>
+      <link>https://fundor333.com/post/graphql-and-working-with-it/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/graphql-and-working-with-it/</guid>
+      <guid>https://fundor333.com/post/graphql-and-working-with-it/</guid>
       <description>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
 If I need some data I need to go to the url of the API and go to the subpath of the data I want.
 For example if I need some posts from https://jsonplaceholder.typicode.com/ I need to go to https://jsonplaceholder.typicode.com/posts and download all the posts or pass the id in the url like in https://jsonplaceholder.</description>

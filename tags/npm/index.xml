@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>npm on Fundor 333</title>
-    <link>https://www.fundor333.com/tags/npm/</link>
+    <link>https://fundor333.com/tags/npm/</link>
     <description>Recent content in npm on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <lastBuildDate>Tue, 05 Feb 2019 10:11:07 +0000</lastBuildDate>
     
-	<atom:link href="https://www.fundor333.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://fundor333.com/tags/npm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DevOps, ChatBot e NPM</title>
-      <link>https://www.fundor333.com/post/devops-chatbot-npm/</link>
+      <link>https://fundor333.com/post/devops-chatbot-npm/</link>
       <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
       
-      <guid>https://www.fundor333.com/post/devops-chatbot-npm/</guid>
+      <guid>https://fundor333.com/post/devops-chatbot-npm/</guid>
       <description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
 Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
 Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
