@@ -6,7 +6,7 @@
     <description>Recent content in buzzword on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 12 Jun 2019 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2019 10:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/buzzword/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,11 @@
     <item>
       <title>Buzzwords buzzwords</title>
       <link>https://fundor333.com/post/buzzwords-buzzwords/</link>
-      <pubDate>Wed, 12 Jun 2019 10:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Jun 2019 10:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/buzzwords-buzzwords/</guid>
-      <description>Test buzzword   $(function () { count = 0; wordsArray = [&amp;ldquo;Big data&amp;rdquo;, &amp;ldquo;Blockchain&amp;rdquo;, &amp;ldquo;Cloud&amp;rdquo;, &amp;ldquo;Cross-platform&amp;rdquo;, &amp;ldquo;Deep learning&amp;rdquo;, &amp;ldquo;DevOps&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Microservices&amp;rdquo;, &amp;ldquo;Real-time&amp;rdquo;, &amp;ldquo;Scalability&amp;rdquo;, &amp;ldquo;Think outside the box&amp;rdquo;, &amp;ldquo;Web 2.0&amp;rdquo;, &amp;ldquo;Wev 3.0&amp;rdquo; ]; setInterval(function () { count++; $(&amp;ldquo;.buzzword&amp;rdquo;).fadeOut(400, functi $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400); }); }, 2000); });
- title: &amp;lsquo;Buzzwords buzzwords&amp;rsquo; date: 2019-06-15 10:00:00 +0000 feature_image: &amp;ldquo;/uploads/words.jpg&amp;rdquo; tags: - tecnology - buzzword - rant categories: - dev slug: buzzwords-buzzwords description: Un rant sulle buzzwords</description>
+      <description>Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
+Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
     </item>
     
   </channel>
