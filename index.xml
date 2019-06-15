@@ -6,10 +6,20 @@
     <description>Recent content on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 23 Apr 2019 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 10:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Buzzwords buzzwords</title>
+      <link>https://fundor333.com/post/buzzwords-buzzwords/</link>
+      <pubDate>Wed, 12 Jun 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/buzzwords-buzzwords/</guid>
+      <description>Test buzzword   $(function () { count = 0; wordsArray = [&amp;ldquo;Big data&amp;rdquo;, &amp;ldquo;Blockchain&amp;rdquo;, &amp;ldquo;Cloud&amp;rdquo;, &amp;ldquo;Cross-platform&amp;rdquo;, &amp;ldquo;Deep learning&amp;rdquo;, &amp;ldquo;DevOps&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Microservices&amp;rdquo;, &amp;ldquo;Real-time&amp;rdquo;, &amp;ldquo;Scalability&amp;rdquo;, &amp;ldquo;Think outside the box&amp;rdquo;, &amp;ldquo;Web 2.0&amp;rdquo;, &amp;ldquo;Wev 3.0&amp;rdquo; ]; setInterval(function () { count++; $(&amp;ldquo;.buzzword&amp;rdquo;).fadeOut(400, functi $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400); }); }, 2000); });
+ title: &amp;lsquo;Buzzwords buzzwords&amp;rsquo; date: 2019-06-15 10:00:00 +0000 feature_image: &amp;ldquo;/uploads/words.jpg&amp;rdquo; tags: - tecnology - buzzword - rant categories: - dev slug: buzzwords-buzzwords description: Un rant sulle buzzwords</description>
+    </item>
     
     <item>
       <title>Django Rest Framework: Multiple post</title>
@@ -110,15 +120,6 @@ Dal Corso di laurea in disegno industriale e multimedia del Dipartimento di prog
       <description>Microsoft ha acquistato GitHub. Partendo da questa cosa ci sono molti discorsi che si possono fare partendo dalla domanda che tutti si fanno: &amp;ldquo;Cosa cambierà nella gestione dei progetti Open Source e/o pubblici?&amp;ldquo;
 La risposta che apparentemente molti sviluppatori hanno date è qualcosa come &amp;ldquo;Non mi fido e non voglio rischiare&amp;rdquo; e hanno fatto la migrazione su Gitlab dei loro progetti.
 GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</description>
-    </item>
-    
-    <item>
-      <title>Visualising Venice: Biennale Architettura Follow UP! Dal Padiglione Venezia a Forte Marghera</title>
-      <link>https://fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</link>
-      <pubDate>Thu, 07 Jun 2018 16:25:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</guid>
-      <description>Secondo incontro del Padiglione Venezia a Forte Marghera Nelle aule seminariali - appena entrati in fondo sulla destra - incontreremo il gruppo di ricerca Visualising Venice, è un&amp;rsquo;iniziativa di Digital Humanities di studenti, studiosi e architetti con progetti di ricerca per generare modelli digitali e mappe della città di Venezia, dei suoi territori e della sua laguna. Parleremo dei casi di studio presentati al Padiglione Venezia e delle attività di raccolta, analisi e riproduzione della Città dai documenti storici.</description>
     </item>
     
   </channel>

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 23 Apr 2019 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 10:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Buzzwords buzzwords</title>
+      <link>https://fundor333.com/post/buzzwords-buzzwords/</link>
+      <pubDate>Wed, 12 Jun 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/buzzwords-buzzwords/</guid>
+      <description>Test buzzword   $(function () { count = 0; wordsArray = [&amp;ldquo;Big data&amp;rdquo;, &amp;ldquo;Blockchain&amp;rdquo;, &amp;ldquo;Cloud&amp;rdquo;, &amp;ldquo;Cross-platform&amp;rdquo;, &amp;ldquo;Deep learning&amp;rdquo;, &amp;ldquo;DevOps&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Microservices&amp;rdquo;, &amp;ldquo;Real-time&amp;rdquo;, &amp;ldquo;Scalability&amp;rdquo;, &amp;ldquo;Think outside the box&amp;rdquo;, &amp;ldquo;Web 2.0&amp;rdquo;, &amp;ldquo;Wev 3.0&amp;rdquo; ]; setInterval(function () { count++; $(&amp;ldquo;.buzzword&amp;rdquo;).fadeOut(400, functi $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400); }); }, 2000); });
+ title: &amp;lsquo;Buzzwords buzzwords&amp;rsquo; date: 2019-06-15 10:00:00 +0000 feature_image: &amp;ldquo;/uploads/words.jpg&amp;rdquo; tags: - tecnology - buzzword - rant categories: - dev slug: buzzwords-buzzwords description: Un rant sulle buzzwords</description>
+    </item>
     
     <item>
       <title>Django Rest Framework: Multiple post</title>
@@ -107,16 +117,6 @@ Facciamo un po&amp;rsquo; di ordine: * Ho un blog gestito attraverso un generato
       <description>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
 If I need some data I need to go to the url of the API and go to the subpath of the data I want.
 For example if I need some posts from https://jsonplaceholder.typicode.com/ I need to go to https://jsonplaceholder.typicode.com/posts and download all the posts or pass the id in the url like in https://jsonplaceholder.</description>
-    </item>
-    
-    <item>
-      <title>Titcoin e perchè non possono funzionare come credi</title>
-      <link>https://fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</guid>
-      <description>Nel 2014 un picolo sito porno decide di lanciare una campagna di raccolta di proposte di campagne pubblicizzarie per rilanciare il marchio con nuove proposte e le raccoglie in un Creative Director Contest in cui esce un video in cui viene pubblicizzato un nuovo sistema di pagamento attraverso una moneta &amp;ldquo;virtuale&amp;rdquo; chiamata Titcoin1 .
-Chi ha proposto questo video2 non ha controllato ma i Titcoin esiste già e questo ha provocato una serie di articoli nel 2014 che lanciano il nuovo sistema di pagamento senza andare a controllare le fonti3.</description>
     </item>
     
   </channel>

@@ -6,10 +6,20 @@
     <description>Recent content in dev on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 23 Apr 2019 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2019 10:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Buzzwords buzzwords</title>
+      <link>https://fundor333.com/post/buzzwords-buzzwords/</link>
+      <pubDate>Wed, 12 Jun 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/buzzwords-buzzwords/</guid>
+      <description>Test buzzword   $(function () { count = 0; wordsArray = [&amp;ldquo;Big data&amp;rdquo;, &amp;ldquo;Blockchain&amp;rdquo;, &amp;ldquo;Cloud&amp;rdquo;, &amp;ldquo;Cross-platform&amp;rdquo;, &amp;ldquo;Deep learning&amp;rdquo;, &amp;ldquo;DevOps&amp;rdquo;, &amp;ldquo;Machine Learning&amp;rdquo;, &amp;ldquo;Microservices&amp;rdquo;, &amp;ldquo;Real-time&amp;rdquo;, &amp;ldquo;Scalability&amp;rdquo;, &amp;ldquo;Think outside the box&amp;rdquo;, &amp;ldquo;Web 2.0&amp;rdquo;, &amp;ldquo;Wev 3.0&amp;rdquo; ]; setInterval(function () { count++; $(&amp;ldquo;.buzzword&amp;rdquo;).fadeOut(400, functi $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400); }); }, 2000); });
+ title: &amp;lsquo;Buzzwords buzzwords&amp;rsquo; date: 2019-06-15 10:00:00 +0000 feature_image: &amp;ldquo;/uploads/words.jpg&amp;rdquo; tags: - tecnology - buzzword - rant categories: - dev slug: buzzwords-buzzwords description: Un rant sulle buzzwords</description>
+    </item>
     
     <item>
       <title>Django Rest Framework: Multiple post</title>
@@ -105,16 +115,6 @@ Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi o
       <guid>https://fundor333.com/post/il-primo-periodo-con-emacs/</guid>
       <description>Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino usarlo come editor unico. La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.
 Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento &amp;ldquo;bloccato e non danneggiabile&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Jupyter Notebook Pelican Combo</title>
-      <link>https://fundor333.com/post/jupyter-notebook-pelican-combo/</link>
-      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/jupyter-notebook-pelican-combo/</guid>
-      <description>&lt;p&gt;Si sta avvicinando il &lt;strong&gt;Pycon 8&lt;/strong&gt; e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest&amp;rsquo; anno.
-Visto quello che è successo l&amp;rsquo;anno scorso ho deciso di preinstallate Jupyter e essere pronto a fare degli appunti direttamente in notebook. Per questo ho cercato un sistema per convertirli in markdown, così da usarli anche nel blog, o farli leggere direttamente da Pelican e ho fatto una stupenda scoperta: esiste già questo plugin.&lt;/p&gt;</description>
     </item>
     
   </channel>
