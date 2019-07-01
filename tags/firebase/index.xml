@@ -21,19 +21,5 @@
 Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
     </item>
     
-    <item>
-      <title>Status del blog</title>
-      <link>https://fundor333.com/post/status-del-blog/</link>
-      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/status-del-blog/</guid>
-      <description>&lt;p&gt;Questo post inizia con delle scuse🙇.&lt;br /&gt;
-Questo perchè ultimamente non ho scritto niente perchè occupato tra
-lavoro (sito per una associazione), esami e compiti da rappresentante
-sono abbastanza pieno di cose da fare. A questo si aggiunge che sto
-aspettando i commenti sulla tesi del mio relattore e sto pianificando di
-andare a delle conferenze qui e li.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

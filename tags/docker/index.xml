@@ -21,20 +21,6 @@
     </item>
     
     <item>
-      <title>Il mio container Docker Wordpress</title>
-      <link>https://fundor333.com/post/mio-container-docker-wordpress/</link>
-      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/mio-container-docker-wordpress/</guid>
-      <description>&lt;p&gt;Questo è un progetto nato da una mia necessità: avere wordpress
-installato senza avere tutti i file in &lt;em&gt;/var/www&lt;/em&gt; o simili ma nella
-cartella corrispondenza al progetto. Questo perchè mi è capitato e mi
-sta capitando di dover sviluppare più di un &lt;del&gt;sito internet&lt;/del&gt; tema
-wordpress in contemporanea. Questo mi ha portato a sviluppare un
-container docker wordpress.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Docker, la balena con i container per software</title>
       <link>https://fundor333.com/post/docker-la-balena-con-i-container/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>

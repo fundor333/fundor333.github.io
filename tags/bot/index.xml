@@ -41,16 +41,5 @@ Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo ch
 &lt;p&gt;Visto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un &amp;ldquo;alias&amp;rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>Meteo del Sangue e Alta Marea</title>
-      <link>https://fundor333.com/post/meteo-del-sangue-alta-marea/</link>
-      <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/meteo-del-sangue-alta-marea/</guid>
-      <description>Ovvero come ho iniziato a scrivere bot per telegram.
-Nasce tutto al Pycon It 2016 ove conosco un programmatore Python. Così chiaccerando entriamo in contatto e iniziamo a interessarci l&amp;rsquo;uno all&amp;rsquo;altro e così scopro il &amp;ldquo;Meteo del sangue&amp;rdquo;
-Questo è un servizio che ha rializzato che crea un sistema di segnalazione automatica dei gruppi sangugni in carenza nella regione Toscana e posta sui social (Twitter, Facebook e Telegram) i gruppi sanguigni che necessitano donazioni e quelli che sono a posto attraverso una grafica.</description>
-    </item>
-    
   </channel>
 </rss>

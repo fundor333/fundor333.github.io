@@ -470,12 +470,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/lavoro/</loc>
-    <lastmod>2017-08-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/ruby/</loc>
     <lastmod>2017-08-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -624,6 +618,12 @@
   </url>
   
   <url>
+    <loc>https://fundor333.com/tags/tool/</loc>
+    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://fundor333.com/post/bot-telegram-e-programmazione-funzionale/</loc>
     <lastmod>2017-02-11T00:00:00+00:00</lastmod>
   </url>
@@ -663,45 +663,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/meteo-del-sangue-alta-marea/</loc>
-    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/facebook/</loc>
-    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/open-data/</loc>
-    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/twitter/</loc>
-    <lastmod>2016-12-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/post/status-del-blog/</loc>
-    <lastmod>2016-12-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/gdg/</loc>
-    <lastmod>2016-12-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/post/mio-container-docker-wordpress/</loc>
-    <lastmod>2016-11-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/orrori-delle-parentesi/</loc>
     <lastmod>2016-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -713,12 +674,6 @@
   
   <url>
     <loc>https://fundor333.com/tags/gource/</loc>
-    <lastmod>2016-11-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/tool/</loc>
     <lastmod>2016-11-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
