@@ -44,16 +44,6 @@ Facciamo un po&amp;rsquo; di ordine: * Ho un blog gestito attraverso un generato
     </item>
     
     <item>
-      <title>Titcoin e perchè non possono funzionare come credi</title>
-      <link>https://fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</link>
-      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</guid>
-      <description>Nel 2014 un picolo sito porno decide di lanciare una campagna di raccolta di proposte di campagne pubblicizzarie per rilanciare il marchio con nuove proposte e le raccoglie in un Creative Director Contest in cui esce un video in cui viene pubblicizzato un nuovo sistema di pagamento attraverso una moneta &amp;ldquo;virtuale&amp;rdquo; chiamata Titcoin1 .
-Chi ha proposto questo video2 non ha controllato ma i Titcoin esiste già e questo ha provocato una serie di articoli nel 2014 che lanciano il nuovo sistema di pagamento senza andare a controllare le fonti3.</description>
-    </item>
-    
-    <item>
       <title>DotFile e le mie config</title>
       <link>https://fundor333.com/post/dotfile-e-le-mie-config/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
@@ -105,13 +95,25 @@ Queste quindi sono una specie di scuse per aver abbandonato gli articoli del blo
     </item>
     
     <item>
-      <title>E si torna dal pelicano</title>
-      <link>https://fundor333.com/post/e-si-torna-dal-pelicano/</link>
-      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Google IO 2017</title>
+      <link>https://fundor333.com/post/google-io-2017/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/e-si-torna-dal-pelicano/</guid>
-      <description>E sono tornato a usare Pelican&amp;hellip; Perchè???
-E&amp;rsquo; più semplice da configurare ed è più vincolante. Questo mi ha permesso di riscrivere il blog in una settimana mentre un mese mi è stato necessario per alcune modifiche per il blog con Hugo. In oltre, lavorando da circa due settimane, i miei tempi si sono modificati per cui tutti i miei &amp;ldquo;tempi buchi&amp;rdquo; sono spariti e, di conseguenza, il blog ne sta risentendo&amp;hellip; Vedremo come andrà avanti, spero bene e per una ricca via&amp;hellip; Per ora aspettatevi un periodo di non articoli fino a il raggiungimento di un mio tempismo.</description>
+      <guid>https://fundor333.com/post/google-io-2017/</guid>
+      <description>Sono nell&amp;rsquo;evento del GDG di Venezia a vedermi il Google IO 2017 in compagnia di altri informatici e interessati. Questo è il resoconto dell&amp;rsquo;evento.
+Pre evento Stiamo soffiando bolle in attesa dell&amp;rsquo;inizio dell&amp;rsquo;evento. Il GDG fa una piccola presentazione di cos&amp;rsquo;è il GDG e cos&amp;rsquo;è il Google IO 2017. Tutti siamo in fremente attesa dell&amp;rsquo;evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell&amp;rsquo;Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d&amp;rsquo;Italia.</description>
+    </item>
+    
+    <item>
+      <title>Andando al Pycon8</title>
+      <link>https://fundor333.com/post/andiamo-al-pycon8/</link>
+      <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/andiamo-al-pycon8/</guid>
+      <description>&lt;p&gt;Mentre sto scrivendo io sono seduto in treno, pronto a partire per il Pycon di quest&amp;rsquo;anno.
+Questa è la mia seconda esperienza al Pycon e spero che sia interessante e istruttiva come la precedente.&lt;/p&gt;
+
+&lt;p&gt;In oltre, la mia presenza al Pycon implica anche una serie di effetti collaterali tra cui la preparazione di articoli per questo blog direttamente in loco su gli argomenti che ho trovato interessanti riguardo ai talk che ho seguito.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -6,20 +6,10 @@
     <description>Recent content in hugo on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sat, 24 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 May 2017 12:27:11 +0200</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>E si torna dal pelicano</title>
-      <link>https://fundor333.com/post/e-si-torna-dal-pelicano/</link>
-      <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/e-si-torna-dal-pelicano/</guid>
-      <description>E sono tornato a usare Pelican&amp;hellip; Perchè???
-E&amp;rsquo; più semplice da configurare ed è più vincolante. Questo mi ha permesso di riscrivere il blog in una settimana mentre un mese mi è stato necessario per alcune modifiche per il blog con Hugo. In oltre, lavorando da circa due settimane, i miei tempi si sono modificati per cui tutti i miei &amp;ldquo;tempi buchi&amp;rdquo; sono spariti e, di conseguenza, il blog ne sta risentendo&amp;hellip; Vedremo come andrà avanti, spero bene e per una ricca via&amp;hellip; Per ora aspettatevi un periodo di non articoli fino a il raggiungimento di un mio tempismo.</description>
-    </item>
     
     <item>
       <title>Hugo into Docker</title>

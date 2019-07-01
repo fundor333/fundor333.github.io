@@ -379,11 +379,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/titcoin-perch%C3%A8-non-possono-funzionare-come-credi/</loc>
-    <lastmod>2018-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/dotfile-e-le-mie-config/</loc>
     <lastmod>2017-12-04T00:00:00+00:00</lastmod>
   </url>
@@ -498,23 +493,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/e-si-torna-dal-pelicano/</loc>
-    <lastmod>2017-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/aggiornamento/</loc>
-    <lastmod>2017-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/hugo/</loc>
-    <lastmod>2017-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/google-io-2017/</loc>
     <lastmod>2017-05-18T00:00:00+00:00</lastmod>
   </url>
@@ -544,6 +522,12 @@
   
   <url>
     <loc>https://fundor333.com/tags/docker/</loc>
+    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/hugo/</loc>
     <lastmod>2017-05-16T12:27:11+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -745,11 +729,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/e-oggi-hackathon/</loc>
-    <lastmod>2016-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/git-lalbero-delle-versioni/</loc>
     <lastmod>2016-10-10T00:00:00+00:00</lastmod>
   </url>
@@ -760,8 +739,9 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/linizio-di-una-avventura/</loc>
-    <lastmod>2016-09-26T00:00:00+00:00</lastmod>
+    <loc>https://fundor333.com/tags/virtual-machine/</loc>
+    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
