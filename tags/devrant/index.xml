@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devrant on Fundor 333</title>
+    <link>https://fundor333.com/tags/devrant/</link>
+    <description>Recent content in devrant on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fundor333.com/tags/devrant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beards, mugs and men</title>
+      <link>https://fundor333.com/post/beards-mugs-men/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/beards-mugs-men/</guid>
+      <description>I use DevRant, a social for rant by developer. One day I find this rant.
+ Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.
+&amp;ldquo;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
+&amp;ldquo;Uh&amp;hellip; look at my beard&amp;rdquo;
+&amp;ldquo;What&amp;rdquo;
+&amp;ldquo;Just look at this beard!&amp;rdquo;
+&amp;ldquo;Uh&amp;hellip;. OK&amp;rdquo;
+&amp;ldquo;Does this look like a perfectly groomed beard&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>
