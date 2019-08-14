@@ -10,43 +10,41 @@
   <url>
     <loc>https://fundor333.com/categories/</loc>
     <lastmod>2019-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/</loc>
-    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/post/</loc>
-    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/</loc>
-    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/categories/dev/</loc>
     <lastmod>2019-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/devrant/</loc>
     <lastmod>2019-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/rant/</loc>
     <lastmod>2019-07-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/buzzword/</loc>
+    <lastmod>2019-06-15T10:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -55,15 +53,18 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/buzzword/</loc>
+    <loc>https://fundor333.com/tags/tecnology/</loc>
     <lastmod>2019-06-15T10:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/tecnology/</loc>
-    <lastmod>2019-06-15T10:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://fundor333.com/tags/api/</loc>
+    <lastmod>2019-04-23T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/django/</loc>
+    <lastmod>2019-04-23T10:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -72,27 +73,33 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/api/</loc>
-    <lastmod>2019-04-23T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/django/</loc>
-    <lastmod>2019-04-23T10:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/post/</loc>
     <lastmod>2019-04-23T10:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/rest/</loc>
     <lastmod>2019-04-23T10:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/bot/</loc>
+    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/chat/</loc>
+    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/chatbot/</loc>
+    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/devops/</loc>
+    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
   </url>
   
   <url>
@@ -101,33 +108,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/bot/</loc>
-    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/chat/</loc>
-    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/chatbot/</loc>
-    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/devops/</loc>
-    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/npm/</loc>
     <lastmod>2019-02-05T10:11:07+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -156,32 +138,28 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</loc>
-    <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/filters/</loc>
     <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/module/</loc>
     <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/paginator/</loc>
     <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/sorting/</loc>
     <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</loc>
+    <lastmod>2018-09-24T09:03:37+02:00</lastmod>
   </url>
   
   <url>
@@ -190,32 +168,28 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</loc>
-    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/atom/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/electron/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/github/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/microsoft/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</loc>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -229,44 +203,38 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</loc>
-    <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/convention/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/floppy-disk/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</loc>
+    <lastmod>2018-05-03T23:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/pycon/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/qrcode/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/categories/rant/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/talk/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -280,38 +248,48 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/tanti-auguri-nintendo/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/console/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/nintendo/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/nintendo-switch/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/switch/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/tanti-auguri-nintendo/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/videogames/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/dead-drop/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/librarybox/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/p2p/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -320,33 +298,13 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/dead-drop/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/librarybox/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/p2p/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/piratebox/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/sharing/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -357,25 +315,26 @@
   <url>
     <loc>https://fundor333.com/tags/latex/</loc>
     <lastmod>2018-02-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/pelican/</loc>
     <lastmod>2018-02-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/python/</loc>
     <lastmod>2018-02-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/status/</loc>
     <lastmod>2018-02-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/graphql/</loc>
+    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -384,9 +343,18 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/graphql/</loc>
-    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://fundor333.com/tags/config/</loc>
+    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/dotbot/</loc>
+    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/dotfile/</loc>
+    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -395,27 +363,18 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/config/</loc>
-    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/dotbot/</loc>
-    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/dotfile/</loc>
-    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/repository/</loc>
     <lastmod>2017-12-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/databeers/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/datascienze/</loc>
+    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -424,15 +383,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/databeers/</loc>
-    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/datascienze/</loc>
-    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://fundor333.com/tags/framework/</loc>
+    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -441,21 +393,23 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/framework/</loc>
-    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/paperplane/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/telegram/</loc>
     <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/firebase/</loc>
+    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/logging/</loc>
+    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -464,15 +418,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/firebase/</loc>
-    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/logging/</loc>
-    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://fundor333.com/tags/pipenv/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -481,9 +428,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/pipenv/</loc>
-    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://fundor333.com/tags/google/</loc>
+    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -492,15 +438,23 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/google/</loc>
+    <loc>https://fundor333.com/tags/io17/</loc>
     <lastmod>2017-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/io17/</loc>
-    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://fundor333.com/tags/container/</loc>
+    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/docker/</loc>
+    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/hugo/</loc>
+    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
   </url>
   
   <url>
@@ -509,27 +463,23 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/container/</loc>
-    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/docker/</loc>
-    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/hugo/</loc>
-    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/image/</loc>
     <lastmod>2017-05-16T12:27:11+02:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/editor/</loc>
+    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/emacs/</loc>
+    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/ide/</loc>
+    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -538,27 +488,13 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/editor/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/emacs/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/ide/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/tool/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/blog/</loc>
+    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -567,25 +503,22 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/blog/</loc>
-    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/golang/</loc>
     <lastmod>2017-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/https/</loc>
     <lastmod>2017-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/post/emacs-e-mai-piu-mouse/</loc>
+    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/jupyter/</loc>
     <lastmod>2017-02-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -595,27 +528,18 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/jupyter/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/notebook/</loc>
     <lastmod>2017-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/programmazione/</loc>
     <lastmod>2017-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/texteditor/</loc>
     <lastmod>2017-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -626,13 +550,16 @@
   <url>
     <loc>https://fundor333.com/tags/decorator/</loc>
     <lastmod>2017-02-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/functional-programming/</loc>
     <lastmod>2017-02-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/grumpy/</loc>
+    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -641,9 +568,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/grumpy/</loc>
-    <lastmod>2017-01-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://fundor333.com/tags/git/</loc>
+    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -652,21 +578,13 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/git/</loc>
-    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/travis/</loc>
     <lastmod>2017-01-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/wordpress/</loc>
     <lastmod>2017-01-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -675,14 +593,13 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/gource-visualizzare-git-repository/</loc>
+    <loc>https://fundor333.com/tags/gource/</loc>
     <lastmod>2016-11-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/gource/</loc>
+    <loc>https://fundor333.com/post/gource-visualizzare-git-repository/</loc>
     <lastmod>2016-11-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -693,13 +610,11 @@
   <url>
     <loc>https://fundor333.com/tags/hackathon/</loc>
     <lastmod>2016-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/tags/tutorial/</loc>
     <lastmod>2016-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -715,7 +630,6 @@
   <url>
     <loc>https://fundor333.com/tags/virtual-machine/</loc>
     <lastmod>2016-10-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -751,19 +665,19 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/event/2018-04-19-pycon9/</loc>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2016-05-14-scala-italy/</loc>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/hoarding/</loc>
   </url>
   
   <url>
     <loc>https://fundor333.com/packages/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/event/2018-04-19-pycon9/</loc>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/event/2016-05-14-scala-italy/</loc>
   </url>
   
   <url>
