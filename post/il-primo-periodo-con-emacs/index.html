@@ -197,7 +197,9 @@ La parte più difficile è stata la parte iniziale dove sono dovuto entrare nell
 <p>Partiamo con ordine: si inizia con l&rsquo;installazione e comprensione dei config.
 Dopo l&rsquo;installazione ottenuta attravero il classico</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt-get install emacs</code></pre></div>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-bash" data-lang="bash"><span></span>	sudo apt-get install emacs
+</code></pre></div>
+
 
 <p>Fatto questo io mi aspettavo che, dopo il primo avvio generasse i file di configurazione. Per come è stato programmato Emacs l&rsquo;avvio genera solamente il file <em>.emacs</em> se non presente mentre tutto il resto della &ldquo;struttura&rdquo; viene generata man mano che si modificano le impostazioni dei singoli elementi.</p>
 
@@ -221,84 +223,94 @@ Dopo l&rsquo;installazione ottenuta attravero il classico</p>
 <p>Ho impostato Emacs utilizzando una impostazione a progetto, in modo da poterlo condividere facilmente su GitHub o altri servizi di hosting per repository git.
 Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che sia caricato senza problemi</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;custom-theme-load-path</span> <span style="color:#e6db74">&#34;~/.emacs.d/themes&#34;</span>)
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-lisp" data-lang="lisp"><span></span>    <span style="color: #f8f8f2">(add-to-list</span> <span style="color: #e6db74">&#39;custom-theme-load-path</span> <span style="color: #e6db74">&quot;~/.emacs.d/themes&quot;</span><span style="color: #f8f8f2">)</span>
 
-    (<span style="color:#a6e22e">load</span> <span style="color:#e6db74">&#34;~/.emacs.d/init-packages&#34;</span>)
+    <span style="color: #f8f8f2">(load</span> <span style="color: #e6db74">&quot;~/.emacs.d/init-packages&quot;</span><span style="color: #f8f8f2">)</span>
 
-    (custom-set-variables
-     <span style="color:#75715e">;; custom-set-variables was added by Custom.</span>
-     <span style="color:#75715e">;; If you edit it by hand, you could mess it up, so be careful.</span>
-     <span style="color:#75715e">;; Your init file should contain only one such instance.</span>
-     <span style="color:#75715e">;; If there is more than one, they won&#39;t work right.</span>
-     <span style="color:#f92672">&#39;</span>(custom-enabled-themes (<span style="color:#66d9ef">quote</span> (dracula)))
-     <span style="color:#f92672">&#39;</span>(custom-safe-themes
-       (<span style="color:#66d9ef">quote</span>
-        (<span style="color:#e6db74">&#34;b97a01622103266c1a26a032567e02d920b2c697ff69d40b7d9956821ab666cc&#34;</span> default))))
-    (custom-set-faces
-     <span style="color:#75715e">;; custom-set-faces was added by Custom.</span>
-     <span style="color:#75715e">;; If you edit it by hand, you could mess it up, so be careful.</span>
-     <span style="color:#75715e">;; Your init file should contain only one such instance.</span>
-     <span style="color:#75715e">;; If there is more than one, they won&#39;t work right.</span>
-     )</code></pre></div>
+    <span style="color: #f8f8f2">(custom-set-variables</span>
+     <span style="color: #75715e">;; custom-set-variables was added by Custom.</span>
+     <span style="color: #75715e">;; If you edit it by hand, you could mess it up, so be careful.</span>
+     <span style="color: #75715e">;; Your init file should contain only one such instance.</span>
+     <span style="color: #75715e">;; If there is more than one, they won&#39;t work right.</span>
+     <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(custom-enabled-themes</span> <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">quote</span> <span style="color: #f8f8f2">(dracula)))</span>
+     <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(custom-safe-themes</span>
+       <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">quote</span>
+        <span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;b97a01622103266c1a26a032567e02d920b2c697ff69d40b7d9956821ab666cc&quot;</span> <span style="color: #f8f8f2">default))))</span>
+    <span style="color: #f8f8f2">(custom-set-faces</span>
+     <span style="color: #75715e">;; custom-set-faces was added by Custom.</span>
+     <span style="color: #75715e">;; If you edit it by hand, you could mess it up, so be careful.</span>
+     <span style="color: #75715e">;; Your init file should contain only one such instance.</span>
+     <span style="color: #75715e">;; If there is more than one, they won&#39;t work right.</span>
+     <span style="color: #f8f8f2">)</span>
+</code></pre></div>
+
 
 <p>Con questa configurazione si divide le variabili di ambiente settate da Emacs (che devo ancora capira a cosa servano), il tema scelto (<a href="https://draculatheme.com/emacs">Dracula</a> in questo caso) e i settaggi per i pacchetti che vengono definiti nel file <em>init-packages.el</em>.</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (<span style="color:#a6e22e">require</span> <span style="color:#e6db74">&#39;package</span>)
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-lisp" data-lang="lisp"><span></span>    <span style="color: #f8f8f2">(require</span> <span style="color: #e6db74">&#39;package</span><span style="color: #f8f8f2">)</span>
 
-    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
-                 <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;elpy&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;http://jorgenschaefer.github.io/packages/&#34;</span>))
+    <span style="color: #f8f8f2">(add-to-list</span> <span style="color: #e6db74">&#39;package-archives</span>
+                 <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;elpy&quot;</span> <span style="color: #f92672">.</span> <span style="color: #e6db74">&quot;http://jorgenschaefer.github.io/packages/&quot;</span><span style="color: #f8f8f2">))</span>
 
-    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
-                 <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;marmalade&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;http://marmalade-repo.org/packages/&#34;</span>))
+    <span style="color: #f8f8f2">(add-to-list</span> <span style="color: #e6db74">&#39;package-archives</span>
+                 <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;marmalade&quot;</span> <span style="color: #f92672">.</span> <span style="color: #e6db74">&quot;http://marmalade-repo.org/packages/&quot;</span><span style="color: #f8f8f2">))</span>
 
-    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
-                 <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;melpa-stable&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;http://melpa-stable.milkbox.net/packages/&#34;</span>) <span style="color:#66d9ef">t</span>)
+    <span style="color: #f8f8f2">(add-to-list</span> <span style="color: #e6db74">&#39;package-archives</span>
+                 <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;melpa-stable&quot;</span> <span style="color: #f92672">.</span> <span style="color: #e6db74">&quot;http://melpa-stable.milkbox.net/packages/&quot;</span><span style="color: #f8f8f2">)</span> <span style="color: #66d9ef">t</span><span style="color: #f8f8f2">)</span>
 
-    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
-    	     <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;melpa&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://melpa.org/package/&#34;</span>)<span style="color:#66d9ef">t</span>)
-
-
-    (add-to-list <span style="color:#e6db74">&#39;load-path</span> <span style="color:#e6db74">&#34;~/.emacs.d/site-lisp/&#34;</span>)
+    <span style="color: #f8f8f2">(add-to-list</span> <span style="color: #e6db74">&#39;package-archives</span>
+    	     <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;melpa&quot;</span> <span style="color: #f92672">.</span> <span style="color: #e6db74">&quot;https://melpa.org/package/&quot;</span><span style="color: #f8f8f2">)</span><span style="color: #66d9ef">t</span><span style="color: #f8f8f2">)</span>
 
 
-    <span style="color:#75715e">; list the packages you want</span>
-    (<span style="color:#66d9ef">setq</span> package-list
-        <span style="color:#f92672">&#39;</span>(magit easy-hugo python dracula-theme))
+    <span style="color: #f8f8f2">(add-to-list</span> <span style="color: #e6db74">&#39;load-path</span> <span style="color: #e6db74">&quot;~/.emacs.d/site-lisp/&quot;</span><span style="color: #f8f8f2">)</span>
 
 
-    <span style="color:#75715e">; activate all the packages</span>
-    (package-initialize)
+    <span style="color: #75715e">; list the packages you want</span>
+    <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">setq</span> <span style="color: #f8f8f2">package-list</span>
+        <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(magit</span> <span style="color: #f8f8f2">easy-hugo</span> <span style="color: #f8f8f2">python</span> <span style="color: #f8f8f2">dracula-theme))</span>
 
-    <span style="color:#75715e">; fetch the list of packages available</span>
-    (unless package-archive-contents
-      (package-refresh-contents))
 
-    <span style="color:#75715e">; install the missing packages</span>
-    (dolist (<span style="color:#a6e22e">package</span> package-list)
-      (unless (package-installed-p <span style="color:#a6e22e">package</span>)
-        (package-install <span style="color:#a6e22e">package</span>)))
+    <span style="color: #75715e">; activate all the packages</span>
+    <span style="color: #f8f8f2">(package-initialize)</span>
 
-    (when (<span style="color:#a6e22e">&lt;</span> emacs-major-version <span style="color:#ae81ff">24</span>)
-      <span style="color:#75715e">;; For important compatibility libraries like cl-lib</span>
-      (add-to-list <span style="color:#e6db74">&#39;package-archives</span> <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;gnu&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://elpa.gnu.org/packages/&#34;</span>)))
-    (package-initialize)</code></pre></div>
+    <span style="color: #75715e">; fetch the list of packages available</span>
+    <span style="color: #f8f8f2">(unless</span> <span style="color: #f8f8f2">package-archive-contents</span>
+      <span style="color: #f8f8f2">(package-refresh-contents))</span>
+
+    <span style="color: #75715e">; install the missing packages</span>
+    <span style="color: #f8f8f2">(dolist</span> <span style="color: #f8f8f2">(</span><span style="color: #a6e22e">package</span> <span style="color: #f8f8f2">package-list)</span>
+      <span style="color: #f8f8f2">(unless</span> <span style="color: #f8f8f2">(package-installed-p</span> <span style="color: #a6e22e">package</span><span style="color: #f8f8f2">)</span>
+        <span style="color: #f8f8f2">(package-install</span> <span style="color: #a6e22e">package</span><span style="color: #f8f8f2">)))</span>
+
+    <span style="color: #f8f8f2">(when</span> <span style="color: #f8f8f2">(&lt;</span> <span style="color: #f8f8f2">emacs-major-version</span> <span style="color: #ae81ff">24</span><span style="color: #f8f8f2">)</span>
+      <span style="color: #75715e">;; For important compatibility libraries like cl-lib</span>
+      <span style="color: #f8f8f2">(add-to-list</span> <span style="color: #e6db74">&#39;package-archives</span> <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;gnu&quot;</span> <span style="color: #f92672">.</span> <span style="color: #e6db74">&quot;https://elpa.gnu.org/packages/&quot;</span><span style="color: #f8f8f2">)))</span>
+    <span style="color: #f8f8f2">(package-initialize)</span>
+</code></pre></div>
+
 
 <p>Questo script in Lisp permette di elencare nella prima parte tutta una serie di repository extra da aggiungere all&rsquo;elenco dei plugin disponibili e li aggiunge all&rsquo;elenco di Emacs.</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
-    	     <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;melpa&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://melpa.org/package/&#34;</span>)<span style="color:#66d9ef">t</span>)</code></pre></div>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-lisp" data-lang="lisp"><span></span>    <span style="color: #f8f8f2">(add-to-list</span> <span style="color: #e6db74">&#39;package-archives</span>
+    	     <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(</span><span style="color: #e6db74">&quot;melpa&quot;</span> <span style="color: #f92672">.</span> <span style="color: #e6db74">&quot;https://melpa.org/package/&quot;</span><span style="color: #f8f8f2">)</span><span style="color: #66d9ef">t</span><span style="color: #f8f8f2">)</span>
+</code></pre></div>
+
 
 <p>Ad esempio questo codice aggiunge il repository <a href="https://melpa.org/">Melpa</a> all&rsquo;archivio in modo da rendere disponibili i suoi pacchetti a Emacs.</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">   (<span style="color:#66d9ef">setq</span> package-list
-   	 <span style="color:#f92672">&#39;</span>(magit easy-hugo python dracula-theme))</code></pre></div>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-lisp" data-lang="lisp"><span></span>   <span style="color: #f8f8f2">(</span><span style="color: #66d9ef">setq</span> <span style="color: #f8f8f2">package-list</span>
+   	 <span style="color: #f92672">&#39;</span><span style="color: #f8f8f2">(magit</span> <span style="color: #f8f8f2">easy-hugo</span> <span style="color: #f8f8f2">python</span> <span style="color: #f8f8f2">dracula-theme))</span>
+</code></pre></div>
+
 
 <p>Questo comando invece permette di elencare i pacchetti di nostro interesse. Ogni pacchetto elencato verrà installato o aggirnato e successivamente attivato all&rsquo;avvio del server Emacs</p>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    <span style="color:#75715e">; install the missing packages</span>
-    (dolist (<span style="color:#a6e22e">package</span> package-list)
-      (unless (package-installed-p <span style="color:#a6e22e">package</span>)
-        (package-install <span style="color:#a6e22e">package</span>)))</code></pre></div>
+<div class="highlight" style="background: #272822"><pre style="line-height: 125%"><code class="language-lisp" data-lang="lisp"><span></span>    <span style="color: #75715e">; install the missing packages</span>
+    <span style="color: #f8f8f2">(dolist</span> <span style="color: #f8f8f2">(</span><span style="color: #a6e22e">package</span> <span style="color: #f8f8f2">package-list)</span>
+      <span style="color: #f8f8f2">(unless</span> <span style="color: #f8f8f2">(package-installed-p</span> <span style="color: #a6e22e">package</span><span style="color: #f8f8f2">)</span>
+        <span style="color: #f8f8f2">(package-install</span> <span style="color: #a6e22e">package</span><span style="color: #f8f8f2">)))</span>
+</code></pre></div>
+
 
 <p>Questo è infatti il codice per l&rsquo;installazione dei pacchetti mancanti.</p>
 
