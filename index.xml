@@ -6,10 +6,21 @@
     <description>Recent content on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2019 09:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DevFest Veneto 2019</title>
+      <link>https://fundor333.com/event/2019-11-16-devfest-veneto/</link>
+      <pubDate>Fri, 15 Nov 2019 09:30:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/event/2019-11-16-devfest-veneto/</guid>
+      <description>Brace Yourself, DevFest Veneto 19 Is Coming!
+Yes, we are proud to announce that also this year the DevFest Veneto will take place on 16th November! But we have lots of news!
+DevFests are community-led developer events hosted by Google Developer Groups around the globe. These are events with talks, workshops and networking moments dedicated to professional developers and designers, entrepreneurs, students or simple enthusiasts. It is an opportunity to share skills and passions within the universe of Google technologies (and not only).</description>
+    </item>
     
     <item>
       <title>Beards, mugs and men</title>
@@ -115,16 +126,6 @@ Venezia verrà raccontata a partire da alcune ricerche condotte all’interno de
       <description>Ultimamente sto lavorando a tempo pieno a un progetto Django per la mia ditta. Lo abbiamo chiamato Celebro e per ora ha un grossissimo problema: filtri, sorting e paginator.
 Fondamentalmente il problema si riassume con la rubrica del personale: deve essere ordinabile, filtrabile e visibile 20 elementi alla volta. Le tre cose assieme risultano essere difficili soprattutto se usi le Class View di Django.
 Gli strumenti esaminati per risolvere il problema sono stati:</description>
-    </item>
-    
-    <item>
-      <title>Venezia Conta, dai dati all&#39;ambiente: Biennale Architettura Follow UP! Dal Padiglione Venezia a Forte Marghera</title>
-      <link>https://fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</link>
-      <pubDate>Tue, 26 Jun 2018 16:30:53 +0000</pubDate>
-      
-      <guid>https://fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</guid>
-      <description>Per il terzo incontro per il Padiglione Venezia parleremo di design della comunicazione per usare i dati per informare sull’emergenze ambientali e sociali nella città: strumenti interpretativi per affrontare la complessità.
-Dal Corso di laurea in disegno industriale e multimedia del Dipartimento di progettazione e pianificazione in ambienti complessi, verranno proposte strategie e metodi per informare sull’ambiente naturale e civile nel Comune di Venezia. Gli unici strumenti saranno i numeri e dati rilevati sul territorio e &amp;ldquo;lavorati&amp;rdquo; per diventare strumenti informativi.</description>
     </item>
     
   </channel>

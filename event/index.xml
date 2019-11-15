@@ -6,10 +6,21 @@
     <description>Recent content in Convention ed eventi on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 06 Nov 2018 17:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2019 09:30:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/event/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DevFest Veneto 2019</title>
+      <link>https://fundor333.com/event/2019-11-16-devfest-veneto/</link>
+      <pubDate>Fri, 15 Nov 2019 09:30:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/event/2019-11-16-devfest-veneto/</guid>
+      <description>Brace Yourself, DevFest Veneto 19 Is Coming!
+Yes, we are proud to announce that also this year the DevFest Veneto will take place on 16th November! But we have lots of news!
+DevFests are community-led developer events hosted by Google Developer Groups around the globe. These are events with talks, workshops and networking moments dedicated to professional developers and designers, entrepreneurs, students or simple enthusiasts. It is an opportunity to share skills and passions within the universe of Google technologies (and not only).</description>
+    </item>
     
     <item>
       <title>DataBeers Venezia #6</title>
@@ -106,17 +117,6 @@ Per la terza edizione di Databeers Tuscany, in collaborazione con PyData Italy e
 Alessandro Scarpellini Aesse branding &amp;amp; visual communication | Rimini
 Valentino Pediroda CEO and Founder of ModeFinance, the first fintech Credit Rating Agency in Europe | Trieste
 Duccio Schiavon CEO at Quantitas, Data Visualization | Venezia</description>
-    </item>
-    
-    <item>
-      <title>DataBeers VCE 2</title>
-      <link>https://fundor333.com/event/2017-05-19-databeers-vce-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/event/2017-05-19-databeers-vce-2/</guid>
-      <description>Hey Data Lovers! Following the huge success of the first edtion… we’re back! Databeers Venice #2 is live! We’re waiting for you next Friday, May 19th @ Negozio Piave 67, via Piave 67, Venezia, starting at 18:00 sharp!
-Five stunning speakers will drive the scene for you:
-Marco De Nadai Dottorando di Ricerca, Università di Trento Cosa accomuna Bogotà e Los Angeles? Il crimine raccontato e predetto dalle caratteristiche urbane.</description>
     </item>
     
   </channel>
