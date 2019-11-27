@@ -17,8 +17,8 @@
       <pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</guid>
-      <description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
-Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
+      <description>Anche quest&#39;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
+Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&#39;anno, infatti, ho fatto svariate cose diverse dal solito:
  ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
     </item>
     
@@ -28,9 +28,9 @@ Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;ann
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/p2p-offline-da-spie/</guid>
-      <description>Da poco ho scoperto che nel 2006 l&amp;rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;ldquo;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
-Partiamo con ordine: cos&amp;rsquo;è il P2P?
-P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto&amp;rdquo;. Significa che la comunicazione è tra il &amp;ldquo;mittente&amp;rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.</description>
+      <description>Da poco ho scoperto che nel 2006 l&#39;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;quot;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
+Partiamo con ordine: cos&#39;è il P2P?
+P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto&amp;quot;. Significa che la comunicazione è tra il &amp;ldquo;mittente&amp;rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.</description>
     </item>
     
     <item>
@@ -50,7 +50,7 @@ Facciamo un po&amp;rsquo; di ordine:
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/dotfile-e-le-mie-config/</guid>
-      <description>Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com&amp;rsquo;era.
+      <description>Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com&#39;era.
 Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e stavo iniziando a scrivere un orrendo accrocchio per la generazione delle configurazioni in modo automatico partendo da un database sqlite, che, per quanto intelligente come idea, non è una cosa di facile gestione ne adatto alla situazione che si è creata.</description>
     </item>
     
@@ -80,8 +80,8 @@ Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista,
       <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/utilizzi-alternativi-di-farebase/</guid>
-      <description>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&amp;rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&amp;rsquo;utente.
-Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
+      <description>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&#39;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&#39;utente.
+Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&#39;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
     </item>
     
     <item>
@@ -90,8 +90,8 @@ Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asi
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/google-io-2017/</guid>
-      <description>Sono nell&amp;rsquo;evento del GDG di Venezia a vedermi il Google IO 2017 in compagnia di altri informatici e interessati. Questo è il resoconto dell&amp;rsquo;evento.
-Pre evento Stiamo soffiando bolle in attesa dell&amp;rsquo;inizio dell&amp;rsquo;evento. Il GDG fa una piccola presentazione di cos&amp;rsquo;è il GDG e cos&amp;rsquo;è il Google IO 2017. Tutti siamo in fremente attesa dell&amp;rsquo;evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell&amp;rsquo;Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d&amp;rsquo;Italia.</description>
+      <description>Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.
+Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.</description>
     </item>
     
     <item>
@@ -102,7 +102,7 @@ Pre evento Stiamo soffiando bolle in attesa dell&amp;rsquo;inizio dell&amp;rsquo
       <guid>https://fundor333.com/post/e-sono-passato-a-hugo/</guid>
       <description>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&amp;rsquo; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
 Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
- La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&amp;rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
+ La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&#39;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
     </item>
     
     <item>
@@ -112,7 +112,6 @@ Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che s
       
       <guid>https://fundor333.com/post/emacs-e-mai-piu-mouse/</guid>
       <description>&lt;p&gt;E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è &lt;em&gt;mouse free&lt;/em&gt;!&lt;/p&gt;
-
 &lt;p&gt;Ok posso capire che per la maggior parte di voi non capirà perchè questo cambiamento è rilevante per me ma, dal mio punto di vista, è un &lt;em&gt;ENORME&lt;/em&gt; upgrade tecnico. La possibilità di avere un intero editor di testo personalizzabile, multipiattaforma e completamente open source mi ha sempre particolarmente colpito ma non ho mai trovato uno che lo sentissi mio. Attualmente uso molto Atom ma lo sento molto stretto soprattutto perchè, visto che deve supportare molti linguaggi (e di conseguenza molti plugin), risulta rallentato.&lt;/p&gt;</description>
     </item>
     

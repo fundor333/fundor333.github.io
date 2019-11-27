@@ -192,34 +192,21 @@
 
 <br>
 <article>
-      
-
-<p>Attualmente al lavoro il team di sviluppo é &ldquo;giusto per le esigenze aziendali&rdquo;. Questo significa due persone. Questo comporta anche che non esiste un <em>backendista</em> e un <em>frontendista</em> full time ma tutti fanno tutto.</p>
-
-<p>Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&rsquo;ARMAGEDDON.</p>
-
+      <p>Attualmente al lavoro il team di sviluppo é &ldquo;giusto per le esigenze aziendali&rdquo;. Questo significa due persone. Questo comporta anche che non esiste un <em>backendista</em> e un <em>frontendista</em> full time ma tutti fanno tutto.</p>
+<p>Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell'ARMAGEDDON.</p>
 <h1 id="buona-apocalisse-a-tutti-e-grazie-per-il-pesce">Buona Apocalisse a tutti e grazie per il pesce</h1>
-
 <p>Kube, k8, Kubernetes o come lo chiamiamo noi <em>il clousterone</em> é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</p>
-
 <p>Per chi non é avvezzo al rilascio attraverso Kubernetes la cosa importante da sapere é che serve una o piú immagine Docker contenete il codice da eseguire, un set di permessi (sul cluster su cui si pubblica il progetto) e tanti comandi via terminale per i settaggi e simili.
 Questo ha portato alla creazione di <em>N</em> sistemi di notifica, deployment e automatizzazione che devono convivere assieme. Questo sta portando a molto scripting soltanto per risolvere queste problematiche.</p>
-
 <h2 id="scelta-delle-tecnologie-ovvero-di-che-morte-devo-morire">Scelta delle tecnologie ovvero di che morte devo morire</h2>
-
 <p>Qui cade la parte divertente e parte quella pesante. Per far funzionare i nostri sistemi ci siamo affidati per prima cosa a dei linguaggi con cui preparavamo degli script che, una volta lanciati, buildavano o facevano cose per la messa in produzione. Questi erano in Python e Bash e fondamentalmente ogni progetto aveva comandi diversi per la messa in opera con parametri diversi e path diversi. Una volta che si inizia ad avere tanti progetti diventa quindi necessario rivederli e unificarli in modo da stare tranquilli. Questo vale anche per il sistema di logging e notifica degli errori.</p>
-
 <h2 id="le-nostre-marionette">Le nostre marionette</h2>
-
 <p>Questo ha portato alla creazione di sistemi automatici/bot per i task. Partendo da due scuole di pensiero differenti abbiamo sviluppato entrambe le scuole in modo da essere piú completi.</p>
-
 <ul>
 <li><em><strong>Hook</strong></em> basati su <em>git</em> questi lanciano build in modo automatico basandosi sul co0dice che scriviamo. Interamente indipendente da il nostro intervento</li>
 <li><em><strong>URL</strong></em> collegati a <em>bot</em> ci permettono di lanciare operazioni in qualsiasi momento e sono chiamabili a disponibilitá.</li>
 </ul>
-
 <p>Questo ha portato alla creazione di un modulo per la <a href="https://www.npmjs.com/package/hubot-tea-timer">gestione del té in <em>coffescript</em></a> per <em>Hubot</em>, framework per bot di Github.</p>
-
 <p>A presto altri dettagli e info su bot per automatismi e, se posso, anche del codice annesso.</p>
 
       <p>by Fundor 333</p>

@@ -17,7 +17,7 @@
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/microsoft-compra-atom-electron-e-l-open-source/</guid>
-      <description>Microsoft ha acquistato GitHub. Partendo da questa cosa ci sono molti discorsi che si possono fare partendo dalla domanda che tutti si fanno: &amp;ldquo;Cosa cambierà nella gestione dei progetti Open Source e/o pubblici?&amp;ldquo;
+      <description>Microsoft ha acquistato GitHub. Partendo da questa cosa ci sono molti discorsi che si possono fare partendo dalla domanda che tutti si fanno: &amp;ldquo;Cosa cambierà nella gestione dei progetti Open Source e/o pubblici?&amp;rdquo;
 La risposta che apparentemente molti sviluppatori hanno date è qualcosa come &amp;ldquo;Non mi fido e non voglio rischiare&amp;rdquo; e hanno fatto la migrazione su Gitlab dei loro progetti.
 GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</description>
     </item>
@@ -31,7 +31,7 @@ GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</des
       <description>Ho riscritto interamente il blog. Ora gira tutto in Python&amp;hellip; Anche se nel server è tutto in HTML5.
 Questo perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.
 Così sono passato da un blog dinamico a uno statico.
-Come mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell&amp;rsquo;azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine.</description>
+Come mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell&#39;azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine.</description>
     </item>
     
   </channel>

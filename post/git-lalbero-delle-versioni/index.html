@@ -197,21 +197,15 @@ backup del codice e condividerlo in modo da poterci lavorare in più
 persone in contemporanea senza sovrapporre le modifiche. Queste due
 richieste vengono soddisfatte con un software di version controlling che
 permetta il lavoro di multipli utenti.</p>
-
 <p>Dopo una analisi ho capito che <a href="https://git-scm.com/">Git</a> è quello che
 fa al caso mio.</p>
-
-<p><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Logo git" title="git" />{.responsive-img .center-align}</p>
-
+<p><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Logo git" title="git">{.responsive-img .center-align}</p>
 <p><strong>Come sono arrivato a Git?</strong></p>
-
 <p> </p>
-
 <p>Ho copiato il più grande progetto Open Source che conosco: il Kernel
-Linux.<br />
+Linux.<br>
 Vedendo che il Kernel usa Git per il version controlling ho deciso di
 capire perchè lo usano. Linus da alcuni motivi validi:</p>
-
 <ul>
 <li>E&rsquo; indipendente dalla piattaforma usata</li>
 <li>Tiene traccia delle modifiche effettuate ai file non a tutto il file</li>
@@ -227,42 +221,29 @@ finite le modifiche desiderate, farla ritornare nel &ldquo;ramo&rdquo;
 principale in frazioni di secondo fino a pochi secondi per progetti
 particolarmente grandi.</li>
 </ul>
-
 <p>Questa tipologia si chiama software di version controlling distribuito.
 Questo si contrappone ad altri software che richiedono un server a cui
 bisogna accedere per fare qualunque operazione.</p>
-
 <p> </p>
-
 <p><strong>Perchè è la soluzione per me?</strong></p>
-
 <p> </p>
-
 <p>Perchè risponde alle richieste di gratuità, coerenza del codice e
 permette di lavorare offline. In oltre mi permette di scaricare i
 repository SVN, che è il servizio storico ed è molto usato.</p>
-
 <p> </p>
-
 <p><strong>Come funziona tutto ciò?</strong></p>
-
 <p> </p>
-
 <p>In modo semplice se si capisce come ragiona. Altrimenti è aramaico
 antico&hellip;</p>
-
 <p>Data una cartella contente il repository Git, se io faccio un
 cambiamento questo file viene analizzato da Git con la versione in
 memoria. Le differenze tra le versioni sono quelle che Git memorizza. Le
 modifiche ai file assumono quindi degli &lsquo;stati&rsquo;: registrate, non
 controllate, sotto osservazione.</p>
-
-<p><img src="https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png" alt="Visualizzazione struttura" />{.responsive-img .center-align}</p>
-
+<p><img src="https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png" alt="Visualizzazione struttura">{.responsive-img .center-align}</p>
 <p>Normalmente le modifiche sono effettuate nella &ldquo;Working Directory&rdquo; e
 passano nella &ldquo;Staging Area&rdquo; dopo che vengono selezionate con il comando
 <em>git add nomefilemodificato.estensione</em>.</p>
-
 <p>Una volta qui vengono raggruppate con <em>git commit</em> e gli viene messo del
 testo per spiegare lo scopo delle modifiche. Se si va a vedere cosa
 contiene un &ldquo;commit&rdquo; si trovano, per ogni modifica fatta, i dati di cosa
@@ -270,7 +251,6 @@ contiene un &ldquo;commit&rdquo; si trovano, per ogni modifica fatta, i dati di 
 Quindi il tutto può essere inviato attraverso la rete a destinazioni
 predefinite col comando <em>git push</em> o è possibile recuperare le modifiche
 effettuate da altri con un <em>git pull</em>.</p>
-
 <p>A tutto questo, si aggiunge il sistema dei <em>branch</em> o <em>ramificazioni</em>
 che permettono di tenere una versione &ldquo;stabile&rdquo; del progetto mentre si
 lavora a nuove componenti stando tranquilli che, nel caso di problemi, è

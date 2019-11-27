@@ -30,12 +30,12 @@ DevFests are community-led developer events hosted by Google Developer Groups ar
       <guid>https://fundor333.com/post/beards-mugs-men/</guid>
       <description>I use DevRant, a social for rant by developer. One day I find this rant.
  Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.
-&amp;ldquo;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
-&amp;ldquo;Uh&amp;hellip; look at my beard&amp;rdquo;
-&amp;ldquo;What&amp;rdquo;
-&amp;ldquo;Just look at this beard!&amp;rdquo;
-&amp;ldquo;Uh&amp;hellip;. OK&amp;rdquo;
-&amp;ldquo;Does this look like a perfectly groomed beard&amp;rdquo;</description>
+&amp;quot;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
+&amp;quot;Uh&amp;hellip; look at my beard&amp;rdquo;
+&amp;quot;What&amp;rdquo;
+&amp;quot;Just look at this beard!&amp;rdquo;
+&amp;quot;Uh&amp;hellip;. OK&amp;rdquo;
+&amp;quot;Does this look like a perfectly groomed beard&amp;rdquo;</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@ DevFests are community-led developer events hosted by Google Developer Groups ar
       
       <guid>https://fundor333.com/post/buzzwords-buzzwords/</guid>
       <description>Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
-Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
+Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&#39;ultima frontiera di/del &amp;lt;inserire qui l&#39;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -54,10 +54,10 @@ Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha se
       <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/django-rest-framework-multiple-post/</guid>
-      <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
+      <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&#39;t do it. So I make my personal method for mycase.
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
-Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
+Why I can&#39;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@ Why I can&amp;rsquo;t use the default? After you did the tutorial you have a bas
       
       <guid>https://fundor333.com/post/devops-chatbot-npm/</guid>
       <description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
-Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
+Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&#39;ARMAGEDDON.
 Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
     </item>
     
@@ -114,7 +114,7 @@ Venezia verrà raccontata a partire da alcune ricerche condotte all’interno de
       <pubDate>Thu, 27 Sep 2018 16:30:20 +0000</pubDate>
       
       <guid>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</guid>
-      <description>Marco Goldin, il data scientist da sorriso maliardo, ci mostrerà degli algoritmi di cooccorrenza per il targeting delle comunicazioni comunali ai cittadini. DOMANDA: come si possono gestire algoritmicamente i dati delle interazioni dei cittadini? Sembra una cosa supertecnica ma serve per proporre i servizi ai cittadini ottimizzando la comunicazione con l&amp;rsquo;Amministrazione nei vari canali, che sia il sito web, i social, URP. Esempio banale: grazie all&amp;rsquo;analisi di cooccorrenza, se il cittadino 1 usa il servizio A e il cittadino 2 usa il servizio A e quello B, le macchine automaticamente propongono il servizio B anche al cittadino 1.</description>
+      <description>Marco Goldin, il data scientist da sorriso maliardo, ci mostrerà degli algoritmi di cooccorrenza per il targeting delle comunicazioni comunali ai cittadini. DOMANDA: come si possono gestire algoritmicamente i dati delle interazioni dei cittadini? Sembra una cosa supertecnica ma serve per proporre i servizi ai cittadini ottimizzando la comunicazione con l&#39;Amministrazione nei vari canali, che sia il sito web, i social, URP. Esempio banale: grazie all&#39;analisi di cooccorrenza, se il cittadino 1 usa il servizio A e il cittadino 2 usa il servizio A e quello B, le macchine automaticamente propongono il servizio B anche al cittadino 1.</description>
     </item>
     
     <item>

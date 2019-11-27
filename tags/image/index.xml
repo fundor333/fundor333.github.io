@@ -17,7 +17,7 @@
       <pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
       
       <guid>https://fundor333.com/post/hugo-into-docker/</guid>
-      <description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
+      <description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&#39;t like the image I was using because wasn&#39;t update and it&#39;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
     </item>
     
   </channel>

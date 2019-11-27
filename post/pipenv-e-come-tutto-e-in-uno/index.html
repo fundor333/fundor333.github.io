@@ -192,80 +192,57 @@
 
 <br>
 <article>
-      
-
-<p>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di <a href="https://www.kennethreitz.org/">Kenneth Reitz</a>, autore di svariati moduli python tra cui <em>Requests</em> che tutti i pythonisti conoscono e usano.
-L&rsquo;ultimo progetto suo di mio interesse è PipEnv, <em>sacro matrimonio di pipfile, pip e virtualenv</em>.</p>
-
+      <p>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di <a href="https://www.kennethreitz.org/">Kenneth Reitz</a>, autore di svariati moduli python tra cui <em>Requests</em> che tutti i pythonisti conoscono e usano.
+L'ultimo progetto suo di mio interesse è PipEnv, <em>sacro matrimonio di pipfile, pip e virtualenv</em>.</p>
 <p>Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</p>
-
 <ul>
 <li>Si crea un <em>virtualenv</em> su cui lavorare, in cui i pacchetti installati non vanno in conflitto con quelli nel sistema ottenendo così un ambiente pulito su cui lavorare</li>
 <li>Si fa una selezione dei moduli necessari per il progetto e li si installa nel <em>virtualenv</em> attraverso <em>pip</em></li>
 <li>Si produce dal <em>virtualenv</em> un file di <em>requirements.txt</em> che indica cosa è installato</li>
 </ul>
-
 <p>Questo porta a dover tenere sempre aggiornato e pulito il <em>virtualenv</em>, sempre aggiornato il file <em>requirements.txt</em> e fissare le versioni minime richieste (o addirittura la versione stessa) del modulo nel <em>requirements.txt</em>.</p>
-
 <p>PipEnv di conseguenza fa tutto questo per te con pochi e semplici comandi.</p>
-
 <h2 id="ad-esempio">Ad esempio?</h2>
-
 <p>Mettiamo caso che io debba creare uno script in python che mi recuperi dei feed rss e me li salvi in locale.</p>
-
 <ul>
-<li><p>Creo una cartella per il progetto, in modo da metterci tutto quello di cui ho bisogno</p>
-
-<pre><code>mkdir progetto_python
-</code></pre></li>
-
-<li><p>Scelgo che versione di python usare, se quella corrente o quella <em>legacy</em></p>
-
-<pre><code>pipenv --three #versione corrente di python 3.x
-# alternativamente
-pipenv --two #legacy 2.7.x
-</code></pre></li>
-
-<li><p>Inizio a scrivere codice e a installare pacchetti necessari per il progetto</p>
-
-<pre><code>pipenv install request
-pipenv install flask
-</code></pre></li>
+<li>
+<p>Creo una cartella per il progetto, in modo da metterci tutto quello di cui ho bisogno</p>
+<pre><code>  mkdir progetto_python
+</code></pre>
+</li>
+<li>
+<p>Scelgo che versione di python usare, se quella corrente o quella <em>legacy</em></p>
+<pre><code>  pipenv --three #versione corrente di python 3.x
+  # alternativamente
+  pipenv --two #legacy 2.7.x
+</code></pre>
+</li>
+<li>
+<p>Inizio a scrivere codice e a installare pacchetti necessari per il progetto</p>
+<pre><code>  pipenv install request
+  pipenv install flask
+</code></pre>
+</li>
 </ul>
-
 <p>Questi comandi assieme a quello iniziale, mi permette di creare un <em>pipfile</em> che descrive i moduli da me installati. La cosa più bella di questo <em>pipfile</em> è che permette di avere più &ldquo;ambienti&rdquo; indicati nello stesso file. Questo significa che posso avere &ldquo;testing&rdquo;, &ldquo;travis&rdquo;, &ldquo;dev&rdquo; e &ldquo;prod&rdquo; tutti descritti in un unico file e gestiti in modo automatico.</p>
-
 <p>Quindi mi accordo che  <em>flask</em> non mi serve più perchè ho riscritto tutto in modo da non usarlo e rendere in codice più leggibile&hellip; Quindi cosa faccio?</p>
-
 <pre><code>    pipenv uninstall flask
 </code></pre>
-
 <p>Questo comando elimina dal <em>pipfile</em> flask rendendolo così &ldquo;pulito&rdquo; e sempre aggiornato.</p>
-
-<p>Una volta definito il <em>pipfile</em> bisogna creare il <em>pipfile.lock</em>, ovvero una versione automatica, generata dall&rsquo; &ldquo;installazione corrente&rdquo; in modo da riprodurre perfettamente l&rsquo;ambiente.</p>
-
+<p>Una volta definito il <em>pipfile</em> bisogna creare il <em>pipfile.lock</em>, ovvero una versione automatica, generata dall&rsquo; &ldquo;installazione corrente&rdquo; in modo da riprodurre perfettamente l'ambiente.</p>
 <pre><code>    pipenv lock
 </code></pre>
-
 <p>Questo fissa i moduli installati con versione, hash e altri dati sia per i pacchetti indicati sia che con le loro dipendenze, in modo da ottenere tutte le indicazioni per riprodurre quel esatto ambiente.</p>
-
 <h1 id="tutto-qui">Tutto qui?</h1>
-
-<p>No, il sistema crea all&rsquo;inizio un <em>virtualenv</em> per il progetto e lo popola secondo le indicazioni passate dal terminale.
+<p>No, il sistema crea all'inizio un <em>virtualenv</em> per il progetto e lo popola secondo le indicazioni passate dal terminale.
 Questo ambiente virtuale è accessibile attraverso il comando</p>
-
 <pre><code>    pipenv shell
 </code></pre>
-
 <p>che apre una shell nel <em>virtualenv</em> del progetto e permette di eseguire comandi nella stessa <em>virtualenv</em>.</p>
-
 <p>In oltre <em>PipEnv</em> permette di convertire, se non presenti, i <em>requirements.txt</em> in <em>pipfile</em> e di aggiornare tutti i pacchetti attraverso</p>
-
 <pre><code>    pipenv update
 </code></pre>
-
 <h2 id="conclusione">Conclusione</h2>
-
 <p>Personalmente spero che questo sistema, o per lo meno <em>pipfile</em>, diventi lo standard per lo sviluppo di applicazioni python e soppianti i file <em>requirements.txt</em> che trovo particolarmente poco pratici e troppo sintetici anche se fanno esattamente quello per cui sono stati pensati</p>
 
       <p>by Fundor 333</p>
