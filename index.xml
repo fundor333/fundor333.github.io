@@ -6,10 +6,22 @@
     <description>Recent content on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Fri, 15 Nov 2019 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 15:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mew and programming</title>
+      <link>https://fundor333.com/post/mew-and-programming/</link>
+      <pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/mew-and-programming/</guid>
+      <description>This is a story about a myth about how to find Mew1.
+In the old day without interent &amp;ldquo;the cousin of a friends&amp;rdquo; or a &amp;rdquo; friend of my cousin find and captured a Mew.
+The Myth If you want to do it yourself you need to:
+ Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn&#39;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.</description>
+    </item>
     
     <item>
       <title>DevFest Veneto 2019</title>
@@ -115,17 +127,6 @@ Venezia verrà raccontata a partire da alcune ricerche condotte all’interno de
       
       <guid>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</guid>
       <description>Marco Goldin, il data scientist da sorriso maliardo, ci mostrerà degli algoritmi di cooccorrenza per il targeting delle comunicazioni comunali ai cittadini. DOMANDA: come si possono gestire algoritmicamente i dati delle interazioni dei cittadini? Sembra una cosa supertecnica ma serve per proporre i servizi ai cittadini ottimizzando la comunicazione con l&#39;Amministrazione nei vari canali, che sia il sito web, i social, URP. Esempio banale: grazie all&#39;analisi di cooccorrenza, se il cittadino 1 usa il servizio A e il cittadino 2 usa il servizio A e quello B, le macchine automaticamente propongono il servizio B anche al cittadino 1.</description>
-    </item>
-    
-    <item>
-      <title>Sperimentando col filtri, paginator e sorting in Django</title>
-      <link>https://fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</link>
-      <pubDate>Mon, 24 Sep 2018 09:03:37 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/sperimentando_con_filtri_paginator_e_sorting_in_django/</guid>
-      <description>Ultimamente sto lavorando a tempo pieno a un progetto Django per la mia ditta. Lo abbiamo chiamato Celebro e per ora ha un grossissimo problema: filtri, sorting e paginator.
-Fondamentalmente il problema si riassume con la rubrica del personale: deve essere ordinabile, filtrabile e visibile 20 elementi alla volta. Le tre cose assieme risultano essere difficili soprattutto se usi le Class View di Django.
-Gli strumenti esaminati per risolvere il problema sono stati:</description>
     </item>
     
   </channel>
