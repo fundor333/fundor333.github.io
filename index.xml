@@ -6,10 +6,22 @@
     <description>Recent content on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sat, 28 Dec 2019 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Make a Tea Not Big Data</title>
+      <link>https://fundor333.com/post/make-tea-not-big-data/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/make-tea-not-big-data/</guid>
+      <description>The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
+Industrial Unamed Tea - Excel file  We don&#39;t need to make analisys
+Boss
+ THE big data for the NEWEST company. You can only use .xls, .xlsx e .</description>
+    </item>
     
     <item>
       <title>Mew and programming</title>
@@ -118,15 +130,6 @@ La natura dà i numeri?</description>
       <guid>https://fundor333.com/event/2018-10-04-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia/</guid>
       <description>Descrizione Matteo Basso, Federica Fava, Laura Fregolent, Renato Gibin presentano:
 Venezia verrà raccontata a partire da alcune ricerche condotte all’interno del Laboratorio di Analisi urbana e del territorio e del ClusterLab: H-City Housing in the city. Abitare e rigenerare, dell’Università IUAV di Venezia. La sovrapposizione dei risultati di diverse indagini condotte sui temi casa, commercio, uso ai piani terra e territori di margine, consentirà di restituire realtà e dinamiche di una città in veloce e continua trasformazione.</description>
-    </item>
-    
-    <item>
-      <title>Follow UP! Dati dal Padiglione al Forte: Cittadini e algoritmi, comunicazione e servizi pubblici</title>
-      <link>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</link>
-      <pubDate>Thu, 27 Sep 2018 16:30:20 +0000</pubDate>
-      
-      <guid>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</guid>
-      <description>Marco Goldin, il data scientist da sorriso maliardo, ci mostrerà degli algoritmi di cooccorrenza per il targeting delle comunicazioni comunali ai cittadini. DOMANDA: come si possono gestire algoritmicamente i dati delle interazioni dei cittadini? Sembra una cosa supertecnica ma serve per proporre i servizi ai cittadini ottimizzando la comunicazione con l&#39;Amministrazione nei vari canali, che sia il sito web, i social, URP. Esempio banale: grazie all&#39;analisi di cooccorrenza, se il cittadino 1 usa il servizio A e il cittadino 2 usa il servizio A e quello B, le macchine automaticamente propongono il servizio B anche al cittadino 1.</description>
     </item>
     
   </channel>

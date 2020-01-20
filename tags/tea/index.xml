@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tea on Fundor 333</title>
+    <link>https://fundor333.com/tags/tea/</link>
+    <description>Recent content in tea on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fundor333.com/tags/tea/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Make a Tea Not Big Data</title>
+      <link>https://fundor333.com/post/make-tea-not-big-data/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/make-tea-not-big-data/</guid>
+      <description>The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
+Industrial Unamed Tea - Excel file  We don&#39;t need to make analisys
+Boss
+ THE big data for the NEWEST company. You can only use .xls, .xlsx e .</description>
+    </item>
+    
+  </channel>
+</rss>
