@@ -218,9 +218,9 @@
 <br>
 <article>
       <p>Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.</p>
-<h2 id="linizio-di-tutto">L'inizio di tutto</h2>
+<h2 id="linizio-di-tutto">L&rsquo;inizio di tutto</h2>
 <p>Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria <a href="https://python-telegram-bot.org/">python-telegram-bot</a> e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a &ldquo;ascoltatore&rdquo; che la esegue quando riceve il comando.</p>
-<p>Ad esempio se io ho definito prima qi questo frammento di codice una funzione <em>start</em> che mi gestisce il comando omonimo, poi io devo registrarla all'updater attraverso il dispatcher come qui sotto.</p>
+<p>Ad esempio se io ho definito prima qi questo frammento di codice una funzione <em>start</em> che mi gestisce il comando omonimo, poi io devo registrarla all&rsquo;updater attraverso il dispatcher come qui sotto.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">updater<span style="color:#f92672">.</span>dispatcher<span style="color:#f92672">.</span>add_handler(CommandHandler(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">start</span><span style="color:#e6db74">&#39;</span>, start))</code></pre></div>
 <p>Visto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un &ldquo;alias&rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.</p>
 <h2 id="alla-ricerca-di-una-alternativa">Alla ricerca di una alternativa</h2>
@@ -240,7 +240,7 @@ app <span style="color:#f92672">=</span> Flask(__name__)
 <span style="display:block;width:100%;background-color:#3c3d38">
 </span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">__main__</span><span style="color:#e6db74">&#34;</span>:
 	app<span style="color:#f92672">.</span>run()</code></pre></div>
-<p>E capisco che <em>@app.route(&quot;&quot;)</em> è un decoratore che collega la funzione <em>hello</em> a un listener che risponde all'indirizzo <em>localhost/</em>. Esattamente quello che mi serve.</p>
+<p>E capisco che <em>@app.route(&quot;&quot;)</em> è un decoratore che collega la funzione <em>hello</em> a un listener che risponde all&rsquo;indirizzo <em>localhost/</em>. Esattamente quello che mi serve.</p>
 <p>Da una sbirciata al sorgente di Flask produco una classe che gestisce il token e contiene il metodo</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">command_handler</span>(self, name):
 	<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decorator</span>(f):

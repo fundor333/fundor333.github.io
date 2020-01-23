@@ -217,7 +217,7 @@
 
 <br>
 <article>
-      <p>This blog is publish with a docker image with GitLab. But I don't like the image I was using because wasn't update and it's big and havy. So I fork the project for create an update version for my personal blog.</p>
+      <p>This blog is publish with a docker image with GitLab. But I don&rsquo;t like the image I was using because wasn&rsquo;t update and it&rsquo;s big and havy. So I fork the project for create an update version for my personal blog.</p>
 <p><img src="/images/post/docker/docker.png" alt="docker logo"></p>
 <p>So I started with updating the old docker image I was using this image</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">    FROM debian:wheezy<span style="color:#960050;background-color:#1e0010">
@@ -252,7 +252,7 @@
 </span><span style="color:#960050;background-color:#1e0010"></span>    CMD hugo server -b <span style="color:#e6db74">${</span>HUGO_BASE_URL<span style="color:#e6db74">}</span> --bind<span style="color:#f92672">=</span>0.0.0.0</code></pre></div>
 <p>So I build an image of this container and it was 171 MB in my machine.</p>
 <p>But I can do better than this because i can use <em><em>alpine</em></em> in the place of <em><em>debian:wheezy</em></em>.</p>
-<p>I do this because the image for <em><em>debian</em></em> is bigger than the image for <em><em>alpine</em></em>. But if I will use <em><em>alpine</em></em> I need to change somethings because I can't install <em><em>.deb</em></em> into the image. So i use the binary of Hugo for Linux find on Github. And install it on the image</p>
+<p>I do this because the image for <em><em>debian</em></em> is bigger than the image for <em><em>alpine</em></em>. But if I will use <em><em>alpine</em></em> I need to change somethings because I can&rsquo;t install <em><em>.deb</em></em> into the image. So i use the binary of Hugo for Linux find on Github. And install it on the image</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">    FROM alpine<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    LABEL maintainer <span style="color:#e6db74">&#34;fundor333@gmail.com&#34;</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
@@ -324,7 +324,7 @@
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_BASE_URL http://localhost:1313<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    CMD hugo server -b <span style="color:#e6db74">${</span>HUGO_BASE_URL<span style="color:#e6db74">}</span> --bind<span style="color:#f92672">=</span>0.0.0.0</code></pre></div>
 <p>Size 3,99 MB in this case.</p>
-<p>The maggior part of the total size is caused by the size of the <em><em>Hugo</em></em> binary itself so I cann't make an image <em><em>lighter</em></em> than the binary.</p>
+<p>The maggior part of the total size is caused by the size of the <em><em>Hugo</em></em> binary itself so I cann&rsquo;t make an image <em><em>lighter</em></em> than the binary.</p>
 <p>Now the image size and number layers can change update after update so I put this image with the allwayes data about the images.</p>
 <p><a href="https://microbadger.com/images/fundor333/hugo" title="Get your own image badge on microbadger.com"><img src="https://images.microbadger.com/badges/image/fundor333/hugo.svg" alt="hugo_fundor333"></a></p>
       <p>by Fundor 333</p>

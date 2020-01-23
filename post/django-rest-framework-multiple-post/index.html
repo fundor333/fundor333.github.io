@@ -217,11 +217,11 @@
 
 <br>
 <article>
-      <p>I need to have a massive <strong>put</strong> in my rest endpoint and Django Rest Framework doesn't do it. So I make my personal method for mycase.</p>
+      <p>I need to have a massive <strong>put</strong> in my rest endpoint and Django Rest Framework doesn&rsquo;t do it. So I make my personal method for mycase.</p>
 <h2 id="setup-fo-the-project">Setup fo the project</h2>
 <p>You need to follow the tutorial from the official documentation of <a href="https://www.django-rest-framework.org"><strong>Django Rest Framework</strong></a>.</p>
 <p>After this you have a <em>MyModel</em>, MyModelSerializer and a view class MyModelListPost.</p>
-<h2 id="why-i-cant-use-the-default">Why I can't use the default?</h2>
+<h2 id="why-i-cant-use-the-default">Why I can&rsquo;t use the default?</h2>
 <p>After you did the tutorial you have a base for a <strong>standard</strong> Django Rest Framework. This mean that you have only a get massive not an update massive. So we make one from scratch.</p>
 <h2 id="the-__code__">The <strong>CODE</strong></h2>
 <p>This is the code for <strong>massive put</strong>. You need to map your classes and your fields for make this code working</p>
@@ -262,7 +262,7 @@
                 output<span style="color:#f92672">.</span>append(serializer<span style="color:#f92672">.</span>_errors)
         <span style="color:#66d9ef">return</span> Response(output, status<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)</code></pre></div>
 <p>In this case we use the <strong>unique_id</strong> to find any instance and update one by one with the <strong>get</strong> method.
-I know it's not very Python Way but if you have some better solution please write below. Thanks</p>
+I know it&rsquo;s not very Python Way but if you have some better solution please write below. Thanks</p>
 
       <p>by Fundor 333</p>
 </article>

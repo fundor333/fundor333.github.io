@@ -37,7 +37,7 @@ Facciamo un po&amp;rsquo; di ordine:
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</guid>
-      <description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&#39;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
+      <description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
 Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
     </item>
     
@@ -48,9 +48,9 @@ Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi o
       
       <guid>https://fundor333.com/post/bot-telegram-e-programmazione-funzionale/</guid>
       <description>&lt;p&gt;Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.&lt;/p&gt;
-&lt;h2 id=&#34;linizio-di-tutto&#34;&gt;L&#39;inizio di tutto&lt;/h2&gt;
+&lt;h2 id=&#34;linizio-di-tutto&#34;&gt;L&amp;rsquo;inizio di tutto&lt;/h2&gt;
 &lt;p&gt;Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria &lt;a href=&#34;https://python-telegram-bot.org/&#34;&gt;python-telegram-bot&lt;/a&gt; e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a &amp;ldquo;ascoltatore&amp;rdquo; che la esegue quando riceve il comando.&lt;/p&gt;
-&lt;p&gt;Ad esempio se io ho definito prima qi questo frammento di codice una funzione &lt;em&gt;start&lt;/em&gt; che mi gestisce il comando omonimo, poi io devo registrarla all&#39;updater attraverso il dispatcher come qui sotto.&lt;/p&gt;
+&lt;p&gt;Ad esempio se io ho definito prima qi questo frammento di codice una funzione &lt;em&gt;start&lt;/em&gt; che mi gestisce il comando omonimo, poi io devo registrarla all&amp;rsquo;updater attraverso il dispatcher come qui sotto.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;updater&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dispatcher&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;add_handler(CommandHandler(&lt;span style=&#34;color:#e6db74&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;start&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&lt;/span&gt;, start))&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Visto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un &amp;ldquo;alias&amp;rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.&lt;/p&gt;</description>
     </item>

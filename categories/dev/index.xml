@@ -20,7 +20,7 @@
       <description>This is a story about a myth about how to find Mew1.
 In the old day without interent &amp;ldquo;the cousin of a friends&amp;rdquo; or a &amp;rdquo; friend of my cousin find and captured a Mew.
 The Myth If you want to do it yourself you need to:
- Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn&#39;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.</description>
+ Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn&amp;rsquo;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ The Myth If you want to do it yourself you need to:
       
       <guid>https://fundor333.com/post/buzzwords-buzzwords/</guid>
       <description>Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
-Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&#39;ultima frontiera di/del &amp;lt;inserire qui l&#39;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
+Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del &amp;lt;inserire qui l&amp;rsquo;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -55,10 +55,10 @@ Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha se
       <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/django-rest-framework-multiple-post/</guid>
-      <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&#39;t do it. So I make my personal method for mycase.
+      <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
-Why I can&#39;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
+Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
     </item>
     
     <item>
@@ -68,7 +68,7 @@ Why I can&#39;t use the default? After you did the tutorial you have a base for 
       
       <guid>https://fundor333.com/post/devops-chatbot-npm/</guid>
       <description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
-Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&#39;ARMAGEDDON.
+Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
 Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
     </item>
     
@@ -100,8 +100,8 @@ GitHub imports to GitLab are still going up! #movingtogitlab see https://t.</des
       <pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/floppy-pycon-e-generatori-di-siti-statici/</guid>
-      <description>Anche quest&#39;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
-Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&#39;anno, infatti, ho fatto svariate cose diverse dal solito:
+      <description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
+Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
  ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
     </item>
     
@@ -111,7 +111,7 @@ Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&#39;anno, inf
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/graphql-and-working-with-it/</guid>
-      <description>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&#39;s the most used tipe of API you find online.
+      <description>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
 If I need some data I need to go to the url of the API and go to the subpath of the data I want.
 For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.</description>
     </item>
@@ -122,7 +122,7 @@ For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I 
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</guid>
-      <description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&#39;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
+      <description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
 Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
     </item>
     

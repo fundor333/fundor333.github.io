@@ -17,10 +17,10 @@
       <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/django-rest-framework-multiple-post/</guid>
-      <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&#39;t do it. So I make my personal method for mycase.
+      <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
-Why I can&#39;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
+Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
     </item>
     
   </channel>

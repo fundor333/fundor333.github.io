@@ -217,9 +217,9 @@
 
 <br>
 <article>
-      <p>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all'utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell'utente.</p>
-<p>Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l'esecuzione del processo nel caso io voglia vedere come sta andando il alvoro. Questo non sarebbe un problema se ci fosse solo una macchina che svolgie i processi asincroni ma ce ne sono due sempre in funzione che permettono di alleggarire il carico di lavoro e accellerarlo quanto basta per non creare code di task.</p>
-<p>Questo ci porta alla necessità di avere una &ldquo;dashboard/console/roba&rdquo; che ci permetta di vedere in tempo reale l'andamento dei processi e, nel caso abbiano errori, identificare quale processo si è interrotto.</p>
+      <p>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&rsquo;utente.</p>
+<p>Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro. Questo non sarebbe un problema se ci fosse solo una macchina che svolgie i processi asincroni ma ce ne sono due sempre in funzione che permettono di alleggarire il carico di lavoro e accellerarlo quanto basta per non creare code di task.</p>
+<p>Questo ci porta alla necessità di avere una &ldquo;dashboard/console/roba&rdquo; che ci permetta di vedere in tempo reale l&rsquo;andamento dei processi e, nel caso abbiano errori, identificare quale processo si è interrotto.</p>
 <p><em>NB</em> Questo non è un tutorial completo in quanto non porto un esempio di codice in un linguaggio specifico in quanto può essere implementato con tutti i linguaggi di programmazione e di scripting</p>
 <h1 id="prima-fase-strutturare-il-db">Prima fase: strutturare il db</h1>
 <p>Come prima fase devo andare su <a href="https://firebase.google.com/">Firebase</a> e creare un progetto in modo da ottenere così un database in tempo reale su cui è possibile leggere e scrivere.</p>
