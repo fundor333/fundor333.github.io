@@ -28,12 +28,12 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/categories/rant/</loc>
+    <loc>https://fundor333.com/tags/rant/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/rant/</loc>
+    <loc>https://fundor333.com/categories/rant/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -219,6 +219,11 @@
   
   <url>
     <loc>https://fundor333.com/tags/electron/</loc>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/git/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -605,11 +610,6 @@
   <url>
     <loc>https://fundor333.com/post/grumpy-come-convertire-il-serpente-nel-gopher/</loc>
     <lastmod>2017-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/git/</loc>
-    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>

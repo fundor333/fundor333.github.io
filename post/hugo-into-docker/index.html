@@ -221,31 +221,31 @@
 <p>So I started with updating the old docker image I was using this image</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">    FROM debian:wheezy<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    MAINTAINER yigal@publysher.nl<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Install pygments (for syntax highlighting)</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN apt-get -qq update <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>    <span style="color:#f92672">&amp;&amp;</span> DEBIAN_FRONTEND<span style="color:#f92672">=</span>noninteractive apt-get -qq install -y --no-install-recommends python-pygments git ca-certificates <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>        <span style="color:#f92672">&amp;&amp;</span> rm -rf /var/lib/apt/lists/*<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Download and install hugo</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_VERSION 0.20.6<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_BINARY hugo_<span style="color:#e6db74">${</span>HUGO_VERSION<span style="color:#e6db74">}</span>-64bit.deb<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ADD https://github.com/spf13/hugo/releases/download/v<span style="color:#e6db74">${</span>HUGO_VERSION<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>HUGO_BINARY<span style="color:#e6db74">}</span> /tmp/hugo.deb<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN dpkg -i /tmp/hugo.deb <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>        <span style="color:#f92672">&amp;&amp;</span> rm /tmp/hugo.deb<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Create working directory</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN mkdir /usr/share/blog<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    WORKDIR /usr/share/blog<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Expose default hugo port</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    EXPOSE <span style="color:#ae81ff">1313</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Automatically build site</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ONBUILD ADD site/ /usr/share/blog<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ONBUILD RUN hugo -d /usr/share/nginx/html/<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># By default, serve site</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_BASE_URL http://localhost:1313<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    CMD hugo server -b <span style="color:#e6db74">${</span>HUGO_BASE_URL<span style="color:#e6db74">}</span> --bind<span style="color:#f92672">=</span>0.0.0.0</code></pre></div>
@@ -254,12 +254,12 @@
 <p>I do this because the image for <em><em>debian</em></em> is bigger than the image for <em><em>alpine</em></em>. But if I will use <em><em>alpine</em></em> I need to change somethings because I can&rsquo;t install <em><em>.deb</em></em> into the image. So i use the binary of Hugo for Linux find on Github. And install it on the image</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">    FROM alpine<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    LABEL maintainer <span style="color:#e6db74">&#34;fundor333@gmail.com&#34;</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Download and install hugo</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_VERSION 0.20.6<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_DIRECTORY hugo_<span style="color:#e6db74">${</span>HUGO_VERSION<span style="color:#e6db74">}</span>_Linux-64bit<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_BINARY <span style="color:#e6db74">${</span>HUGO_DIRECTORY<span style="color:#e6db74">}</span>.tar.gz<span style="color:#960050;background-color:#1e0010">
-</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#960050;background-color:#1e0010">
 </span></span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Install HUGO</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN set -x<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN apk add --update wget ca-certificates<span style="color:#960050;background-color:#1e0010">
@@ -271,18 +271,18 @@
 </span></span><span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#960050;background-color:#1e0010"></span>    RUN rm -r README.md<span style="color:#960050;background-color:#1e0010">
 </span></span><span style="color:#960050;background-color:#1e0010"></span>    RUN apk del wget ca-certificates<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN rm /var/cache/apk/*<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Create working directory</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN mkdir /usr/share/blog<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    WORKDIR /usr/share/blog<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Expose default hugo port</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    EXPOSE <span style="color:#ae81ff">1313</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Automatically build site</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ONBUILD ADD site/ /usr/share/blog<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ONBUILD RUN hugo -d /usr/share/nginx/html/<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># By default, serve site</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_BASE_URL http://localhost:1313<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    CMD hugo server -b <span style="color:#e6db74">${</span>HUGO_BASE_URL<span style="color:#e6db74">}</span> --bind<span style="color:#f92672">=</span>0.0.0.0</code></pre></div>
@@ -290,12 +290,12 @@
 <p>Whenever you wrote a new line with <em><em>RUN</em></em> you make the &ldquo;compiled&rdquo; into another <em><em>layer</em></em> so, if you have 22 command (like me) you have 22 layer for the image</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-docker" data-lang="docker">    FROM alpine<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    LABEL maintainer <span style="color:#e6db74">&#34;fundor333@gmail.com&#34;</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Download and install hugo</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_VERSION 0.20.6<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_DIRECTORY hugo_<span style="color:#e6db74">${</span>HUGO_VERSION<span style="color:#e6db74">}</span>_Linux-64bit<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_BINARY <span style="color:#e6db74">${</span>HUGO_DIRECTORY<span style="color:#e6db74">}</span>.tar.gz<span style="color:#960050;background-color:#1e0010">
-</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#960050;background-color:#1e0010">
 </span></span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Install HUGO</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN set -x <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>    apk add --update wget ca-certificates <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
@@ -307,18 +307,18 @@
 </span></span><span style="display:block;width:100%;background-color:#3c3d38"><span style="color:#ae81ff"></span>    rm -r README.md <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
 </span></span><span style="color:#ae81ff"></span>    apk del wget ca-certificates <span style="color:#f92672">&amp;&amp;</span> <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>    rm /var/cache/apk/*<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Create working directory</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    RUN mkdir /usr/share/blog<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    WORKDIR /usr/share/blog<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Expose default hugo port</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    EXPOSE <span style="color:#ae81ff">1313</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># Automatically build site</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ONBUILD ADD site/ /usr/share/blog<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ONBUILD RUN hugo -d /usr/share/nginx/html/<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    <span style="color:#75715e"># By default, serve site</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    ENV HUGO_BASE_URL http://localhost:1313<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span>    CMD hugo server -b <span style="color:#e6db74">${</span>HUGO_BASE_URL<span style="color:#e6db74">}</span> --bind<span style="color:#f92672">=</span>0.0.0.0</code></pre></div>
