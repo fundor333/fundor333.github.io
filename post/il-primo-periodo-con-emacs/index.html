@@ -7,35 +7,23 @@
   <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
-  <link
-    rel="stylesheet"
-    href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css"
-  />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
 
-  <link
-    href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-  <script
-    src="https://kit.fontawesome.com/2f3b6e2e4c.js"
-    crossorigin="anonymous"
-  ></script>
+  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous"
-  />
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
 
   <style>
     @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+
   </style>
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-   
+  
+  
   <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
 
   <title>
@@ -43,10 +31,8 @@
   </title>
   <meta name="author" content="Fundor333" />
 
-  <meta
-    name="description"
-    content="Diario del mio primo periodo di utilizzo di Emacs"
-  />
+  <meta name="description"
+    content="Diario del mio primo periodo di utilizzo di Emacs" />
 
    
   <link rel="canonical" href="https://fundor333.com/post/il-primo-periodo-con-emacs/" />
@@ -63,7 +49,7 @@
 <meta itemprop="description" content="Diario del mio primo periodo di utilizzo di Emacs">
 <meta itemprop="datePublished" content="2017-04-21T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2017-04-21T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="798">
+<meta itemprop="wordCount" content="865">
 
 
 
@@ -89,141 +75,100 @@
 
 <body>
   
-  <div class="container">
-    <div class="row">
-      <header class="mt-5 mx-auto">
-  <nav>
-    <div class="container">
-      <div class="row mx-auto">
-        <div class="col mt-2">
-          <a href="https://fundor333.com/">
-            <img
-              id="header_logo"
-              class="rounded-circle"
-              style="width: 200px; height: 200px;"
-              src="/img/pilogo.jpg"
-            />
-          </a>
-        </div>
-        <div class="col mt-5">
-          <div class="row align-middle">
-            <a href="https://fundor333.com/">
-              <div id="title">
-                <h2>Fundor 333</h2>
-                <h3 id="subtitle">
-                  import antigravity
-                </h3>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </nav>
-</header>
+  <header class="tc">
+    <a href="https://fundor333.com/" class="f4 fw7 dib pa2 no-underline black">
+      <img src="/img/pilogo.jpg" class="br-100 pa1  b--black-10 h4 w4" alt="avatar">
+      <h1 class="f5 f4-ns fw6">Fundor 333</h1>
+      <h2 class="f6 fw2">import antigravity</h2>
+    </a>
+  </header>
 
-    </div>
-    <div class="row">
-      <div class="container">
-  <nav class="nav mx-auto">
-     
-    <li class="nav-item mx-auto">
-      <a class="nav-link" href="https://github.com/fundor333">
-        <i class="fab fa-github" aria-hidden="true"></i> &nbsp;&nbsp;</a>
-    </li>
-    
-    <li class="nav-item mx-auto">
-      <a class="nav-link" href="https://www.facebook.com/fundor333">
-        <i class="fab fa-facebook" aria-hidden="true"></i> &nbsp;&nbsp;</a>
-    </li>
-    
-    <li class="nav-item mx-auto">
-      <a class="nav-link" href="https://twitter.com/fundor333">
-        <i class="fab fa-twitter" aria-hidden="true"></i> &nbsp;&nbsp;</a>
-    </li>
-    
-    <li class="nav-item mx-auto">
-      <a class="nav-link" href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
-        <i class="fab fa-youtube" aria-hidden="true"></i> &nbsp;&nbsp;</a>
-    </li>
-    
-    <li class="nav-item mx-auto">
-      <a class="nav-link" href="https://www.instagram.com/fundor333/">
-        <i class="fab fa-instagram" aria-hidden="true"></i> &nbsp;&nbsp;</a>
-    </li>
-    
-    <li class="nav-item mx-auto">
-      <a class="nav-link" href="https://www.flickr.com/people/fundor333/">
-        <i class="fab fa-flickr" aria-hidden="true"></i> &nbsp;&nbsp;</a>
-    </li>
-    
-  </nav>
-  <nav class="mx-auto">
-    <ul class="nav d-flex justify-content-center">
-       
-      <li class="nav-item">
-        <a class="nav-link" href="/post/">
-          blog</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/packages/">
-          packages</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/hoarding/">
-          hoarding</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/about/">
-          about</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/talk/">
-          talk</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/event/">
-          convention</a>
-      </li>
-      
-    </ul>
-  </nav>
-</div>
+  <nav class="tc pv2">
+   
+  <a class="link dim black b f6 f5-ns dib mr3" href="https://github.com/fundor333">
+    <i class="fab fa-github" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="https://www.facebook.com/fundor333">
+    <i class="fab fa-facebook" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="https://twitter.com/fundor333">
+    <i class="fab fa-twitter" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+    <i class="fab fa-youtube" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="https://www.instagram.com/fundor333/">
+    <i class="fab fa-instagram" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="https://www.flickr.com/people/fundor333/">
+    <i class="fab fa-flickr" aria-hidden="true">
+    </i>
+  </a>
+  
+</nav>
+<nav class="tc pv2">
+   
+  <a class="link dim black b f6 f5-ns dib mr3" href="/post/">
+    blog
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="/packages/">
+    packages
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="/hoarding/">
+    hoarding
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="/about/">
+    about
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="/talk/">
+    talk
+  </a>
+  
+  <a class="link dim black b f6 f5-ns dib mr3" href="/event/">
+    convention
+  </a>
+  
+</nav>
 
-    </div>
-  </div>
+
+  <br>
+  <div class="center mw8 mv4">
+    
+
+<article class="ph3 ph3-m ph6-l">
+  <h2 class="f2">Il primo periodo con Emacs</h2>
+  <a href="https://fundor333.com/" class="link dim black b">home</a>
+  <a>~</a>
+  <a href='https://fundor333.com/post/il-primo-periodo-con-emacs/' class="link dim black b">Il primo periodo con Emacs</a>
+  <br>
   <hr>
-  <div class="container">
+
+  <article class="center mw8 ba b--black-10 mv4">
     
+    <img src="/images/post/primo-periodo-emacs.jpg" class="w-100 db" alt="Card image cap">
+    
+    </a>
+    <div class="pa3">
+      <a href="https://unsplash.com/photos/xf6_UOfnwLw" class="link dim black b">Photo by Joshua Oluwagbemiga on Unsplash</a>
+    </div>
+  </article>
 
-<div class="row mx-auto d-block">
-  <h2 class="text-center">Il primo periodo con Emacs</h2>
-</div>
-<div class="row mx-auto d-block">
-  <div class="d-flex justify-content-center">
-    <a href="https://fundor333.com/" class="bricciole">home</a>
-    <a>~</a>
-    <a href='https://fundor333.com/post/il-primo-periodo-con-emacs/' class="bricciole">Il primo periodo con Emacs</a>
-  </div>
-</div>
-<br>
-
-<div class="card">
-  <img class="rounded mx-auto d-block card-img-top-post" src="/images/post/primo-periodo-emacs.jpg" alt="Card image cap">
   <br>
-  <a class="d-flex justify-content-center card-link" href="https://unsplash.com/photos/xf6_UOfnwLw">Photo by Joshua Oluwagbemiga on Unsplash</a>
-  <br>
-</div>
-<br>
-
-<br>
-<article>
-      <p>Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino  usarlo come editor unico.
+  <p>Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino  usarlo come editor unico.
 La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.</p>
 <!-- raw HTML omitted -->
 <p>Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento &ldquo;bloccato e non danneggiabile&rdquo;.</p>
@@ -231,7 +176,14 @@ La parte più difficile è stata la parte iniziale dove sono dovuto entrare nell
 <h2 id="prima-fase-installazione-di-base">Prima fase installazione di base</h2>
 <p>Partiamo con ordine: si inizia con l&rsquo;installazione e comprensione dei config.
 Dopo l&rsquo;installazione ottenuta attravero il classico</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt-get install emacs</code></pre></div>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt-get install emacs</code></pre></td></tr></table>
+</div>
+</div>
 <p>Fatto questo io mi aspettavo che, dopo il primo avvio generasse i file di configurazione. Per come è stato programmato Emacs l&rsquo;avvio genera solamente il file <em>.emacs</em> se non presente mentre tutto il resto della &ldquo;struttura&rdquo; viene generata man mano che si modificano le impostazioni dei singoli elementi.</p>
 <p>Quindi ho fatto una piccola ricerca di come cambiare il tema di Emacs che, a mio parere, puo&rsquo; essere la personalizzazione corretta per iniziare a utilizzare Emacs.</p>
 <p>All&rsquo;avvio Emacs cerca un file <em>.emacs</em> ove dovrebbe trovare i config e, nel caso non lo trovi, va a <em>.emacs.d/init.el</em> ove cerca i config e, nel caso non trova nessuno dei due, genera un file <em>.emacs</em> vuoto o con le configurazioni delle &ldquo;sessione&rdquo; corrente. E qui c'è il primo punto di interesse:</p>
@@ -245,7 +197,30 @@ Dopo l&rsquo;installazione ottenuta attravero il classico</p>
 <h2 id="la-mia-configurazione-in-particolare">La mia configurazione in particolare</h2>
 <p>Ho impostato Emacs utilizzando una impostazione a progetto, in modo da poterlo condividere facilmente su GitHub o altri servizi di hosting per repository git.
 Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che sia caricato senza problemi</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;custom-theme-load-path</span> <span style="color:#e6db74">&#34;~/.emacs.d/themes&#34;</span>)
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;custom-theme-load-path</span> <span style="color:#e6db74">&#34;~/.emacs.d/themes&#34;</span>)
 
     (<span style="color:#a6e22e">load</span> <span style="color:#e6db74">&#34;~/.emacs.d/init-packages&#34;</span>)
 
@@ -263,9 +238,54 @@ Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che 
      <span style="color:#75715e">;; If you edit it by hand, you could mess it up, so be careful.</span>
      <span style="color:#75715e">;; Your init file should contain only one such instance.</span>
      <span style="color:#75715e">;; If there is more than one, they won&#39;t work right.</span>
-     )</code></pre></div>
+     )</code></pre></td></tr></table>
+</div>
+</div>
 <p>Con questa configurazione si divide le variabili di ambiente settate da Emacs (che devo ancora capira a cosa servano), il tema scelto (<a href="https://draculatheme.com/emacs">Dracula</a> in questo caso) e i settaggi per i pacchetti che vengono definiti nel file <em>init-packages.el</em>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (<span style="color:#a6e22e">require</span> <span style="color:#e6db74">&#39;package</span>)
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (<span style="color:#a6e22e">require</span> <span style="color:#e6db74">&#39;package</span>)
 
     (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
                  <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;elpy&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;http://jorgenschaefer.github.io/packages/&#34;</span>))
@@ -303,40 +323,65 @@ Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che 
     (when (<span style="color:#a6e22e">&lt;</span> emacs-major-version <span style="color:#ae81ff">24</span>)
       <span style="color:#75715e">;; For important compatibility libraries like cl-lib</span>
       (add-to-list <span style="color:#e6db74">&#39;package-archives</span> <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;gnu&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://elpa.gnu.org/packages/&#34;</span>)))
-    (package-initialize)</code></pre></div>
+    (package-initialize)</code></pre></td></tr></table>
+</div>
+</div>
 <p>Questo script in Lisp permette di elencare nella prima parte tutta una serie di repository extra da aggiungere all&rsquo;elenco dei plugin disponibili e li aggiunge all&rsquo;elenco di Emacs.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
-    	     <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;melpa&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://melpa.org/package/&#34;</span>)<span style="color:#66d9ef">t</span>)</code></pre></div>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
+    	     <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;melpa&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://melpa.org/package/&#34;</span>)<span style="color:#66d9ef">t</span>)</code></pre></td></tr></table>
+</div>
+</div>
 <p>Ad esempio questo codice aggiunge il repository <a href="https://melpa.org/">Melpa</a> all&rsquo;archivio in modo da rendere disponibili i suoi pacchetti a Emacs.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">   (<span style="color:#66d9ef">setq</span> package-list
-   	 <span style="color:#f92672">&#39;</span>(magit easy-hugo python dracula-theme))</code></pre></div>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">   (<span style="color:#66d9ef">setq</span> package-list
+   	 <span style="color:#f92672">&#39;</span>(magit easy-hugo python dracula-theme))</code></pre></td></tr></table>
+</div>
+</div>
 <p>Questo comando invece permette di elencare i pacchetti di nostro interesse. Ogni pacchetto elencato verrà installato o aggirnato e successivamente attivato all&rsquo;avvio del server Emacs</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    <span style="color:#75715e">; install the missing packages</span>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    <span style="color:#75715e">; install the missing packages</span>
     (dolist (<span style="color:#a6e22e">package</span> package-list)
       (unless (package-installed-p <span style="color:#a6e22e">package</span>)
-        (package-install <span style="color:#a6e22e">package</span>)))</code></pre></div>
+        (package-install <span style="color:#a6e22e">package</span>)))</code></pre></td></tr></table>
+</div>
+</div>
 <p>Questo è infatti il codice per l&rsquo;installazione dei pacchetti mancanti.</p>
 <p>Con questa configurazione e l&rsquo;aggiunta di un <em>.gitignore</em> abbastanza pulito mi è possibile mantenere una versione di ripristino dell&rsquo;ambiente di lavoro Emacs compatibile con ogni sistema operativo che supporta Emacs.</p>
 <p>Questa è la mia prima esperienza con Emacs e ne sono entusiasta anche se devo ancora consultare appunti per certi shortcut ma credo che andando avanti non ne avrò di bisogno.</p>
 
-      <p>by Fundor 333</p>
-</article>
+  <p>by Fundor 333</p>
 
-<hr>
-<div class="mx-auto d-block">
-   
-  <a class="tag col-4" href='https://fundor333.com/tags/emacs'>emacs</a>
-  
-  <a class="tag col-4" href='https://fundor333.com/tags/editor'>editor</a>
-  
-  <a class="tag col-4" href='https://fundor333.com/tags/ide'>ide</a>
-  
-  <a class="tag col-4" href='https://fundor333.com/tags/tool'>tool</a>
-   
-</div>
-<hr>
 
-<div id="disqus_thread"></div>
+  <hr>
+   
+  <a class="link dim black b tag" href='https://fundor333.com/tags/emacs'>emacs</a>
+  
+  <a class="link dim black b tag" href='https://fundor333.com/tags/editor'>editor</a>
+  
+  <a class="link dim black b tag" href='https://fundor333.com/tags/ide'>ide</a>
+  
+  <a class="link dim black b tag" href='https://fundor333.com/tags/tool'>tool</a>
+   
+  <hr>
+  <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -356,70 +401,28 @@ Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che 
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-<hr>
-
+  <hr>
+</article>
 
   </div>
-  <hr>
-  <footer>
-  <div class="container">
-    <div class="row">
-      <div class="container">
-        <div class="nav mx-auto">
-          <p class="nav-item mx-auto">
-            Made by
-            <a href="https://fundor333.com/">Fundor333</a> with
-            <i class="fa fa-heart" aria-hidden="true"></i> GoLang
-            <i class="fa fa-laptop" aria-hidden="true"></i>
-          </p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="nav mx-auto">
-          <p class="nav-item mx-auto">
-            Powered by
-            <a href="https://gohugo.io">Go Hugo</a> =>
-            <a href="https://github.com/fundor333/fundor333.com">Source code
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="nav mx-auto">
-          <p class="nav-item mx-auto">
-            Part of Webring
-            <a href='https://webring.xxiivv.com/#random' target='_blank'>
-              <img class="webring" src='https://webring.xxiivv.com/icon.black.svg' /></a>
-          </div>
-        </div>
-      </div>
-    </div>
+  <br>
+  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
+  <small class="f6 db tc"><img class="pa1 b--black-10 h2 w2" src='https://webring.xxiivv.com/icon.black.svg' /></small>
+  <small class="f6 db tc">© 2020 <b class="ttu">Fundor333</b></small>
+  <div class="tc mt3">
+    <a href="https://fundor333.com/" class="f6 dib ph2 link mid-gray dim">Made by Fundor333 with
+      <i class="fa fa-heart" aria-hidden="true"></i> GoLang
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+    </a>
+    <a href="https://gohugo.io" class="f6 dib ph2 link mid-gray dim">Powered by Go Hugo</a>
+    <a href="https://github.com/fundor333/fundor333.com" class="f6 dib ph2 link mid-gray dim">Source code
+    </a>
+
   </div>
 </footer>
 
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-
-</script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-  </div>
-   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
 
 <script type="application/javascript">
 var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
@@ -445,6 +448,38 @@ if (!doNotTrack) {
 </script>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    count = 0;
+    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
+      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
+      "Wev 3.0", "Buzzword",
+    ];
+    setInterval(function () {
+      count++;
+      $(".buzzword").fadeOut(400, function () {
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
+      });
+    }, 4000);
+  });
+
+</script>
+
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
 
 </body>
 
