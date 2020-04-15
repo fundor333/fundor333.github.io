@@ -6,10 +6,22 @@
     <description>Recent content in python on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Mon, 12 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sock and socket</title>
+      <link>https://fundor333.com/post/sock-and-socket/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/sock-and-socket/</guid>
+      <description>Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
+It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
+ Hello
+we need to connect to [last thing buy for the boss] system for [stuff i don&amp;rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.</description>
+    </item>
     
     <item>
       <title>E Talk Al Pycon9</title>

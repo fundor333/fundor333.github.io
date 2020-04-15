@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python</title>
+      <link>https://fundor333.com/tags/python/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>socket</title>
+      <link>https://fundor333.com/tags/socket/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/tags/socket/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>big data</title>
@@ -80,24 +98,6 @@
       <pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/tags/tecnology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>api</title>
-      <link>https://fundor333.com/tags/api/</link>
-      <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>django</title>
-      <link>https://fundor333.com/tags/django/</link>
-      <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/django/</guid>
       <description></description>
     </item>
     

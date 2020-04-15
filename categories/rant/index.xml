@@ -6,10 +6,22 @@
     <description>Recent content in rant on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/categories/rant/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sock and socket</title>
+      <link>https://fundor333.com/post/sock-and-socket/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/sock-and-socket/</guid>
+      <description>Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
+It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
+ Hello
+we need to connect to [last thing buy for the boss] system for [stuff i don&amp;rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.</description>
+    </item>
     
     <item>
       <title>Make a Tea Not Big Data</title>
@@ -104,17 +116,6 @@ Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asi
       <guid>https://fundor333.com/post/google-io-2017/</guid>
       <description>Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.
 Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.</description>
-    </item>
-    
-    <item>
-      <title>E sono passato a Hugo</title>
-      <link>https://fundor333.com/post/e-sono-passato-a-hugo/</link>
-      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/e-sono-passato-a-hugo/</guid>
-      <description>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&amp;rsquo; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
-Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
- La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&amp;rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
     </item>
     
   </channel>
