@@ -145,9 +145,9 @@
       <h1 class="f6 ttu tracked">Scrivi, push e publica</h1>
     </div>
     <a href="https://fundor333.com/post/scrivi-push-public/">
-      
-      <img src="/images/post/scrivi-push.jpg" class="w-100 db" alt="Card image cap">
-      
+
+      <img data-src="/images/post/scrivi-push.jpg" alt="Card image cap" class="w-100 db lazy" loading="lazy">
+
     </a>
     <div class="pa3">
       <a href="https://fundor333.com/post/scrivi-push-public/">Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni</a>
@@ -163,9 +163,9 @@
       <h1 class="f6 ttu tracked">Orrori delle parentesi</h1>
     </div>
     <a href="https://fundor333.com/post/orrori-delle-parentesi/">
-      
-      <img src="/images/post/orrori_della_parentesi.jpg" class="w-100 db" alt="Card image cap">
-      
+
+      <img data-src="/images/post/orrori_della_parentesi.jpg" alt="Card image cap" class="w-100 db lazy" loading="lazy">
+
     </a>
     <div class="pa3">
       <a href="https://fundor333.com/post/orrori-delle-parentesi/">Digressione sull&#39;uso delle parentesi nei linguaggi di programmazione</a>
@@ -181,9 +181,9 @@
       <h1 class="f6 ttu tracked">Gource, visualizzare Git repository</h1>
     </div>
     <a href="https://fundor333.com/post/gource-visualizzare-git-repository/">
-      
-      <img src="/images/post/gource-git.jpg" class="w-100 db" alt="Card image cap">
-      
+
+      <img data-src="/images/post/gource-git.jpg" alt="Card image cap" class="w-100 db lazy" loading="lazy">
+
     </a>
     <div class="pa3">
       <a href="https://fundor333.com/post/gource-visualizzare-git-repository/">Gource, cos&#39;è e come usarlo al meglio</a>
@@ -199,9 +199,9 @@
       <h1 class="f6 ttu tracked">Come sopravivvere a un Hackathon programmando</h1>
     </div>
     <a href="https://fundor333.com/post/sopravivvere-un-hackathon-programmando/">
-      
-      <img src="/images/post/hackathon.jpg" class="w-100 db" alt="Card image cap">
-      
+
+      <img data-src="/images/post/hackathon.jpg" alt="Card image cap" class="w-100 db lazy" loading="lazy">
+
     </a>
     <div class="pa3">
       <a href="https://fundor333.com/post/sopravivvere-un-hackathon-programmando/">Sommario della mia avventura all&#39;Hackathon eodappathon</a>
@@ -217,9 +217,9 @@
       <h1 class="f6 ttu tracked">Git, l&#39;albero delle versioni che ci salva il progetto</h1>
     </div>
     <a href="https://fundor333.com/post/git-lalbero-delle-versioni/">
-      
-      <img src="/images/post/git-albero-versioni.jpg" class="w-100 db" alt="Card image cap">
-      
+
+      <img data-src="/images/post/git-albero-versioni.jpg" alt="Card image cap" class="w-100 db lazy" loading="lazy">
+
     </a>
     <div class="pa3">
       <a href="https://fundor333.com/post/git-lalbero-delle-versioni/">Spesso e volentieri uno dei problemi dello sviluppo di software è avere backup del codice e condividerlo in modo da poterci lavorare in più persone in contemporanea senza sovrapporre le modifiche. Queste due richieste vengono soddisfatte con un software di version controlling che permetta il lavoro di multipli utenti.</a>
@@ -235,9 +235,9 @@
       <h1 class="f6 ttu tracked">Docker, la balena con i container per software</h1>
     </div>
     <a href="https://fundor333.com/post/docker-la-balena-con-i-container/">
-      
-      <img src="/images/post/docker-la-balena.jpg" class="w-100 db" alt="Card image cap">
-      
+
+      <img data-src="/images/post/docker-la-balena.jpg" alt="Card image cap" class="w-100 db lazy" loading="lazy">
+
     </a>
     <div class="pa3">
       <a href="https://fundor333.com/post/docker-la-balena-con-i-container/">Docker, cos&#39;è e come funziona</a>
@@ -303,16 +303,17 @@
 
   </div>
   <br>
-  <footer class="pv4 ph3 ph5-m ph6-l mid-gray">
-  <small class="f6 db tc"><img class="pa1 b--black-10 h2 w2" src='https://webring.xxiivv.com/icon.black.svg' /></small>
+  <footer class="pv4 ph3 ph5-m ph6-l">
+  <small class="f6 db tc"><a href='https://webring.xxiivv.com/#random' target='_blank'><img
+        class="pa1 b--black-10 h2 w2" src='https://webring.xxiivv.com/icon.black.svg' /></a></small>
   <small class="f6 db tc">© 2020 <b class="ttu">Fundor333</b></small>
   <div class="tc mt3">
-    <a href="https://fundor333.com/" class="f6 dib ph2 link mid-gray dim">Made by Fundor333 with
+    <a href="https://fundor333.com/" class="f6 ph2">Made by Fundor333 with
       <i class="fa fa-heart" aria-hidden="true"></i> GoLang
       <i class="fa fa-laptop" aria-hidden="true"></i>
     </a>
-    <a href="https://gohugo.io" class="f6 dib ph2 link mid-gray dim">Powered by Go Hugo</a>
-    <a href="https://github.com/fundor333/fundor333.com" class="f6 dib ph2 link mid-gray dim">Source code
+    <a href="https://gohugo.io" class="f6 ph2">Powered by Go Hugo</a>
+    <a href="https://github.com/fundor333/fundor333.com" class="f6 ph2">Source code
     </a>
 
   </div>
@@ -375,6 +376,59 @@ if (!doNotTrack) {
       }
     });
   }
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 20);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
 
 </script>
 
