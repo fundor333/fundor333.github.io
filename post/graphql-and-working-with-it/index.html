@@ -60,7 +60,7 @@
 
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image:src" content="https://fundor333.com/images/post/graphql-working.jpg" />
+<meta name="twitter:image:src" content="https://fundor333.com/post/graphql-and-working-with-it/graphql-working.jpg" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -161,7 +161,7 @@
 
   <article class="center mw8 ba b--black-10 mv4">
     
-    <img src="/images/post/graphql-working.jpg" class="w-100 db" alt="Card image cap">
+    <img src="/post/graphql-and-working-with-it/graphql-working.jpg" class="w-100 db" alt="Card image cap">
     
     </a>
     <div class="pa3">
@@ -175,10 +175,10 @@
 <p>For example if I need some posts from _<a href="https://jsonplaceholder.typicode.com/_">https://jsonplaceholder.typicode.com/_</a> I need to go to _<a href="https://jsonplaceholder.typicode.com/posts_">https://jsonplaceholder.typicode.com/posts_</a> and download all the posts or pass the id in the url like in _<a href="https://jsonplaceholder.typicode.com/posts/1_">https://jsonplaceholder.typicode.com/posts/1_</a>. Some time I will need only fews posta but the api give me all or one so it&rsquo;s can be some heavy lifting for the connection. And I need to know all the url and the params needed for the datas.</p>
 <p>This is why  Facebook in 2012 develop <strong><a href="http://graphql.org">GraphQL</a></strong></p>
 <p>#What is GraphQL</p>
-<p><img src="/images/post/graphql/graphql.png" alt="graphql logo"></p>
+<p><img src="graphql.png" alt="graphql logo"></p>
 <p><strong>GraphQL</strong> is a data query language which request a knowledge about the <em>schema</em> of the api.</p>
 <p>One of the best &ldquo;skill&rdquo; of <strong>GraphQL</strong> is the multi-db support. You can map multiple database in one api because the graphql server can use multiple source for build the api, and, doing so, add different&rsquo;s types of db or other type of source at the same time.</p>
-<p><img src="/images/post/graphql/db.png" alt="rest vs graphql"></p>
+<p><img src="db.png" alt="rest vs graphql"></p>
 <p>In this way you can use with one unique and uniform interface hidding behind it all the architectural dectail with only one point of comunication (the graphql url) with all the user need from the api.</p>
 <h2 id="structure-of-a-graphql-api">Structure of a GraphQL API</h2>
 <p>If you want a GraphQL&rsquo;s API you need to know how the API works.</p>
@@ -197,7 +197,7 @@
 <p>Which is the difference between Rest API and a GraphQL API? Because you can get only what you want and nothing more.</p>
 <p>Thanks to <em>Relay</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and thanks to the <em>Query</em> you can build a <em>request</em> with a selected number of element<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>  with only the needed <em>Value</em><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> .</p>
 <p>This will be usefull because some type of <em>Query</em> will be resized than the <em>SQL</em> query and you will be writing in a <em>GraphQL language</em> which check for type error and syntactic error and output error if the <em>Query</em> or the <em>Mutation</em> don&rsquo;t respect the <em>Schema</em>. In this way the <em>Api Admin</em> will allways be in controll of all the operation on the database and the user must be allways knew all the change into the <em>Schema</em></p>
-<p><img src="/images/post/graphql/graphql-request.gif" alt="graphql gif"></p>
+<p><img src="graphql-request.gif" alt="graphql gif"></p>
 <p>In this way you will have an api with only what you need for your <em>lightnet app</em> which use only the necessary connection, no more.</p>
 <p>Now I&rsquo;m working on an another article about the python implementation of <em>GraphQL</em> so wait another article.</p>
 <section class="footnotes" role="doc-endnotes">
