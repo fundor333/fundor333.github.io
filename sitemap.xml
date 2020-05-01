@@ -3,22 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fundor333.com/tags/bot/</loc>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://fundor333.com/categories/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/categories/dev/</loc>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/dotbot/</loc>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/dotfile/</loc>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/dotfiles/</loc>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/dotfiles-bot-yaml/</loc>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://fundor333.com/post/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/</loc>
+    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -52,13 +101,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/</loc>
-    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/big-data/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -82,13 +124,6 @@
   <url>
     <loc>https://fundor333.com/tags/tea/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/categories/dev/</loc>
-    <lastmod>2019-12-28T15:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -201,13 +236,6 @@
   <url>
     <loc>https://fundor333.com/tags/rest/</loc>
     <lastmod>2019-04-23T10:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/bot/</loc>
-    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -557,20 +585,6 @@
   
   <url>
     <loc>https://fundor333.com/tags/config/</loc>
-    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/dotbot/</loc>
-    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/dotfile/</loc>
     <lastmod>2017-12-04T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>

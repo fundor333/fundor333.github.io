@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="it-it">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+
+  </style>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
+
+  <title>
+    Dotfiles, bot and yaml files  - Fundor 333
+  </title>
+  <meta name="author" content="Fundor333" />
+
+  <meta name="description"
+    content="Using the same dotfiles on multiple computer in the easy way" />
+
+   
+  <link rel="canonical" href="https://fundor333.com/post/dotfiles-bot-yaml/" />
+   
+
+  
+  <meta property="og:title" content="Dotfiles, bot and yaml files" />
+<meta property="og:description" content="Using the same dotfiles on multiple computer in the easy way" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fundor333.com/post/dotfiles-bot-yaml/" />
+<meta property="article:published_time" content="2020-05-01T16:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-01T16:00:00+00:00" />
+
+  
+  <meta itemprop="name" content="Dotfiles, bot and yaml files">
+<meta itemprop="description" content="Using the same dotfiles on multiple computer in the easy way">
+<meta itemprop="datePublished" content="2020-05-01T16:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-01T16:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1478">
+
+
+
+<meta itemprop="keywords" content="bot,dotfiles,dotbot," />
+  
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image:src" content="https://fundor333.com/images/post/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg" />
+<meta name="twitter:card" content="summary" />
+
+
+<meta name="twitter:title" content="Dotfiles, bot and yaml files" />
+<meta name="twitter:description"
+  content="Using the same dotfiles on multiple computer in the easy way" />
+
+
+
+
+
+</head>
+
+
+<body>
+  
+  <header class="tc">
+    <a href="https://fundor333.com/" class="f4 fw7 dib pa2 no-underline black">
+      <img src="/img/pilogo.jpg" class="br-100 pa1 b--black-10 h4 w4" alt="avatar" loading="lazy">
+      <h1 class="f5 f4-ns fw6">Fundor 333</h1>
+      <h2 class="f6 fw2">import antigravity</h2>
+    </a>
+  </header>
+
+  <nav class="tc pv2">
+   
+  <a class="f6 f5-ns dib mr3" href="https://github.com/fundor333">
+    <i class="fab fa-github" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.facebook.com/fundor333">
+    <i class="fab fa-facebook" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://twitter.com/fundor333">
+    <i class="fab fa-twitter" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+    <i class="fab fa-youtube" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.instagram.com/fundor333/">
+    <i class="fab fa-instagram" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.flickr.com/people/fundor333/">
+    <i class="fab fa-flickr" aria-hidden="true">
+    </i>
+  </a>
+  
+</nav>
+<nav class="tc pv2">
+   
+  <a class="f6 f5-ns dib mr3" href="/post/">
+    blog
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/packages/">
+    packages
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/hoarding/">
+    hoarding
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/about/">
+    about
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/talk/">
+    talk
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/event/">
+    convention
+  </a>
+  
+</nav>
+
+
+  <br>
+  <div class="center mw8 mv4">
+    
+
+<article class="ph3 ph3-m ph6-l">
+  <h2 class="f2">Dotfiles, bot and yaml files</h2>
+  <a href="https://fundor333.com/">home</a>
+  <a>~</a>
+  <a href='https://fundor333.com/post/dotfiles-bot-yaml/'>Dotfiles, bot and yaml files</a>
+  <br>
+  <hr>
+
+  <article class="center mw8 ba b--black-10 mv4">
+    
+    <img src="/images/post/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg" class="w-100 db" alt="Card image cap">
+    
+    </a>
+    <div class="pa3">
+      <a href="https://unsplash.com/photos/y7T1lYkfg0c">Photo by Amith Nair on Unsplash</a>
+    </div>
+  </article>
+
+  <br>
+  <p>If you ever use <em>Unix</em> based system you are familiar with <em>dotfiles</em> for configuration.
+Any program has some of this file or folders laying arrount in your user root.</p>
+<p>And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work.
+So, in the end of the 2017 i find an article about dotfiles: <a href="https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/">Managing your Dotfiles</a>.
+With this article and some <em>copy-and-paste</em> from other dotfiles repo&rsquo;s on Github I made <a href="https://github.com/fundor333/dotfiles">mine</a>.
+This was in November 2017. Github suggest it was the 20 of Novembre the first version of the repo but I remember I was trying multiple idea of it and only later make a repo with clean code so It was sometime in November.</p>
+<p>Now some time has pass and I have a <strong><em>BIG FAT PROBLEM</em></strong>. I need to have my <em>dotfiles</em> synced and working on a <em>Linux Machine</em> (Arch), an <em>Apple Machine</em> and a <em>Windows Machine</em>&hellip; So not only I have multiple versions of configs but for multiple platform. And I need also some of this config on all my machine like the <em>ssh&rsquo;s config</em>.</p>
+<p>So for some time I use a notebook (<em>a book where i write notes</em> not a pc) where I log the change and this make some problems. A lots of problems.</p>
+<p><img src="/images/post/dotfiles-bot-yaml/givemy.gif" alt="Give me a big fat break"></p>
+<p>So I search for a system for launch a command and update all and I find it: <strong><em><a href="https://github.com/anishathalye/dotbot">dotbot</a></em></strong>.</p>
+<h1 id="the-bot">The bot</h1>
+<p>This is a project python where you can write an <em>install script</em> from a template and write one or more <em>_.conf.yaml</em> with the instructions. And there are multiple plugin for some package manager (<em>pip, rust, apt, brew&hellip;</em>) which can be usefull.</p>
+<p>The best way to use (and the only one) is to make the plugin repo into a submodule so it can be updated and will be always an unicum.</p>
+<p>In my case I have a multiple config installer</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
+</span><span style="color:#75715e"></span>
+set -e
+
+DEFAULT_CONFIG_PREFIX<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;default&#34;</span>
+CONFIG_SUFFIX<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.conf.yaml&#34;</span>
+DOTBOT_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.dotbot&#34;</span>
+
+DOTBOT_BIN<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bin/dotbot&#34;</span>
+BASEDIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>cd <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>dirname <span style="color:#e6db74">&#34;\${BASH_SOURCE[0]}&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> pwd<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+
+cd <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASEDIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+git submodule update --init --recursive <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+
+<span style="color:#66d9ef">for</span> conf in <span style="color:#e6db74">${</span>DEFAULT_CONFIG_PREFIX<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>@<span style="color:#e6db74">}</span>; <span style="color:#66d9ef">do</span>
+<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASEDIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_BIN<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -d <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASEDIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> --plugin-dir .dotbot-brew -c <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>conf<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+<span style="color:#66d9ef">done</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>The only thing you need to pay attention is the <em>&ndash;plugin-dir <!-- raw HTML omitted --></em> which can be use multiple times in the command, one for plugin you have. Also you can install a plugin as a submodule for the same reasons as the bot.</p>
+<h1 id="my-idea">My Idea</h1>
+<p>I have a install script which can execute one config all the time (the <em>default</em> one) and any number of config as add for the default.</p>
+<p>So I make multiple <em>setting.conf.yaml</em> one for every configuration I have and i don&rsquo;t like it.
+I have:</p>
+<ul>
+<li><strong><em>default.conf.yaml</em></strong>: ssh setting, git setting and some command for one or two folder</li>
+<li><strong><em>windows.conf.yaml</em></strong>: cmd aliases for my pleasure</li>
+<li><strong><em>mac.conf.yaml</em></strong>: zsh and some mac specific config</li>
+<li><strong><em>linux.conf.yaml</em></strong>: zsh and some linux specific config</li>
+</ul>
+<p>Every time you run the command <em>./install</em> the <em>default.conf.yaml</em> run and, if you request multiple config, it run <em>default.cong.yaml</em> plus every config you request. And all the configs files are into a folder, one for each and no way to make something similar to function or there is?</p>
+<p>I need something more modular, where i can set the config for program/app/stuff in one file and &ldquo;import&rdquo; in a list-config, so I can call a list-config or a single/multiple program&rsquo;s configs.</p>
+<p>In this way I don&rsquo;t have duplication of code or config long km and make multiple list-config more easy to read because they become easy to read.</p>
+<h1 id="new-idea-because-i-don-t-like-the-first">New Idea because I don&rsquo; t like the first</h1>
+<p>I re-read the wiki and I make the <em>meta</em> files. The make file are the solution of my problem.</p>
+<p>There are two plus one type of meta file:</p>
+<ul>
+<li><strong><em>meta/configs/</em></strong>: single script of config. You can set into this a single program or a &ldquo;program&rdquo; of config. In any case this is the &ldquo;atomic config&rdquo; of the bot: you can call it as an all not part of this</li>
+<li><strong><em>meta/profiles/</em></strong>: the profile of the machine. I use this for make distinction between <em>mac</em>, <em>linux</em> or <em>windows</em> but you can set for something like <em>work</em> or <em>server</em></li>
+<li><strong><em>meta/base.yaml</em></strong>: the base, allways called one. Here you set some default and the cleaner command</li>
+</ul>
+<p>Whith this I need to change the install file and make some difference as show in the Wiki<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
+</span><span style="color:#75715e"></span>
+set -e
+
+BASE_CONFIG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;base&#34;</span>
+CONFIG_SUFFIX<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.yaml&#34;</span>
+
+META_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;meta&#34;</span>
+CONFIG_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;configs&#34;</span>
+PROFILES_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profiles&#34;</span>
+
+DOTBOT_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.dotbot&#34;</span>
+DOTBOT_BIN<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bin/dotbot&#34;</span>
+
+BASE_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>cd <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>dirname <span style="color:#e6db74">&#34;\${BASH_SOURCE[0]}&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> pwd<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+
+cd <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+git -C <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> submodule sync --quiet --recursive
+git submodule update --init --recursive <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/\${DOTBOT_DIR}&#34;</span>
+
+<span style="color:#66d9ef">while</span> IFS<span style="color:#f92672">=</span> read -r config; <span style="color:#66d9ef">do</span>
+CONFIGS<span style="color:#f92672">+=</span><span style="color:#e6db74">&#34; </span><span style="color:#e6db74">${</span>config<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+<span style="color:#66d9ef">done</span> &lt; <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>PROFILES_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span>$1<span style="color:#e6db74">&#34;</span>
+
+shift
+
+echo <span style="color:#ae81ff">\$</span><span style="color:#f92672">{</span>CONFIGS<span style="color:#f92672">}</span>
+
+<span style="color:#66d9ef">for</span> config in <span style="color:#e6db74">${</span>CONFIGS<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>@<span style="color:#e6db74">}</span>; <span style="color:#66d9ef">do</span>
+echo -e <span style="color:#e6db74">&#34;\nConfigure </span>$config<span style="color:#e6db74">&#34;</span>
+	configFile<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>mktemp<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> ; echo -e <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>&lt;<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>BASE_CONFIG<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">\n</span><span style="color:#66d9ef">$(</span>&lt;<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>CONFIG_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>config<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> &gt; <span style="color:#e6db74">&#34;</span>$configFile<span style="color:#e6db74">&#34;</span>
+<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_BIN<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -d <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -c <span style="color:#e6db74">&#34;</span>$configFile<span style="color:#e6db74">&#34;</span> ; rm -f <span style="color:#e6db74">&#34;\$configFile&#34;</span>
+<span style="color:#66d9ef">done</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Make particolar attention of the begginning of the script because is were you can find the configuration for the script.</p>
+<p>This new script can run with or without profile. And you can also add plugins in the command as the first install script.</p>
+<h2 id="the-config-files">The config files</h2>
+<p>Now I need to write the config files and it is an easy task. All I need to do is to use this commands and their options:</p>
+<ul>
+<li><strong><em>link</em></strong>: make a <em>symbolically link</em> of the file or directory from one of the file or one of the directory of the dotfiles&rsquo; repo</li>
+<li><strong><em>create</em></strong>: make an empty directory</li>
+<li><strong><em>shell</em></strong>: execute command in shell in the base directory (that is specified when running the installer)</li>
+<li><strong><em>clean</em></strong>: remove all the dead symbolic links in the path</li>
+<li><strong><em>defaults</em></strong>: default option for all the command that follow</li>
+<li><strong><em>plugins commands</em></strong>: the command of the installed plugins</li>
+</ul>
+<p>Now I need to write a <strong><em>meta/base.yaml</em></strong> file for the default command:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#66d9ef">defaults</span>:
+    <span style="color:#66d9ef">link</span>:
+      <span style="color:#66d9ef">create</span>: <span style="color:#66d9ef">true</span>
+      <span style="color:#66d9ef">relink</span>: <span style="color:#66d9ef">true</span>
+      <span style="color:#66d9ef">force</span>: <span style="color:#66d9ef">true</span>
+
+- <span style="color:#66d9ef">link</span>:
+    <span style="color:#66d9ef">~/script</span>:
+
+- <span style="color:#66d9ef">shell</span>:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [chmod +x ~/script/<span style="color:#75715e">*]</span>
+
+- <span style="color:#66d9ef">clean</span>: [<span style="color:#e6db74">&#34;~&#34;</span>]</code></pre></td></tr></table>
+</div>
+</div>
+<p>I start with the default option for the <em>link</em> command:</p>
+<ul>
+<li><strong><em>create</em></strong> for creating the parent directories as needed</li>
+<li><strong><em>relink</em></strong> removing the old symlink if present</li>
+<li><strong><em>force</em></strong> force the new link</li>
+</ul>
+<p>This is default for my configs.</p>
+<p>After this there is a <em>link</em> to make my default script directory linked in the home directory of the user.</p>
+<p>Then we have the <em>shell</em> command with the command for import/download all the submodules of the project and the command for make executable the script folder.</p>
+<p>And we end with the <em>clean</em> command with I clean the home from dead symbolic links and delete them all.</p>
+<p>After this I need to make my fist profile, the <em>mac</em> one. So I make a new file <strong><em>make/profiles/mac</em></strong></p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">git
+programming
+ssh
+zsh</code></pre></td></tr></table>
+</div>
+</div>
+<p>Every one of this name is a yaml file in the <strong><em>makefile/configs</em></strong> with the command to make/copy/something for the program/stuff is name of.
+For example <em>git</em> is:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#66d9ef">link</span>:
+          <span style="color:#66d9ef">~/.gitconfig</span>:
+          ~/.gitignore_global:</code></pre></td></tr></table>
+</div>
+</div>
+<p>In this yaml the bot links in the path <strong><em>~/.gitconfig</em></strong> to the file <strong><em>gitconfig</em></strong> and make the same with <strong><em>~/.gitignore_global</em></strong>.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>In this way I can build multiple file for all the case I need. Some example is <em>ssh</em> or <em>zsh</em> or the <em>emacs</em> config in my <a href="https://github.com/fundor333/dotfiles">repo</a> which use the configuration describe in this post. There are some files not used like a <strong><em>requirements.txt</em></strong> or <strong><em>choco.ps1</em></strong> that I don&rsquo;t know if it&rsquo;s a good idea.</p>
+<p>In any case if you write a good <em>dotfiles repo</em> with <em>dotbot</em> you need to keep the <strong><em>idempotency</em></strong><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> of the bot execution so you are <strong><em>mathematically</em></strong> certan that the execution don&rsquo;t make different installation with the same command.</p>
+<p>If you want to copy some part of my config you can do it but remember:</p>
+<blockquote>
+<p>Dotfiles are supposed to contain your personal settings — what works for someone else isn’t necessarily optimal for you. If certain configurations worked for everybody, those settings would have been built into programs as defaults. Blindly cloning someone else’s dotfiles, especially without having an understanding of how everything works, is not the optimal approach.</p>
+<p><a href="https://www.anishathalye.com/2014/08/03/managing-your-dotfiles/">Anish Athalye</a></p>
+</blockquote>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>As describe in the wiki I rename the file as <em>install-profile</em> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Be carefull, if you put a path after the <em>:</em> the bot use the path. If you don&rsquo;t the bot will search a file in the dotfile folder for the same path without the starting dot (if present) <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><strong><em>Idempotence</em></strong>: is the property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application (from <a href="https://en.wikipedia.org/wiki/Idempotence">Wikipedia</a>) <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+  <p>by Fundor 333</p>
+
+
+  <hr>
+   
+  <a class="tag" href='https://fundor333.com/tags/bot'>bot</a>
+  
+  <a class="tag" href='https://fundor333.com/tags/dotfiles'>dotfiles</a>
+  
+  <a class="tag" href='https://fundor333.com/tags/dotbot'>dotbot</a>
+   
+  <hr>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  <hr>
+</article>
+
+  </div>
+  <br>
+  <footer class="pv4 ph3 ph5-m ph6-l">
+  <small class="f6 db tc"><a href='https://webring.xxiivv.com/#random' target='_blank'><img
+        class="pa1 b--black-10 h2 w2" src='https://webring.xxiivv.com/icon.black.svg' /></a></small>
+  <small class="f6 db tc">© 2020 <b class="ttu">Fundor333</b></small>
+  <div class="tc mt3">
+    <a href="https://fundor333.com/" class="f6 ph2">Made by Fundor333 with
+      <i class="fa fa-heart" aria-hidden="true"></i> GoLang
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+    </a>
+    <a href="https://gohugo.io" class="f6 ph2">Powered by Go Hugo</a>
+    <a href="https://github.com/fundor333/fundor333.com" class="f6 ph2">Source code
+    </a>
+
+  </div>
+</footer>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-44064318-2', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    count = 0;
+    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
+      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
+      "Wev 3.0", "Buzzword",
+    ];
+    setInterval(function () {
+      count++;
+      $(".buzzword").fadeOut(400, function () {
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
+      });
+    }, 4000);
+  });
+
+</script>
+
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 20);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+
+</body>
+
+</html>

@@ -6,10 +6,20 @@
     <description>Recent content in dev on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sat, 28 Dec 2019 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 16:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dotfiles, bot and yaml files</title>
+      <link>https://fundor333.com/post/dotfiles-bot-yaml/</link>
+      <pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/dotfiles-bot-yaml/</guid>
+      <description>If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
+And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
+    </item>
     
     <item>
       <title>Mew and programming</title>
@@ -114,16 +124,6 @@ Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;ann
       <description>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
 If I need some data I need to go to the url of the API and go to the subpath of the data I want.
 For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.</description>
-    </item>
-    
-    <item>
-      <title>Pipenv e come tutto è in uno</title>
-      <link>https://fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</link>
-      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</guid>
-      <description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
-Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
     </item>
     
   </channel>

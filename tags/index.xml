@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 16:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>bot</title>
+      <link>https://fundor333.com/tags/bot/</link>
+      <pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/tags/bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotbot</title>
+      <link>https://fundor333.com/tags/dotbot/</link>
+      <pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/tags/dotbot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotfile</title>
+      <link>https://fundor333.com/tags/dotfile/</link>
+      <pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/tags/dotfile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotfiles</title>
+      <link>https://fundor333.com/tags/dotfiles/</link>
+      <pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/tags/dotfiles/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>python</title>
@@ -62,42 +98,6 @@
       <pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/tags/pokemon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://fundor333.com/tags/programming/</link>
-      <pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>devrant</title>
-      <link>https://fundor333.com/tags/devrant/</link>
-      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/devrant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>buzzword</title>
-      <link>https://fundor333.com/tags/buzzword/</link>
-      <pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/buzzword/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tecnology</title>
-      <link>https://fundor333.com/tags/tecnology/</link>
-      <pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/tecnology/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,20 @@
     <description>Recent content in bot on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 05 Feb 2019 10:11:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 16:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/bot/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dotfiles, bot and yaml files</title>
+      <link>https://fundor333.com/post/dotfiles-bot-yaml/</link>
+      <pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/dotfiles-bot-yaml/</guid>
+      <description>If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
+And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
+    </item>
     
     <item>
       <title>DevOps, ChatBot e NPM</title>
