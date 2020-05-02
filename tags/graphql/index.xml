@@ -13,10 +13,10 @@
     
     <item>
       <title>GraphQL and working with it</title>
-      <link>https://fundor333.com/post/graphql-and-working-with-it/</link>
+      <link>https://fundor333.com/post/2018/graphql-and-working-with-it/</link>
       <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/graphql-and-working-with-it/</guid>
+      <guid>https://fundor333.com/post/2018/graphql-and-working-with-it/</guid>
       <description>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
 If I need some data I need to go to the url of the API and go to the subpath of the data I want.
 For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.</description>

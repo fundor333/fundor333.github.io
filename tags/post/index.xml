@@ -13,10 +13,10 @@
     
     <item>
       <title>Django Rest Framework: Multiple post</title>
-      <link>https://fundor333.com/post/django-rest-framework-multiple-post/</link>
+      <link>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</link>
       <pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/django-rest-framework-multiple-post/</guid>
+      <guid>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</guid>
       <description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.

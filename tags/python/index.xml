@@ -13,10 +13,10 @@
     
     <item>
       <title>Sock and socket</title>
-      <link>https://fundor333.com/post/sock-and-socket/</link>
+      <link>https://fundor333.com/post/2020/sock-and-socket/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/sock-and-socket/</guid>
+      <guid>https://fundor333.com/post/2020/sock-and-socket/</guid>
       <description>Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
 It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
  Hello
@@ -25,10 +25,10 @@ we need to connect to [last thing buy for the boss] system for [stuff i don&amp;
     
     <item>
       <title>E Talk Al Pycon9</title>
-      <link>https://fundor333.com/post/e-talk-al-pycon9/</link>
+      <link>https://fundor333.com/post/2018/e-talk-al-pycon9/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/e-talk-al-pycon9/</guid>
+      <guid>https://fundor333.com/post/2018/e-talk-al-pycon9/</guid>
       <description>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
 Facciamo un po&amp;rsquo; di ordine:
  Ho un blog gestito attraverso un generatore di siti statici Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi Ho una passione per il formato file .</description>
@@ -36,29 +36,29 @@ Facciamo un po&amp;rsquo; di ordine:
     
     <item>
       <title>Il mio Paperplane</title>
-      <link>https://fundor333.com/post/il-mio-paperplane/</link>
+      <link>https://fundor333.com/post/2017/il-mio-paperplane/</link>
       <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/il-mio-paperplane/</guid>
+      <guid>https://fundor333.com/post/2017/il-mio-paperplane/</guid>
       <description>Ultimamente ho cambiato lavoro e ho cambiato alcuni aspetti secondari della mia vita di cui non sento la mancanza ma risulto stare meglio. In tutto ciò ho deciso che sono troppo vecchio (25 anni sono tanti, tutta una vita per me) e che non posso permettermi di perdere altro tempo (e qui sembro una delle vittime dei Signori Grigi di Momo). Per questo motivo mi sono lanciato in un grosso progetto personale: Paperplane.</description>
     </item>
     
     <item>
       <title>Pipenv e come tutto è in uno</title>
-      <link>https://fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</link>
+      <link>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/pipenv-e-come-tutto-e-in-uno/</guid>
+      <guid>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</guid>
       <description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
 Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
     </item>
     
     <item>
       <title>Bot, Telegram e programmazione funzionale</title>
-      <link>https://fundor333.com/post/bot-telegram-e-programmazione-funzionale/</link>
+      <link>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</link>
       <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/bot-telegram-e-programmazione-funzionale/</guid>
+      <guid>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</guid>
       <description>&lt;p&gt;Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.&lt;/p&gt;
 &lt;h2 id=&#34;linizio-di-tutto&#34;&gt;L&amp;rsquo;inizio di tutto&lt;/h2&gt;
 &lt;p&gt;Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria &lt;a href=&#34;https://python-telegram-bot.org/&#34;&gt;python-telegram-bot&lt;/a&gt; e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a &amp;ldquo;ascoltatore&amp;rdquo; che la esegue quando riceve il comando.&lt;/p&gt;
@@ -76,10 +76,10 @@ Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi o
     
     <item>
       <title>Grumpy, come convertire il serpente nel gopher</title>
-      <link>https://fundor333.com/post/grumpy-come-convertire-il-serpente-nel-gopher/</link>
+      <link>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</link>
       <pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/post/grumpy-come-convertire-il-serpente-nel-gopher/</guid>
+      <guid>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</guid>
       <description>&lt;p&gt;Io sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.&lt;/p&gt;
 &lt;p&gt;Quindi quando ho visto che Google lancia Grumpy in un articolo nel loro &lt;a href=&#34;https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html&#34;&gt;blog&lt;/a&gt; non potevo che essere incuriosito  e interessato ad avere ancora più notizie sul questo progetto. E, grazie ad un podcast che ascolto ho avuto ancora più notizie.&lt;/p&gt;
 &lt;p&gt;Io sono iscritto al podcast &lt;a href=&#34;https://talkpython.fm/&#34;&gt;Talk Python&lt;/a&gt; dove in un &lt;a href=&#34;https://talkpython.fm/episodes/show/95/grumpy-running-python-on-go&#34;&gt;episodio&lt;/a&gt; è stato intervistato Dylan Trotter, Ingegniere Youtube e un entusiasta di GoLang.&lt;/p&gt;</description>

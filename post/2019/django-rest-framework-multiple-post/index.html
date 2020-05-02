@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="it-it">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+
+  </style>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
+
+  <title>
+    Django Rest Framework: Multiple post  - Fundor 333
+  </title>
+  <meta name="author" content="Fundor333" />
+
+  <meta name="description"
+    content="How to make a massive put with Django Rest Framework" />
+
+   
+  <link rel="canonical" href="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" />
+   
+
+  
+  <meta property="og:title" content="Django Rest Framework: Multiple post" />
+<meta property="og:description" content="How to make a massive put with Django Rest Framework" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" />
+<meta property="article:published_time" content="2019-04-23T10:00:00+00:00" />
+<meta property="article:modified_time" content="2019-04-23T10:00:00+00:00" />
+
+  
+  <meta itemprop="name" content="Django Rest Framework: Multiple post">
+<meta itemprop="description" content="How to make a massive put with Django Rest Framework">
+<meta itemprop="datePublished" content="2019-04-23T10:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-23T10:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="275">
+
+
+
+<meta itemprop="keywords" content="django,rest,post,api," />
+  
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image:src" content="https://fundor333.com/api.gif" />
+<meta name="twitter:card" content="summary" />
+
+
+<meta name="twitter:title" content="Django Rest Framework: Multiple post" />
+<meta name="twitter:description"
+  content="How to make a massive put with Django Rest Framework" />
+
+
+
+
+
+</head>
+
+
+<body>
+  
+  <header class="tc">
+    <a href="https://fundor333.com/" class="f4 fw7 dib pa2 no-underline black">
+      <img src="/img/pilogo.jpg" class="br-100 pa1 b--black-10 h4 w4" alt="avatar" loading="lazy">
+      <h1 class="f5 f4-ns fw6">Fundor 333</h1>
+      <h2 class="f6 fw2">import antigravity</h2>
+    </a>
+  </header>
+
+  <nav class="tc pv2">
+   
+  <a class="f6 f5-ns dib mr3" href="https://github.com/fundor333">
+    <i class="fab fa-github" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.facebook.com/fundor333">
+    <i class="fab fa-facebook" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://twitter.com/fundor333">
+    <i class="fab fa-twitter" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+    <i class="fab fa-youtube" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.instagram.com/fundor333/">
+    <i class="fab fa-instagram" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.flickr.com/people/fundor333/">
+    <i class="fab fa-flickr" aria-hidden="true">
+    </i>
+  </a>
+  
+</nav>
+<nav class="tc pv2">
+   
+  <a class="f6 f5-ns dib mr3" href="/post/">
+    blog
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/packages/">
+    packages
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/hoarding/">
+    hoarding
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/about/">
+    about
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/talk/">
+    talk
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/event/">
+    convention
+  </a>
+  
+</nav>
+
+
+  <br>
+  <div class="center mw8 mv4">
+    
+
+<article class="ph3 ph3-m ph6-l">
+  <h2 class="f2">Django Rest Framework: Multiple post</h2>
+  <a href="https://fundor333.com/">home</a>
+  <a>~</a>
+  <a href='https://fundor333.com/post/2019/django-rest-framework-multiple-post/'>Django Rest Framework: Multiple post</a>
+  <br>
+  <hr>
+
+  <article class="center mw8 ba b--black-10 mv4">
+    
+    
+    <img src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api.gif" class="w-100 db" alt="Card image cap">
+    
+    </a>
+    <div class="pa3">
+      <a href=""></a>
+    </div>
+  </article>
+
+  <br>
+  <p>I need to have a massive <strong>put</strong> in my rest endpoint and Django Rest Framework doesn&rsquo;t do it. So I make my personal method for mycase.</p>
+<h2 id="setup-fo-the-project">Setup fo the project</h2>
+<p>You need to follow the tutorial from the official documentation of <a href="https://www.django-rest-framework.org"><strong>Django Rest Framework</strong></a>.</p>
+<p>After this you have a <em>MyModel</em>, MyModelSerializer and a view class MyModelListPost.</p>
+<h2 id="why-i-cant-use-the-default">Why I can&rsquo;t use the default?</h2>
+<p>After you did the tutorial you have a base for a <strong>standard</strong> Django Rest Framework. This mean that you have only a get massive not an update massive. So we make one from scratch.</p>
+<h2 id="the-__code__">The <strong>CODE</strong></h2>
+<p>This is the code for <strong>massive put</strong>. You need to map your classes and your fields for make this code working</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"> 
+<span style="color:#75715e"># Code from https://fundor333.com</span>
+
+<span style="color:#f92672">from</span> rest_framework.response <span style="color:#f92672">import</span> Response 
+<span style="color:#f92672">from</span> rest_framework.views i_port APIView 
+<span style="color:#f92672">from</span> rest.models <span style="color:#f92672">import</span> MyModel_ 
+<span style="color:#f92672">from</span> rest_framework <span style="color:#f92672">import</span> generics
+<span style="color:#f92672">from</span> rest.serializer <span style="color:#f92672">import</span> MyModelSerializer
+
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyModelListPost</span>(generics<span style="color:#f92672">.</span>GenericAPIView, APIView): 
+    queryset <span style="color:#f92672">=</span> MyModel<span style="color:#f92672">.</span>objects<span style="color:#f92672">.</span>all() 
+    serializer_class <span style="color:#f92672">=</span> MyModelSerializer
+
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">put</span>(self, request, <span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
+        output <span style="color:#f92672">=</span> []
+        <span style="color:#66d9ef">for</span> data <span style="color:#f92672">in</span> request<span style="color:#f92672">.</span>data:
+            <span style="color:#66d9ef">try</span>:
+                instance <span style="color:#f92672">=</span> MyModel<span style="color:#f92672">.</span>objects<span style="color:#f92672">.</span>get(unique_id<span style="color:#f92672">=</span>data[<span style="color:#e6db74">&#34;unique_id&#34;</span>])
+                created <span style="color:#f92672">=</span> False
+            <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span>:
+                instance <span style="color:#f92672">=</span> MyModel<span style="color:#f92672">.</span>objects<span style="color:#f92672">.</span>create(
+                    field1<span style="color:#f92672">=</span>data[<span style="color:#e6db74">&#34;field1&#34;</span>],
+                    field2<span style="color:#f92672">=</span>data[<span style="color:#e6db74">&#34;field2&#34;</span>],
+                )
+                created <span style="color:#f92672">=</span> True
+    
+            <span style="color:#66d9ef">if</span> created:
+                serializer <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>get_serializer(data<span style="color:#f92672">=</span>data)
+            <span style="color:#66d9ef">else</span>:
+                serializer <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>get_serializer(instance, data<span style="color:#f92672">=</span>data)
+            <span style="color:#66d9ef">if</span> serializer<span style="color:#f92672">.</span>is_valid():
+                serializer<span style="color:#f92672">.</span>save()
+                output<span style="color:#f92672">.</span>append(serializer<span style="color:#f92672">.</span>data)
+            <span style="color:#66d9ef">else</span>:
+                output<span style="color:#f92672">.</span>append(serializer<span style="color:#f92672">.</span>_errors)
+        <span style="color:#66d9ef">return</span> Response(output, status<span style="color:#f92672">=</span>status<span style="color:#f92672">.</span>HTTP_200_OK)</code></pre></td></tr></table>
+</div>
+</div>
+<p>In this case we use the <strong>unique_id</strong> to find any instance and update one by one with the <strong>get</strong> method.
+I know it&rsquo;s not very Python Way but if you have some better solution please write below. Thanks</p>
+
+  <p>by Fundor 333</p>
+
+
+  <hr>
+   
+  <a class="tag" href='https://fundor333.com/tags/django'>django</a>
+  
+  <a class="tag" href='https://fundor333.com/tags/rest'>rest</a>
+  
+  <a class="tag" href='https://fundor333.com/tags/post'>post</a>
+  
+  <a class="tag" href='https://fundor333.com/tags/api'>api</a>
+   
+  <hr>
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  <hr>
+</article>
+
+  </div>
+  <br>
+  <footer class="pv4 ph3 ph5-m ph6-l">
+  <small class="f6 db tc"><a href='https://webring.xxiivv.com/#random' target='_blank'><img
+        class="pa1 b--black-10 h2 w2" src='https://webring.xxiivv.com/icon.black.svg' /></a></small>
+  <small class="f6 db tc">© 2020 <b class="ttu">Fundor333</b></small>
+  <div class="tc mt3">
+    <a href="https://fundor333.com/" class="f6 ph2">Made by Fundor333 with
+      <i class="fa fa-heart" aria-hidden="true"></i> GoLang
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+    </a>
+    <a href="https://gohugo.io" class="f6 ph2">Powered by Go Hugo</a>
+    <a href="https://github.com/fundor333/fundor333.com" class="f6 ph2">Source code
+    </a>
+
+  </div>
+</footer>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-44064318-2', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    count = 0;
+    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
+      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
+      "Wev 3.0", "Buzzword",
+    ];
+    setInterval(function () {
+      count++;
+      $(".buzzword").fadeOut(400, function () {
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
+      });
+    }, 4000);
+  });
+
+</script>
+
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 360);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+
+</body>
+
+</html>
