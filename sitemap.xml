@@ -1017,6 +1017,12 @@
   </url>
   
   <url>
+    <loc>https://fundor333.com/now/</loc>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://fundor333.com/packages/</loc>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
