@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boardgames on Fundor 333</title>
+    <link>https://fundor333.com/boardgame/</link>
+    <description>Recent content in Boardgames on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    
+	<atom:link href="https://fundor333.com/boardgame/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sushi_go</title>
+      <link>https://fundor333.com/boardgame/sushi_go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/boardgame/sushi_go/</guid>
+      <description>A fast card game about sushi. You need to get the best sushi combination after 3 round of &amp;ldquo;tacking from the trail&amp;rdquo;. It&amp;rsquo;s a fast game for 2 to 8 people. The duration of the game don&amp;rsquo;t change with the numbers of player.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -969,6 +969,12 @@
   </url>
   
   <url>
+    <loc>https://fundor333.com/boardgame/</loc>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://fundor333.com/event/2017-04-06-databeers-tuscany-3/</loc>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -1042,6 +1048,12 @@
   
   <url>
     <loc>https://fundor333.com/event/2016-05-14-scala-italy/</loc>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/boardgame/sushi_go/</loc>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
