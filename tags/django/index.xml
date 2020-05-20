@@ -6,10 +6,21 @@
     <description>Recent content in django on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Tue, 23 Apr 2019 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/django/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Make a Excel Django combo</title>
+      <link>https://fundor333.com/post/2020/excel-django-combo/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
+      <description>Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
+I use the pyexcel and pyexcel-xls module for this work.
+PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
+    </item>
     
     <item>
       <title>Django Rest Framework: Multiple post</title>

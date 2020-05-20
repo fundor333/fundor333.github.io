@@ -6,10 +6,21 @@
     <description>Recent content on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Fri, 01 May 2020 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Make a Excel Django combo</title>
+      <link>https://fundor333.com/post/2020/excel-django-combo/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
+      <description>Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
+I use the pyexcel and pyexcel-xls module for this work.
+PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
+    </item>
     
     <item>
       <title>Dotfiles, bot and yaml files</title>
@@ -115,23 +126,6 @@ Why I can&amp;rsquo;t use the default? After you did the tutorial you have a bas
       <description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
 Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
 Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
-    </item>
-    
-    <item>
-      <title>DataBeers Venezia #6</title>
-      <link>https://fundor333.com/event/2018-11-06-databeers-venezia-6/</link>
-      <pubDate>Tue, 06 Nov 2018 17:30:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/event/2018-11-06-databeers-venezia-6/</guid>
-      <description>DataBeers Venezia #6 - 30.11.18 @ Negozio Piave 67, Venezia
-We are back again, data lovers from the Lagoon!
-Great speakers for you next Friday November 30 @ Negozio Piave 67, Mestre, Venezia, starting at 18:30 sharp!
-Tonight we have the pleasure to be with:
-**Lorenzo Brutti @lbrutti **
-Data lover indipendente - Mogliano Veneto
-Datawalking: passeggiare nel datascape **Silvia Pavan **
-Lead Analyst at FIS - Vicenza
-La natura dà i numeri?</description>
     </item>
     
   </channel>

@@ -6,10 +6,21 @@
     <description>Recent content in dev on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Fri, 01 May 2020 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Make a Excel Django combo</title>
+      <link>https://fundor333.com/post/2020/excel-django-combo/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
+      <description>Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
+I use the pyexcel and pyexcel-xls module for this work.
+PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
+    </item>
     
     <item>
       <title>Dotfiles, bot and yaml files</title>
@@ -113,17 +124,6 @@ GitHub imports to GitLab are still going up!</description>
       <description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
 Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
  ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
-    </item>
-    
-    <item>
-      <title>GraphQL and working with it</title>
-      <link>https://fundor333.com/post/2018/graphql-and-working-with-it/</link>
-      <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2018/graphql-and-working-with-it/</guid>
-      <description>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
-If I need some data I need to go to the url of the API and go to the subpath of the data I want.
-For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.</description>
     </item>
     
   </channel>

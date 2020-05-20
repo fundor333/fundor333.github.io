@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Fri, 01 May 2020 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>django</title>
+      <link>https://fundor333.com/tags/django/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>excel</title>
+      <link>https://fundor333.com/tags/excel/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/tags/excel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bot</title>
@@ -80,24 +98,6 @@
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/tags/rant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tea</title>
-      <link>https://fundor333.com/tags/tea/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/tea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pokemon</title>
-      <link>https://fundor333.com/tags/pokemon/</link>
-      <pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/pokemon/</guid>
       <description></description>
     </item>
     
