@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>generator on Fundor 333</title>
+    <link>https://fundor333.com/tags/generator/</link>
+    <description>Recent content in generator on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Wed, 03 Jun 2020 14:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fundor333.com/tags/generator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Al You Need Is Static</title>
+      <link>https://fundor333.com/post/2020/al-you-need-is-static/</link>
+      <pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
+      <description>You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
+Some hystory To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,20 @@
     <description>Recent content on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2020 14:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Al You Need Is Static</title>
+      <link>https://fundor333.com/post/2020/al-you-need-is-static/</link>
+      <pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
+      <description>You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
+Some hystory To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.</description>
+    </item>
     
     <item>
       <title>Make a Excel Django combo</title>
@@ -115,17 +125,6 @@ Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha se
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
 Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
-    </item>
-    
-    <item>
-      <title>DevOps, ChatBot e NPM</title>
-      <link>https://fundor333.com/post/2019/devops-chatbot-npm/</link>
-      <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2019/devops-chatbot-npm/</guid>
-      <description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
-Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
-Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
     </item>
     
   </channel>
