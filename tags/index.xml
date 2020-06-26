@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 03 Jun 2020 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 09:44:10 +0200</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>automatism</title>
+      <link>https://fundor333.com/tags/automatism/</link>
+      <pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+      
+      <guid>https://fundor333.com/tags/automatism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backend</title>
+      <link>https://fundor333.com/tags/backend/</link>
+      <pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+      
+      <guid>https://fundor333.com/tags/backend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>django</title>
+      <link>https://fundor333.com/tags/django/</link>
+      <pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+      
+      <guid>https://fundor333.com/tags/django/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>generator</title>
@@ -35,15 +62,6 @@
       <pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/tags/static-site/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>django</title>
-      <link>https://fundor333.com/tags/django/</link>
-      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/django/</guid>
       <description></description>
     </item>
     
@@ -80,24 +98,6 @@
       <pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/tags/dotfiles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://fundor333.com/tags/python/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>socket</title>
-      <link>https://fundor333.com/tags/socket/</link>
-      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/tags/socket/</guid>
       <description></description>
     </item>
     

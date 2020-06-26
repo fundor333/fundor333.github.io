@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Fundor 333</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Wed, 03 Jun 2020 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 09:44:10 +0200</lastBuildDate>
     
 	<atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building My Backend</title>
+      <link>https://fundor333.com/post/2020/building-my-backend/</link>
+      <pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/building-my-backend/</guid>
+      <description>More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
+One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
+    </item>
     
     <item>
       <title>Al You Need Is Static</title>
@@ -114,17 +124,6 @@ Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha se
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
 Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
-    </item>
-    
-    <item>
-      <title>DevOps, ChatBot e NPM</title>
-      <link>https://fundor333.com/post/2019/devops-chatbot-npm/</link>
-      <pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2019/devops-chatbot-npm/</guid>
-      <description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
-Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
-Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
     </item>
     
   </channel>

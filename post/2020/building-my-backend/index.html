@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="it-it">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+
+  </style>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
+
+  <title>
+    Building My Backend  - Fundor 333
+  </title>
+  <meta name="author" content="Fundor333" />
+
+  <meta name="description"
+    content="Why someone need a server and how I build mine" />
+
+   
+  <link rel="canonical" href="https://fundor333.com/post/2020/building-my-backend/" />
+   
+
+  
+  <meta property="og:title" content="Building My Backend" />
+<meta property="og:description" content="Why someone need a server and how I build mine" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fundor333.com/post/2020/building-my-backend/" />
+<meta property="article:published_time" content="2020-06-26T09:44:10+02:00" />
+<meta property="article:modified_time" content="2020-06-26T09:44:10+02:00" />
+
+  
+  <meta itemprop="name" content="Building My Backend">
+<meta itemprop="description" content="Why someone need a server and how I build mine">
+<meta itemprop="datePublished" content="2020-06-26T09:44:10&#43;02:00" />
+<meta itemprop="dateModified" content="2020-06-26T09:44:10&#43;02:00" />
+<meta itemprop="wordCount" content="1228">
+
+
+
+<meta itemprop="keywords" content="django,backend,automatism," />
+  
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image:src" content="https://fundor333.com/building-my-backend.jpg" />
+<meta name="twitter:card" content="summary" />
+
+
+<meta name="twitter:title" content="Building My Backend" />
+<meta name="twitter:description"
+  content="Why someone need a server and how I build mine" />
+
+
+
+
+
+
+  
+</head>
+
+
+<body>
+  
+  <header class="tc">
+    <a href="https://fundor333.com/" class="f4 fw7 dib pa2 no-underline black">
+      <img src="/img/pilogo.jpg" class="br-100 pa1 b--black-10 h4 w4" alt="avatar" loading="lazy">
+      <h1 class="f5 f4-ns fw6">Fundor 333</h1>
+      <h2 class="f6 fw2">import antigravity</h2>
+    </a>
+  </header>
+
+  <nav class="tc pv2">
+   
+  <a class="f6 f5-ns dib mr3" href="https://github.com/fundor333">
+    <i class="fab fa-github" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.facebook.com/fundor333">
+    <i class="fab fa-facebook" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://twitter.com/fundor333">
+    <i class="fab fa-twitter" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+    <i class="fab fa-youtube" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.instagram.com/fundor333/">
+    <i class="fab fa-instagram" aria-hidden="true">
+    </i>
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="https://www.flickr.com/people/fundor333/">
+    <i class="fab fa-flickr" aria-hidden="true">
+    </i>
+  </a>
+  
+</nav>
+<nav class="tc pv2">
+   
+  <a class="f6 f5-ns dib mr3" href="/post/">
+    blog
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/packages/">
+    packages
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/hoarding/">
+    hoarding
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/about/">
+    about
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/now/">
+    now
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/talk/">
+    talk
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/event/">
+    convention
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/project/">
+    projects
+  </a>
+  
+  <a class="f6 f5-ns dib mr3" href="/boardgame/">
+    boardgames
+  </a>
+  
+</nav>
+
+
+  <br>
+  <div class="center mw8 mv4">
+    
+<div class="ph3 ph3-m ph6-l">
+  <h1 class="f2">Building My Backend</h2>
+    <a class="tag" href="https://fundor333.com/">home</a>
+    ~
+    <a class="tag" href='https://fundor333.com/post/2020/building-my-backend/'>Building My Backend</a>
+    <br>
+    <hr>
+
+    <div class="center mw8 ba b--black-10 mv4">
+      
+      
+      <img src="https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg" class="w-100 db" alt="Card image cap">
+      
+      </a>
+      <div class="pa3">
+        <a href="https://unsplash.com/photos/fpmV3dQPUvU">Photo by Caleb Woods on Unsplash</a>
+      </div>
+    </div>
+
+    <br>
+    <article>
+      <p>More time pass more time I need a server for my cronjob and other process.
+Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.</p>
+<p>One day, adding a new feed to my Feedly account, I discovered that I can&rsquo;t add more in the free subscription.
+So I start thinking some alternative.</p>
+<h2 id="what-i-need">What I need</h2>
+<ul>
+<li><strong>web app</strong> i need to use on the run, not only in my machine but in other as well.</li>
+<li><strong>auto update</strong> I need to find the newer or the newest post from my feed</li>
+<li><strong>feed from wep page</strong> I need to have the feed from an url not only from the feed url</li>
+<li><strong>mark read and not read</strong> because I need to read only the new stuff and not only the old one</li>
+<li><strong>some endpoint for personal use</strong> I need some endpoint api rest for another project of mine</li>
+</ul>
+<p>So I need:</p>
+<ul>
+<li><strong>a web server</strong> for serving pages -&gt; Nginx</li>
+<li><strong>a task manager</strong> for have a heap for work which the server do in the free time -&gt; Redis</li>
+<li><strong>a database for the data</strong> where I put my data -&gt; PostgreSql</li>
+<li><strong>a server framework</strong> for writing my server-app -&gt; Django</li>
+</ul>
+<p>Whith this stack I start my backend.</p>
+<h2 id="fist-problem-feeds">Fist problem: feeds</h2>
+<p>First I need to have an alternative to <strong>Feedly</strong> so I start building my personal feed manager.
+And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&hellip; So I &ldquo;read&rdquo; some of my feed manualy and start writing some generic reader for the rss and atom (the most popular format of the feed formats) and write some code for reading Xml in this two type.</p>
+<p>After this I write a Django model for the post inside the feeds so I can save it without thinking about the feed format but reading it, share it or deleting it.</p>
+<p>In this way I discover some dead blog and other formats of feed (old one from some old site but still very active).</p>
+<p>After this I builds the task for the cronjob for getting all the feed of the multiple sources. This task add a command into redis and when the wrapper (celery in my case) can do the job, it does it and log into the database a row with the log in case of failure.</p>
+<p>I did the same also for the &ldquo;mark as read&rdquo; task so if I mark one this is a task done by the browser but if I do for the &ldquo;last month&rdquo; or &ldquo;all&rdquo; posts they make a Celery task into Redis because it can be a lot of work for the server because I can do more thinks with this but not now.</p>
+<p>In the future I am thinking about point system for the post and other thinks that need a after processing for making a &ldquo;prefernce system&rdquo; or other similar thinks for my personal use<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and I want to save the top post into my Poket account or save it in a way I can store for personal reference with or without the site working and store it indefenitly.</p>
+<h2 id="second-problem-gui">Second problem: gui</h2>
+<p>After working all the feed part I build a little gui, inspired by the teming of my blog and I love it. Light background, dark text with the same font and some similarity but also some difference, because I think that mine blog theme is not right for a backend or other type of web app other than blogs.</p>
+<p>The problem come from the menu. I don like the menu with submenu so I write a &ldquo;menu dashboard&rdquo; for all the &ldquo;categories&rdquo; of view I made for my backend but I am not done for it. I need something more &ldquo;mine&rdquo; for the navigation inside them. And I need to add some Javascript for adding some gui impovment (color or highlight where needed) and this was a big problem for me.</p>
+<p>I am not fluent in js so I need to <em>Google</em> a lot of things about <em>jquery</em> and <em>EMACS5</em> and <em>&ldquo;vanilla&rsquo; JavaScript</em>.</p>
+<p>After all and with some trick learn in <em>StackOverflow</em> or some random <em>blog</em> I have a functional and someway good looking theme for my backend.</p>
+<h2 id="third-act-api">Third act: Api</h2>
+<p>Now is time for my favorite part: only backend!</p>
+<p>I have some project to migrate into this backend and half of them has some sort of need of endpoint api so I move the first api project into my backend. With some work and some help from the <em><a href="https://www.django-rest-framework.org/">Django Rest Framework</a></em> I build some view for outputting the json needed for the other project to work.</p>
+<p>After this I build the guis for manage the data of the api. I know that all of this can be done with the <em>Django Admin</em> but I don&rsquo;t like it so I need to write the input, edit and view pages for them.</p>
+<p>For now I consider this part compleate but, in time, I will porting all my other api into this backend.</p>
+<h2 id="the-fourth-is-with-you">The Fourth is with you</h2>
+<p>Now I work on the landing of mine backend. I feel it empty so I think about what I can do to fill it.</p>
+<p>And for this reason I write client for some weather api and other similar api of my home city for my personal easy access. So, with an little time I write all the backend for the &lsquo;widgets&rsquo; I want and make all into a ClassView Django putting all the info into the context of the view.</p>
+<p>With a lot of testing with the layout and changing all the widgets more and more time I ending to make a dashboard with very simple widget for all of theme.</p>
+<p>For now it works but if I add another widget I need to redo all the Dashboard but for now I don&rsquo;t have need for another widget.</p>
+<h2 id="going-for-five">Going for Five</h2>
+<p>After the gui I completely forgot how I write the Api so I need to have an autogenerated Api&rsquo;s documentation. So I use the autogenerating documentation of the <em>DRF</em><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and build a Swagger view for my persona use. I subclassed the generator for adding more function on the standard <em>DRF</em> implementation of the api like the tag sistem and the server tags for an eventualy testing server (maybe one day with more money&hellip;).</p>
+<h2 id="and-now-the-conclusion">And now the conclusion</h2>
+<p>With some time I build more function into this system and add more api. For the time coming I am thinking to porting some cronjob into this backend, adding a documentation system for having some tutorial I can&rsquo;t put in the blog or there are no reason to make them public, like some personal stuff and I want to put a system to write my work task and write the time I am working on them for build in a easy way my timetable for work.</p>
+<p>Because all the project I am working on I don&rsquo;t have a lot of time so all this project have the least priority of all but, one day after the other I will be updating all of this project with all the function I need but for now I have this.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>This is an idea I copy from Feedly Premium. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>The <em>DRF</em> is the <em><a href="https://www.django-rest-framework.org/">Django Rest Framework</a></em> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+      <p>by Fundor 333</p>
+    </article>
+
+    <hr>
+     
+    <a class="tag" href='https://fundor333.com/tags/django'>django</a>
+    
+    <a class="tag" href='https://fundor333.com/tags/backend'>backend</a>
+    
+    <a class="tag" href='https://fundor333.com/tags/automatism'>automatism</a>
+     
+    <hr>
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <hr>
+</div>
+
+  </div>
+  <br>
+  <footer class="pv4 ph3 ph5-m ph6-l">
+  <small class="f6 db tc"><a href='https://webring.xxiivv.com/#random' target='_blank'><img
+        class="pa1 b--black-10 h2 w2" src='https://webring.xxiivv.com/icon.black.svg' /></a></small>
+  <small class="f6 db tc">© 2020 <b class="ttu">Fundor333</b></small>
+  <div class="tc mt3">
+    <a href="https://fundor333.com/" class="f6 ph2">Made by Fundor333 with
+      <i class="fa fa-heart" aria-hidden="true"></i> GoLang
+      <i class="fa fa-laptop" aria-hidden="true"></i>
+    </a>
+    <a href="https://gohugo.io" class="f6 ph2">Powered by Go Hugo</a>
+    <a href="https://github.com/fundor333/fundor333.com" class="f6 ph2">Source code
+    </a>
+
+  </div>
+</footer>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-44064318-2', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    count = 0;
+    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
+      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
+      "Wev 3.0", "Buzzword",
+    ];
+    setInterval(function () {
+      count++;
+      $(".buzzword").fadeOut(400, function () {
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
+      });
+    }, 4000);
+  });
+
+</script>
+
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 360);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+
+
+
+</body>
+
+</html>

@@ -3,6 +3,69 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fundor333.com/tags/automatism/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/backend/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/2020/building-my-backend/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/categories/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/categories/dev/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/django/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://fundor333.com/post/2020/al-you-need-is-static/</loc>
     <lastmod>2020-06-03T14:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -10,35 +73,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/categories/</loc>
-    <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/categories/dev/</loc>
-    <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/</loc>
-    <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/generator/</loc>
-    <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/post/</loc>
     <lastmod>2020-06-03T14:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -54,20 +89,6 @@
   <url>
     <loc>https://fundor333.com/tags/static-site/</loc>
     <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/</loc>
-    <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/django/</loc>
-    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>

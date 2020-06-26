@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>automatism on Fundor 333</title>
+    <link>https://fundor333.com/tags/automatism/</link>
+    <description>Recent content in automatism on Fundor 333</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Fri, 26 Jun 2020 09:44:10 +0200</lastBuildDate>
+    
+	<atom:link href="https://fundor333.com/tags/automatism/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building My Backend</title>
+      <link>https://fundor333.com/post/2020/building-my-backend/</link>
+      <pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/building-my-backend/</guid>
+      <description>More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
+One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
+    </item>
+    
+  </channel>
+</rss>
