@@ -101,6 +101,13 @@
   </url>
   
   <url>
+    <loc>https://fundor333.com/categories/fingerfood/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>https://fundor333.com/post/2020/excel-django-combo/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -355,41 +362,6 @@
   <url>
     <loc>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</loc>
     <lastmod>2018-09-27T16:30:20+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/filters/</loc>
-    <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/module/</loc>
-    <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/paginator/</loc>
-    <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/sorting/</loc>
-    <lastmod>2018-09-24T09:03:37+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/post/2018/sperimentando_con_filtri_paginator_e_sorting_in_django/</loc>
-    <lastmod>2018-09-24T09:03:37+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
