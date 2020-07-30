@@ -1,0 +1,107 @@
+
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>pipenv on Fundor333</title>
+		<link>https://fundor333.com/tags/pipenv/</link>
+		<description>Recent content in pipenv on Fundor333</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>it-it</language>
+		<lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://fundor333.com/tags/pipenv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+<title>Un Astemio al Tezo Databeers</title>
+<link>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</link>
+<pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</guid>
+<description>Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il DataBeers di Venezia.
+Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. Ci sono stati tre interventi di altrettante persone diverse:
+ Data Driven Design Leonidas Paterakis del FabLab di Venezia presenta il sistema del Data Driven Design.</description>
+</item>
+    
+    <item>
+<title>Il mio Paperplane</title>
+<link>https://fundor333.com/post/2017/il-mio-paperplane/</link>
+<pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/il-mio-paperplane/</guid>
+<description>Ultimamente ho cambiato lavoro e ho cambiato alcuni aspetti secondari della mia vita di cui non sento la mancanza ma risulto stare meglio. In tutto ciò ho deciso che sono troppo vecchio (25 anni sono tanti, tutta una vita per me) e che non posso permettermi di perdere altro tempo (e qui sembro una delle vittime dei Signori Grigi di Momo). Per questo motivo mi sono lanciato in un grosso progetto personale: Paperplane.</description>
+</item>
+    
+    <item>
+<title>Utilizzi alternativi di Firebase</title>
+<link>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</link>
+<pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
+<description>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&amp;rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&amp;rsquo;utente.
+Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
+</item>
+    
+    <item>
+<title>Pipenv e come tutto è in uno</title>
+<link>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</link>
+<pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</guid>
+<description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
+Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
+</item>
+    
+    <item>
+<title>Google IO 2017</title>
+<link>https://fundor333.com/post/2017/google-io-2017/</link>
+<pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/google-io-2017/</guid>
+<description>Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.
+Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.</description>
+</item>
+    
+    <item>
+<title>Hugo into Docker</title>
+<link>https://fundor333.com/post/2017/hugo-into-docker/</link>
+<pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/hugo-into-docker/</guid>
+<description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
+</item>
+    
+    <item>
+<title>Il primo periodo con Emacs</title>
+<link>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</link>
+<pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</guid>
+<description>Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino usarlo come editor unico. La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.
+Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento &amp;ldquo;bloccato e non danneggiabile&amp;rdquo;.</description>
+</item>
+    
+    <item>
+<title>E sono passato a Hugo</title>
+<link>https://fundor333.com/post/2017/e-sono-passato-a-hugo/</link>
+<pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/e-sono-passato-a-hugo/</guid>
+<description>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&amp;rsquo; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
+Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
+ La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&amp;rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
+</item>
+    
+    <item>
+<title>Emacs e mai più mouse</title>
+<link>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</link>
+<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</guid>
+<description>&lt;p&gt;E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è &lt;em&gt;mouse free&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;Ok posso capire che per la maggior parte di voi non capirà perchè questo cambiamento è rilevante per me ma, dal mio punto di vista, è un &lt;em&gt;ENORME&lt;/em&gt; upgrade tecnico. La possibilità di avere un intero editor di testo personalizzabile, multipiattaforma e completamente open source mi ha sempre particolarmente colpito ma non ho mai trovato uno che lo sentissi mio. Attualmente uso molto Atom ma lo sento molto stretto soprattutto perchè, visto che deve supportare molti linguaggi (e di conseguenza molti plugin), risulta rallentato.&lt;/p&gt;</description>
+</item>
+    
+  </channel>
+</rss>

@@ -1,123 +1,120 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Convention ed eventi on Fundor333</title>
-    <link>https://fundor333.com/event/</link>
-    <description>Recent content in Convention ed eventi on Fundor333</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>it-it</language>
-    <lastBuildDate>Fri, 15 Nov 2019 09:30:00 +0000</lastBuildDate>
+
+<rss version="2.0"
+	xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Convention ed eventi on Fundor333</title>
+		<link>https://fundor333.com/event/</link>
+		<description>Recent content in Convention ed eventi on Fundor333</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>it-it</language>
+		<lastBuildDate>Fri, 15 Nov 2019 09:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://fundor333.com/event/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://fundor333.com/event/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>DevFest Veneto 2019</title>
-      <link>https://fundor333.com/event/2019-11-16-devfest-veneto/</link>
-      <pubDate>Fri, 15 Nov 2019 09:30:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/event/2019-11-16-devfest-veneto/</guid>
-      <description>Brace Yourself, DevFest Veneto 19 Is Coming!
-Yes, we are proud to announce that also this year the DevFest Veneto will take place on 16th November! But we have lots of news!
-DevFests are community-led developer events hosted by Google Developer Groups around the globe. These are events with talks, workshops and networking moments dedicated to professional developers and designers, entrepreneurs, students or simple enthusiasts. It is an opportunity to share skills and passions within the universe of Google technologies (and not only).</description>
-    </item>
     
     <item>
-      <title>DataBeers Venezia #6</title>
-      <link>https://fundor333.com/event/2018-11-06-databeers-venezia-6/</link>
-      <pubDate>Tue, 06 Nov 2018 17:30:00 +0000</pubDate>
+<title>Building My Backend</title>
+<link>https://fundor333.com/post/2020/building-my-backend/</link>
+<pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
       
-      <guid>https://fundor333.com/event/2018-11-06-databeers-venezia-6/</guid>
-      <description>DataBeers Venezia #6 - 30.11.18 @ Negozio Piave 67, Venezia
-We are back again, data lovers from the Lagoon!
-Great speakers for you next Friday November 30 @ Negozio Piave 67, Mestre, Venezia, starting at 18:30 sharp!
-Tonight we have the pleasure to be with:
-**Lorenzo Brutti @lbrutti **
-Data lover indipendente - Mogliano Veneto
-Datawalking: passeggiare nel datascape **Silvia Pavan **
-Lead Analyst at FIS - Vicenza
-La natura dà i numeri?</description>
-    </item>
+      <guid>https://fundor333.com/post/2020/building-my-backend/</guid>
+<description>More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
+One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
+</item>
     
     <item>
-      <title>Follow UP! Dati dal Padiglione al Forte: Il cantiere Biennale</title>
-      <link>https://fundor333.com/event/2018-10-11-follow-up-dati-dal-padiglione-al-forte-il-cantiere-biennale/</link>
-      <pubDate>Thu, 11 Oct 2018 16:00:00 +0000</pubDate>
+<title>Al You Need Is Static</title>
+<link>https://fundor333.com/post/2020/al-you-need-is-static/</link>
+<pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/event/2018-10-11-follow-up-dati-dal-padiglione-al-forte-il-cantiere-biennale/</guid>
-      <description>La storia delle trasformazioni dei Giardini in luogo espositivo; la costruzione dei padiglioni nazionali; la &amp;ldquo;vita&amp;rdquo; delle mostre e degli allestimenti museali. Ne parleremo con:
- Francesca Castellani (Università Iuav di Venezia) Eleonora Charans (Università Iuav di Venezia) Chiara Di Stefano (Università per Stranieri di Perugia) Cristiano Guarneri (Università degli Studi di Padova) Stefano Zaggia (Università degli Studi di Padova) Guido Zucconi (Università Iuav di Venezia)  </description>
-    </item>
+      <guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
+<description>You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
+Some hystory To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.</description>
+</item>
     
     <item>
-      <title>Follow UP! Dati dal Padiglione al Forte: “Abitare” a Venezia</title>
-      <link>https://fundor333.com/event/2018-10-04-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia/</link>
-      <pubDate>Thu, 04 Oct 2018 16:00:00 +0000</pubDate>
+<title>Make a Excel Django combo</title>
+<link>https://fundor333.com/post/2020/excel-django-combo/</link>
+<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/event/2018-10-04-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia/</guid>
-      <description>Descrizione Matteo Basso, Federica Fava, Laura Fregolent, Renato Gibin presentano:
-Venezia verrà raccontata a partire da alcune ricerche condotte all’interno del Laboratorio di Analisi urbana e del territorio e del ClusterLab: H-City Housing in the city. Abitare e rigenerare, dell’Università IUAV di Venezia. La sovrapposizione dei risultati di diverse indagini condotte sui temi casa, commercio, uso ai piani terra e territori di margine, consentirà di restituire realtà e dinamiche di una città in veloce e continua trasformazione.</description>
-    </item>
+      <guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
+<description>Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
+I use the pyexcel and pyexcel-xls module for this work.
+PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
+</item>
     
     <item>
-      <title>Follow UP! Dati dal Padiglione al Forte: Cittadini e algoritmi, comunicazione e servizi pubblici</title>
-      <link>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</link>
-      <pubDate>Thu, 27 Sep 2018 16:30:20 +0000</pubDate>
+<title>Dotfiles, bot and yaml files</title>
+<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
+<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</guid>
-      <description>Marco Goldin, il data scientist da sorriso maliardo, ci mostrerà degli algoritmi di cooccorrenza per il targeting delle comunicazioni comunali ai cittadini. DOMANDA: come si possono gestire algoritmicamente i dati delle interazioni dei cittadini? Sembra una cosa supertecnica ma serve per proporre i servizi ai cittadini ottimizzando la comunicazione con l&amp;rsquo;Amministrazione nei vari canali, che sia il sito web, i social, URP. Esempio banale: grazie all&amp;rsquo;analisi di cooccorrenza, se il cittadino 1 usa il servizio A e il cittadino 2 usa il servizio A e quello B, le macchine automaticamente propongono il servizio B anche al cittadino 1.</description>
-    </item>
+      <guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
+<description>If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
+And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
+</item>
     
     <item>
-      <title>Venezia Conta, dai dati all&#39;ambiente: Biennale Architettura Follow UP! Dal Padiglione Venezia a Forte Marghera</title>
-      <link>https://fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</link>
-      <pubDate>Tue, 26 Jun 2018 16:30:53 +0000</pubDate>
+<title>Sock and socket</title>
+<link>https://fundor333.com/post/2020/sock-and-socket/</link>
+<pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</guid>
-      <description>Per il terzo incontro per il Padiglione Venezia parleremo di design della comunicazione per usare i dati per informare sull’emergenze ambientali e sociali nella città: strumenti interpretativi per affrontare la complessità.
-Dal Corso di laurea in disegno industriale e multimedia del Dipartimento di progettazione e pianificazione in ambienti complessi, verranno proposte strategie e metodi per informare sull’ambiente naturale e civile nel Comune di Venezia. Gli unici strumenti saranno i numeri e dati rilevati sul territorio e &amp;ldquo;lavorati&amp;rdquo; per diventare strumenti informativi.</description>
-    </item>
+      <guid>https://fundor333.com/post/2020/sock-and-socket/</guid>
+<description>Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
+It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
+ Hello
+we need to connect to [last thing buy for the boss] system for [stuff i don&amp;rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.</description>
+</item>
     
     <item>
-      <title>Visualising Venice: Biennale Architettura Follow UP! Dal Padiglione Venezia a Forte Marghera</title>
-      <link>https://fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</link>
-      <pubDate>Thu, 07 Jun 2018 16:25:00 +0000</pubDate>
+<title>Make a Tea Not Big Data</title>
+<link>https://fundor333.com/post/2020/make-tea-not-big-data/</link>
+<pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</guid>
-      <description>Secondo incontro del Padiglione Venezia a Forte Marghera Nelle aule seminariali - appena entrati in fondo sulla destra - incontreremo il gruppo di ricerca Visualising Venice, è un&amp;rsquo;iniziativa di Digital Humanities di studenti, studiosi e architetti con progetti di ricerca per generare modelli digitali e mappe della città di Venezia, dei suoi territori e della sua laguna. Parleremo dei casi di studio presentati al Padiglione Venezia e delle attività di raccolta, analisi e riproduzione della Città dai documenti storici.</description>
-    </item>
+      <guid>https://fundor333.com/post/2020/make-tea-not-big-data/</guid>
+<description>The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
+Industrial Unamed Tea - Excel file  We don&amp;rsquo;t need to make analisys
+Boss
+ THE big data for the NEWEST company. You can only use .xls, .xlsx e .</description>
+</item>
     
     <item>
-      <title>Follow UP! Dati dal Padiglione al Forte</title>
-      <link>https://fundor333.com/event/2018-05-31follow-up-dati-dal-padiglione-al-forte/</link>
-      <pubDate>Thu, 31 May 2018 16:30:50 +0000</pubDate>
+<title>Mew and programming</title>
+<link>https://fundor333.com/post/2019/mew-and-programming/</link>
+<pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/event/2018-05-31follow-up-dati-dal-padiglione-al-forte/</guid>
-      <description>OSD opensensorsdata illustrerà il modello di gestione dati del Padiglione Venezia assieme a DataBeers Venezia, gli analisti dati con la schiuma, e Hacks/Hackers Venezia, gli smanettoni e i parolai con i dati tra giornalisti e hacker.</description>
-    </item>
+      <guid>https://fundor333.com/post/2019/mew-and-programming/</guid>
+<description>This is a story about a myth about how to find Mew1.
+In the old day without interent &amp;ldquo;the cousin of a friends&amp;rdquo; or a &amp;rdquo; friend of my cousin find and captured a Mew.
+The Myth If you want to do it yourself you need to:
+ Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn&amp;rsquo;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.</description>
+</item>
     
     <item>
-      <title>DataBeers Tuscany 3</title>
-      <link>https://fundor333.com/event/2017-04-06-databeers-tuscany-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+<title>Beards, mugs and men</title>
+<link>https://fundor333.com/post/2019/beards-mugs-men/</link>
+<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/event/2017-04-06-databeers-tuscany-3/</guid>
-      <description>Lo spirito dei DataBeers è quello di dare la possibilità a appassionati, smanettoni e professionisti dei dati di raccontare quello che hanno scoperto su un data base a loro disposizione, come hanno impiegato una certa API, come hanno impiegato in modo &amp;ldquo;smart&amp;rdquo; i dati per risolvere un problema, cosa hanno scoperto analizzando twitter &amp;hellip;. e molto altro!
-DATABEERS TUSCANY
-Per la terza edizione di Databeers Tuscany, in collaborazione con PyData Italy e organizzeremo un evento all&amp;rsquo;interno della PyCon8, la conferenza italiana che ogni anno accoglie centinaia di Python Lover a Firenze.</description>
-    </item>
+      <guid>https://fundor333.com/post/2019/beards-mugs-men/</guid>
+<description>I use DevRant, a social for rant by developer. One day I find this rant.
+ Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.
+&amp;ldquo;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
+&amp;ldquo;Uh&amp;hellip; look at my beard&amp;rdquo;
+&amp;ldquo;What&amp;rdquo;
+&amp;ldquo;Just look at this beard!&amp;rdquo;
+&amp;ldquo;Uh&amp;hellip;. OK&amp;rdquo;
+&amp;ldquo;Does this look like a perfectly groomed beard&amp;rdquo;</description>
+</item>
     
     <item>
-      <title>DataBeers VCE 1</title>
-      <link>https://fundor333.com/event/2017-02-17-databeers-vce-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+<title>Buzzwords buzzwords</title>
+<link>https://fundor333.com/post/2019/buzzwords-buzzwords/</link>
+<pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
       
-      <guid>https://fundor333.com/event/2017-02-17-databeers-vce-1/</guid>
-      <description>Hey Data Lovers! The wait is over! The first Databeers Venezia is coming! Save the date! Friday, February 17th, 2017 at Negozio Piave 67 (just few minutes walking from Venezia-Mestre railway station). For the first event we have great speakers for you!
-Alessandro Scarpellini Aesse branding &amp;amp; visual communication | Rimini
-Valentino Pediroda CEO and Founder of ModeFinance, the first fintech Credit Rating Agency in Europe | Trieste
-Duccio Schiavon CEO at Quantitas, Data Visualization | Venezia</description>
-    </item>
+      <guid>https://fundor333.com/post/2019/buzzwords-buzzwords/</guid>
+<description>Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
+Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del &amp;lt;inserire qui l&amp;rsquo;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
+</item>
     
   </channel>
 </rss>
