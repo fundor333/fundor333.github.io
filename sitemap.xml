@@ -9,13 +9,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/blog/</loc>
-    <lastmod>2020-08-01T15:15:00+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/categories/</loc>
     <lastmod>2020-08-01T15:15:00+02:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -24,13 +17,6 @@
   
   <url>
     <loc>https://fundor333.com/categories/dev/</loc>
-    <lastmod>2020-08-01T15:15:00+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/developer/</loc>
     <lastmod>2020-08-01T15:15:00+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -51,7 +37,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/programming/</loc>
+    <loc>https://fundor333.com/tags/rant/</loc>
     <lastmod>2020-08-01T15:15:00+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -79,14 +65,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/automatism/</loc>
-    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/backend/</loc>
+    <loc>https://fundor333.com/tags/api/</loc>
     <lastmod>2020-06-26T09:44:10+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -94,6 +73,13 @@
   
   <url>
     <loc>https://fundor333.com/post/2020/building-my-backend/</loc>
+    <lastmod>2020-06-26T09:44:10+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/coding/</loc>
     <lastmod>2020-06-26T09:44:10+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -114,29 +100,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/generator/</loc>
-    <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/site/</loc>
-    <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/static-site/</loc>
     <lastmod>2020-06-03T14:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/excel/</loc>
-    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -151,20 +116,6 @@
   <url>
     <loc>https://fundor333.com/post/2020/excel-django-combo/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/bot/</loc>
-    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/dotbot/</loc>
-    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -226,28 +177,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/rant/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/tea/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2019/mew-and-programming/</loc>
-    <lastmod>2019-12-28T15:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/pokemon/</loc>
     <lastmod>2019-12-28T15:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -289,13 +219,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/buzzword/</loc>
-    <lastmod>2019-06-17T10:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2019/buzzwords-buzzwords/</loc>
     <lastmod>2019-06-17T10:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -303,28 +226,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/tecnology/</loc>
-    <lastmod>2019-06-17T10:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/api/</loc>
-    <lastmod>2019-04-23T10:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</loc>
-    <lastmod>2019-04-23T10:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/post/</loc>
     <lastmod>2019-04-23T10:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -338,14 +240,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/chat/</loc>
-    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/chatbot/</loc>
+    <loc>https://fundor333.com/tags/bot/</loc>
     <lastmod>2019-02-05T10:11:07+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -360,13 +255,6 @@
   
   <url>
     <loc>https://fundor333.com/post/2019/devops-chatbot-npm/</loc>
-    <lastmod>2019-02-05T10:11:07+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/npm/</loc>
     <lastmod>2019-02-05T10:11:07+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -408,28 +296,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/atom/</loc>
-    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/electron/</loc>
-    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/github/</loc>
-    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/microsoft/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -464,13 +331,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/floppy-disk/</loc>
-    <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -479,20 +339,6 @@
   
   <url>
     <loc>https://fundor333.com/tags/pycon/</loc>
-    <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/qrcode/</loc>
-    <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/talk/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -513,34 +359,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/console/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/nintendo/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/nintendo-switch/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/switch/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2018/tanti-auguri-nintendo/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -548,21 +366,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/videogames/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/dead-drop/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/librarybox/</loc>
+    <loc>https://fundor333.com/tags/hacking/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -577,20 +381,6 @@
   
   <url>
     <loc>https://fundor333.com/post/2018/p2p-offline-da-spie/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/piratebox/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/sharing/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -618,13 +408,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/status/</loc>
-    <lastmod>2018-02-12T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/graphql/</loc>
     <lastmod>2018-01-16T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -634,13 +417,6 @@
   <url>
     <loc>https://fundor333.com/post/2018/graphql-and-working-with-it/</loc>
     <lastmod>2018-01-16T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/config/</loc>
-    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -660,21 +436,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/repository/</loc>
-    <lastmod>2017-12-04T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/databeers/</loc>
-    <lastmod>2017-11-23T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/datascienze/</loc>
     <lastmod>2017-11-23T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -683,48 +445,6 @@
   <url>
     <loc>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</loc>
     <lastmod>2017-11-23T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/framework/</loc>
-    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/post/2017/il-mio-paperplane/</loc>
-    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/paperplane/</loc>
-    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/telegram/</loc>
-    <lastmod>2017-11-18T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/firebase/</loc>
-    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/logging/</loc>
-    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -765,20 +485,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/io17/</loc>
-    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/container/</loc>
-    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/docker/</loc>
     <lastmod>2017-05-16T12:27:11+02:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -800,28 +506,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/image/</loc>
-    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/editor/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/emacs/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/ide/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -835,8 +520,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/tool/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
+    <loc>https://fundor333.com/tags/blog/</loc>
+    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -849,28 +534,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/golang/</loc>
-    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/https/</loc>
-    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/jupyter/</loc>
     <lastmod>2017-02-14T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -891,28 +555,7 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/programmazione/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/texteditor/</loc>
-    <lastmod>2017-02-14T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</loc>
-    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/decorator/</loc>
     <lastmod>2017-02-11T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -926,7 +569,14 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/grumpy/</loc>
+    <loc>https://fundor333.com/tags/telegram/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/golang/</loc>
     <lastmod>2017-01-26T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -961,22 +611,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/tags/wordpress/</loc>
-    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2016/orrori-delle-parentesi/</loc>
     <lastmod>2016-11-09T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/gource/</loc>
-    <lastmod>2016-11-07T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -997,13 +633,6 @@
   
   <url>
     <loc>https://fundor333.com/post/2016/docker-la-balena-con-i-container/</loc>
-    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/virtual-machine/</loc>
     <lastmod>2016-10-03T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>

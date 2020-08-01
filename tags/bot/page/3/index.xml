@@ -7,7 +7,7 @@
 		<description>Recent content in bot on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>it-it</language>
-		<lastBuildDate>Fri, 01 May 2020 16:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 05 Feb 2019 10:11:07 +0000</lastBuildDate>
     
         <atom:link href="https://fundor333.com/tags/bot/index.xml" rel="self" type="application/rss+xml" />
     
@@ -32,15 +32,6 @@ Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e
 <description>Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il DataBeers di Venezia.
 Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. Ci sono stati tre interventi di altrettante persone diverse:
  Data Driven Design Leonidas Paterakis del FabLab di Venezia presenta il sistema del Data Driven Design.</description>
-</item>
-    
-    <item>
-<title>Il mio Paperplane</title>
-<link>https://fundor333.com/post/2017/il-mio-paperplane/</link>
-<pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/il-mio-paperplane/</guid>
-<description>Ultimamente ho cambiato lavoro e ho cambiato alcuni aspetti secondari della mia vita di cui non sento la mancanza ma risulto stare meglio. In tutto ciò ho deciso che sono troppo vecchio (25 anni sono tanti, tutta una vita per me) e che non posso permettermi di perdere altro tempo (e qui sembro una delle vittime dei Signori Grigi di Momo). Per questo motivo mi sono lanciato in un grosso progetto personale: Paperplane.</description>
 </item>
     
     <item>
@@ -101,6 +92,16 @@ Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza
 <description>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&amp;rsquo; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
 Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
  La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&amp;rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
+</item>
+    
+    <item>
+<title>Emacs e mai più mouse</title>
+<link>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</link>
+<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</guid>
+<description>&lt;p&gt;E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è &lt;em&gt;mouse free&lt;/em&gt;!&lt;/p&gt;
+&lt;p&gt;Ok posso capire che per la maggior parte di voi non capirà perchè questo cambiamento è rilevante per me ma, dal mio punto di vista, è un &lt;em&gt;ENORME&lt;/em&gt; upgrade tecnico. La possibilità di avere un intero editor di testo personalizzabile, multipiattaforma e completamente open source mi ha sempre particolarmente colpito ma non ho mai trovato uno che lo sentissi mio. Attualmente uso molto Atom ma lo sento molto stretto soprattutto perchè, visto che deve supportare molti linguaggi (e di conseguenza molti plugin), risulta rallentato.&lt;/p&gt;</description>
 </item>
     
   </channel>
