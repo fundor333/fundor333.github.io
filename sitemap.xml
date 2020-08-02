@@ -184,20 +184,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/event/</loc>
-    <lastmod>2019-11-15T09:30:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2019-11-16-devfest-veneto/</loc>
-    <lastmod>2019-11-15T09:30:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2019/beards-mugs-men/</loc>
     <lastmod>2019-07-15T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
@@ -247,57 +233,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/event/2018-11-06-databeers-venezia-6/</loc>
-    <lastmod>2018-11-06T17:30:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2018-10-11-follow-up-dati-dal-padiglione-al-forte-il-cantiere-biennale/</loc>
-    <lastmod>2018-10-11T16:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2018-10-04-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia/</loc>
-    <lastmod>2018-10-04T16:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2018-09-27-follow-up-dati-dal-padiglione-al-forte-cittadini-e-algoritmi-comunicazione-e-servizi-pubblici/</loc>
-    <lastmod>2018-09-27T16:30:20+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2018-06-26-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</loc>
-    <lastmod>2018-06-26T16:30:53+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</loc>
     <lastmod>2018-06-11T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2018-06-07visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-a-forte-marghera/</loc>
-    <lastmod>2018-06-07T16:25:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2018-05-31follow-up-dati-dal-padiglione-al-forte/</loc>
-    <lastmod>2018-05-31T16:30:50+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -319,20 +256,6 @@
   <url>
     <loc>https://fundor333.com/tags/pycon/</loc>
     <lastmod>2018-05-03T23:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/talk/2018/pelican-e-perche-generare-siti-statici/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/talk/</loc>
-    <lastmod>2018-04-20T00:00:00+00:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -541,54 +464,6 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/boardgame/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2017-04-06-databeers-tuscany-3/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2017-02-17-databeers-vce-1/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2017-05-19-databeers-vce-2/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2017-11-23-databeers-vce-3/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2018-02-23-databeers-vce-4/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2016-12-17_gdg_-venezia_tech_talks_ca_foscari/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2017-12-02-devfest1-veneto/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/hoarding/</loc>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
@@ -608,24 +483,6 @@
   
   <url>
     <loc>https://fundor333.com/project/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2018-04-19-pycon9/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/event/2016-05-14-scala-italy/</loc>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/boardgame/sushi_go/</loc>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
