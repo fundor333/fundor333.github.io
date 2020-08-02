@@ -4,8 +4,22 @@
   
   <url>
     <loc>https://fundor333.com/</loc>
-    <lastmod>2020-08-01T15:15:00+02:00</lastmod>
+    <lastmod>2020-08-02T16:22:28+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/quiet/</loc>
+    <lastmod>2020-08-02T16:22:28+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/quiet/06754/</loc>
+    <lastmod>2020-08-02T16:22:28+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.8</priority>
   </url>
   
   <url>
@@ -46,13 +60,6 @@
   <url>
     <loc>https://fundor333.com/tags/</loc>
     <lastmod>2020-08-01T15:15:00+02:00</lastmod>
-    <changefreq>dayly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/quiet/</loc>
-    <lastmod>2020-07-30T19:52:41+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.8</priority>
   </url>
