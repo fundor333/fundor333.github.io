@@ -28,33 +28,49 @@
   <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
 
   <title>
-    dev  - Fundor333
+    Create a custon Git message with GitConfig  - Fundor333
   </title>
   <meta name="author" content="Fundor333" />
 
   <meta name="description"
-    content="" />
+    content="Sometime you need to configure your git or have a template for the commit for your work" />
+
+   
+  <link rel="canonical" href="https://fundor333.com/post/2020/gitmessage-advance-config/" />
+   
+
+  
+  <meta property="og:title" content="Create a custon Git message with GitConfig" />
+<meta property="og:description" content="Sometime you need to configure your git or have a template for the commit for your work" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fundor333.com/post/2020/gitmessage-advance-config/" />
+<meta property="article:published_time" content="2020-08-15T15:15:00+02:00" />
+<meta property="article:modified_time" content="2020-08-15T15:15:00+02:00" />
+
+  
+  <meta itemprop="name" content="Create a custon Git message with GitConfig">
+<meta itemprop="description" content="Sometime you need to configure your git or have a template for the commit for your work">
+<meta itemprop="datePublished" content="2020-08-15T15:15:00+02:00" />
+<meta itemprop="dateModified" content="2020-08-15T15:15:00+02:00" />
+<meta itemprop="wordCount" content="168">
+
+
+
+<meta itemprop="keywords" content="git,dotfiles," />
 
   
 
-  <link rel="alternate" type="application/rss+xml" href="https://fundor333.com/categories/dev/index.xml" title="Fundor333" />
-  
-  <meta property="og:title" content="dev" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://fundor333.com/categories/dev/" />
-<meta property="og:updated_time" content="2020-08-15T15:15:00+02:00" />
 
-  
-  <meta itemprop="name" content="dev">
-<meta itemprop="description" content="">
-
-  
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image:src" content="https://fundor333.com/gitmessage-advance-config.jpg" />
 <meta name="twitter:card" content="summary" />
 
-<meta name="twitter:title" content="dev" />
+
+<meta name="twitter:title" content="Create a custon Git message with GitConfig" />
 <meta name="twitter:description"
-  content="" />
+  content="Sometime you need to configure your git or have a template for the commit for your work" />
+
+
 
 
 
@@ -162,21 +178,82 @@
 
       <div class="row">
         
+<div class="container">
+  <h1>Create a custon Git message with GitConfig</h2>
+    <a class="crumb" href="https://fundor333.com/">home</a>
+    ~
+    <a class="crumb" href='https://fundor333.com/post/2020/gitmessage-advance-config/'>Create a custon Git message with GitConfig</a>
+    <br>
+    <hr>
 
-<section class="container-fluid">
+    <div>
+      
+      
+      <img src="https://fundor333.com/post/2020/gitmessage-advance-config/gitmessage-advance-config.jpg" alt="Card image cap" class="img-fluid">
+      
+      </a>
+      <div>
+        <a href="https://unsplash.com/photos/xDjGxM8N4sY">Photo by Victoria Zakharchuk on Unsplash</a>
+      </div>
+    </div>
+    <hr>
+     
+    <a class="tag" href='https://fundor333.com/tags/git'>git</a>
+    
+    <a class="tag" href='https://fundor333.com/tags/dotfiles'>dotfiles</a>
+     
+    <hr>
+    <small>2020-08-15</small>
+    <hr>
 
-  <h2>dev</h2>
+    <br>
+    <article>
+      <p>Sometime you will need to have a template for the commit message.</p>
+<p>Allwayse put something (ticket code, bug code, etc&hellip;), order of stuff, some command for the CI system, etc&hellip;</p>
+<p>In Git you can set a a file as the template for the git commit.
+You can do it for a single project or for your user.
+In this case I will show the command for all your project.</p>
+<p>First you need to write the file.
+Usualy I make a file in the home <em><strong>~/.gitmessage</strong></em> where I put the message.
+For example a file template is:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#6272a4"># Title of the commit, 50 chars</span>
 
-  <hr>
+<span style="color:#6272a4"># Body. What and Why, with Task Id/Bug Id, 72 chars</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Remember, if a row start with # the row is a comment.</p>
+<p>After you make your own themplate you must tell git where is it so you need to launch this command:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> git config --global commit.template ~/.gitmessage</code></pre></td></tr></table>
+</div>
+</div>
+<p>After this git will use your new template for the commit.</p>
+<p>Good work</p>
 
+      <p>by Fundor333</p>
+    </article>
 
-  
+    <hr>
 
-  
-  <article>
+    
+    
+    <h3>See Also</h3>
+    
+    <article>
   <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/">
-      <h2 class="text-center">Bot, Telegram e programmazione funzionale</h2>
+    <a href="https://fundor333.com/post/2020/dotfiles-bot-yaml/">
+      <h2 class="text-center">Dotfiles, bot and yaml files</h2>
     </a>
   </div>
 
@@ -184,7 +261,7 @@
 
 
     
-    <a href="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/">
+    <a href="https://fundor333.com/post/2020/dotfiles-bot-yaml/">
 
       
       
@@ -193,19 +270,19 @@
 
       
 
-      <img data-src="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/bot-telegram.jpg" src="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/bot-telegram_hu5438825b9b6d1014226d20d231e650c2_426349_4c69506451c1a0e3e8b1be93ac40f5fa.jpg" alt="Bot, Telegram e programmazione funzionale"
+      <img data-src="https://fundor333.com/post/2020/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg" src="https://fundor333.com/post/2020/dotfiles-bot-yaml/dotfiles-bot-yaml_hu36eebe53ca6eff189766c7de52feaffc_1021699_907211fe5cf9194892a05e4835f8bec8.jpg" alt="Dotfiles, bot and yaml files"
         class="img-fluid rounded mx-auto d-block lazy">
     </a>
     
   </div>
 
   <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/" class="text-center">Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python</a>
+    <a href="https://fundor333.com/post/2020/dotfiles-bot-yaml/" class="text-center">Using the same dotfiles on multiple computer in the easy way</a>
   </div>
   <div class="row justify-content-md-center">
     <p>
-      <small>🍵
-        Reading time 3 minutes
+      <small>🍵🍵
+        Reading time 7 minutes
       </small>
     </p>
   </div>
@@ -213,9 +290,7 @@
     <p>
       <small>
          
-        <a class="tag" href='https://fundor333.com/tags/bot'>bot</a>
-        
-        <a class="tag" href='https://fundor333.com/tags/python'>python</a>
+        <a class="tag" href='https://fundor333.com/tags/dotfiles'>dotfiles</a>
         
         <a class="tag" href='https://fundor333.com/tags/coding'>coding</a>
          
@@ -225,9 +300,8 @@
 </article>
 <hr>
 
-
-  
-  <article>
+    
+    <article>
   <div class="row justify-content-center">
     <a href="https://fundor333.com/post/2017/scrivi-push-public/">
       <h2 class="text-center">Scrivi, push e publica</h2>
@@ -277,12 +351,11 @@
 </article>
 <hr>
 
-
-  
-  <article>
+    
+    <article>
   <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2016/docker-la-balena-con-i-container/">
-      <h2 class="text-center">Docker, la balena con i container per software</h2>
+    <a href="https://fundor333.com/post/2016/gource-visualizzare-git-repository/">
+      <h2 class="text-center">Gource, visualizzare Git repository</h2>
     </a>
   </div>
 
@@ -290,7 +363,7 @@
 
 
     
-    <a href="https://fundor333.com/post/2016/docker-la-balena-con-i-container/">
+    <a href="https://fundor333.com/post/2016/gource-visualizzare-git-repository/">
 
       
       
@@ -299,19 +372,19 @@
 
       
 
-      <img data-src="https://fundor333.com/post/2016/docker-la-balena-con-i-container/docker-la-balena.jpg" src="https://fundor333.com/post/2016/docker-la-balena-con-i-container/docker-la-balena_hu5438825b9b6d1014226d20d231e650c2_2020704_236b2834dee59e036fd770faad0fa33f.jpg" alt="Docker, la balena con i container per software"
+      <img data-src="https://fundor333.com/post/2016/gource-visualizzare-git-repository/gource-git.jpg" src="https://fundor333.com/post/2016/gource-visualizzare-git-repository/gource-git_hu5438825b9b6d1014226d20d231e650c2_1106782_aaf28716e9fb774f117ff78c2b5f8b07.jpg" alt="Gource, visualizzare Git repository"
         class="img-fluid rounded mx-auto d-block lazy">
     </a>
     
   </div>
 
   <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2016/docker-la-balena-con-i-container/" class="text-center">Docker, cos&#39;è e come funziona</a>
+    <a href="https://fundor333.com/post/2016/gource-visualizzare-git-repository/" class="text-center">Gource, cos&#39;è e come usarlo al meglio</a>
   </div>
   <div class="row justify-content-md-center">
     <p>
       <small>🍵
-        Reading time 3 minutes
+        Reading time 2 minutes
       </small>
     </p>
   </div>
@@ -319,9 +392,7 @@
     <p>
       <small>
          
-        <a class="tag" href='https://fundor333.com/tags/docker'>docker</a>
-        
-        <a class="tag" href='https://fundor333.com/tags/coding'>coding</a>
+        <a class="tag" href='https://fundor333.com/tags/git'>git</a>
          
       </small>
     </p>
@@ -329,55 +400,31 @@
 </article>
 <hr>
 
+    
+    
 
-  
-
-  <nav class="d-flex justify-content-center">
-  
-
-  
-  
-
-
-  
-  
-  <a class="col" href="/categories/dev/">
-    ««
-  </a>
-  
-
-  
-  
-  <a class="col" href="/categories/dev/page/2/">
-    «
-  </a>
-  
-
-  
-  
-  <a class="col" href="/categories/dev/">
-    1
-  </a>
-  
-  <a class="col" href="/categories/dev/page/2/">
-    2
-  </a>
-  
-  <a class="col" href="/categories/dev/page/3/">
-    3
-  </a>
-  
-
-  
-  
-
-  
-  
-  
-</nav>
-
-
-</section>
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <hr>
+</div>
 
       </div>
       <br>

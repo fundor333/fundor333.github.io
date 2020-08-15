@@ -4,8 +4,48 @@
   
   <url>
     <loc>https://fundor333.com/</loc>
-    <lastmod>2020-08-02T16:22:28+02:00</lastmod>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/categories/</loc>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/2020/gitmessage-advance-config/</loc>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/categories/dev/</loc>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/dotfiles/</loc>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/categories/fingerfood/</loc>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/git/</loc>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/</loc>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/</loc>
+    <lastmod>2020-08-15T15:15:00+02:00</lastmod>
   </url>
   
   <url>
@@ -19,32 +59,12 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/categories/</loc>
-    <lastmod>2020-08-01T15:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/categories/dev/</loc>
-    <lastmod>2020-08-01T15:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2020/good-developer-must-be-blogger/</loc>
     <lastmod>2020-08-01T15:15:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fundor333.com/post/</loc>
-    <lastmod>2020-08-01T15:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/tags/rant/</loc>
-    <lastmod>2020-08-01T15:15:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/</loc>
     <lastmod>2020-08-01T15:15:00+02:00</lastmod>
   </url>
   
@@ -79,18 +99,8 @@
   </url>
   
   <url>
-    <loc>https://fundor333.com/categories/fingerfood/</loc>
-    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://fundor333.com/post/2020/excel-django-combo/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/dotfiles/</loc>
-    <lastmod>2020-05-01T16:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -301,11 +311,6 @@
   <url>
     <loc>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</loc>
     <lastmod>2017-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/git/</loc>
-    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
