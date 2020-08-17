@@ -20,7 +20,7 @@
       
       <guid>https://fundor333.com/post/2020/gitmessage-advance-config/</guid>
 <description>Sometime you will need to have a template for the commit message.
-Allwayse put something (ticket code, bug code, etc&amp;hellip;), order of stuff, some command for the CI system, etc&amp;hellip;
+Allways put something (ticket code, bug code, etc&amp;hellip;), order of stuff, some command for the CI system, etc&amp;hellip;
 In Git you can set a a file as the template for the git commit. You can do it for a single project or for your user. In this case I will show the command for all your project.
 First you need to write the file.</description>
 </item>
