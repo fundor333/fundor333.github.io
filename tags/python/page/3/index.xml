@@ -14,6 +14,17 @@
     
     
     <item>
+<title>E Talk Al Pycon9</title>
+<link>https://fundor333.com/post/2018/e-talk-al-pycon9/</link>
+<pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2018/e-talk-al-pycon9/</guid>
+<description>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
+Facciamo un po&amp;rsquo; di ordine:
+ Ho un blog gestito attraverso un generatore di siti statici Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi Ho una passione per il formato file .</description>
+</item>
+    
+    <item>
 <title>GraphQL and working with it</title>
 <link>https://fundor333.com/post/2018/graphql-and-working-with-it/</link>
 <pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
@@ -92,17 +103,6 @@ Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGf
       <guid>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</guid>
 <description>Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino usarlo come editor unico. La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.
 Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento &amp;ldquo;bloccato e non danneggiabile&amp;rdquo;.</description>
-</item>
-    
-    <item>
-<title>E sono passato a Hugo</title>
-<link>https://fundor333.com/post/2017/e-sono-passato-a-hugo/</link>
-<pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/e-sono-passato-a-hugo/</guid>
-<description>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&amp;rsquo; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
-Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
- La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&amp;rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
 </item>
     
   </channel>

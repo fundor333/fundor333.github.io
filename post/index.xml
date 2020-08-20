@@ -7,11 +7,21 @@
 		<description>Recent content in Posts on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sat, 15 Aug 2020 15:15:00 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 20 Aug 2020 14:13:40 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>SSL Check With a Script</title>
+<link>https://fundor333.com/post/2020/ssl-check-with-a-script/</link>
+<pubDate>Thu, 20 Aug 2020 14:13:40 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/ssl-check-with-a-script/</guid>
+<description>As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&amp;rsquo;t have money I use Let&amp;rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
+Every sistem I have use CertBot, the bot for Let&amp;rsquo;s Encrypt, who renew the certificate when needed with a cronjob.</description>
+</item>
     
     <item>
 <title>Create a custon Git message with GitConfig</title>
@@ -103,18 +113,6 @@ we need to connect to [last thing buy for the boss] system for [stuff i don&amp;
 Industrial Unamed Tea - Excel file  We don&amp;rsquo;t need to make analisys
 Boss
  THE big data for the NEWEST company. You can only use .xls, .xlsx e .</description>
-</item>
-    
-    <item>
-<title>Mew and programming</title>
-<link>https://fundor333.com/post/2019/mew-and-programming/</link>
-<pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2019/mew-and-programming/</guid>
-<description>This is a story about a myth about how to find Mew1.
-In the old day without interent &amp;ldquo;the cousin of a friends&amp;rdquo; or a &amp;rdquo; friend of my cousin find and captured a Mew.
-The Myth If you want to do it yourself you need to:
- Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn&amp;rsquo;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.</description>
 </item>
     
   </channel>

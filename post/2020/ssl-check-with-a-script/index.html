@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+  </style>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
+
+  <title>
+    SSL Check With a Script  - Fundor333
+  </title>
+  <meta name="author" content="Fundor333" />
+
+  <meta name="description"
+    content="As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&rsquo;t have money I use Let&rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
+Every sistem I have use CertBot, the bot for Let&rsquo;s Encrypt, who renew the certificate when needed with a cronjob." />
+
+   
+  <link rel="canonical" href="https://fundor333.com/post/2020/ssl-check-with-a-script/" />
+   
+
+  
+  <meta property="og:title" content="SSL Check With a Script" />
+<meta property="og:description" content="As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&rsquo;t have money I use Let&rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
+Every sistem I have use CertBot, the bot for Let&rsquo;s Encrypt, who renew the certificate when needed with a cronjob." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fundor333.com/post/2020/ssl-check-with-a-script/" />
+<meta property="article:published_time" content="2020-08-20T14:13:40+02:00" />
+<meta property="article:modified_time" content="2020-08-20T14:13:40+02:00" />
+
+  
+  <meta itemprop="name" content="SSL Check With a Script">
+<meta itemprop="description" content="As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&rsquo;t have money I use Let&rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
+Every sistem I have use CertBot, the bot for Let&rsquo;s Encrypt, who renew the certificate when needed with a cronjob.">
+<meta itemprop="datePublished" content="2020-08-20T14:13:40+02:00" />
+<meta itemprop="dateModified" content="2020-08-20T14:13:40+02:00" />
+<meta itemprop="wordCount" content="839">
+
+
+
+<meta itemprop="keywords" content="coding,dotbot,devops," />
+
+  
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image:src" content="https://fundor333.com/ssl-check-with-a-script.jpg" />
+<meta name="twitter:card" content="summary" />
+
+
+<meta name="twitter:title" content="SSL Check With a Script" />
+<meta name="twitter:description"
+  content="As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&rsquo;t have money I use Let&rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
+Every sistem I have use CertBot, the bot for Let&rsquo;s Encrypt, who renew the certificate when needed with a cronjob." />
+
+
+
+
+
+
+  
+</head>
+
+
+<body>
+  
+
+
+  <nav class="navbar navbar-expand-lg  sticky-top f333">
+
+  <button class="navbar-toggler f333" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="https://fundor333.com/">
+      <img src="/img/pilogo.jpg" width="30" height="30" alt="" loading="lazy">
+      Fundor333
+    </a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+       
+      <li class="nav-item">
+        <a class="nav-link" href="/post/">blog</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/hoarding/">hoarding</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/now/">now</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/project/">projects</a>
+      </li>
+      
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="container">
+    <div class="col-10 offset-1">
+      <div class="row justify-content-center">
+         
+        <div class="col-1">
+          <a href="https://github.com/fundor333">
+            <i class="fab fa-github" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.facebook.com/fundor333">
+            <i class="fab fa-facebook" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://twitter.com/fundor333">
+            <i class="fab fa-twitter" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://mastodon.social/@fundor333">
+            <i class="fab fa-mastodon" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+            <i class="fab fa-youtube" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.instagram.com/fundor333/">
+            <i class="fab fa-instagram" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.flickr.com/people/fundor333/">
+            <i class="fab fa-flickr" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+      </div>
+
+      <br>
+
+      <div class="row">
+        
+<div class="container">
+  <h1>SSL Check With a Script</h2>
+    <a class="crumb" href="https://fundor333.com/">home</a>
+    ~
+    <a class="crumb" href='https://fundor333.com/post/2020/ssl-check-with-a-script/'>SSL Check With a Script</a>
+    <br>
+    <hr>
+
+    <div>
+      
+      
+      <img src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg" alt="Card image cap" class="img-fluid">
+      
+      </a>
+      <div>
+        <a href="https://unsplash.com/photos/OVEWbIgffDk">Photo by Denisse Leon on Unsplash</a>
+      </div>
+    </div>
+    <hr>
+     
+    <a class="tag" href='https://fundor333.com/tags/coding'>coding</a>
+    
+    <a class="tag" href='https://fundor333.com/tags/dotbot'>dotbot</a>
+    
+    <a class="tag" href='https://fundor333.com/tags/devops'>devops</a>
+     
+    <hr>
+    <small>2020-08-20</small>
+    <hr>
+
+    <br>
+    <article>
+      <p>As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&rsquo;t have money I use <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a> for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.</p>
+<p>Every sistem I have use CertBot, the bot for Let&rsquo;s Encrypt, who renew the certificate when needed with a cronjob. Sometime you will recive a mail from Let&rsquo;s Encrypt about some ending certificate and I don&rsquo;t want to check manualy every time because some of our certificate are for multiple domain in one certificate.</p>
+<h2 id="script-out-the-problem">Script out the problem</h2>
+<p>For this script we need</p>
+<ul>
+<li>Python 3.6 or more</li>
+<li>PyOpenssl</li>
+</ul>
+<p>I don&rsquo;t want to use module outside the python core but, in this case, I need a module for the newest type of certificate so&hellip; I write it with a config file with all my site.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6272a4">#!/usr/bin/env python3</span>
+
+<span style="color:#ff79c6">import</span> datetime
+<span style="color:#ff79c6">import</span> logging
+<span style="color:#ff79c6">import</span> os
+<span style="color:#ff79c6">import</span> socket
+<span style="color:#ff79c6">import</span> ssl
+
+<span style="color:#ff79c6">import</span> OpenSSL
+
+logger <span style="color:#ff79c6">=</span> logging<span style="color:#ff79c6">.</span>getLogger(<span style="color:#f1fa8c">&#34;SSLVerify&#34;</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p>Start with the import for working with date, log, make a request for a ssl certificate and open a file. Also set the logger for the script.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">ssl_expiry_datetime</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> datetime<span style="color:#ff79c6">.</span>datetime:
+  cert <span style="color:#ff79c6">=</span> ssl<span style="color:#ff79c6">.</span>get_server_certificate((hostname, <span style="color:#bd93f9">443</span>))
+  x509 <span style="color:#ff79c6">=</span> OpenSSL<span style="color:#ff79c6">.</span>crypto<span style="color:#ff79c6">.</span>load_certificate(OpenSSL<span style="color:#ff79c6">.</span>crypto<span style="color:#ff79c6">.</span>FILETYPE_PEM, cert)
+  <span style="color:#ff79c6">return</span> datetime<span style="color:#ff79c6">.</span>datetime<span style="color:#ff79c6">.</span>strptime(x509<span style="color:#ff79c6">.</span>get_notAfter()<span style="color:#ff79c6">.</span>decode(<span style="color:#f1fa8c">&#39;ascii&#39;</span>), <span style="color:#f1fa8c">&#39;%Y%m</span><span style="color:#f1fa8c">%d</span><span style="color:#f1fa8c">%H%M%SZ&#39;</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p>This function get a url, get the certificate of the domain and return a datetime python object listing the last minute the certificate validity. After this the site is not <em>https</em></p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">ssl_valid_time_remaining</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> datetime<span style="color:#ff79c6">.</span>timedelta:
+  expires <span style="color:#ff79c6">=</span> ssl_expiry_datetime(hostname)
+  logger<span style="color:#ff79c6">.</span>debug(<span style="color:#f1fa8c">&#34;SSL cert for {} expires at {}&#34;</span><span style="color:#ff79c6">.</span>format(hostname, expires<span style="color:#ff79c6">.</span>isoformat()))
+  <span style="color:#ff79c6">return</span> expires <span style="color:#ff79c6">-</span> datetime<span style="color:#ff79c6">.</span>datetime<span style="color:#ff79c6">.</span>utcnow()
+</code></pre></td></tr></table>
+</div>
+</div><p>Return a python object with the remaining days of the certificate. It can be negative if is exspired.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">test_host</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>, buffer_days: <span style="color:#8be9fd;font-style:italic">int</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">30</span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd;font-style:italic">str</span>:
+  <span style="color:#ff79c6">try</span>:
+    will_expire_in <span style="color:#ff79c6">=</span> ssl_valid_time_remaining(hostname)
+  <span style="color:#ff79c6">except</span> ValueError <span style="color:#ff79c6">as</span> e:
+    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert error &#34;</span> <span style="color:#ff79c6">+</span> <span style="color:#8be9fd;font-style:italic">str</span>(e)
+  <span style="color:#ff79c6">except</span> socket<span style="color:#ff79c6">.</span>timeout <span style="color:#ff79c6">as</span> e:
+    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; could not connect&#34;</span>
+  <span style="color:#ff79c6">else</span>:
+    <span style="color:#ff79c6">if</span> will_expire_in <span style="color:#ff79c6">&lt;</span> datetime<span style="color:#ff79c6">.</span>timedelta(days<span style="color:#ff79c6">=</span><span style="color:#bd93f9">0</span>):
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert will expired&#34;</span>
+    <span style="color:#ff79c6">elif</span> will_expire_in <span style="color:#ff79c6">&lt;</span> datetime<span style="color:#ff79c6">.</span>timedelta(days<span style="color:#ff79c6">=</span>buffer_days):
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;⏳ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert will expire in &#34;</span> <span style="color:#ff79c6">+</span> will_expire_in
+    <span style="color:#ff79c6">else</span>:
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;✔️ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert is fine&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>This function build the string for the user to see about the domain. Use the <em>emoji</em> for fast reading for error<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">popupmsg</span>(msg):
+  logger<span style="color:#ff79c6">.</span>info(msg)
+</code></pre></td></tr></table>
+</div>
+</div><p>Print into the console the output. I search a good way for making a popup or a toast for gui purpuise but I can&rsquo;t make it multiOS so I use the standard output</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#34;__main__&#34;</span>:
+  f <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">open</span>(os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>expanduser(<span style="color:#f1fa8c">&#34;~/.sslverify&#34;</span>), <span style="color:#f1fa8c">&#34;r&#34;</span>)
+  end_message <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;&#34;</span>
+  <span style="color:#ff79c6">for</span> host <span style="color:#ff79c6">in</span> f<span style="color:#ff79c6">.</span>readlines():
+    host <span style="color:#ff79c6">=</span> host<span style="color:#ff79c6">.</span>strip()
+    message <span style="color:#ff79c6">=</span> test_host(host)
+    end_message <span style="color:#ff79c6">+=</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span> <span style="color:#ff79c6">+</span> message
+  <span style="color:#ff79c6">print</span>(end_message)
+  popupmsg(end_message)
+
+</code></pre></td></tr></table>
+</div>
+</div><p>The starter of the all script. The input of the script is a <a href="https://fundor333.com/post/2020/dotfiles-bot-yaml/">dotfiles</a>, a <em>.txt</em> with one site for row,
+In this way I backup it with my  <a href="https://github.com/anishathalye/dotbot">dotbot</a> and take with me into every machine I work in.</p>
+<p>Changing the output system you can easly make a cronjob out of this script or a lambda function for your need.</p>
+<p>I am thinking about making this script into a module or bash app in the near future.</p>
+<h2 id="all-the-code">All the code</h2>
+<p>We end with all the code into a single block</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6272a4">#!/usr/bin/env python3</span>
+
+<span style="color:#ff79c6">import</span> datetime
+<span style="color:#ff79c6">import</span> logging
+<span style="color:#ff79c6">import</span> os
+<span style="color:#ff79c6">import</span> socket
+<span style="color:#ff79c6">import</span> ssl
+
+<span style="color:#ff79c6">import</span> OpenSSL
+
+logger <span style="color:#ff79c6">=</span> logging<span style="color:#ff79c6">.</span>getLogger(<span style="color:#f1fa8c">&#34;SSLVerify&#34;</span>)
+
+
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">ssl_expiry_datetime</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> datetime<span style="color:#ff79c6">.</span>datetime:
+  cert <span style="color:#ff79c6">=</span> ssl<span style="color:#ff79c6">.</span>get_server_certificate((hostname, <span style="color:#bd93f9">443</span>))
+  x509 <span style="color:#ff79c6">=</span> OpenSSL<span style="color:#ff79c6">.</span>crypto<span style="color:#ff79c6">.</span>load_certificate(OpenSSL<span style="color:#ff79c6">.</span>crypto<span style="color:#ff79c6">.</span>FILETYPE_PEM, cert)
+  <span style="color:#ff79c6">return</span> datetime<span style="color:#ff79c6">.</span>datetime<span style="color:#ff79c6">.</span>strptime(x509<span style="color:#ff79c6">.</span>get_notAfter()<span style="color:#ff79c6">.</span>decode(<span style="color:#f1fa8c">&#39;ascii&#39;</span>), <span style="color:#f1fa8c">&#39;%Y%m</span><span style="color:#f1fa8c">%d</span><span style="color:#f1fa8c">%H%M%SZ&#39;</span>)
+
+
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">ssl_valid_time_remaining</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> datetime<span style="color:#ff79c6">.</span>timedelta:
+  expires <span style="color:#ff79c6">=</span> ssl_expiry_datetime(hostname)
+  logger<span style="color:#ff79c6">.</span>debug(<span style="color:#f1fa8c">&#34;SSL cert for {} expires at {}&#34;</span><span style="color:#ff79c6">.</span>format(hostname, expires<span style="color:#ff79c6">.</span>isoformat()))
+  <span style="color:#ff79c6">return</span> expires <span style="color:#ff79c6">-</span> datetime<span style="color:#ff79c6">.</span>datetime<span style="color:#ff79c6">.</span>utcnow()
+
+
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">test_host</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>, buffer_days: <span style="color:#8be9fd;font-style:italic">int</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">30</span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd;font-style:italic">str</span>:
+  <span style="color:#ff79c6">try</span>:
+    will_expire_in <span style="color:#ff79c6">=</span> ssl_valid_time_remaining(hostname)
+  <span style="color:#ff79c6">except</span> ValueError <span style="color:#ff79c6">as</span> e:
+    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert error &#34;</span> <span style="color:#ff79c6">+</span> <span style="color:#8be9fd;font-style:italic">str</span>(e)
+  <span style="color:#ff79c6">except</span> socket<span style="color:#ff79c6">.</span>timeout <span style="color:#ff79c6">as</span> e:
+    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; could not connect&#34;</span>
+  <span style="color:#ff79c6">else</span>:
+    <span style="color:#ff79c6">if</span> will_expire_in <span style="color:#ff79c6">&lt;</span> datetime<span style="color:#ff79c6">.</span>timedelta(days<span style="color:#ff79c6">=</span><span style="color:#bd93f9">0</span>):
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert will expired&#34;</span>
+    <span style="color:#ff79c6">elif</span> will_expire_in <span style="color:#ff79c6">&lt;</span> datetime<span style="color:#ff79c6">.</span>timedelta(days<span style="color:#ff79c6">=</span>buffer_days):
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;⏳ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert will expire in &#34;</span> <span style="color:#ff79c6">+</span> will_expire_in
+    <span style="color:#ff79c6">else</span>:
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;✔️ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert is fine&#34;</span>
+
+
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">popupmsg</span>(msg):
+  logger<span style="color:#ff79c6">.</span>info(msg)
+
+
+<span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#34;__main__&#34;</span>:
+  f <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">open</span>(os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>expanduser(<span style="color:#f1fa8c">&#34;~/.sslverify&#34;</span>), <span style="color:#f1fa8c">&#34;r&#34;</span>)
+  end_message <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;&#34;</span>
+  <span style="color:#ff79c6">for</span> host <span style="color:#ff79c6">in</span> f<span style="color:#ff79c6">.</span>readlines():
+    host <span style="color:#ff79c6">=</span> host<span style="color:#ff79c6">.</span>strip()
+    message <span style="color:#ff79c6">=</span> test_host(host)
+    end_message <span style="color:#ff79c6">+=</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span> <span style="color:#ff79c6">+</span> message
+  <span style="color:#ff79c6">print</span>(end_message)
+  popupmsg(end_message)
+
+</code></pre></td></tr></table>
+</div>
+</div><section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The &ldquo;error&rdquo; in this case are the only one colored emoji of the bunch. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+      <p>by Fundor333</p>
+    </article>
+
+    <hr>
+
+    
+    
+    <h3>See Also</h3>
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2019/devops-chatbot-npm/">
+      <h2 class="text-center">DevOps, ChatBot e NPM</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2019/devops-chatbot-npm/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2019/devops-chatbot-npm/octocat.png" src="https://fundor333.com/post/2019/devops-chatbot-npm/octocat_hub5ba3c50d2836646ca64390bf754a660_276819_956206bc5bd1880f9fc4e9b8de21c0f0.png" alt="DevOps, ChatBot e NPM"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2019/devops-chatbot-npm/" class="text-center">Aggiornamento su cosa mi sta succedendo e perché ho iniziato a fare il DevOps</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>🍵
+        Reading time 2 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/devops'>devops</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/bot'>bot</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/coding'>coding</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/building-my-backend/">
+      <h2 class="text-center">Building My Backend</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2020/building-my-backend/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg" src="https://fundor333.com/post/2020/building-my-backend/building-my-backend_huafbb9e1c8a0e68f6253039804553ea11_843675_501af78c3af832589d3759b36af3d970.jpg" alt="Building My Backend"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/building-my-backend/" class="text-center">Why someone need a server and how I build mine</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>🍵🍵
+        Reading time 6 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/django'>django</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/coding'>coding</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/api'>api</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/al-you-need-is-static/">
+      <h2 class="text-center">Al You Need Is Static</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2020/al-you-need-is-static/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static.jpg" src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static_hu9153d5ab40d8200cb921296f556c533b_1008150_502dcea59e2a395e8cbbce6c5be2dfa6.jpg" alt="Al You Need Is Static"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/al-you-need-is-static/" class="text-center">Why you need to move to static site generator and where they come from</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>🍵🍵
+        Reading time 6 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/rant'>rant</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/coding'>coding</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <hr>
+</div>
+
+      </div>
+      <br>
+      
+    </div>
+  </div>
+  <br>
+  <footer class="fixed-bottom d-flex justify-content-center f333 navbar">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
+        <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+      </a>
+    </li>
+  </ul>
+</footer>
+<br>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-44064318-2', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    count = 0;
+    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
+      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
+      "Wev 3.0", "Buzzword",
+    ];
+    setInterval(function () {
+      count++;
+      $(".buzzword").fadeOut(400, function () {
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
+      });
+    }, 4000);
+  });
+
+</script>
+
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 360);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+
+
+
+</body>
+
+</html>

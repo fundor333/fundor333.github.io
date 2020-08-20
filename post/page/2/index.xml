@@ -7,11 +7,23 @@
 		<description>Recent content in Posts on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sat, 15 Aug 2020 15:15:00 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 20 Aug 2020 14:13:40 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Mew and programming</title>
+<link>https://fundor333.com/post/2019/mew-and-programming/</link>
+<pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2019/mew-and-programming/</guid>
+<description>This is a story about a myth about how to find Mew1.
+In the old day without interent &amp;ldquo;the cousin of a friends&amp;rdquo; or a &amp;rdquo; friend of my cousin find and captured a Mew.
+The Myth If you want to do it yourself you need to:
+ Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn&amp;rsquo;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.</description>
+</item>
     
     <item>
 <title>Beards, mugs and men</title>
@@ -103,17 +115,6 @@ Oggi, a un anno dopo, mi metto a fare i conti su com&amp;rsquo;è la console e s
 <description>Da poco ho scoperto che nel 2006 l&amp;rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;quot;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
 Partiamo con ordine: cos&amp;rsquo;è il P2P?
 P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto&amp;rdquo;. Significa che la comunicazione è tra il &amp;ldquo;mittente&amp;rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.</description>
-</item>
-    
-    <item>
-<title>E Talk Al Pycon9</title>
-<link>https://fundor333.com/post/2018/e-talk-al-pycon9/</link>
-<pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2018/e-talk-al-pycon9/</guid>
-<description>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
-Facciamo un po&amp;rsquo; di ordine:
- Ho un blog gestito attraverso un generatore di siti statici Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi Ho una passione per il formato file .</description>
 </item>
     
   </channel>
