@@ -7,11 +7,23 @@
 		<description>Recent content in dev on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sat, 15 Aug 2020 15:15:00 +0200</lastBuildDate>
+		<lastBuildDate>Sun, 30 Aug 2020 13:49:30 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Make a Tea Not Big Data</title>
+<link>https://fundor333.com/post/2020/make-tea-not-big-data/</link>
+<pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/make-tea-not-big-data/</guid>
+<description>The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
+Industrial Unamed Tea - Excel file  We don&amp;rsquo;t need to make analisys
+Boss
+ THE big data for the NEWEST company. You can only use .xls, .xlsx e .</description>
+</item>
     
     <item>
 <title>Mew and programming</title>
@@ -104,17 +116,6 @@ Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;ann
       <guid>https://fundor333.com/post/2018/tanti-auguri-nintendo/</guid>
 <description>Esattamente un anno fa, il 3 Marzo 2017, usciva la Nintendo Switch, la prima console sia fissa che portatile che la Nintendo abbia mai fatto. In quella stessa data mi è stata regalata una Nintendo Switch con Zelda Breath of the Wild, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.1
 Oggi, a un anno dopo, mi metto a fare i conti su com&amp;rsquo;è la console e su che parte del mercato si è posizionata la console ibrida.</description>
-</item>
-    
-    <item>
-<title>P2P offline come le Spie</title>
-<link>https://fundor333.com/post/2018/p2p-offline-da-spie/</link>
-<pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2018/p2p-offline-da-spie/</guid>
-<description>Da poco ho scoperto che nel 2006 l&amp;rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;quot;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
-Partiamo con ordine: cos&amp;rsquo;è il P2P?
-P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto&amp;rdquo;. Significa che la comunicazione è tra il &amp;ldquo;mittente&amp;rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.</description>
 </item>
     
   </channel>

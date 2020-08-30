@@ -7,11 +7,22 @@
 		<description>Recent content in Categories on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sat, 15 Aug 2020 15:15:00 +0200</lastBuildDate>
+		<lastBuildDate>Sun, 30 Aug 2020 13:49:30 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>P2P offline come le Spie</title>
+<link>https://fundor333.com/post/2018/p2p-offline-da-spie/</link>
+<pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2018/p2p-offline-da-spie/</guid>
+<description>Da poco ho scoperto che nel 2006 l&amp;rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;quot;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
+Partiamo con ordine: cos&amp;rsquo;è il P2P?
+P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto&amp;rdquo;. Significa che la comunicazione è tra il &amp;ldquo;mittente&amp;rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.</description>
+</item>
     
     <item>
 <title>E Talk Al Pycon9</title>
@@ -93,16 +104,6 @@ Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGf
       
       <guid>https://fundor333.com/post/2017/hugo-into-docker/</guid>
 <description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
-</item>
-    
-    <item>
-<title>Il primo periodo con Emacs</title>
-<link>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</link>
-<pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</guid>
-<description>Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino usarlo come editor unico. La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.
-Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento &amp;ldquo;bloccato e non danneggiabile&amp;rdquo;.</description>
 </item>
     
   </channel>

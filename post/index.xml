@@ -7,11 +7,22 @@
 		<description>Recent content in Posts on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 20 Aug 2020 14:13:40 +0200</lastBuildDate>
+		<lastBuildDate>Sun, 30 Aug 2020 13:49:30 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Backup Your Crontab</title>
+<link>https://fundor333.com/post/2020/backup-your-crontab/</link>
+<pubDate>Sun, 30 Aug 2020 13:49:30 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/backup-your-crontab/</guid>
+<description>With covid I work sometime at home, sometime at office, allwayse with different computer.
+This is one of the reason of my dotfile and, for some project I am working on, I need to have some cronjob in every computer but some cronjob is machine specific so I don&amp;rsquo;t need to sync all, only some.
+So I contact the developer of DotBot1 and talk about it but it wasn&amp;rsquo; t implemented so I make a plugin for this.</description>
+</item>
     
     <item>
 <title>SSL Check With a Script</title>
@@ -101,18 +112,6 @@ And many time it was a booring job to setup all your stuff before starting with 
 It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
  Hello
 we need to connect to [last thing buy for the boss] system for [stuff i don&amp;rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.</description>
-</item>
-    
-    <item>
-<title>Make a Tea Not Big Data</title>
-<link>https://fundor333.com/post/2020/make-tea-not-big-data/</link>
-<pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/make-tea-not-big-data/</guid>
-<description>The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
-Industrial Unamed Tea - Excel file  We don&amp;rsquo;t need to make analisys
-Boss
- THE big data for the NEWEST company. You can only use .xls, .xlsx e .</description>
 </item>
     
   </channel>
