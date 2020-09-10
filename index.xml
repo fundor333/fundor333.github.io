@@ -7,11 +7,22 @@
 		<description>Recent content on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sun, 30 Aug 2020 13:49:30 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 10 Sep 2020 21:06:21 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Color Your Python Output</title>
+<link>https://fundor333.com/post/2020/color-your-python-output/</link>
+<pubDate>Thu, 10 Sep 2020 21:06:21 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/color-your-python-output/</guid>
+<description>Sometime you need to output error and other stuff in the same terminal. It can be a lot of text and you need to make more readible for the user/sysadmin/victim so, the easy way, is to make different the output.
+The easy way to do it is to color the output to some color.
+How it&amp;rsquo;s work In the ANSI character set you find the escape code for multiple things: cursor location, color, text style and other option for the terminal and the terminal emulators.</description>
+</item>
     
     <item>
 <title>Backup Your Crontab</title>
@@ -100,18 +111,6 @@ PyExcel is a module where you can import multiple type of file (in our case xls 
       <guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
 <description>If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
 And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
-</item>
-    
-    <item>
-<title>Sock and socket</title>
-<link>https://fundor333.com/post/2020/sock-and-socket/</link>
-<pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/sock-and-socket/</guid>
-<description>Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
-It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
- Hello
-we need to connect to [last thing buy for the boss] system for [stuff i don&amp;rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.</description>
 </item>
     
   </channel>

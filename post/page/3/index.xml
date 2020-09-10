@@ -7,11 +7,21 @@
 		<description>Recent content in Posts on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sun, 30 Aug 2020 13:49:30 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 10 Sep 2020 21:06:21 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Tanti Auguri Nintendo Switch</title>
+<link>https://fundor333.com/post/2018/tanti-auguri-nintendo/</link>
+<pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2018/tanti-auguri-nintendo/</guid>
+<description>Esattamente un anno fa, il 3 Marzo 2017, usciva la Nintendo Switch, la prima console sia fissa che portatile che la Nintendo abbia mai fatto. In quella stessa data mi è stata regalata una Nintendo Switch con Zelda Breath of the Wild, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.1
+Oggi, a un anno dopo, mi metto a fare i conti su com&amp;rsquo;è la console e su che parte del mercato si è posizionata la console ibrida.</description>
+</item>
     
     <item>
 <title>P2P offline come le Spie</title>
@@ -95,15 +105,6 @@ Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi o
       <guid>https://fundor333.com/post/2017/google-io-2017/</guid>
 <description>Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.
 Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.</description>
-</item>
-    
-    <item>
-<title>Hugo into Docker</title>
-<link>https://fundor333.com/post/2017/hugo-into-docker/</link>
-<pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/hugo-into-docker/</guid>
-<description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
 </item>
     
   </channel>

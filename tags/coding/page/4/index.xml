@@ -7,11 +7,20 @@
 		<description>Recent content in coding on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sun, 30 Aug 2020 13:49:30 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 10 Sep 2020 21:06:21 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Hugo into Docker</title>
+<link>https://fundor333.com/post/2017/hugo-into-docker/</link>
+<pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/hugo-into-docker/</guid>
+<description>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
+</item>
     
     <item>
 <title>Il primo periodo con Emacs</title>
@@ -113,20 +122,6 @@ Don&amp;#39;t do this.
 Seek help instead of this. pic.twitter.com/1EYb7BLHkb
 &amp;mdash; HisCursedness💦 (@HisCursedness) October 19, 2016  \|/(x,,,x)\|/
 This is one of the think you must not do. The bon ton of coding show you how you need to write the code.</description>
-</item>
-    
-    <item>
-<title>Gource, visualizzare Git repository</title>
-<link>https://fundor333.com/post/2016/gource-visualizzare-git-repository/</link>
-<pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2016/gource-visualizzare-git-repository/</guid>
-<description>&lt;p&gt;Quando hai un progetto Git, normalmente lo usi per fare controllo delle
-versioni.&lt;br&gt;
-Una volta che il progetto è nella fase di rilascio tu hai quindi un
-repository molto &amp;ldquo;pieno&amp;rdquo; di dati temporali e di chi a modificato cosa e
-quando. E&amp;rsquo; solitamente in questo momento che io faccio il &amp;ldquo;Gource&amp;rdquo; del
-progetto.&lt;/p&gt;</description>
 </item>
     
   </channel>
