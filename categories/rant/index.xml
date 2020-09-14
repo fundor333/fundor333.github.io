@@ -32,7 +32,7 @@ How it&amp;rsquo;s work In the ANSI character set you find the escape code for m
       <guid>https://fundor333.com/post/2020/backup-your-crontab/</guid>
 <description>With covid I work sometime at home, sometime at office, allwayse with different computer.
 This is one of the reason of my dotfile and, for some project I am working on, I need to have some cronjob in every computer but some cronjob is machine specific so I don&amp;rsquo;t need to sync all, only some.
-So I contact the developer of DotBot1 and talk about it but it wasn&amp;rsquo; t implemented so I make a plugin for this.</description>
+So I contact the developer of DotBot1 and talk about it but it wasn&#39; t implemented so I make a plugin for this.</description>
 </item>
     
     <item>

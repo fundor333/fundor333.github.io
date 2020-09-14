@@ -38,7 +38,7 @@ Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza
 <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/2017/e-sono-passato-a-hugo/</guid>
-<description>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&amp;rsquo; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
+<description>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&#39; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
 Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
  La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&amp;rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
 </item>
@@ -59,7 +59,7 @@ Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che s
 <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/</guid>
-<description>&lt;p&gt;Si sta avvicinando il &lt;strong&gt;Pycon 8&lt;/strong&gt; e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest&amp;rsquo; anno.
+<description>&lt;p&gt;Si sta avvicinando il &lt;strong&gt;Pycon 8&lt;/strong&gt; e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest&#39; anno.
 Visto quello che è successo l&amp;rsquo;anno scorso ho deciso di preinstallate Jupyter e essere pronto a fare degli appunti direttamente in notebook. Per questo ho cercato un sistema per convertirli in markdown, così da usarli anche nel blog, o farli leggere direttamente da Pelican e ho fatto una stupenda scoperta: esiste già questo plugin.&lt;/p&gt;</description>
 </item>
     

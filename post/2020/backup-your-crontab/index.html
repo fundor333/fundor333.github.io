@@ -210,15 +210,15 @@
     <article>
       <p>With covid I work sometime at home, sometime at office, allwayse with different computer.</p>
 <p>This is one of the reason of my <a href="https://fundor333.com/post/2020/dotfiles-bot-yaml/">dotfile</a> and, for some project I am working on, I need to have some cronjob in every computer but some cronjob is machine specific so I don&rsquo;t need to sync all, only some.</p>
-<p>So I contact the developer of DotBot<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and talk about it but it wasn&rsquo; t implemented so I make a plugin for this.</p>
+<p>So I contact the developer of DotBot<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and talk about it but it wasn' t implemented so I make a plugin for this.</p>
 <h2 id="the-plugin">The plugin</h2>
 <p>Definition of needs:</p>
 <ul>
 <li>Sync cronjob</li>
 <li>Delete/update cronjob</li>
 <li>Work only on the user&rsquo;s cronjob</li>
-<li>Only the bot&rsquo; cronjobs will be edited, not the others</li>
-<li>Work with <strong>Crontab</strong>, I&rsquo;m not interested in others cronjobs&rsquo; apps</li>
+<li>Only the bot' cronjobs will be edited, not the others</li>
+<li>Work with <strong>Crontab</strong>, I&rsquo;m not interested in others cronjobs' apps</li>
 </ul>
 <p>So I use the command of crontab and make it works</p>
 <h2 id="how-to-use-it">How to use it</h2>
@@ -235,7 +235,7 @@ In this way you can write multiple config for multiple type of intallations you 
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- crontab
 	<span style="color:#ff79c6">-cron</span>: <span style="color:#bd93f9">0</span> * * * *
-	 <span style="color:#ff79c6">command</span>: echo <span style="color:#f1fa8c">&#34;Hello world&#34;</span>
+	 <span style="color:#ff79c6">command</span>: echo &#34;Hello world&#34;
 </code></pre></td></tr></table>
 </div>
 </div><p>For now this is a little thing working only on <em>Crontab</em> but I am thinking about adding Windows support but I don&rsquo;t have any idea about how I make it, so if you have idea about Windows implementation comment in this post or open an issiue or a pull request on the repo</p>
