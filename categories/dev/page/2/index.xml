@@ -7,11 +7,21 @@
 		<description>Recent content in dev on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sun, 30 Aug 2020 13:49:30 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Dotfiles, bot and yaml files</title>
+<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
+<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
+<description>If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
+And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
+</item>
     
     <item>
 <title>Sock and socket</title>
@@ -107,17 +117,6 @@ Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo ch
 <description>Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: &amp;ldquo;Whas are going to change into the OpenSource comunity or into the public code?&amp;rdquo;
 Many developer thinks about this and say something similar to &amp;ldquo;I do not want to risc my project so goodby&amp;rdquo; and the move to GitLab all theire code.
 GitHub imports to GitLab are still going up!</description>
-</item>
-    
-    <item>
-<title>Floppy, Pycon e generatori di siti statici</title>
-<link>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</link>
-<pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</guid>
-<description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
-Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
- ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
 </item>
     
   </channel>

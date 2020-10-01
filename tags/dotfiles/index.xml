@@ -7,11 +7,21 @@
 		<description>Recent content in dotfiles on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Sun, 30 Aug 2020 13:49:30 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/tags/dotfiles/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Manage Site and Certificate</title>
+<link>https://fundor333.com/post/2020/manage-site-and-certificate/</link>
+<pubDate>Thu, 01 Oct 2020 22:12:20 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/manage-site-and-certificate/</guid>
+<description>After my other post I find we (me and my coworker) need to check between 30 to 40 domain, subdomain and SSL certificate for work and some more for our private life so I put on the test my other post&amp;rsquo;s script but we need to check more.
+We need to check when the domain expire (DNS Lookup), we need to check if the server are up and the SSL certificate.</description>
+</item>
     
     <item>
 <title>Color Your Python Output</title>
@@ -101,16 +111,6 @@ Some hystory To understand why in 2020 you need to have a static site and not a 
 <description>Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
 I use the pyexcel and pyexcel-xls module for this work.
 PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
-</item>
-    
-    <item>
-<title>Dotfiles, bot and yaml files</title>
-<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
-<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
-<description>If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
-And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
 </item>
     
   </channel>

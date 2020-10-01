@@ -7,11 +7,21 @@
 		<description>Recent content in devops on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 10 Sep 2020 21:06:21 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
     
         <atom:link href="https://fundor333.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Google IO 2017</title>
+<link>https://fundor333.com/post/2017/google-io-2017/</link>
+<pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/google-io-2017/</guid>
+<description>Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.
+Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.</description>
+</item>
     
     <item>
 <title>Hugo into Docker</title>
@@ -105,23 +115,6 @@ Visto quello che è successo l&amp;rsquo;anno scorso ho deciso di preinstallate 
 Questo perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.
 Così sono passato da un blog dinamico a uno statico.
 Come mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell&amp;rsquo;azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine.</description>
-</item>
-    
-    <item>
-<title>Parentesys Horror</title>
-<link>https://fundor333.com/post/2016/orrori-delle-parentesi/</link>
-<pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2016/orrori-delle-parentesi/</guid>
-<description>(°,,,°)
-This is my face when I open Twitter&amp;hellip;
-A fragment of code with parentesies at the end of the row&amp;hellip;
-Use whatever brace style you prefer.
-But not this.
-Don&amp;#39;t do this.
-Seek help instead of this. pic.twitter.com/1EYb7BLHkb
-&amp;mdash; HisCursedness💦 (@HisCursedness) October 19, 2016  \|/(x,,,x)\|/
-This is one of the think you must not do. The bon ton of coding show you how you need to write the code.</description>
 </item>
     
   </channel>
