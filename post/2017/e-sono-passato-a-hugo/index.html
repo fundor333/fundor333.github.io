@@ -211,14 +211,14 @@
       <p>E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa.
 Dopo un po' di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie</p>
 <!-- raw HTML omitted -->
-<h3 id="problemi-personali">Problemi personali</h3>
+<a class="h3-anchor" href="#problemi-personali"><h3 id="problemi-personali">Problemi personali</h3></a>
 <p>Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:</p>
 <ul>
 <li>La strutturazione del layout, che sento stretta e strutturata in modo &ldquo;sbagliato&rdquo;</li>
 <li>L&rsquo;impossibilità di avere multiple <em>category</em> per un singolo post senza implementare io stesso un plugin</li>
 </ul>
 <p>A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &ldquo;passati&rdquo; e non &ldquo;futuri&rdquo; am credo che questo sia un problema mio.</p>
-<h3 id="la-scelta">La scelta</h3>
+<a class="h3-anchor" href="#la-scelta"><h3 id="la-scelta">La scelta</h3></a>
 <p>Ho scelto Hugo rispetto a Jekyll in quanto non ho interesse a lavorare in Ruby ma, invece, sono incuriosito a lavorare in GoLang (linguaggio in cui è interamente scritto Hugo) e me ne hanno parlato molto bene.</p>
 <p>Leggendo anche in giro non mi è sembrava particolarmente difficile la conversione Pelican -&gt; Hugo per cui ho dato una occhiata a come eseguirla.</p>
 <p>Per avere un blog di Hugo devi avere:</p>
@@ -227,17 +227,17 @@ Dopo un po' di utilizzo di Pelican ho deciso di prendere e fare due cose a modo 
 <li>Uno spazio web dove poterti connettere</li>
 <li>Un tema per Hugo</li>
 </ol>
-<h3 id="realizzazione">Realizzazione</h3>
+<a class="h3-anchor" href="#realizzazione"><h3 id="realizzazione">Realizzazione</h3></a>
 <p>Scelto il generatore statico di siti è stata la volta di implementareil resto del sito.</p>
-<h4 id="installazione">Installazione</h4>
+<a class="h4-anchor" href="#installazione"><h4 id="installazione">Installazione</h4></a>
 <p>L&rsquo;installazione di Hugo è la cosa più semplice. Scarichi dal <a href="https://gohugo.io/">sito</a> e segui le istruzioni per installarlo nel sistema operativo che si possiede.</p>
 <p>Una volta installato è stato possibile utilizzare comandi di Hugo da terminale costruendo così lo scheletro del tema e della struttura del blog.</p>
-<h4 id="contenuto">Contenuto</h4>
+<a class="h4-anchor" href="#contenuto"><h4 id="contenuto">Contenuto</h4></a>
 <p>Bisogna convertire tutto il contenuto in un formato conpatibile con Hugo. Per mia fortuna il formato è sempre un <em>Markdown</em> per i contenuti mentre uso il formato Toml per i metadata. Hugo supporta anche altri formati per i metadata ma quello in cui mi trovo meglio è il Toml e di conseguenza ho modificato (a mano) tutti i post e le pagine per farli funzionare col nuovo sistema.</p>
-<h4 id="tema">Tema</h4>
+<a class="h4-anchor" href="#tema"><h4 id="tema">Tema</h4></a>
 <p>Per il porting del sito è stato necessario fare il porting del tema in Hugo da Pelican o usare uno dei temi disponibili online.
 Ho quindi deciso di prendere i css e i js del tema pelican e riscriverlo per Hugo. E' stato retalivamente facile una volta capito il sistema di temi di GoLang che risulta diverso da <a href="http://jinja.pocoo.org/">Jinja</a>, che è il sistema utilizzato da Pelican.</p>
-<h4 id="publicazione">Publicazione</h4>
+<a class="h4-anchor" href="#publicazione"><h4 id="publicazione">Publicazione</h4></a>
 <p>Fatto questo ho portato tutto su GitLab dove ho configurato il settaggio per la compilazione automatica in modo da porter pushare i file e lui pensa a ricompilare tutti il sito.</p>
 <pre><code>image: publysher/hugo
 pages:
@@ -250,7 +250,7 @@ pages:
   - source
 </code></pre>
 <p>Con questa configurazione ogni qual volta viene pushato un commit del branch <em>source</em> lui esegue l&rsquo;elaborazione del sito nella cartella <em>public</em> che viene a sua volta visualizzata da GitLab come <em>root</em> del sito internet e distribuita online a chiunque richieda la pagina.</p>
-<h4 id="https">HTTPS</h4>
+<a class="h4-anchor" href="#https"><h4 id="https">HTTPS</h4></a>
 <p>Ho utilizzato <a href="https://letsencrypt.org/">Let&rsquo;s Encrypt</a> per generare un certificato per il dominio associato al sito e lo ho caricato su <em>static/.well-known</em> come indicato dal servizio ottenendo così una connessione https configurata per il mio dominio</p>
 
       <p>by Fundor333</p>

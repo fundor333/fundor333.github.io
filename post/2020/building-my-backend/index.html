@@ -214,7 +214,7 @@
 Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.</p>
 <p>One day, adding a new feed to my Feedly account, I discovered that I can&rsquo;t add more in the free subscription.
 So I start thinking some alternative.</p>
-<h2 id="what-i-need">What I need</h2>
+<a class="h2-anchor" href="#what-i-need"><h2 id="what-i-need">What I need</h2></a>
 <ul>
 <li><strong>web app</strong> i need to use on the run, not only in my machine but in other as well.</li>
 <li><strong>auto update</strong> I need to find the newer or the newest post from my feed</li>
@@ -230,7 +230,7 @@ So I start thinking some alternative.</p>
 <li><strong>a server framework</strong> for writing my server-app -&gt; Django</li>
 </ul>
 <p>Whith this stack I start my backend.</p>
-<h2 id="fist-problem-feeds">Fist problem: feeds</h2>
+<a class="h2-anchor" href="#fist-problem-feeds"><h2 id="fist-problem-feeds">Fist problem: feeds</h2></a>
 <p>First I need to have an alternative to <strong>Feedly</strong> so I start building my personal feed manager.
 And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&hellip; So I &ldquo;read&rdquo; some of my feed manualy and start writing some generic reader for the rss and atom (the most popular format of the feed formats) and write some code for reading Xml in this two type.</p>
 <p>After this I write a Django model for the post inside the feeds so I can save it without thinking about the feed format but reading it, share it or deleting it.</p>
@@ -238,24 +238,24 @@ And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&h
 <p>After this I builds the task for the cronjob for getting all the feed of the multiple sources. This task add a command into redis and when the wrapper (celery in my case) can do the job, it does it and log into the database a row with the log in case of failure.</p>
 <p>I did the same also for the &ldquo;mark as read&rdquo; task so if I mark one this is a task done by the browser but if I do for the &ldquo;last month&rdquo; or &ldquo;all&rdquo; posts they make a Celery task into Redis because it can be a lot of work for the server because I can do more thinks with this but not now.</p>
 <p>In the future I am thinking about point system for the post and other thinks that need a after processing for making a &ldquo;prefernce system&rdquo; or other similar thinks for my personal use<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and I want to save the top post into my Poket account or save it in a way I can store for personal reference with or without the site working and store it indefenitly.</p>
-<h2 id="second-problem-gui">Second problem: gui</h2>
+<a class="h2-anchor" href="#second-problem-gui"><h2 id="second-problem-gui">Second problem: gui</h2></a>
 <p>After working all the feed part I build a little gui, inspired by the teming of my blog and I love it. Light background, dark text with the same font and some similarity but also some difference, because I think that mine blog theme is not right for a backend or other type of web app other than blogs.</p>
 <p>The problem come from the menu. I don like the menu with submenu so I write a &ldquo;menu dashboard&rdquo; for all the &ldquo;categories&rdquo; of view I made for my backend but I am not done for it. I need something more &ldquo;mine&rdquo; for the navigation inside them. And I need to add some Javascript for adding some gui impovment (color or highlight where needed) and this was a big problem for me.</p>
 <p>I am not fluent in js so I need to <em>Google</em> a lot of things about <em>jquery</em> and <em>EMACS5</em> and <em>&ldquo;vanilla' JavaScript</em>.</p>
 <p>After all and with some trick learn in <em>StackOverflow</em> or some random <em>blog</em> I have a functional and someway good looking theme for my backend.</p>
-<h2 id="third-act-api">Third act: Api</h2>
+<a class="h2-anchor" href="#third-act-api"><h2 id="third-act-api">Third act: Api</h2></a>
 <p>Now is time for my favorite part: only backend!</p>
 <p>I have some project to migrate into this backend and half of them has some sort of need of endpoint api so I move the first api project into my backend. With some work and some help from the <em><a href="https://www.django-rest-framework.org/">Django Rest Framework</a></em> I build some view for outputting the json needed for the other project to work.</p>
 <p>After this I build the guis for manage the data of the api. I know that all of this can be done with the <em>Django Admin</em> but I don&rsquo;t like it so I need to write the input, edit and view pages for them.</p>
 <p>For now I consider this part compleate but, in time, I will porting all my other api into this backend.</p>
-<h2 id="the-fourth-is-with-you">The Fourth is with you</h2>
+<a class="h2-anchor" href="#the-fourth-is-with-you"><h2 id="the-fourth-is-with-you">The Fourth is with you</h2></a>
 <p>Now I work on the landing of mine backend. I feel it empty so I think about what I can do to fill it.</p>
 <p>And for this reason I write client for some weather api and other similar api of my home city for my personal easy access. So, with an little time I write all the backend for the &lsquo;widgets&rsquo; I want and make all into a ClassView Django putting all the info into the context of the view.</p>
 <p>With a lot of testing with the layout and changing all the widgets more and more time I ending to make a dashboard with very simple widget for all of theme.</p>
 <p>For now it works but if I add another widget I need to redo all the Dashboard but for now I don&rsquo;t have need for another widget.</p>
-<h2 id="going-for-five">Going for Five</h2>
+<a class="h2-anchor" href="#going-for-five"><h2 id="going-for-five">Going for Five</h2></a>
 <p>After the gui I completely forgot how I write the Api so I need to have an autogenerated Api&rsquo;s documentation. So I use the autogenerating documentation of the <em>DRF</em><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and build a Swagger view for my persona use. I subclassed the generator for adding more function on the standard <em>DRF</em> implementation of the api like the tag sistem and the server tags for an eventualy testing server (maybe one day with more money&hellip;).</p>
-<h2 id="and-now-the-conclusion">And now the conclusion</h2>
+<a class="h2-anchor" href="#and-now-the-conclusion"><h2 id="and-now-the-conclusion">And now the conclusion</h2></a>
 <p>With some time I build more function into this system and add more api. For the time coming I am thinking to porting some cronjob into this backend, adding a documentation system for having some tutorial I can&rsquo;t put in the blog or there are no reason to make them public, like some personal stuff and I want to put a system to write my work task and write the time I am working on them for build in a easy way my timetable for work.</p>
 <p>Because all the project I am working on I don&rsquo;t have a lot of time so all this project have the least priority of all but, one day after the other I will be updating all of this project with all the function I need but for now I have this.</p>
 <section class="footnotes" role="doc-endnotes">

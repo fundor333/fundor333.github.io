@@ -216,22 +216,22 @@
 Dopo una prima analisi della documentazione mi rendo conto che è un generatore di siti statici, ovvero dato qualcosa ritorna un sito HTML completamente costruito dai dati che gli dai in pasto (nel mio caso dati in formato <a href="https://it.wikipedia.org/wiki/Markdown">Markdown</a>) compreso di post e pagine.</p>
 <hr>
 <p>Questo mi ha portato a realizzare un tema basato sulla sintassi utilizzata dal <a href="http://jinja.pocoo.org/docs/dev/">Jinja2</a>.</p>
-<h2 id="definizione-del-tema">Definizione del tema</h2>
+<a class="h2-anchor" href="#definizione-del-tema"><h2 id="definizione-del-tema">Definizione del tema</h2></a>
 <p>Il tema in se non è stato difficile da realizzare, molto css era già pronto da miei precedenti tentativi di realizzare un tema personale ma è stato lungo realizzare tutti i cicli per la visualizzazione corretta di pagine, articoli e link più per una questione di mio gusto artistico che che per un reale problema tecnico/limite di Pelican.</p>
 <p>Con l&rsquo;aiuto di <a href="http://getbootstrap.com/">Bootstrap</a> mi è anche stato facile realizzare il sito in modo responsive, sistemando così anche questo problema.</p>
-<h2 id="backup-da-wordpress">Backup da wordpress</h2>
+<a class="h2-anchor" href="#backup-da-wordpress"><h2 id="backup-da-wordpress">Backup da wordpress</h2></a>
 <p>Con l&rsquo;aiuto di un comando integrato di Pelican è stato possibile importare il vecchio sito wordpress. Questo mi ha permesso di poter mantenere i post del blog vecchio assieme alle pagine. Tutto questo è stato quindi salvato in formato Markdown e suddiviso nelle rispettive directory in base alla categoria e ri-etichettate in base al nuovo sistema utilizzato da Pelican.</p>
 <p><em>Piccola nota a parte sulla cosa: io mi trovo MOLTO meglio con il sistema di gestione di pagine e articoli di Pelican che quello di Wordpress. Qui io posso aggiungere ai miei post un nuovo meta-dato e creare una corretta visualizzazione del metadato stesso senza andare a toccare Pelican stesso (come avresti dovuto fare con Wordpress).</em></p>
-<h2 id="installazione-plugin">Installazione plugin</h2>
+<a class="h2-anchor" href="#installazione-plugin"><h2 id="installazione-plugin">Installazione plugin</h2></a>
 <p>Inizialmente io ho pensato di utilizzare la &ldquo;nuova&rdquo; funzionalità dei sub-moduli di Git ma questo mi ha portato più problemi che altro.</p>
 <p>Dopo svariati tentativi e poca comprensione di perchè continua a essere elaborato male da git e dal mio ide ho pensato che i plugin sono più facili da gestire semplicemente copiandoli in una cartella e aggiornando a mano.</p>
-<h2 id="sistemazione-articoli-e-pagine">Sistemazione articoli e pagine</h2>
+<a class="h2-anchor" href="#sistemazione-articoli-e-pagine"><h2 id="sistemazione-articoli-e-pagine">Sistemazione articoli e pagine</h2></a>
 <p>Ho fatto un po' di pulizia perchè il meccanismo di importazione automatica lascia dello &ldquo;sporco&rdquo; qui e li sotto forma di codice html/css non più desiderato in alcuni punti (precedentemente era usato da plugin e dal tema di wordpress per fare cosucce ma col passaggio è risultato inutile).</p>
 <p>Stessa cosa è successa con le pagine ed è stato più veloce. Sono, per ora, in attesa di revisione e correzione, in modo che siano aggiornate e più coerenti con la grafica del nuovo tema.</p>
-<h2 id="travis-e-la-autopublicazione">Travis e la autopublicazione</h2>
+<a class="h2-anchor" href="#travis-e-la-autopublicazione"><h2 id="travis-e-la-autopublicazione">Travis e la autopublicazione</h2></a>
 <p>Dopo aver elaborato le pagine e gli altricoli ho quindi preparato il repository github seguendo il paradigma di <a href="http://danielkummer.github.io/git-flow-cheatsheet/">Git Flow</a> e preparando TravisCI per la autopublicazione degli articoli. Questo mi consente di accedere a un qualunque pc collegato a internet, andare sul sito di github, aggiungere il post o editare parte del sito e travis si occupa dell&rsquo;elaborazione e di mandarmi il log in caso di fallimento, tutto intermente sul server, senza aver niente installato sul pc che sto usando per scrivere.</p>
 <p>Il settaggio di Travis in se mi ha tolto circa un ora di sonno perchè non sono stato in grado di capire alcuni piccoli comandi. Ora però il meccanismo funziona e, grazie alle funzionalità beta di Travis ho avuto una idea&hellip;</p>
-<h2 id="progetti-per-il-futuro">Progetti per il futuro</h2>
+<a class="h2-anchor" href="#progetti-per-il-futuro"><h2 id="progetti-per-il-futuro">Progetti per il futuro</h2></a>
 <p>Intanto spero di rilanciare il blog, renderlo più attivo e seguito e poi spero di riuscire a scrivere un piccolo plugin per Pelican ma questa è una storia per un altra volta&hellip;</p>
 
       <p>by Fundor333</p>

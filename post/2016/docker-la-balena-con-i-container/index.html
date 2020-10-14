@@ -216,16 +216,16 @@ sulle macchine virtuali e su come rendere uguale l&rsquo;ambiente di develop,
 testing e di produzione. Quando lo ho letto non capivo bene come
 funzionasse ma poi ho trovato degli esempi più semplici che spiegano
 bene la differenza tra i due.</p>
-<h2 id="la-macchina-virtuale">La macchina virtuale</h2>
+<a class="h2-anchor" href="#la-macchina-virtuale"><h2 id="la-macchina-virtuale">La macchina virtuale</h2></a>
 <p>La macchina virtuale solitamente la possiamo vedere come i vecchi hard
 disk a cassettoni: installo il sistema operativo, installo tutte le
 componenti e poi è pronto per essere inserito nella macchina affinchè
 funzioni. In oltre basta copiarlo n volte per averne n ambienti
 completamente uguali.</p>
-<h3 id="pregi">Pregi</h3>
+<a class="h3-anchor" href="#pregi"><h3 id="pregi">Pregi</h3></a>
 <p>Stabile e interamente contenuto in un unico &ldquo;ambiente&rdquo; portabile
 (solitamente è un file in cui è salvato l&rsquo;hd della macchina virtuale).</p>
-<h3 id="difetti">Difetti</h3>
+<a class="h3-anchor" href="#difetti"><h3 id="difetti">Difetti</h3></a>
 <p>Molto pesante in termini di spazio e memoria. Se ho due installazioni
 identiche che fanno girare due applicazioni diverse sulla stessa
 macchina io ho due copie delle librerie, del sistema operativo e delle
@@ -234,7 +234,7 @@ configurazioni.</p>
 Questa immagine mostra bene come il &ldquo;guest os&rdquo; risuta essere duplicato
 (in questo caso triplicato) e non possa essere &ldquo;riutilizzato&rdquo; dalle
 altre applicazioni.</p>
-<h2 id="docker">Docker</h2>
+<a class="h2-anchor" href="#docker"><h2 id="docker">Docker</h2></a>
 <p>Sul serio è un servizio differente? Si e no.</p>
 <p>Concettualmente è comunque un sistema di macchina virtuale. Praticamente
 è una &ldquo;torta multistrato&rdquo; di quello che Docker chiama conteiner.</p>
@@ -243,7 +243,7 @@ a come è stato scritto il Dockerfile (file di configurazione per la
 creazione di conteiner docker) e se due &ldquo;applicativi docker&rdquo; o immagini
 docker utilizzano gli stessi container non genera una copia nell&rsquo;hard
 disk ma utilizza lo stesso container per entrambi.</p>
-<h3 id="vantaggi">Vantaggi</h3>
+<a class="h3-anchor" href="#vantaggi"><h3 id="vantaggi">Vantaggi</h3></a>
 <p>Puoi distribuire il file di configurazione (semplice file di testo,
 solitamente anche molto breve) al posto che condividere un intero disco
 virtuale e è più compatto rispetto alla virtual machine per quanto
@@ -251,7 +251,7 @@ riguarda lo spazio occupato, in quanto c&rsquo;è solo le librerie richieste e
 nessun altra componente del sistema operativo o delle librerie.<br>
 In oltre, in caso di multiple istanze di docker risulta spesso più
 performante, sopratutto quanto più sono simili le immagini.</p>
-<h3 id="svantaggi">Svantaggi</h3>
+<a class="h3-anchor" href="#svantaggi"><h3 id="svantaggi">Svantaggi</h3></a>
 <p>Bisogna imparare a fare i file docker e, nel caso di una solo istanza di
 docker in funzione sulla macchina potrebbe essere più pesante di una
 macchina virtuale.<br>

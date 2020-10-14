@@ -211,7 +211,7 @@ La parte più difficile è stata la parte iniziale dove sono dovuto entrare nell
 <!-- raw HTML omitted -->
 <p>Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento &ldquo;bloccato e non danneggiabile&rdquo;.</p>
 <p>Questo primo periodo di utilizzo mi ha permesso di vedere che è un programma completo e molto efficente. In modo particolare ho addirittura iniziato a sviluppare una prima bozza di personalizzazione del mio Emacs attraverso una prima configurazione di <em>.emacs.d/</em> disponibile su <a href="https://github.com/fundor333/emacs.d">Github</a>.</p>
-<h2 id="prima-fase-installazione-di-base">Prima fase installazione di base</h2>
+<a class="h2-anchor" href="#prima-fase-installazione-di-base"><h2 id="prima-fase-installazione-di-base">Prima fase installazione di base</h2></a>
 <p>Partiamo con ordine: si inizia con l&rsquo;installazione e comprensione dei config.
 Dopo l&rsquo;installazione ottenuta attravero il classico</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
@@ -225,14 +225,14 @@ Dopo l&rsquo;installazione ottenuta attravero il classico</p>
 <p>Fatto questo io mi aspettavo che, dopo il primo avvio generasse i file di configurazione. Per come è stato programmato Emacs l&rsquo;avvio genera solamente il file <em>.emacs</em> se non presente mentre tutto il resto della &ldquo;struttura&rdquo; viene generata man mano che si modificano le impostazioni dei singoli elementi.</p>
 <p>Quindi ho fatto una piccola ricerca di come cambiare il tema di Emacs che, a mio parere, puo' essere la personalizzazione corretta per iniziare a utilizzare Emacs.</p>
 <p>All&rsquo;avvio Emacs cerca un file <em>.emacs</em> ove dovrebbe trovare i config e, nel caso non lo trovi, va a <em>.emacs.d/init.el</em> ove cerca i config e, nel caso non trova nessuno dei due, genera un file <em>.emacs</em> vuoto o con le configurazioni delle &ldquo;sessione&rdquo; corrente. E qui c&rsquo;è il primo punto di interesse:</p>
-<h2 id="conviene-usare-_emacs_-o-_emacsdinitel_">Conviene usare <em>.emacs</em> o <em>.emacs.d/init.el</em>?</h2>
+<a class="h2-anchor" href="#conviene-usare-_emacs_-o-_emacsdinitel_"><h2 id="conviene-usare-_emacs_-o-_emacsdinitel_">Conviene usare <em>.emacs</em> o <em>.emacs.d/init.el</em>?</h2></a>
 <p>Per le configurazioni in <em>Emacs</em> ci sono due possibili impostazioni:</p>
 <ul>
 <li><strong>Impostazione storica</strong> che utilizza <em>.emacs</em> per mettere tutte le configurazioni</li>
 <li><strong>Impostazione a progetto</strong> che utilizza <em>.emacs.d/init.el</em></li>
 </ul>
 <p>La versione storica ha il vantaggio di essere facilmente &ldquo;condivisa&rdquo; essendo un unico file ma la versione a progetto ti permette di realizzare un sistema più ordinato di configurazioni e permette di usare sistemi di versioning (nel mio caso git) per ordinare e gestire un backup o comunque un sistema di condivisione delle config.</p>
-<h2 id="la-mia-configurazione-in-particolare">La mia configurazione in particolare</h2>
+<a class="h2-anchor" href="#la-mia-configurazione-in-particolare"><h2 id="la-mia-configurazione-in-particolare">La mia configurazione in particolare</h2></a>
 <p>Ho impostato Emacs utilizzando una impostazione a progetto, in modo da poterlo condividere facilmente su GitHub o altri servizi di hosting per repository git.
 Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che sia caricato senza problemi</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
