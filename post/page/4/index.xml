@@ -7,11 +7,21 @@
 		<description>Recent content in Posts on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 09 Nov 2020 12:00:50 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Pipenv e come tutto è in uno</title>
+<link>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</link>
+<pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</guid>
+<description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
+Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
+</item>
     
     <item>
 <title>Google IO 2017</title>
@@ -103,18 +113,6 @@ Visto quello che è successo l&amp;rsquo;anno scorso ho deciso di preinstallate 
 <description>&lt;p&gt;Io sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.&lt;/p&gt;
 &lt;p&gt;Quindi quando ho visto che Google lancia Grumpy in un articolo nel loro &lt;a href=&#34;https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html&#34;&gt;blog&lt;/a&gt; non potevo che essere incuriosito  e interessato ad avere ancora più notizie sul questo progetto. E, grazie ad un podcast che ascolto ho avuto ancora più notizie.&lt;/p&gt;
 &lt;p&gt;Io sono iscritto al podcast &lt;a href=&#34;https://talkpython.fm/&#34;&gt;Talk Python&lt;/a&gt; dove in un &lt;a href=&#34;https://talkpython.fm/episodes/show/95/grumpy-running-python-on-go&#34;&gt;episodio&lt;/a&gt; è stato intervistato Dylan Trotter, Ingegniere Youtube e un entusiasta di GoLang.&lt;/p&gt;</description>
-</item>
-    
-    <item>
-<title>Scrivi, push e publica</title>
-<link>https://fundor333.com/post/2017/scrivi-push-public/</link>
-<pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/scrivi-push-public/</guid>
-<description>Ho riscritto interamente il blog. Ora gira tutto in Python&amp;hellip; Anche se nel server è tutto in HTML5.
-Questo perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.
-Così sono passato da un blog dinamico a uno statico.
-Come mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell&amp;rsquo;azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine.</description>
 </item>
     
   </channel>

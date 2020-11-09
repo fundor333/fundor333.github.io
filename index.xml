@@ -7,11 +7,22 @@
 		<description>Recent content on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Tue, 03 Nov 2020 14:31:49 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 09 Nov 2020 12:00:50 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Why you need a doc</title>
+<link>https://fundor333.com/post/2020/why-you-need-a-doc/</link>
+<pubDate>Mon, 09 Nov 2020 12:00:50 +0100</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/why-you-need-a-doc/</guid>
+<description>Where you write code, an app, a mockup or a procedure you remember what you do but after 10,20,100 time you will forget one or more point. So you need to write down all.
+And you have multiple tool for doing it.
+Tecnology or tools used We only have 2 tipe of tool for this task: paper o paperless. You can&amp;rsquo;t use other type of tool or tecnology and you can use the same tecnic in all the tecnology or tools you use.</description>
+</item>
     
     <item>
 <title>Manage Site and Certificate</title>
@@ -100,17 +111,6 @@ One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsq
       <guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
 <description>You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
 Some hystory To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.</description>
-</item>
-    
-    <item>
-<title>Make a Excel Django combo</title>
-<link>https://fundor333.com/post/2020/excel-django-combo/</link>
-<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
-<description>Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
-I use the pyexcel and pyexcel-xls module for this work.
-PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
 </item>
     
   </channel>

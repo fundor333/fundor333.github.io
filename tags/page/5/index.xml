@@ -7,11 +7,23 @@
 		<description>Recent content in Tags on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 09 Nov 2020 12:00:50 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Scrivi, push e publica</title>
+<link>https://fundor333.com/post/2017/scrivi-push-public/</link>
+<pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/scrivi-push-public/</guid>
+<description>Ho riscritto interamente il blog. Ora gira tutto in Python&amp;hellip; Anche se nel server è tutto in HTML5.
+Questo perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.
+Così sono passato da un blog dinamico a uno statico.
+Come mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell&amp;rsquo;azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine.</description>
+</item>
     
     <item>
 <title>Parentesys Horror</title>

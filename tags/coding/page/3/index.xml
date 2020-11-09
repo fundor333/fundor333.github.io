@@ -7,11 +7,22 @@
 		<description>Recent content in coding on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 10 Sep 2020 21:06:21 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 09 Nov 2020 12:00:50 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Microsoft buy Atom, Electron and Open Source</title>
+<link>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</link>
+<pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</guid>
+<description>Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: &amp;ldquo;Whas are going to change into the OpenSource comunity or into the public code?&amp;rdquo;
+Many developer thinks about this and say something similar to &amp;ldquo;I do not want to risc my project so goodby&amp;rdquo; and the move to GitLab all theire code.
+GitHub imports to GitLab are still going up!</description>
+</item>
     
     <item>
 <title>Floppy, Pycon e generatori di siti statici</title>
@@ -96,16 +107,6 @@ Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista,
       <guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
 <description>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&amp;rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&amp;rsquo;utente.
 Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
-</item>
-    
-    <item>
-<title>Pipenv e come tutto è in uno</title>
-<link>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</link>
-<pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</guid>
-<description>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
-Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
 </item>
     
   </channel>
