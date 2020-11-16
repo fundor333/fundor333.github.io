@@ -7,11 +7,21 @@
 		<description>Recent content in Categories on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 16 Nov 2020 20:30:00 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Utilizzi alternativi di Firebase</title>
+<link>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</link>
+<pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
+<description>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&amp;rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&amp;rsquo;utente.
+Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
+</item>
     
     <item>
 <title>Pipenv e come tutto è in uno</title>
@@ -102,17 +112,6 @@ Visto quello che è successo l&amp;rsquo;anno scorso ho deciso di preinstallate 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Visto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un &amp;ldquo;alias&amp;rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.&lt;/p&gt;</description>
-</item>
-    
-    <item>
-<title>Grumpy, come convertire il serpente nel gopher</title>
-<link>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</link>
-<pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</guid>
-<description>&lt;p&gt;Io sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.&lt;/p&gt;
-&lt;p&gt;Quindi quando ho visto che Google lancia Grumpy in un articolo nel loro &lt;a href=&#34;https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html&#34;&gt;blog&lt;/a&gt; non potevo che essere incuriosito  e interessato ad avere ancora più notizie sul questo progetto. E, grazie ad un podcast che ascolto ho avuto ancora più notizie.&lt;/p&gt;
-&lt;p&gt;Io sono iscritto al podcast &lt;a href=&#34;https://talkpython.fm/&#34;&gt;Talk Python&lt;/a&gt; dove in un &lt;a href=&#34;https://talkpython.fm/episodes/show/95/grumpy-running-python-on-go&#34;&gt;episodio&lt;/a&gt; è stato intervistato Dylan Trotter, Ingegniere Youtube e un entusiasta di GoLang.&lt;/p&gt;</description>
 </item>
     
   </channel>

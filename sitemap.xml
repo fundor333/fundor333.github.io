@@ -4,8 +4,43 @@
   
   <url>
     <loc>https://fundor333.com/</loc>
-    <lastmod>2020-11-13T21:12:10+01:00</lastmod>
+    <lastmod>2020-11-16T20:30:00+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/categories/</loc>
+    <lastmod>2020-11-16T20:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/devops/</loc>
+    <lastmod>2020-11-16T20:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/hacking/</loc>
+    <lastmod>2020-11-16T20:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/2020/keep_update_gitlab/</loc>
+    <lastmod>2020-11-16T20:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/categories/post/</loc>
+    <lastmod>2020-11-16T20:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/post/</loc>
+    <lastmod>2020-11-16T20:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fundor333.com/tags/</loc>
+    <lastmod>2020-11-16T20:30:00+01:00</lastmod>
   </url>
   
   <url>
@@ -20,21 +55,6 @@
   
   <url>
     <loc>https://fundor333.com/tags/coding/</loc>
-    <lastmod>2020-11-09T11:00:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/devops/</loc>
-    <lastmod>2020-11-09T11:00:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/post/</loc>
-    <lastmod>2020-11-09T11:00:50+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/</loc>
     <lastmod>2020-11-09T11:00:50+01:00</lastmod>
   </url>
   
@@ -65,11 +85,6 @@
   
   <url>
     <loc>https://fundor333.com/tags/bot/</loc>
-    <lastmod>2020-10-01T22:12:20+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/categories/</loc>
     <lastmod>2020-10-01T22:12:20+02:00</lastmod>
   </url>
   
@@ -271,11 +286,6 @@
   <url>
     <loc>https://fundor333.com/post/2018/tanti-auguri-nintendo/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fundor333.com/tags/hacking/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>

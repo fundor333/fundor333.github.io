@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+  </style>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
+
+  <title>
+    Keep update Gitlab  - Fundor333
+  </title>
+  <meta name="author" content="Fundor333" />
+
+  <meta name="description"
+    content="How to check if your GitLab is update automaticaly" />
+
+   
+  <link rel="canonical" href="https://fundor333.com/post/2020/keep_update_gitlab/" />
+   
+
+  
+  <meta property="og:title" content="Keep update Gitlab" />
+<meta property="og:description" content="How to check if your GitLab is update automaticaly" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fundor333.com/post/2020/keep_update_gitlab/" />
+<meta property="article:published_time" content="2020-11-16T20:30:00+01:00" />
+<meta property="article:modified_time" content="2020-11-16T20:30:00+01:00" />
+
+  
+  <meta itemprop="name" content="Keep update Gitlab">
+<meta itemprop="description" content="How to check if your GitLab is update automaticaly">
+<meta itemprop="datePublished" content="2020-11-16T20:30:00+01:00" />
+<meta itemprop="dateModified" content="2020-11-16T20:30:00+01:00" />
+<meta itemprop="wordCount" content="436">
+
+
+
+<meta itemprop="keywords" content="devops,hacking," />
+
+  
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image:src" content="https://fundor333.com/Keep_update_Gitlab.jpg" />
+<meta name="twitter:card" content="summary" />
+
+
+<meta name="twitter:title" content="Keep update Gitlab" />
+<meta name="twitter:description"
+  content="How to check if your GitLab is update automaticaly" />
+
+
+
+
+
+
+  
+</head>
+
+
+<body>
+  
+
+
+  <nav class="navbar navbar-expand-lg f333">
+
+  <button class="navbar-toggler f333" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="https://fundor333.com/">
+      <img src="/img/pilogo.jpg" width="30" height="30" alt="" loading="lazy">
+      Fundor333
+    </a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+       
+      <li class="nav-item">
+        <a class="nav-link" href="/post/">blog</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/hoarding/">hoarding</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/cv/">cv</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/now/">now</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/project/">projects</a>
+      </li>
+      
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="container">
+    <div class="col-10 offset-1">
+      <div class="row justify-content-center">
+         
+        <div class="col-1">
+          <a href="https://github.com/fundor333">
+            <i class="fab fa-github" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.facebook.com/fundor333">
+            <i class="fab fa-facebook" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://twitter.com/fundor333">
+            <i class="fab fa-twitter" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://mastodon.social/@fundor333">
+            <i class="fab fa-mastodon" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+            <i class="fab fa-youtube" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.instagram.com/fundor333/">
+            <i class="fab fa-instagram" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.flickr.com/people/fundor333/">
+            <i class="fab fa-flickr" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+      </div>
+
+      <br>
+
+      <div class="row">
+        
+<div class="container">
+  <h1>Keep update Gitlab</h2>
+    <a class="crumb" href="https://fundor333.com/">home</a>
+    ~
+    <a class="crumb" href='https://fundor333.com/post/2020/keep_update_gitlab/'>Keep update Gitlab</a>
+    <br>
+    <hr>
+
+    <div>
+      
+      
+      <img src="https://fundor333.com/post/2020/keep_update_gitlab/Keep_update_Gitlab.jpg" alt="Card image cap" class="img-fluid">
+      
+      </a>
+      <div>
+        <a href="https://unsplash.com/photos/8rTwokBwz1w">Photo by hue12 photography on Unsplash</a>
+      </div>
+    </div>
+    <hr>
+     
+    <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+    
+    <a class="tag" href='https://fundor333.com/tags/hacking'><i class="fas fa-tags"></i> hacking</a>
+     
+    <hr>
+    <small>2020-11-16</small>
+    <hr>
+
+    <br>
+    <article>
+      <p>Some time ago I had a problem with a selfhosted Gitlab instances. I had a new user, johnyj12345, which create a repo and an issiue and log off.
+This is an attack made to my instance because I don&rsquo;t upgraded it for some time so I cleanit and remove all the trace of this user and update all.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>After this I was ready to tacle the elephant in the room: how to check if my self hosted GitLab.</p>
+<a class="h2-anchor" href="#how-to-check-if-gitlab-is-updated"><h2 id="how-to-check-if-gitlab-is-updated">How to check if GitLab is updated</h2></a>
+<p>Official documentation of GitLab<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> say that the <strong>/help</strong> page where there is, if logged, a label with</p>
+<ul>
+<li><strong>Up to date</strong></li>
+<li><strong>new version out</strong></li>
+<li><strong>update asap</strong></li>
+</ul>
+<p>And with it decide what you need to do.</p>
+<p>So I decide to hack the system and make an allert for me.</p>
+<a class="h2-anchor" href="#hack-the-gitlab-help-page"><h2 id="hack-the-gitlab-help-page">Hack the GitLab help page</h2></a>
+<p>First ve need to understand how the label work.
+A rapid ispection of the page show that the label is a responde of a <em>get</em> at the url <em><a href="https://version.gitlab.com/check.svg">https://version.gitlab.com/check.svg</a></em> with some parameters.</p>
+<p>In particolar we need the GitLab version installed. So we need it too. And for them we need the token from the self hosted installation<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<a class="h3-anchor" href="#get-the-version-of-gitlab"><h3 id="get-the-version-of-gitlab">Get the version of GitLab</h3></a>
+<p>For this project we only need python and <a href="https://pypi.org/project/requests/"><em>requests</em></a></p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">get_gitlab_version</span>():
+	url <span style="color:#ff79c6">=</span> BASE_GITLAB_URL <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34;/api/v4/version&#34;</span>
+    headers <span style="color:#ff79c6">=</span> {<span style="color:#f1fa8c">&#34;Private-Token&#34;</span>: GITLAB_PERSONAL_TOKEN}
+    req <span style="color:#ff79c6">=</span> requests<span style="color:#ff79c6">.</span>get(url, headers<span style="color:#ff79c6">=</span>headers)
+    <span style="color:#ff79c6">return</span> req<span style="color:#ff79c6">.</span>json()
+</code></pre></td></tr></table>
+</div>
+</div><p>and this return a json like this as python dict</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#ff79c6">&#34;version&#34;</span>: <span style="color:#f1fa8c">&#34;8.13.0-pre&#34;</span>,
+  <span style="color:#ff79c6">&#34;revision&#34;</span>: <span style="color:#f1fa8c">&#34;4e963fe&#34;</span>
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>From this json we know the <em>version</em> of GitLab for the next step.</p>
+<a class="h3-anchor" href="#get-the-label-of-the-help-gitlab-page"><h3 id="get-the-label-of-the-help-gitlab-page">Get the label of the Help GitLab page</h3></a>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">last_version_gitlab</span>():
+	response <span style="color:#ff79c6">=</span> get_gitlab_version()
+    url <span style="color:#ff79c6">=</span> BASE_GITLAB_URL
+    ver <span style="color:#ff79c6">=</span> response[<span style="color:#f1fa8c">&#34;version&#34;</span>]
+    gfg <span style="color:#ff79c6">=</span> urlsafe_b64encode(<span style="color:#8be9fd;font-style:italic">str</span><span style="color:#ff79c6">.</span>encode(<span style="color:#f1fa8c">&#39;{&#34;version&#34;:&#34;&#39;</span> <span style="color:#ff79c6">+</span> <span style="color:#8be9fd;font-style:italic">str</span>(ver) <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#39;&#34;}&#39;</span>))
+    logger<span style="color:#ff79c6">.</span>debug(gfg)
+    r <span style="color:#ff79c6">=</span> requests<span style="color:#ff79c6">.</span>get(url<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;https://version.gitlab.com/check.svg&#34;</span>, params<span style="color:#ff79c6">=</span>{<span style="color:#f1fa8c">&#39;gitlab_info&#39;</span>: gfg}, headers<span style="color:#ff79c6">=</span>{<span style="color:#f1fa8c">&#39;Referer&#39;</span>: url})
+	<span style="color:#ff79c6">return</span> r<span style="color:#ff79c6">.</span>text
+</code></pre></td></tr></table>
+</div>
+</div><p>In this way you return a string with the label as xml img.
+So if you want a feedback when is to update it you can do this.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">gitlab_check</span>():
+	<span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;up-to-date&#34;</span> <span style="color:#ff79c6">in</span> last_version_gitlab()
+</code></pre></td></tr></table>
+</div>
+</div><p>In this way you return <em>False</em> if you need to update, <em>True</em> elsewhere.</p>
+<a class="h2-anchor" href="#conclusion"><h2 id="conclusion">Conclusion</h2></a>
+<p>Whith this you can make another function for sending a notification or a mail for the update.
+I make all this code into a cronjob with mail sender for getting at the start of my work hours a mail for unupdated gitlab installation.
+I also suggest Slack or Telegram for the notification for the unupgraded GitLab.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://www.netways.de/blog/2020/07/14/gitlab-johnyj12345-hack/">Link</a> of a guide for clean. Update following the guide of GitLab. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="https://about.gitlab.com/blog/2015/05/07/version-check/">Official documentation Version Check</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Official documentation Acess Token</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+      <p>by Fundor333</p>
+    </article>
+
+    <hr>
+
+    
+    
+    <h3>See Also</h3>
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/why-you-need-a-doc/">
+      <h2 class="text-center">Why you need a doc</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2020/why-you-need-a-doc/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/why-you-need-a-doc/why-you-need-a-doc.jpg" src="https://fundor333.com/post/2020/why-you-need-a-doc/why-you-need-a-doc_hu2f154ec28cdf3a0101da05e8af0c2f38_1726185_53467efcd63ea5f124688b8b06165861.jpg" alt="Why you need a doc"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/why-you-need-a-doc/" class="text-center">Every project you make you understand new things so you need to write down some thing. Something like a doc</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small><i class="fas fa-mug-tea"></i>
+        Reading time 4 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/manage-site-and-certificate/">
+      <h2 class="text-center">Manage Site and Certificate</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2020/manage-site-and-certificate/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/manage-site-and-certificate/manage-site-and-certificate.jpg" src="https://fundor333.com/post/2020/manage-site-and-certificate/manage-site-and-certificate_hu6e16cf4d291bf616d9ad8b9f79636e6a_1144275_40fb4f316ae2949daeaa10dd8350b4a0.jpg" alt="Manage Site and Certificate"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/manage-site-and-certificate/" class="text-center">One dev manage 40 sites&#39; domains, SSL and check all of them with a package</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small><i class="fas fa-mug-tea"></i>
+        Reading time 3 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/bot'><i class="fas fa-tags"></i> bot</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/dotfiles'><i class="fas fa-tags"></i> dotfiles</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/color-your-python-output/">
+      <h2 class="text-center">Color Your Python Output</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2020/color-your-python-output/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/color-your-python-output/color-your-python-output.jpg" src="https://fundor333.com/post/2020/color-your-python-output/color-your-python-output_hu839d7afaebee9e8e47ec0f14d1dfcf69_1111644_3658db8ab243630f1f0cabd4a712b4c4.jpg" alt="Color Your Python Output"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/color-your-python-output/" class="text-center">Sometime you need to make your output more readible adding color to the terminal</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small><i class="fas fa-mug-tea"></i>
+        Reading time 2 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <hr>
+</div>
+
+      </div>
+      <br>
+      
+    </div>
+  </div>
+  <br>
+  <footer class="fixed-bottom d-flex justify-content-center f333 navbar">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a href='https://webring.recurse.com' class="nav-item" target='_blank'><img src='https://webring.recurse.com/icon.png'  width="30" height="33"/></a>
+      <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
+        <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+      </a>
+    </li>
+  </ul>
+</footer>
+<br>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-44064318-2', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    count = 0;
+    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
+      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
+      "Wev 3.0", "Buzzword",
+    ];
+    setInterval(function () {
+      count++;
+      $(".buzzword").fadeOut(400, function () {
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
+      });
+    }, 4000);
+  });
+
+</script>
+
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 360);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+
+
+
+</body>
+
+</html>

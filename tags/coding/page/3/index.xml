@@ -14,6 +14,17 @@
     
     
     <item>
+<title>DevOps, ChatBot e NPM</title>
+<link>https://fundor333.com/post/2019/devops-chatbot-npm/</link>
+<pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2019/devops-chatbot-npm/</guid>
+<description>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
+Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
+Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
+</item>
+    
+    <item>
 <title>Microsoft buy Atom, Electron and Open Source</title>
 <link>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</link>
 <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
@@ -97,16 +108,6 @@ Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e
 <description>Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il DataBeers di Venezia.
 Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. Ci sono stati tre interventi di altrettante persone diverse:
  Data Driven Design Leonidas Paterakis del FabLab di Venezia presenta il sistema del Data Driven Design.</description>
-</item>
-    
-    <item>
-<title>Utilizzi alternativi di Firebase</title>
-<link>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</link>
-<pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
-<description>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&amp;rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&amp;rsquo;utente.
-Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
 </item>
     
   </channel>

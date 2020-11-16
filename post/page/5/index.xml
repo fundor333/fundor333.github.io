@@ -7,11 +7,22 @@
 		<description>Recent content in Posts on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Mon, 09 Nov 2020 11:00:50 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 16 Nov 2020 20:30:00 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Grumpy, come convertire il serpente nel gopher</title>
+<link>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</link>
+<pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</guid>
+<description>&lt;p&gt;Io sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.&lt;/p&gt;
+&lt;p&gt;Quindi quando ho visto che Google lancia Grumpy in un articolo nel loro &lt;a href=&#34;https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html&#34;&gt;blog&lt;/a&gt; non potevo che essere incuriosito  e interessato ad avere ancora più notizie sul questo progetto. E, grazie ad un podcast che ascolto ho avuto ancora più notizie.&lt;/p&gt;
+&lt;p&gt;Io sono iscritto al podcast &lt;a href=&#34;https://talkpython.fm/&#34;&gt;Talk Python&lt;/a&gt; dove in un &lt;a href=&#34;https://talkpython.fm/episodes/show/95/grumpy-running-python-on-go&#34;&gt;episodio&lt;/a&gt; è stato intervistato Dylan Trotter, Ingegniere Youtube e un entusiasta di GoLang.&lt;/p&gt;</description>
+</item>
     
     <item>
 <title>Scrivi, push e publica</title>

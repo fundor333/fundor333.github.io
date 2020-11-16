@@ -14,6 +14,16 @@
     
     
     <item>
+<title>Keep update Gitlab</title>
+<link>https://fundor333.com/post/2020/keep_update_gitlab/</link>
+<pubDate>Mon, 16 Nov 2020 20:30:00 +0100</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/keep_update_gitlab/</guid>
+<description>Some time ago I had a problem with a selfhosted Gitlab instances. I had a new user, johnyj12345, which create a repo and an issiue and log off. This is an attack made to my instance because I don&amp;rsquo;t upgraded it for some time so I cleanit and remove all the trace of this user and update all.1
+After this I was ready to tacle the elephant in the room: how to check if my self hosted GitLab.</description>
+</item>
+    
+    <item>
 <title>Why you need a doc</title>
 <link>https://fundor333.com/post/2020/why-you-need-a-doc/</link>
 <pubDate>Mon, 09 Nov 2020 11:00:50 +0100</pubDate>
@@ -101,16 +111,6 @@ You need to research for it.</description>
       <guid>https://fundor333.com/post/2020/building-my-backend/</guid>
 <description>More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
 One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
-</item>
-    
-    <item>
-<title>Al You Need Is Static</title>
-<link>https://fundor333.com/post/2020/al-you-need-is-static/</link>
-<pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
-<description>You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
-Some hystory To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.</description>
 </item>
     
   </channel>
