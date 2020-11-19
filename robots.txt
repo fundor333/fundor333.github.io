@@ -1,3 +1,181 @@
-Sitemap: https://www.fundor333.com/sitemap.xml
 User-agent: *
+
+
 Allow: /
+
+Allow: /quiet/
+
+Allow: /quiet/20346/
+
+Allow: /categories/
+
+Allow: /tags/devops/
+
+Allow: /tags/hacking/
+
+Allow: /post/2020/keep_update_gitlab/
+
+Allow: /categories/post/
+
+Allow: /post/
+
+Allow: /tags/
+
+Allow: /quiet/19034/
+
+Allow: /tags/coding/
+
+Allow: /post/2020/why-you-need-a-doc/
+
+Allow: /quiet/17834/
+
+Allow: /quiet/14390/
+
+Allow: /quiet/12850/
+
+Allow: /quiet/10329/
+
+Allow: /tags/bot/
+
+Allow: /categories/dev/
+
+Allow: /tags/dotfiles/
+
+Allow: /post/2020/manage-site-and-certificate/
+
+Allow: /post/2020/color-your-python-output/
+
+Allow: /post/2020/backup-your-crontab/
+
+Allow: /quiet/09654/
+
+Allow: /post/2020/ssl-check-with-a-script/
+
+Allow: /quiet/07248/
+
+Allow: /post/2020/gitmessage-advance-config/
+
+Allow: /categories/fingerfood/
+
+Allow: /tags/git/
+
+Allow: /quiet/09343/
+
+Allow: /quiet/06754/
+
+Allow: /post/2020/good-developer-must-be-blogger/
+
+Allow: /tags/rant/
+
+Allow: /quiet/04512/
+
+Allow: /tags/api/
+
+Allow: /post/2020/building-my-backend/
+
+Allow: /tags/django/
+
+Allow: /post/2020/al-you-need-is-static/
+
+Allow: /post/2020/excel-django-combo/
+
+Allow: /post/2020/dotfiles-bot-yaml/
+
+Allow: /tags/python/
+
+Allow: /categories/rant/
+
+Allow: /post/2020/sock-and-socket/
+
+Allow: /tags/socket/
+
+Allow: /tags/big-data/
+
+Allow: /post/2020/make-tea-not-big-data/
+
+Allow: /post/2019/mew-and-programming/
+
+Allow: /categories/zeta-target/
+
+Allow: /post/2019/beards-mugs-men/
+
+Allow: /post/2019/buzzwords-buzzwords/
+
+Allow: /post/2019/django-rest-framework-multiple-post/
+
+Allow: /tags/rest/
+
+Allow: /post/2019/devops-chatbot-npm/
+
+Allow: /post/2018/microsoft-buy-atom-electron-and-open-source/
+
+Allow: /tags/convention/
+
+Allow: /post/2018/floppy-pycon-e-generatori-di-siti-statici/
+
+Allow: /tags/pycon/
+
+Allow: /post/2018/tanti-auguri-nintendo/
+
+Allow: /post/2018/p2p-offline-da-spie/
+
+Allow: /post/2018/e-talk-al-pycon9/
+
+Allow: /tags/graphql/
+
+Allow: /post/2018/graphql-and-working-with-it/
+
+Allow: /tags/dotfile/
+
+Allow: /post/2017/dotfile-e-le-mie-config/
+
+Allow: /post/2017/astemio-al-terzo-databeers/
+
+Allow: /post/2017/utilizzi-alternativi-di-farebase/
+
+Allow: /post/2017/pipenv-e-come-tutto-e-in-uno/
+
+Allow: /post/2017/google-io-2017/
+
+Allow: /tags/docker/
+
+Allow: /tags/hugo/
+
+Allow: /post/2017/hugo-into-docker/
+
+Allow: /post/2017/il-primo-periodo-con-emacs/
+
+Allow: /tags/blog/
+
+Allow: /post/2017/e-sono-passato-a-hugo/
+
+Allow: /post/2017/emacs-e-mai-piu-mouse/
+
+Allow: /post/2017/jupyter-notebook-pelican-combo/
+
+Allow: /post/2017/bot-telegram-e-programmazione-funzionale/
+
+Allow: /post/2017/grumpy-come-convertire-il-serpente-nel-gopher/
+
+Allow: /post/2017/scrivi-push-public/
+
+Allow: /post/2016/orrori-delle-parentesi/
+
+Allow: /post/2016/gource-visualizzare-git-repository/
+
+Allow: /post/2016/git-lalbero-delle-versioni/
+
+Allow: /post/2016/docker-la-balena-con-i-container/
+
+Allow: /cv/
+
+Allow: /hoarding/
+
+Allow: /now/
+
+Allow: /packages/
+
+Allow: /project/
+
+Allow: /about/
+
