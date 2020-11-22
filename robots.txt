@@ -171,6 +171,8 @@ Allow: /cv/
 
 Allow: /hoarding/
 
+Allow: /note/
+
 Allow: /now/
 
 Allow: /packages/
