@@ -7,11 +7,21 @@
 		<description>Recent content in python on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 30 Nov 2020 13:24:20 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Building My Backend</title>
+<link>https://fundor333.com/post/2020/building-my-backend/</link>
+<pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/building-my-backend/</guid>
+<description>More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
+One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
+</item>
     
     <item>
 <title>Al You Need Is Static</title>
@@ -104,18 +114,6 @@ The Myth If you want to do it yourself you need to:
       <guid>https://fundor333.com/post/2019/buzzwords-buzzwords/</guid>
 <description>Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
 Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del &amp;lt;inserire qui l&amp;rsquo;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
-</item>
-    
-    <item>
-<title>Django Rest Framework: Multiple post</title>
-<link>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</link>
-<pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</guid>
-<description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
-Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
-After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
-Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
 </item>
     
   </channel>

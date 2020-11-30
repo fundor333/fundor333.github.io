@@ -7,11 +7,23 @@
 		<description>Recent content in Posts on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Mon, 16 Nov 2020 20:30:00 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 30 Nov 2020 13:24:20 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Adding Progress Bar in Python</title>
+<link>https://fundor333.com/post/2020/adding-progress-bar-in-python/</link>
+<pubDate>Mon, 30 Nov 2020 13:24:20 +0100</pubDate>
+      
+      <guid>https://fundor333.com/post/2020/adding-progress-bar-in-python/</guid>
+<description>Sometime you need to make a script or a program with some task and show to the user you are doing something so you need to write something as output: a Progress Bar.
+You have multiple way to do it and now I will show some way to do it with packages.
+Progress The first package I present is progress, an easy python package with a lot of configuration.
+This package is base of one object, the Bar, and you set it, you use it for update the progressbass or end it.</description>
+</item>
     
     <item>
 <title>Keep update Gitlab</title>
@@ -101,16 +113,6 @@ After studing somee good blog and some bad blog I came with this list
  You need to write a blog about what you know.
 You must keep it updated.
 You need to research for it.</description>
-</item>
-    
-    <item>
-<title>Building My Backend</title>
-<link>https://fundor333.com/post/2020/building-my-backend/</link>
-<pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/building-my-backend/</guid>
-<description>More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
-One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
 </item>
     
   </channel>

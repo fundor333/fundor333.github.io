@@ -7,11 +7,32 @@
 		<description>Recent content in Posts on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Mon, 16 Nov 2020 20:30:00 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 30 Nov 2020 13:24:20 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Bot, Telegram e programmazione funzionale</title>
+<link>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</link>
+<pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</guid>
+<description>&lt;p&gt;Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.&lt;/p&gt;
+&lt;h2 id=&#34;linizio-di-tutto&#34;&gt;L&amp;rsquo;inizio di tutto&lt;/h2&gt;
+&lt;p&gt;Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria &lt;a href=&#34;https://python-telegram-bot.org/&#34;&gt;python-telegram-bot&lt;/a&gt; e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a &amp;ldquo;ascoltatore&amp;rdquo; che la esegue quando riceve il comando.&lt;/p&gt;
+&lt;p&gt;Ad esempio se io ho definito prima qi questo frammento di codice una funzione &lt;em&gt;start&lt;/em&gt; che mi gestisce il comando omonimo, poi io devo registrarla all&amp;rsquo;updater attraverso il dispatcher come qui sotto.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;updater&lt;span style=&#34;color:#ff79c6&#34;&gt;.&lt;/span&gt;dispatcher&lt;span style=&#34;color:#ff79c6&#34;&gt;.&lt;/span&gt;add_handler(CommandHandler(&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#39;start&amp;#39;&lt;/span&gt;, start))&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Visto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un &amp;ldquo;alias&amp;rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.&lt;/p&gt;</description>
+</item>
     
     <item>
 <title>Grumpy, come convertire il serpente nel gopher</title>

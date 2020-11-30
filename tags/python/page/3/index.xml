@@ -7,11 +7,23 @@
 		<description>Recent content in python on Fundor333</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 30 Nov 2020 13:24:20 +0100</lastBuildDate>
     
         <atom:link href="https://fundor333.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
+    
+    <item>
+<title>Django Rest Framework: Multiple post</title>
+<link>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</link>
+<pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
+      
+      <guid>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</guid>
+<description>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
+Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
+After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
+Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
+</item>
     
     <item>
 <title>DevOps, ChatBot e NPM</title>
@@ -97,17 +109,6 @@ For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I 
       <guid>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</guid>
 <description>Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com&amp;rsquo;era.
 Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e stavo iniziando a scrivere un orrendo accrocchio per la generazione delle configurazioni in modo automatico partendo da un database sqlite, che, per quanto intelligente come idea, non è una cosa di facile gestione ne adatto alla situazione che si è creata.</description>
-</item>
-    
-    <item>
-<title>Un Astemio al Tezo Databeers</title>
-<link>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</link>
-<pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</guid>
-<description>Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il DataBeers di Venezia.
-Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. Ci sono stati tre interventi di altrettante persone diverse:
- Data Driven Design Leonidas Paterakis del FabLab di Venezia presenta il sistema del Data Driven Design.</description>
 </item>
     
   </channel>

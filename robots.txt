@@ -3,13 +3,23 @@ User-agent: *
 
 Allow: /
 
+Allow: /post/2020/adding-progress-bar-in-python/
+
+Allow: /tags/coding/
+
+Allow: /tags/devops/
+
+Allow: /post/
+
+Allow: /tags/python/
+
+Allow: /tags/
+
 Allow: /quiet/
 
 Allow: /quiet/20346/
 
 Allow: /categories/
-
-Allow: /tags/devops/
 
 Allow: /tags/hacking/
 
@@ -17,13 +27,7 @@ Allow: /post/2020/keep_update_gitlab/
 
 Allow: /categories/post/
 
-Allow: /post/
-
-Allow: /tags/
-
 Allow: /quiet/19034/
-
-Allow: /tags/coding/
 
 Allow: /post/2020/why-you-need-a-doc/
 
@@ -80,8 +84,6 @@ Allow: /post/2020/al-you-need-is-static/
 Allow: /post/2020/excel-django-combo/
 
 Allow: /post/2020/dotfiles-bot-yaml/
-
-Allow: /tags/python/
 
 Allow: /categories/rant/
 
