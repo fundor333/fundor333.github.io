@@ -1,102 +1,141 @@
 
-<rss version="2.0"
-	xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>fingerfood on Fundor333</title>
+		<title>fingerfood on
+			Fundor333</title>
 		<link>https://fundor333.com/categories/fingerfood/</link>
-		<description>Recent content in fingerfood on Fundor333</description>
+		<description>Recent content in fingerfood on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/categories/fingerfood/img/pilogo.jpg</url>
+			<title>fingerfood on
+				Fundor333</title>
+			<link>https://fundor333.com/categories/fingerfood/</link>
+		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
 		<lastBuildDate>Sat, 15 Aug 2020 15:15:00 +0200</lastBuildDate>
-    
-        <atom:link href="https://fundor333.com/categories/fingerfood/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-    <item>
-<title>Building My Backend</title>
-<link>https://fundor333.com/post/2020/building-my-backend/</link>
-<pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/building-my-backend/</guid>
-<description>More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
+		
+		<atom:link href="https://fundor333.com/categories/fingerfood/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>Building My Backend</title>
+			<link>https://fundor333.com/post/2020/building-my-backend/</link>
+			<pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/building-my-backend/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg&#34;/&gt;]]&gt;
+				More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
 One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
-</item>
-    
-    <item>
-<title>Al You Need Is Static</title>
-<link>https://fundor333.com/post/2020/al-you-need-is-static/</link>
-<pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
-<description>You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
+		</item>
+		
+		<item>
+			<title>Al You Need Is Static</title>
+			<link>https://fundor333.com/post/2020/al-you-need-is-static/</link>
+			<pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static.jpg&#34;/&gt;]]&gt;
+				You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
 Some hystory To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.</description>
-</item>
-    
-    <item>
-<title>Make a Excel Django combo</title>
-<link>https://fundor333.com/post/2020/excel-django-combo/</link>
-<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
-<description>Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
+		</item>
+		
+		<item>
+			<title>Make a Excel Django combo</title>
+			<link>https://fundor333.com/post/2020/excel-django-combo/</link>
+			<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/excel-django-combo/excel-django.jpg&#34;/&gt;]]&gt;
+				Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
 I use the pyexcel and pyexcel-xls module for this work.
 PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
-</item>
-    
-    <item>
-<title>Dotfiles, bot and yaml files</title>
-<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
-<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
-<description>If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
+		</item>
+		
+		<item>
+			<title>Dotfiles, bot and yaml files</title>
+			<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
+			<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg&#34;/&gt;]]&gt;
+				If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
 And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
-</item>
-    
-    <item>
-<title>Sock and socket</title>
-<link>https://fundor333.com/post/2020/sock-and-socket/</link>
-<pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/sock-and-socket/</guid>
-<description>Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
+		</item>
+		
+		<item>
+			<title>Sock and socket</title>
+			<link>https://fundor333.com/post/2020/sock-and-socket/</link>
+			<pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/sock-and-socket/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/sock-and-socket/socket-adn-other-socket.jpg&#34;/&gt;]]&gt;
+				Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
 It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
  Hello
 we need to connect to [last thing buy for the boss] system for [stuff i don&amp;rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.</description>
-</item>
-    
-    <item>
-<title>Make a Tea Not Big Data</title>
-<link>https://fundor333.com/post/2020/make-tea-not-big-data/</link>
-<pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/make-tea-not-big-data/</guid>
-<description>The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
+		</item>
+		
+		<item>
+			<title>Make a Tea Not Big Data</title>
+			<link>https://fundor333.com/post/2020/make-tea-not-big-data/</link>
+			<pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/make-tea-not-big-data/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/make-tea-not-big-data/tea-bigdata.jpg&#34;/&gt;]]&gt;
+				The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
 Industrial Unamed Tea - Excel file  We don&amp;rsquo;t need to make analisys
 Boss
  THE big data for the NEWEST company. You can only use .xls, .xlsx e .</description>
-</item>
-    
-    <item>
-<title>Mew and programming</title>
-<link>https://fundor333.com/post/2019/mew-and-programming/</link>
-<pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2019/mew-and-programming/</guid>
-<description>This is a story about a myth about how to find Mew1.
+		</item>
+		
+		<item>
+			<title>Mew and programming</title>
+			<link>https://fundor333.com/post/2019/mew-and-programming/</link>
+			<pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/mew-and-programming/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2019/mew-and-programming/pokemon.jpg&#34;/&gt;]]&gt;
+				This is a story about a myth about how to find Mew1.
 In the old day without interent &amp;ldquo;the cousin of a friends&amp;rdquo; or a &amp;quot; friend of my cousin find and captured a Mew.
 The Myth If you want to do it yourself you need to:
  Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn&amp;rsquo;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.</description>
-</item>
-    
-    <item>
-<title>Beards, mugs and men</title>
-<link>https://fundor333.com/post/2019/beards-mugs-men/</link>
-<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2019/beards-mugs-men/</guid>
-<description>I use DevRant, a social for rant by developer. One day I find this rant.
+		</item>
+		
+		<item>
+			<title>Beards, mugs and men</title>
+			<link>https://fundor333.com/post/2019/beards-mugs-men/</link>
+			<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/beards-mugs-men/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2019/beards-mugs-men/beards-mugs.jpg&#34;/&gt;]]&gt;
+				I use DevRant, a social for rant by developer. One day I find this rant.
  Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.
 &amp;ldquo;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
 &amp;ldquo;Uh&amp;hellip; look at my beard&amp;rdquo;
@@ -104,17 +143,21 @@ The Myth If you want to do it yourself you need to:
 &amp;ldquo;Just look at this beard!&amp;rdquo;
 &amp;ldquo;Uh&amp;hellip;. OK&amp;rdquo;
 &amp;ldquo;Does this look like a perfectly groomed beard&amp;rdquo;</description>
-</item>
-    
-    <item>
-<title>Buzzwords buzzwords</title>
-<link>https://fundor333.com/post/2019/buzzwords-buzzwords/</link>
-<pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2019/buzzwords-buzzwords/</guid>
-<description>Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
+		</item>
+		
+		<item>
+			<title>Buzzwords buzzwords</title>
+			<link>https://fundor333.com/post/2019/buzzwords-buzzwords/</link>
+			<pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/buzzwords-buzzwords/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2019/buzzwords-buzzwords/words.jpg&#34;/&gt;]]&gt;
+				Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
 Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del &amp;lt;inserire qui l&amp;rsquo;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
-</item>
-    
-  </channel>
+		</item>
+		
+	</channel>
 </rss>

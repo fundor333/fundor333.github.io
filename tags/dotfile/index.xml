@@ -1,119 +1,162 @@
 
-<rss version="2.0"
-	xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>dotfile on Fundor333</title>
+		<title>dotfile on
+			Fundor333</title>
 		<link>https://fundor333.com/tags/dotfile/</link>
-		<description>Recent content in dotfile on Fundor333</description>
+		<description>Recent content in dotfile on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/tags/dotfile/img/pilogo.jpg</url>
+			<title>dotfile on
+				Fundor333</title>
+			<link>https://fundor333.com/tags/dotfile/</link>
+		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
 		<lastBuildDate>Mon, 04 Dec 2017 00:00:00 +0000</lastBuildDate>
-    
-        <atom:link href="https://fundor333.com/tags/dotfile/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-    <item>
-<title>Adding Progress Bar in Python</title>
-<link>https://fundor333.com/post/2020/adding-progress-bar-in-python/</link>
-<pubDate>Mon, 30 Nov 2020 13:24:20 +0100</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/adding-progress-bar-in-python/</guid>
-<description>Sometime you need to make a script or a program with some task and show to the user you are doing something so you need to write something as output: a Progress Bar.
+		
+		<atom:link href="https://fundor333.com/tags/dotfile/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>Adding Progress Bar in Python</title>
+			<link>https://fundor333.com/post/2020/adding-progress-bar-in-python/</link>
+			<pubDate>Mon, 30 Nov 2020 13:24:20 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/adding-progress-bar-in-python/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/adding-progress-bar-in-python/Adding_Progress_Bar_in_Python.jpg&#34;/&gt;]]&gt;
+				Sometime you need to make a script or a program with some task and show to the user you are doing something so you need to write something as output: a Progress Bar.
 You have multiple way to do it and now I will show some way to do it with packages.
 Progress The first package I present is progress, an easy python package with a lot of configuration.
 This package is base of one object, the Bar, and you set it, you use it for update the progressbass or end it.</description>
-</item>
-    
-    <item>
-<title>Keep update Gitlab</title>
-<link>https://fundor333.com/post/2020/keep_update_gitlab/</link>
-<pubDate>Mon, 16 Nov 2020 20:30:00 +0100</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/keep_update_gitlab/</guid>
-<description>Some time ago I had a problem with a selfhosted Gitlab instances. I had a new user, johnyj12345, which create a repo and an issiue and log off. This is an attack made to my instance because I don&amp;rsquo;t upgraded it for some time so I cleanit and remove all the trace of this user and update all.1
+		</item>
+		
+		<item>
+			<title>Keep update Gitlab</title>
+			<link>https://fundor333.com/post/2020/keep_update_gitlab/</link>
+			<pubDate>Mon, 16 Nov 2020 20:30:00 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/keep_update_gitlab/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/keep_update_gitlab/Keep_update_Gitlab.jpg&#34;/&gt;]]&gt;
+				Some time ago I had a problem with a selfhosted Gitlab instances. I had a new user, johnyj12345, which create a repo and an issiue and log off. This is an attack made to my instance because I don&amp;rsquo;t upgraded it for some time so I cleanit and remove all the trace of this user and update all.1
 After this I was ready to tacle the elephant in the room: how to check if my self hosted GitLab.</description>
-</item>
-    
-    <item>
-<title>Why you need a doc</title>
-<link>https://fundor333.com/post/2020/why-you-need-a-doc/</link>
-<pubDate>Mon, 09 Nov 2020 11:00:50 +0100</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/why-you-need-a-doc/</guid>
-<description>Where you write code, an app, a mockup or a procedure you remember what you do but after 10,20,100 time you will forget one or more point. So you need to write down all.
+		</item>
+		
+		<item>
+			<title>Why you need a doc</title>
+			<link>https://fundor333.com/post/2020/why-you-need-a-doc/</link>
+			<pubDate>Mon, 09 Nov 2020 11:00:50 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/why-you-need-a-doc/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/why-you-need-a-doc/why-you-need-a-doc.jpg&#34;/&gt;]]&gt;
+				Where you write code, an app, a mockup or a procedure you remember what you do but after 10,20,100 time you will forget one or more point. So you need to write down all.
 And you have multiple tool for doing it.
 Tecnology or tools used We only have 2 tipe of tool for this task: paper o paperless. You can&amp;rsquo;t use other type of tool or tecnology and you can use the same tecnic in all the tecnology or tools you use.</description>
-</item>
-    
-    <item>
-<title>Manage Site and Certificate</title>
-<link>https://fundor333.com/post/2020/manage-site-and-certificate/</link>
-<pubDate>Thu, 01 Oct 2020 22:12:20 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/manage-site-and-certificate/</guid>
-<description>After my other post I find we (me and my coworker) need to check between 30 to 40 domain, subdomain and SSL certificate for work and some more for our private life so I put on the test my other post&amp;rsquo;s script but we need to check more.
+		</item>
+		
+		<item>
+			<title>Manage Site and Certificate</title>
+			<link>https://fundor333.com/post/2020/manage-site-and-certificate/</link>
+			<pubDate>Thu, 01 Oct 2020 22:12:20 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/manage-site-and-certificate/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/manage-site-and-certificate/manage-site-and-certificate.jpg&#34;/&gt;]]&gt;
+				After my other post I find we (me and my coworker) need to check between 30 to 40 domain, subdomain and SSL certificate for work and some more for our private life so I put on the test my other post&amp;rsquo;s script but we need to check more.
 We need to check when the domain expire (DNS Lookup), we need to check if the server are up and the SSL certificate.</description>
-</item>
-    
-    <item>
-<title>Color Your Python Output</title>
-<link>https://fundor333.com/post/2020/color-your-python-output/</link>
-<pubDate>Thu, 10 Sep 2020 21:06:21 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/color-your-python-output/</guid>
-<description>Sometime you need to output error and other stuff in the same terminal. It can be a lot of text and you need to make more readible for the user/sysadmin/victim so, the easy way, is to make different the output.
+		</item>
+		
+		<item>
+			<title>Color Your Python Output</title>
+			<link>https://fundor333.com/post/2020/color-your-python-output/</link>
+			<pubDate>Thu, 10 Sep 2020 21:06:21 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/color-your-python-output/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/color-your-python-output/color-your-python-output.jpg&#34;/&gt;]]&gt;
+				Sometime you need to output error and other stuff in the same terminal. It can be a lot of text and you need to make more readible for the user/sysadmin/victim so, the easy way, is to make different the output.
 The easy way to do it is to color the output to some color.
 How it&amp;rsquo;s work In the ANSI character set you find the escape code for multiple things: cursor location, color, text style and other option for the terminal and the terminal emulators.</description>
-</item>
-    
-    <item>
-<title>Backup Your Crontab</title>
-<link>https://fundor333.com/post/2020/backup-your-crontab/</link>
-<pubDate>Sun, 30 Aug 2020 13:49:30 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/backup-your-crontab/</guid>
-<description>With covid I work sometime at home, sometime at office, allwayse with different computer.
+		</item>
+		
+		<item>
+			<title>Backup Your Crontab</title>
+			<link>https://fundor333.com/post/2020/backup-your-crontab/</link>
+			<pubDate>Sun, 30 Aug 2020 13:49:30 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/backup-your-crontab/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/backup-your-crontab/backup-your-crontab.jpg&#34;/&gt;]]&gt;
+				With covid I work sometime at home, sometime at office, allwayse with different computer.
 This is one of the reason of my dotfile and, for some project I am working on, I need to have some cronjob in every computer but some cronjob is machine specific so I don&amp;rsquo;t need to sync all, only some.
 So I contact the developer of DotBot1 and talk about it but it wasn&#39; t implemented so I make a plugin for this.</description>
-</item>
-    
-    <item>
-<title>SSL Check With a Script</title>
-<link>https://fundor333.com/post/2020/ssl-check-with-a-script/</link>
-<pubDate>Thu, 20 Aug 2020 14:13:40 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/ssl-check-with-a-script/</guid>
-<description>As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&amp;rsquo;t have money I use Let&amp;rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
+		</item>
+		
+		<item>
+			<title>SSL Check With a Script</title>
+			<link>https://fundor333.com/post/2020/ssl-check-with-a-script/</link>
+			<pubDate>Thu, 20 Aug 2020 14:13:40 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/ssl-check-with-a-script/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg&#34;/&gt;]]&gt;
+				As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&amp;rsquo;t have money I use Let&amp;rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
 Every sistem I have use CertBot, the bot for Let&amp;rsquo;s Encrypt, who renew the certificate when needed with a cronjob.</description>
-</item>
-    
-    <item>
-<title>Create a custon Git message with GitConfig</title>
-<link>https://fundor333.com/post/2020/gitmessage-advance-config/</link>
-<pubDate>Sat, 15 Aug 2020 15:15:00 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/gitmessage-advance-config/</guid>
-<description>Sometime you will need to have a template for the commit message.
+		</item>
+		
+		<item>
+			<title>Create a custon Git message with GitConfig</title>
+			<link>https://fundor333.com/post/2020/gitmessage-advance-config/</link>
+			<pubDate>Sat, 15 Aug 2020 15:15:00 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/gitmessage-advance-config/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/gitmessage-advance-config/gitmessage-advance-config.jpg&#34;/&gt;]]&gt;
+				Sometime you will need to have a template for the commit message.
 Allways put something (ticket code, bug code, etc&amp;hellip;), order of stuff, some command for the CI system, etc&amp;hellip;
 In Git you can set a a file as the template for the git commit. You can do it for a single project or for your user. In this case I will show the command for all your project.
 First you need to write the file.</description>
-</item>
-    
-    <item>
-<title>Good Developer Must Be Blogger</title>
-<link>https://fundor333.com/post/2020/good-developer-must-be-blogger/</link>
-<pubDate>Sat, 01 Aug 2020 15:15:00 +0200</pubDate>
-      
-      <guid>https://fundor333.com/post/2020/good-developer-must-be-blogger/</guid>
-<description>I find the way to become a good programmer:
+		</item>
+		
+		<item>
+			<title>Good Developer Must Be Blogger</title>
+			<link>https://fundor333.com/post/2020/good-developer-must-be-blogger/</link>
+			<pubDate>Sat, 01 Aug 2020 15:15:00 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/good-developer-must-be-blogger/</guid>
+			<description>
+				
+				
+				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/good-developer-must-be-blogger/good-developer-must-be-blogger.jpg&#34;/&gt;]]&gt;
+				I find the way to become a good programmer:
  Write a Blog about what are you doing
  I see more and more good programmers have good blog and good blog about programming have good author.
 After studing somee good blog and some bad blog I came with this list
  You need to write a blog about what you know.
 You must keep it updated.
 You need to research for it.</description>
-</item>
-    
-  </channel>
+		</item>
+		
+	</channel>
 </rss>
