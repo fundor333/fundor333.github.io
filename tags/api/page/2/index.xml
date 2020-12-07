@@ -29,7 +29,7 @@
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg"/>]]>
 				More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
 One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
 		</item>
@@ -43,7 +43,7 @@ One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsq
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static.jpg"/>]]>
 				You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
 Some hystory To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.</description>
 		</item>
@@ -57,7 +57,7 @@ Some hystory To understand why in 2020 you need to have a static site and not a 
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/excel-django-combo/excel-django.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2020/excel-django-combo/excel-django.jpg"/>]]>
 				Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
 I use the pyexcel and pyexcel-xls module for this work.
 PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
@@ -72,7 +72,7 @@ PyExcel is a module where you can import multiple type of file (in our case xls 
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2020/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg"/>]]>
 				If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
 And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
 		</item>
@@ -86,7 +86,7 @@ And many time it was a booring job to setup all your stuff before starting with 
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/sock-and-socket/socket-adn-other-socket.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2020/sock-and-socket/socket-adn-other-socket.jpg"/>]]>
 				Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
 It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
  Hello
@@ -102,7 +102,7 @@ we need to connect to [last thing buy for the boss] system for [stuff i don&amp;
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2020/make-tea-not-big-data/tea-bigdata.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2020/make-tea-not-big-data/tea-bigdata.jpg"/>]]>
 				The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
 Industrial Unamed Tea - Excel file  We don&amp;rsquo;t need to make analisys
 Boss
@@ -118,7 +118,7 @@ Boss
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2019/mew-and-programming/pokemon.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2019/mew-and-programming/pokemon.jpg"/>]]>
 				This is a story about a myth about how to find Mew1.
 In the old day without interent &amp;ldquo;the cousin of a friends&amp;rdquo; or a &amp;quot; friend of my cousin find and captured a Mew.
 The Myth If you want to do it yourself you need to:
@@ -134,7 +134,7 @@ The Myth If you want to do it yourself you need to:
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2019/beards-mugs-men/beards-mugs.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2019/beards-mugs-men/beards-mugs.jpg"/>]]>
 				I use DevRant, a social for rant by developer. One day I find this rant.
  Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.
 &amp;ldquo;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
@@ -154,7 +154,7 @@ The Myth If you want to do it yourself you need to:
 			<description>
 				
 				
-				&lt;![CDATA[&lt;img src=&#34;https://fundor333.com/post/2019/buzzwords-buzzwords/words.jpg&#34;/&gt;]]&gt;
+				<![CDATA[<img src="https://fundor333.com/post/2019/buzzwords-buzzwords/words.jpg"/>]]>
 				Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
 Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del &amp;lt;inserire qui l&amp;rsquo;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
 		</item>
