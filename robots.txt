@@ -3,6 +3,10 @@ User-agent: *
 
 Allow: /
 
+Allow: /quiet/
+
+Allow: /quiet/23664/
+
 Allow: /post/2020/adding-progress-bar-in-python/
 
 Allow: /tags/coding/
@@ -14,8 +18,6 @@ Allow: /post/
 Allow: /tags/python/
 
 Allow: /tags/
-
-Allow: /quiet/
 
 Allow: /quiet/20346/
 
