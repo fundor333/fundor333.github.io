@@ -14,11 +14,25 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
+		<lastBuildDate>Fri, 15 Jan 2021 12:27:21 +0100</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Buzzwords buzzwords</title>
+			<link>https://fundor333.com/post/2019/buzzwords-buzzwords/</link>
+			<pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/buzzwords-buzzwords/</guid>
+			<description>
+				
+				
+				<![CDATA[<img src="https://fundor333.com/post/2019/buzzwords-buzzwords/words.jpg"/>]]>
+				Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
+Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del &amp;lt;inserire qui l&amp;rsquo;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
+		</item>
 		
 		<item>
 			<title>Django Rest Framework: Multiple post</title>
@@ -138,20 +152,6 @@ Facciamo un po&#39; di ordine:
 				What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
 If I need some data I need to go to the url of the API and go to the subpath of the data I want.
 For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.</description>
-		</item>
-		
-		<item>
-			<title>DotFile e le mie config</title>
-			<link>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</link>
-			<pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2017/dotfile-e-le-mie-config/dotfile-config.jpg"/>]]>
-				Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com&amp;rsquo;era.
-Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e stavo iniziando a scrivere un orrendo accrocchio per la generazione delle configurazioni in modo automatico partendo da un database sqlite, che, per quanto intelligente come idea, non è una cosa di facile gestione ne adatto alla situazione che si è creata.</description>
 		</item>
 		
 	</channel>

@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
+  </style>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  
+  
+  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
+
+  <title>
+    The Team Makefile  - Fundor333
+  </title>
+  <meta name="author" content="Fundor333" />
+
+  <meta name="description"
+    content="You need to make a makefile if you are working on a team project" />
+
+   
+  <link rel="canonical" href="https://fundor333.com/post/2021/the-team-makefile/" />
+   
+
+  
+  <meta property="og:title" content="The Team Makefile" />
+<meta property="og:description" content="You need to make a makefile if you are working on a team project" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fundor333.com/post/2021/the-team-makefile/" />
+<meta property="article:published_time" content="2021-01-15T12:27:21+01:00" />
+<meta property="article:modified_time" content="2021-01-15T12:27:21+01:00" />
+
+  
+  <meta itemprop="name" content="The Team Makefile">
+<meta itemprop="description" content="You need to make a makefile if you are working on a team project">
+<meta itemprop="datePublished" content="2021-01-15T12:27:21+01:00" />
+<meta itemprop="dateModified" content="2021-01-15T12:27:21+01:00" />
+<meta itemprop="wordCount" content="873">
+
+
+
+<meta itemprop="keywords" content="devops,coding,hacking," />
+
+  
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image:src" content="https://fundor333.com/The-team-makefile.jpg" />
+<meta name="twitter:card" content="summary" />
+
+
+<meta name="twitter:title" content="The Team Makefile" />
+<meta name="twitter:description"
+  content="You need to make a makefile if you are working on a team project" />
+
+
+
+
+
+
+  
+</head>
+
+
+<body>
+  
+
+
+  <nav class="navbar navbar-expand-lg f333">
+
+  <button class="navbar-toggler f333" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="https://fundor333.com/">
+      <img src="/img/pilogo.jpg" width="30" height="30" alt="" loading="lazy">
+      Fundor333
+    </a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+       
+      <li class="nav-item">
+        <a class="nav-link" href="/post/">blog</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/hoarding/">hoarding</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/cv/">cv</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/now/">now</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/project/">projects</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="/note/">note</a>
+      </li>
+      
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="container">
+    <div class="col-10 offset-1">
+      <div class="row justify-content-center">
+         
+        <div class="col-1">
+          <a href="https://github.com/fundor333">
+            <i class="fab fa-github" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.facebook.com/fundor333">
+            <i class="fab fa-facebook" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://twitter.com/fundor333">
+            <i class="fab fa-twitter" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://mastodon.social/@fundor333">
+            <i class="fab fa-mastodon" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
+            <i class="fab fa-youtube" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.instagram.com/fundor333/">
+            <i class="fab fa-instagram" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+        <div class="col-1">
+          <a href="https://www.flickr.com/people/fundor333/">
+            <i class="fab fa-flickr" aria-hidden="true">
+            </i>
+          </a>
+        </div>
+        
+      </div>
+
+      <br>
+
+      <div class="row">
+        
+<div class="container">
+  <h1>The Team Makefile</h2>
+    <a class="crumb" href="https://fundor333.com/">home</a>
+    ~
+    <a class="crumb" href='https://fundor333.com/post/2021/the-team-makefile/'>The Team Makefile</a>
+    <br>
+    <hr>
+
+    <div>
+      
+      
+      <img src="https://fundor333.com/post/2021/the-team-makefile/The-team-makefile.jpg" alt="Card image cap" class="img-fluid">
+      
+      </a>
+      <div>
+        <a href="https://unsplash.com/photos/MNbOMvT1cUU">Photo by Mahmoud Fawzy on Unsplash</a>
+      </div>
+    </div>
+    <hr>
+     
+    <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+    
+    <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+    
+    <a class="tag" href='https://fundor333.com/tags/hacking'><i class="fas fa-tags"></i> hacking</a>
+     
+    <hr>
+    <small>2021-01-15</small>
+    <hr>
+
+    <br>
+    <article>
+      <p>Working on a project with a team is a difficult task. If the project is not simple, you need to build it, test it and publish it and you can have multiple project with similar command but different parameters or path for build/test/stuff-making.
+Other times you can have a team of developer and the build/test/stuff-making will be done by THE sysadmin<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p><img src="devotion_to_duty.png" alt="Devotion to Duty"></p>
+<p>From personal expirience if you don&rsquo;t have a method for the build/deploy/test for the project at the first update will came Murphy and make you an unhappy soul or have some colligue with a battle axe asking for a little talk about the build/deploy/test.</p>
+<p>For this reason I suggest a template for developing something into a git repo:</p>
+<ul>
+<li>Build script</li>
+<li>Documentation</li>
+<li>Testing</li>
+<li>Lint</li>
+</ul>
+<a class="h2-anchor" href="#documentation"><h2 id="documentation">Documentation</h2></a>
+<p>Not a full documentation, a basic one for rapid use. You need to have a full documentation of every project you will work and all you worked on sorted and updated at last version. In the git project is better to have a little README.md with the description of the project and one or two faq of the project.</p>
+<p>In this way you will have allways have a cookbook for the everyday task.</p>
+<p>Some git hosting like GitHub, GitLab and GitTea will show your README.md at the page of the project as HTML so it can be also a &ldquo;What the f**k is this project&rdquo; page.</p>
+<a class="h2-anchor" href="#building-script"><h2 id="building-script">Building script</h2></a>
+<p>Any project you have will be having a different set of config and command to launch every task.
+Sometime you will make one or more script for your task and you need to remember all of the function and launch command. So I write a makefile for all my project, personal and job related.</p>
+<a class="h3-anchor" href="#base-of-makefile"><h3 id="base-of-makefile">Base of makefile</h3></a>
+<p>For write a good makefile you only need to write some statement like this</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#50fa7b">RULE</span><span style="color:#ff79c6">:</span> DEPENDENCY LINE <span style="color:#6272a4">## COMMENTS
+</span><span style="color:#6272a4"></span>	<span style="color:#ff79c6">[</span>tab<span style="color:#ff79c6">]</span>ACTION LINE<span style="color:#ff79c6">(</span>S<span style="color:#ff79c6">)</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+<p>You can have multiple &ldquo;rule&rdquo;, one for any task you need, and I suggest one with code and other generic:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#50fa7b">.PHONY</span><span style="color:#ff79c6">:</span> help
+<span style="color:#50fa7b">help</span><span style="color:#ff79c6">:</span> <span style="color:#6272a4">## Show this help
+</span><span style="color:#6272a4"></span>	@egrep -h <span style="color:#f1fa8c">&#39;\s##\s&#39;</span> <span style="color:#ff79c6">$(</span>MAKEFILE_LIST<span style="color:#ff79c6">)</span> | sort | awk <span style="color:#f1fa8c">&#39;BEGIN {FS = &#34;:.*?## &#34;}; {printf &#34;\033[36m%-20s\033[0m %s\n&#34;, $$1, $$2}&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+<p>This magical command<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> will use all your comment inline with the _rule_for build a help command. <strong>.PHONY</strong> is a string you put for a <strong>&ldquo;A phony target is one that is not really the name of a file; rather it is just a name for a recipe to be executed when you make an explicit request&rdquo;</strong>, it is a string for not having conflicts.</p>
+<p>Other _rule_I use are:</p>
+<ul>
+<li><strong>install</strong>: setup the env for the project</li>
+<li><strong>docs</strong>: build the docs of the project if there are inside the project</li>
+<li><strong>run</strong>: run the env for the project</li>
+<li><strong>test</strong>: launch the test for the project</li>
+</ul>
+<p>This is a example of one of my project. You can see at the <strong>RUN</strong>  <em>rule</em> you can follow the <em>rule</em> with other  <em>rule</em> for run them <strong>before</strong> the  <em>rule</em> in question.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#50fa7b">.PHONY</span><span style="color:#ff79c6">:</span> install
+<span style="color:#50fa7b">install</span><span style="color:#ff79c6">:</span>  <span style="color:#6272a4">## Make venv and install requirements
+</span><span style="color:#6272a4"></span>	pipenv install --dev
+
+<span style="color:#50fa7b">.PHONY</span><span style="color:#ff79c6">:</span> docs
+<span style="color:#50fa7b">docs</span><span style="color:#ff79c6">:</span> <span style="color:#6272a4">## Build the docs
+</span><span style="color:#6272a4"></span>	pipenv run mkdocs build --clean
+
+<span style="color:#50fa7b">.PHONY</span><span style="color:#ff79c6">:</span> run
+<span style="color:#50fa7b">run</span><span style="color:#ff79c6">:</span> install docs <span style="color:#6272a4">## Run all the task for building
+</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>So, every time you will use this <em>makefile</em> with <em>run</em> you will run <em>install</em>, <em>docs</em> and <em>run</em> in this sequence.</p>
+<a class="h2-anchor" href="#force-testing"><h2 id="force-testing">Force Testing</h2></a>
+<p>Testing is one of the must of programming. And it can be done only with scripting.
+The best way I found is using the <em>makefile</em>. Setting up a good testing suite with a full cover for the code is the base of a good project.</p>
+<p>And a good way for testing is using some type of <em>Continuous Integration</em> like <a href="https://github.com/features/actions"><em>GitHub Action</em></a>, <a href="https://circleci.com/"><em>Circle CI</em></a> or <a href="https://travis-ci.org/"><em>Travis CI</em></a>.</p>
+<p>If you will use a <em>CI</em> with a <a href="http://danielkummer.github.io/git-flow-cheatsheet/">git-flow</a>&rsquo;s flow you can make the tests' result blocking for merging branch.</p>
+<a class="h2-anchor" href="#lint-and-reformatting"><h2 id="lint-and-reformatting">Lint and reformatting</h2></a>
+<p>Lint or Linter<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> is an obscure thing. And make the code look readble. So I use a lot of <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks">git hooks</a> or <a href="https://pre-commit.com/"><em>pre-commit</em></a> for linting or reformatting.</p>
+<a class="h3-anchor" href="#git-hooks"><h3 id="git-hooks">Git hooks</h3></a>
+<p>You can write a bash/python/perl/what_you_want with all the code you need to lint or reformatting but there are some problems:</p>
+<ul>
+<li>Is not inside the repo so is not versioned</li>
+<li>Is difficult to debug it</li>
+<li>You need to manual set it at the start of the dev, not easy to script for the setup of the project.</li>
+</ul>
+<a class="h3-anchor" href="#pre-commit"><h3 id="pre-commit">Pre-Commit</h3></a>
+<p>Pre commit is a framework for <em>pre-commit hooks</em>. It has a lot of hooks ready for lint and reformatting the code and, like the normal git hook, block the commit if the hook change something.</p>
+<p>Also the command <em>pre-commit run</em> will run the pre-commit hooks without make a commit. Sometime is usefull</p>
+<a class="h2-anchor" href="#conclusion"><h2 id="conclusion">Conclusion</h2></a>
+<p>With this setup you can have a lot of automatic task for your project so you and your team will work better, more like a clock and without a lot of coordination if you can follow a standar template like this.</p>
+<p>And you can leave and enter in any project in an easy and fast way.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="/post/2019/beards-mugs-men/">Team and Sysadmin</a> description from my expirience <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Taken from <a href="https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/">victoria.dev</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>Lint is a static code analysis for finding bugs or other bad codes <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+      <p>by Fundor333</p>
+    </article>
+
+    <hr>
+
+    
+    
+    <h3>See Also</h3>
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/adding-progress-bar-in-python/">
+      <h2 class="text-center">Adding Progress Bar in Python</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2020/adding-progress-bar-in-python/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/adding-progress-bar-in-python/Adding_Progress_Bar_in_Python.jpg" src="https://fundor333.com/post/2020/adding-progress-bar-in-python/Adding_Progress_Bar_in_Python_hua547bfe4a167233475593cc3c929944f_953204_594f1f1013ba64c0ffb4de7a8930acdb.jpg" alt="Adding Progress Bar in Python"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/adding-progress-bar-in-python/" class="text-center">Sometime you need to add a Progress Bar to your script and this is how</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small><i class="fas fa-mug-tea"></i>
+        Reading time 3 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/python'><i class="fas fa-tags"></i> python</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/keep_update_gitlab/">
+      <h2 class="text-center">Keep update Gitlab</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2020/keep_update_gitlab/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/keep_update_gitlab/Keep_update_Gitlab.jpg" src="https://fundor333.com/post/2020/keep_update_gitlab/Keep_update_Gitlab_hu4e1f7b36459202ad4174acf8e5818db6_4308401_959f6eb9dbefe19901ee0217d63d531e.jpg" alt="Keep update Gitlab"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/keep_update_gitlab/" class="text-center">How to check if your GitLab is update automaticaly</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small><i class="fas fa-mug-tea"></i>
+        Reading time 3 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/hacking'><i class="fas fa-tags"></i> hacking</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    <article>
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/why-you-need-a-doc/">
+      <h2 class="text-center">Why you need a doc</h2>
+    </a>
+  </div>
+
+  <div class="row justify-content-center col-8 offset-2">
+
+
+    
+    <a href="https://fundor333.com/post/2020/why-you-need-a-doc/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/why-you-need-a-doc/why-you-need-a-doc.jpg" src="https://fundor333.com/post/2020/why-you-need-a-doc/why-you-need-a-doc_hu2f154ec28cdf3a0101da05e8af0c2f38_1726185_53467efcd63ea5f124688b8b06165861.jpg" alt="Why you need a doc"
+        class="img-fluid rounded mx-auto d-block lazy">
+    </a>
+    
+  </div>
+
+  <div class="row justify-content-center">
+    <a href="https://fundor333.com/post/2020/why-you-need-a-doc/" class="text-center">Every project you make you understand new things so you need to write down some thing. Something like a doc</a>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small><i class="fas fa-mug-tea"></i>
+        Reading time 4 minutes
+      </small>
+    </p>
+  </div>
+  <div class="row justify-content-md-center">
+    <p>
+      <small>
+         
+        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        
+        <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+         
+      </small>
+    </p>
+  </div>
+</article>
+<hr>
+
+    
+    
+
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fundor333" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <hr>
+</div>
+
+      </div>
+      <br>
+      
+    </div>
+  </div>
+  <br>
+  <footer class="fixed-bottom d-flex justify-content-center f333 navbar">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a href='https://webring.recurse.com' class="nav-item" target='_blank'><img src='https://webring.recurse.com/icon.png'  width="30" height="33"/></a>
+      <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
+        <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+      </a>
+    </li>
+  </ul>
+</footer>
+<br>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-44064318-2', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(function () {
+    count = 0;
+    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
+      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
+      "Wev 3.0", "Buzzword",
+    ];
+    setInterval(function () {
+      count++;
+      $(".buzzword").fadeOut(400, function () {
+        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
+      });
+    }, 4000);
+  });
+
+</script>
+
+
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 360);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+
+
+
+</body>
+
+</html>

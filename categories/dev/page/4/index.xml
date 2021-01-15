@@ -14,11 +14,25 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
+		<lastBuildDate>Fri, 15 Jan 2021 12:27:21 +0100</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>DotFile e le mie config</title>
+			<link>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</link>
+			<pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</guid>
+			<description>
+				
+				
+				<![CDATA[<img src="https://fundor333.com/post/2017/dotfile-e-le-mie-config/dotfile-config.jpg"/>]]>
+				Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com&amp;rsquo;era.
+Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e stavo iniziando a scrivere un orrendo accrocchio per la generazione delle configurazioni in modo automatico partendo da un database sqlite, che, per quanto intelligente come idea, non è una cosa di facile gestione ne adatto alla situazione che si è creata.</description>
+		</item>
 		
 		<item>
 			<title>Un Astemio al Tezo Databeers</title>
@@ -131,20 +145,6 @@ Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che s
 				<![CDATA[<img src="https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/emacs-mouse.jpg"/>]]>
 				&lt;p&gt;E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è &lt;em&gt;mouse free&lt;/em&gt;!&lt;/p&gt;
 &lt;p&gt;Ok posso capire che per la maggior parte di voi non capirà perchè questo cambiamento è rilevante per me ma, dal mio punto di vista, è un &lt;em&gt;ENORME&lt;/em&gt; upgrade tecnico. La possibilità di avere un intero editor di testo personalizzabile, multipiattaforma e completamente open source mi ha sempre particolarmente colpito ma non ho mai trovato uno che lo sentissi mio. Attualmente uso molto Atom ma lo sento molto stretto soprattutto perchè, visto che deve supportare molti linguaggi (e di conseguenza molti plugin), risulta rallentato.&lt;/p&gt;</description>
-		</item>
-		
-		<item>
-			<title>Jupyter Notebook Pelican Combo</title>
-			<link>https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/</link>
-			<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/jupyter-notebook.jpg"/>]]>
-				&lt;p&gt;Si sta avvicinando il &lt;strong&gt;Pycon 8&lt;/strong&gt; e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest&#39; anno.
-Visto quello che è successo l&amp;rsquo;anno scorso ho deciso di preinstallate Jupyter e essere pronto a fare degli appunti direttamente in notebook. Per questo ho cercato un sistema per convertirli in markdown, così da usarli anche nel blog, o farli leggere direttamente da Pelican e ho fatto una stupenda scoperta: esiste già questo plugin.&lt;/p&gt;</description>
 		</item>
 		
 	</channel>

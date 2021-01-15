@@ -14,11 +14,25 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
+		<lastBuildDate>Fri, 15 Jan 2021 12:27:21 +0100</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>The Team Makefile</title>
+			<link>https://fundor333.com/post/2021/the-team-makefile/</link>
+			<pubDate>Fri, 15 Jan 2021 12:27:21 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2021/the-team-makefile/</guid>
+			<description>
+				
+				
+				<![CDATA[<img src="https://fundor333.com/post/2021/the-team-makefile/The-team-makefile.jpg"/>]]>
+				Working on a project with a team is a difficult task. If the project is not simple, you need to build it, test it and publish it and you can have multiple project with similar command but different parameters or path for build/test/stuff-making. Other times you can have a team of developer and the build/test/stuff-making will be done by THE sysadmin1.
+From personal expirience if you don&amp;rsquo;t have a method for the build/deploy/test for the project at the first update will came Murphy and make you an unhappy soul or have some colligue with a battle axe asking for a little talk about the build/deploy/test.</description>
+		</item>
 		
 		<item>
 			<title>Adding Progress Bar in Python</title>
@@ -137,25 +151,6 @@ Every sistem I have use CertBot, the bot for Let&amp;rsquo;s Encrypt, who renew 
 Allways put something (ticket code, bug code, etc&amp;hellip;), order of stuff, some command for the CI system, etc&amp;hellip;
 In Git you can set a a file as the template for the git commit. You can do it for a single project or for your user. In this case I will show the command for all your project.
 First you need to write the file.</description>
-		</item>
-		
-		<item>
-			<title>Good Developer Must Be Blogger</title>
-			<link>https://fundor333.com/post/2020/good-developer-must-be-blogger/</link>
-			<pubDate>Sat, 01 Aug 2020 15:15:00 +0200</pubDate>
-			
-			<guid>https://fundor333.com/post/2020/good-developer-must-be-blogger/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2020/good-developer-must-be-blogger/good-developer-must-be-blogger.jpg"/>]]>
-				I find the way to become a good programmer:
- Write a Blog about what are you doing
- I see more and more good programmers have good blog and good blog about programming have good author.
-After studing somee good blog and some bad blog I came with this list
- You need to write a blog about what you know.
-You must keep it updated.
-You need to research for it.</description>
 		</item>
 		
 	</channel>

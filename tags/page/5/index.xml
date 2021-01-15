@@ -14,11 +14,25 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Mon, 30 Nov 2020 13:24:20 +0100</lastBuildDate>
+		<lastBuildDate>Fri, 15 Jan 2021 12:27:21 +0100</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/tags/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Jupyter Notebook Pelican Combo</title>
+			<link>https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/</link>
+			<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/</guid>
+			<description>
+				
+				
+				<![CDATA[<img src="https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/jupyter-notebook.jpg"/>]]>
+				&lt;p&gt;Si sta avvicinando il &lt;strong&gt;Pycon 8&lt;/strong&gt; e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest&#39; anno.
+Visto quello che è successo l&amp;rsquo;anno scorso ho deciso di preinstallate Jupyter e essere pronto a fare degli appunti direttamente in notebook. Per questo ho cercato un sistema per convertirli in markdown, così da usarli anche nel blog, o farli leggere direttamente da Pelican e ho fatto una stupenda scoperta: esiste già questo plugin.&lt;/p&gt;</description>
+		</item>
 		
 		<item>
 			<title>Bot, Telegram e programmazione funzionale</title>

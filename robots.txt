@@ -3,27 +3,31 @@ User-agent: *
 
 Allow: /
 
+Allow: /categories/
+
+Allow: /tags/coding/
+
+Allow: /categories/dev/
+
+Allow: /tags/devops/
+
+Allow: /tags/hacking/
+
+Allow: /post/
+
+Allow: /tags/
+
+Allow: /post/2021/the-team-makefile/
+
 Allow: /quiet/
 
 Allow: /quiet/23664/
 
 Allow: /post/2020/adding-progress-bar-in-python/
 
-Allow: /tags/coding/
-
-Allow: /tags/devops/
-
-Allow: /post/
-
 Allow: /tags/python/
 
-Allow: /tags/
-
 Allow: /quiet/20346/
-
-Allow: /categories/
-
-Allow: /tags/hacking/
 
 Allow: /post/2020/keep_update_gitlab/
 
@@ -42,8 +46,6 @@ Allow: /quiet/12850/
 Allow: /quiet/10329/
 
 Allow: /tags/bot/
-
-Allow: /categories/dev/
 
 Allow: /tags/dotfiles/
 
