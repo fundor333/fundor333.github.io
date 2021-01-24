@@ -63,7 +63,7 @@
 </head>
 
 
-<body>
+<body id="snowflakes-container">
   
 
 
@@ -361,6 +361,43 @@
   </ul>
 </footer>
 <br>
+
+<script src="/js/snowstorm.js"></script>
+
+
+<script>
+  function isWinter(dt) {
+    const m = dt.getMonth();
+    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+}
+
+function isBirthDay(dt){
+  return dt.getMonth == 2 && dt.getDate() == 3;
+}
+
+function isValentineDay(dt){
+  return dt.getMonth == 1 && dt.getDate() == 14;
+}
+
+var winterCharacter = "❄️"
+var heartCharacter = "❤️"
+var presentCharacter = "🎁"
+
+if ([isWinter(new Date()),isBirthDay(new Date()),isValentineDay(new Date())].some(function(a){return true ==a}) ) {
+  snowStorm = snowFunction(window, document);
+  snowStorm.flakesMaxActive = 96;    
+  snowStorm.useTwinkleEffect = true; 
+  snowStorm.followMouse = false;
+  snowStorm.freezeOnBlur = true;
+}
+
+if (isWinter(new Date())){snowStorm.snowCharacter = winterCharacter;}
+if (isBirthDay(new Date())){snowStorm.snowCharacter = presentCharacter;}
+if (isValentineDay(new Date())){snowStorm.snowCharacter = heartCharacter;}
+
+
+</script>
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
