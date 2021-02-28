@@ -488,7 +488,8 @@ Only sometime you will find a sysadmin with the <em>vim command sheet</em>&rsquo
 <script>
   function isWinter(dt) {
     const m = dt.getMonth();
-    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+    console.log(m)
+    return ( m<1 || m>10);
 }
 
 function isBirthDay(dt){

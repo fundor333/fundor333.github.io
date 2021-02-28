@@ -468,7 +468,8 @@ A Perferc tea for a perfect break.</p>
 <script>
   function isWinter(dt) {
     const m = dt.getMonth();
-    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+    console.log(m)
+    return ( m<1 || m>10);
 }
 
 function isBirthDay(dt){

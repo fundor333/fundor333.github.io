@@ -209,8 +209,6 @@
   
   <a class="tag" href='https://fundor333.com/tags/graphql/'>graphql</a>
   
-  <a class="tag" href='https://fundor333.com/tags/dotfile/'>dotfile</a>
-  
   <a class="tag" href='https://fundor333.com/tags/docker/'>docker</a>
   
   <a class="tag" href='https://fundor333.com/tags/hugo/'>hugo</a>
@@ -242,7 +240,7 @@
 
       
 
-      <img data-src="https://fundor333.com/post/2021/the-team-makefile/The-team-makefile.jpg" src="https://fundor333.com/post/2021/the-team-makefile/The-team-makefile_hu63658009232a100bed5436e97dd23206_1369566_361a6ec5de8e1542c1c55e344a1c93d4.jpg" alt="The Team Makefile"
+      <img data-src="https://fundor333.com/post/2021/the-team-makefile/The-team-makefile.jpg" src="https://fundor333.com/post/2021/the-team-makefile/The-team-makefile_hu3052d6d0cea864b95fa584505ead7a59_1368698_b2982f9d84623d22ca3b5b0e322db4fc.jpg" alt="The Team Makefile"
         class="img-fluid rounded mx-auto d-block lazy">
     </a>
     
@@ -413,7 +411,8 @@
 <script>
   function isWinter(dt) {
     const m = dt.getMonth();
-    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+    console.log(m)
+    return ( m<1 || m>10);
 }
 
 function isBirthDay(dt){

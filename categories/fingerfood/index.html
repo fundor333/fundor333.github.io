@@ -209,8 +209,6 @@
   
   <a class="tag" href='https://fundor333.com/tags/graphql/'>graphql</a>
   
-  <a class="tag" href='https://fundor333.com/tags/dotfile/'>dotfile</a>
-  
   <a class="tag" href='https://fundor333.com/tags/docker/'>docker</a>
   
   <a class="tag" href='https://fundor333.com/tags/hugo/'>hugo</a>
@@ -415,7 +413,8 @@
 <script>
   function isWinter(dt) {
     const m = dt.getMonth();
-    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+    console.log(m)
+    return ( m<1 || m>10);
 }
 
 function isBirthDay(dt){

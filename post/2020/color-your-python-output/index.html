@@ -320,7 +320,7 @@ It can be a lot of text and you need to make more readible for the user/sysadmin
 
       
 
-      <img data-src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg" src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script_huf3fcac808465ce6576651fe7e65aa571_1115220_1b2d24654856cde408d4b167b377ea3f.jpg" alt="SSL Check With a Script"
+      <img data-src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg" src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script_hu4b4b06f3bfe2fe18d194b4ce88dccd55_1114641_61258e5e5ed9eda7eb08bb4d1d1bda16.jpg" alt="SSL Check With a Script"
         class="img-fluid rounded mx-auto d-block lazy">
     </a>
     
@@ -504,7 +504,8 @@ It can be a lot of text and you need to make more readible for the user/sysadmin
 <script>
   function isWinter(dt) {
     const m = dt.getMonth();
-    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+    console.log(m)
+    return ( m<1 || m>10);
 }
 
 function isBirthDay(dt){

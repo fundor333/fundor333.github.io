@@ -333,7 +333,7 @@ Questo ha portato alla creazione di <em>N</em> sistemi di notifica, deployment e
     <p>
       <small>
          
-        <a class="tag" href='https://fundor333.com/tags/dotfile'><i class="fas fa-tags"></i> dotfile</a>
+        <a class="tag" href='https://fundor333.com/tags/dotfiles'><i class="fas fa-tags"></i> dotfiles</a>
         
         <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
          
@@ -444,7 +444,8 @@ Questo ha portato alla creazione di <em>N</em> sistemi di notifica, deployment e
 <script>
   function isWinter(dt) {
     const m = dt.getMonth();
-    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+    console.log(m)
+    return ( m<1 || m>10);
 }
 
 function isBirthDay(dt){

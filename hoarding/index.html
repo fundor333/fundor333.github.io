@@ -396,6 +396,18 @@
         </a>
       </p>
       
+      <p>
+        <a href="https://www.youtube.com/watch?v=QhWdBhc3Wjc" class="offset-1">
+          The World Design of Dark Souls | Boss Keys
+        </a>
+      </p>
+      
+      <p>
+        <a href="https://www.youtube.com/watch?v=7ITtPPE-pXE" class="offset-1">
+          The World Design of Hollow Knight | Boss Keys
+        </a>
+      </p>
+      
     </div>
   </div>
   <hr>
@@ -972,7 +984,8 @@
 <script>
   function isWinter(dt) {
     const m = dt.getMonth();
-    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+    console.log(m)
+    return ( m<1 || m>10);
 }
 
 function isBirthDay(dt){

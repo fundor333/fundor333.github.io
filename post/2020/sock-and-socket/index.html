@@ -582,7 +582,8 @@ SIZE <span style="color:#ff79c6">=</span><span style="color:#bd93f9">8192</span>
 <script>
   function isWinter(dt) {
     const m = dt.getMonth();
-    return m == 11 ? dt.getDate() >= 21 : m == 2 ? dt.getDate() < 21 : m < 2;
+    console.log(m)
+    return ( m<1 || m>10);
 }
 
 function isBirthDay(dt){

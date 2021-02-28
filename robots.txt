@@ -131,8 +131,6 @@ Allow: /tags/graphql/
 
 Allow: /post/2018/graphql-and-working-with-it/
 
-Allow: /tags/dotfile/
-
 Allow: /post/2017/dotfile-e-le-mie-config/
 
 Allow: /post/2017/astemio-al-terzo-databeers/
