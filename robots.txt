@@ -3,19 +3,23 @@ User-agent: *
 
 Allow: /
 
+Allow: /post/2021/advance-git-config-and-ssh-config/
+
+Allow: /tags/devops/
+
+Allow: /tags/dotfiles/
+
+Allow: /post/
+
+Allow: /tags/
+
 Allow: /categories/
 
 Allow: /tags/coding/
 
 Allow: /categories/dev/
 
-Allow: /tags/devops/
-
 Allow: /tags/hacking/
-
-Allow: /post/
-
-Allow: /tags/
 
 Allow: /post/2021/the-team-makefile/
 
@@ -46,8 +50,6 @@ Allow: /quiet/12850/
 Allow: /quiet/10329/
 
 Allow: /tags/bot/
-
-Allow: /tags/dotfiles/
 
 Allow: /post/2020/manage-site-and-certificate/
 

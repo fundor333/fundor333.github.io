@@ -14,11 +14,31 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 01 Oct 2020 22:12:20 +0200</lastBuildDate>
+		<lastBuildDate>Thu, 11 Mar 2021 10:00:25 +0100</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/tags/dotfiles/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Beards, mugs and men</title>
+			<link>https://fundor333.com/post/2019/beards-mugs-men/</link>
+			<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/beards-mugs-men/</guid>
+			<description>
+				
+				
+				<![CDATA[<img src="https://fundor333.com/post/2019/beards-mugs-men/beards-mugs.jpg"/>]]>
+				I use DevRant, a social for rant by developer. One day I find this rant.
+ Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.
+&amp;ldquo;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
+&amp;ldquo;Uh&amp;hellip; look at my beard&amp;rdquo;
+&amp;ldquo;What&amp;rdquo;
+&amp;ldquo;Just look at this beard!&amp;rdquo;
+&amp;ldquo;Uh&amp;hellip;. OK&amp;rdquo;
+&amp;ldquo;Does this look like a perfectly groomed beard&amp;rdquo;</description>
+		</item>
 		
 		<item>
 			<title>Buzzwords buzzwords</title>
@@ -137,21 +157,6 @@ P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto
 				E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
 Facciamo un po&#39; di ordine:
  Ho un blog gestito attraverso un generatore di siti statici Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi Ho una passione per il formato file .</description>
-		</item>
-		
-		<item>
-			<title>GraphQL and working with it</title>
-			<link>https://fundor333.com/post/2018/graphql-and-working-with-it/</link>
-			<pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2018/graphql-and-working-with-it/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2018/graphql-and-working-with-it/graphql-working.jpg"/>]]>
-				What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
-If I need some data I need to go to the url of the API and go to the subpath of the data I want.
-For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.</description>
 		</item>
 		
 	</channel>

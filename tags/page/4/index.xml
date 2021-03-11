@@ -14,11 +14,26 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Fri, 15 Jan 2021 12:27:21 +0100</lastBuildDate>
+		<lastBuildDate>Thu, 11 Mar 2021 10:00:25 +0100</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/tags/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>GraphQL and working with it</title>
+			<link>https://fundor333.com/post/2018/graphql-and-working-with-it/</link>
+			<pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/graphql-and-working-with-it/</guid>
+			<description>
+				
+				
+				<![CDATA[<img src="https://fundor333.com/post/2018/graphql-and-working-with-it/graphql-working.jpg"/>]]>
+				What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
+If I need some data I need to go to the url of the API and go to the subpath of the data I want.
+For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.</description>
+		</item>
 		
 		<item>
 			<title>DotFile e le mie config</title>
@@ -131,20 +146,6 @@ Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza
 				E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po&#39; di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie
 Problemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:
  La strutturazione del layout, che sento stretta e strutturata in modo &amp;ldquo;sbagliato&amp;rdquo; L&amp;rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post &amp;ldquo;passati&amp;rdquo; e non &amp;ldquo;futuri&amp;rdquo; am credo che questo sia un problema mio.</description>
-		</item>
-		
-		<item>
-			<title>Emacs e mai più mouse</title>
-			<link>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</link>
-			<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/emacs-mouse.jpg"/>]]>
-				&lt;p&gt;E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è &lt;em&gt;mouse free&lt;/em&gt;!&lt;/p&gt;
-&lt;p&gt;Ok posso capire che per la maggior parte di voi non capirà perchè questo cambiamento è rilevante per me ma, dal mio punto di vista, è un &lt;em&gt;ENORME&lt;/em&gt; upgrade tecnico. La possibilità di avere un intero editor di testo personalizzabile, multipiattaforma e completamente open source mi ha sempre particolarmente colpito ma non ho mai trovato uno che lo sentissi mio. Attualmente uso molto Atom ma lo sento molto stretto soprattutto perchè, visto che deve supportare molti linguaggi (e di conseguenza molti plugin), risulta rallentato.&lt;/p&gt;</description>
 		</item>
 		
 	</channel>

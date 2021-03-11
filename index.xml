@@ -12,11 +12,26 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Fri, 15 Jan 2021 12:27:21 +0100</lastBuildDate>
+		<lastBuildDate>Thu, 11 Mar 2021 10:00:25 +0100</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Advance Git Config and Ssh Config</title>
+			<link>https://fundor333.com/post/2021/advance-git-config-and-ssh-config/</link>
+			<pubDate>Thu, 11 Mar 2021 10:00:25 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2021/advance-git-config-and-ssh-config/</guid>
+			<description>
+				
+				
+				<![CDATA[<img src="https://fundor333.com/post/2021/advance-git-config-and-ssh-config/Advance-git-config-and-ssh-config.jpg"/>]]>
+				Many and many times I update my dotfiles1 and rewrite part of them for keep my work config and personal config in a same repo with all the config split for usage.
+So I discover that I can have multiple ssh config and gitconfig on the same machine.
+Multiple SSH config files The SSH&amp;rsquo;s config file was too long to manage so one day I need to break it for make it easy for managing.</description>
+		</item>
 		
 		<item>
 			<title>The Team Makefile</title>
@@ -133,22 +148,6 @@ So I contact the developer of DotBot1 and talk about it but it wasn&#39; t imple
 				<![CDATA[<img src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg"/>]]>
 				As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&amp;rsquo;t have money I use Let&amp;rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
 Every sistem I have use CertBot, the bot for Let&amp;rsquo;s Encrypt, who renew the certificate when needed with a cronjob.</description>
-		</item>
-		
-		<item>
-			<title>Create a custon Git message with GitConfig</title>
-			<link>https://fundor333.com/post/2020/gitmessage-advance-config/</link>
-			<pubDate>Sat, 15 Aug 2020 15:15:00 +0200</pubDate>
-			
-			<guid>https://fundor333.com/post/2020/gitmessage-advance-config/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2020/gitmessage-advance-config/gitmessage-advance-config.jpg"/>]]>
-				Sometime you will need to have a template for the commit message.
-Allways put something (ticket code, bug code, etc&amp;hellip;), order of stuff, some command for the CI system, etc&amp;hellip;
-In Git you can set a a file as the template for the git commit. You can do it for a single project or for your user. In this case I will show the command for all your project.
-First you need to write the file.</description>
 		</item>
 		
 	</channel>

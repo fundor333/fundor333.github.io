@@ -12,11 +12,27 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Fri, 15 Jan 2021 12:27:21 +0100</lastBuildDate>
+		<lastBuildDate>Thu, 11 Mar 2021 10:00:25 +0100</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Create a custon Git message with GitConfig</title>
+			<link>https://fundor333.com/post/2020/gitmessage-advance-config/</link>
+			<pubDate>Sat, 15 Aug 2020 15:15:00 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/gitmessage-advance-config/</guid>
+			<description>
+				
+				
+				<![CDATA[<img src="https://fundor333.com/post/2020/gitmessage-advance-config/gitmessage-advance-config.jpg"/>]]>
+				Sometime you will need to have a template for the commit message.
+Allways put something (ticket code, bug code, etc&amp;hellip;), order of stuff, some command for the CI system, etc&amp;hellip;
+In Git you can set a a file as the template for the git commit. You can do it for a single project or for your user. In this case I will show the command for all your project.
+First you need to write the file.</description>
+		</item>
 		
 		<item>
 			<title>Good Developer Must Be Blogger</title>
@@ -140,26 +156,6 @@ Boss
 In the old day without interent &amp;ldquo;the cousin of a friends&amp;rdquo; or a &amp;quot; friend of my cousin find and captured a Mew.
 The Myth If you want to do it yourself you need to:
  Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn&amp;rsquo;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.</description>
-		</item>
-		
-		<item>
-			<title>Beards, mugs and men</title>
-			<link>https://fundor333.com/post/2019/beards-mugs-men/</link>
-			<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2019/beards-mugs-men/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2019/beards-mugs-men/beards-mugs.jpg"/>]]>
-				I use DevRant, a social for rant by developer. One day I find this rant.
- Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.
-&amp;ldquo;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
-&amp;ldquo;Uh&amp;hellip; look at my beard&amp;rdquo;
-&amp;ldquo;What&amp;rdquo;
-&amp;ldquo;Just look at this beard!&amp;rdquo;
-&amp;ldquo;Uh&amp;hellip;. OK&amp;rdquo;
-&amp;ldquo;Does this look like a perfectly groomed beard&amp;rdquo;</description>
 		</item>
 		
 	</channel>
