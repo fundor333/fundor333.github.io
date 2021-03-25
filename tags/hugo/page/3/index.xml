@@ -26,11 +26,7 @@
 			<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2019/beards-mugs-men/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2019/beards-mugs-men/beards-mugs.jpg"/>]]>
-				I use DevRant, a social for rant by developer. One day I find this rant.
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/beards-mugs-men/beards-mugs.jpg"/>]]>I use DevRant, a social for rant by developer. One day I find this rant.
  Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.
 &amp;ldquo;Hey, when I log in on my phone, the menu is looking weird&amp;rdquo;
 &amp;ldquo;Uh&amp;hellip; look at my beard&amp;rdquo;
@@ -46,11 +42,7 @@
 			<pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2019/buzzwords-buzzwords/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2019/buzzwords-buzzwords/words.jpg"/>]]>
-				Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/buzzwords-buzzwords/words.jpg"/>]]>Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .
 Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come &amp;ldquo;l&amp;rsquo;ultima frontiera di/del &amp;lt;inserire qui l&amp;rsquo;ambito di interesse della persona o della direzione&amp;gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone&amp;rdquo;.</description>
 		</item>
 		
@@ -60,11 +52,7 @@ Iniziamo dalle basi: una buzzword è solitamente un termine che la persona ha se
 			<pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api.gif"/>]]>
-				I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api.gif"/>]]>I need to have a massive put in my rest endpoint and Django Rest Framework doesn&amp;rsquo;t do it. So I make my personal method for mycase.
 Setup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.
 After this you have a MyModel, MyModelSerializer and a view class MyModelListPost.
 Why I can&amp;rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.</description>
@@ -76,11 +64,7 @@ Why I can&amp;rsquo;t use the default? After you did the tutorial you have a bas
 			<pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2019/devops-chatbot-npm/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2019/devops-chatbot-npm/octocat.png"/>]]>
-				Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/devops-chatbot-npm/octocat.png"/>]]>Attualmente al lavoro il team di sviluppo é &amp;ldquo;giusto per le esigenze aziendali&amp;rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.
 Con poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell&amp;rsquo;ARMAGEDDON.
 Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.</description>
 		</item>
@@ -91,11 +75,7 @@ Buona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo ch
 			<pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/microsoft-github.png"/>]]>
-				Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: &amp;ldquo;Whas are going to change into the OpenSource comunity or into the public code?&amp;rdquo;
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/microsoft-github.png"/>]]>Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: &amp;ldquo;Whas are going to change into the OpenSource comunity or into the public code?&amp;rdquo;
 Many developer thinks about this and say something similar to &amp;ldquo;I do not want to risc my project so goodby&amp;rdquo; and the move to GitLab all theire code.
 GitHub imports to GitLab are still going up!</description>
 		</item>
@@ -106,11 +86,7 @@ GitHub imports to GitLab are still going up!</description>
 			<pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/floppy-pycon.jpg"/>]]>
-				Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/floppy-pycon.jpg"/>]]>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
 Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
  ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
 		</item>
@@ -121,11 +97,7 @@ Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;ann
 			<pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2018/tanti-auguri-nintendo/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2018/tanti-auguri-nintendo/nintendo_switch.jpg"/>]]>
-				Esattamente un anno fa, il 3 Marzo 2017, usciva la Nintendo Switch, la prima console sia fissa che portatile che la Nintendo abbia mai fatto. In quella stessa data mi è stata regalata una Nintendo Switch con Zelda Breath of the Wild, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.1
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/tanti-auguri-nintendo/nintendo_switch.jpg"/>]]>Esattamente un anno fa, il 3 Marzo 2017, usciva la Nintendo Switch, la prima console sia fissa che portatile che la Nintendo abbia mai fatto. In quella stessa data mi è stata regalata una Nintendo Switch con Zelda Breath of the Wild, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.1
 Oggi, a un anno dopo, mi metto a fare i conti su com&amp;rsquo;è la console e su che parte del mercato si è posizionata la console ibrida.</description>
 		</item>
 		
@@ -135,11 +107,7 @@ Oggi, a un anno dopo, mi metto a fare i conti su com&amp;rsquo;è la console e s
 			<pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2018/p2p-offline-da-spie/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2018/p2p-offline-da-spie/freccia.jpg"/>]]>
-				Da poco ho scoperto che nel 2006 l&amp;rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;quot;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/p2p-offline-da-spie/freccia.jpg"/>]]>Da poco ho scoperto che nel 2006 l&amp;rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia &amp;ldquo;wirless&amp;quot;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.
 Partiamo con ordine: cos&amp;rsquo;è il P2P?
 P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto&amp;rdquo;. Significa che la comunicazione è tra il &amp;ldquo;mittente&amp;rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.</description>
 		</item>
@@ -150,11 +118,7 @@ P2P sta per &amp;ldquo;Point to Point&amp;rdquo; ovvero &amp;ldquo;punto a punto
 			<pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2018/e-talk-al-pycon9/</guid>
-			<description>
-				
-				
-				<![CDATA[<img src="https://fundor333.com/post/2018/e-talk-al-pycon9/talk-pycon9.jpg"/>]]>
-				E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/e-talk-al-pycon9/talk-pycon9.jpg"/>]]>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
 Facciamo un po&#39; di ordine:
  Ho un blog gestito attraverso un generatore di siti statici Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi Ho una passione per il formato file .</description>
 		</item>
