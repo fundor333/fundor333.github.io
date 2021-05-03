@@ -3,19 +3,27 @@ User-agent: *
 
 Allow: /
 
+Allow: /tags/coding/
+
+Allow: /post/2021/letterhead-with-reportlab/
+
+Allow: /tags/pdf/
+
+Allow: /post/
+
+Allow: /tags/python/
+
+Allow: /tags/reportlab/
+
+Allow: /tags/
+
 Allow: /post/2021/advance-git-config-and-ssh-config/
 
 Allow: /tags/devops/
 
 Allow: /tags/dotfiles/
 
-Allow: /post/
-
-Allow: /tags/
-
 Allow: /categories/
-
-Allow: /tags/coding/
 
 Allow: /categories/dev/
 
@@ -28,8 +36,6 @@ Allow: /quiet/
 Allow: /quiet/23664/
 
 Allow: /post/2020/adding-progress-bar-in-python/
-
-Allow: /tags/python/
 
 Allow: /quiet/20346/
 

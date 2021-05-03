@@ -1,0 +1,35 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>socket on
+			Fundor333</title>
+		<link>https://fundor333.com/tags/socket/</link>
+		<description>Recent content in socket on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/tags/socket/img/pilogo.jpg</url>
+			<title>socket on
+				Fundor333</title>
+			<link>https://fundor333.com/tags/socket/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/tags/socket/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>Docker, la balena con i container per software</title>
+			<link>https://fundor333.com/post/2016/docker-la-balena-con-i-container/</link>
+			<pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2016/docker-la-balena-con-i-container/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2016/docker-la-balena-con-i-container/docker-la-balena.jpg"/>]]>&lt;p&gt;Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
+Docker.&lt;br&gt;
+&lt;img src=&#34;https://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png&#34; alt=&#34;Docker&#34;&gt;&lt;/p&gt;</description>
+		</item>
+		
+	</channel>
+</rss>

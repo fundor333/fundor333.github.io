@@ -14,11 +14,23 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Thu, 11 Mar 2021 10:00:25 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 03 May 2021 09:12:14 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/post/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Letterhead With ReportLab</title>
+			<link>https://fundor333.com/post/2021/letterhead-with-reportlab/</link>
+			<pubDate>Mon, 03 May 2021 09:12:14 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2021/letterhead-with-reportlab/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2021/letterhead-with-reportlab/Letterhead-with-ReportLab.jpg"/>]]>Sometime you need to make some pdf looking more professional. In python you use the ReportLab1 package for make Pdf.
+Fist the main core For every document type I need I write a class with a get_pdf for print2 a Pdf.
+Here an example3
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35  class BasicPrinter: def __init__(self, buffer, pagesize=&amp;#34;A4&amp;#34;): self.</description>
+		</item>
 		
 		<item>
 			<title>Advance Git Config and Ssh Config</title>
@@ -104,16 +116,6 @@ How it&amp;rsquo;s work In the ANSI character set you find the escape code for m
 			<description><![CDATA[<img src="https://fundor333.com/post/2020/backup-your-crontab/backup-your-crontab.jpg"/>]]>With covid I work sometime at home, sometime at office, allwayse with different computer.
 This is one of the reason of my dotfile and, for some project I am working on, I need to have some cronjob in every computer but some cronjob is machine specific so I don&amp;rsquo;t need to sync all, only some.
 So I contact the developer of DotBot1 and talk about it but it wasn&#39; t implemented so I make a plugin for this.</description>
-		</item>
-		
-		<item>
-			<title>SSL Check With a Script</title>
-			<link>https://fundor333.com/post/2020/ssl-check-with-a-script/</link>
-			<pubDate>Thu, 20 Aug 2020 14:13:40 +0200</pubDate>
-			
-			<guid>https://fundor333.com/post/2020/ssl-check-with-a-script/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg"/>]]>As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&amp;rsquo;t have money I use Let&amp;rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
-Every sistem I have use CertBot, the bot for Let&amp;rsquo;s Encrypt, who renew the certificate when needed with a cronjob.</description>
 		</item>
 		
 	</channel>
