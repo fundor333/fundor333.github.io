@@ -26,8 +26,7 @@
 			<pubDate>Thu, 20 Aug 2020 14:13:40 +0200</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/ssl-check-with-a-script/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg"/>]]>As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don&amp;rsquo;t have money I use Let&amp;rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.
-Every sistem I have use CertBot, the bot for Let&amp;rsquo;s Encrypt, who renew the certificate when needed with a cronjob.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg"/>]]>You need to check a lot of SSL certificate, some domain and others things</description>
 		</item>
 		
 		<item>
@@ -36,10 +35,7 @@ Every sistem I have use CertBot, the bot for Let&amp;rsquo;s Encrypt, who renew 
 			<pubDate>Sat, 15 Aug 2020 15:15:00 +0200</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/gitmessage-advance-config/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/gitmessage-advance-config/gitmessage-advance-config.jpg"/>]]>Sometime you will need to have a template for the commit message.
-Allways put something (ticket code, bug code, etc&amp;hellip;), order of stuff, some command for the CI system, etc&amp;hellip;
-In Git you can set a a file as the template for the git commit. You can do it for a single project or for your user. In this case I will show the command for all your project.
-First you need to write the file.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/gitmessage-advance-config/gitmessage-advance-config.jpg"/>]]>Sometime you need to configure your git or have a template for the commit for your work</description>
 		</item>
 		
 		<item>
@@ -48,13 +44,7 @@ First you need to write the file.</description>
 			<pubDate>Sat, 01 Aug 2020 15:15:00 +0200</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/good-developer-must-be-blogger/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/good-developer-must-be-blogger/good-developer-must-be-blogger.jpg"/>]]>I find the way to become a good programmer:
- Write a Blog about what are you doing
- I see more and more good programmers have good blog and good blog about programming have good author.
-After studing somee good blog and some bad blog I came with this list
- You need to write a blog about what you know.
-You must keep it updated.
-You need to research for it.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/good-developer-must-be-blogger/good-developer-must-be-blogger.jpg"/>]]>For be a good programmer you need to be a blogger and write regulary</description>
 		</item>
 		
 		<item>
@@ -63,8 +53,7 @@ You need to research for it.</description>
 			<pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/building-my-backend/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg"/>]]>More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
-One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsquo;t add more in the free subscription. So I start thinking some alternative.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg"/>]]>Why someone need a server and how I build mine</description>
 		</item>
 		
 		<item>
@@ -73,8 +62,7 @@ One day, adding a new feed to my Feedly account, I discovered that I can&amp;rsq
 			<pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static.jpg"/>]]>You don&amp;rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don&amp;rsquo;t need them. In the 90% of the situations you don&amp;rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.
-Some hystory To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static.jpg"/>]]>Why you need to move to static site generator and where they come from</description>
 		</item>
 		
 		<item>
@@ -83,9 +71,7 @@ Some hystory To understand why in 2020 you need to have a static site and not a 
 			<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/excel-django-combo/excel-django.jpg"/>]]>Sometime you need to import &amp;ldquo;old data&amp;rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
-I use the pyexcel and pyexcel-xls module for this work.
-PyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/excel-django-combo/excel-django.jpg"/>]]>Import excel to django with easy and usefull form</description>
 		</item>
 		
 		<item>
@@ -94,8 +80,7 @@ PyExcel is a module where you can import multiple type of file (in our case xls 
 			<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg"/>]]>If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.
-And many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/dotfiles-bot-yaml/dotfiles-bot-yaml.jpg"/>]]>Using the same dotfiles on multiple computer in the easy way</description>
 		</item>
 		
 		<item>
@@ -104,10 +89,7 @@ And many time it was a booring job to setup all your stuff before starting with 
 			<pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/sock-and-socket/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/sock-and-socket/socket-adn-other-socket.jpg"/>]]>Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.
-It make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:
- Hello
-we need to connect to [last thing buy for the boss] system for [stuff i don&amp;rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/sock-and-socket/socket-adn-other-socket.jpg"/>]]>A little thing about socket in python</description>
 		</item>
 		
 		<item>
@@ -116,10 +98,7 @@ we need to connect to [last thing buy for the boss] system for [stuff i don&amp;
 			<pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2020/make-tea-not-big-data/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/make-tea-not-big-data/tea-bigdata.jpg"/>]]>The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.
-Industrial Unamed Tea - Excel file  We don&amp;rsquo;t need to make analisys
-Boss
- THE big data for the NEWEST company. You can only use .xls, .xlsx e .</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/make-tea-not-big-data/tea-bigdata.jpg"/>]]>A rant about workspace and data managment with tea</description>
 		</item>
 		
 	</channel>

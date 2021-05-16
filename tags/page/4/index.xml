@@ -26,9 +26,7 @@
 			<pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2018/e-talk-al-pycon9/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2018/e-talk-al-pycon9/talk-pycon9.jpg"/>]]>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
-Facciamo un po&#39; di ordine:
- Ho un blog gestito attraverso un generatore di siti statici Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi Ho una passione per il formato file .</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/e-talk-al-pycon9/talk-pycon9.jpg"/>]]>E vado a parlare al Pycon9 per colpa di questo blog, della mia piccola passione per i generatori di siti statici e di un certo informatico</description>
 		</item>
 		
 		<item>
@@ -37,9 +35,7 @@ Facciamo un po&#39; di ordine:
 			<pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2018/graphql-and-working-with-it/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2018/graphql-and-working-with-it/graphql-working.jpg"/>]]>What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it&amp;rsquo;s the most used tipe of API you find online.
-If I need some data I need to go to the url of the API and go to the subpath of the data I want.
-For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/graphql-and-working-with-it/graphql-working.jpg"/>]]>This is an article about the future of the api: GraphQL. This is the natural evolution from the REST API and it&#39;s the best thing for request only part of the data in the API</description>
 		</item>
 		
 		<item>
@@ -48,8 +44,7 @@ For example if I need some posts from _https://jsonplaceholder.typicode.com/_ I 
 			<pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/dotfile-e-le-mie-config/dotfile-config.jpg"/>]]>Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com&amp;rsquo;era.
-Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e stavo iniziando a scrivere un orrendo accrocchio per la generazione delle configurazioni in modo automatico partendo da un database sqlite, che, per quanto intelligente come idea, non è una cosa di facile gestione ne adatto alla situazione che si è creata.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/dotfile-e-le-mie-config/dotfile-config.jpg"/>]]>DotFile e la mia configurazione di tutto</description>
 		</item>
 		
 		<item>
@@ -58,9 +53,7 @@ Quindi ho imparato a &amp;ldquo;backappare&amp;rdquo; i file di configurazione e
 			<pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/astemio-al-terzo-databeers/astemio-databeers.jpg"/>]]>Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il DataBeers di Venezia.
-Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. Ci sono stati tre interventi di altrettante persone diverse:
- Data Driven Design Leonidas Paterakis del FabLab di Venezia presenta il sistema del Data Driven Design.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/astemio-al-terzo-databeers/astemio-databeers.jpg"/>]]>La mia terza esperienza al DataBeers di Venezia, mio quarto Databeers</description>
 		</item>
 		
 		<item>
@@ -69,8 +62,7 @@ Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista,
 			<pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/alternativi-firebase.jpg"/>]]>Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all&amp;rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell&amp;rsquo;utente.
-Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l&amp;rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/alternativi-firebase.jpg"/>]]>Utilizzare le funzionalità di Firebase in modo non &#39;standard&#39;</description>
 		</item>
 		
 		<item>
@@ -79,8 +71,7 @@ Questo obbliga ad avere file di log nella macchina che sta eseguendo il task asi
 			<pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/pipenv-tutto.jpg"/>]]>Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L&amp;rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.
-Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/pipenv-tutto.jpg"/>]]>Assistiamo al matrimonio di Pipfile, Pip e PipEnv</description>
 		</item>
 		
 		<item>
@@ -89,8 +80,7 @@ Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi o
 			<pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2017/google-io-2017/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/google-io-2017/testa-vr.jpg"/>]]>Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.
-Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/google-io-2017/testa-vr.jpg"/>]]>Sono nell&#39;evento del GDG di Venezia a vedermi il Google IO 2017 in compagnia di altri informatici e interessati.</description>
 		</item>
 		
 		<item>
@@ -99,7 +89,7 @@ Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGf
 			<pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
 			
 			<guid>https://fundor333.com/post/2017/hugo-into-docker/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/hugo-into-docker/hugo-docker.jpg"/>]]>&lt;p&gt;This blog is publish with a docker image with GitLab. But I don&amp;rsquo;t like the image I was using because wasn&amp;rsquo;t update and it&amp;rsquo;s big and havy. So I fork the project for create an update version for my personal blog.&lt;/p&gt;</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/hugo-into-docker/hugo-docker.jpg"/>]]>This blog is publish with a docker image with GitLab. But I don&#39;t like the image I was using because wasn&#39;t update and it&#39;s big and havy. So I fork the project for create an update version for my personal blog.</description>
 		</item>
 		
 		<item>
@@ -108,8 +98,7 @@ Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGf
 			<pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
 			
 			<guid>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/il-primo-periodo-con-emacs/primo-periodo-emacs.jpg"/>]]>Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino usarlo come editor unico. La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.
-Da questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento &amp;ldquo;bloccato e non danneggiabile&amp;rdquo;.</description>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/il-primo-periodo-con-emacs/primo-periodo-emacs.jpg"/>]]>Diario del mio primo periodo di utilizzo di Emacs</description>
 		</item>
 		
 	</channel>
