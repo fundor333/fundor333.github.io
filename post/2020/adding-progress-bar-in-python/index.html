@@ -68,7 +68,7 @@
     <meta content="Sometime you need to add a Progress Bar to your script and this is how" property="og:description">
     <meta property="og:url" content="https://fundor333.com/post/2020/adding-progress-bar-in-python/" />
     <meta property="og:site_name" content="Fundor333" />
-    <meta property="article:published_time" content="2020-11-30 13:24:20 &#43;0100 &#43;0100" />
+    <meta property="article:published_time" content="2020-11-30 13:24:20 &#43;0100 CET" />
 
     
     
@@ -80,7 +80,7 @@
             "headline": "Adding Progress Bar in Python",
             "genre": "dev",
             "url": "https:\/\/fundor333.com\/post\/2020\/adding-progress-bar-in-python\/",
-            "datePublished": "2020-11-30 13:24:20 \u002b0100 \u002b0100",
+            "datePublished": "2020-11-30 13:24:20 \u002b0100 CET",
             "description": "Sometime you need to add a Progress Bar to your script and this is how",
             "author": {
                 "@type": "Person",
@@ -243,26 +243,26 @@
 <p>This package is base of one object, the <strong>Bar</strong>, and you set it, you use it for update the progressbass or end it.</p>
 <a class="h2-anchor" href="#for-example"><h2 id="for-example">For example</h2></a>
 <p>You have this <em>base</em> code:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">from</span> time <span style="color:#ff79c6">import</span> sleep
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
 
-<span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">100</span>):
-	sleep(<span style="color:#bd93f9">1</span>)
-	<span style="color:#ff79c6">print</span>(i)
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">100</span>):
+	sleep(<span style="color:#ae81ff">1</span>)
+	<span style="color:#66d9ef">print</span>(i)
 </code></pre></td></tr></table>
 </div>
 </div><p>This code print the first 100 number one for row. If I want to use a progress&rsquo;s progress bar I need to to something like this:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -273,15 +273,15 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">from</span> time <span style="color:#ff79c6">import</span> sleep
-<span style="color:#ff79c6">from</span> progress.bar <span style="color:#ff79c6">import</span> Bar
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+<span style="color:#f92672">from</span> progress.bar <span style="color:#f92672">import</span> Bar
 
-bar <span style="color:#ff79c6">=</span> Bar(<span style="color:#f1fa8c">&#39;Processing&#39;</span>, <span style="color:#8be9fd;font-style:italic">max</span><span style="color:#ff79c6">=</span><span style="color:#bd93f9">20</span>)
-<span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> <span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">100</span>):
-	sleep(<span style="color:#bd93f9">1</span>)
-	<span style="color:#ff79c6">print</span>(i)
-	bar<span style="color:#ff79c6">.</span>next()
-bar<span style="color:#ff79c6">.</span>finish()
+bar <span style="color:#f92672">=</span> Bar(<span style="color:#e6db74">&#39;Processing&#39;</span>, max<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>)
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">100</span>):
+	sleep(<span style="color:#ae81ff">1</span>)
+	<span style="color:#66d9ef">print</span>(i)
+	bar<span style="color:#f92672">.</span>next()
+bar<span style="color:#f92672">.</span>finish()
 </code></pre></td></tr></table>
 </div>
 </div><p>This is a base version of the code for a <em>bar</em> but you can add a lot of configs like suffix, max value, remaing and other things.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
@@ -289,9 +289,9 @@ bar<span style="color:#ff79c6">.</span>finish()
 <p>This is a package wich use iterators for working. You can also create custo widgets (or bars) for creating your custom expirences.</p>
 <a class="h2-anchor" href="#example"><h2 id="example">Example</h2></a>
 <p>Using the example code</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -299,19 +299,19 @@ bar<span style="color:#ff79c6">.</span>finish()
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">from</span> time <span style="color:#ff79c6">import</span> sleep
-<span style="color:#ff79c6">import</span> progressbar
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+<span style="color:#f92672">import</span> progressbar
 
-<span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> progressbar<span style="color:#ff79c6">.</span>progressbar(<span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">100</span>)):
-	sleep(<span style="color:#bd93f9">1</span>)
-	<span style="color:#ff79c6">print</span>(i)
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> progressbar<span style="color:#f92672">.</span>progressbar(range(<span style="color:#ae81ff">100</span>)):
+	sleep(<span style="color:#ae81ff">1</span>)
+	<span style="color:#66d9ef">print</span>(i)
 </code></pre></td></tr></table>
 </div>
 </div><p>you can have a progress bar using an iterator.
 If you need to edit the navbar you can make a custom widgets like the next example</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -325,18 +325,18 @@ If you need to edit the navbar you can make a custom widgets like the next examp
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">from</span> time <span style="color:#ff79c6">import</span> sleep
-<span style="color:#ff79c6">import</span> progressbar
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+<span style="color:#f92672">import</span> progressbar
 
-widgets<span style="color:#ff79c6">=</span>[
-    <span style="color:#f1fa8c">&#39; [&#39;</span>, progressbar<span style="color:#ff79c6">.</span>Timer(), <span style="color:#f1fa8c">&#39;] &#39;</span>,
-    progressbar<span style="color:#ff79c6">.</span>Bar(),
-    <span style="color:#f1fa8c">&#39; (&#39;</span>, progressbar<span style="color:#ff79c6">.</span>ETA(), <span style="color:#f1fa8c">&#39;) &#39;</span>,
+widgets<span style="color:#f92672">=</span>[
+    <span style="color:#e6db74">&#39; [&#39;</span>, progressbar<span style="color:#f92672">.</span>Timer(), <span style="color:#e6db74">&#39;] &#39;</span>,
+    progressbar<span style="color:#f92672">.</span>Bar(),
+    <span style="color:#e6db74">&#39; (&#39;</span>, progressbar<span style="color:#f92672">.</span>ETA(), <span style="color:#e6db74">&#39;) &#39;</span>,
 ]
 
-<span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> progressbar<span style="color:#ff79c6">.</span>progressbar(<span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">100</span>), widgets<span style="color:#ff79c6">=</span>widgets):
-	sleep(<span style="color:#bd93f9">1</span>)
-	<span style="color:#ff79c6">print</span>(i)
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> progressbar<span style="color:#f92672">.</span>progressbar(range(<span style="color:#ae81ff">100</span>), widgets<span style="color:#f92672">=</span>widgets):
+	sleep(<span style="color:#ae81ff">1</span>)
+	<span style="color:#66d9ef">print</span>(i)
 </code></pre></td></tr></table>
 </div>
 </div><p>This is a custom output for the progress bar following the docs find in the project documentation<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
@@ -346,9 +346,9 @@ widgets<span style="color:#ff79c6">=</span>[
 <p>Not huge for the customizing part but a good one. It also skip unnecessary iteration displays.</p>
 <a class="h2-anchor" href="#example-1"><h2 id="example-1">Example</h2></a>
 <p>Allwayse with our lovely code:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -356,12 +356,12 @@ widgets<span style="color:#ff79c6">=</span>[
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">from</span> time <span style="color:#ff79c6">import</span> sleep
-<span style="color:#ff79c6">from</span> tqdm <span style="color:#ff79c6">import</span> tqdm
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+<span style="color:#f92672">from</span> tqdm <span style="color:#f92672">import</span> tqdm
 
-<span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> tqdm(<span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">100</span>)):
-	sleep(<span style="color:#bd93f9">1</span>)
-	<span style="color:#ff79c6">print</span>(i)
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> tqdm(range(<span style="color:#ae81ff">100</span>)):
+	sleep(<span style="color:#ae81ff">1</span>)
+	<span style="color:#66d9ef">print</span>(i)
 </code></pre></td></tr></table>
 </div>
 </div><p>Here<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> for the docs.</p>
@@ -371,9 +371,9 @@ widgets<span style="color:#ff79c6">=</span>[
 <p>If you need a fancy progress bar this is the best one.</p>
 <a class="h2-anchor" href="#example-2"><h2 id="example-2">Example</h2></a>
 <p>With our favorite example this is an example</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -384,14 +384,14 @@ widgets<span style="color:#ff79c6">=</span>[
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">from</span> time <span style="color:#ff79c6">import</span> sleep
-<span style="color:#ff79c6">from</span> alive_progress <span style="color:#ff79c6">import</span> alive_bar
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> sleep
+<span style="color:#f92672">from</span> alive_progress <span style="color:#f92672">import</span> alive_bar
 
-items <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">range</span>(<span style="color:#bd93f9">100</span>)              
-<span style="color:#ff79c6">with</span> alive_bar(<span style="color:#8be9fd;font-style:italic">len</span>(items)) <span style="color:#ff79c6">as</span> bar:  
-	<span style="color:#ff79c6">for</span> i <span style="color:#ff79c6">in</span> items:
-		sleep(<span style="color:#bd93f9">1</span>)
-		<span style="color:#ff79c6">print</span>(i) 
+items <span style="color:#f92672">=</span> range(<span style="color:#ae81ff">100</span>)              
+<span style="color:#66d9ef">with</span> alive_bar(len(items)) <span style="color:#66d9ef">as</span> bar:  
+	<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> items:
+		sleep(<span style="color:#ae81ff">1</span>)
+		<span style="color:#66d9ef">print</span>(i) 
 		bar()                
 </code></pre></td></tr></table>
 </div>

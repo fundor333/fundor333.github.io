@@ -68,7 +68,7 @@
     <meta content="One dev manage 40 sites&#39; domains, SSL and check all of them with a package" property="og:description">
     <meta property="og:url" content="https://fundor333.com/post/2020/manage-site-and-certificate/" />
     <meta property="og:site_name" content="Fundor333" />
-    <meta property="article:published_time" content="2020-10-01 22:12:20 &#43;0200 &#43;0200" />
+    <meta property="article:published_time" content="2020-10-01 22:12:20 &#43;0200 CEST" />
 
     
     
@@ -80,7 +80,7 @@
             "headline": "Manage Site and Certificate",
             "genre": "dev",
             "url": "https:\/\/fundor333.com\/post\/2020\/manage-site-and-certificate\/",
-            "datePublished": "2020-10-01 22:12:20 \u002b0200 \u002b0200",
+            "datePublished": "2020-10-01 22:12:20 \u002b0200 CEST",
             "description": "One dev manage 40 sites\u0027 domains, SSL and check all of them with a package",
             "author": {
                 "@type": "Person",
@@ -249,22 +249,22 @@
 <a class="h2-anchor" href="#how-to-work"><h2 id="how-to-work">How to work?</h2></a>
 <p>It is a terminal app, so work all into your console. All the configs and the data are into two <em>dotfiles</em>, one called <em>.servergrimoire_config</em> and <em>.servergrimoire_data</em> (config and data respectively) and can be backup like all <a href="/tags/dotfiles/">dotfiles</a>.</p>
 <p>So for start I need to register some urls like google and amazon for example</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> servergrimoire add --u google.com --u amamzon.it
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> servergrimoire add --u google.com --u amamzon.it
 </code></pre></td></tr></table>
 </div>
 </div><p>Now you only register the url, nothing is check for now.</p>
 <p>For run all job or only one you need to use the <em>run</em> directive with the <em>&ndash;c</em> flag for adding command.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> servergrimoire run
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> servergrimoire run
 </code></pre></td></tr></table>
 </div>
 </div><p>After this you don&rsquo;t have any return beause this command is for cronjob or similar. If you launch a run and you want to see what appen you need to add <em>&ndash;stats</em> for gettin an output.</p>

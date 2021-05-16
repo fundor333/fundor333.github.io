@@ -68,7 +68,7 @@
     <meta content="How to check if your GitLab is update automaticaly" property="og:description">
     <meta property="og:url" content="https://fundor333.com/post/2020/keep_update_gitlab/" />
     <meta property="og:site_name" content="Fundor333" />
-    <meta property="article:published_time" content="2020-11-16 20:30:00 &#43;0100 &#43;0100" />
+    <meta property="article:published_time" content="2020-11-16 20:30:00 &#43;0100 CET" />
 
     
     
@@ -80,7 +80,7 @@
             "headline": "Keep update Gitlab",
             "genre": "dev",
             "url": "https:\/\/fundor333.com\/post\/2020\/keep_update_gitlab\/",
-            "datePublished": "2020-11-16 20:30:00 \u002b0100 \u002b0100",
+            "datePublished": "2020-11-16 20:30:00 \u002b0100 CET",
             "description": "How to check if your GitLab is update automaticaly",
             "author": {
                 "@type": "Person",
@@ -251,42 +251,42 @@ A rapid ispection of the page show that the label is a responde of a <em>get</em
 <p>In particolar we need the GitLab version installed. So we need it too. And for them we need the token from the self hosted installation<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
 <a class="h3-anchor" href="#get-the-version-of-gitlab"><h3 id="get-the-version-of-gitlab">Get the version of GitLab</h3></a>
 <p>For this project we only need python and <a href="https://pypi.org/project/requests/"><em>requests</em></a></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">get_gitlab_version</span>():
-	url <span style="color:#ff79c6">=</span> BASE_GITLAB_URL <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34;/api/v4/version&#34;</span>
-    headers <span style="color:#ff79c6">=</span> {<span style="color:#f1fa8c">&#34;Private-Token&#34;</span>: GITLAB_PERSONAL_TOKEN}
-    req <span style="color:#ff79c6">=</span> requests<span style="color:#ff79c6">.</span>get(url, headers<span style="color:#ff79c6">=</span>headers)
-    <span style="color:#ff79c6">return</span> req<span style="color:#ff79c6">.</span>json()
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_gitlab_version</span>():
+	url <span style="color:#f92672">=</span> BASE_GITLAB_URL <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;/api/v4/version&#34;</span>
+    headers <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;Private-Token&#34;</span>: GITLAB_PERSONAL_TOKEN}
+    req <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url, headers<span style="color:#f92672">=</span>headers)
+    <span style="color:#66d9ef">return</span> req<span style="color:#f92672">.</span>json()
 </code></pre></td></tr></table>
 </div>
 </div><p>and this return a json like this as python dict</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
-  <span style="color:#ff79c6">&#34;version&#34;</span>: <span style="color:#f1fa8c">&#34;8.13.0-pre&#34;</span>,
-  <span style="color:#ff79c6">&#34;revision&#34;</span>: <span style="color:#f1fa8c">&#34;4e963fe&#34;</span>
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+  <span style="color:#f92672">&#34;version&#34;</span>: <span style="color:#e6db74">&#34;8.13.0-pre&#34;</span>,
+  <span style="color:#f92672">&#34;revision&#34;</span>: <span style="color:#e6db74">&#34;4e963fe&#34;</span>
 }
 </code></pre></td></tr></table>
 </div>
 </div><p>From this json we know the <em>version</em> of GitLab for the next step.</p>
 <a class="h3-anchor" href="#get-the-label-of-the-help-gitlab-page"><h3 id="get-the-label-of-the-help-gitlab-page">Get the label of the Help GitLab page</h3></a>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -296,26 +296,26 @@ A rapid ispection of the page show that the label is a responde of a <em>get</em
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">last_version_gitlab</span>():
-	response <span style="color:#ff79c6">=</span> get_gitlab_version()
-    url <span style="color:#ff79c6">=</span> BASE_GITLAB_URL
-    ver <span style="color:#ff79c6">=</span> response[<span style="color:#f1fa8c">&#34;version&#34;</span>]
-    gfg <span style="color:#ff79c6">=</span> urlsafe_b64encode(<span style="color:#8be9fd;font-style:italic">str</span><span style="color:#ff79c6">.</span>encode(<span style="color:#f1fa8c">&#39;{&#34;version&#34;:&#34;&#39;</span> <span style="color:#ff79c6">+</span> <span style="color:#8be9fd;font-style:italic">str</span>(ver) <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#39;&#34;}&#39;</span>))
-    logger<span style="color:#ff79c6">.</span>debug(gfg)
-    r <span style="color:#ff79c6">=</span> requests<span style="color:#ff79c6">.</span>get(url<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;https://version.gitlab.com/check.svg&#34;</span>, params<span style="color:#ff79c6">=</span>{<span style="color:#f1fa8c">&#39;gitlab_info&#39;</span>: gfg}, headers<span style="color:#ff79c6">=</span>{<span style="color:#f1fa8c">&#39;Referer&#39;</span>: url})
-	<span style="color:#ff79c6">return</span> r<span style="color:#ff79c6">.</span>text
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">last_version_gitlab</span>():
+	response <span style="color:#f92672">=</span> get_gitlab_version()
+    url <span style="color:#f92672">=</span> BASE_GITLAB_URL
+    ver <span style="color:#f92672">=</span> response[<span style="color:#e6db74">&#34;version&#34;</span>]
+    gfg <span style="color:#f92672">=</span> urlsafe_b64encode(str<span style="color:#f92672">.</span>encode(<span style="color:#e6db74">&#39;{&#34;version&#34;:&#34;&#39;</span> <span style="color:#f92672">+</span> str(ver) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#39;&#34;}&#39;</span>))
+    logger<span style="color:#f92672">.</span>debug(gfg)
+    r <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://version.gitlab.com/check.svg&#34;</span>, params<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#39;gitlab_info&#39;</span>: gfg}, headers<span style="color:#f92672">=</span>{<span style="color:#e6db74">&#39;Referer&#39;</span>: url})
+	<span style="color:#66d9ef">return</span> r<span style="color:#f92672">.</span>text
 </code></pre></td></tr></table>
 </div>
 </div><p>In this way you return a string with the label as xml img.
 So if you want a feedback when is to update it you can do this.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">gitlab_check</span>():
-	<span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;up-to-date&#34;</span> <span style="color:#ff79c6">in</span> last_version_gitlab()
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">gitlab_check</span>():
+	<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;up-to-date&#34;</span> <span style="color:#f92672">in</span> last_version_gitlab()
 </code></pre></td></tr></table>
 </div>
 </div><p>In this way you return <em>False</em> if you need to update, <em>True</em> elsewhere.</p>
