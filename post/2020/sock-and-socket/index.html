@@ -68,7 +68,7 @@
     <meta content="A little thing about socket in python" property="og:description">
     <meta property="og:url" content="https://fundor333.com/post/2020/sock-and-socket/" />
     <meta property="og:site_name" content="Fundor333" />
-    <meta property="article:published_time" content="2020-04-15 00:00:00 &#43;0000 &#43;0000" />
+    <meta property="article:published_time" content="2020-04-15 00:00:00 &#43;0000 UTC" />
 
     
     
@@ -80,7 +80,7 @@
             "headline": "Sock and socket",
             "genre": "dev",
             "url": "https:\/\/fundor333.com\/post\/2020\/sock-and-socket\/",
-            "datePublished": "2020-04-15 00:00:00 \u002b0000 \u002b0000",
+            "datePublished": "2020-04-15 00:00:00 \u002b0000 UTC",
             "description": "A little thing about socket in python",
             "author": {
                 "@type": "Person",
@@ -245,35 +245,35 @@
 <a class="h2-anchor" href="#so-how-to-make-a-socket"><h2 id="so-how-to-make-a-socket">So how to make a socket?</h2></a>
 <p>In python all you need is in the core of the language. If you want to start you only need to import <strong>socket</strong> and start coding.</p>
 <p>After this we add some parameter like the <strong>host</strong>, the <strong>port</strong> and the <strong>size</strong> of the socket.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> socket
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">import</span> socket
 
-HOST <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.0.0.0&#34;</span>
-PORT <span style="color:#f92672">=</span> <span style="color:#ae81ff">9000</span>
-SIZE <span style="color:#f92672">=</span><span style="color:#ae81ff">8192</span></code></pre></td></tr></table>
+HOST <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;0.0.0.0&#34;</span>
+PORT <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">9000</span>
+SIZE <span style="color:#ff79c6">=</span><span style="color:#bd93f9">8192</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Now we need a socket object. Usualy i make it into custom object or function like this</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">server_program</span>():
-	server_socket <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket()
-	server_socket<span style="color:#f92672">.</span>bind((HOST, PORT))
-	server_socket<span style="color:#f92672">.</span>listen(<span style="color:#ae81ff">20</span>)</code></pre></td></tr></table>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">server_program</span>():
+	server_socket <span style="color:#ff79c6">=</span> socket<span style="color:#ff79c6">.</span>socket()
+	server_socket<span style="color:#ff79c6">.</span>bind((HOST, PORT))
+	server_socket<span style="color:#ff79c6">.</span>listen(<span style="color:#bd93f9">20</span>)</code></pre></td></tr></table>
 </div>
 </div>
 <p>Where we</p>
@@ -283,18 +283,18 @@ SIZE <span style="color:#f92672">=</span><span style="color:#ae81ff">8192</span>
 <li>Set the max connection with <strong>.listen(20)</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
 </ul>
 <p>After this you need to accept new incomming request. I also set a timeout because I don&rsquo;t want a connection unused on my socket.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">	<span style="color:#66d9ef">while</span> True:
-		conn, address <span style="color:#f92672">=</span> server_socket<span style="color:#f92672">.</span>accept()
-		conn<span style="color:#f92672">.</span>settimeout(<span style="color:#ae81ff">60</span>)
-		data_raw <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>recv(SIZE)</code></pre></td></tr></table>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">	<span style="color:#ff79c6">while</span> True:
+		conn, address <span style="color:#ff79c6">=</span> server_socket<span style="color:#ff79c6">.</span>accept()
+		conn<span style="color:#ff79c6">.</span>settimeout(<span style="color:#bd93f9">60</span>)
+		data_raw <span style="color:#ff79c6">=</span> conn<span style="color:#ff79c6">.</span>recv(SIZE)</code></pre></td></tr></table>
 </div>
 </div>
 <p>We put into <strong>data_raw</strong> the data from the connection (here we use size)<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and we have 2 more interesting object:</p>
@@ -303,43 +303,43 @@ SIZE <span style="color:#f92672">=</span><span style="color:#ae81ff">8192</span>
 <li><strong>address</strong> the <em>ip</em> for <em>this</em> connection</li>
 </ul>
 <p>Now we have the data and we need to do something with this</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">		<span style="color:#75715e"># Sometimes you need this</span>
-		<span style="color:#75715e"># data = data_raw.decode()</span>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">		<span style="color:#6272a4"># Sometimes you need this</span>
+		<span style="color:#6272a4"># data = data_raw.decode()</span>
 		do__somethings(adress,data_raw)
-		conn<span style="color:#f92672">.</span>close()</code></pre></td></tr></table>
+		conn<span style="color:#ff79c6">.</span>close()</code></pre></td></tr></table>
 </div>
 </div>
 <p>And after you do what you need to do close the connection.</p>
 <p>This is a complete example of a working socket. If you need to response you can use <em>conn.send()</em> to send the data to the client.</p>
 <p>If you need help or not understand something write me in the comment below or to my social.</p>
 <p>This is the full code for <strong><em>Python3</em></strong><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="display:block;width:100%;background-color:#3d3f4a"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
 </span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span></span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span></span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="display:block;width:100%;background-color:#3d3f4a"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></span><span style="display:block;width:100%;background-color:#3d3f4a"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span></span><span style="display:block;width:100%;background-color:#3d3f4a"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
 </span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
@@ -347,27 +347,27 @@ SIZE <span style="color:#f92672">=</span><span style="color:#ae81ff">8192</span>
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> socket
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">import</span> socket
 
-HOST <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.0.0.0&#34;</span>
-PORT <span style="color:#f92672">=</span> <span style="color:#ae81ff">9000</span>
-SIZE <span style="color:#f92672">=</span><span style="color:#ae81ff">8192</span>
+HOST <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;0.0.0.0&#34;</span>
+PORT <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">9000</span>
+SIZE <span style="color:#ff79c6">=</span><span style="color:#bd93f9">8192</span>
 
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">server_program</span>():
-<span style="display:block;width:100%;background-color:#3c3d38">	server_socket <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket()
-</span>	server_socket<span style="color:#f92672">.</span>bind((HOST, PORT))
-	server_socket<span style="color:#f92672">.</span>listen(<span style="color:#ae81ff">20</span>)
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">server_program</span>():
+<span style="display:block;width:100%;background-color:#3d3f4a">	server_socket <span style="color:#ff79c6">=</span> socket<span style="color:#ff79c6">.</span>socket()
+</span>	server_socket<span style="color:#ff79c6">.</span>bind((HOST, PORT))
+	server_socket<span style="color:#ff79c6">.</span>listen(<span style="color:#bd93f9">20</span>)
 
-	<span style="color:#66d9ef">while</span> True:
-		conn, address <span style="color:#f92672">=</span> server_socket<span style="color:#f92672">.</span>accept()
-		conn<span style="color:#f92672">.</span>settimeout(<span style="color:#ae81ff">60</span>)
-<span style="display:block;width:100%;background-color:#3c3d38">		data_raw <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>recv(SIZE)
-</span><span style="display:block;width:100%;background-color:#3c3d38">		<span style="color:#75715e"># Sometimes you need this</span>
-</span><span style="display:block;width:100%;background-color:#3c3d38">		<span style="color:#75715e"># data = data_raw.decode()</span>
+	<span style="color:#ff79c6">while</span> True:
+		conn, address <span style="color:#ff79c6">=</span> server_socket<span style="color:#ff79c6">.</span>accept()
+		conn<span style="color:#ff79c6">.</span>settimeout(<span style="color:#bd93f9">60</span>)
+<span style="display:block;width:100%;background-color:#3d3f4a">		data_raw <span style="color:#ff79c6">=</span> conn<span style="color:#ff79c6">.</span>recv(SIZE)
+</span><span style="display:block;width:100%;background-color:#3d3f4a">		<span style="color:#6272a4"># Sometimes you need this</span>
+</span><span style="display:block;width:100%;background-color:#3d3f4a">		<span style="color:#6272a4"># data = data_raw.decode()</span>
 </span>		do__somethings(adress,data_raw)
-		conn<span style="color:#f92672">.</span>close()
+		conn<span style="color:#ff79c6">.</span>close()
 
-<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
+<span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#34;__main__&#34;</span>:
     server_program()</code></pre></td></tr></table>
 </div>
 </div>

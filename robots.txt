@@ -1,9 +1,9 @@
 User-agent: *
 
 
-Allow: /tags/coding/
-
 Allow: /
+
+Allow: /tags/coding/
 
 Allow: /post/2021/letterhead-with-reportlab/
 

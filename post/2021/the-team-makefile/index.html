@@ -68,7 +68,7 @@
     <meta content="You need to make a makefile if you are working on a team project" property="og:description">
     <meta property="og:url" content="https://fundor333.com/post/2021/the-team-makefile/" />
     <meta property="og:site_name" content="Fundor333" />
-    <meta property="article:published_time" content="2021-01-15 12:27:21 &#43;0100 CET" />
+    <meta property="article:published_time" content="2021-01-15 12:27:21 &#43;0100 &#43;0100" />
 
     
     
@@ -80,7 +80,7 @@
             "headline": "The Team Makefile",
             "genre": "dev",
             "url": "https:\/\/fundor333.com\/post\/2021\/the-team-makefile\/",
-            "datePublished": "2021-01-15 12:27:21 \u002b0100 CET",
+            "datePublished": "2021-01-15 12:27:21 \u002b0100 \u002b0100",
             "description": "You need to make a makefile if you are working on a team project",
             "author": {
                 "@type": "Person",
@@ -255,28 +255,28 @@ Other times you can have a team of developer and the build/test/stuff-making wil
 Sometime you will make one or more script for your task and you need to remember all of the function and launch command. So I write a makefile for all my project, personal and job related.</p>
 <a class="h3-anchor" href="#base-of-makefile"><h3 id="base-of-makefile">Base of makefile</h3></a>
 <p>For write a good makefile you only need to write some statement like this</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">RULE</span><span style="color:#f92672">:</span> DEPENDENCY LINE <span style="color:#75715e">## COMMENTS
-</span><span style="color:#75715e"></span>	<span style="color:#f92672">[</span>tab<span style="color:#f92672">]</span>ACTION LINE<span style="color:#f92672">(</span>S<span style="color:#f92672">)</span>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#50fa7b">RULE</span><span style="color:#ff79c6">:</span> DEPENDENCY LINE <span style="color:#6272a4">## COMMENTS
+</span><span style="color:#6272a4"></span>	<span style="color:#ff79c6">[</span>tab<span style="color:#ff79c6">]</span>ACTION LINE<span style="color:#ff79c6">(</span>S<span style="color:#ff79c6">)</span>
 </code></pre></td></tr></table>
 </div>
 </div>
 <p>You can have multiple &ldquo;rule&rdquo;, one for any task you need, and I suggest one with code and other generic:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> help
-<span style="color:#a6e22e">help</span><span style="color:#f92672">:</span> <span style="color:#75715e">## Show this help
-</span><span style="color:#75715e"></span>	@egrep -h <span style="color:#e6db74">&#39;\s##\s&#39;</span> <span style="color:#66d9ef">$(</span>MAKEFILE_LIST<span style="color:#66d9ef">)</span> | sort | awk <span style="color:#e6db74">&#39;BEGIN {FS = &#34;:.*?## &#34;}; {printf &#34;\033[36m%-20s\033[0m %s\n&#34;, $$1, $$2}&#39;</span>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#50fa7b">.PHONY</span><span style="color:#ff79c6">:</span> help
+<span style="color:#50fa7b">help</span><span style="color:#ff79c6">:</span> <span style="color:#6272a4">## Show this help
+</span><span style="color:#6272a4"></span>	@egrep -h <span style="color:#f1fa8c">&#39;\s##\s&#39;</span> <span style="color:#ff79c6">$(</span>MAKEFILE_LIST<span style="color:#ff79c6">)</span> | sort | awk <span style="color:#f1fa8c">&#39;BEGIN {FS = &#34;:.*?## &#34;}; {printf &#34;\033[36m%-20s\033[0m %s\n&#34;, $$1, $$2}&#39;</span>
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -289,9 +289,9 @@ Sometime you will make one or more script for your task and you need to remember
 <li><strong>test</strong>: launch the test for the project</li>
 </ul>
 <p>This is a example of one of my project. You can see at the <strong>RUN</strong>  <em>rule</em> you can follow the <em>rule</em> with other  <em>rule</em> for run them <strong>before</strong> the  <em>rule</em> in question.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -303,16 +303,16 @@ Sometime you will make one or more script for your task and you need to remember
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> install
-<span style="color:#a6e22e">install</span><span style="color:#f92672">:</span>  <span style="color:#75715e">## Make venv and install requirements
-</span><span style="color:#75715e"></span>	pipenv install --dev
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#50fa7b">.PHONY</span><span style="color:#ff79c6">:</span> install
+<span style="color:#50fa7b">install</span><span style="color:#ff79c6">:</span>  <span style="color:#6272a4">## Make venv and install requirements
+</span><span style="color:#6272a4"></span>	pipenv install --dev
 
-<span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> docs
-<span style="color:#a6e22e">docs</span><span style="color:#f92672">:</span> <span style="color:#75715e">## Build the docs
-</span><span style="color:#75715e"></span>	pipenv run mkdocs build --clean
+<span style="color:#50fa7b">.PHONY</span><span style="color:#ff79c6">:</span> docs
+<span style="color:#50fa7b">docs</span><span style="color:#ff79c6">:</span> <span style="color:#6272a4">## Build the docs
+</span><span style="color:#6272a4"></span>	pipenv run mkdocs build --clean
 
-<span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> run
-<span style="color:#a6e22e">run</span><span style="color:#f92672">:</span> install docs <span style="color:#75715e">## Run all the task for building
+<span style="color:#50fa7b">.PHONY</span><span style="color:#ff79c6">:</span> run
+<span style="color:#50fa7b">run</span><span style="color:#ff79c6">:</span> install docs <span style="color:#6272a4">## Run all the task for building
 </span></code></pre></td></tr></table>
 </div>
 </div>

@@ -68,7 +68,7 @@
     <meta content="Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python" property="og:description">
     <meta property="og:url" content="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/" />
     <meta property="og:site_name" content="Fundor333" />
-    <meta property="article:published_time" content="2017-02-11 00:00:00 &#43;0000 &#43;0000" />
+    <meta property="article:published_time" content="2017-02-11 00:00:00 &#43;0000 UTC" />
 
     
     
@@ -80,7 +80,7 @@
             "headline": "Bot, Telegram e programmazione funzionale",
             "genre": "dev",
             "url": "https:\/\/fundor333.com\/post\/2017\/bot-telegram-e-programmazione-funzionale\/",
-            "datePublished": "2017-02-11 00:00:00 \u002b0000 \u002b0000",
+            "datePublished": "2017-02-11 00:00:00 \u002b0000 UTC",
             "description": "Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python",
             "author": {
                 "@type": "Person",
@@ -239,12 +239,12 @@
 <a class="h2-anchor" href="#linizio-di-tutto"><h2 id="linizio-di-tutto">L&rsquo;inizio di tutto</h2></a>
 <p>Ho trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria <a href="https://python-telegram-bot.org/">python-telegram-bot</a> e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a &ldquo;ascoltatore&rdquo; che la esegue quando riceve il comando.</p>
 <p>Ad esempio se io ho definito prima qi questo frammento di codice una funzione <em>start</em> che mi gestisce il comando omonimo, poi io devo registrarla all&rsquo;updater attraverso il dispatcher come qui sotto.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">updater<span style="color:#f92672">.</span>dispatcher<span style="color:#f92672">.</span>add_handler(CommandHandler(<span style="color:#e6db74">&#39;start&#39;</span>, start))</code></pre></td></tr></table>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">updater<span style="color:#ff79c6">.</span>dispatcher<span style="color:#ff79c6">.</span>add_handler(CommandHandler(<span style="color:#f1fa8c">&#39;start&#39;</span>, start))</code></pre></td></tr></table>
 </div>
 </div>
 <p>Visto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un &ldquo;alias&rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.</p>
@@ -255,87 +255,87 @@
 <li>Qualcosa dentro di me dice di guardare il mio codice di prova di <em>Flask</em></li>
 </ol>
 <p>Apro quindi il mio file <em>prova-stupida-flask.py</em></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="display:block;width:100%;background-color:#3d3f4a"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
 </span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> flask <span style="color:#f92672">import</span> Flask
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">from</span> flask <span style="color:#ff79c6">import</span> Flask
 
-app <span style="color:#f92672">=</span> Flask(__name__)
+app <span style="color:#ff79c6">=</span> Flask(__name__)
 
-<span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74">&#34;/&#34;</span>)
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">hello</span>():
-	<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello World!&#34;</span>
-<span style="display:block;width:100%;background-color:#3c3d38">
-</span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
-	app<span style="color:#f92672">.</span>run()</code></pre></td></tr></table>
+@app.route(<span style="color:#f1fa8c">&#34;/&#34;</span>)
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">hello</span>():
+	<span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;Hello World!&#34;</span>
+<span style="display:block;width:100%;background-color:#3d3f4a">
+</span><span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#34;__main__&#34;</span>:
+	app<span style="color:#ff79c6">.</span>run()</code></pre></td></tr></table>
 </div>
 </div>
 <p>E capisco che <em>@app.route(&quot;&quot;)</em> è un decoratore che collega la funzione <em>hello</em> a un listener che risponde all&rsquo;indirizzo <em>localhost/</em>. Esattamente quello che mi serve.</p>
 <p>Da una sbirciata al sorgente di Flask produco una classe che gestisce il token e contiene il metodo</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">command_handler</span>(self, name):
-	<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decorator</span>(f):
-		self<span style="color:#f92672">.</span>updater<span style="color:#f92672">.</span>dispatcher<span style="color:#f92672">.</span>add_handler(CommandHandler(name, f))
-		<span style="color:#66d9ef">return</span> f
-	<span style="color:#66d9ef">return</span> decorator</code></pre></td></tr></table>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">command_handler</span>(self, name):
+	<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">decorator</span>(f):
+		self<span style="color:#ff79c6">.</span>updater<span style="color:#ff79c6">.</span>dispatcher<span style="color:#ff79c6">.</span>add_handler(CommandHandler(name, f))
+		<span style="color:#ff79c6">return</span> f
+	<span style="color:#ff79c6">return</span> decorator</code></pre></td></tr></table>
 </div>
 </div>
 <p>che mi permette di scrivere una funzione di gestione di un comando con un piccolo decoratore sopra che fa tutto il lavoro</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a6e22e">@mybot.command_handler</span>(<span style="color:#e6db74">&#39;start&#39;</span>)
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">start</span>(bot,update):
-	<span style="color:#f92672">/*</span> codice che genera il resto<span style="color:#f92672">*/</span></code></pre></td></tr></table>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">@mybot.command_handler(<span style="color:#f1fa8c">&#39;start&#39;</span>)
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">start</span>(bot,update):
+	<span style="color:#ff79c6">/*</span> codice che genera il resto<span style="color:#ff79c6">*/</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>E qui felice, continuo a scrivere codice fino ad accorgermi che continuavo a riscrivere la stessa funzione a meno di alcuni &ldquo;parametri&rdquo;.</p>
 <p>Ho quindi scritto un nuovo generatore di funzioni in modo tale</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
-</span><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span><span style="display:block;width:100%;background-color:#3d3f4a"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
 </span></span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">location_generator</span>(bot, name, text, lonlat):
-  <span style="color:#a6e22e">@bot.command_handler</span>(name)
-  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decoreted</span>(bot, update):
-	  logging<span style="color:#f92672">.</span>info(<span style="color:#e6db74">&#34;Give the &#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; info&#34;</span>)
-	  BOTAN<span style="color:#f92672">.</span>track(update<span style="color:#f92672">.</span>message, name)
-	  bot<span style="color:#f92672">.</span>sendMessage(chat_id<span style="color:#f92672">=</span>update<span style="color:#f92672">.</span>message<span style="color:#f92672">.</span>chat_id, text<span style="color:#f92672">=</span>text,parse_mode<span style="color:#f92672">=</span>ParseMode<span style="color:#f92672">.</span>MARKDOWN)
-	  lon, lat <span style="color:#f92672">=</span> lonlat
-<span style="display:block;width:100%;background-color:#3c3d38">	  bot<span style="color:#f92672">.</span>sendLocation(chat_id<span style="color:#f92672">=</span>update<span style="color:#f92672">.</span>message<span style="color:#f92672">.</span>chat_id, latitude<span style="color:#f92672">=</span>lat, longitude<span style="color:#f92672">=</span>lon)
-</span>	<span style="color:#66d9ef">return</span> decoreted</code></pre></td></tr></table>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">location_generator</span>(bot, name, text, lonlat):
+  @bot.command_handler(name)
+  <span style="color:#ff79c6">def</span> <span style="color:#50fa7b">decoreted</span>(bot, update):
+	  logging<span style="color:#ff79c6">.</span>info(<span style="color:#f1fa8c">&#34;Give the &#34;</span> <span style="color:#ff79c6">+</span> name <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; info&#34;</span>)
+	  BOTAN<span style="color:#ff79c6">.</span>track(update<span style="color:#ff79c6">.</span>message, name)
+	  bot<span style="color:#ff79c6">.</span>sendMessage(chat_id<span style="color:#ff79c6">=</span>update<span style="color:#ff79c6">.</span>message<span style="color:#ff79c6">.</span>chat_id, text<span style="color:#ff79c6">=</span>text,parse_mode<span style="color:#ff79c6">=</span>ParseMode<span style="color:#ff79c6">.</span>MARKDOWN)
+	  lon, lat <span style="color:#ff79c6">=</span> lonlat
+<span style="display:block;width:100%;background-color:#3d3f4a">	  bot<span style="color:#ff79c6">.</span>sendLocation(chat_id<span style="color:#ff79c6">=</span>update<span style="color:#ff79c6">.</span>message<span style="color:#ff79c6">.</span>chat_id, latitude<span style="color:#ff79c6">=</span>lat, longitude<span style="color:#ff79c6">=</span>lon)
+</span>	<span style="color:#ff79c6">return</span> decoreted</code></pre></td></tr></table>
 </div>
 </div>
 <p>In questo modo, una volta passati i parametri corretti, questo genererà una funzione per rispondere con un testo seguito da una location al comando assegnato.</p>

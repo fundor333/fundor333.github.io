@@ -68,7 +68,7 @@
     <meta content="You need to check a lot of SSL certificate, some domain and others things" property="og:description">
     <meta property="og:url" content="https://fundor333.com/post/2020/ssl-check-with-a-script/" />
     <meta property="og:site_name" content="Fundor333" />
-    <meta property="article:published_time" content="2020-08-20 14:13:40 &#43;0200 CEST" />
+    <meta property="article:published_time" content="2020-08-20 14:13:40 &#43;0200 &#43;0200" />
 
     
     
@@ -80,7 +80,7 @@
             "headline": "SSL Check With a Script",
             "genre": "dev",
             "url": "https:\/\/fundor333.com\/post\/2020\/ssl-check-with-a-script\/",
-            "datePublished": "2020-08-20 14:13:40 \u002b0200 CEST",
+            "datePublished": "2020-08-20 14:13:40 \u002b0200 \u002b0200",
             "description": "You need to check a lot of SSL certificate, some domain and others things",
             "author": {
                 "@type": "Person",
@@ -242,9 +242,9 @@
 <li>PyOpenssl</li>
 </ul>
 <p>I don&rsquo;t want to use module outside the python core but, in this case, I need a module for the newest type of certificate so&hellip; I write it with a config file with all my site.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -257,53 +257,53 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6272a4">#!/usr/bin/env python3</span>
 
-<span style="color:#f92672">import</span> datetime
-<span style="color:#f92672">import</span> logging
-<span style="color:#f92672">import</span> os
-<span style="color:#f92672">import</span> socket
-<span style="color:#f92672">import</span> ssl
+<span style="color:#ff79c6">import</span> datetime
+<span style="color:#ff79c6">import</span> logging
+<span style="color:#ff79c6">import</span> os
+<span style="color:#ff79c6">import</span> socket
+<span style="color:#ff79c6">import</span> ssl
 
-<span style="color:#f92672">import</span> OpenSSL
+<span style="color:#ff79c6">import</span> OpenSSL
 
-logger <span style="color:#f92672">=</span> logging<span style="color:#f92672">.</span>getLogger(<span style="color:#e6db74">&#34;SSLVerify&#34;</span>)
+logger <span style="color:#ff79c6">=</span> logging<span style="color:#ff79c6">.</span>getLogger(<span style="color:#f1fa8c">&#34;SSLVerify&#34;</span>)
 </code></pre></td></tr></table>
 </div>
 </div><p>Start with the import for working with date, log, make a request for a ssl certificate and open a file. Also set the logger for the script.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ssl_expiry_datetime</span>(hostname: str) <span style="color:#f92672">-&gt;</span> datetime<span style="color:#f92672">.</span>datetime:
-  cert <span style="color:#f92672">=</span> ssl<span style="color:#f92672">.</span>get_server_certificate((hostname, <span style="color:#ae81ff">443</span>))
-  x509 <span style="color:#f92672">=</span> OpenSSL<span style="color:#f92672">.</span>crypto<span style="color:#f92672">.</span>load_certificate(OpenSSL<span style="color:#f92672">.</span>crypto<span style="color:#f92672">.</span>FILETYPE_PEM, cert)
-  <span style="color:#66d9ef">return</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>strptime(x509<span style="color:#f92672">.</span>get_notAfter()<span style="color:#f92672">.</span>decode(<span style="color:#e6db74">&#39;ascii&#39;</span>), <span style="color:#e6db74">&#39;%Y%m</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">%H%M%SZ&#39;</span>)
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">ssl_expiry_datetime</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> datetime<span style="color:#ff79c6">.</span>datetime:
+  cert <span style="color:#ff79c6">=</span> ssl<span style="color:#ff79c6">.</span>get_server_certificate((hostname, <span style="color:#bd93f9">443</span>))
+  x509 <span style="color:#ff79c6">=</span> OpenSSL<span style="color:#ff79c6">.</span>crypto<span style="color:#ff79c6">.</span>load_certificate(OpenSSL<span style="color:#ff79c6">.</span>crypto<span style="color:#ff79c6">.</span>FILETYPE_PEM, cert)
+  <span style="color:#ff79c6">return</span> datetime<span style="color:#ff79c6">.</span>datetime<span style="color:#ff79c6">.</span>strptime(x509<span style="color:#ff79c6">.</span>get_notAfter()<span style="color:#ff79c6">.</span>decode(<span style="color:#f1fa8c">&#39;ascii&#39;</span>), <span style="color:#f1fa8c">&#39;%Y%m</span><span style="color:#f1fa8c">%d</span><span style="color:#f1fa8c">%H%M%SZ&#39;</span>)
 </code></pre></td></tr></table>
 </div>
 </div><p>This function get a url, get the certificate of the domain and return a datetime python object listing the last minute the certificate validity. After this the site is not <em>https</em></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ssl_valid_time_remaining</span>(hostname: str) <span style="color:#f92672">-&gt;</span> datetime<span style="color:#f92672">.</span>timedelta:
-  expires <span style="color:#f92672">=</span> ssl_expiry_datetime(hostname)
-  logger<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">&#34;SSL cert for {} expires at {}&#34;</span><span style="color:#f92672">.</span>format(hostname, expires<span style="color:#f92672">.</span>isoformat()))
-  <span style="color:#66d9ef">return</span> expires <span style="color:#f92672">-</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>utcnow()
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">ssl_valid_time_remaining</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> datetime<span style="color:#ff79c6">.</span>timedelta:
+  expires <span style="color:#ff79c6">=</span> ssl_expiry_datetime(hostname)
+  logger<span style="color:#ff79c6">.</span>debug(<span style="color:#f1fa8c">&#34;SSL cert for {} expires at {}&#34;</span><span style="color:#ff79c6">.</span>format(hostname, expires<span style="color:#ff79c6">.</span>isoformat()))
+  <span style="color:#ff79c6">return</span> expires <span style="color:#ff79c6">-</span> datetime<span style="color:#ff79c6">.</span>datetime<span style="color:#ff79c6">.</span>utcnow()
 </code></pre></td></tr></table>
 </div>
 </div><p>Return a python object with the remaining days of the certificate. It can be negative if is exspired.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
@@ -320,38 +320,38 @@ logger <span style="color:#f92672">=</span> logging<span style="color:#f92672">.
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_host</span>(hostname: str, buffer_days: int <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>) <span style="color:#f92672">-&gt;</span> str:
-  <span style="color:#66d9ef">try</span>:
-    will_expire_in <span style="color:#f92672">=</span> ssl_valid_time_remaining(hostname)
-  <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span> <span style="color:#66d9ef">as</span> e:
-    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;❌ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; cert error &#34;</span> <span style="color:#f92672">+</span> str(e)
-  <span style="color:#66d9ef">except</span> socket<span style="color:#f92672">.</span>timeout <span style="color:#66d9ef">as</span> e:
-    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;❌ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; could not connect&#34;</span>
-  <span style="color:#66d9ef">else</span>:
-    <span style="color:#66d9ef">if</span> will_expire_in <span style="color:#f92672">&lt;</span> datetime<span style="color:#f92672">.</span>timedelta(days<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>):
-      <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;❌ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; cert will expired&#34;</span>
-    <span style="color:#66d9ef">elif</span> will_expire_in <span style="color:#f92672">&lt;</span> datetime<span style="color:#f92672">.</span>timedelta(days<span style="color:#f92672">=</span>buffer_days):
-      <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;⏳ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; cert will expire in &#34;</span> <span style="color:#f92672">+</span> will_expire_in
-    <span style="color:#66d9ef">else</span>:
-      <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;✔️ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; cert is fine&#34;</span>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">test_host</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>, buffer_days: <span style="color:#8be9fd;font-style:italic">int</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">30</span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd;font-style:italic">str</span>:
+  <span style="color:#ff79c6">try</span>:
+    will_expire_in <span style="color:#ff79c6">=</span> ssl_valid_time_remaining(hostname)
+  <span style="color:#ff79c6">except</span> ValueError <span style="color:#ff79c6">as</span> e:
+    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert error &#34;</span> <span style="color:#ff79c6">+</span> <span style="color:#8be9fd;font-style:italic">str</span>(e)
+  <span style="color:#ff79c6">except</span> socket<span style="color:#ff79c6">.</span>timeout <span style="color:#ff79c6">as</span> e:
+    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; could not connect&#34;</span>
+  <span style="color:#ff79c6">else</span>:
+    <span style="color:#ff79c6">if</span> will_expire_in <span style="color:#ff79c6">&lt;</span> datetime<span style="color:#ff79c6">.</span>timedelta(days<span style="color:#ff79c6">=</span><span style="color:#bd93f9">0</span>):
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert will expired&#34;</span>
+    <span style="color:#ff79c6">elif</span> will_expire_in <span style="color:#ff79c6">&lt;</span> datetime<span style="color:#ff79c6">.</span>timedelta(days<span style="color:#ff79c6">=</span>buffer_days):
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;⏳ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert will expire in &#34;</span> <span style="color:#ff79c6">+</span> will_expire_in
+    <span style="color:#ff79c6">else</span>:
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;✔️ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert is fine&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>This function build the string for the user to see about the domain. Use the <em>emoji</em> for fast reading for error<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">popupmsg</span>(msg):
-  logger<span style="color:#f92672">.</span>info(msg)
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">popupmsg</span>(msg):
+  logger<span style="color:#ff79c6">.</span>info(msg)
 </code></pre></td></tr></table>
 </div>
 </div><p>Print into the console the output. I search a good way for making a popup or a toast for gui purpuise but I can&rsquo;t make it multiOS so I use the standard output</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
@@ -363,14 +363,14 @@ logger <span style="color:#f92672">=</span> logging<span style="color:#f92672">.
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
-  f <span style="color:#f92672">=</span> open(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>expanduser(<span style="color:#e6db74">&#34;~/.sslverify&#34;</span>), <span style="color:#e6db74">&#34;r&#34;</span>)
-  end_message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
-  <span style="color:#66d9ef">for</span> host <span style="color:#f92672">in</span> f<span style="color:#f92672">.</span>readlines():
-    host <span style="color:#f92672">=</span> host<span style="color:#f92672">.</span>strip()
-    message <span style="color:#f92672">=</span> test_host(host)
-    end_message <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> message
-  <span style="color:#66d9ef">print</span>(end_message)
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#34;__main__&#34;</span>:
+  f <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">open</span>(os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>expanduser(<span style="color:#f1fa8c">&#34;~/.sslverify&#34;</span>), <span style="color:#f1fa8c">&#34;r&#34;</span>)
+  end_message <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;&#34;</span>
+  <span style="color:#ff79c6">for</span> host <span style="color:#ff79c6">in</span> f<span style="color:#ff79c6">.</span>readlines():
+    host <span style="color:#ff79c6">=</span> host<span style="color:#ff79c6">.</span>strip()
+    message <span style="color:#ff79c6">=</span> test_host(host)
+    end_message <span style="color:#ff79c6">+=</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span> <span style="color:#ff79c6">+</span> message
+  <span style="color:#ff79c6">print</span>(end_message)
   popupmsg(end_message)
 
 </code></pre></td></tr></table>
@@ -381,9 +381,9 @@ In this way I backup it with my  <a href="https://github.com/anishathalye/dotbot
 <p>I am thinking about making this script into a module or bash app in the near future.</p>
 <a class="h2-anchor" href="#all-the-code"><h2 id="all-the-code">All the code</h2></a>
 <p>We end with all the code into a single block</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -440,59 +440,59 @@ In this way I backup it with my  <a href="https://github.com/anishathalye/dotbot
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#!/usr/bin/env python3</span>
+<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#6272a4">#!/usr/bin/env python3</span>
 
-<span style="color:#f92672">import</span> datetime
-<span style="color:#f92672">import</span> logging
-<span style="color:#f92672">import</span> os
-<span style="color:#f92672">import</span> socket
-<span style="color:#f92672">import</span> ssl
+<span style="color:#ff79c6">import</span> datetime
+<span style="color:#ff79c6">import</span> logging
+<span style="color:#ff79c6">import</span> os
+<span style="color:#ff79c6">import</span> socket
+<span style="color:#ff79c6">import</span> ssl
 
-<span style="color:#f92672">import</span> OpenSSL
+<span style="color:#ff79c6">import</span> OpenSSL
 
-logger <span style="color:#f92672">=</span> logging<span style="color:#f92672">.</span>getLogger(<span style="color:#e6db74">&#34;SSLVerify&#34;</span>)
-
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ssl_expiry_datetime</span>(hostname: str) <span style="color:#f92672">-&gt;</span> datetime<span style="color:#f92672">.</span>datetime:
-  cert <span style="color:#f92672">=</span> ssl<span style="color:#f92672">.</span>get_server_certificate((hostname, <span style="color:#ae81ff">443</span>))
-  x509 <span style="color:#f92672">=</span> OpenSSL<span style="color:#f92672">.</span>crypto<span style="color:#f92672">.</span>load_certificate(OpenSSL<span style="color:#f92672">.</span>crypto<span style="color:#f92672">.</span>FILETYPE_PEM, cert)
-  <span style="color:#66d9ef">return</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>strptime(x509<span style="color:#f92672">.</span>get_notAfter()<span style="color:#f92672">.</span>decode(<span style="color:#e6db74">&#39;ascii&#39;</span>), <span style="color:#e6db74">&#39;%Y%m</span><span style="color:#e6db74">%d</span><span style="color:#e6db74">%H%M%SZ&#39;</span>)
+logger <span style="color:#ff79c6">=</span> logging<span style="color:#ff79c6">.</span>getLogger(<span style="color:#f1fa8c">&#34;SSLVerify&#34;</span>)
 
 
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ssl_valid_time_remaining</span>(hostname: str) <span style="color:#f92672">-&gt;</span> datetime<span style="color:#f92672">.</span>timedelta:
-  expires <span style="color:#f92672">=</span> ssl_expiry_datetime(hostname)
-  logger<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">&#34;SSL cert for {} expires at {}&#34;</span><span style="color:#f92672">.</span>format(hostname, expires<span style="color:#f92672">.</span>isoformat()))
-  <span style="color:#66d9ef">return</span> expires <span style="color:#f92672">-</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>utcnow()
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">ssl_expiry_datetime</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> datetime<span style="color:#ff79c6">.</span>datetime:
+  cert <span style="color:#ff79c6">=</span> ssl<span style="color:#ff79c6">.</span>get_server_certificate((hostname, <span style="color:#bd93f9">443</span>))
+  x509 <span style="color:#ff79c6">=</span> OpenSSL<span style="color:#ff79c6">.</span>crypto<span style="color:#ff79c6">.</span>load_certificate(OpenSSL<span style="color:#ff79c6">.</span>crypto<span style="color:#ff79c6">.</span>FILETYPE_PEM, cert)
+  <span style="color:#ff79c6">return</span> datetime<span style="color:#ff79c6">.</span>datetime<span style="color:#ff79c6">.</span>strptime(x509<span style="color:#ff79c6">.</span>get_notAfter()<span style="color:#ff79c6">.</span>decode(<span style="color:#f1fa8c">&#39;ascii&#39;</span>), <span style="color:#f1fa8c">&#39;%Y%m</span><span style="color:#f1fa8c">%d</span><span style="color:#f1fa8c">%H%M%SZ&#39;</span>)
 
 
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">test_host</span>(hostname: str, buffer_days: int <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>) <span style="color:#f92672">-&gt;</span> str:
-  <span style="color:#66d9ef">try</span>:
-    will_expire_in <span style="color:#f92672">=</span> ssl_valid_time_remaining(hostname)
-  <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span> <span style="color:#66d9ef">as</span> e:
-    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;❌ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; cert error &#34;</span> <span style="color:#f92672">+</span> str(e)
-  <span style="color:#66d9ef">except</span> socket<span style="color:#f92672">.</span>timeout <span style="color:#66d9ef">as</span> e:
-    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;❌ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; could not connect&#34;</span>
-  <span style="color:#66d9ef">else</span>:
-    <span style="color:#66d9ef">if</span> will_expire_in <span style="color:#f92672">&lt;</span> datetime<span style="color:#f92672">.</span>timedelta(days<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>):
-      <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;❌ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; cert will expired&#34;</span>
-    <span style="color:#66d9ef">elif</span> will_expire_in <span style="color:#f92672">&lt;</span> datetime<span style="color:#f92672">.</span>timedelta(days<span style="color:#f92672">=</span>buffer_days):
-      <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;⏳ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; cert will expire in &#34;</span> <span style="color:#f92672">+</span> will_expire_in
-    <span style="color:#66d9ef">else</span>:
-      <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;✔️ &#34;</span> <span style="color:#f92672">+</span> hostname <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; cert is fine&#34;</span>
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">ssl_valid_time_remaining</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>) <span style="color:#ff79c6">-&gt;</span> datetime<span style="color:#ff79c6">.</span>timedelta:
+  expires <span style="color:#ff79c6">=</span> ssl_expiry_datetime(hostname)
+  logger<span style="color:#ff79c6">.</span>debug(<span style="color:#f1fa8c">&#34;SSL cert for {} expires at {}&#34;</span><span style="color:#ff79c6">.</span>format(hostname, expires<span style="color:#ff79c6">.</span>isoformat()))
+  <span style="color:#ff79c6">return</span> expires <span style="color:#ff79c6">-</span> datetime<span style="color:#ff79c6">.</span>datetime<span style="color:#ff79c6">.</span>utcnow()
 
 
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">popupmsg</span>(msg):
-  logger<span style="color:#f92672">.</span>info(msg)
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">test_host</span>(hostname: <span style="color:#8be9fd;font-style:italic">str</span>, buffer_days: <span style="color:#8be9fd;font-style:italic">int</span> <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">30</span>) <span style="color:#ff79c6">-&gt;</span> <span style="color:#8be9fd;font-style:italic">str</span>:
+  <span style="color:#ff79c6">try</span>:
+    will_expire_in <span style="color:#ff79c6">=</span> ssl_valid_time_remaining(hostname)
+  <span style="color:#ff79c6">except</span> ValueError <span style="color:#ff79c6">as</span> e:
+    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert error &#34;</span> <span style="color:#ff79c6">+</span> <span style="color:#8be9fd;font-style:italic">str</span>(e)
+  <span style="color:#ff79c6">except</span> socket<span style="color:#ff79c6">.</span>timeout <span style="color:#ff79c6">as</span> e:
+    <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; could not connect&#34;</span>
+  <span style="color:#ff79c6">else</span>:
+    <span style="color:#ff79c6">if</span> will_expire_in <span style="color:#ff79c6">&lt;</span> datetime<span style="color:#ff79c6">.</span>timedelta(days<span style="color:#ff79c6">=</span><span style="color:#bd93f9">0</span>):
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;❌ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert will expired&#34;</span>
+    <span style="color:#ff79c6">elif</span> will_expire_in <span style="color:#ff79c6">&lt;</span> datetime<span style="color:#ff79c6">.</span>timedelta(days<span style="color:#ff79c6">=</span>buffer_days):
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;⏳ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert will expire in &#34;</span> <span style="color:#ff79c6">+</span> will_expire_in
+    <span style="color:#ff79c6">else</span>:
+      <span style="color:#ff79c6">return</span> <span style="color:#f1fa8c">&#34;✔️ &#34;</span> <span style="color:#ff79c6">+</span> hostname <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; cert is fine&#34;</span>
 
 
-<span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
-  f <span style="color:#f92672">=</span> open(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>expanduser(<span style="color:#e6db74">&#34;~/.sslverify&#34;</span>), <span style="color:#e6db74">&#34;r&#34;</span>)
-  end_message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
-  <span style="color:#66d9ef">for</span> host <span style="color:#f92672">in</span> f<span style="color:#f92672">.</span>readlines():
-    host <span style="color:#f92672">=</span> host<span style="color:#f92672">.</span>strip()
-    message <span style="color:#f92672">=</span> test_host(host)
-    end_message <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> message
-  <span style="color:#66d9ef">print</span>(end_message)
+<span style="color:#ff79c6">def</span> <span style="color:#50fa7b">popupmsg</span>(msg):
+  logger<span style="color:#ff79c6">.</span>info(msg)
+
+
+<span style="color:#ff79c6">if</span> __name__ <span style="color:#ff79c6">==</span> <span style="color:#f1fa8c">&#34;__main__&#34;</span>:
+  f <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">open</span>(os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>expanduser(<span style="color:#f1fa8c">&#34;~/.sslverify&#34;</span>), <span style="color:#f1fa8c">&#34;r&#34;</span>)
+  end_message <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;&#34;</span>
+  <span style="color:#ff79c6">for</span> host <span style="color:#ff79c6">in</span> f<span style="color:#ff79c6">.</span>readlines():
+    host <span style="color:#ff79c6">=</span> host<span style="color:#ff79c6">.</span>strip()
+    message <span style="color:#ff79c6">=</span> test_host(host)
+    end_message <span style="color:#ff79c6">+=</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">\n</span><span style="color:#f1fa8c">&#34;</span> <span style="color:#ff79c6">+</span> message
+  <span style="color:#ff79c6">print</span>(end_message)
   popupmsg(end_message)
 
 </code></pre></td></tr></table>
