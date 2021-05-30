@@ -247,9 +247,9 @@ This was in November 2017. Github suggest it was the 20 of Novembre the first ve
 <p>This is a project python where you can write an <em>install script</em> from a template and write one or more <em>_.conf.yaml</em> with the instructions. And there are multiple plugin for some package manager (<em>pip, rust, apt, brew&hellip;</em>) which can be usefull.</p>
 <p>The best way to use (and the only one) is to make the plugin repo into a submodule so it can be updated and will be always an unicum.</p>
 <p>In my case I have a multiple config installer</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -268,23 +268,23 @@ This was in November 2017. Github suggest it was the 20 of Novembre the first ve
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#ff79c6">#!/usr/bin/env bash
-</span><span style="color:#ff79c6"></span>
-<span style="color:#8be9fd;font-style:italic">set</span> -e
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
+</span><span style="color:#75715e"></span>
+set -e
 
-<span style="color:#8be9fd;font-style:italic">DEFAULT_CONFIG_PREFIX</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;default&#34;</span>
-<span style="color:#8be9fd;font-style:italic">CONFIG_SUFFIX</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;.conf.yaml&#34;</span>
-<span style="color:#8be9fd;font-style:italic">DOTBOT_DIR</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;.dotbot&#34;</span>
+DEFAULT_CONFIG_PREFIX<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;default&#34;</span>
+CONFIG_SUFFIX<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.conf.yaml&#34;</span>
+DOTBOT_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.dotbot&#34;</span>
 
-<span style="color:#8be9fd;font-style:italic">DOTBOT_BIN</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;bin/dotbot&#34;</span>
-<span style="color:#8be9fd;font-style:italic">BASEDIR</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">$(</span><span style="color:#8be9fd;font-style:italic">cd</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">$(</span>dirname <span style="color:#f1fa8c">&#34;\${BASH_SOURCE[0]}&#34;</span><span style="color:#ff79c6">)</span><span style="color:#f1fa8c">&#34;</span> <span style="color:#ff79c6">&amp;&amp;</span> <span style="color:#8be9fd;font-style:italic">pwd</span><span style="color:#ff79c6">)</span><span style="color:#f1fa8c">&#34;</span>
+DOTBOT_BIN<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bin/dotbot&#34;</span>
+BASEDIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>cd <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>dirname <span style="color:#e6db74">&#34;\${BASH_SOURCE[0]}&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> pwd<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 
-<span style="color:#8be9fd;font-style:italic">cd</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASEDIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span>
-git submodule update --init --recursive <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">DOTBOT_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span>
+cd <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASEDIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+git submodule update --init --recursive <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
 
-<span style="color:#ff79c6">for</span> conf in <span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">DEFAULT_CONFIG_PREFIX</span><span style="color:#f1fa8c">}</span> <span style="color:#f1fa8c">${</span>@<span style="color:#f1fa8c">}</span>; <span style="color:#ff79c6">do</span>
-<span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASEDIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">DOTBOT_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">DOTBOT_BIN</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span> -d <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASEDIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span> --plugin-dir .dotbot-brew -c <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">conf</span><span style="color:#f1fa8c">}${</span><span style="color:#8be9fd;font-style:italic">CONFIG_SUFFIX</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span>
-<span style="color:#ff79c6">done</span></code></pre></td></tr></table>
+<span style="color:#66d9ef">for</span> conf in <span style="color:#e6db74">${</span>DEFAULT_CONFIG_PREFIX<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>@<span style="color:#e6db74">}</span>; <span style="color:#66d9ef">do</span>
+<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASEDIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_BIN<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -d <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASEDIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> --plugin-dir .dotbot-brew -c <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>conf<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+<span style="color:#66d9ef">done</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>The only thing you need to pay attention is the <em>&ndash;plugin-dir <!-- raw HTML omitted --></em> which can be use multiple times in the command, one for plugin you have. Also you can install a plugin as a submodule for the same reasons as the bot.</p>
@@ -310,9 +310,9 @@ I have:</p>
 <li><strong><em>meta/base.yaml</em></strong>: the base, allways called one. Here you set some default and the cleaner command</li>
 </ul>
 <p>Whith this I need to change the install file and make some difference as show in the Wiki<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -347,39 +347,39 @@ I have:</p>
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#ff79c6">#!/usr/bin/env bash
-</span><span style="color:#ff79c6"></span>
-<span style="color:#8be9fd;font-style:italic">set</span> -e
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
+</span><span style="color:#75715e"></span>
+set -e
 
-<span style="color:#8be9fd;font-style:italic">BASE_CONFIG</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;base&#34;</span>
-<span style="color:#8be9fd;font-style:italic">CONFIG_SUFFIX</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;.yaml&#34;</span>
+BASE_CONFIG<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;base&#34;</span>
+CONFIG_SUFFIX<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.yaml&#34;</span>
 
-<span style="color:#8be9fd;font-style:italic">META_DIR</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;meta&#34;</span>
-<span style="color:#8be9fd;font-style:italic">CONFIG_DIR</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;configs&#34;</span>
-<span style="color:#8be9fd;font-style:italic">PROFILES_DIR</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;profiles&#34;</span>
+META_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;meta&#34;</span>
+CONFIG_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;configs&#34;</span>
+PROFILES_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;profiles&#34;</span>
 
-<span style="color:#8be9fd;font-style:italic">DOTBOT_DIR</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;.dotbot&#34;</span>
-<span style="color:#8be9fd;font-style:italic">DOTBOT_BIN</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;bin/dotbot&#34;</span>
+DOTBOT_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;.dotbot&#34;</span>
+DOTBOT_BIN<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;bin/dotbot&#34;</span>
 
-<span style="color:#8be9fd;font-style:italic">BASE_DIR</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">$(</span><span style="color:#8be9fd;font-style:italic">cd</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">$(</span>dirname <span style="color:#f1fa8c">&#34;\${BASH_SOURCE[0]}&#34;</span><span style="color:#ff79c6">)</span><span style="color:#f1fa8c">&#34;</span> <span style="color:#ff79c6">&amp;&amp;</span> <span style="color:#8be9fd;font-style:italic">pwd</span><span style="color:#ff79c6">)</span><span style="color:#f1fa8c">&#34;</span>
+BASE_DIR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>cd <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>dirname <span style="color:#e6db74">&#34;\${BASH_SOURCE[0]}&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">&amp;&amp;</span> pwd<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 
-<span style="color:#8be9fd;font-style:italic">cd</span> <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASE_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span>
-git -C <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">META_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">DOTBOT_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span> submodule sync --quiet --recursive
-git submodule update --init --recursive <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">META_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/\${DOTBOT_DIR}&#34;</span>
+cd <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+git -C <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> submodule sync --quiet --recursive
+git submodule update --init --recursive <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/\${DOTBOT_DIR}&#34;</span>
 
-<span style="color:#ff79c6">while</span> <span style="color:#8be9fd;font-style:italic">IFS</span><span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">read</span> -r config; <span style="color:#ff79c6">do</span>
-<span style="color:#8be9fd;font-style:italic">CONFIGS</span><span style="color:#ff79c6">+=</span><span style="color:#f1fa8c">&#34; </span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">config</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span>
-<span style="color:#ff79c6">done</span> &lt; <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">META_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">PROFILES_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#8be9fd;font-style:italic">$1</span><span style="color:#f1fa8c">&#34;</span>
+<span style="color:#66d9ef">while</span> IFS<span style="color:#f92672">=</span> read -r config; <span style="color:#66d9ef">do</span>
+CONFIGS<span style="color:#f92672">+=</span><span style="color:#e6db74">&#34; </span><span style="color:#e6db74">${</span>config<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+<span style="color:#66d9ef">done</span> &lt; <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>PROFILES_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span>$1<span style="color:#e6db74">&#34;</span>
 
-<span style="color:#8be9fd;font-style:italic">shift</span>
+shift
 
-<span style="color:#8be9fd;font-style:italic">echo</span> <span style="color:#f1fa8c">\$</span><span style="color:#ff79c6">{</span>CONFIGS<span style="color:#ff79c6">}</span>
+echo <span style="color:#ae81ff">\$</span><span style="color:#f92672">{</span>CONFIGS<span style="color:#f92672">}</span>
 
-<span style="color:#ff79c6">for</span> config in <span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">CONFIGS</span><span style="color:#f1fa8c">}</span> <span style="color:#f1fa8c">${</span>@<span style="color:#f1fa8c">}</span>; <span style="color:#ff79c6">do</span>
-<span style="color:#8be9fd;font-style:italic">echo</span> -e <span style="color:#f1fa8c">&#34;\nConfigure </span><span style="color:#8be9fd;font-style:italic">$config</span><span style="color:#f1fa8c">&#34;</span>
-	<span style="color:#8be9fd;font-style:italic">configFile</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">$(</span>mktemp<span style="color:#ff79c6">)</span><span style="color:#f1fa8c">&#34;</span> ; <span style="color:#8be9fd;font-style:italic">echo</span> -e <span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">$(</span>&lt;<span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASE_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">META_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASE_CONFIG</span><span style="color:#f1fa8c">}${</span><span style="color:#8be9fd;font-style:italic">CONFIG_SUFFIX</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">)</span><span style="color:#f1fa8c">\n</span><span style="color:#ff79c6">$(</span>&lt;<span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASE_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">META_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">CONFIG_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">config</span><span style="color:#f1fa8c">}${</span><span style="color:#8be9fd;font-style:italic">CONFIG_SUFFIX</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span><span style="color:#ff79c6">)</span><span style="color:#f1fa8c">&#34;</span> &gt; <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$configFile</span><span style="color:#f1fa8c">&#34;</span>
-<span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASE_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">META_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">DOTBOT_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">/</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">DOTBOT_BIN</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span> -d <span style="color:#f1fa8c">&#34;</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">BASE_DIR</span><span style="color:#f1fa8c">}</span><span style="color:#f1fa8c">&#34;</span> -c <span style="color:#f1fa8c">&#34;</span><span style="color:#8be9fd;font-style:italic">$configFile</span><span style="color:#f1fa8c">&#34;</span> ; rm -f <span style="color:#f1fa8c">&#34;\$configFile&#34;</span>
-<span style="color:#ff79c6">done</span></code></pre></td></tr></table>
+<span style="color:#66d9ef">for</span> config in <span style="color:#e6db74">${</span>CONFIGS<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>@<span style="color:#e6db74">}</span>; <span style="color:#66d9ef">do</span>
+echo -e <span style="color:#e6db74">&#34;\nConfigure </span>$config<span style="color:#e6db74">&#34;</span>
+	configFile<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>mktemp<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> ; echo -e <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>&lt;<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>BASE_CONFIG<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">\n</span><span style="color:#66d9ef">$(</span>&lt;<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>CONFIG_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>config<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> &gt; <span style="color:#e6db74">&#34;</span>$configFile<span style="color:#e6db74">&#34;</span>
+<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_BIN<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -d <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -c <span style="color:#e6db74">&#34;</span>$configFile<span style="color:#e6db74">&#34;</span> ; rm -f <span style="color:#e6db74">&#34;\$configFile&#34;</span>
+<span style="color:#66d9ef">done</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Make particolar attention of the begginning of the script because is were you can find the configuration for the script.</p>
@@ -395,9 +395,9 @@ git submodule update --init --recursive <span style="color:#f1fa8c">&#34;</span>
 <li><strong><em>plugins commands</em></strong>: the command of the installed plugins</li>
 </ul>
 <p>Now I need to write a <strong><em>meta/base.yaml</em></strong> file for the default command:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -413,20 +413,20 @@ git submodule update --init --recursive <span style="color:#f1fa8c">&#34;</span>
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#ff79c6">defaults</span>:
-    <span style="color:#ff79c6">link</span>:
-      <span style="color:#ff79c6">create</span>: <span style="color:#ff79c6">true</span>
-      <span style="color:#ff79c6">relink</span>: <span style="color:#ff79c6">true</span>
-      <span style="color:#ff79c6">force</span>: <span style="color:#ff79c6">true</span>
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#f92672">defaults</span>:
+    <span style="color:#f92672">link</span>:
+      <span style="color:#f92672">create</span>: <span style="color:#66d9ef">true</span>
+      <span style="color:#f92672">relink</span>: <span style="color:#66d9ef">true</span>
+      <span style="color:#f92672">force</span>: <span style="color:#66d9ef">true</span>
 
-- <span style="color:#ff79c6">link</span>:
-    <span style="color:#ff79c6">~/script</span>:
+- <span style="color:#f92672">link</span>:
+    <span style="color:#f92672">~/script</span>:
 
-- <span style="color:#ff79c6">shell</span>:
-    - [git submodule update --init --recursive, Installing submodules]
-    - [chmod +x ~/script/*]
+- <span style="color:#f92672">shell</span>:
+    - [<span style="color:#ae81ff">git submodule update --init --recursive, Installing submodules]</span>
+    - [<span style="color:#ae81ff">chmod +x ~/script/*]</span>
 
-- <span style="color:#ff79c6">clean</span>: [<span style="color:#f1fa8c">&#34;~&#34;</span>]</code></pre></td></tr></table>
+- <span style="color:#f92672">clean</span>: [<span style="color:#e6db74">&#34;~&#34;</span>]</code></pre></td></tr></table>
 </div>
 </div>
 <p>I start with the default option for the <em>link</em> command:</p>
@@ -440,15 +440,15 @@ git submodule update --init --recursive <span style="color:#f1fa8c">&#34;</span>
 <p>Then we have the <em>shell</em> command with the command for import/download all the submodules of the project and the command for make executable the script folder.</p>
 <p>And we end with the <em>clean</em> command with I clean the home from dead symbolic links and delete them all.</p>
 <p>After this I need to make my fist profile, the <em>mac</em> one. So I make a new file <strong><em>make/profiles/mac</em></strong></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">git
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">git
 programming
 ssh
 zsh</code></pre></td></tr></table>
@@ -456,16 +456,16 @@ zsh</code></pre></td></tr></table>
 </div>
 <p>Every one of this name is a yaml file in the <strong><em>makefile/configs</em></strong> with the command to make/copy/something for the program/stuff is name of.
 For example <em>git</em> is:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#ff79c6">link</span>:
-          <span style="color:#ff79c6">~/.gitconfig</span>:
-          ~/.gitignore_global:</code></pre></td></tr></table>
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#f92672">link</span>:
+          <span style="color:#f92672">~/.gitconfig</span>:
+          <span style="color:#ae81ff">~/.gitignore_global:</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>In this yaml the bot links in the path <strong><em>~/.gitconfig</em></strong> to the file <strong><em>gitconfig</em></strong> and make the same with <strong><em>~/.gitignore_global</em></strong>.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
