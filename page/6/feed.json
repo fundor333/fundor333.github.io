@@ -1,0 +1,26 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Fundor333",
+	 "home_page_url": "https://fundor333.com/",
+	 "feed_url": "https://fundor333.com/feed.json",
+	 "favicon": "https://fundor333.com/favicon-192.png",
+	 "author": {
+	   "url": "https://twitter.com/fundor333",
+	   "name": "Fundor333",
+	   "avatar": "https://fundor333.com/img/pilogo.jpg"
+	 },
+	 
+
+	 "items": [ 
+	    {
+	     "id": "https://fundor333.com/post/2016/docker-la-balena-con-i-container/",
+	     "title": "Docker, la balena con i container per software",
+	     "url": "https://fundor333.com/post/2016/docker-la-balena-con-i-container/",
+	     "summary": "\u003cp\u003eOggi parliamo di balene e di Virtual Machine, ovvero parliamo di\nDocker.\u003cbr\u003e\n\u003cimg src=\"https://riviste.newbusinessmedia.it/wp-content/uploads/sites/14/2015/10/docker-logo.png\" alt=\"Docker\"\u003e\u003c/p\u003e",
+	     "image": "",
+	     "date_published": "2016-10-03T00:00:00Z",
+	     "date_modified": "2016-10-03T00:00:00Z"        
+	   },
+	   
+	 ]
+      }

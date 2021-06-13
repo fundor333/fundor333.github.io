@@ -1,0 +1,106 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Fundor333",
+	 "home_page_url": "https://fundor333.com/",
+	 "feed_url": "https://fundor333.com/feed.json",
+	 "favicon": "https://fundor333.com/favicon-192.png",
+	 "author": {
+	   "url": "https://twitter.com/fundor333",
+	   "name": "Fundor333",
+	   "avatar": "https://fundor333.com/img/pilogo.jpg"
+	 },
+	 
+
+	 "items": [ 
+	    {
+	     "id": "https://fundor333.com/post/2017/e-sono-passato-a-hugo/",
+	     "title": "E sono passato a Hugo",
+	     "url": "https://fundor333.com/post/2017/e-sono-passato-a-hugo/",
+	     "summary": "E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa. Dopo un po' di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie\nProblemi personali Perchè ho deciso di cambiare? Perchè ci sono due cose che sento strette:\n La strutturazione del layout, che sento stretta e strutturata in modo \u0026ldquo;sbagliato\u0026rdquo; L\u0026rsquo;impossibilità di avere multiple category per un singolo post senza implementare io stesso un plugin  A questi si aggiunge che non sono mai riuscito a far funzionare correttamente la configurazione che obbliga a renderizzare solo i post \u0026ldquo;passati\u0026rdquo; e non \u0026ldquo;futuri\u0026rdquo; am credo che questo sia un problema mio.",
+	     "image": "",
+	     "date_published": "2017-04-04T00:00:00Z",
+	     "date_modified": "2017-04-04T00:00:00Z"        
+	   },
+	   
+	    {
+	     "id": "https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/",
+	     "title": "Emacs e mai più mouse",
+	     "url": "https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/",
+	     "summary": "\u003cp\u003eE ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è \u003cem\u003emouse free\u003c/em\u003e!\u003c/p\u003e\n\u003cp\u003eOk posso capire che per la maggior parte di voi non capirà perchè questo cambiamento è rilevante per me ma, dal mio punto di vista, è un \u003cem\u003eENORME\u003c/em\u003e upgrade tecnico. La possibilità di avere un intero editor di testo personalizzabile, multipiattaforma e completamente open source mi ha sempre particolarmente colpito ma non ho mai trovato uno che lo sentissi mio. Attualmente uso molto Atom ma lo sento molto stretto soprattutto perchè, visto che deve supportare molti linguaggi (e di conseguenza molti plugin), risulta rallentato.\u003c/p\u003e",
+	     "image": "",
+	     "date_published": "2017-02-14T00:00:00Z",
+	     "date_modified": "2017-02-14T00:00:00Z"        
+	   },
+	   
+	    {
+	     "id": "https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/",
+	     "title": "Jupyter Notebook Pelican Combo",
+	     "url": "https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/",
+	     "summary": "\u003cp\u003eSi sta avvicinando il \u003cstrong\u003ePycon 8\u003c/strong\u003e e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest' anno.\nVisto quello che è successo l\u0026rsquo;anno scorso ho deciso di preinstallate Jupyter e essere pronto a fare degli appunti direttamente in notebook. Per questo ho cercato un sistema per convertirli in markdown, così da usarli anche nel blog, o farli leggere direttamente da Pelican e ho fatto una stupenda scoperta: esiste già questo plugin.\u003c/p\u003e",
+	     "image": "",
+	     "date_published": "2017-02-14T00:00:00Z",
+	     "date_modified": "2017-02-14T00:00:00Z"        
+	   },
+	   
+	    {
+	     "id": "https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/",
+	     "title": "Bot, Telegram e programmazione funzionale",
+	     "url": "https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/",
+	     "summary": "\u003cp\u003eHo voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.\u003c/p\u003e\n\u003ch2 id=\"linizio-di-tutto\"\u003eL\u0026rsquo;inizio di tutto\u003c/h2\u003e\n\u003cp\u003eHo trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria \u003ca href=\"https://python-telegram-bot.org/\"\u003epython-telegram-bot\u003c/a\u003e e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a \u0026ldquo;ascoltatore\u0026rdquo; che la esegue quando riceve il comando.\u003c/p\u003e\n\u003cp\u003eAd esempio se io ho definito prima qi questo frammento di codice una funzione \u003cem\u003estart\u003c/em\u003e che mi gestisce il comando omonimo, poi io devo registrarla all\u0026rsquo;updater attraverso il dispatcher come qui sotto.\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cdiv style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"\u003e\n\u003ctable style=\"border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;\"\u003e\u003ctr\u003e\u003ctd style=\"vertical-align:top;padding:0;margin:0;border:0;\"\u003e\n\u003cpre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"\u003e\u003ccode\u003e\u003cspan style=\"margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f\"\u003e1\n\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\n\u003ctd style=\"vertical-align:top;padding:0;margin:0;border:0;;width:100%\"\u003e\n\u003cpre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"\u003e\u003ccode class=\"language-python\" data-lang=\"python\"\u003eupdater\u003cspan style=\"color:#f92672\"\u003e.\u003c/span\u003edispatcher\u003cspan style=\"color:#f92672\"\u003e.\u003c/span\u003eadd_handler(CommandHandler(\u003cspan style=\"color:#e6db74\"\u003e\u0026#39;start\u0026#39;\u003c/span\u003e, start))\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\u003cp\u003eVisto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un \u0026ldquo;alias\u0026rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.\u003c/p\u003e",
+	     "image": "",
+	     "date_published": "2017-02-11T00:00:00Z",
+	     "date_modified": "2017-02-11T00:00:00Z"        
+	   },
+	   
+	    {
+	     "id": "https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/",
+	     "title": "Grumpy, come convertire il serpente nel gopher",
+	     "url": "https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/",
+	     "summary": "\u003cp\u003eIo sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.\u003c/p\u003e\n\u003cp\u003eQuindi quando ho visto che Google lancia Grumpy in un articolo nel loro \u003ca href=\"https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html\"\u003eblog\u003c/a\u003e non potevo che essere incuriosito  e interessato ad avere ancora più notizie sul questo progetto. E, grazie ad un podcast che ascolto ho avuto ancora più notizie.\u003c/p\u003e\n\u003cp\u003eIo sono iscritto al podcast \u003ca href=\"https://talkpython.fm/\"\u003eTalk Python\u003c/a\u003e dove in un \u003ca href=\"https://talkpython.fm/episodes/show/95/grumpy-running-python-on-go\"\u003eepisodio\u003c/a\u003e è stato intervistato Dylan Trotter, Ingegniere Youtube e un entusiasta di GoLang.\u003c/p\u003e",
+	     "image": "",
+	     "date_published": "2017-01-26T00:00:00Z",
+	     "date_modified": "2017-01-26T00:00:00Z"        
+	   },
+	   
+	    {
+	     "id": "https://fundor333.com/post/2017/scrivi-push-public/",
+	     "title": "Scrivi, push e publica",
+	     "url": "https://fundor333.com/post/2017/scrivi-push-public/",
+	     "summary": "Ho riscritto interamente il blog. Ora gira tutto in Python\u0026hellip; Anche se nel server è tutto in HTML5.\nQuesto perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.\nCosì sono passato da un blog dinamico a uno statico.\nCome mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell\u0026rsquo;azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine.",
+	     "image": "",
+	     "date_published": "2017-01-14T00:00:00Z",
+	     "date_modified": "2017-01-14T00:00:00Z"        
+	   },
+	   
+	    {
+	     "id": "https://fundor333.com/post/2016/orrori-delle-parentesi/",
+	     "title": "Parentesys Horror",
+	     "url": "https://fundor333.com/post/2016/orrori-delle-parentesi/",
+	     "summary": "(°,,,°)\nThis is my face when I open Twitter\u0026hellip;\nA fragment of code with parentesies at the end of the row\u0026hellip;\nUse whatever brace style you prefer.\nBut not this.\nDon\u0026#39;t do this.\nSeek help instead of this. pic.twitter.com/1EYb7BLHkb\n\u0026mdash; HisCursedness (@HisCursedness) October 19, 2016  \\|/(x,,,x)\\|/\nThis is one of the think you must not do. The bon ton of coding show you how you need to write the code.",
+	     "image": "",
+	     "date_published": "2016-11-09T00:00:00Z",
+	     "date_modified": "2016-11-09T00:00:00Z"        
+	   },
+	   
+	    {
+	     "id": "https://fundor333.com/post/2016/gource-visualizzare-git-repository/",
+	     "title": "Gource, visualizzare Git repository",
+	     "url": "https://fundor333.com/post/2016/gource-visualizzare-git-repository/",
+	     "summary": "\u003cp\u003eQuando hai un progetto Git, normalmente lo usi per fare controllo delle\nversioni.\u003cbr\u003e\nUna volta che il progetto è nella fase di rilascio tu hai quindi un\nrepository molto \u0026ldquo;pieno\u0026rdquo; di dati temporali e di chi a modificato cosa e\nquando. E' solitamente in questo momento che io faccio il \u0026ldquo;Gource\u0026rdquo; del\nprogetto.\u003c/p\u003e",
+	     "image": "",
+	     "date_published": "2016-11-07T00:00:00Z",
+	     "date_modified": "2016-11-07T00:00:00Z"        
+	   },
+	   
+	    {
+	     "id": "https://fundor333.com/post/2016/git-lalbero-delle-versioni/",
+	     "title": "Git, l'albero delle versioni che ci salva il progetto",
+	     "url": "https://fundor333.com/post/2016/git-lalbero-delle-versioni/",
+	     "summary": "Spesso e volentieri uno dei problemi dello sviluppo di software è avere backup del codice e condividerlo in modo da poterci lavorare in più persone in contemporanea senza sovrapporre le modifiche. Queste due richieste vengono soddisfatte con un software di version controlling che permetta il lavoro di multipli utenti.\nDopo una analisi ho capito che Git è quello che fa al caso mio.\n{.responsive-img .center-align}\nCome sono arrivato a Git?",
+	     "image": "",
+	     "date_published": "2016-10-10T00:00:00Z",
+	     "date_modified": "2016-10-10T00:00:00Z"        
+	   },
+	   
+	 ]
+      }
