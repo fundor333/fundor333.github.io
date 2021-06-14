@@ -20,8 +20,8 @@
 	     "image": "",
 	     "date_published": "2017-04-04T00:00:00Z",
 	     "date_modified": "2017-04-04T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/",
 	     "title": "Emacs e mai più mouse",
@@ -30,8 +30,8 @@
 	     "image": "",
 	     "date_published": "2017-02-14T00:00:00Z",
 	     "date_modified": "2017-02-14T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/",
 	     "title": "Jupyter Notebook Pelican Combo",
@@ -40,8 +40,8 @@
 	     "image": "",
 	     "date_published": "2017-02-14T00:00:00Z",
 	     "date_modified": "2017-02-14T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/",
 	     "title": "Bot, Telegram e programmazione funzionale",
@@ -50,8 +50,8 @@
 	     "image": "",
 	     "date_published": "2017-02-11T00:00:00Z",
 	     "date_modified": "2017-02-11T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/",
 	     "title": "Grumpy, come convertire il serpente nel gopher",
@@ -60,8 +60,8 @@
 	     "image": "",
 	     "date_published": "2017-01-26T00:00:00Z",
 	     "date_modified": "2017-01-26T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/scrivi-push-public/",
 	     "title": "Scrivi, push e publica",
@@ -70,8 +70,8 @@
 	     "image": "",
 	     "date_published": "2017-01-14T00:00:00Z",
 	     "date_modified": "2017-01-14T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2016/orrori-delle-parentesi/",
 	     "title": "Parentesys Horror",
@@ -80,8 +80,8 @@
 	     "image": "",
 	     "date_published": "2016-11-09T00:00:00Z",
 	     "date_modified": "2016-11-09T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2016/gource-visualizzare-git-repository/",
 	     "title": "Gource, visualizzare Git repository",
@@ -90,8 +90,8 @@
 	     "image": "",
 	     "date_published": "2016-11-07T00:00:00Z",
 	     "date_modified": "2016-11-07T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2016/git-lalbero-delle-versioni/",
 	     "title": "Git, l'albero delle versioni che ci salva il progetto",
@@ -100,7 +100,7 @@
 	     "image": "",
 	     "date_published": "2016-10-10T00:00:00Z",
 	     "date_modified": "2016-10-10T00:00:00Z"        
-	   },
+	   }
 	   
 	 ]
       }

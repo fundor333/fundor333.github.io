@@ -20,8 +20,8 @@
 	     "image": "",
 	     "date_published": "2020-08-20T14:13:40+02:00",
 	     "date_modified": "2020-08-20T14:13:40+02:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/gitmessage-advance-config/",
 	     "title": "Create a custon Git message with GitConfig",
@@ -30,8 +30,8 @@
 	     "image": "",
 	     "date_published": "2020-08-15T15:15:00+02:00",
 	     "date_modified": "2020-08-15T15:15:00+02:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/good-developer-must-be-blogger/",
 	     "title": "Good Developer Must Be Blogger",
@@ -40,8 +40,8 @@
 	     "image": "",
 	     "date_published": "2020-08-01T15:15:00+02:00",
 	     "date_modified": "2020-08-01T15:15:00+02:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/building-my-backend/",
 	     "title": "Building My Backend",
@@ -50,8 +50,8 @@
 	     "image": "",
 	     "date_published": "2020-06-26T09:44:10+02:00",
 	     "date_modified": "2020-06-26T09:44:10+02:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/al-you-need-is-static/",
 	     "title": "Al You Need Is Static",
@@ -60,8 +60,8 @@
 	     "image": "",
 	     "date_published": "2020-06-03T14:00:00Z",
 	     "date_modified": "2020-06-03T14:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/excel-django-combo/",
 	     "title": "Make a Excel Django combo",
@@ -70,8 +70,8 @@
 	     "image": "",
 	     "date_published": "2020-05-20T00:00:00Z",
 	     "date_modified": "2020-05-20T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/dotfiles-bot-yaml/",
 	     "title": "Dotfiles, bot and yaml files",
@@ -80,8 +80,8 @@
 	     "image": "",
 	     "date_published": "2020-05-01T16:00:00Z",
 	     "date_modified": "2020-05-01T16:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/sock-and-socket/",
 	     "title": "Sock and socket",
@@ -90,8 +90,8 @@
 	     "image": "",
 	     "date_published": "2020-04-15T00:00:00Z",
 	     "date_modified": "2020-04-15T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/make-tea-not-big-data/",
 	     "title": "Make a Tea Not Big Data",
@@ -100,7 +100,7 @@
 	     "image": "",
 	     "date_published": "2020-01-20T00:00:00Z",
 	     "date_modified": "2020-01-20T00:00:00Z"        
-	   },
+	   }
 	   
 	 ]
       }

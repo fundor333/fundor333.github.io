@@ -20,8 +20,8 @@
 	     "image": "",
 	     "date_published": "2021-05-03T09:12:14+02:00",
 	     "date_modified": "2021-05-03T09:12:14+02:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2021/advance-git-config-and-ssh-config/",
 	     "title": "Advance Git Config and Ssh Config",
@@ -30,8 +30,8 @@
 	     "image": "",
 	     "date_published": "2021-03-11T10:00:25+01:00",
 	     "date_modified": "2021-03-11T10:00:25+01:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2021/the-team-makefile/",
 	     "title": "The Team Makefile",
@@ -40,8 +40,8 @@
 	     "image": "",
 	     "date_published": "2021-01-15T12:27:21+01:00",
 	     "date_modified": "2021-01-15T12:27:21+01:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/adding-progress-bar-in-python/",
 	     "title": "Adding Progress Bar in Python",
@@ -50,8 +50,8 @@
 	     "image": "",
 	     "date_published": "2020-11-30T13:24:20+01:00",
 	     "date_modified": "2020-11-30T13:24:20+01:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/keep_update_gitlab/",
 	     "title": "Keep update Gitlab",
@@ -60,8 +60,8 @@
 	     "image": "",
 	     "date_published": "2020-11-16T20:30:00+01:00",
 	     "date_modified": "2020-11-16T20:30:00+01:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/why-you-need-a-doc/",
 	     "title": "Why you need a doc",
@@ -70,8 +70,8 @@
 	     "image": "",
 	     "date_published": "2020-11-09T11:00:50+01:00",
 	     "date_modified": "2020-11-09T11:00:50+01:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/manage-site-and-certificate/",
 	     "title": "Manage Site and Certificate",
@@ -80,8 +80,8 @@
 	     "image": "",
 	     "date_published": "2020-10-01T22:12:20+02:00",
 	     "date_modified": "2020-10-01T22:12:20+02:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/color-your-python-output/",
 	     "title": "Color Your Python Output",
@@ -90,8 +90,8 @@
 	     "image": "",
 	     "date_published": "2020-09-10T21:06:21+02:00",
 	     "date_modified": "2020-09-10T21:06:21+02:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2020/backup-your-crontab/",
 	     "title": "Backup Your Crontab",
@@ -100,7 +100,7 @@
 	     "image": "",
 	     "date_published": "2020-08-30T13:49:30+02:00",
 	     "date_modified": "2020-08-30T13:49:30+02:00"        
-	   },
+	   }
 	   
 	 ]
       }

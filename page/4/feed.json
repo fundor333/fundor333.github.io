@@ -20,8 +20,8 @@
 	     "image": "",
 	     "date_published": "2018-02-12T00:00:00Z",
 	     "date_modified": "2018-02-12T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2018/graphql-and-working-with-it/",
 	     "title": "GraphQL and working with it",
@@ -30,8 +30,8 @@
 	     "image": "",
 	     "date_published": "2018-01-16T00:00:00Z",
 	     "date_modified": "2018-01-16T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/dotfile-e-le-mie-config/",
 	     "title": "DotFile e le mie config",
@@ -40,8 +40,8 @@
 	     "image": "",
 	     "date_published": "2017-12-04T00:00:00Z",
 	     "date_modified": "2017-12-04T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/astemio-al-terzo-databeers/",
 	     "title": "Un Astemio al Tezo Databeers",
@@ -50,8 +50,8 @@
 	     "image": "",
 	     "date_published": "2017-11-23T00:00:00Z",
 	     "date_modified": "2017-11-23T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/",
 	     "title": "Utilizzi alternativi di Firebase",
@@ -60,8 +60,8 @@
 	     "image": "",
 	     "date_published": "2017-09-04T00:00:00Z",
 	     "date_modified": "2017-09-04T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/",
 	     "title": "Pipenv e come tutto è in uno",
@@ -70,8 +70,8 @@
 	     "image": "",
 	     "date_published": "2017-07-01T00:00:00Z",
 	     "date_modified": "2017-07-01T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/google-io-2017/",
 	     "title": "Google IO 2017",
@@ -80,8 +80,8 @@
 	     "image": "",
 	     "date_published": "2017-05-18T00:00:00Z",
 	     "date_modified": "2017-05-18T00:00:00Z"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/hugo-into-docker/",
 	     "title": "Hugo into Docker",
@@ -90,8 +90,8 @@
 	     "image": "",
 	     "date_published": "2017-05-16T12:27:11+02:00",
 	     "date_modified": "2017-05-16T12:27:11+02:00"        
-	   },
-	   
+	   }
+	   ,
 	    {
 	     "id": "https://fundor333.com/post/2017/il-primo-periodo-con-emacs/",
 	     "title": "Il primo periodo con Emacs",
@@ -100,7 +100,7 @@
 	     "image": "",
 	     "date_published": "2017-04-21T00:00:00Z",
 	     "date_modified": "2017-04-21T00:00:00Z"        
-	   },
+	   }
 	   
 	 ]
       }

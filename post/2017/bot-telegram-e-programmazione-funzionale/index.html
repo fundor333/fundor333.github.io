@@ -51,49 +51,103 @@
 <meta itemprop="dateModified" content="2017-02-11T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="467">
 <meta itemprop="keywords" content="bot,python,coding," />
-  <meta name="description" content="Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python"/>
-    <meta name="robots" content="noodp"/>
-    <link rel="canonical" href="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/" />
+  <meta name="description"
+  content="Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/" />
 
-    
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python" />
-    <meta name="twitter:title" content="Bot, Telegram e programmazione funzionale - Fundor333" />
-    <meta name="twitter:site" content="" />
-    <meta name="twitter:creator" content="" />
-    
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta content="Bot, Telegram e programmazione funzionale - Fundor333" property="og:title">
-    <meta content="Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python" property="og:description">
-    <meta property="og:url" content="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/" />
-    <meta property="og:site_name" content="Fundor333" />
-    <meta property="article:published_time" content="2017-02-11 00:00:00 &#43;0000 UTC" />
 
-    
-    
-        <script type="application/ld+json">
-        
-        {
-            "@context": "http://schema.org",
-            "@type": "BlogPosting",
-            "headline": "Bot, Telegram e programmazione funzionale",
-            "genre": "dev",
-            "url": "https:\/\/fundor333.com\/post\/2017\/bot-telegram-e-programmazione-funzionale\/",
-            "datePublished": "2017-02-11 00:00:00 \u002b0000 UTC",
-            "description": "Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python",
-            "author": {
-                "@type": "Person",
-                "name": ""
-            }
-         }
-        
-        </script>
-    
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description"
+  content="Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python" />
+<meta name="twitter:title"
+  content="Bot, Telegram e programmazione funzionale - Fundor333" />
+<meta name="twitter:site" content="" />
+<meta name="twitter:creator" content="" />
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta content="Bot, Telegram e programmazione funzionale - Fundor333"
+  property="og:title">
+<meta content="Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python"
+  property="og:description">
+<meta property="og:url" content="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/" />
+<meta property="og:site_name" content="Fundor333" />
+
+<meta property="article:published_time" content="2017-02-11 00:00:00 &#43;0000 UTC" />
+
+
+
+<script type="application/ld+json">
+  {
+    {
+      if eq.Section "post"
+    }
+  } {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Bot, Telegram e programmazione funzionale",
+    "genre": "dev",
+    "url": "https:\/\/fundor333.com\/post\/2017\/bot-telegram-e-programmazione-funzionale\/",
+    "datePublished": "2017-02-11 00:00:00 \u002b0000 UTC",
+    "description": "Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python",
+    "author": {
+      "@type": "Person",
+      "name": ""
+    }
+  } {
+    {
+      else
+    }
+  } {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "https:\/\/fundor333.com\/post\/2017\/bot-telegram-e-programmazione-funzionale\/",
+    "name": "Bot, Telegram e programmazione funzionale",
+    "author": {
+      "@type": "Person",
+      "name": "{ .Site.Params.author }}"
+    },
+    "description": "{ .Site.Params.description }}",
+  } {
+    {
+      end
+    }
+  }
+
+</script>
+
 
 
   
+
+  <script>
+    const colorScheme = localStorage.getItem("color-scheme") || "light-mode";
+  </script>
 </head>
+
+<script>
+  
+function setTheme(themeName) {
+  localStorage.setItem('theme', themeName);
+  document.documentElement.className = themeName;
+  $('.fa-theme').toggle();
+}
+function toggleTheme() {
+ if (localStorage.getItem('theme') === 'theme-dark'){
+     setTheme('theme-light');
+ } else {
+     setTheme('theme-dark');
+ }
+}
+(function () {
+ if (localStorage.getItem('theme') === 'theme-dark') {
+     setTheme('theme-dark');
+ } else {
+     setTheme('theme-light');
+ }
+})();
+</script>
 
 
 <body id="snowflakes-container">
@@ -200,7 +254,6 @@
       </div>
 
       <br>
-
       <div class="row">
         
 <div class="container">
@@ -538,13 +591,34 @@ app <span style="color:#f92672">=</span> Flask(__name__)
   <footer class="d-flex justify-content-center f333 navbar">
   <ul class="nav justify-content-center">
     <li class="nav-item">
-      <a href='https://webring.recurse.com' class="nav-item" target='_blank'><img src='https://webring.recurse.com/icon.png'  width="30" height="33"/></a>
+      <a href='https://webring.recurse.com' class="nav-item" target='_blank'><img
+          src='https://webring.recurse.com/icon.png' width="30" height="33" /></a>
+
       <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
-        <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+        <div class="fa-theme" style="display:none">
+          <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.black.svg' />
+        </div>
+        <div class="fa-theme">
+          <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+        </div>
       </a>
     </li>
   </ul>
 </footer>
+
+<div class="fixed-bottom">
+  <div class="float-right pb-3 pr-5">
+    <button onclick="toggleTheme()" class="btn btn-thm btn-lg">
+      <div class="fa-theme" style="display:none">
+        <i class="fas fa-starfighter"></i>
+      </div>
+      <div class="fa-theme">
+        <i class="fas fa-starfighter-alt"></i>
+      </div>
+    </button>
+  </div>
+</div>
+
 <br>
 
 <script src="/js/snowstorm.js"></script>
@@ -554,36 +628,42 @@ app <span style="color:#f92672">=</span> Flask(__name__)
   function isWinter(dt) {
     const m = dt.getMonth();
     console.log(m)
-    return ( m<1 || m>10);
-}
+    return (m < 1 || m > 10);
+  }
 
-function isBirthDay(dt){
-  return dt.getMonth == 2 && dt.getDate() == 3;
-}
+  function isBirthDay(dt) {
+    return dt.getMonth == 2 && dt.getDate() == 3;
+  }
 
-function isValentineDay(dt){
-  return dt.getMonth == 1 && dt.getDate() == 14;
-}
+  function isValentineDay(dt) {
+    return dt.getMonth == 1 && dt.getDate() == 14;
+  }
 
-var winterCharacter = "❄️"
-var heartCharacter = "❤️"
-var presentCharacter = "🎁"
+  var winterCharacter = "❄️"
+  var heartCharacter = "❤️"
+  var presentCharacter = "🎁"
 
-if ([isWinter(new Date()),isBirthDay(new Date()),isValentineDay(new Date())].some(function(a){return true ==a}) ) {
-  snowStorm = snowFunction(window, document);
-  snowStorm.flakesMaxActive = 96;    
-  snowStorm.useTwinkleEffect = true; 
-  snowStorm.followMouse = false;
-  snowStorm.freezeOnBlur = true;
-}
+  if ([isWinter(new Date()), isBirthDay(new Date()), isValentineDay(new Date())].some(function (a) {
+      return true == a
+    })) {
+    snowStorm = snowFunction(window, document);
+    snowStorm.flakesMaxActive = 96; 
+    snowStorm.useTwinkleEffect = true; 
+    snowStorm.followMouse = false;
+    snowStorm.freezeOnBlur = true;
+  }
 
-if (isWinter(new Date())){snowStorm.snowCharacter = winterCharacter;}
-if (isBirthDay(new Date())){snowStorm.snowCharacter = presentCharacter;}
-if (isValentineDay(new Date())){snowStorm.snowCharacter = heartCharacter;}
-
+  if (isWinter(new Date())) {
+    snowStorm.snowCharacter = winterCharacter;
+  }
+  if (isBirthDay(new Date())) {
+    snowStorm.snowCharacter = presentCharacter;
+  }
+  if (isValentineDay(new Date())) {
+    snowStorm.snowCharacter = heartCharacter;
+  }
 
 </script>
-
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
