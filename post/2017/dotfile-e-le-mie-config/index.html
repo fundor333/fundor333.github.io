@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
   <style>
     @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
@@ -123,6 +124,9 @@
 
   <script>
     const colorScheme = localStorage.getItem("color-scheme") || "light-mode";
+    $( document ).ready(function() {
+    setTheme(colorScheme);
+    });
   </script>
 </head>
 
@@ -131,7 +135,16 @@
 function setTheme(themeName) {
   localStorage.setItem('theme', themeName);
   document.documentElement.className = themeName;
-  $('.fa-theme').toggle();
+  if (themeName === "theme-dark")
+  {
+    $(".dark").hide();
+    $(".light").show();
+  }
+  else
+  {
+    $(".dark").show();
+    $(".light").hide();
+  }
 }
 function toggleTheme() {
  if (localStorage.getItem('theme') === 'theme-dark'){
@@ -520,10 +533,10 @@ E' importante rimanere anche aggiornati su come cambiano i config dei programmi 
           src='https://webring.recurse.com/icon.png' width="30" height="33" /></a>
 
       <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
-        <div class="fa-theme" style="display:none">
+        <div class="fa-theme dark" style="display:none">
           <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.black.svg' />
         </div>
-        <div class="fa-theme">
+        <div class="fa-theme light" style="display:none">
           <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
         </div>
       </a>
@@ -534,10 +547,10 @@ E' importante rimanere anche aggiornati su come cambiano i config dei programmi 
 <div class="fixed-bottom">
   <div class="float-right pb-3 pr-5">
     <button onclick="toggleTheme()" class="btn btn-thm btn-lg">
-      <div class="fa-theme" style="display:none">
+      <div class="fa-theme light" style="display:none">
         <i class="fas fa-starfighter"></i>
       </div>
-      <div class="fa-theme">
+      <div class="fa-theme dark" style="display:none">
         <i class="fas fa-starfighter-alt"></i>
       </div>
     </button>
