@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="theme-dark">
 
 <head>
   <meta charset="utf-8" />
@@ -121,45 +121,59 @@
 
 
   
-
-  <script>
-    const colorScheme = localStorage.getItem("color-scheme") || "light-mode";
-    $( document ).ready(function() {
-    setTheme(colorScheme);
-    });
-  </script>
 </head>
 
 <script>
-  
-function setTheme(themeName) {
-  localStorage.setItem('theme', themeName);
-  document.documentElement.className = themeName;
-  if (themeName === "theme-dark")
-  {
-    $(".dark").hide();
-    $(".light").show();
+
+    const changeThemeToDark = () => {
+      localStorage.setItem("theme", "dark");
+      document.documentElement.className ="theme-dark";
+      $(".dark").hide();
+      $(".light").show();
+    }
+
+    const changeThemeToLight = () => {
+      localStorage.setItem("theme", "light");
+      document.documentElement.className ="theme-light";
+      $(".dark").show();
+      $(".light").hide();
+    }
+
+    function applyTheme(theme) {
+      if (theme === "light"){
+        changeThemeToLight()
+      }
+      else if (theme === "dark"){
+        changeThemeToDark()
+      }
+      else{
+        changeThemeToDark()
+      }
   }
-  else
-  {
-    $(".dark").show();
-    $(".light").hide();
-  }
+
+  const currentTheme = localStorage.getItem("theme");
+if (currentTheme == "dark") {
+  changeThemeToDark();
+} else if (currentTheme == "light") {
+  changeThemeToLight();
 }
-function toggleTheme() {
- if (localStorage.getItem('theme') === 'theme-dark'){
-     setTheme('theme-light');
- } else {
-     setTheme('theme-dark');
- }
+
+  $( window ).on( "load",function() {
+  const currentTheme = localStorage.getItem("theme") || "dark";
+
+  applyTheme(currentTheme);
+
+  document.querySelector("#theme").addEventListener("change", function () {
+      localStorage.setItem("theme", this.value);
+      applyTheme(this.value);
+  });
+
+  for (const optionElement of document.querySelectorAll("#theme option")) {
+    optionElement.selected = currentTheme === optionElement.value;
 }
-(function () {
- if (localStorage.getItem('theme') === 'theme-dark') {
-     setTheme('theme-dark');
- } else {
-     setTheme('theme-light');
- }
-})();
+
+});
+
 </script>
 
 
@@ -533,11 +547,13 @@ Questo ha portato alla creazione di <em>N</em> sistemi di notifica, deployment e
 
 <div class="fixed-bottom">
   <div class="float-right pb-3 pr-5">
-    <button onclick="toggleTheme()" class="btn btn-thm btn-lg">
-      <div class="fa-theme light" style="display:none">
+    <button class="btn btn-thm btn-lg light" style="display:none" onclick="changeThemeToLight()">
+      <div class="fa-theme">
         <i class="fas fa-starfighter"></i>
       </div>
-      <div class="fa-theme dark" style="display:none">
+    </button>
+    <button class="btn btn-thm btn-lg dark" style="display:none" onclick="changeThemeToDark()">
+      <div class="fa-theme">
         <i class="fas fa-starfighter-alt"></i>
       </div>
     </button>
