@@ -50,7 +50,7 @@
   <meta itemprop="name" content="SSL Check With a Script">
 <meta itemprop="description" content="You need to check a lot of SSL certificate, some domain and others things"><meta itemprop="datePublished" content="2020-08-20T14:13:40&#43;02:00" />
 <meta itemprop="dateModified" content="2020-08-20T14:13:40&#43;02:00" />
-<meta itemprop="wordCount" content="838">
+<meta itemprop="wordCount" content="836">
 <meta itemprop="keywords" content="coding,devops," />
   <meta name="description"
   content="You need to check a lot of SSL certificate, some domain and others things" />
@@ -376,7 +376,7 @@ logger <span style="color:#f92672">=</span> logging<span style="color:#f92672">.
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ssl_valid_time_remaining</span>(hostname: str) <span style="color:#f92672">-&gt;</span> datetime<span style="color:#f92672">.</span>timedelta:
   expires <span style="color:#f92672">=</span> ssl_expiry_datetime(hostname)
-  logger<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">&#34;SSL cert for {} expires at {}&#34;</span><span style="color:#f92672">.</span>format(hostname, expires<span style="color:#f92672">.</span>isoformat()))
+  logger<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">&#34;SSL cert for </span><span style="color:#e6db74">{}</span><span style="color:#e6db74"> expires at </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hostname, expires<span style="color:#f92672">.</span>isoformat()))
   <span style="color:#66d9ef">return</span> expires <span style="color:#f92672">-</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>utcnow()
 </code></pre></td></tr></table>
 </div>
@@ -450,7 +450,7 @@ logger <span style="color:#f92672">=</span> logging<span style="color:#f92672">.
     host <span style="color:#f92672">=</span> host<span style="color:#f92672">.</span>strip()
     message <span style="color:#f92672">=</span> test_host(host)
     end_message <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> message
-  <span style="color:#66d9ef">print</span>(end_message)
+  print(end_message)
   popupmsg(end_message)
 
 </code></pre></td></tr></table>
@@ -541,7 +541,7 @@ logger <span style="color:#f92672">=</span> logging<span style="color:#f92672">.
 
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">ssl_valid_time_remaining</span>(hostname: str) <span style="color:#f92672">-&gt;</span> datetime<span style="color:#f92672">.</span>timedelta:
   expires <span style="color:#f92672">=</span> ssl_expiry_datetime(hostname)
-  logger<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">&#34;SSL cert for {} expires at {}&#34;</span><span style="color:#f92672">.</span>format(hostname, expires<span style="color:#f92672">.</span>isoformat()))
+  logger<span style="color:#f92672">.</span>debug(<span style="color:#e6db74">&#34;SSL cert for </span><span style="color:#e6db74">{}</span><span style="color:#e6db74"> expires at </span><span style="color:#e6db74">{}</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.</span>format(hostname, expires<span style="color:#f92672">.</span>isoformat()))
   <span style="color:#66d9ef">return</span> expires <span style="color:#f92672">-</span> datetime<span style="color:#f92672">.</span>datetime<span style="color:#f92672">.</span>utcnow()
 
 
@@ -572,7 +572,7 @@ logger <span style="color:#f92672">=</span> logging<span style="color:#f92672">.
     host <span style="color:#f92672">=</span> host<span style="color:#f92672">.</span>strip()
     message <span style="color:#f92672">=</span> test_host(host)
     end_message <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> message
-  <span style="color:#66d9ef">print</span>(end_message)
+  print(end_message)
   popupmsg(end_message)
 
 </code></pre></td></tr></table>

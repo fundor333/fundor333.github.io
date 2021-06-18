@@ -353,7 +353,7 @@ if (currentTheme == "dark") {
 
 app <span style="color:#f92672">=</span> Flask(__name__)
 
-<span style="color:#a6e22e">@app.route</span>(<span style="color:#e6db74">&#34;/&#34;</span>)
+<span style="color:#a6e22e">@app</span><span style="color:#f92672">.</span>route(<span style="color:#e6db74">&#34;/&#34;</span>)
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">hello</span>():
 	<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Hello World!&#34;</span>
 <span style="display:block;width:100%;background-color:#3c3d38">
@@ -387,7 +387,7 @@ app <span style="color:#f92672">=</span> Flask(__name__)
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a6e22e">@mybot.command_handler</span>(<span style="color:#e6db74">&#39;start&#39;</span>)
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a6e22e">@mybot</span><span style="color:#f92672">.</span>command_handler(<span style="color:#e6db74">&#39;start&#39;</span>)
 <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">start</span>(bot,update):
 	<span style="color:#f92672">/*</span> codice che genera il resto<span style="color:#f92672">*/</span></code></pre></td></tr></table>
 </div>
@@ -408,7 +408,7 @@ app <span style="color:#f92672">=</span> Flask(__name__)
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">location_generator</span>(bot, name, text, lonlat):
-  <span style="color:#a6e22e">@bot.command_handler</span>(name)
+  <span style="color:#a6e22e">@bot</span><span style="color:#f92672">.</span>command_handler(name)
   <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decoreted</span>(bot, update):
 	  logging<span style="color:#f92672">.</span>info(<span style="color:#e6db74">&#34;Give the &#34;</span> <span style="color:#f92672">+</span> name <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; info&#34;</span>)
 	  BOTAN<span style="color:#f92672">.</span>track(update<span style="color:#f92672">.</span>message, name)

@@ -336,7 +336,7 @@ if (currentTheme == "dark") {
 
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">100</span>):
 	sleep(<span style="color:#ae81ff">1</span>)
-	<span style="color:#66d9ef">print</span>(i)
+	print(i)
 </code></pre></td></tr></table>
 </div>
 </div><p>This code print the first 100 number one for row. If I want to use a progress&rsquo;s progress bar I need to to something like this:</p>
@@ -359,7 +359,7 @@ if (currentTheme == "dark") {
 bar <span style="color:#f92672">=</span> Bar(<span style="color:#e6db74">&#39;Processing&#39;</span>, max<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>)
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">100</span>):
 	sleep(<span style="color:#ae81ff">1</span>)
-	<span style="color:#66d9ef">print</span>(i)
+	print(i)
 	bar<span style="color:#f92672">.</span>next()
 bar<span style="color:#f92672">.</span>finish()
 </code></pre></td></tr></table>
@@ -384,7 +384,7 @@ bar<span style="color:#f92672">.</span>finish()
 
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> progressbar<span style="color:#f92672">.</span>progressbar(range(<span style="color:#ae81ff">100</span>)):
 	sleep(<span style="color:#ae81ff">1</span>)
-	<span style="color:#66d9ef">print</span>(i)
+	print(i)
 </code></pre></td></tr></table>
 </div>
 </div><p>you can have a progress bar using an iterator.
@@ -416,7 +416,7 @@ widgets<span style="color:#f92672">=</span>[
 
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> progressbar<span style="color:#f92672">.</span>progressbar(range(<span style="color:#ae81ff">100</span>), widgets<span style="color:#f92672">=</span>widgets):
 	sleep(<span style="color:#ae81ff">1</span>)
-	<span style="color:#66d9ef">print</span>(i)
+	print(i)
 </code></pre></td></tr></table>
 </div>
 </div><p>This is a custom output for the progress bar following the docs find in the project documentation<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
@@ -441,7 +441,7 @@ widgets<span style="color:#f92672">=</span>[
 
 <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> tqdm(range(<span style="color:#ae81ff">100</span>)):
 	sleep(<span style="color:#ae81ff">1</span>)
-	<span style="color:#66d9ef">print</span>(i)
+	print(i)
 </code></pre></td></tr></table>
 </div>
 </div><p>Here<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> for the docs.</p>
@@ -471,7 +471,7 @@ items <span style="color:#f92672">=</span> range(<span style="color:#ae81ff">100
 <span style="color:#66d9ef">with</span> alive_bar(len(items)) <span style="color:#66d9ef">as</span> bar:  
 	<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> items:
 		sleep(<span style="color:#ae81ff">1</span>)
-		<span style="color:#66d9ef">print</span>(i) 
+		print(i) 
 		bar()                
 </code></pre></td></tr></table>
 </div>

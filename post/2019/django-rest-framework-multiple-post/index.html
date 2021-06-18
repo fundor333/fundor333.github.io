@@ -381,13 +381,13 @@ if (currentTheme == "dark") {
         <span style="color:#66d9ef">for</span> data <span style="color:#f92672">in</span> request<span style="color:#f92672">.</span>data:
             <span style="color:#66d9ef">try</span>:
                 instance <span style="color:#f92672">=</span> MyModel<span style="color:#f92672">.</span>objects<span style="color:#f92672">.</span>get(unique_id<span style="color:#f92672">=</span>data[<span style="color:#e6db74">&#34;unique_id&#34;</span>])
-                created <span style="color:#f92672">=</span> False
+                created <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span>
             <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span>:
                 instance <span style="color:#f92672">=</span> MyModel<span style="color:#f92672">.</span>objects<span style="color:#f92672">.</span>create(
                     field1<span style="color:#f92672">=</span>data[<span style="color:#e6db74">&#34;field1&#34;</span>],
                     field2<span style="color:#f92672">=</span>data[<span style="color:#e6db74">&#34;field2&#34;</span>],
                 )
-                created <span style="color:#f92672">=</span> True
+                created <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
     
             <span style="color:#66d9ef">if</span> created:
                 serializer <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>get_serializer(data<span style="color:#f92672">=</span>data)

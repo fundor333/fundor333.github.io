@@ -327,7 +327,7 @@ It can be a lot of text and you need to make more readible for the user/sysadmin
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
-<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[91m&#34;</span><span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;I am a red text&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[0m&#34;</span>)
+print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[91m&#34;</span><span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;I am a red text&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[0m&#34;</span>)
 
 </code></pre></td></tr></table>
 </div>
@@ -368,16 +368,16 @@ It can be a lot of text and you need to make more readible for the user/sysadmin
     ENDC <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[0m&#39;</span>
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">error</span>(self,string):
-        <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#34;{self.FAIL}{string}{self.ENDC}&#34;</span>)
+        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>FAIL<span style="color:#e6db74">}{</span>string<span style="color:#e6db74">}{</span>self<span style="color:#f92672">.</span>ENDC<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">info</span>(self,string):
-        <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#34;{self.OKGREEN}{string}{self.ENDC}&#34;</span>)
+        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>OKGREEN<span style="color:#e6db74">}{</span>string<span style="color:#e6db74">}{</span>self<span style="color:#f92672">.</span>ENDC<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">debug</span>(self,string):
-        <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#34;{self.OKBLUE}{string}{self.ENDC}&#34;</span>)
+        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>OKBLUE<span style="color:#e6db74">}{</span>string<span style="color:#e6db74">}{</span>self<span style="color:#f92672">.</span>ENDC<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">warning</span>(self,string):
-        <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#34;{self.WARNING}{string}{self.ENDC}&#34;</span>)		
+        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>WARNING<span style="color:#e6db74">}{</span>string<span style="color:#e6db74">}{</span>self<span style="color:#f92672">.</span>ENDC<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)		
 
 </code></pre></td></tr></table>
 </div>
