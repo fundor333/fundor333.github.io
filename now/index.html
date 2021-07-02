@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark"><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+<script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<title>
+  now  - Fundor333
+</title>
+<meta name="author" content="Fundor333" />
+
+
+
+<link rel="stylesheet" href="/css/styles.min.css">
+
+
+
+
+ 
+<link rel="canonical" href="https://fundor333.com/now/" />
+ 
+
+
+<meta property="og:title" content="now" />
+<meta property="og:description" content="Right now I am working on:
+ A django backend Bots with Telegram A DevOps module in Python Some Docker work  This is a now page, and if you have your own site, you should make one too
+NB: I love reading" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fundor333.com/now/" /><meta property="og:image" content="https://fundor333.com/img/pilogo.jpg"/><meta property="article:section" content="" />
+
+<meta property="og:site_name" content="Fundor333" />
+
+
+
+<meta itemprop="name" content="now">
+<meta itemprop="description" content="Right now I am working on:
+ A django backend Bots with Telegram A DevOps module in Python Some Docker work  This is a now page, and if you have your own site, you should make one too
+NB: I love reading">
+
+<meta itemprop="wordCount" content="41"><meta itemprop="image" content="https://fundor333.com/img/pilogo.jpg"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fundor333.com/img/pilogo.jpg"/>
+
+<meta name="twitter:title" content="now"/>
+<meta name="twitter:description" content="Right now I am working on:
+ A django backend Bots with Telegram A DevOps module in Python Some Docker work  This is a now page, and if you have your own site, you should make one too
+NB: I love reading"/>
+
+
+
+<body>
+  <br><header>
+  <div class="d-flex align-items-center justify-content-center">
+    <a href="https://fundor333.com/">
+      <img src="/img/pilogo.jpg" alt="logo" class="img-fluid" width="60">
+    </a>
+  </div>
+  <div class="d-flex align-items-center justify-content-center d-none d-md-block">
+    <a href="https://fundor333.com/">
+      <h1 class="d-flex align-items-center justify-content-center">Fundor333</h1>
+    </a>
+  </div>
+
+  <div class="d-flex align-items-center justify-content-center">
+     
+    <a href=" /post/" class="block md:inline-block btn">blog</a>
+    
+    <a href=" /hoarding/" class="block md:inline-block btn">hoarding</a>
+    
+    <a href=" /cv/" class="block md:inline-block btn">cv</a>
+    
+    <a href=" /now/" class="block md:inline-block btn">now</a>
+    
+    <a href=" /project/" class="block md:inline-block btn">projects</a>
+    
+    <a href=" /note/" class="block md:inline-block btn">note</a>
+    
+  </div>
+
+  <div class="d-flex align-items-center justify-content-center">
+    
+    
+    <a href="https://github.com/fundor333" class="btn">
+      <i class="fab fa-github" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.facebook.com/fundor333" class="btn">
+      <i class="fab fa-facebook" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://twitter.com/fundor333" class="btn">
+      <i class="fab fa-twitter" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://mastodon.social/@fundor333" class="btn">
+      <i class="fab fa-mastodon" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A" class="btn">
+      <i class="fab fa-youtube" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.instagram.com/fundor333/" class="btn">
+      <i class="fab fa-instagram" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.flickr.com/people/fundor333/" class="btn">
+      <i class="fab fa-flickr" aria-hidden="true">
+      </i>
+    </a>
+    
+  </div>
+</header>
+
+
+<script>
+  const changeThemeToDark = () => {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.className = "theme-dark";
+    $(".dark").hide();
+    $(".light").show();
+  }
+
+  const changeThemeToLight = () => {
+    localStorage.setItem("theme", "light");
+    document.documentElement.className = "theme-light";
+    $(".dark").show();
+    $(".light").hide();
+  }
+
+  function applyTheme(theme) {
+    if (theme === "light") {
+      changeThemeToLight()
+    } else if (theme === "dark") {
+      changeThemeToDark()
+    } else {
+      changeThemeToDark()
+    }
+  }
+
+  const currentTheme = localStorage.getItem("theme");
+  if (currentTheme == "dark") {
+    changeThemeToDark();
+  } else if (currentTheme == "light") {
+    changeThemeToLight();
+  }
+
+  $(window).on("load", function () {
+    const currentTheme = localStorage.getItem("theme") || "dark";
+
+    applyTheme(currentTheme);
+
+    document.querySelector("#theme").addEventListener("change", function () {
+      localStorage.setItem("theme", this.value);
+      applyTheme(this.value);
+    });
+
+    for (const optionElement of document.querySelectorAll("#theme option")) {
+      optionElement.selected = currentTheme === optionElement.value;
+    }
+
+  });
+
+</script>
+<div id="content" class="container">
+    <hr>
+<h2>now</h2>
+<hr>
+<p>Right now I am working on:</p>
+<ul>
+<li>A django backend</li>
+<li>Bots with Telegram</li>
+<li>A DevOps module in Python</li>
+<li>Some Docker work</li>
+</ul>
+<p>This is a now page, and if you have your own site, <a href="https://nownownow.com/about">you should make one too</a></p>
+<p>NB: I love reading</p>
+
+
+    <hr>
+    <br>
+  </div>
+  <div class="container"><footer class="d-flex align-items-center justify-content-center px-4 py-5">
+  <a href='https://webring.recurse.com' target='_blank' class="btn">
+    <img src='https://webring.recurse.com/icon.png' width="30" height="33" />
+  </a>
+
+  <a href='https://webring.xxiivv.com/#random' target='_blank' class="btn">
+    <img width=" 30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+  </a>
+</footer>
+
+<div class="fixed-bottom px-5 py-3">
+  <div class="d-flex align-items-end justify-content-end">
+    <button class="btn btn-thm btn-lg light" style="display:none" onclick="changeThemeToLight()">
+      <div class="fa-theme">
+        <i class="fas fa-starfighter"></i>
+      </div>
+    </button>
+    <button class="btn btn-thm btn-lg dark" style="display:none" onclick="changeThemeToDark()">
+      <div class="fa-theme">
+        <i class="fas fa-starfighter-alt"></i>
+      </div>
+    </button>
+  </div>
+</div>
+</div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 360);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+</body>
+
+</html>

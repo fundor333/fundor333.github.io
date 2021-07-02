@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark"><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+<script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<title>
+  --quiet  - Fundor333
+</title>
+<meta name="author" content="Fundor333" />
+
+
+
+<link rel="stylesheet" href="/css/styles.min.css">
+
+
+
+
+
+
+<link rel="alternate" type="application/rss+xml" href="https://fundor333.com/quiet/index.xml" title="Fundor333" />
+
+<meta property="og:title" content="--quiet" />
+<meta property="og:description" content="Fundor333&#39;s personal blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://fundor333.com/quiet/" /><meta property="og:image" content="https://fundor333.com/img/pilogo.jpg"/><meta property="og:site_name" content="Fundor333" />
+
+
+
+<meta itemprop="name" content="--quiet">
+<meta itemprop="description" content="Fundor333&#39;s personal blog">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fundor333.com/img/pilogo.jpg"/>
+
+<meta name="twitter:title" content="--quiet"/>
+<meta name="twitter:description" content="Fundor333&#39;s personal blog"/>
+
+
+
+<body>
+  <br><header>
+  <div class="d-flex align-items-center justify-content-center">
+    <a href="https://fundor333.com/">
+      <img src="/img/pilogo.jpg" alt="logo" class="img-fluid" width="60">
+    </a>
+  </div>
+  <div class="d-flex align-items-center justify-content-center d-none d-md-block">
+    <a href="https://fundor333.com/">
+      <h1 class="d-flex align-items-center justify-content-center">Fundor333</h1>
+    </a>
+  </div>
+
+  <div class="d-flex align-items-center justify-content-center">
+     
+    <a href=" /post/" class="block md:inline-block btn">blog</a>
+    
+    <a href=" /hoarding/" class="block md:inline-block btn">hoarding</a>
+    
+    <a href=" /cv/" class="block md:inline-block btn">cv</a>
+    
+    <a href=" /now/" class="block md:inline-block btn">now</a>
+    
+    <a href=" /project/" class="block md:inline-block btn">projects</a>
+    
+    <a href=" /note/" class="block md:inline-block btn">note</a>
+    
+  </div>
+
+  <div class="d-flex align-items-center justify-content-center">
+    
+    
+    <a href="https://github.com/fundor333" class="btn">
+      <i class="fab fa-github" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.facebook.com/fundor333" class="btn">
+      <i class="fab fa-facebook" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://twitter.com/fundor333" class="btn">
+      <i class="fab fa-twitter" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://mastodon.social/@fundor333" class="btn">
+      <i class="fab fa-mastodon" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A" class="btn">
+      <i class="fab fa-youtube" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.instagram.com/fundor333/" class="btn">
+      <i class="fab fa-instagram" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.flickr.com/people/fundor333/" class="btn">
+      <i class="fab fa-flickr" aria-hidden="true">
+      </i>
+    </a>
+    
+  </div>
+</header>
+
+
+<script>
+  const changeThemeToDark = () => {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.className = "theme-dark";
+    $(".dark").hide();
+    $(".light").show();
+  }
+
+  const changeThemeToLight = () => {
+    localStorage.setItem("theme", "light");
+    document.documentElement.className = "theme-light";
+    $(".dark").show();
+    $(".light").hide();
+  }
+
+  function applyTheme(theme) {
+    if (theme === "light") {
+      changeThemeToLight()
+    } else if (theme === "dark") {
+      changeThemeToDark()
+    } else {
+      changeThemeToDark()
+    }
+  }
+
+  const currentTheme = localStorage.getItem("theme");
+  if (currentTheme == "dark") {
+    changeThemeToDark();
+  } else if (currentTheme == "light") {
+    changeThemeToLight();
+  }
+
+  $(window).on("load", function () {
+    const currentTheme = localStorage.getItem("theme") || "dark";
+
+    applyTheme(currentTheme);
+
+    document.querySelector("#theme").addEventListener("change", function () {
+      localStorage.setItem("theme", this.value);
+      applyTheme(this.value);
+    });
+
+    for (const optionElement of document.querySelectorAll("#theme option")) {
+      optionElement.selected = currentTheme === optionElement.value;
+    }
+
+  });
+
+</script>
+<div id="content" class="container">
+    <hr>
+
+<section class="container-fluid">
+  <h2><i class="fas fa-alien-monster"></i> --quiet <i class="fas fa-alien-monster"></i></h2>
+  <hr>
+  <p>The floor underneath you suddenly gives way!</p>
+<p>You find yourself rapidly sliding down into an Internet hole. Memes and low-resolution cat pictures go flying by. Flailing, you reach out for something that seems to resemble good advice and catch hold of it, halting your fall and climbing to your feet.</p>
+<p>You emerge in micro-blogging territory.</p>
+
+
+  
+  <hr>
+  
+
+  <a href="https://fundor333.com/quiet/23664/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>It&rsquo;s not a bad idea have a NeoCities account.</p>
+</p>
+        <p>
+          <small class="text-center"><b>#23664</b></small>
+          <small class="text-left">2021-01-04</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+
+  <a href="https://fundor333.com/quiet/20346/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>Do I realy need to buy a good microphone for my computer?</p>
+</p>
+        <p>
+          <small class="text-center"><b>#20346</b></small>
+          <small class="text-left">2020-11-18</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+
+  <a href="https://fundor333.com/quiet/19034/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>Do you need realy need to write a mailing list?</p>
+</p>
+        <p>
+          <small class="text-center"><b>#19034</b></small>
+          <small class="text-left">2020-11-13</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+
+  <a href="https://fundor333.com/quiet/17834/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>Old boring Markdown is the final format form. You can allways read it and allways convert into HTML for sharing into the web.
+I don&rsquo;t need a note app if you have a Markdown editor.</p>
+</p>
+        <p>
+          <small class="text-center"><b>#17834</b></small>
+          <small class="text-left">2020-11-03</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+
+  <a href="https://fundor333.com/quiet/14390/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>Scripting is not the way to substitute human work</p>
+</p>
+        <p>
+          <small class="text-center"><b>#14390</b></small>
+          <small class="text-left">2020-10-27</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+
+  <a href="https://fundor333.com/quiet/12850/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>Makes the permissions of file2 the same as file1</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">chmod --reference file1 file2
+</code></pre></td></tr></table>
+</div>
+</div></p>
+        <p>
+          <small class="text-center"><b>#12850</b></small>
+          <small class="text-left">2020-10-23</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+
+  <a href="https://fundor333.com/quiet/10329/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>If you run the same script again and again you make a cron</p>
+</p>
+        <p>
+          <small class="text-center"><b>#10329</b></small>
+          <small class="text-left">2020-10-12</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+
+  <a href="https://fundor333.com/quiet/09654/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>If you do the same commands again and again you need to script it</p>
+</p>
+        <p>
+          <small class="text-center"><b>#09654</b></small>
+          <small class="text-left">2020-08-20</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+
+  <a href="https://fundor333.com/quiet/07248/" class="quiet">
+        <div class="row">
+      <div class="col-sm-2">
+        <img class="img-fluid" src="/img/pilogo.jpg">
+      </div>
+      <div class="col-sm">
+        <p><p>32 C is too hot for make pizza or bread at home</p>
+</p>
+        <p>
+          <small class="text-center"><b>#07248</b></small>
+          <small class="text-left">2020-08-15</small>
+        </p>
+      </div>
+    </div>
+
+  </a>
+  <hr>
+
+  
+  <nav class="d-flex align-items-center justify-content-center">
+  
+
+  
+  
+
+
+  
+  
+
+  
+  
+
+  
+  
+  <a class="btn" href="/quiet/">
+    1
+  </a>
+  
+  <a class="btn" href="/quiet/page/2/">
+    2
+  </a>
+  
+
+  
+  
+
+  <a class="btn" href="/quiet/page/2/">
+    »
+  </a>
+  
+
+  
+  
+
+  <a class="btn" href="/quiet/page/2/">
+    »»
+  </a>
+  
+  
+</nav>
+
+</section>
+
+
+
+    <hr>
+    <br>
+  </div>
+  <div class="container"><footer class="d-flex align-items-center justify-content-center px-4 py-5">
+  <a href='https://webring.recurse.com' target='_blank' class="btn">
+    <img src='https://webring.recurse.com/icon.png' width="30" height="33" />
+  </a>
+
+  <a href='https://webring.xxiivv.com/#random' target='_blank' class="btn">
+    <img width=" 30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+  </a>
+</footer>
+
+<div class="fixed-bottom px-5 py-3">
+  <div class="d-flex align-items-end justify-content-end">
+    <button class="btn btn-thm btn-lg light" style="display:none" onclick="changeThemeToLight()">
+      <div class="fa-theme">
+        <i class="fas fa-starfighter"></i>
+      </div>
+    </button>
+    <button class="btn btn-thm btn-lg dark" style="display:none" onclick="changeThemeToDark()">
+      <div class="fa-theme">
+        <i class="fas fa-starfighter-alt"></i>
+      </div>
+    </button>
+  </div>
+</div>
+</div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 360);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+</body>
+
+</html>
