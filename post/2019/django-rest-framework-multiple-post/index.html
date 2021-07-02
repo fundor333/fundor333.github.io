@@ -1,334 +1,220 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-dark">
+<html lang="en" class="theme-dark"><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<title>
+  Django Rest Framework: Multiple post  - Fundor333
+</title>
+<meta name="author" content="Fundor333" />
 
-  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/styles.min.css">
 
-  <style>
-    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
-  </style>
 
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-  
-  
-  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
 
-  <title>
-    Django Rest Framework: Multiple post  - Fundor333
-  </title>
-  <meta name="author" content="Fundor333" />
+ 
+<link rel="canonical" href="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" />
+ 
 
-   
-  <link rel="canonical" href="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" />
-   
 
-  
-  <meta property="og:title" content="Django Rest Framework: Multiple post" />
+<meta property="og:title" content="Django Rest Framework: Multiple post" />
 <meta property="og:description" content="How to make a massive put with Django Rest Framework" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" /><meta property="og:image" content="https://fundor333.com/img/pilogo.jpg"/><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2019-04-23T10:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2019-04-23T10:00:00&#43;00:00" /><meta property="og:site_name" content="Fundor333" />
+<meta property="article:published_time" content="2019-04-23T10:00:00+00:00" />
+<meta property="article:modified_time" content="2019-04-23T10:00:00+00:00" /><meta property="og:site_name" content="Fundor333" />
 
 
-  
-  <meta itemprop="name" content="Django Rest Framework: Multiple post">
-<meta itemprop="description" content="How to make a massive put with Django Rest Framework"><meta itemprop="datePublished" content="2019-04-23T10:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-23T10:00:00&#43;00:00" />
+
+<meta itemprop="name" content="Django Rest Framework: Multiple post">
+<meta itemprop="description" content="How to make a massive put with Django Rest Framework"><meta itemprop="datePublished" content="2019-04-23T10:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-04-23T10:00:00+00:00" />
 <meta itemprop="wordCount" content="275"><meta itemprop="image" content="https://fundor333.com/img/pilogo.jpg"/>
 <meta itemprop="keywords" content="django,rest,api," />
-  <meta name="description"
-  content="How to make a massive put with Django Rest Framework" />
-<meta name="robots" content="noodp" />
-<link rel="canonical" href="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fundor333.com/img/pilogo.jpg"/>
 
-
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:description"
-  content="How to make a massive put with Django Rest Framework" />
-<meta name="twitter:title"
-  content="Django Rest Framework: Multiple post - Fundor333" />
-<meta name="twitter:site" content="" />
-<meta name="twitter:creator" content="" />
-
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta content="Django Rest Framework: Multiple post - Fundor333"
-  property="og:title">
-<meta content="How to make a massive put with Django Rest Framework"
-  property="og:description">
-<meta property="og:url" content="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" />
-<meta property="og:site_name" content="Fundor333" />
-
-<meta property="article:published_time" content="2019-04-23 10:00:00 &#43;0000 UTC" />
+<meta name="twitter:title" content="Django Rest Framework: Multiple post"/>
+<meta name="twitter:description" content="How to make a massive put with Django Rest Framework"/>
 
 
 
-<script type="application/ld+json">
-  {
-    {
-      if eq.Section "post"
-    }
-  } {
-    "@context": "http://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Django Rest Framework: Multiple post",
-    "genre": "dev",
-    "url": "https:\/\/fundor333.com\/post\/2019\/django-rest-framework-multiple-post\/",
-    "datePublished": "2019-04-23 10:00:00 \u002b0000 UTC",
-    "description": "How to make a massive put with Django Rest Framework",
-    "author": {
-      "@type": "Person",
-      "name": ""
-    }
-  } {
-    {
-      else
-    }
-  } {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "https:\/\/fundor333.com\/post\/2019\/django-rest-framework-multiple-post\/",
-    "name": "Django Rest Framework: Multiple post",
-    "author": {
-      "@type": "Person",
-      "name": "{ .Site.Params.author }}"
-    },
-    "description": "{ .Site.Params.description }}",
-  } {
-    {
-      end
-    }
-  }
+<body>
+  <br><header>
+  <div>
+    <a href="https://fundor333.com/" class="py-10 d-flex align-items-center justify-content-center container">
+      <img src="/img/pilogo.jpg" alt="logo" loading="lazy" id="logo" width="77" length="77">
+      <h1>Fundor333</h1>
+    </a>
+  </div>
 
-</script>
+  <div class="d-flex align-items-center justify-content-center">
+     
+    <a href=" /post/" class="block md:inline-block btn">blog</a>
+    
+    <a href=" /hoarding/" class="block md:inline-block btn">hoarding</a>
+    
+    <a href=" /cv/" class="block md:inline-block btn">cv</a>
+    
+    <a href=" /now/" class="block md:inline-block btn">now</a>
+    
+    <a href=" /project/" class="block md:inline-block btn">projects</a>
+    
+    <a href=" /note/" class="block md:inline-block btn">note</a>
+    
+  </div>
 
+  <div class="d-flex align-items-center justify-content-center">
+    
+    
+    <a href="https://github.com/fundor333" class="btn">
+      <i class="fab fa-github" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.facebook.com/fundor333" class="btn">
+      <i class="fab fa-facebook" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://twitter.com/fundor333" class="btn">
+      <i class="fab fa-twitter" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://mastodon.social/@fundor333" class="btn">
+      <i class="fab fa-mastodon" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A" class="btn">
+      <i class="fab fa-youtube" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.instagram.com/fundor333/" class="btn">
+      <i class="fab fa-instagram" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.flickr.com/people/fundor333/" class="btn">
+      <i class="fab fa-flickr" aria-hidden="true">
+      </i>
+    </a>
+    
+  </div>
+</header>
 
-
-  
-</head>
 
 <script>
+  const changeThemeToDark = () => {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.className = "theme-dark";
+    $(".dark").hide();
+    $(".light").show();
+  }
 
-    const changeThemeToDark = () => {
-      localStorage.setItem("theme", "dark");
-      document.documentElement.className ="theme-dark";
-      $(".dark").hide();
-      $(".light").show();
+  const changeThemeToLight = () => {
+    localStorage.setItem("theme", "light");
+    document.documentElement.className = "theme-light";
+    $(".dark").show();
+    $(".light").hide();
+  }
+
+  function applyTheme(theme) {
+    if (theme === "light") {
+      changeThemeToLight()
+    } else if (theme === "dark") {
+      changeThemeToDark()
+    } else {
+      changeThemeToDark()
     }
-
-    const changeThemeToLight = () => {
-      localStorage.setItem("theme", "light");
-      document.documentElement.className ="theme-light";
-      $(".dark").show();
-      $(".light").hide();
-    }
-
-    function applyTheme(theme) {
-      if (theme === "light"){
-        changeThemeToLight()
-      }
-      else if (theme === "dark"){
-        changeThemeToDark()
-      }
-      else{
-        changeThemeToDark()
-      }
   }
 
   const currentTheme = localStorage.getItem("theme");
-if (currentTheme == "dark") {
-  changeThemeToDark();
-} else if (currentTheme == "light") {
-  changeThemeToLight();
-}
+  if (currentTheme == "dark") {
+    changeThemeToDark();
+  } else if (currentTheme == "light") {
+    changeThemeToLight();
+  }
 
-  $( window ).on( "load",function() {
-  const currentTheme = localStorage.getItem("theme") || "dark";
+  $(window).on("load", function () {
+    const currentTheme = localStorage.getItem("theme") || "dark";
 
-  applyTheme(currentTheme);
+    applyTheme(currentTheme);
 
-  document.querySelector("#theme").addEventListener("change", function () {
+    document.querySelector("#theme").addEventListener("change", function () {
       localStorage.setItem("theme", this.value);
       applyTheme(this.value);
+    });
+
+    for (const optionElement of document.querySelectorAll("#theme option")) {
+      optionElement.selected = currentTheme === optionElement.value;
+    }
+
   });
 
-  for (const optionElement of document.querySelectorAll("#theme option")) {
-    optionElement.selected = currentTheme === optionElement.value;
-}
-
-});
-
 </script>
-
-
-<body id="snowflakes-container">
-  
-
-
-  <nav class="navbar navbar-expand-lg f333">
-
-  <button class="navbar-toggler btn btn-thm btn-lg f333" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="fa-theme">
-    <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="https://fundor333.com/">
-      <img src="/img/pilogo.jpg" width="30" height="30" alt="" loading="lazy">
-      Fundor333
+<div id="content" class="container">
+    <hr>
+<div class="container-fluid">
+  <h1>Django Rest Framework: Multiple post</h1>
+  <hr>
+  <a href="https://fundor333.com/">home</a>
+  ~
+  <a href='https://fundor333.com/post/2019/django-rest-framework-multiple-post/'>Django Rest Framework: Multiple post</a>
+  <br>
+  <hr>
+  <br>
+  <div class="container-fluid">
+    
+    
+    <img class="img-fluid" src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api.gif" alt="Card image cap">
+    
     </a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-       
-      <li class="nav-item">
-        <a class="nav-link" href="/post/">blog</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/hoarding/">hoarding</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/cv/">cv</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/now/">now</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/project/">projects</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/note/">note</a>
-      </li>
-      
-    </ul>
-
+    <div>
+      <a href=""></a>
+    </div>
   </div>
-</nav>
-
 
   <div class="container">
-    <div class="col-10 offset-1">
-      <div class="row justify-content-center">
-         
-        <div class="col-1">
-          <a href="https://github.com/fundor333">
-            <i class="fab fa-github" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.facebook.com/fundor333">
-            <i class="fab fa-facebook" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://twitter.com/fundor333">
-            <i class="fab fa-twitter" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://mastodon.social/@fundor333">
-            <i class="fab fa-mastodon" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
-            <i class="fab fa-youtube" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.instagram.com/fundor333/">
-            <i class="fab fa-instagram" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.flickr.com/people/fundor333/">
-            <i class="fab fa-flickr" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-      </div>
-
-      <br>
-      <div class="row">
-        
-<div class="container">
-  <h1>Django Rest Framework: Multiple post</h1>
-    <a class="crumb" href="https://fundor333.com/">home</a>
-    ~
-    <a class="crumb" href='https://fundor333.com/post/2019/django-rest-framework-multiple-post/'>Django Rest Framework: Multiple post</a>
-    <br>
-    <hr>
-
-    <div>
-      
-      
-      <img src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api.gif" alt="Card image cap" class="img-fluid">
-      
+    <div class="row justify-content-center">
+       
+      <a class="col btn tag-api m-2" href='https://fundor333.com/tags/api'>
+        <i class="fas fa-tags"></i> api
       </a>
-      <div>
-        <a href=""></a>
-      </div>
+      
+      <a class="col btn tag-django m-2" href='https://fundor333.com/tags/django'>
+        <i class="fas fa-tags"></i> django
+      </a>
+      
+      <a class="col btn tag-rest m-2" href='https://fundor333.com/tags/rest'>
+        <i class="fas fa-tags"></i> rest
+      </a>
+       
     </div>
-    <hr>
-     
-    <a class="tag" href='https://fundor333.com/tags/api'><i class="fas fa-tags"></i> api</a>
-    
-    <a class="tag" href='https://fundor333.com/tags/django'><i class="fas fa-tags"></i> django</a>
-    
-    <a class="tag" href='https://fundor333.com/tags/rest'><i class="fas fa-tags"></i> rest</a>
-     
-    <hr>
-    <p>
-      <small>2019-04-23</small>
-  </p>
-  <p>
-    <small>Words 275</small>
-  </p>
-    <hr>
+  </div>
 
-    <br>
-    <article>
-      <p>I need to have a massive <strong>put</strong> in my rest endpoint and Django Rest Framework doesn&rsquo;t do it. So I make my personal method for mycase.</p>
-<a class="h2-anchor" href="#setup-fo-the-project"><h2 id="setup-fo-the-project">Setup fo the project</h2></a>
+  <hr>
+
+  <br>
+  <article class="flex flex-col">
+    <p>I need to have a massive <strong>put</strong> in my rest endpoint and Django Rest Framework doesn&rsquo;t do it. So I make my personal method for mycase.</p>
+<h2 id="setup-fo-the-project">Setup fo the project</h2>
 <p>You need to follow the tutorial from the official documentation of <a href="https://www.django-rest-framework.org"><strong>Django Rest Framework</strong></a>.</p>
 <p>After this you have a <em>MyModel</em>, MyModelSerializer and a view class MyModelListPost.</p>
-<a class="h2-anchor" href="#why-i-cant-use-the-default"><h2 id="why-i-cant-use-the-default">Why I can&rsquo;t use the default?</h2></a>
+<h2 id="why-i-cant-use-the-default">Why I can&rsquo;t use the default?</h2>
 <p>After you did the tutorial you have a base for a <strong>standard</strong> Django Rest Framework. This mean that you have only a get massive not an update massive. So we make one from scratch.</p>
-<a class="h2-anchor" href="#the-__code__"><h2 id="the-__code__">The <strong>CODE</strong></h2></a>
+<h2 id="the-__code__">The <strong>CODE</strong></h2>
 <p>This is the code for <strong>massive put</strong>. You need to map your classes and your fields for make this code working</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -411,24 +297,23 @@ if (currentTheme == "dark") {
 <p>In this case we use the <strong>unique_id</strong> to find any instance and update one by one with the <strong>get</strong> method.
 I know it&rsquo;s not very Python Way but if you have some better solution please write below. Thanks</p>
 
-      <p>by Fundor333</p>
-    </article>
+    <p>by Fundor333</p>
+  </article>
 
-    <hr>
+  <hr>
 
-    
-    
-    <h3>See Also</h3>
-    
-    <article>
-  <div class="row justify-content-center">
+  
+  
+  <br>
+  <h3>See Also</h3>
+  
+  <hr class="my-5">
+
+<div class="col-start-2 col-span-10">
+  <article class="flex flex-col items-center">
     <a href="https://fundor333.com/post/2018/graphql-and-working-with-it/">
-      <h2 class="text-center">GraphQL and working with it</h2>
+      <h2 class="text-center py-2">GraphQL and working with it</h2>
     </a>
-  </div>
-
-  <div class="row justify-content-center col-8 offset-2">
-
 
     
     <a href="https://fundor333.com/post/2018/graphql-and-working-with-it/">
@@ -440,42 +325,43 @@ I know it&rsquo;s not very Python Way but if you have some better solution pleas
 
       
 
-      <img data-src="https://fundor333.com/post/2018/graphql-and-working-with-it/graphql-working.jpg" src="https://fundor333.com/post/2018/graphql-and-working-with-it/graphql-working_hu5438825b9b6d1014226d20d231e650c2_1293602_1cdc534ea81a4dbcbd2bbc958f3551ac.jpg" alt="GraphQL and working with it"
-        class="img-fluid rounded mx-auto d-block lazy">
+      <img data-src="https://fundor333.com/post/2018/graphql-and-working-with-it/graphql-working.jpg" src="https://fundor333.com/post/2018/graphql-and-working-with-it/graphql-working_hu5438825b9b6d1014226d20d231e650c2_1293602_1cdc534ea81a4dbcbd2bbc958f3551ac.jpg" alt="GraphQL and working with it" class="lazy">
     </a>
     
-  </div>
 
-  <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2018/graphql-and-working-with-it/" class="text-center">This is an article about the future of the api: GraphQL. This is the natural evolution from the REST API and it&#39;s the best thing for request only part of the data in the API</a>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small><i class="fas fa-mug-tea"></i>
+    <a href="https://fundor333.com/post/2018/graphql-and-working-with-it/" class="d-flex align-items-center justify-content-center pt-3">This is an article about the future of the api: GraphQL. This is the natural evolution from the REST API and it&#39;s the best thing for request only part of the data in the API</a>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <small class=""><i class="fas fa-mug-tea"></i>
         Reading time 3 minutes
       </small>
-    </p>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small>
-         
-        <a class="tag" href='https://fundor333.com/tags/api'><i class="fas fa-tags"></i> api</a>
-        
-        <a class="tag" href='https://fundor333.com/tags/graphql'><i class="fas fa-tags"></i> graphql</a>
-        
-        <a class="tag" href='https://fundor333.com/tags/rest'><i class="fas fa-tags"></i> rest</a>
-         
-      </small>
-    </p>
-  </div>
-</article>
-<hr>
+    </div>
 
-    
-    
 
-    <div id="disqus_thread"></div>
+    <div class="container">
+      <div class="row justify-content-center">
+         
+        <a class="col btn tag-api m-2" href='https://fundor333.com/tags/api'>
+          <i class="fas fa-tags"></i> api
+        </a>
+        
+        <a class="col btn tag-graphql m-2" href='https://fundor333.com/tags/graphql'>
+          <i class="fas fa-tags"></i> graphql
+        </a>
+        
+        <a class="col btn tag-rest m-2" href='https://fundor333.com/tags/rest'>
+          <i class="fas fa-tags"></i> rest
+        </a>
+         
+      </div>
+    </div>
+
+  </article>
+</div>
+
+  
+  
+
+  <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -495,35 +381,23 @@ I know it&rsquo;s not very Python Way but if you have some better solution pleas
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    <hr>
 </div>
 
-      </div>
-      <br>
-      
-    </div>
+    <hr>
+    <br>
   </div>
-  <br>
-  <footer class="d-flex justify-content-center f333 navbar">
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a href='https://webring.recurse.com' class="nav-item" target='_blank'><img
-          src='https://webring.recurse.com/icon.png' width="30" height="33" /></a>
+  <div class="container"><footer class="d-flex align-items-center justify-content-center">
+  <a href='https://webring.recurse.com' target='_blank' class="btn">
+    <img src='https://webring.recurse.com/icon.png' width="30" height="33" />
+  </a>
 
-      <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
-        <div class="fa-theme dark" style="display:none">
-          <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.black.svg' />
-        </div>
-        <div class="fa-theme light" style="display:none">
-          <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
-        </div>
-      </a>
-    </li>
-  </ul>
+  <a href='https://webring.xxiivv.com/#random' target='_blank' class="btn">
+    <img width=" 30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+  </a>
 </footer>
 
 <div class="fixed-bottom">
-  <div class="float-right pb-3 pr-5">
+  <div class="d-flex align-items-end justify-content-end">
     <button class="btn btn-thm btn-lg light" style="display:none" onclick="changeThemeToLight()">
       <div class="fa-theme">
         <i class="fas fa-starfighter"></i>
@@ -536,116 +410,8 @@ I know it&rsquo;s not very Python Way but if you have some better solution pleas
     </button>
   </div>
 </div>
-
-<br>
-
-<script src="/js/snowstorm.js"></script>
-
-
-<script>
-  function isWinter(dt) {
-    const m = dt.getMonth();
-    console.log(m)
-    return (m < 1 || m > 10);
-  }
-
-  function isBirthDay(dt) {
-    return dt.getMonth == 2 && dt.getDate() == 3;
-  }
-
-  function isValentineDay(dt) {
-    return dt.getMonth == 1 && dt.getDate() == 14;
-  }
-
-  var winterCharacter = "❄️"
-  var heartCharacter = "❤️"
-  var presentCharacter = "🎁"
-
-  if ([isWinter(new Date()), isBirthDay(new Date()), isValentineDay(new Date())].some(function (a) {
-      return true == a
-    })) {
-    snowStorm = snowFunction(window, document);
-    snowStorm.flakesMaxActive = 96; 
-    snowStorm.useTwinkleEffect = true; 
-    snowStorm.followMouse = false;
-    snowStorm.freezeOnBlur = true;
-  }
-
-  if (isWinter(new Date())) {
-    snowStorm.snowCharacter = winterCharacter;
-  }
-  if (isBirthDay(new Date())) {
-    snowStorm.snowCharacter = presentCharacter;
-  }
-  if (isValentineDay(new Date())) {
-    snowStorm.snowCharacter = heartCharacter;
-  }
-
-</script>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-
-<script type="application/javascript">
-var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-var doNotTrack = (dnt == "1" || dnt == "yes");
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	if (window.sessionStorage) {
-		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
-		ga('create', 'UA-44064318-2', {
-	    'storage': 'none',
-	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
-	   });
-	   ga(function(tracker) {
-	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
-	   });
-   }
-	ga('set', 'anonymizeIp', true);
-	ga('send', 'pageview');
-}
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-  $(function () {
-    count = 0;
-    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
-      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
-      "Wev 3.0", "Buzzword",
-    ];
-    setInterval(function () {
-      count++;
-      $(".buzzword").fadeOut(400, function () {
-        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
-      });
-    }, 4000);
-  });
-
-</script>
-
-
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-
-</script>
+</div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -699,9 +465,6 @@ if (!doNotTrack) {
   })
 
 </script>
-
-
-
 </body>
 
 </html>

@@ -103,7 +103,7 @@ Allow: /post/2020/sock-and-socket/
 
 Allow: /tags/socket/
 
-Allow: /tags/big-data/
+Allow: /tags/data/
 
 Allow: /post/2020/make-tea-not-big-data/
 

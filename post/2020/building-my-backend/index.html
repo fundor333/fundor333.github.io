@@ -1,332 +1,218 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-dark">
+<html lang="en" class="theme-dark"><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<title>
+  Building My Backend  - Fundor333
+</title>
+<meta name="author" content="Fundor333" />
 
-  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/styles.min.css">
 
-  <style>
-    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
-  </style>
 
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-  
-  
-  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
 
-  <title>
-    Building My Backend  - Fundor333
-  </title>
-  <meta name="author" content="Fundor333" />
+ 
+<link rel="canonical" href="https://fundor333.com/post/2020/building-my-backend/" />
+ 
 
-   
-  <link rel="canonical" href="https://fundor333.com/post/2020/building-my-backend/" />
-   
 
-  
-  <meta property="og:title" content="Building My Backend" />
+<meta property="og:title" content="Building My Backend" />
 <meta property="og:description" content="Why someone need a server and how I build mine" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://fundor333.com/post/2020/building-my-backend/" /><meta property="og:image" content="https://fundor333.com/img/pilogo.jpg"/><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2020-06-26T09:44:10&#43;02:00" />
-<meta property="article:modified_time" content="2020-06-26T09:44:10&#43;02:00" /><meta property="og:site_name" content="Fundor333" />
+<meta property="article:published_time" content="2020-06-26T09:44:10+02:00" />
+<meta property="article:modified_time" content="2020-06-26T09:44:10+02:00" /><meta property="og:site_name" content="Fundor333" />
 
 
-  
-  <meta itemprop="name" content="Building My Backend">
-<meta itemprop="description" content="Why someone need a server and how I build mine"><meta itemprop="datePublished" content="2020-06-26T09:44:10&#43;02:00" />
-<meta itemprop="dateModified" content="2020-06-26T09:44:10&#43;02:00" />
+
+<meta itemprop="name" content="Building My Backend">
+<meta itemprop="description" content="Why someone need a server and how I build mine"><meta itemprop="datePublished" content="2020-06-26T09:44:10+02:00" />
+<meta itemprop="dateModified" content="2020-06-26T09:44:10+02:00" />
 <meta itemprop="wordCount" content="1226"><meta itemprop="image" content="https://fundor333.com/img/pilogo.jpg"/>
 <meta itemprop="keywords" content="django,coding,api," />
-  <meta name="description"
-  content="Why someone need a server and how I build mine" />
-<meta name="robots" content="noodp" />
-<link rel="canonical" href="https://fundor333.com/post/2020/building-my-backend/" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fundor333.com/img/pilogo.jpg"/>
 
-
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:description"
-  content="Why someone need a server and how I build mine" />
-<meta name="twitter:title"
-  content="Building My Backend - Fundor333" />
-<meta name="twitter:site" content="" />
-<meta name="twitter:creator" content="" />
-
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta content="Building My Backend - Fundor333"
-  property="og:title">
-<meta content="Why someone need a server and how I build mine"
-  property="og:description">
-<meta property="og:url" content="https://fundor333.com/post/2020/building-my-backend/" />
-<meta property="og:site_name" content="Fundor333" />
-
-<meta property="article:published_time" content="2020-06-26 09:44:10 &#43;0200 &#43;0200" />
+<meta name="twitter:title" content="Building My Backend"/>
+<meta name="twitter:description" content="Why someone need a server and how I build mine"/>
 
 
 
-<script type="application/ld+json">
-  {
-    {
-      if eq.Section "post"
-    }
-  } {
-    "@context": "http://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Building My Backend",
-    "genre": "dev",
-    "url": "https:\/\/fundor333.com\/post\/2020\/building-my-backend\/",
-    "datePublished": "2020-06-26 09:44:10 \u002b0200 \u002b0200",
-    "description": "Why someone need a server and how I build mine",
-    "author": {
-      "@type": "Person",
-      "name": ""
-    }
-  } {
-    {
-      else
-    }
-  } {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "https:\/\/fundor333.com\/post\/2020\/building-my-backend\/",
-    "name": "Building My Backend",
-    "author": {
-      "@type": "Person",
-      "name": "{ .Site.Params.author }}"
-    },
-    "description": "{ .Site.Params.description }}",
-  } {
-    {
-      end
-    }
-  }
+<body>
+  <br><header>
+  <div>
+    <a href="https://fundor333.com/" class="py-10 d-flex align-items-center justify-content-center container">
+      <img src="/img/pilogo.jpg" alt="logo" loading="lazy" id="logo" width="77" length="77">
+      <h1>Fundor333</h1>
+    </a>
+  </div>
 
-</script>
+  <div class="d-flex align-items-center justify-content-center">
+     
+    <a href=" /post/" class="block md:inline-block btn">blog</a>
+    
+    <a href=" /hoarding/" class="block md:inline-block btn">hoarding</a>
+    
+    <a href=" /cv/" class="block md:inline-block btn">cv</a>
+    
+    <a href=" /now/" class="block md:inline-block btn">now</a>
+    
+    <a href=" /project/" class="block md:inline-block btn">projects</a>
+    
+    <a href=" /note/" class="block md:inline-block btn">note</a>
+    
+  </div>
 
+  <div class="d-flex align-items-center justify-content-center">
+    
+    
+    <a href="https://github.com/fundor333" class="btn">
+      <i class="fab fa-github" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.facebook.com/fundor333" class="btn">
+      <i class="fab fa-facebook" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://twitter.com/fundor333" class="btn">
+      <i class="fab fa-twitter" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://mastodon.social/@fundor333" class="btn">
+      <i class="fab fa-mastodon" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A" class="btn">
+      <i class="fab fa-youtube" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.instagram.com/fundor333/" class="btn">
+      <i class="fab fa-instagram" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.flickr.com/people/fundor333/" class="btn">
+      <i class="fab fa-flickr" aria-hidden="true">
+      </i>
+    </a>
+    
+  </div>
+</header>
 
-
-  
-</head>
 
 <script>
+  const changeThemeToDark = () => {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.className = "theme-dark";
+    $(".dark").hide();
+    $(".light").show();
+  }
 
-    const changeThemeToDark = () => {
-      localStorage.setItem("theme", "dark");
-      document.documentElement.className ="theme-dark";
-      $(".dark").hide();
-      $(".light").show();
+  const changeThemeToLight = () => {
+    localStorage.setItem("theme", "light");
+    document.documentElement.className = "theme-light";
+    $(".dark").show();
+    $(".light").hide();
+  }
+
+  function applyTheme(theme) {
+    if (theme === "light") {
+      changeThemeToLight()
+    } else if (theme === "dark") {
+      changeThemeToDark()
+    } else {
+      changeThemeToDark()
     }
-
-    const changeThemeToLight = () => {
-      localStorage.setItem("theme", "light");
-      document.documentElement.className ="theme-light";
-      $(".dark").show();
-      $(".light").hide();
-    }
-
-    function applyTheme(theme) {
-      if (theme === "light"){
-        changeThemeToLight()
-      }
-      else if (theme === "dark"){
-        changeThemeToDark()
-      }
-      else{
-        changeThemeToDark()
-      }
   }
 
   const currentTheme = localStorage.getItem("theme");
-if (currentTheme == "dark") {
-  changeThemeToDark();
-} else if (currentTheme == "light") {
-  changeThemeToLight();
-}
+  if (currentTheme == "dark") {
+    changeThemeToDark();
+  } else if (currentTheme == "light") {
+    changeThemeToLight();
+  }
 
-  $( window ).on( "load",function() {
-  const currentTheme = localStorage.getItem("theme") || "dark";
+  $(window).on("load", function () {
+    const currentTheme = localStorage.getItem("theme") || "dark";
 
-  applyTheme(currentTheme);
+    applyTheme(currentTheme);
 
-  document.querySelector("#theme").addEventListener("change", function () {
+    document.querySelector("#theme").addEventListener("change", function () {
       localStorage.setItem("theme", this.value);
       applyTheme(this.value);
+    });
+
+    for (const optionElement of document.querySelectorAll("#theme option")) {
+      optionElement.selected = currentTheme === optionElement.value;
+    }
+
   });
 
-  for (const optionElement of document.querySelectorAll("#theme option")) {
-    optionElement.selected = currentTheme === optionElement.value;
-}
-
-});
-
 </script>
-
-
-<body id="snowflakes-container">
-  
-
-
-  <nav class="navbar navbar-expand-lg f333">
-
-  <button class="navbar-toggler btn btn-thm btn-lg f333" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="fa-theme">
-    <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="https://fundor333.com/">
-      <img src="/img/pilogo.jpg" width="30" height="30" alt="" loading="lazy">
-      Fundor333
+<div id="content" class="container">
+    <hr>
+<div class="container-fluid">
+  <h1>Building My Backend</h1>
+  <hr>
+  <a href="https://fundor333.com/">home</a>
+  ~
+  <a href='https://fundor333.com/post/2020/building-my-backend/'>Building My Backend</a>
+  <br>
+  <hr>
+  <br>
+  <div class="container-fluid">
+    
+    
+    <img class="img-fluid" src="https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg" alt="Card image cap">
+    
     </a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-       
-      <li class="nav-item">
-        <a class="nav-link" href="/post/">blog</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/hoarding/">hoarding</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/cv/">cv</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/now/">now</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/project/">projects</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/note/">note</a>
-      </li>
-      
-    </ul>
-
+    <div>
+      <a href="https://unsplash.com/photos/fpmV3dQPUvU">Photo by Caleb Woods on Unsplash</a>
+    </div>
   </div>
-</nav>
-
 
   <div class="container">
-    <div class="col-10 offset-1">
-      <div class="row justify-content-center">
-         
-        <div class="col-1">
-          <a href="https://github.com/fundor333">
-            <i class="fab fa-github" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.facebook.com/fundor333">
-            <i class="fab fa-facebook" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://twitter.com/fundor333">
-            <i class="fab fa-twitter" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://mastodon.social/@fundor333">
-            <i class="fab fa-mastodon" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
-            <i class="fab fa-youtube" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.instagram.com/fundor333/">
-            <i class="fab fa-instagram" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.flickr.com/people/fundor333/">
-            <i class="fab fa-flickr" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-      </div>
-
-      <br>
-      <div class="row">
-        
-<div class="container">
-  <h1>Building My Backend</h1>
-    <a class="crumb" href="https://fundor333.com/">home</a>
-    ~
-    <a class="crumb" href='https://fundor333.com/post/2020/building-my-backend/'>Building My Backend</a>
-    <br>
-    <hr>
-
-    <div>
-      
-      
-      <img src="https://fundor333.com/post/2020/building-my-backend/building-my-backend.jpg" alt="Card image cap" class="img-fluid">
-      
+    <div class="row justify-content-center">
+       
+      <a class="col btn tag-api m-2" href='https://fundor333.com/tags/api'>
+        <i class="fas fa-tags"></i> api
       </a>
-      <div>
-        <a href="https://unsplash.com/photos/fpmV3dQPUvU">Photo by Caleb Woods on Unsplash</a>
-      </div>
+      
+      <a class="col btn tag-coding m-2" href='https://fundor333.com/tags/coding'>
+        <i class="fas fa-tags"></i> coding
+      </a>
+      
+      <a class="col btn tag-django m-2" href='https://fundor333.com/tags/django'>
+        <i class="fas fa-tags"></i> django
+      </a>
+       
     </div>
-    <hr>
-     
-    <a class="tag" href='https://fundor333.com/tags/api'><i class="fas fa-tags"></i> api</a>
-    
-    <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
-    
-    <a class="tag" href='https://fundor333.com/tags/django'><i class="fas fa-tags"></i> django</a>
-     
-    <hr>
-    <p>
-      <small>2020-06-26</small>
-  </p>
-  <p>
-    <small>Words 1226</small>
-  </p>
-    <hr>
+  </div>
 
-    <br>
-    <article>
-      <p>More time pass more time I need a server for my cronjob and other process.
+  <hr>
+
+  <br>
+  <article class="flex flex-col">
+    <p>More time pass more time I need a server for my cronjob and other process.
 Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.</p>
 <p>One day, adding a new feed to my Feedly account, I discovered that I can&rsquo;t add more in the free subscription.
 So I start thinking some alternative.</p>
-<a class="h2-anchor" href="#what-i-need"><h2 id="what-i-need">What I need</h2></a>
+<h2 id="what-i-need">What I need</h2>
 <ul>
 <li><strong>web app</strong> i need to use on the run, not only in my machine but in other as well.</li>
 <li><strong>auto update</strong> I need to find the newer or the newest post from my feed</li>
@@ -342,7 +228,7 @@ So I start thinking some alternative.</p>
 <li><strong>a server framework</strong> for writing my server-app -&gt; Django</li>
 </ul>
 <p>Whith this stack I start my backend.</p>
-<a class="h2-anchor" href="#fist-problem-feeds"><h2 id="fist-problem-feeds">Fist problem: feeds</h2></a>
+<h2 id="fist-problem-feeds">Fist problem: feeds</h2>
 <p>First I need to have an alternative to <strong>Feedly</strong> so I start building my personal feed manager.
 And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&hellip; So I &ldquo;read&rdquo; some of my feed manualy and start writing some generic reader for the rss and atom (the most popular format of the feed formats) and write some code for reading Xml in this two type.</p>
 <p>After this I write a Django model for the post inside the feeds so I can save it without thinking about the feed format but reading it, share it or deleting it.</p>
@@ -350,24 +236,24 @@ And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&h
 <p>After this I builds the task for the cronjob for getting all the feed of the multiple sources. This task add a command into redis and when the wrapper (celery in my case) can do the job, it does it and log into the database a row with the log in case of failure.</p>
 <p>I did the same also for the &ldquo;mark as read&rdquo; task so if I mark one this is a task done by the browser but if I do for the &ldquo;last month&rdquo; or &ldquo;all&rdquo; posts they make a Celery task into Redis because it can be a lot of work for the server because I can do more thinks with this but not now.</p>
 <p>In the future I am thinking about point system for the post and other thinks that need a after processing for making a &ldquo;prefernce system&rdquo; or other similar thinks for my personal use<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and I want to save the top post into my Poket account or save it in a way I can store for personal reference with or without the site working and store it indefenitly.</p>
-<a class="h2-anchor" href="#second-problem-gui"><h2 id="second-problem-gui">Second problem: gui</h2></a>
+<h2 id="second-problem-gui">Second problem: gui</h2>
 <p>After working all the feed part I build a little gui, inspired by the teming of my blog and I love it. Light background, dark text with the same font and some similarity but also some difference, because I think that mine blog theme is not right for a backend or other type of web app other than blogs.</p>
 <p>The problem come from the menu. I don like the menu with submenu so I write a &ldquo;menu dashboard&rdquo; for all the &ldquo;categories&rdquo; of view I made for my backend but I am not done for it. I need something more &ldquo;mine&rdquo; for the navigation inside them. And I need to add some Javascript for adding some gui impovment (color or highlight where needed) and this was a big problem for me.</p>
 <p>I am not fluent in js so I need to <em>Google</em> a lot of things about <em>jquery</em> and <em>EMACS5</em> and <em>&ldquo;vanilla' JavaScript</em>.</p>
 <p>After all and with some trick learn in <em>StackOverflow</em> or some random <em>blog</em> I have a functional and someway good looking theme for my backend.</p>
-<a class="h2-anchor" href="#third-act-api"><h2 id="third-act-api">Third act: Api</h2></a>
+<h2 id="third-act-api">Third act: Api</h2>
 <p>Now is time for my favorite part: only backend!</p>
 <p>I have some project to migrate into this backend and half of them has some sort of need of endpoint api so I move the first api project into my backend. With some work and some help from the <em><a href="https://www.django-rest-framework.org/">Django Rest Framework</a></em> I build some view for outputting the json needed for the other project to work.</p>
 <p>After this I build the guis for manage the data of the api. I know that all of this can be done with the <em>Django Admin</em> but I don&rsquo;t like it so I need to write the input, edit and view pages for them.</p>
 <p>For now I consider this part compleate but, in time, I will porting all my other api into this backend.</p>
-<a class="h2-anchor" href="#the-fourth-is-with-you"><h2 id="the-fourth-is-with-you">The Fourth is with you</h2></a>
+<h2 id="the-fourth-is-with-you">The Fourth is with you</h2>
 <p>Now I work on the landing of mine backend. I feel it empty so I think about what I can do to fill it.</p>
 <p>And for this reason I write client for some weather api and other similar api of my home city for my personal easy access. So, with an little time I write all the backend for the &lsquo;widgets&rsquo; I want and make all into a ClassView Django putting all the info into the context of the view.</p>
 <p>With a lot of testing with the layout and changing all the widgets more and more time I ending to make a dashboard with very simple widget for all of theme.</p>
 <p>For now it works but if I add another widget I need to redo all the Dashboard but for now I don&rsquo;t have need for another widget.</p>
-<a class="h2-anchor" href="#going-for-five"><h2 id="going-for-five">Going for Five</h2></a>
+<h2 id="going-for-five">Going for Five</h2>
 <p>After the gui I completely forgot how I write the Api so I need to have an autogenerated Api&rsquo;s documentation. So I use the autogenerating documentation of the <em>DRF</em><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> and build a Swagger view for my persona use. I subclassed the generator for adding more function on the standard <em>DRF</em> implementation of the api like the tag sistem and the server tags for an eventualy testing server (maybe one day with more money&hellip;).</p>
-<a class="h2-anchor" href="#and-now-the-conclusion"><h2 id="and-now-the-conclusion">And now the conclusion</h2></a>
+<h2 id="and-now-the-conclusion">And now the conclusion</h2>
 <p>With some time I build more function into this system and add more api. For the time coming I am thinking to porting some cronjob into this backend, adding a documentation system for having some tutorial I can&rsquo;t put in the blog or there are no reason to make them public, like some personal stuff and I want to put a system to write my work task and write the time I am working on them for build in a easy way my timetable for work.</p>
 <p>Because all the project I am working on I don&rsquo;t have a lot of time so all this project have the least priority of all but, one day after the other I will be updating all of this project with all the function I need but for now I have this.</p>
 <section class="footnotes" role="doc-endnotes">
@@ -382,24 +268,23 @@ And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&h
 </ol>
 </section>
 
-      <p>by Fundor333</p>
-    </article>
+    <p>by Fundor333</p>
+  </article>
 
-    <hr>
+  <hr>
 
-    
-    
-    <h3>See Also</h3>
-    
-    <article>
-  <div class="row justify-content-center">
+  
+  
+  <br>
+  <h3>See Also</h3>
+  
+  <hr class="my-5">
+
+<div class="col-start-2 col-span-10">
+  <article class="flex flex-col items-center">
     <a href="https://fundor333.com/post/2020/excel-django-combo/">
-      <h2 class="text-center">Make a Excel Django combo</h2>
+      <h2 class="text-center py-2">Make a Excel Django combo</h2>
     </a>
-  </div>
-
-  <div class="row justify-content-center col-8 offset-2">
-
 
     
     <a href="https://fundor333.com/post/2020/excel-django-combo/">
@@ -411,46 +296,43 @@ And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&h
 
       
 
-      <img data-src="https://fundor333.com/post/2020/excel-django-combo/excel-django.jpg" src="https://fundor333.com/post/2020/excel-django-combo/excel-django_hu8cb40a976b988f2f1b0d77fe2deffefb_2212848_273d6e030cad62f004843b1b626735fa.jpg" alt="Make a Excel Django combo"
-        class="img-fluid rounded mx-auto d-block lazy">
+      <img data-src="https://fundor333.com/post/2020/excel-django-combo/excel-django.jpg" src="https://fundor333.com/post/2020/excel-django-combo/excel-django_hu8cb40a976b988f2f1b0d77fe2deffefb_2212848_273d6e030cad62f004843b1b626735fa.jpg" alt="Make a Excel Django combo" class="lazy">
     </a>
     
-  </div>
 
-  <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2020/excel-django-combo/" class="text-center">Import excel to django with easy and usefull form</a>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small><i class="fas fa-mug-tea"></i>
+    <a href="https://fundor333.com/post/2020/excel-django-combo/" class="d-flex align-items-center justify-content-center pt-3">Import excel to django with easy and usefull form</a>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <small class=""><i class="fas fa-mug-tea"></i>
         Reading time 3 minutes
       </small>
-    </p>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small>
+    </div>
+
+
+    <div class="container">
+      <div class="row justify-content-center">
          
-        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        <a class="col btn tag-coding m-2" href='https://fundor333.com/tags/coding'>
+          <i class="fas fa-tags"></i> coding
+        </a>
         
-        <a class="tag" href='https://fundor333.com/tags/django'><i class="fas fa-tags"></i> django</a>
+        <a class="col btn tag-django m-2" href='https://fundor333.com/tags/django'>
+          <i class="fas fa-tags"></i> django
+        </a>
          
-      </small>
-    </p>
-  </div>
-</article>
-<hr>
+      </div>
+    </div>
 
-    
-    <article>
-  <div class="row justify-content-center">
+  </article>
+</div>
+
+  
+  <hr class="my-5">
+
+<div class="col-start-2 col-span-10">
+  <article class="flex flex-col items-center">
     <a href="https://fundor333.com/post/2019/django-rest-framework-multiple-post/">
-      <h2 class="text-center">Django Rest Framework: Multiple post</h2>
+      <h2 class="text-center py-2">Django Rest Framework: Multiple post</h2>
     </a>
-  </div>
-
-  <div class="row justify-content-center col-8 offset-2">
-
 
     
     <a href="https://fundor333.com/post/2019/django-rest-framework-multiple-post/">
@@ -462,48 +344,47 @@ And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&h
 
       
 
-      <img data-src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api.gif" src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api_hu88a7e625f5796c5b5af3005e13d380d1_46256_3a6c09a36ae1b8cbeb4388525a35e158.gif" alt="Django Rest Framework: Multiple post"
-        class="img-fluid rounded mx-auto d-block lazy">
+      <img data-src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api.gif" src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/api_hu88a7e625f5796c5b5af3005e13d380d1_46256_3a6c09a36ae1b8cbeb4388525a35e158.gif" alt="Django Rest Framework: Multiple post" class="lazy">
     </a>
     
-  </div>
 
-  <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" class="text-center">How to make a massive put with Django Rest Framework</a>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small><i class="fas fa-mug-tea"></i>
+    <a href="https://fundor333.com/post/2019/django-rest-framework-multiple-post/" class="d-flex align-items-center justify-content-center pt-3">How to make a massive put with Django Rest Framework</a>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <small class=""><i class="fas fa-mug-tea"></i>
         Reading time 2 minutes
       </small>
-    </p>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small>
+    </div>
+
+
+    <div class="container">
+      <div class="row justify-content-center">
          
-        <a class="tag" href='https://fundor333.com/tags/api'><i class="fas fa-tags"></i> api</a>
+        <a class="col btn tag-api m-2" href='https://fundor333.com/tags/api'>
+          <i class="fas fa-tags"></i> api
+        </a>
         
-        <a class="tag" href='https://fundor333.com/tags/django'><i class="fas fa-tags"></i> django</a>
+        <a class="col btn tag-django m-2" href='https://fundor333.com/tags/django'>
+          <i class="fas fa-tags"></i> django
+        </a>
         
-        <a class="tag" href='https://fundor333.com/tags/rest'><i class="fas fa-tags"></i> rest</a>
+        <a class="col btn tag-rest m-2" href='https://fundor333.com/tags/rest'>
+          <i class="fas fa-tags"></i> rest
+        </a>
          
-      </small>
-    </p>
-  </div>
-</article>
-<hr>
+      </div>
+    </div>
 
-    
-    <article>
-  <div class="row justify-content-center">
+  </article>
+</div>
+
+  
+  <hr class="my-5">
+
+<div class="col-start-2 col-span-10">
+  <article class="flex flex-col items-center">
     <a href="https://fundor333.com/post/2020/al-you-need-is-static/">
-      <h2 class="text-center">Al You Need Is Static</h2>
+      <h2 class="text-center py-2">Al You Need Is Static</h2>
     </a>
-  </div>
-
-  <div class="row justify-content-center col-8 offset-2">
-
 
     
     <a href="https://fundor333.com/post/2020/al-you-need-is-static/">
@@ -515,40 +396,39 @@ And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&h
 
       
 
-      <img data-src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static.jpg" src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static_huec2d3366b22d0521055b5899a0d7aa53_551437_6f31caa9a4b1870970a5dedf82d7f5f6.jpg" alt="Al You Need Is Static"
-        class="img-fluid rounded mx-auto d-block lazy">
+      <img data-src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static.jpg" src="https://fundor333.com/post/2020/al-you-need-is-static/al-you-need-is-static_huec2d3366b22d0521055b5899a0d7aa53_551437_6f31caa9a4b1870970a5dedf82d7f5f6.jpg" alt="Al You Need Is Static" class="lazy">
     </a>
     
-  </div>
 
-  <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2020/al-you-need-is-static/" class="text-center">Why you need to move to static site generator and where they come from</a>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small><i class="fas fa-mug-tea"></i><i class="fas fa-mug-tea"></i>
+    <a href="https://fundor333.com/post/2020/al-you-need-is-static/" class="d-flex align-items-center justify-content-center pt-3">Why you need to move to static site generator and where they come from</a>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <small class=""><i class="fas fa-mug-tea"></i><i class="fas fa-mug-tea"></i>
         Reading time 6 minutes
       </small>
-    </p>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small>
+    </div>
+
+
+    <div class="container">
+      <div class="row justify-content-center">
          
-        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        <a class="col btn tag-coding m-2" href='https://fundor333.com/tags/coding'>
+          <i class="fas fa-tags"></i> coding
+        </a>
         
-        <a class="tag" href='https://fundor333.com/tags/rant'><i class="fas fa-tags"></i> rant</a>
+        <a class="col btn tag-rant m-2" href='https://fundor333.com/tags/rant'>
+          <i class="fas fa-tags"></i> rant
+        </a>
          
-      </small>
-    </p>
-  </div>
-</article>
-<hr>
+      </div>
+    </div>
 
-    
-    
+  </article>
+</div>
 
-    <div id="disqus_thread"></div>
+  
+  
+
+  <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -568,35 +448,23 @@ And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&h
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    <hr>
 </div>
 
-      </div>
-      <br>
-      
-    </div>
+    <hr>
+    <br>
   </div>
-  <br>
-  <footer class="d-flex justify-content-center f333 navbar">
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a href='https://webring.recurse.com' class="nav-item" target='_blank'><img
-          src='https://webring.recurse.com/icon.png' width="30" height="33" /></a>
+  <div class="container"><footer class="d-flex align-items-center justify-content-center">
+  <a href='https://webring.recurse.com' target='_blank' class="btn">
+    <img src='https://webring.recurse.com/icon.png' width="30" height="33" />
+  </a>
 
-      <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
-        <div class="fa-theme dark" style="display:none">
-          <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.black.svg' />
-        </div>
-        <div class="fa-theme light" style="display:none">
-          <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
-        </div>
-      </a>
-    </li>
-  </ul>
+  <a href='https://webring.xxiivv.com/#random' target='_blank' class="btn">
+    <img width=" 30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+  </a>
 </footer>
 
 <div class="fixed-bottom">
-  <div class="float-right pb-3 pr-5">
+  <div class="d-flex align-items-end justify-content-end">
     <button class="btn btn-thm btn-lg light" style="display:none" onclick="changeThemeToLight()">
       <div class="fa-theme">
         <i class="fas fa-starfighter"></i>
@@ -609,116 +477,8 @@ And I discovered there are multiple type of feed: atoms, rss 1.0, rss 2.0, etc&h
     </button>
   </div>
 </div>
-
-<br>
-
-<script src="/js/snowstorm.js"></script>
-
-
-<script>
-  function isWinter(dt) {
-    const m = dt.getMonth();
-    console.log(m)
-    return (m < 1 || m > 10);
-  }
-
-  function isBirthDay(dt) {
-    return dt.getMonth == 2 && dt.getDate() == 3;
-  }
-
-  function isValentineDay(dt) {
-    return dt.getMonth == 1 && dt.getDate() == 14;
-  }
-
-  var winterCharacter = "❄️"
-  var heartCharacter = "❤️"
-  var presentCharacter = "🎁"
-
-  if ([isWinter(new Date()), isBirthDay(new Date()), isValentineDay(new Date())].some(function (a) {
-      return true == a
-    })) {
-    snowStorm = snowFunction(window, document);
-    snowStorm.flakesMaxActive = 96; 
-    snowStorm.useTwinkleEffect = true; 
-    snowStorm.followMouse = false;
-    snowStorm.freezeOnBlur = true;
-  }
-
-  if (isWinter(new Date())) {
-    snowStorm.snowCharacter = winterCharacter;
-  }
-  if (isBirthDay(new Date())) {
-    snowStorm.snowCharacter = presentCharacter;
-  }
-  if (isValentineDay(new Date())) {
-    snowStorm.snowCharacter = heartCharacter;
-  }
-
-</script>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-
-<script type="application/javascript">
-var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-var doNotTrack = (dnt == "1" || dnt == "yes");
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	if (window.sessionStorage) {
-		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
-		ga('create', 'UA-44064318-2', {
-	    'storage': 'none',
-	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
-	   });
-	   ga(function(tracker) {
-	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
-	   });
-   }
-	ga('set', 'anonymizeIp', true);
-	ga('send', 'pageview');
-}
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-  $(function () {
-    count = 0;
-    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
-      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
-      "Wev 3.0", "Buzzword",
-    ];
-    setInterval(function () {
-      count++;
-      $(".buzzword").fadeOut(400, function () {
-        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
-      });
-    }, 4000);
-  });
-
-</script>
-
-
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-
-</script>
+</div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -772,9 +532,6 @@ if (!doNotTrack) {
   })
 
 </script>
-
-
-
 </body>
 
 </html>

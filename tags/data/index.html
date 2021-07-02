@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark"><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+<script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<title>
+  data  - Fundor333
+</title>
+<meta name="author" content="Fundor333" />
+
+
+
+<link rel="stylesheet" href="/css/styles.min.css">
+
+
+
+
+
+
+<link rel="alternate" type="application/rss+xml" href="https://fundor333.com/tags/data/index.xml" title="Fundor333" />
+
+<meta property="og:title" content="data" />
+<meta property="og:description" content="Fundor333&#39;s personal blog" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://fundor333.com/tags/data/" /><meta property="og:image" content="https://fundor333.com/img/pilogo.jpg"/><meta property="og:site_name" content="Fundor333" />
+
+
+
+<meta itemprop="name" content="data">
+<meta itemprop="description" content="Fundor333&#39;s personal blog">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fundor333.com/img/pilogo.jpg"/>
+
+<meta name="twitter:title" content="data"/>
+<meta name="twitter:description" content="Fundor333&#39;s personal blog"/>
+
+
+
+<body>
+  <br><header>
+  <div>
+    <a href="https://fundor333.com/" class="py-10 d-flex align-items-center justify-content-center container">
+      <img src="/img/pilogo.jpg" alt="logo" loading="lazy" id="logo" width="77" length="77">
+      <h1>Fundor333</h1>
+    </a>
+  </div>
+
+  <div class="d-flex align-items-center justify-content-center">
+     
+    <a href=" /post/" class="block md:inline-block btn">blog</a>
+    
+    <a href=" /hoarding/" class="block md:inline-block btn">hoarding</a>
+    
+    <a href=" /cv/" class="block md:inline-block btn">cv</a>
+    
+    <a href=" /now/" class="block md:inline-block btn">now</a>
+    
+    <a href=" /project/" class="block md:inline-block btn">projects</a>
+    
+    <a href=" /note/" class="block md:inline-block btn">note</a>
+    
+  </div>
+
+  <div class="d-flex align-items-center justify-content-center">
+    
+    
+    <a href="https://github.com/fundor333" class="btn">
+      <i class="fab fa-github" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.facebook.com/fundor333" class="btn">
+      <i class="fab fa-facebook" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://twitter.com/fundor333" class="btn">
+      <i class="fab fa-twitter" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://mastodon.social/@fundor333" class="btn">
+      <i class="fab fa-mastodon" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A" class="btn">
+      <i class="fab fa-youtube" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.instagram.com/fundor333/" class="btn">
+      <i class="fab fa-instagram" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.flickr.com/people/fundor333/" class="btn">
+      <i class="fab fa-flickr" aria-hidden="true">
+      </i>
+    </a>
+    
+  </div>
+</header>
+
+
+<script>
+  const changeThemeToDark = () => {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.className = "theme-dark";
+    $(".dark").hide();
+    $(".light").show();
+  }
+
+  const changeThemeToLight = () => {
+    localStorage.setItem("theme", "light");
+    document.documentElement.className = "theme-light";
+    $(".dark").show();
+    $(".light").hide();
+  }
+
+  function applyTheme(theme) {
+    if (theme === "light") {
+      changeThemeToLight()
+    } else if (theme === "dark") {
+      changeThemeToDark()
+    } else {
+      changeThemeToDark()
+    }
+  }
+
+  const currentTheme = localStorage.getItem("theme");
+  if (currentTheme == "dark") {
+    changeThemeToDark();
+  } else if (currentTheme == "light") {
+    changeThemeToLight();
+  }
+
+  $(window).on("load", function () {
+    const currentTheme = localStorage.getItem("theme") || "dark";
+
+    applyTheme(currentTheme);
+
+    document.querySelector("#theme").addEventListener("change", function () {
+      localStorage.setItem("theme", this.value);
+      applyTheme(this.value);
+    });
+
+    for (const optionElement of document.querySelectorAll("#theme option")) {
+      optionElement.selected = currentTheme === optionElement.value;
+    }
+
+  });
+
+</script>
+<div id="content" class="container">
+    <hr>
+<h1>data</h1>
+
+
+<a class="btn tag-api" href='https://fundor333.com/tags/api/'>
+  <i class="fas fa-tags"></i> api
+</a>
+
+<a class="btn tag-blog" href='https://fundor333.com/tags/blog/'>
+  <i class="fas fa-tags"></i> blog
+</a>
+
+<a class="btn tag-bot" href='https://fundor333.com/tags/bot/'>
+  <i class="fas fa-tags"></i> bot
+</a>
+
+<a class="btn tag-coding" href='https://fundor333.com/tags/coding/'>
+  <i class="fas fa-tags"></i> coding
+</a>
+
+<a class="btn tag-convention" href='https://fundor333.com/tags/convention/'>
+  <i class="fas fa-tags"></i> convention
+</a>
+
+<a class="btn tag-data" href='https://fundor333.com/tags/data/'>
+  <i class="fas fa-tags"></i> data
+</a>
+
+<a class="btn tag-devops" href='https://fundor333.com/tags/devops/'>
+  <i class="fas fa-tags"></i> devops
+</a>
+
+<a class="btn tag-django" href='https://fundor333.com/tags/django/'>
+  <i class="fas fa-tags"></i> django
+</a>
+
+<a class="btn tag-docker" href='https://fundor333.com/tags/docker/'>
+  <i class="fas fa-tags"></i> docker
+</a>
+
+<a class="btn tag-dotfiles" href='https://fundor333.com/tags/dotfiles/'>
+  <i class="fas fa-tags"></i> dotfiles
+</a>
+
+<a class="btn tag-git" href='https://fundor333.com/tags/git/'>
+  <i class="fas fa-tags"></i> git
+</a>
+
+<a class="btn tag-graphql" href='https://fundor333.com/tags/graphql/'>
+  <i class="fas fa-tags"></i> graphql
+</a>
+
+<a class="btn tag-hacking" href='https://fundor333.com/tags/hacking/'>
+  <i class="fas fa-tags"></i> hacking
+</a>
+
+<a class="btn tag-hugo" href='https://fundor333.com/tags/hugo/'>
+  <i class="fas fa-tags"></i> hugo
+</a>
+
+<a class="btn tag-pdf" href='https://fundor333.com/tags/pdf/'>
+  <i class="fas fa-tags"></i> pdf
+</a>
+
+<a class="btn tag-pycon" href='https://fundor333.com/tags/pycon/'>
+  <i class="fas fa-tags"></i> pycon
+</a>
+
+<a class="btn tag-python" href='https://fundor333.com/tags/python/'>
+  <i class="fas fa-tags"></i> python
+</a>
+
+<a class="btn tag-rant" href='https://fundor333.com/tags/rant/'>
+  <i class="fas fa-tags"></i> rant
+</a>
+
+<a class="btn tag-reportlab" href='https://fundor333.com/tags/reportlab/'>
+  <i class="fas fa-tags"></i> reportlab
+</a>
+
+<a class="btn tag-rest" href='https://fundor333.com/tags/rest/'>
+  <i class="fas fa-tags"></i> rest
+</a>
+
+<a class="btn tag-socket" href='https://fundor333.com/tags/socket/'>
+  <i class="fas fa-tags"></i> socket
+</a>
+
+
+
+
+
+<hr class="my-5">
+
+<div class="col-start-2 col-span-10">
+  <article class="flex flex-col items-center">
+    <a href="https://fundor333.com/post/2020/make-tea-not-big-data/">
+      <h2 class="text-center py-2">Make a Tea Not Big Data</h2>
+    </a>
+
+    
+    <a href="https://fundor333.com/post/2020/make-tea-not-big-data/">
+
+      
+      
+      
+      
+
+      
+
+      <img data-src="https://fundor333.com/post/2020/make-tea-not-big-data/tea-bigdata.jpg" src="https://fundor333.com/post/2020/make-tea-not-big-data/tea-bigdata_hu5438825b9b6d1014226d20d231e650c2_428021_bcb7432a241b796576f14711c50f415e.jpg" alt="Make a Tea Not Big Data" class="lazy">
+    </a>
+    
+
+    <a href="https://fundor333.com/post/2020/make-tea-not-big-data/" class="d-flex align-items-center justify-content-center pt-3">A rant about workspace and data managment with tea</a>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <small class=""><i class="fas fa-mug-tea"></i>
+        Reading time 3 minutes
+      </small>
+    </div>
+
+
+    <div class="container">
+      <div class="row justify-content-center">
+         
+        <a class="col btn tag-data m-2" href='https://fundor333.com/tags/data'>
+          <i class="fas fa-tags"></i> data
+        </a>
+        
+        <a class="col btn tag-rant m-2" href='https://fundor333.com/tags/rant'>
+          <i class="fas fa-tags"></i> rant
+        </a>
+         
+      </div>
+    </div>
+
+  </article>
+</div>
+
+
+
+<nav class="d-flex align-items-center justify-content-center">
+  
+
+  
+  
+</nav>
+
+
+
+    <hr>
+    <br>
+  </div>
+  <div class="container"><footer class="d-flex align-items-center justify-content-center">
+  <a href='https://webring.recurse.com' target='_blank' class="btn">
+    <img src='https://webring.recurse.com/icon.png' width="30" height="33" />
+  </a>
+
+  <a href='https://webring.xxiivv.com/#random' target='_blank' class="btn">
+    <img width=" 30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+  </a>
+</footer>
+
+<div class="fixed-bottom">
+  <div class="d-flex align-items-end justify-content-end">
+    <button class="btn btn-thm btn-lg light" style="display:none" onclick="changeThemeToLight()">
+      <div class="fa-theme">
+        <i class="fas fa-starfighter"></i>
+      </div>
+    </button>
+    <button class="btn btn-thm btn-lg dark" style="display:none" onclick="changeThemeToDark()">
+      <div class="fa-theme">
+        <i class="fas fa-starfighter-alt"></i>
+      </div>
+    </button>
+  </div>
+</div>
+</div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lazyloadImages;
+
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+
+      lazyloadImages.forEach(function (image) {
+        imageObserver.observe(image);
+      });
+    } else {
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+
+      function lazyload() {
+        if (lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }
+
+        lazyloadThrottleTimeout = setTimeout(function () {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function (img) {
+            if (img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+          });
+          if (lazyloadImages.length == 0) {
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 360);
+      }
+
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+
+</script>
+</body>
+
+</html>

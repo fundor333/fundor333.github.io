@@ -1,329 +1,213 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-dark">
+<html lang="en" class="theme-dark"><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+<script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font/build/web/hack.css" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<title>
+  Color Your Python Output  - Fundor333
+</title>
+<meta name="author" content="Fundor333" />
 
-  <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/css/styles.min.css">
 
-  <style>
-    @import url("https://fonts.googleapis.com/css?family=Coda&display=swap");
-  </style>
 
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
-  
-  
-  <link rel="stylesheet" href="https://fundor333.com/css/style.css" />
 
-  <title>
-    Color Your Python Output  - Fundor333
-  </title>
-  <meta name="author" content="Fundor333" />
+ 
+<link rel="canonical" href="https://fundor333.com/post/2020/color-your-python-output/" />
+ 
 
-   
-  <link rel="canonical" href="https://fundor333.com/post/2020/color-your-python-output/" />
-   
 
-  
-  <meta property="og:title" content="Color Your Python Output" />
+<meta property="og:title" content="Color Your Python Output" />
 <meta property="og:description" content="Sometime you need to make your output more readible adding color to the terminal" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://fundor333.com/post/2020/color-your-python-output/" /><meta property="og:image" content="https://fundor333.com/img/pilogo.jpg"/><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2020-09-10T21:06:21&#43;02:00" />
-<meta property="article:modified_time" content="2020-09-10T21:06:21&#43;02:00" /><meta property="og:site_name" content="Fundor333" />
+<meta property="article:published_time" content="2020-09-10T21:06:21+02:00" />
+<meta property="article:modified_time" content="2020-09-10T21:06:21+02:00" /><meta property="og:site_name" content="Fundor333" />
 
 
-  
-  <meta itemprop="name" content="Color Your Python Output">
-<meta itemprop="description" content="Sometime you need to make your output more readible adding color to the terminal"><meta itemprop="datePublished" content="2020-09-10T21:06:21&#43;02:00" />
-<meta itemprop="dateModified" content="2020-09-10T21:06:21&#43;02:00" />
+
+<meta itemprop="name" content="Color Your Python Output">
+<meta itemprop="description" content="Sometime you need to make your output more readible adding color to the terminal"><meta itemprop="datePublished" content="2020-09-10T21:06:21+02:00" />
+<meta itemprop="dateModified" content="2020-09-10T21:06:21+02:00" />
 <meta itemprop="wordCount" content="290"><meta itemprop="image" content="https://fundor333.com/img/pilogo.jpg"/>
 <meta itemprop="keywords" content="coding,devops," />
-  <meta name="description"
-  content="Sometime you need to make your output more readible adding color to the terminal" />
-<meta name="robots" content="noodp" />
-<link rel="canonical" href="https://fundor333.com/post/2020/color-your-python-output/" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://fundor333.com/img/pilogo.jpg"/>
 
-
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:description"
-  content="Sometime you need to make your output more readible adding color to the terminal" />
-<meta name="twitter:title"
-  content="Color Your Python Output - Fundor333" />
-<meta name="twitter:site" content="" />
-<meta name="twitter:creator" content="" />
-
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta content="Color Your Python Output - Fundor333"
-  property="og:title">
-<meta content="Sometime you need to make your output more readible adding color to the terminal"
-  property="og:description">
-<meta property="og:url" content="https://fundor333.com/post/2020/color-your-python-output/" />
-<meta property="og:site_name" content="Fundor333" />
-
-<meta property="article:published_time" content="2020-09-10 21:06:21 &#43;0200 &#43;0200" />
+<meta name="twitter:title" content="Color Your Python Output"/>
+<meta name="twitter:description" content="Sometime you need to make your output more readible adding color to the terminal"/>
 
 
 
-<script type="application/ld+json">
-  {
-    {
-      if eq.Section "post"
-    }
-  } {
-    "@context": "http://schema.org",
-    "@type": "BlogPosting",
-    "headline": "Color Your Python Output",
-    "genre": "dev",
-    "url": "https:\/\/fundor333.com\/post\/2020\/color-your-python-output\/",
-    "datePublished": "2020-09-10 21:06:21 \u002b0200 \u002b0200",
-    "description": "Sometime you need to make your output more readible adding color to the terminal",
-    "author": {
-      "@type": "Person",
-      "name": ""
-    }
-  } {
-    {
-      else
-    }
-  } {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "https:\/\/fundor333.com\/post\/2020\/color-your-python-output\/",
-    "name": "Color Your Python Output",
-    "author": {
-      "@type": "Person",
-      "name": "{ .Site.Params.author }}"
-    },
-    "description": "{ .Site.Params.description }}",
-  } {
-    {
-      end
-    }
-  }
+<body>
+  <br><header>
+  <div>
+    <a href="https://fundor333.com/" class="py-10 d-flex align-items-center justify-content-center container">
+      <img src="/img/pilogo.jpg" alt="logo" loading="lazy" id="logo" width="77" length="77">
+      <h1>Fundor333</h1>
+    </a>
+  </div>
 
-</script>
+  <div class="d-flex align-items-center justify-content-center">
+     
+    <a href=" /post/" class="block md:inline-block btn">blog</a>
+    
+    <a href=" /hoarding/" class="block md:inline-block btn">hoarding</a>
+    
+    <a href=" /cv/" class="block md:inline-block btn">cv</a>
+    
+    <a href=" /now/" class="block md:inline-block btn">now</a>
+    
+    <a href=" /project/" class="block md:inline-block btn">projects</a>
+    
+    <a href=" /note/" class="block md:inline-block btn">note</a>
+    
+  </div>
 
+  <div class="d-flex align-items-center justify-content-center">
+    
+    
+    <a href="https://github.com/fundor333" class="btn">
+      <i class="fab fa-github" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.facebook.com/fundor333" class="btn">
+      <i class="fab fa-facebook" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://twitter.com/fundor333" class="btn">
+      <i class="fab fa-twitter" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://mastodon.social/@fundor333" class="btn">
+      <i class="fab fa-mastodon" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A" class="btn">
+      <i class="fab fa-youtube" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.instagram.com/fundor333/" class="btn">
+      <i class="fab fa-instagram" aria-hidden="true">
+      </i>
+    </a>
+    
+    <a href="https://www.flickr.com/people/fundor333/" class="btn">
+      <i class="fab fa-flickr" aria-hidden="true">
+      </i>
+    </a>
+    
+  </div>
+</header>
 
-
-  
-</head>
 
 <script>
+  const changeThemeToDark = () => {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.className = "theme-dark";
+    $(".dark").hide();
+    $(".light").show();
+  }
 
-    const changeThemeToDark = () => {
-      localStorage.setItem("theme", "dark");
-      document.documentElement.className ="theme-dark";
-      $(".dark").hide();
-      $(".light").show();
+  const changeThemeToLight = () => {
+    localStorage.setItem("theme", "light");
+    document.documentElement.className = "theme-light";
+    $(".dark").show();
+    $(".light").hide();
+  }
+
+  function applyTheme(theme) {
+    if (theme === "light") {
+      changeThemeToLight()
+    } else if (theme === "dark") {
+      changeThemeToDark()
+    } else {
+      changeThemeToDark()
     }
-
-    const changeThemeToLight = () => {
-      localStorage.setItem("theme", "light");
-      document.documentElement.className ="theme-light";
-      $(".dark").show();
-      $(".light").hide();
-    }
-
-    function applyTheme(theme) {
-      if (theme === "light"){
-        changeThemeToLight()
-      }
-      else if (theme === "dark"){
-        changeThemeToDark()
-      }
-      else{
-        changeThemeToDark()
-      }
   }
 
   const currentTheme = localStorage.getItem("theme");
-if (currentTheme == "dark") {
-  changeThemeToDark();
-} else if (currentTheme == "light") {
-  changeThemeToLight();
-}
+  if (currentTheme == "dark") {
+    changeThemeToDark();
+  } else if (currentTheme == "light") {
+    changeThemeToLight();
+  }
 
-  $( window ).on( "load",function() {
-  const currentTheme = localStorage.getItem("theme") || "dark";
+  $(window).on("load", function () {
+    const currentTheme = localStorage.getItem("theme") || "dark";
 
-  applyTheme(currentTheme);
+    applyTheme(currentTheme);
 
-  document.querySelector("#theme").addEventListener("change", function () {
+    document.querySelector("#theme").addEventListener("change", function () {
       localStorage.setItem("theme", this.value);
       applyTheme(this.value);
+    });
+
+    for (const optionElement of document.querySelectorAll("#theme option")) {
+      optionElement.selected = currentTheme === optionElement.value;
+    }
+
   });
 
-  for (const optionElement of document.querySelectorAll("#theme option")) {
-    optionElement.selected = currentTheme === optionElement.value;
-}
-
-});
-
 </script>
-
-
-<body id="snowflakes-container">
-  
-
-
-  <nav class="navbar navbar-expand-lg f333">
-
-  <button class="navbar-toggler btn btn-thm btn-lg f333" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="fa-theme">
-    <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="https://fundor333.com/">
-      <img src="/img/pilogo.jpg" width="30" height="30" alt="" loading="lazy">
-      Fundor333
+<div id="content" class="container">
+    <hr>
+<div class="container-fluid">
+  <h1>Color Your Python Output</h1>
+  <hr>
+  <a href="https://fundor333.com/">home</a>
+  ~
+  <a href='https://fundor333.com/post/2020/color-your-python-output/'>Color Your Python Output</a>
+  <br>
+  <hr>
+  <br>
+  <div class="container-fluid">
+    
+    
+    <img class="img-fluid" src="https://fundor333.com/post/2020/color-your-python-output/color-your-python-output.jpg" alt="Card image cap">
+    
     </a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-       
-      <li class="nav-item">
-        <a class="nav-link" href="/post/">blog</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/hoarding/">hoarding</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/cv/">cv</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/now/">now</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/project/">projects</a>
-      </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="/note/">note</a>
-      </li>
-      
-    </ul>
-
+    <div>
+      <a href="https://unsplash.com/photos/GQD3Av_9A88">Photo by Scott Webb on Unsplash</a>
+    </div>
   </div>
-</nav>
-
 
   <div class="container">
-    <div class="col-10 offset-1">
-      <div class="row justify-content-center">
-         
-        <div class="col-1">
-          <a href="https://github.com/fundor333">
-            <i class="fab fa-github" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.facebook.com/fundor333">
-            <i class="fab fa-facebook" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://twitter.com/fundor333">
-            <i class="fab fa-twitter" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://mastodon.social/@fundor333">
-            <i class="fab fa-mastodon" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A">
-            <i class="fab fa-youtube" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.instagram.com/fundor333/">
-            <i class="fab fa-instagram" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-        <div class="col-1">
-          <a href="https://www.flickr.com/people/fundor333/">
-            <i class="fab fa-flickr" aria-hidden="true">
-            </i>
-          </a>
-        </div>
-        
-      </div>
-
-      <br>
-      <div class="row">
-        
-<div class="container">
-  <h1>Color Your Python Output</h1>
-    <a class="crumb" href="https://fundor333.com/">home</a>
-    ~
-    <a class="crumb" href='https://fundor333.com/post/2020/color-your-python-output/'>Color Your Python Output</a>
-    <br>
-    <hr>
-
-    <div>
-      
-      
-      <img src="https://fundor333.com/post/2020/color-your-python-output/color-your-python-output.jpg" alt="Card image cap" class="img-fluid">
-      
+    <div class="row justify-content-center">
+       
+      <a class="col btn tag-coding m-2" href='https://fundor333.com/tags/coding'>
+        <i class="fas fa-tags"></i> coding
       </a>
-      <div>
-        <a href="https://unsplash.com/photos/GQD3Av_9A88">Photo by Scott Webb on Unsplash</a>
-      </div>
+      
+      <a class="col btn tag-devops m-2" href='https://fundor333.com/tags/devops'>
+        <i class="fas fa-tags"></i> devops
+      </a>
+       
     </div>
-    <hr>
-     
-    <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
-    
-    <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
-     
-    <hr>
-    <p>
-      <small>2020-09-10</small>
-  </p>
-  <p>
-    <small>Words 290</small>
-  </p>
-    <hr>
+  </div>
 
-    <br>
-    <article>
-      <p>Sometime you need to output error and other stuff in the same terminal.
+  <hr>
+
+  <br>
+  <article class="flex flex-col">
+    <p>Sometime you need to output error and other stuff in the same terminal.
 It can be a lot of text and you need to make more readible for the user/sysadmin/victim so, the easy way, is to make different the output.</p>
 <p>The easy way to do it is to color the output to some color.</p>
-<a class="h2-anchor" href="#how-its-work"><h2 id="how-its-work">How it&rsquo;s work</h2></a>
+<h2 id="how-its-work">How it&rsquo;s work</h2>
 <p>In the ANSI character set you find the escape code for multiple things: cursor location, color, text style and other option for the terminal and the terminal emulators. So you need to check that your console support the ASCI escape code.</p>
 <p>So for using them you need to make inside the string your are outputting, like this</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
@@ -399,24 +283,23 @@ print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</
 </ol>
 </section>
 
-      <p>by Fundor333</p>
-    </article>
+    <p>by Fundor333</p>
+  </article>
 
-    <hr>
+  <hr>
 
-    
-    
-    <h3>See Also</h3>
-    
-    <article>
-  <div class="row justify-content-center">
+  
+  
+  <br>
+  <h3>See Also</h3>
+  
+  <hr class="my-5">
+
+<div class="col-start-2 col-span-10">
+  <article class="flex flex-col items-center">
     <a href="https://fundor333.com/post/2020/ssl-check-with-a-script/">
-      <h2 class="text-center">SSL Check With a Script</h2>
+      <h2 class="text-center py-2">SSL Check With a Script</h2>
     </a>
-  </div>
-
-  <div class="row justify-content-center col-8 offset-2">
-
 
     
     <a href="https://fundor333.com/post/2020/ssl-check-with-a-script/">
@@ -428,46 +311,43 @@ print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</
 
       
 
-      <img data-src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg" src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script_huacd65b378ee6c75d7a4a56f07d2ee593_1114032_2e0cafbdef8dd5a53dc4441ea70e763a.jpg" alt="SSL Check With a Script"
-        class="img-fluid rounded mx-auto d-block lazy">
+      <img data-src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script.jpg" src="https://fundor333.com/post/2020/ssl-check-with-a-script/ssl-check-with-a-script_huacd65b378ee6c75d7a4a56f07d2ee593_1114032_2e0cafbdef8dd5a53dc4441ea70e763a.jpg" alt="SSL Check With a Script" class="lazy">
     </a>
     
-  </div>
 
-  <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2020/ssl-check-with-a-script/" class="text-center">You need to check a lot of SSL certificate, some domain and others things</a>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small><i class="fas fa-mug-tea"></i>
+    <a href="https://fundor333.com/post/2020/ssl-check-with-a-script/" class="d-flex align-items-center justify-content-center pt-3">You need to check a lot of SSL certificate, some domain and others things</a>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <small class=""><i class="fas fa-mug-tea"></i>
         Reading time 4 minutes
       </small>
-    </p>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small>
+    </div>
+
+
+    <div class="container">
+      <div class="row justify-content-center">
          
-        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        <a class="col btn tag-coding m-2" href='https://fundor333.com/tags/coding'>
+          <i class="fas fa-tags"></i> coding
+        </a>
         
-        <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+        <a class="col btn tag-devops m-2" href='https://fundor333.com/tags/devops'>
+          <i class="fas fa-tags"></i> devops
+        </a>
          
-      </small>
-    </p>
-  </div>
-</article>
-<hr>
+      </div>
+    </div>
 
-    
-    <article>
-  <div class="row justify-content-center">
+  </article>
+</div>
+
+  
+  <hr class="my-5">
+
+<div class="col-start-2 col-span-10">
+  <article class="flex flex-col items-center">
     <a href="https://fundor333.com/post/2019/devops-chatbot-npm/">
-      <h2 class="text-center">DevOps, ChatBot e NPM</h2>
+      <h2 class="text-center py-2">DevOps, ChatBot e NPM</h2>
     </a>
-  </div>
-
-  <div class="row justify-content-center col-8 offset-2">
-
 
     
     <a href="https://fundor333.com/post/2019/devops-chatbot-npm/">
@@ -479,48 +359,47 @@ print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</
 
       
 
-      <img data-src="https://fundor333.com/post/2019/devops-chatbot-npm/octocat.png" src="https://fundor333.com/post/2019/devops-chatbot-npm/octocat_hub5ba3c50d2836646ca64390bf754a660_276819_956206bc5bd1880f9fc4e9b8de21c0f0.png" alt="DevOps, ChatBot e NPM"
-        class="img-fluid rounded mx-auto d-block lazy">
+      <img data-src="https://fundor333.com/post/2019/devops-chatbot-npm/octocat.png" src="https://fundor333.com/post/2019/devops-chatbot-npm/octocat_hub5ba3c50d2836646ca64390bf754a660_276819_956206bc5bd1880f9fc4e9b8de21c0f0.png" alt="DevOps, ChatBot e NPM" class="lazy">
     </a>
     
-  </div>
 
-  <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2019/devops-chatbot-npm/" class="text-center">Aggiornamento su cosa mi sta succedendo e perché ho iniziato a fare il DevOps</a>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small><i class="fas fa-mug-tea"></i>
+    <a href="https://fundor333.com/post/2019/devops-chatbot-npm/" class="d-flex align-items-center justify-content-center pt-3">Aggiornamento su cosa mi sta succedendo e perché ho iniziato a fare il DevOps</a>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <small class=""><i class="fas fa-mug-tea"></i>
         Reading time 2 minutes
       </small>
-    </p>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small>
+    </div>
+
+
+    <div class="container">
+      <div class="row justify-content-center">
          
-        <a class="tag" href='https://fundor333.com/tags/bot'><i class="fas fa-tags"></i> bot</a>
+        <a class="col btn tag-bot m-2" href='https://fundor333.com/tags/bot'>
+          <i class="fas fa-tags"></i> bot
+        </a>
         
-        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        <a class="col btn tag-coding m-2" href='https://fundor333.com/tags/coding'>
+          <i class="fas fa-tags"></i> coding
+        </a>
         
-        <a class="tag" href='https://fundor333.com/tags/devops'><i class="fas fa-tags"></i> devops</a>
+        <a class="col btn tag-devops m-2" href='https://fundor333.com/tags/devops'>
+          <i class="fas fa-tags"></i> devops
+        </a>
          
-      </small>
-    </p>
-  </div>
-</article>
-<hr>
+      </div>
+    </div>
 
-    
-    <article>
-  <div class="row justify-content-center">
+  </article>
+</div>
+
+  
+  <hr class="my-5">
+
+<div class="col-start-2 col-span-10">
+  <article class="flex flex-col items-center">
     <a href="https://fundor333.com/post/2020/backup-your-crontab/">
-      <h2 class="text-center">Backup Your Crontab</h2>
+      <h2 class="text-center py-2">Backup Your Crontab</h2>
     </a>
-  </div>
-
-  <div class="row justify-content-center col-8 offset-2">
-
 
     
     <a href="https://fundor333.com/post/2020/backup-your-crontab/">
@@ -532,40 +411,39 @@ print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</
 
       
 
-      <img data-src="https://fundor333.com/post/2020/backup-your-crontab/backup-your-crontab.jpg" src="https://fundor333.com/post/2020/backup-your-crontab/backup-your-crontab_hu3301f3e2c0644992e7ee9c53dc71e4a0_2054800_b652f7717b77ec97f31d594ad05237c9.jpg" alt="Backup Your Crontab"
-        class="img-fluid rounded mx-auto d-block lazy">
+      <img data-src="https://fundor333.com/post/2020/backup-your-crontab/backup-your-crontab.jpg" src="https://fundor333.com/post/2020/backup-your-crontab/backup-your-crontab_hu3301f3e2c0644992e7ee9c53dc71e4a0_2054800_b652f7717b77ec97f31d594ad05237c9.jpg" alt="Backup Your Crontab" class="lazy">
     </a>
     
-  </div>
 
-  <div class="row justify-content-center">
-    <a href="https://fundor333.com/post/2020/backup-your-crontab/" class="text-center">Using DotBot for backup and sync crontab job</a>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small><i class="fas fa-mug-tea"></i>
+    <a href="https://fundor333.com/post/2020/backup-your-crontab/" class="d-flex align-items-center justify-content-center pt-3">Using DotBot for backup and sync crontab job</a>
+    <div class="d-flex align-items-center justify-content-center pt-3">
+      <small class=""><i class="fas fa-mug-tea"></i>
         Reading time 2 minutes
       </small>
-    </p>
-  </div>
-  <div class="row justify-content-md-center">
-    <p>
-      <small>
+    </div>
+
+
+    <div class="container">
+      <div class="row justify-content-center">
          
-        <a class="tag" href='https://fundor333.com/tags/coding'><i class="fas fa-tags"></i> coding</a>
+        <a class="col btn tag-coding m-2" href='https://fundor333.com/tags/coding'>
+          <i class="fas fa-tags"></i> coding
+        </a>
         
-        <a class="tag" href='https://fundor333.com/tags/dotfiles'><i class="fas fa-tags"></i> dotfiles</a>
+        <a class="col btn tag-dotfiles m-2" href='https://fundor333.com/tags/dotfiles'>
+          <i class="fas fa-tags"></i> dotfiles
+        </a>
          
-      </small>
-    </p>
-  </div>
-</article>
-<hr>
+      </div>
+    </div>
 
-    
-    
+  </article>
+</div>
 
-    <div id="disqus_thread"></div>
+  
+  
+
+  <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
     
@@ -585,35 +463,23 @@ print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    <hr>
 </div>
 
-      </div>
-      <br>
-      
-    </div>
+    <hr>
+    <br>
   </div>
-  <br>
-  <footer class="d-flex justify-content-center f333 navbar">
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a href='https://webring.recurse.com' class="nav-item" target='_blank'><img
-          src='https://webring.recurse.com/icon.png' width="30" height="33" /></a>
+  <div class="container"><footer class="d-flex align-items-center justify-content-center">
+  <a href='https://webring.recurse.com' target='_blank' class="btn">
+    <img src='https://webring.recurse.com/icon.png' width="30" height="33" />
+  </a>
 
-      <a href='https://webring.xxiivv.com/#random' class="nav-item" target='_blank'>
-        <div class="fa-theme dark" style="display:none">
-          <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.black.svg' />
-        </div>
-        <div class="fa-theme light" style="display:none">
-          <img class="navbar-brand" width="30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
-        </div>
-      </a>
-    </li>
-  </ul>
+  <a href='https://webring.xxiivv.com/#random' target='_blank' class="btn">
+    <img width=" 30" height="33" src='https://webring.xxiivv.com/icon.white.svg' />
+  </a>
 </footer>
 
 <div class="fixed-bottom">
-  <div class="float-right pb-3 pr-5">
+  <div class="d-flex align-items-end justify-content-end">
     <button class="btn btn-thm btn-lg light" style="display:none" onclick="changeThemeToLight()">
       <div class="fa-theme">
         <i class="fas fa-starfighter"></i>
@@ -626,116 +492,8 @@ print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</
     </button>
   </div>
 </div>
-
-<br>
-
-<script src="/js/snowstorm.js"></script>
-
-
-<script>
-  function isWinter(dt) {
-    const m = dt.getMonth();
-    console.log(m)
-    return (m < 1 || m > 10);
-  }
-
-  function isBirthDay(dt) {
-    return dt.getMonth == 2 && dt.getDate() == 3;
-  }
-
-  function isValentineDay(dt) {
-    return dt.getMonth == 1 && dt.getDate() == 14;
-  }
-
-  var winterCharacter = "❄️"
-  var heartCharacter = "❤️"
-  var presentCharacter = "🎁"
-
-  if ([isWinter(new Date()), isBirthDay(new Date()), isValentineDay(new Date())].some(function (a) {
-      return true == a
-    })) {
-    snowStorm = snowFunction(window, document);
-    snowStorm.flakesMaxActive = 96; 
-    snowStorm.useTwinkleEffect = true; 
-    snowStorm.followMouse = false;
-    snowStorm.freezeOnBlur = true;
-  }
-
-  if (isWinter(new Date())) {
-    snowStorm.snowCharacter = winterCharacter;
-  }
-  if (isBirthDay(new Date())) {
-    snowStorm.snowCharacter = presentCharacter;
-  }
-  if (isValentineDay(new Date())) {
-    snowStorm.snowCharacter = heartCharacter;
-  }
-
-</script>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-
-<script type="application/javascript">
-var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-var doNotTrack = (dnt == "1" || dnt == "yes");
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	if (window.sessionStorage) {
-		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
-		ga('create', 'UA-44064318-2', {
-	    'storage': 'none',
-	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
-	   });
-	   ga(function(tracker) {
-	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
-	   });
-   }
-	ga('set', 'anonymizeIp', true);
-	ga('send', 'pageview');
-}
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-  $(function () {
-    count = 0;
-    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
-      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
-      "Wev 3.0", "Buzzword",
-    ];
-    setInterval(function () {
-      count++;
-      $(".buzzword").fadeOut(400, function () {
-        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
-      });
-    }, 4000);
-  });
-
-</script>
-
-
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-
-</script>
+</div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -789,9 +547,6 @@ if (!doNotTrack) {
   })
 
 </script>
-
-
-
 </body>
 
 </html>
