@@ -17,7 +17,7 @@
 	     "title": "E Talk Al Pycon9",
 	     "url": "https://fundor333.com/post/2018/e-talk-al-pycon9/",
 	     "summary": "E per caso mi ritrovo a dover parlare al Pycon\u0026hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.\nFacciamo un po' di ordine:\n Ho un blog gestito attraverso un generatore di siti statici Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi Ho una passione per il formato file .",
-	     "image": "",
+	     
 	     "date_published": "2018-02-12T00:00:00Z",
 	     "date_modified": "2018-02-12T00:00:00Z"        
 	   }
@@ -27,7 +27,7 @@
 	     "title": "GraphQL and working with it",
 	     "url": "https://fundor333.com/post/2018/graphql-and-working-with-it/",
 	     "summary": "What is a REST API? REST stand for Representational state transfer (REST) or RESTful web services and it\u0026rsquo;s the most used tipe of API you find online.\nIf I need some data I need to go to the url of the API and go to the subpath of the data I want.\nFor example if I need some posts from _https://jsonplaceholder.typicode.com/_ I need to go to _https://jsonplaceholder.typicode.com/posts_ and download all the posts or pass the id in the url like in _https://jsonplaceholder.",
-	     "image": "",
+	     
 	     "date_published": "2018-01-16T00:00:00Z",
 	     "date_modified": "2018-01-16T00:00:00Z"        
 	   }
@@ -37,7 +37,7 @@
 	     "title": "DotFile e le mie config",
 	     "url": "https://fundor333.com/post/2017/dotfile-e-le-mie-config/",
 	     "summary": "Da quasi 10 anni io utilizzo Linux o sistemi Unix su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com\u0026rsquo;era.\nQuindi ho imparato a \u0026ldquo;backappare\u0026rdquo; i file di configurazione e stavo iniziando a scrivere un orrendo accrocchio per la generazione delle configurazioni in modo automatico partendo da un database sqlite, che, per quanto intelligente come idea, non è una cosa di facile gestione ne adatto alla situazione che si è creata.",
-	     "image": "",
+	     
 	     "date_published": "2017-12-04T00:00:00Z",
 	     "date_modified": "2017-12-04T00:00:00Z"        
 	   }
@@ -47,7 +47,7 @@
 	     "title": "Un Astemio al Tezo Databeers",
 	     "url": "https://fundor333.com/post/2017/astemio-al-terzo-databeers/",
 	     "summary": "Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il DataBeers di Venezia.\nHo partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. Ci sono stati tre interventi di altrettante persone diverse:\n Data Driven Design Leonidas Paterakis del FabLab di Venezia presenta il sistema del Data Driven Design.",
-	     "image": "",
+	     
 	     "date_published": "2017-11-23T00:00:00Z",
 	     "date_modified": "2017-11-23T00:00:00Z"        
 	   }
@@ -57,7 +57,7 @@
 	     "title": "Utilizzi alternativi di Firebase",
 	     "url": "https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/",
 	     "summary": "Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all\u0026rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell\u0026rsquo;utente.\nQuesto obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l\u0026rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.",
-	     "image": "",
+	     
 	     "date_published": "2017-09-04T00:00:00Z",
 	     "date_modified": "2017-09-04T00:00:00Z"        
 	   }
@@ -67,7 +67,7 @@
 	     "title": "Pipenv e come tutto è in uno",
 	     "url": "https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/",
 	     "summary": "Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L\u0026rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.\nPartiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie",
-	     "image": "",
+	     
 	     "date_published": "2017-07-01T00:00:00Z",
 	     "date_modified": "2017-07-01T00:00:00Z"        
 	   }
@@ -77,7 +77,7 @@
 	     "title": "Google IO 2017",
 	     "url": "https://fundor333.com/post/2017/google-io-2017/",
 	     "summary": "Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.\nPre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.",
-	     "image": "",
+	     
 	     "date_published": "2017-05-18T00:00:00Z",
 	     "date_modified": "2017-05-18T00:00:00Z"        
 	   }
@@ -87,7 +87,7 @@
 	     "title": "Hugo into Docker",
 	     "url": "https://fundor333.com/post/2017/hugo-into-docker/",
 	     "summary": "\u003cp\u003eThis blog is publish with a docker image with GitLab. But I don\u0026rsquo;t like the image I was using because wasn\u0026rsquo;t update and it\u0026rsquo;s big and havy. So I fork the project for create an update version for my personal blog.\u003c/p\u003e",
-	     "image": "",
+	     
 	     "date_published": "2017-05-16T12:27:11+02:00",
 	     "date_modified": "2017-05-16T12:27:11+02:00"        
 	   }
@@ -97,7 +97,7 @@
 	     "title": "Il primo periodo con Emacs",
 	     "url": "https://fundor333.com/post/2017/il-primo-periodo-con-emacs/",
 	     "summary": "Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino usarlo come editor unico. La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.\nDa questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento \u0026ldquo;bloccato e non danneggiabile\u0026rdquo;.",
-	     "image": "",
+	     
 	     "date_published": "2017-04-21T00:00:00Z",
 	     "date_modified": "2017-04-21T00:00:00Z"        
 	   }

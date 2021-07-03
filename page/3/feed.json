@@ -17,7 +17,7 @@
 	     "title": "Mew and programming",
 	     "url": "https://fundor333.com/post/2019/mew-and-programming/",
 	     "summary": "This is a story about a myth about how to find Mew1.\nIn the old day without interent \u0026ldquo;the cousin of a friends\u0026rdquo; or a \u0026quot; friend of my cousin find and captured a Mew.\nThe Myth If you want to do it yourself you need to:\n Have a Pokemon with Surf Have a Pokemon with Strength Have the SS Anne not leave because the player doesn\u0026rsquo;t have HM01 Cut  If you use Surf in the SS Anne map you can go to the track.",
-	     "image": "",
+	     
 	     "date_published": "2019-12-28T15:00:00Z",
 	     "date_modified": "2019-12-28T15:00:00Z"        
 	   }
@@ -27,7 +27,7 @@
 	     "title": "Beards, mugs and men",
 	     "url": "https://fundor333.com/post/2019/beards-mugs-men/",
 	     "summary": "I use DevRant, a social for rant by developer. One day I find this rant.\n Some empty-headed helpdesk girl skipped into our office yesterday afternoon, despite the big scary warning signs glued to the door.\n\u0026ldquo;Hey, when I log in on my phone, the menu is looking weird\u0026rdquo;\n\u0026ldquo;Uh\u0026hellip; look at my beard\u0026rdquo;\n\u0026ldquo;What\u0026rdquo;\n\u0026ldquo;Just look at this beard!\u0026rdquo;\n\u0026ldquo;Uh\u0026hellip;. OK\u0026rdquo;\n\u0026ldquo;Does this look like a perfectly groomed beard\u0026rdquo;",
-	     "image": "",
+	     
 	     "date_published": "2019-07-15T00:00:00Z",
 	     "date_modified": "2019-07-15T00:00:00Z"        
 	   }
@@ -37,7 +37,7 @@
 	     "title": "Buzzwords buzzwords",
 	     "url": "https://fundor333.com/post/2019/buzzwords-buzzwords/",
 	     "summary": "Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le buzzword. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune buzzword sotto forma di termini tipo buzzword .\nIniziamo dalle basi: una buzzword è solitamente un termine che la persona ha sentito, gli è stata presentata come \u0026ldquo;l\u0026rsquo;ultima frontiera di/del \u0026lt;inserire qui l\u0026rsquo;ambito di interesse della persona o della direzione\u0026gt; e risolverà tutti i problemi rendendovi più ricchi di Paperone\u0026rdquo;.",
-	     "image": "",
+	     
 	     "date_published": "2019-06-17T10:00:00Z",
 	     "date_modified": "2019-06-17T10:00:00Z"        
 	   }
@@ -47,7 +47,7 @@
 	     "title": "Django Rest Framework: Multiple post",
 	     "url": "https://fundor333.com/post/2019/django-rest-framework-multiple-post/",
 	     "summary": "I need to have a massive put in my rest endpoint and Django Rest Framework doesn\u0026rsquo;t do it. So I make my personal method for mycase.\nSetup fo the project You need to follow the tutorial from the official documentation of Django Rest Framework.\nAfter this you have a MyModel, MyModelSerializer and a view class MyModelListPost.\nWhy I can\u0026rsquo;t use the default? After you did the tutorial you have a base for a standard Django Rest Framework.",
-	     "image": "",
+	     
 	     "date_published": "2019-04-23T10:00:00Z",
 	     "date_modified": "2019-04-23T10:00:00Z"        
 	   }
@@ -57,7 +57,7 @@
 	     "title": "DevOps, ChatBot e NPM",
 	     "url": "https://fundor333.com/post/2019/devops-chatbot-npm/",
 	     "summary": "Attualmente al lavoro il team di sviluppo é \u0026ldquo;giusto per le esigenze aziendali\u0026rdquo;. Questo significa due persone. Questo comporta anche che non esiste un backendista e un frontendista full time ma tutti fanno tutto.\nCon poi anche problemi legati alla pipeline di rilascio in produzione del codice che viene fatto manualmente e con molta (poca) attenzione. Fino al giorno dell\u0026rsquo;ARMAGEDDON.\nBuona Apocalisse a tutti e grazie per il pesce Kube, k8, Kubernetes o come lo chiamiamo noi il clousterone é stata la cosa che ha sconvolto la quiete del nostro reparto sviluppo.",
-	     "image": "",
+	     
 	     "date_published": "2019-02-05T10:11:07Z",
 	     "date_modified": "2019-02-05T10:11:07Z"        
 	   }
@@ -67,7 +67,7 @@
 	     "title": "Microsoft buy Atom, Electron and Open Source",
 	     "url": "https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/",
 	     "summary": "Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: \u0026ldquo;Whas are going to change into the OpenSource comunity or into the public code?\u0026rdquo;\nMany developer thinks about this and say something similar to \u0026ldquo;I do not want to risc my project so goodby\u0026rdquo; and the move to GitLab all theire code.\nGitHub imports to GitLab are still going up!",
-	     "image": "",
+	     
 	     "date_published": "2018-06-11T00:00:00Z",
 	     "date_modified": "2018-06-11T00:00:00Z"        
 	   }
@@ -77,7 +77,7 @@
 	     "title": "Floppy, Pycon e generatori di siti statici",
 	     "url": "https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/",
 	     "summary": "Anche quest\u0026rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.\nPc, penna e traveler jurnal, questa é la postazione da PyconQuest\u0026rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:\n ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto \u0026ldquo;evitando\u0026rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.",
-	     "image": "",
+	     
 	     "date_published": "2018-05-03T23:00:00Z",
 	     "date_modified": "2018-05-03T23:00:00Z"        
 	   }
@@ -87,7 +87,7 @@
 	     "title": "Tanti Auguri Nintendo Switch",
 	     "url": "https://fundor333.com/post/2018/tanti-auguri-nintendo/",
 	     "summary": "Esattamente un anno fa, il 3 Marzo 2017, usciva la Nintendo Switch, la prima console sia fissa che portatile che la Nintendo abbia mai fatto. In quella stessa data mi è stata regalata una Nintendo Switch con Zelda Breath of the Wild, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.1\nOggi, a un anno dopo, mi metto a fare i conti su com\u0026rsquo;è la console e su che parte del mercato si è posizionata la console ibrida.",
-	     "image": "",
+	     
 	     "date_published": "2018-03-03T00:00:00Z",
 	     "date_modified": "2018-03-03T00:00:00Z"        
 	   }
@@ -97,7 +97,7 @@
 	     "title": "P2P offline come le Spie",
 	     "url": "https://fundor333.com/post/2018/p2p-offline-da-spie/",
 	     "summary": "Da poco ho scoperto che nel 2006 l\u0026rsquo;agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia \u0026ldquo;wirless\u0026quot;1 e questo mi ha ricordato di alcuni progetti P2P che seguivo.\nPartiamo con ordine: cos\u0026rsquo;è il P2P?\nP2P sta per \u0026ldquo;Point to Point\u0026rdquo; ovvero \u0026ldquo;punto a punto\u0026rdquo;. Significa che la comunicazione è tra il \u0026ldquo;mittente\u0026rdquo; e il destinatario senza utilizzare intermediari. Questo, nel mondo moderno di internet e nel mondo delle nuove tecnologie, è rarissimo da trovare.",
-	     "image": "",
+	     
 	     "date_published": "2018-02-16T00:00:00Z",
 	     "date_modified": "2018-02-16T00:00:00Z"        
 	   }

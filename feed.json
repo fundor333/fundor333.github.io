@@ -17,7 +17,7 @@
 	     "title": "Letterhead With ReportLab",
 	     "url": "https://fundor333.com/post/2021/letterhead-with-reportlab/",
 	     "summary": "Sometime you need to make some pdf looking more professional. In python you use the ReportLab1 package for make Pdf.\nFist the main core For every document type I need I write a class with a get_pdf for print2 a Pdf.\nHere an example3\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35  class BasicPrinter: def __init__(self, buffer, pagesize=\u0026#34;A4\u0026#34;): self.",
-	     "image": "",
+	     
 	     "date_published": "2021-05-03T09:12:14+02:00",
 	     "date_modified": "2021-05-03T09:12:14+02:00"        
 	   }
@@ -27,7 +27,7 @@
 	     "title": "Advance Git Config and Ssh Config",
 	     "url": "https://fundor333.com/post/2021/advance-git-config-and-ssh-config/",
 	     "summary": "Many and many times I update my dotfiles1 and rewrite part of them for keep my work config and personal config in a same repo with all the config split for usage.\nSo I discover that I can have multiple ssh config and gitconfig on the same machine.\nMultiple SSH config files The SSH\u0026rsquo;s config file was too long to manage so one day I need to break it for make it easy for managing.",
-	     "image": "",
+	     
 	     "date_published": "2021-03-11T10:00:25+01:00",
 	     "date_modified": "2021-03-11T10:00:25+01:00"        
 	   }
@@ -47,7 +47,7 @@
 	     "title": "Adding Progress Bar in Python",
 	     "url": "https://fundor333.com/post/2020/adding-progress-bar-in-python/",
 	     "summary": "Sometime you need to make a script or a program with some task and show to the user you are doing something so you need to write something as output: a Progress Bar.\nYou have multiple way to do it and now I will show some way to do it with packages.\nProgress The first package I present is progress, an easy python package with a lot of configuration.\nThis package is base of one object, the Bar, and you set it, you use it for update the progressbass or end it.",
-	     "image": "",
+	     
 	     "date_published": "2020-11-30T13:24:20+01:00",
 	     "date_modified": "2020-11-30T13:24:20+01:00"        
 	   }
@@ -57,7 +57,7 @@
 	     "title": "Keep update Gitlab",
 	     "url": "https://fundor333.com/post/2020/keep_update_gitlab/",
 	     "summary": "Some time ago I had a problem with a selfhosted Gitlab instances. I had a new user, johnyj12345, which create a repo and an issiue and log off. This is an attack made to my instance because I don\u0026rsquo;t upgraded it for some time so I cleanit and remove all the trace of this user and update all.1\nAfter this I was ready to tacle the elephant in the room: how to check if my self hosted GitLab.",
-	     "image": "",
+	     
 	     "date_published": "2020-11-16T20:30:00+01:00",
 	     "date_modified": "2020-11-16T20:30:00+01:00"        
 	   }
@@ -67,7 +67,7 @@
 	     "title": "Why you need a doc",
 	     "url": "https://fundor333.com/post/2020/why-you-need-a-doc/",
 	     "summary": "Where you write code, an app, a mockup or a procedure you remember what you do but after 10,20,100 time you will forget one or more point. So you need to write down all.\nAnd you have multiple tool for doing it.\nTecnology or tools used We only have 2 tipe of tool for this task: paper o paperless. You can\u0026rsquo;t use other type of tool or tecnology and you can use the same tecnic in all the tecnology or tools you use.",
-	     "image": "",
+	     
 	     "date_published": "2020-11-09T11:00:50+01:00",
 	     "date_modified": "2020-11-09T11:00:50+01:00"        
 	   }
@@ -77,7 +77,7 @@
 	     "title": "Manage Site and Certificate",
 	     "url": "https://fundor333.com/post/2020/manage-site-and-certificate/",
 	     "summary": "After my other post I find we (me and my coworker) need to check between 30 to 40 domain, subdomain and SSL certificate for work and some more for our private life so I put on the test my other post\u0026rsquo;s script but we need to check more.\nWe need to check when the domain expire (DNS Lookup), we need to check if the server are up and the SSL certificate.",
-	     "image": "",
+	     
 	     "date_published": "2020-10-01T22:12:20+02:00",
 	     "date_modified": "2020-10-01T22:12:20+02:00"        
 	   }
@@ -87,7 +87,7 @@
 	     "title": "Color Your Python Output",
 	     "url": "https://fundor333.com/post/2020/color-your-python-output/",
 	     "summary": "Sometime you need to output error and other stuff in the same terminal. It can be a lot of text and you need to make more readible for the user/sysadmin/victim so, the easy way, is to make different the output.\nThe easy way to do it is to color the output to some color.\nHow it\u0026rsquo;s work In the ANSI character set you find the escape code for multiple things: cursor location, color, text style and other option for the terminal and the terminal emulators.",
-	     "image": "",
+	     
 	     "date_published": "2020-09-10T21:06:21+02:00",
 	     "date_modified": "2020-09-10T21:06:21+02:00"        
 	   }
@@ -97,7 +97,7 @@
 	     "title": "Backup Your Crontab",
 	     "url": "https://fundor333.com/post/2020/backup-your-crontab/",
 	     "summary": "With covid I work sometime at home, sometime at office, allwayse with different computer.\nThis is one of the reason of my dotfile and, for some project I am working on, I need to have some cronjob in every computer but some cronjob is machine specific so I don\u0026rsquo;t need to sync all, only some.\nSo I contact the developer of DotBot1 and talk about it but it wasn' t implemented so I make a plugin for this.",
-	     "image": "",
+	     
 	     "date_published": "2020-08-30T13:49:30+02:00",
 	     "date_modified": "2020-08-30T13:49:30+02:00"        
 	   }

@@ -17,7 +17,7 @@
 	     "title": "SSL Check With a Script",
 	     "url": "https://fundor333.com/post/2020/ssl-check-with-a-script/",
 	     "summary": "As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don\u0026rsquo;t have money I use Let\u0026rsquo;s Encrypt for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.\nEvery sistem I have use CertBot, the bot for Let\u0026rsquo;s Encrypt, who renew the certificate when needed with a cronjob.",
-	     "image": "",
+	     
 	     "date_published": "2020-08-20T14:13:40+02:00",
 	     "date_modified": "2020-08-20T14:13:40+02:00"        
 	   }
@@ -27,7 +27,7 @@
 	     "title": "Create a custon Git message with GitConfig",
 	     "url": "https://fundor333.com/post/2020/gitmessage-advance-config/",
 	     "summary": "Sometime you will need to have a template for the commit message.\nAllways put something (ticket code, bug code, etc\u0026hellip;), order of stuff, some command for the CI system, etc\u0026hellip;\nIn Git you can set a a file as the template for the git commit. You can do it for a single project or for your user. In this case I will show the command for all your project.\nFirst you need to write the file.",
-	     "image": "",
+	     
 	     "date_published": "2020-08-15T15:15:00+02:00",
 	     "date_modified": "2020-08-15T15:15:00+02:00"        
 	   }
@@ -37,7 +37,7 @@
 	     "title": "Good Developer Must Be Blogger",
 	     "url": "https://fundor333.com/post/2020/good-developer-must-be-blogger/",
 	     "summary": "I find the way to become a good programmer:\n Write a Blog about what are you doing\n I see more and more good programmers have good blog and good blog about programming have good author.\nAfter studing somee good blog and some bad blog I came with this list\n You need to write a blog about what you know.\nYou must keep it updated.\nYou need to research for it.",
-	     "image": "",
+	     
 	     "date_published": "2020-08-01T15:15:00+02:00",
 	     "date_modified": "2020-08-01T15:15:00+02:00"        
 	   }
@@ -47,7 +47,7 @@
 	     "title": "Building My Backend",
 	     "url": "https://fundor333.com/post/2020/building-my-backend/",
 	     "summary": "More time pass more time I need a server for my cronjob and other process. Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.\nOne day, adding a new feed to my Feedly account, I discovered that I can\u0026rsquo;t add more in the free subscription. So I start thinking some alternative.",
-	     "image": "",
+	     
 	     "date_published": "2020-06-26T09:44:10+02:00",
 	     "date_modified": "2020-06-26T09:44:10+02:00"        
 	   }
@@ -57,7 +57,7 @@
 	     "title": "Al You Need Is Static",
 	     "url": "https://fundor333.com/post/2020/al-you-need-is-static/",
 	     "summary": "You don\u0026rsquo;t need a dinamic site for your company or your blog. You are paing for query when you don\u0026rsquo;t need them. In the 90% of the situations you don\u0026rsquo;t need a dinamic web app or other complex things. You need a static site build with a static site generator.\nSome history To understand why in 2020 you need to have a static site and not a dinamic nees some hystory of the HypeText.",
-	     "image": "",
+	     
 	     "date_published": "2020-06-03T14:00:00Z",
 	     "date_modified": "2020-06-03T14:00:00Z"        
 	   }
@@ -67,7 +67,7 @@
 	     "title": "Make a Excel Django combo",
 	     "url": "https://fundor333.com/post/2020/excel-django-combo/",
 	     "summary": "Sometime you need to import \u0026ldquo;old data\u0026rdquo; or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.\nI use the pyexcel and pyexcel-xls module for this work.\nPyExcel is a module where you can import multiple type of file (in our case xls with pyexcel-xls) with one common interface for all the type of files.",
-	     "image": "",
+	     
 	     "date_published": "2020-05-20T00:00:00Z",
 	     "date_modified": "2020-05-20T00:00:00Z"        
 	   }
@@ -77,7 +77,7 @@
 	     "title": "Dotfiles, bot and yaml files",
 	     "url": "https://fundor333.com/post/2020/dotfiles-bot-yaml/",
 	     "summary": "If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.\nAnd many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.",
-	     "image": "",
+	     
 	     "date_published": "2020-05-01T16:00:00Z",
 	     "date_modified": "2020-05-01T16:00:00Z"        
 	   }
@@ -87,7 +87,7 @@
 	     "title": "Sock and socket",
 	     "url": "https://fundor333.com/post/2020/sock-and-socket/",
 	     "summary": "Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.\nIt make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:\n Hello\nwe need to connect to [last thing buy for the boss] system for [stuff i don\u0026rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.",
-	     "image": "",
+	     
 	     "date_published": "2020-04-15T00:00:00Z",
 	     "date_modified": "2020-04-15T00:00:00Z"        
 	   }
@@ -97,7 +97,7 @@
 	     "title": "Make a Tea Not Big Data",
 	     "url": "https://fundor333.com/post/2020/make-tea-not-big-data/",
 	     "summary": "The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.\nIndustrial Unamed Tea - Excel file  We don\u0026rsquo;t need to make analisys\nBoss\n THE big data for the NEWEST company. You can only use .xls, .xlsx e .",
-	     "image": "",
+	     
 	     "date_published": "2020-01-20T00:00:00Z",
 	     "date_modified": "2020-01-20T00:00:00Z"        
 	   }
