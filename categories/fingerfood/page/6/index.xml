@@ -1,0 +1,33 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>fingerfood on
+			Fundor333</title>
+		<link>https://fundor333.com/categories/fingerfood/</link>
+		<description>Recent content in fingerfood on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/categories/fingerfood/img/pilogo.jpg</url>
+			<title>fingerfood on
+				Fundor333</title>
+			<link>https://fundor333.com/categories/fingerfood/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Sat, 15 Aug 2020 15:15:00 +0200</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/categories/fingerfood/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>Docker, la balena con i container per software</title>
+			<link>https://fundor333.com/post/2016/docker-la-balena-con-i-container/</link>
+			<pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2016/docker-la-balena-con-i-container/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2016/docker-la-balena-con-i-container/cover.jpg"/>]]>Docker, cos&#39;è e come funziona</description>
+		</item>
+		
+	</channel>
+</rss>

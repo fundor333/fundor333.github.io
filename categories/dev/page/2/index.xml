@@ -1,0 +1,105 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>dev on
+			Fundor333</title>
+		<link>https://fundor333.com/categories/dev/</link>
+		<description>Recent content in dev on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/categories/dev/img/pilogo.jpg</url>
+			<title>dev on
+				Fundor333</title>
+			<link>https://fundor333.com/categories/dev/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Fri, 15 Jan 2021 12:27:21 +0100</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/categories/dev/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>SSL Check With a Script</title>
+			<link>https://fundor333.com/post/2020/ssl-check-with-a-script/</link>
+			<pubDate>Thu, 20 Aug 2020 14:13:40 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/ssl-check-with-a-script/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/ssl-check-with-a-script/cover.jpg"/>]]>You need to check a lot of SSL certificate, some domain and others things</description>
+		</item>
+		
+		<item>
+			<title>Create a custon Git message with GitConfig</title>
+			<link>https://fundor333.com/post/2020/gitmessage-advance-config/</link>
+			<pubDate>Sat, 15 Aug 2020 15:15:00 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/gitmessage-advance-config/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/gitmessage-advance-config/cover.jpg"/>]]>Sometime you need to configure your git or have a template for the commit for your work</description>
+		</item>
+		
+		<item>
+			<title>Good Developer Must Be Blogger</title>
+			<link>https://fundor333.com/post/2020/good-developer-must-be-blogger/</link>
+			<pubDate>Sat, 01 Aug 2020 15:15:00 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/good-developer-must-be-blogger/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/good-developer-must-be-blogger/cover.jpg"/>]]>For be a good programmer you need to be a blogger and write regulary</description>
+		</item>
+		
+		<item>
+			<title>Building My Backend</title>
+			<link>https://fundor333.com/post/2020/building-my-backend/</link>
+			<pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/building-my-backend/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/building-my-backend/cover.jpg"/>]]>Why someone need a server and how I build mine</description>
+		</item>
+		
+		<item>
+			<title>Al You Need Is Static</title>
+			<link>https://fundor333.com/post/2020/al-you-need-is-static/</link>
+			<pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/al-you-need-is-static/cover.jpg"/>]]>Why you need to move to static site generator and where they come from</description>
+		</item>
+		
+		<item>
+			<title>Make a Excel Django combo</title>
+			<link>https://fundor333.com/post/2020/excel-django-combo/</link>
+			<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/excel-django-combo/cover.jpg"/>]]>Import excel to django with easy and usefull form</description>
+		</item>
+		
+		<item>
+			<title>Dotfiles, bot and yaml files</title>
+			<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
+			<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/dotfiles-bot-yaml/cover.jpg"/>]]>Using the same dotfiles on multiple computer in the easy way</description>
+		</item>
+		
+		<item>
+			<title>Sock and socket</title>
+			<link>https://fundor333.com/post/2020/sock-and-socket/</link>
+			<pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/sock-and-socket/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/sock-and-socket/cover.jpg"/>]]>A little thing about socket in python</description>
+		</item>
+		
+		<item>
+			<title>Make a Tea Not Big Data</title>
+			<link>https://fundor333.com/post/2020/make-tea-not-big-data/</link>
+			<pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/make-tea-not-big-data/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/make-tea-not-big-data/cover.jpg"/>]]>A rant about workspace and data managment with tea</description>
+		</item>
+		
+	</channel>
+</rss>

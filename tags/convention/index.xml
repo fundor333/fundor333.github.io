@@ -1,54 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>convention on Fundor333</title>
-    <link>https://fundor333.com/tags/convention/</link>
-    <description>Recent content in convention on Fundor333</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 03 May 2018 23:00:00 +0000</lastBuildDate><atom:link href="https://fundor333.com/tags/convention/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Floppy, Pycon e generatori di siti statici</title>
-      <link>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</link>
-      <pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</guid>
-      <description>Anche quest&amp;rsquo;anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
-Pc, penna e traveler jurnal, questa é la postazione da PyconQuest&amp;rsquo;anno, infatti, ho fatto svariate cose diverse dal solito:
- ho tenuto un talk ho partecipato a una competizione interna ho provato il famoso lampredotto &amp;ldquo;evitando&amp;rdquo; la PyFiorentina  Il Talk Pelican e i generatori di siti statici e come non farci male Il talk è stato Pelican e i generatori di siti statici ed è stato, secondo me, un successo.</description>
-    </item>
-    
-    <item>
-      <title>E Talk Al Pycon9</title>
-      <link>https://fundor333.com/post/2018/e-talk-al-pycon9/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2018/e-talk-al-pycon9/</guid>
-      <description>E per caso mi ritrovo a dover parlare al Pycon&amp;hellip; E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
-Facciamo un po&#39; di ordine:
- Ho un blog gestito attraverso un generatore di siti statici Passo spesso tra Pelican e Hugo come generatore del blog, in quanto non mi trovo con entrambi Ho una passione per il formato file .</description>
-    </item>
-    
-    <item>
-      <title>Un Astemio al Tezo Databeers</title>
-      <link>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</link>
-      <pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</guid>
-      <description>Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il DataBeers di Venezia.
-Ho partecipato dalla prima iterazione a questo evento e, dal mio punto di vista, questa terza iterazione è stata la migliore. Ci sono stati tre interventi di altrettante persone diverse:
- Data Driven Design Leonidas Paterakis del FabLab di Venezia presenta il sistema del Data Driven Design.</description>
-    </item>
-    
-    <item>
-      <title>Google IO 2017</title>
-      <link>https://fundor333.com/post/2017/google-io-2017/</link>
-      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://fundor333.com/post/2017/google-io-2017/</guid>
-      <description>Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.
-Pre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>convention on
+			Fundor333</title>
+		<link>https://fundor333.com/tags/convention/</link>
+		<description>Recent content in convention on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/tags/convention/img/pilogo.jpg</url>
+			<title>convention on
+				Fundor333</title>
+			<link>https://fundor333.com/tags/convention/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Thu, 03 May 2018 23:00:00 +0000</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/tags/convention/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>Letterhead With ReportLab</title>
+			<link>https://fundor333.com/post/2021/letterhead-with-reportlab/</link>
+			<pubDate>Mon, 03 May 2021 09:12:14 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2021/letterhead-with-reportlab/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2021/letterhead-with-reportlab/cover.jpg"/>]]>Sometime you need to have a letterhead document generated by your application and here we explain how to make it with Reportlab</description>
+		</item>
+		
+		<item>
+			<title>Advance Git Config and Ssh Config</title>
+			<link>https://fundor333.com/post/2021/advance-git-config-and-ssh-config/</link>
+			<pubDate>Thu, 11 Mar 2021 10:00:25 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2021/advance-git-config-and-ssh-config/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2021/advance-git-config-and-ssh-config/cover.jpg"/>]]>My advance config for git e ssh</description>
+		</item>
+		
+		<item>
+			<title>The Team Makefile</title>
+			<link>https://fundor333.com/post/2021/the-team-makefile/</link>
+			<pubDate>Fri, 15 Jan 2021 12:27:21 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2021/the-team-makefile/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2021/the-team-makefile/cover.jpg"/>]]>You need to make a makefile if you are working on a team project</description>
+		</item>
+		
+		<item>
+			<title>Adding Progress Bar in Python</title>
+			<link>https://fundor333.com/post/2020/adding-progress-bar-in-python/</link>
+			<pubDate>Mon, 30 Nov 2020 13:24:20 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/adding-progress-bar-in-python/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/adding-progress-bar-in-python/cover.jpg"/>]]>Sometime you need to add a Progress Bar to your script and this is how</description>
+		</item>
+		
+		<item>
+			<title>Keep update Gitlab</title>
+			<link>https://fundor333.com/post/2020/keep_update_gitlab/</link>
+			<pubDate>Mon, 16 Nov 2020 20:30:00 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/keep_update_gitlab/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/keep_update_gitlab/cover.jpg"/>]]>How to check if your GitLab is update automaticaly</description>
+		</item>
+		
+		<item>
+			<title>Why you need a doc</title>
+			<link>https://fundor333.com/post/2020/why-you-need-a-doc/</link>
+			<pubDate>Mon, 09 Nov 2020 11:00:50 +0100</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/why-you-need-a-doc/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/why-you-need-a-doc/cover.jpg"/>]]>Every project you make you understand new things so you need to write down some thing. Something like a doc</description>
+		</item>
+		
+		<item>
+			<title>Manage Site and Certificate</title>
+			<link>https://fundor333.com/post/2020/manage-site-and-certificate/</link>
+			<pubDate>Thu, 01 Oct 2020 22:12:20 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/manage-site-and-certificate/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/manage-site-and-certificate/cover.jpg"/>]]>One dev manage 40 sites&#39; domains, SSL and check all of them with a package</description>
+		</item>
+		
+		<item>
+			<title>Color Your Python Output</title>
+			<link>https://fundor333.com/post/2020/color-your-python-output/</link>
+			<pubDate>Thu, 10 Sep 2020 21:06:21 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/color-your-python-output/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/color-your-python-output/cover.jpg"/>]]>Sometime you need to make your output more readible adding color to the terminal</description>
+		</item>
+		
+		<item>
+			<title>Backup Your Crontab</title>
+			<link>https://fundor333.com/post/2020/backup-your-crontab/</link>
+			<pubDate>Sun, 30 Aug 2020 13:49:30 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/backup-your-crontab/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/backup-your-crontab/cover.jpg"/>]]>Using DotBot for backup and sync crontab job</description>
+		</item>
+		
+	</channel>
 </rss>

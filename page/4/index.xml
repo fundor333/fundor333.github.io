@@ -1,0 +1,103 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Fundor333</title>
+		<link>https://fundor333.com/</link>
+		<description>Recent content on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/img/pilogo.jpg</url>
+			<title>Fundor333</title>
+			<link>https://fundor333.com/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Mon, 03 May 2021 09:12:14 +0200</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>E Talk Al Pycon9</title>
+			<link>https://fundor333.com/post/2018/e-talk-al-pycon9/</link>
+			<pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/e-talk-al-pycon9/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/e-talk-al-pycon9/cover.jpg"/>]]>E vado a parlare al Pycon9 per colpa di questo blog, della mia piccola passione per i generatori di siti statici e di un certo informatico</description>
+		</item>
+		
+		<item>
+			<title>GraphQL and working with it</title>
+			<link>https://fundor333.com/post/2018/graphql-and-working-with-it/</link>
+			<pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/graphql-and-working-with-it/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/graphql-and-working-with-it/cover.jpg"/>]]>This is an article about the future of the api: GraphQL. This is the natural evolution from the REST API and it&#39;s the best thing for request only part of the data in the API</description>
+		</item>
+		
+		<item>
+			<title>DotFile e le mie config</title>
+			<link>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</link>
+			<pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/dotfile-e-le-mie-config/cover.jpg"/>]]>DotFile e la mia configurazione di tutto</description>
+		</item>
+		
+		<item>
+			<title>Un Astemio al Tezo Databeers</title>
+			<link>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</link>
+			<pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/astemio-al-terzo-databeers/cover.jpg"/>]]>La mia terza esperienza al DataBeers di Venezia, mio quarto Databeers</description>
+		</item>
+		
+		<item>
+			<title>Utilizzi alternativi di Firebase</title>
+			<link>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</link>
+			<pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/cover.jpg"/>]]>Utilizzare le funzionalità di Firebase in modo non &#39;standard&#39;</description>
+		</item>
+		
+		<item>
+			<title>Pipenv e come tutto è in uno</title>
+			<link>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</link>
+			<pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/cover.jpg"/>]]>Assistiamo al matrimonio di Pipfile, Pip e PipEnv</description>
+		</item>
+		
+		<item>
+			<title>Google IO 2017</title>
+			<link>https://fundor333.com/post/2017/google-io-2017/</link>
+			<pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/google-io-2017/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/google-io-2017/cover.jpg"/>]]>Sono nell&#39;evento del GDG di Venezia a vedermi il Google IO 2017 in compagnia di altri informatici e interessati.</description>
+		</item>
+		
+		<item>
+			<title>Hugo into Docker</title>
+			<link>https://fundor333.com/post/2017/hugo-into-docker/</link>
+			<pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/hugo-into-docker/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/hugo-into-docker/cover.jpg"/>]]>This blog is publish with a docker image with GitLab. But I don&#39;t like the image I was using because wasn&#39;t update and it&#39;s big and havy. So I fork the project for create an update version for my personal blog.</description>
+		</item>
+		
+		<item>
+			<title>Il primo periodo con Emacs</title>
+			<link>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</link>
+			<pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/il-primo-periodo-con-emacs/cover.jpg"/>]]>Diario del mio primo periodo di utilizzo di Emacs</description>
+		</item>
+		
+	</channel>
+</rss>

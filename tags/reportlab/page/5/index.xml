@@ -1,0 +1,105 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>reportlab on
+			Fundor333</title>
+		<link>https://fundor333.com/tags/reportlab/</link>
+		<description>Recent content in reportlab on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/tags/reportlab/img/pilogo.jpg</url>
+			<title>reportlab on
+				Fundor333</title>
+			<link>https://fundor333.com/tags/reportlab/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Mon, 03 May 2021 09:12:14 +0200</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/tags/reportlab/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>E sono passato a Hugo</title>
+			<link>https://fundor333.com/post/2017/e-sono-passato-a-hugo/</link>
+			<pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/e-sono-passato-a-hugo/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/e-sono-passato-a-hugo/cover.jpg"/>]]>Come e perchè sono passato a Hugo da Pelican</description>
+		</item>
+		
+		<item>
+			<title>Emacs e mai più mouse</title>
+			<link>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</link>
+			<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/emacs-e-mai-piu-mouse/cover.jpg"/>]]>Cos&#39;è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal mio set per il pc</description>
+		</item>
+		
+		<item>
+			<title>Jupyter Notebook Pelican Combo</title>
+			<link>https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/</link>
+			<pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/cover.jpg"/>]]>Come ho combinato Jupyter con questo blog in Pelican</description>
+		</item>
+		
+		<item>
+			<title>Bot, Telegram e programmazione funzionale</title>
+			<link>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</link>
+			<pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/cover.jpg"/>]]>Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python</description>
+		</item>
+		
+		<item>
+			<title>Grumpy, come convertire il serpente nel gopher</title>
+			<link>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</link>
+			<pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/cover.jpg"/>]]>Cos&#39;è Grumpy e come la penso su questo progetto di Google e le sue conseguenze</description>
+		</item>
+		
+		<item>
+			<title>Scrivi, push e publica</title>
+			<link>https://fundor333.com/post/2017/scrivi-push-public/</link>
+			<pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/scrivi-push-public/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/scrivi-push-public/cover.jpg"/>]]>Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni</description>
+		</item>
+		
+		<item>
+			<title>Parentesys Horror</title>
+			<link>https://fundor333.com/post/2016/orrori-delle-parentesi/</link>
+			<pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2016/orrori-delle-parentesi/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2016/orrori-delle-parentesi/cover.jpg"/>]]>How to use parentesies in coding</description>
+		</item>
+		
+		<item>
+			<title>Gource, visualizzare Git repository</title>
+			<link>https://fundor333.com/post/2016/gource-visualizzare-git-repository/</link>
+			<pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2016/gource-visualizzare-git-repository/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2016/gource-visualizzare-git-repository/cover.jpg"/>]]>Gource, cos&#39;è e come usarlo al meglio</description>
+		</item>
+		
+		<item>
+			<title>Git, l&#39;albero delle versioni che ci salva il progetto</title>
+			<link>https://fundor333.com/post/2016/git-lalbero-delle-versioni/</link>
+			<pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2016/git-lalbero-delle-versioni/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2016/git-lalbero-delle-versioni/cover.jpg"/>]]>Spesso e volentieri uno dei problemi dello sviluppo di software è avere backup del codice e condividerlo in modo da poterci lavorare in più persone in contemporanea senza sovrapporre le modifiche. Queste due richieste vengono soddisfatte con un software di version controlling che permetta il lavoro di multipli utenti.</description>
+		</item>
+		
+	</channel>
+</rss>
