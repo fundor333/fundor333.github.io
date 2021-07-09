@@ -191,13 +191,20 @@
 <div id="content" class="container">
     <hr>
 <div class="container-fluid">
-  <h1>E sono passato a Hugo</h1>
+  <h1 class="text-center">
+    <a href="/quiet" class="quiet-link px-3"> <i class="fa-duotone fa-dice-d20"></i></a>
+    E sono passato a Hugo
+    <a href="/quiet" class="quiet-link px-3"> <i class="fa-duotone fa-dice-d20"></i></a>
+  </h1>
   <hr>
-  <a href="https://fundor333.com/">home</a>
-  ~
-  <a href='https://fundor333.com/post/2017/e-sono-passato-a-hugo/'>E sono passato a Hugo</a>
+  <div class="container-fluid text-center">
 
-  <p class=""><i class="fa-duotone fa-mug-tea"></i>
+    <a href="https://fundor333.com/">home</a>
+    ~
+    <a href='https://fundor333.com/post/2017/e-sono-passato-a-hugo/'>E sono passato a Hugo</a>
+  </div>
+
+  <p class="text-center"><i class="fa-duotone fa-mug-tea"></i>
     Reading time 3 minutes
   </p>
   <hr>
@@ -211,7 +218,8 @@
 
     
     <div class="col-10 offset-1">
-      <img class="img-fluid lazy" data-src="https://fundor333.com/post/2017/e-sono-passato-a-hugo/cover.jpg" src="https://fundor333.com/post/2017/e-sono-passato-a-hugo/cover_hu5438825b9b6d1014226d20d231e650c2_1026456_364ea88ebce1e814abf8fe309efc2505.jpg" alt="Card image cap">
+      <img class="img-fluid lazy" data-src="https://fundor333.com/post/2017/e-sono-passato-a-hugo/cover.jpg" src="https://fundor333.com/post/2017/e-sono-passato-a-hugo/cover_hu5438825b9b6d1014226d20d231e650c2_1026456_364ea88ebce1e814abf8fe309efc2505.jpg"
+        alt="Card image cap">
     </div>
 
     <div class="row">
@@ -219,18 +227,22 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="row justify-content-center">
-       
-      <a class="col btn tag-blog m-2" href='https://fundor333.com/tags/blog'>
-        <i class="fas fa-tags"></i> blog
-      </a>
-      
-      <a class="col btn tag-hugo m-2" href='https://fundor333.com/tags/hugo'>
-        <i class="fas fa-tags"></i> hugo
-      </a>
-       
-    </div>
+  <div class="container text-center">
+     
+    <a class="btn tag-blog m-2 d-md-none " href='https://fundor333.com/tags/blog'>
+      blog
+    </a>
+    <a class="btn tag-blog m-2 d-md-inline-block d-sm-none d-none" href='https://fundor333.com/tags/blog'>
+      <i class="fas fa-tags"></i> blog
+    </a>
+    
+    <a class="btn tag-hugo m-2 d-md-none " href='https://fundor333.com/tags/hugo'>
+      hugo
+    </a>
+    <a class="btn tag-hugo m-2 d-md-inline-block d-sm-none d-none" href='https://fundor333.com/tags/hugo'>
+      <i class="fas fa-tags"></i> hugo
+    </a>
+     
   </div>
 
   <hr>
@@ -285,11 +297,9 @@ pages:
     <p>by Fundor333</p>
   </article>
 
+  
+  
   <hr>
-
-  
-  
-<hr>
   <div id="disqus_thread"></div>
 <script type="application/javascript">
     var disqus_config = function () {
