@@ -151,6 +151,8 @@ Allow: /post/2017/pipenv-e-come-tutto-e-in-uno/
 
 Allow: /post/2017/google-io-2017/
 
+Allow: /tags/blog/
+
 Allow: /tags/docker/
 
 Allow: /tags/hugo/
@@ -158,8 +160,6 @@ Allow: /tags/hugo/
 Allow: /post/2017/hugo-into-docker/
 
 Allow: /post/2017/il-primo-periodo-con-emacs/
-
-Allow: /tags/blog/
 
 Allow: /post/2017/e-sono-passato-a-hugo/
 
@@ -188,8 +188,6 @@ Allow: /hoarding/
 Allow: /note/
 
 Allow: /now/
-
-Allow: /packages/
 
 Allow: /project/
 

@@ -377,6 +377,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://fundor333.com/tags/blog/</loc>
+    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://fundor333.com/tags/docker/</loc>
     <lastmod>2017-05-16T12:27:11+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -394,11 +399,6 @@
   </url><url>
     <loc>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://fundor333.com/tags/blog/</loc>
-    <lastmod>2017-04-04T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -465,10 +465,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://fundor333.com/now/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://fundor333.com/packages/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
