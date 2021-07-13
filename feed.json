@@ -91,16 +91,6 @@
 	     "date_published": "2020-09-10T21:06:21+02:00",
 	     "date_modified": "2020-09-10T21:06:21+02:00"        
 	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2020/backup-your-crontab/",
-	     "title": "Backup Your Crontab",
-	     "url": "https://fundor333.com/post/2020/backup-your-crontab/",
-	     "summary": "With covid I work sometime at home, sometime at office, allwayse with different computer.\nThis is one of the reason of my dotfile and, for some project I am working on, I need to have some cronjob in every computer but some cronjob is machine specific so I don\u0026rsquo;t need to sync all, only some.\nSo I contact the developer of DotBot1 and talk about it but it wasn' t implemented so I make a plugin for this.",
-	     
-	     "date_published": "2020-08-30T13:49:30+02:00",
-	     "date_modified": "2020-08-30T13:49:30+02:00"        
-	   }
 	   
 	 ]
       }

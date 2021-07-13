@@ -13,6 +13,46 @@
 
 	 "items": [ 
 	    {
+	     "id": "https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/",
+	     "title": "Pipenv e come tutto è in uno",
+	     "url": "https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/",
+	     "summary": "Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di Kenneth Reitz, autore di svariati moduli python tra cui Requests che tutti i pythonisti conoscono e usano. L\u0026rsquo;ultimo progetto suo di mio interesse è PipEnv, sacro matrimonio di pipfile, pip e virtualenv.\nPartiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie",
+	     
+	     "date_published": "2017-07-01T00:00:00Z",
+	     "date_modified": "2017-07-01T00:00:00Z"        
+	   }
+	   ,
+	    {
+	     "id": "https://fundor333.com/post/2017/google-io-2017/",
+	     "title": "Google IO 2017",
+	     "url": "https://fundor333.com/post/2017/google-io-2017/",
+	     "summary": "Sono nell’evento del GDG di Venezia a vedermi il Google IO 2017in compagnia di altri informatici e interessati. Questo è il resoconto dell’evento.\nPre evento Stiamo soffiando bolle in attesa dell’inizio dell’evento. Il GDGfa una piccola presentazione di cos’è il GDGe cos’è il Google IO 2017. Tutti siamo in fremente attesa dell’evento, anche se la location risulta essere una distrazione. Il posto è la tesa 94 dell’Arsenale di Venezia, ove Google ha una delle sedi del Grand Tour d’Italia.",
+	     
+	     "date_published": "2017-05-18T00:00:00Z",
+	     "date_modified": "2017-05-18T00:00:00Z"        
+	   }
+	   ,
+	    {
+	     "id": "https://fundor333.com/post/2017/hugo-into-docker/",
+	     "title": "Hugo into Docker",
+	     "url": "https://fundor333.com/post/2017/hugo-into-docker/",
+	     "summary": "\u003cp\u003eThis blog is publish with a docker image with GitLab. But I don\u0026rsquo;t like the image I was using because wasn\u0026rsquo;t update and it\u0026rsquo;s big and havy. So I fork the project for create an update version for my personal blog.\u003c/p\u003e",
+	     
+	     "date_published": "2017-05-16T12:27:11+02:00",
+	     "date_modified": "2017-05-16T12:27:11+02:00"        
+	   }
+	   ,
+	    {
+	     "id": "https://fundor333.com/post/2017/il-primo-periodo-con-emacs/",
+	     "title": "Il primo periodo con Emacs",
+	     "url": "https://fundor333.com/post/2017/il-primo-periodo-con-emacs/",
+	     "summary": "Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino usarlo come editor unico. La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.\nDa questo punto di vista il tutorial dentro emacs è un ottimo punto di partenza e ambiente ove testare e provare i comandi su un documento \u0026ldquo;bloccato e non danneggiabile\u0026rdquo;.",
+	     
+	     "date_published": "2017-04-21T00:00:00Z",
+	     "date_modified": "2017-04-21T00:00:00Z"        
+	   }
+	   ,
+	    {
 	     "id": "https://fundor333.com/post/2017/e-sono-passato-a-hugo/",
 	     "title": "E sono passato a Hugo",
 	     "url": "https://fundor333.com/post/2017/e-sono-passato-a-hugo/",
@@ -50,56 +90,6 @@
 	     
 	     "date_published": "2017-02-11T00:00:00Z",
 	     "date_modified": "2017-02-11T00:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/",
-	     "title": "Grumpy, come convertire il serpente nel gopher",
-	     "url": "https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/",
-	     "summary": "\u003cp\u003eIo sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.\u003c/p\u003e\n\u003cp\u003eQuindi quando ho visto che Google lancia Grumpy in un articolo nel loro \u003ca href=\"https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html\"\u003eblog\u003c/a\u003e non potevo che essere incuriosito  e interessato ad avere ancora più notizie sul questo progetto. E, grazie ad un podcast che ascolto ho avuto ancora più notizie.\u003c/p\u003e\n\u003cp\u003eIo sono iscritto al podcast \u003ca href=\"https://talkpython.fm/\"\u003eTalk Python\u003c/a\u003e dove in un \u003ca href=\"https://talkpython.fm/episodes/show/95/grumpy-running-python-on-go\"\u003eepisodio\u003c/a\u003e è stato intervistato Dylan Trotter, Ingegniere Youtube e un entusiasta di GoLang.\u003c/p\u003e",
-	     
-	     "date_published": "2017-01-26T00:00:00Z",
-	     "date_modified": "2017-01-26T00:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2017/scrivi-push-public/",
-	     "title": "Scrivi, push e publica",
-	     "url": "https://fundor333.com/post/2017/scrivi-push-public/",
-	     "summary": "Ho riscritto interamente il blog. Ora gira tutto in Python\u0026hellip; Anche se nel server è tutto in HTML5.\nQuesto perchè sento la necessità di legarmi a una tecnologia più elastica e a me congeniale rispetto a PHP. Prima infatti tutto il blog era basato su wordpress ma, cercando di sviluppare un tema per il blog non ero convinto.\nCosì sono passato da un blog dinamico a uno statico.\nCome mi hanno detto una volta, le storie miglioni non hanno un inizio, si parte già al centro dell\u0026rsquo;azione e questo è quello che è successo: io stavo scrivendo un layout html per questo blog ma non ero soddisfatto di dover utilizzare PHP come linguaggio di composizione delle pagine.",
-	     
-	     "date_published": "2017-01-14T00:00:00Z",
-	     "date_modified": "2017-01-14T00:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2016/orrori-delle-parentesi/",
-	     "title": "Parentesys Horror",
-	     "url": "https://fundor333.com/post/2016/orrori-delle-parentesi/",
-	     "summary": "(°,,,°)\nThis is my face when I open Twitter\u0026hellip;\nA fragment of code with parentesies at the end of the row\u0026hellip;\nUse whatever brace style you prefer.\nBut not this.\nDon\u0026#39;t do this.\nSeek help instead of this. pic.twitter.com/1EYb7BLHkb\n\u0026mdash; HisCursedness (@HisCursedness) October 19, 2016  \\|/(x,,,x)\\|/\nThis is one of the think you must not do. The bon ton of coding show you how you need to write the code.",
-	     
-	     "date_published": "2016-11-09T00:00:00Z",
-	     "date_modified": "2016-11-09T00:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2016/gource-visualizzare-git-repository/",
-	     "title": "Gource, visualizzare Git repository",
-	     "url": "https://fundor333.com/post/2016/gource-visualizzare-git-repository/",
-	     "summary": "\u003cp\u003eQuando hai un progetto Git, normalmente lo usi per fare controllo delle\nversioni.\u003cbr\u003e\nUna volta che il progetto è nella fase di rilascio tu hai quindi un\nrepository molto \u0026ldquo;pieno\u0026rdquo; di dati temporali e di chi a modificato cosa e\nquando. E' solitamente in questo momento che io faccio il \u0026ldquo;Gource\u0026rdquo; del\nprogetto.\u003c/p\u003e",
-	     
-	     "date_published": "2016-11-07T00:00:00Z",
-	     "date_modified": "2016-11-07T00:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2016/git-lalbero-delle-versioni/",
-	     "title": "Git, l'albero delle versioni che ci salva il progetto",
-	     "url": "https://fundor333.com/post/2016/git-lalbero-delle-versioni/",
-	     "summary": "Spesso e volentieri uno dei problemi dello sviluppo di software è avere backup del codice e condividerlo in modo da poterci lavorare in più persone in contemporanea senza sovrapporre le modifiche. Queste due richieste vengono soddisfatte con un software di version controlling che permetta il lavoro di multipli utenti.\nDopo una analisi ho capito che Git è quello che fa al caso mio.\n{.responsive-img .center-align}\nCome sono arrivato a Git?",
-	     
-	     "date_published": "2016-10-10T00:00:00Z",
-	     "date_modified": "2016-10-10T00:00:00Z"        
 	   }
 	   
 	 ]

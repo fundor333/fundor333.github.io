@@ -12,11 +12,47 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Mon, 03 May 2021 09:12:14 +0200</lastBuildDate>
+		<lastBuildDate>Tue, 13 Jul 2021 19:15:01 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Pipenv e come tutto è in uno</title>
+			<link>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</link>
+			<pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/cover.jpg"/>]]>Assistiamo al matrimonio di Pipfile, Pip e PipEnv</description>
+		</item>
+		
+		<item>
+			<title>Google IO 2017</title>
+			<link>https://fundor333.com/post/2017/google-io-2017/</link>
+			<pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/google-io-2017/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/google-io-2017/cover.jpg"/>]]>Sono nell&#39;evento del GDG di Venezia a vedermi il Google IO 2017 in compagnia di altri informatici e interessati.</description>
+		</item>
+		
+		<item>
+			<title>Hugo into Docker</title>
+			<link>https://fundor333.com/post/2017/hugo-into-docker/</link>
+			<pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/hugo-into-docker/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/hugo-into-docker/cover.jpg"/>]]>This blog is publish with a docker image with GitLab. But I don&#39;t like the image I was using because wasn&#39;t update and it&#39;s big and havy. So I fork the project for create an update version for my personal blog.</description>
+		</item>
+		
+		<item>
+			<title>Il primo periodo con Emacs</title>
+			<link>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</link>
+			<pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/il-primo-periodo-con-emacs/cover.jpg"/>]]>Diario del mio primo periodo di utilizzo di Emacs</description>
+		</item>
 		
 		<item>
 			<title>E sono passato a Hugo</title>
@@ -52,51 +88,6 @@
 			
 			<guid>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</guid>
 			<description><![CDATA[<img src="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/cover.jpg"/>]]>Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python</description>
-		</item>
-		
-		<item>
-			<title>Grumpy, come convertire il serpente nel gopher</title>
-			<link>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</link>
-			<pubDate>Thu, 26 Jan 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/grumpy-come-convertire-il-serpente-nel-gopher/cover.jpg"/>]]>Cos&#39;è Grumpy e come la penso su questo progetto di Google e le sue conseguenze</description>
-		</item>
-		
-		<item>
-			<title>Scrivi, push e publica</title>
-			<link>https://fundor333.com/post/2017/scrivi-push-public/</link>
-			<pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/scrivi-push-public/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/scrivi-push-public/cover.jpg"/>]]>Come scrivere un blog interamente in pelican, gestito in github e travis con autopubblicazioni</description>
-		</item>
-		
-		<item>
-			<title>Parentesys Horror</title>
-			<link>https://fundor333.com/post/2016/orrori-delle-parentesi/</link>
-			<pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2016/orrori-delle-parentesi/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2016/orrori-delle-parentesi/cover.jpg"/>]]>How to use parentesies in coding</description>
-		</item>
-		
-		<item>
-			<title>Gource, visualizzare Git repository</title>
-			<link>https://fundor333.com/post/2016/gource-visualizzare-git-repository/</link>
-			<pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2016/gource-visualizzare-git-repository/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2016/gource-visualizzare-git-repository/cover.jpg"/>]]>Gource, cos&#39;è e come usarlo al meglio</description>
-		</item>
-		
-		<item>
-			<title>Git, l&#39;albero delle versioni che ci salva il progetto</title>
-			<link>https://fundor333.com/post/2016/git-lalbero-delle-versioni/</link>
-			<pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2016/git-lalbero-delle-versioni/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2016/git-lalbero-delle-versioni/cover.jpg"/>]]>Spesso e volentieri uno dei problemi dello sviluppo di software è avere backup del codice e condividerlo in modo da poterci lavorare in più persone in contemporanea senza sovrapporre le modifiche. Queste due richieste vengono soddisfatte con un software di version controlling che permetta il lavoro di multipli utenti.</description>
 		</item>
 		
 	</channel>

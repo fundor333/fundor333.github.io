@@ -14,7 +14,7 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Mon, 04 Jan 2021 21:01:44 +0100</lastBuildDate>
+		<lastBuildDate>Tue, 13 Jul 2021 19:15:01 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/quiet/index.xml" rel="self" type="application/rss+xml" />
 		
@@ -90,15 +90,6 @@
 			
 			<guid>https://fundor333.com/post/2020/color-your-python-output/</guid>
 			<description><![CDATA[<img src="https://fundor333.com/post/2020/color-your-python-output/cover.jpg"/>]]>Sometime you need to make your output more readible adding color to the terminal</description>
-		</item>
-		
-		<item>
-			<title>Backup Your Crontab</title>
-			<link>https://fundor333.com/post/2020/backup-your-crontab/</link>
-			<pubDate>Sun, 30 Aug 2020 13:49:30 +0200</pubDate>
-			
-			<guid>https://fundor333.com/post/2020/backup-your-crontab/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/backup-your-crontab/cover.jpg"/>]]>Using DotBot for backup and sync crontab job</description>
 		</item>
 		
 	</channel>

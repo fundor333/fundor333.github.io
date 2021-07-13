@@ -13,6 +13,16 @@
 
 	 "items": [ 
 	    {
+	     "id": "https://fundor333.com/post/2020/backup-your-crontab/",
+	     "title": "Backup Your Crontab",
+	     "url": "https://fundor333.com/post/2020/backup-your-crontab/",
+	     "summary": "With covid I work sometime at home, sometime at office, allwayse with different computer.\nThis is one of the reason of my dotfile and, for some project I am working on, I need to have some cronjob in every computer but some cronjob is machine specific so I don\u0026rsquo;t need to sync all, only some.\nSo I contact the developer of DotBot1 and talk about it but it wasn' t implemented so I make a plugin for this.",
+	     
+	     "date_published": "2020-08-30T13:49:30+02:00",
+	     "date_modified": "2020-08-30T13:49:30+02:00"        
+	   }
+	   ,
+	    {
 	     "id": "https://fundor333.com/post/2020/ssl-check-with-a-script/",
 	     "title": "SSL Check With a Script",
 	     "url": "https://fundor333.com/post/2020/ssl-check-with-a-script/",
@@ -80,26 +90,6 @@
 	     
 	     "date_published": "2020-05-01T16:00:00Z",
 	     "date_modified": "2020-05-01T16:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2020/sock-and-socket/",
-	     "title": "Sock and socket",
-	     "url": "https://fundor333.com/post/2020/sock-and-socket/",
-	     "summary": "Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.\nIt make feel you strange because you fell it and you only want to pull off both of them but Irony come in your live looking like a mail:\n Hello\nwe need to connect to [last thing buy for the boss] system for [stuff i don\u0026rsquo;t understand/like/want] reason so your team need to make a sock to talk with this system.",
-	     
-	     "date_published": "2020-04-15T00:00:00Z",
-	     "date_modified": "2020-04-15T00:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2020/make-tea-not-big-data/",
-	     "title": "Make a Tea Not Big Data",
-	     "url": "https://fundor333.com/post/2020/make-tea-not-big-data/",
-	     "summary": "The story I had different work espiriences with big data and data analysis and so I describe it with tea. This is a personal rant and I will use some personal experience with tea for describe some experiences about data management.\nIndustrial Unamed Tea - Excel file  We don\u0026rsquo;t need to make analisys\nBoss\n THE big data for the NEWEST company. You can only use .xls, .xlsx e .",
-	     
-	     "date_published": "2020-01-20T00:00:00Z",
-	     "date_modified": "2020-01-20T00:00:00Z"        
 	   }
 	   
 	 ]

@@ -1,9 +1,13 @@
 User-agent: *
 
 
-Allow: /tags/coding/
+Allow: /quiet/
+
+Allow: /quiet/26584/
 
 Allow: /
+
+Allow: /tags/coding/
 
 Allow: /post/2021/letterhead-with-reportlab/
 
@@ -30,8 +34,6 @@ Allow: /categories/dev/
 Allow: /tags/hacking/
 
 Allow: /post/2021/the-team-makefile/
-
-Allow: /quiet/
 
 Allow: /quiet/23664/
 

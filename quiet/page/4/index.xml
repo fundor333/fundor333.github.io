@@ -14,11 +14,38 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Mon, 04 Jan 2021 21:01:44 +0100</lastBuildDate>
+		<lastBuildDate>Tue, 13 Jul 2021 19:15:01 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/quiet/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Floppy, Pycon e generatori di siti statici</title>
+			<link>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</link>
+			<pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/cover.jpg"/>]]>Racconto della mia esperienza al Pycon 9</description>
+		</item>
+		
+		<item>
+			<title>Tanti Auguri Nintendo Switch</title>
+			<link>https://fundor333.com/post/2018/tanti-auguri-nintendo/</link>
+			<pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/tanti-auguri-nintendo/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/tanti-auguri-nintendo/cover.jpg"/>]]>Esattamente un anno fa veniva rilasciata la Nintendo Switch. Oggi, un anno dopo, vediamo che tipo di mercato ha coperto.</description>
+		</item>
+		
+		<item>
+			<title>P2P offline come le Spie</title>
+			<link>https://fundor333.com/post/2018/p2p-offline-da-spie/</link>
+			<pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/p2p-offline-da-spie/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/p2p-offline-da-spie/cover.jpg"/>]]>Esistono altri sistemi per la condivisione p2p e quelli offline sono particolarmente interessanti. Eccone alcuni dei più interessanti</description>
+		</item>
 		
 		<item>
 			<title>E Talk Al Pycon9</title>
@@ -63,42 +90,6 @@
 			
 			<guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
 			<description><![CDATA[<img src="https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/cover.jpg"/>]]>Utilizzare le funzionalità di Firebase in modo non &#39;standard&#39;</description>
-		</item>
-		
-		<item>
-			<title>Pipenv e come tutto è in uno</title>
-			<link>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</link>
-			<pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/cover.jpg"/>]]>Assistiamo al matrimonio di Pipfile, Pip e PipEnv</description>
-		</item>
-		
-		<item>
-			<title>Google IO 2017</title>
-			<link>https://fundor333.com/post/2017/google-io-2017/</link>
-			<pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/google-io-2017/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/google-io-2017/cover.jpg"/>]]>Sono nell&#39;evento del GDG di Venezia a vedermi il Google IO 2017 in compagnia di altri informatici e interessati.</description>
-		</item>
-		
-		<item>
-			<title>Hugo into Docker</title>
-			<link>https://fundor333.com/post/2017/hugo-into-docker/</link>
-			<pubDate>Tue, 16 May 2017 12:27:11 +0200</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/hugo-into-docker/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/hugo-into-docker/cover.jpg"/>]]>This blog is publish with a docker image with GitLab. But I don&#39;t like the image I was using because wasn&#39;t update and it&#39;s big and havy. So I fork the project for create an update version for my personal blog.</description>
-		</item>
-		
-		<item>
-			<title>Il primo periodo con Emacs</title>
-			<link>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</link>
-			<pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/il-primo-periodo-con-emacs/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/il-primo-periodo-con-emacs/cover.jpg"/>]]>Diario del mio primo periodo di utilizzo di Emacs</description>
 		</item>
 		
 	</channel>

@@ -2,12 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fundor333.com/tags/coding/</loc>
-    <lastmod>2021-05-03T09:12:14+02:00</lastmod>
+    <loc>https://fundor333.com/quiet/</loc>
+    <lastmod>2021-07-13T19:15:01+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://fundor333.com/quiet/26584/</loc>
+    <lastmod>2021-07-13T19:15:01+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://fundor333.com/</loc>
+    <lastmod>2021-07-13T19:15:01+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://fundor333.com/tags/coding/</loc>
     <lastmod>2021-05-03T09:12:14+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -74,11 +84,6 @@
   </url><url>
     <loc>https://fundor333.com/post/2021/the-team-makefile/</loc>
     <lastmod>2021-01-15T12:27:21+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://fundor333.com/quiet/</loc>
-    <lastmod>2021-01-04T21:01:44+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
