@@ -28,10 +28,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js">
-</script>
-
-
 <title>
   Backup Your Crontab  - Fundor333
 </title>
@@ -59,7 +55,7 @@
 <meta itemprop="name" content="Backup Your Crontab">
 <meta itemprop="description" content="Using DotBot for backup and sync crontab job"><meta itemprop="datePublished" content="2020-08-30T13:49:30+02:00" />
 <meta itemprop="dateModified" content="2020-08-30T13:49:30+02:00" />
-<meta itemprop="wordCount" content="270"><meta itemprop="image" content="https://fundor333.com/post/2020/backup-your-crontab/cover.jpg">
+<meta itemprop="wordCount" content="267"><meta itemprop="image" content="https://fundor333.com/post/2020/backup-your-crontab/cover.jpg">
 <meta itemprop="keywords" content="dotfiles,coding," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://fundor333.com/post/2020/backup-your-crontab/cover.jpg"/>
@@ -303,19 +299,10 @@ if (!doNotTrack) {
 <p>After installation you can use the directive <em>crontab</em> for adding job to your crontab.
 In this way you can write multiple config for multiple type of intallations you have.</p>
 <p>The direction will look like this</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#ae81ff">crontab</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#ae81ff">crontab</span>
 	<span style="color:#f92672">-cron</span>: <span style="color:#ae81ff">0</span> * * * *
 	 <span style="color:#f92672">command</span>: <span style="color:#ae81ff">echo &#34;Hello world&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>For now this is a little thing working only on <em>Crontab</em> but I am thinking about adding Windows support but I don&rsquo;t have any idea about how I make it, so if you have idea about Windows implementation comment in this post or open an issiue or a pull request on the repo</p>
+</code></pre></div><p>For now this is a little thing working only on <em>Crontab</em> but I am thinking about adding Windows support but I don&rsquo;t have any idea about how I make it, so if you have idea about Windows implementation comment in this post or open an issiue or a pull request on the repo</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

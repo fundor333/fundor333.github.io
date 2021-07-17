@@ -28,10 +28,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js">
-</script>
-
-
 <title>
   Il primo periodo con Emacs  - Fundor333
 </title>
@@ -59,7 +55,7 @@
 <meta itemprop="name" content="Il primo periodo con Emacs">
 <meta itemprop="description" content="Diario del mio primo periodo di utilizzo di Emacs"><meta itemprop="datePublished" content="2017-04-21T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2017-04-21T00:00:00+00:00" />
-<meta itemprop="wordCount" content="865"><meta itemprop="image" content="https://fundor333.com/post/2017/il-primo-periodo-con-emacs/cover.jpg">
+<meta itemprop="wordCount" content="798"><meta itemprop="image" content="https://fundor333.com/post/2017/il-primo-periodo-con-emacs/cover.jpg">
 <meta itemprop="keywords" content="rant," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://fundor333.com/post/2017/il-primo-periodo-con-emacs/cover.jpg"/>
@@ -240,9 +236,8 @@ if (!doNotTrack) {
     <a href='https://fundor333.com/post/2017/il-primo-periodo-con-emacs/'>Il primo periodo con Emacs</a>
   </div>
 
-  <p class="text-center"><i class="fa-duotone fa-mug-tea"></i><i
-      class="fa-duotone fa-mug-tea"></i>
-    Reading time 5 minutes
+  <p class="text-center"><i class="fa-duotone fa-mug-tea"></i>
+    Reading time 4 minutes
   </p>
   <hr>
   <br>
@@ -287,14 +282,7 @@ La parte più difficile è stata la parte iniziale dove sono dovuto entrare nell
 <h2 id="prima-fase-installazione-di-base">Prima fase installazione di base</h2>
 <p>Partiamo con ordine: si inizia con l&rsquo;installazione e comprensione dei config.
 Dopo l&rsquo;installazione ottenuta attravero il classico</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt-get install emacs</code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">	sudo apt-get install emacs</code></pre></div>
 <p>Fatto questo io mi aspettavo che, dopo il primo avvio generasse i file di configurazione. Per come è stato programmato Emacs l&rsquo;avvio genera solamente il file <em>.emacs</em> se non presente mentre tutto il resto della &ldquo;struttura&rdquo; viene generata man mano che si modificano le impostazioni dei singoli elementi.</p>
 <p>Quindi ho fatto una piccola ricerca di come cambiare il tema di Emacs che, a mio parere, puo' essere la personalizzazione corretta per iniziare a utilizzare Emacs.</p>
 <p>All&rsquo;avvio Emacs cerca un file <em>.emacs</em> ove dovrebbe trovare i config e, nel caso non lo trovi, va a <em>.emacs.d/init.el</em> ove cerca i config e, nel caso non trova nessuno dei due, genera un file <em>.emacs</em> vuoto o con le configurazioni delle &ldquo;sessione&rdquo; corrente. E qui c&rsquo;è il primo punto di interesse:</p>
@@ -308,30 +296,7 @@ Dopo l&rsquo;installazione ottenuta attravero il classico</p>
 <h2 id="la-mia-configurazione-in-particolare">La mia configurazione in particolare</h2>
 <p>Ho impostato Emacs utilizzando una impostazione a progetto, in modo da poterlo condividere facilmente su GitHub o altri servizi di hosting per repository git.
 Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che sia caricato senza problemi</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;custom-theme-load-path</span> <span style="color:#e6db74">&#34;~/.emacs.d/themes&#34;</span>)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;custom-theme-load-path</span> <span style="color:#e6db74">&#34;~/.emacs.d/themes&#34;</span>)
 
     (<span style="color:#a6e22e">load</span> <span style="color:#e6db74">&#34;~/.emacs.d/init-packages&#34;</span>)
 
@@ -349,54 +314,9 @@ Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che 
      <span style="color:#75715e">;; If you edit it by hand, you could mess it up, so be careful.</span>
      <span style="color:#75715e">;; Your init file should contain only one such instance.</span>
      <span style="color:#75715e">;; If there is more than one, they won&#39;t work right.</span>
-     )</code></pre></td></tr></table>
-</div>
-</div>
+     )</code></pre></div>
 <p>Con questa configurazione si divide le variabili di ambiente settate da Emacs (che devo ancora capira a cosa servano), il tema scelto (<a href="https://draculatheme.com/emacs">Dracula</a> in questo caso) e i settaggi per i pacchetti che vengono definiti nel file <em>init-packages.el</em>.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (<span style="color:#a6e22e">require</span> <span style="color:#e6db74">&#39;package</span>)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (<span style="color:#a6e22e">require</span> <span style="color:#e6db74">&#39;package</span>)
 
     (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
                  <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;elpy&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;http://jorgenschaefer.github.io/packages/&#34;</span>))
@@ -434,46 +354,18 @@ Di base utilizzo <em>init.el</em> ove ho settato le basi e il tema, in modo che 
     (when (<span style="color:#a6e22e">&lt;</span> emacs-major-version <span style="color:#ae81ff">24</span>)
       <span style="color:#75715e">;; For important compatibility libraries like cl-lib</span>
       (add-to-list <span style="color:#e6db74">&#39;package-archives</span> <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;gnu&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://elpa.gnu.org/packages/&#34;</span>)))
-    (package-initialize)</code></pre></td></tr></table>
-</div>
-</div>
+    (package-initialize)</code></pre></div>
 <p>Questo script in Lisp permette di elencare nella prima parte tutta una serie di repository extra da aggiungere all&rsquo;elenco dei plugin disponibili e li aggiunge all&rsquo;elenco di Emacs.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
-    	     <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;melpa&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://melpa.org/package/&#34;</span>)<span style="color:#66d9ef">t</span>)</code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    (add-to-list <span style="color:#e6db74">&#39;package-archives</span>
+    	     <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;melpa&#34;</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#34;https://melpa.org/package/&#34;</span>)<span style="color:#66d9ef">t</span>)</code></pre></div>
 <p>Ad esempio questo codice aggiunge il repository <a href="https://melpa.org/">Melpa</a> all&rsquo;archivio in modo da rendere disponibili i suoi pacchetti a Emacs.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">   (<span style="color:#66d9ef">setq</span> package-list
-   	 <span style="color:#f92672">&#39;</span>(magit easy-hugo python dracula-theme))</code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">   (<span style="color:#66d9ef">setq</span> package-list
+   	 <span style="color:#f92672">&#39;</span>(magit easy-hugo python dracula-theme))</code></pre></div>
 <p>Questo comando invece permette di elencare i pacchetti di nostro interesse. Ogni pacchetto elencato verrà installato o aggirnato e successivamente attivato all&rsquo;avvio del server Emacs</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    <span style="color:#75715e">; install the missing packages</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">    <span style="color:#75715e">; install the missing packages</span>
     (dolist (<span style="color:#a6e22e">package</span> package-list)
       (unless (package-installed-p <span style="color:#a6e22e">package</span>)
-        (package-install <span style="color:#a6e22e">package</span>)))</code></pre></td></tr></table>
-</div>
-</div>
+        (package-install <span style="color:#a6e22e">package</span>)))</code></pre></div>
 <p>Questo è infatti il codice per l&rsquo;installazione dei pacchetti mancanti.</p>
 <p>Con questa configurazione e l&rsquo;aggiunta di un <em>.gitignore</em> abbastanza pulito mi è possibile mantenere una versione di ripristino dell&rsquo;ambiente di lavoro Emacs compatibile con ogni sistema operativo che supporta Emacs.</p>
 <p>Questa è la mia prima esperienza con Emacs e ne sono entusiasta anche se devo ancora consultare appunti per certi shortcut ma credo che andando avanti non ne avrò di bisogno.</p>

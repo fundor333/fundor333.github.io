@@ -16,7 +16,7 @@
 	     "id": "https://fundor333.com/post/2021/letterhead-with-reportlab/",
 	     "title": "Letterhead With ReportLab",
 	     "url": "https://fundor333.com/post/2021/letterhead-with-reportlab/",
-	     "summary": "Sometime you need to make some pdf looking more professional. In python you use the ReportLab1 package for make Pdf.\nFist the main core For every document type I need I write a class with a get_pdf for print2 a Pdf.\nHere an example3\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35  class BasicPrinter: def __init__(self, buffer, pagesize=\u0026#34;A4\u0026#34;): self.",
+	     "summary": "Sometime you need to make some pdf looking more professional. In python you use the ReportLab1 package for make Pdf.\nFist the main core For every document type I need I write a class with a get_pdf for print2 a Pdf.\nHere an example3\nclass BasicPrinter: def __init__(self, buffer, pagesize=\u0026#34;A4\u0026#34;): self.buffer = buffer if pagesize == \u0026#34;A4\u0026#34;: self.pagesize = A4 elif pagesize == \u0026#34;Letter\u0026#34;: self.pagesize = letter else: self.pagesize = A4 self.",
 	     
 	     "date_published": "2021-05-03T09:12:14+02:00",
 	     "date_modified": "2021-05-03T09:12:14+02:00"        

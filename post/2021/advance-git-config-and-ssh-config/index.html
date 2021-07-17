@@ -28,10 +28,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js">
-</script>
-
-
 <title>
   Advance Git Config and Ssh Config  - Fundor333
 </title>
@@ -59,7 +55,7 @@
 <meta itemprop="name" content="Advance Git Config and Ssh Config">
 <meta itemprop="description" content="My advance config for git e ssh"><meta itemprop="datePublished" content="2021-03-11T10:00:25+01:00" />
 <meta itemprop="dateModified" content="2021-03-11T10:00:25+01:00" />
-<meta itemprop="wordCount" content="483"><meta itemprop="image" content="https://fundor333.com/post/2021/advance-git-config-and-ssh-config/cover.jpg">
+<meta itemprop="wordCount" content="459"><meta itemprop="image" content="https://fundor333.com/post/2021/advance-git-config-and-ssh-config/cover.jpg">
 <meta itemprop="keywords" content="dotfiles,devops," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://fundor333.com/post/2021/advance-git-config-and-ssh-config/cover.jpg"/>
@@ -292,23 +288,12 @@ if (!doNotTrack) {
 So I implement one of the feature of the ssh config<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>: the <strong>include</strong> command.</p>
 <h3 id="how-is-it-work">How is it work?</h3>
 <p>You write your normal config ssh for work or personal user. Something like this for the personal config</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">Host fundor333</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#ae81ff">Host fundor333</span>
 	<span style="color:#ae81ff">User root</span>
 	<span style="color:#ae81ff">HostName fundor333.com</span>
 	<span style="color:#ae81ff">IdentityFile ~/.ssh/keys/fundor333</span>
 	<span style="color:#ae81ff">PreferredAuthentications publickey</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>After this you do all the same for yor work setting and rename all like <em>personal_config</em> or <em>job_config</em> and write an empty setting as <em>~/.ssh/config</em>.</p>
+</code></pre></div><p>After this you do all the same for yor work setting and rename all like <em>personal_config</em> or <em>job_config</em> and write an empty setting as <em>~/.ssh/config</em>.</p>
 <p>So you have something like this</p>
 <ul>
 <li>~/.ssh/config</li>
@@ -316,17 +301,9 @@ So I implement one of the feature of the ssh config<sup id="fnref:2"><a href="#f
 <li>~/.ssh/config-dir/job_config</li>
 </ul>
 <p>Where <em>config</em> is empty. So I linking my <em>stuff_config</em> in to the main config with the import like this:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Include ~/.ssh/config-dir/personal_config
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Include ~/.ssh/config-dir/personal_config
 Include ~/.ssh/config-dir/job_config
-</code></pre></td></tr></table>
-</div>
-</div><p>In this way I can have sorted in a better way all my ssh config.</p>
+</code></pre></div><p>In this way I can have sorted in a better way all my ssh config.</p>
 <h2 id="multiple-config-for-git">Multiple config for git</h2>
 <p>In reality I don&rsquo;t need two gitconfig. I need two identity with git, one with some project one with others projects.
 Like ssh i need to use 2 account, one for work one for personal user.</p>
@@ -351,35 +328,11 @@ Like ssh i need to use 2 account, one for work one for personal user.</p>
 <li>~/.git-identities/personal</li>
 </ul>
 <p>where you need a default user for the <em>.gitconfig</em> linke this</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">[<span style="color:#ae81ff">user]</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">[<span style="color:#ae81ff">user]</span>
 <span style="color:#ae81ff">email = git@fundor333.com</span>
 <span style="color:#ae81ff">name = Fundor333</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>and add the regex for the path of the directory of the projects with the path for the config like this:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">[<span style="color:#ae81ff">includeIf &#34;gitdir:~/Github/**&#34;]</span>
+</code></pre></div><p>and add the regex for the path of the directory of the projects with the path for the config like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">[<span style="color:#ae81ff">includeIf &#34;gitdir:~/Github/**&#34;]</span>
 <span style="color:#ae81ff">path = ~/.git-identities/gitconfig-fundor333</span>
 
 [<span style="color:#ae81ff">includeIf &#34;gitdir:~/Coding/**&#34;]</span>
@@ -390,22 +343,11 @@ Like ssh i need to use 2 account, one for work one for personal user.</p>
 
 [<span style="color:#ae81ff">includeIf &#34;gitdir:~/Coding/job/**&#34;]</span>
 <span style="color:#ae81ff">path = ~/.git-identities/gitconfig-job</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>If you put in the config define in the path the gitconfig you need you will override for the target project/s like for the <em>gitconfig-job</em></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">[<span style="color:#ae81ff">user]</span>
+</code></pre></div><p>If you put in the config define in the path the gitconfig you need you will override for the target project/s like for the <em>gitconfig-job</em></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">[<span style="color:#ae81ff">user]</span>
 <span style="color:#ae81ff">email = job@fundor333.com</span>
 <span style="color:#ae81ff">name = Fundor333&#39;s Job account</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>This is a example for the <em>user</em> config but you can override all the config for the project like <em>alias</em> or the rule <em>core</em> for the commit and style of them.</p>
+</code></pre></div><p>This is a example for the <em>user</em> config but you can override all the config for the project like <em>alias</em> or the rule <em>core</em> for the commit and style of them.</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>

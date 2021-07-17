@@ -28,10 +28,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js">
-</script>
-
-
 <title>
   The Team Makefile  - Fundor333
 </title>
@@ -59,7 +55,7 @@
 <meta itemprop="name" content="The Team Makefile">
 <meta itemprop="description" content="You need to make a makefile if you are working on a team project"><meta itemprop="datePublished" content="2021-01-15T12:27:21+01:00" />
 <meta itemprop="dateModified" content="2021-01-15T12:27:21+01:00" />
-<meta itemprop="wordCount" content="870"><meta itemprop="image" content="https://fundor333.com/post/2021/the-team-makefile/cover.jpg">
+<meta itemprop="wordCount" content="855"><meta itemprop="image" content="https://fundor333.com/post/2021/the-team-makefile/cover.jpg">
 <meta itemprop="keywords" content="devops,coding,hacking," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://fundor333.com/post/2021/the-team-makefile/cover.jpg"/>
@@ -313,31 +309,14 @@ Other times you can have a team of developer and the build/test/stuff-making wil
 Sometime you will make one or more script for your task and you need to remember all of the function and launch command. So I write a makefile for all my project, personal and job related.</p>
 <h3 id="base-of-makefile">Base of makefile</h3>
 <p>For write a good makefile you only need to write some statement like this</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">RULE</span><span style="color:#f92672">:</span> DEPENDENCY LINE <span style="color:#75715e">## COMMENTS
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">RULE</span><span style="color:#f92672">:</span> DEPENDENCY LINE <span style="color:#75715e">## COMMENTS
 </span><span style="color:#75715e"></span>	<span style="color:#f92672">[</span>tab<span style="color:#f92672">]</span>ACTION LINE<span style="color:#f92672">(</span>S<span style="color:#f92672">)</span>
-</code></pre></td></tr></table>
-</div>
-</div>
+</code></pre></div>
 <p>You can have multiple &ldquo;rule&rdquo;, one for any task you need, and I suggest one with code and other generic:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> help
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> help
 <span style="color:#a6e22e">help</span><span style="color:#f92672">:</span> <span style="color:#75715e">## Show this help
 </span><span style="color:#75715e"></span>	@egrep -h <span style="color:#e6db74">&#39;\s##\s&#39;</span> <span style="color:#66d9ef">$(</span>MAKEFILE_LIST<span style="color:#66d9ef">)</span> | sort | awk <span style="color:#e6db74">&#39;BEGIN {FS = &#34;:.*?## &#34;}; {printf &#34;\033[36m%-20s\033[0m %s\n&#34;, $$1, $$2}&#39;</span>
-</code></pre></td></tr></table>
-</div>
-</div>
+</code></pre></div>
 <p>This magical command<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> will use all your comment inline with the _rule_for build a help command. <strong>.PHONY</strong> is a string you put for a <strong>&ldquo;A phony target is one that is not really the name of a file; rather it is just a name for a recipe to be executed when you make an explicit request&rdquo;</strong>, it is a string for not having conflicts.</p>
 <p>Other _rule_I use are:</p>
 <ul>
@@ -347,21 +326,7 @@ Sometime you will make one or more script for your task and you need to remember
 <li><strong>test</strong>: launch the test for the project</li>
 </ul>
 <p>This is a example of one of my project. You can see at the <strong>RUN</strong>  <em>rule</em> you can follow the <em>rule</em> with other  <em>rule</em> for run them <strong>before</strong> the  <em>rule</em> in question.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> install
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-makefile" data-lang="makefile"><span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> install
 <span style="color:#a6e22e">install</span><span style="color:#f92672">:</span>  <span style="color:#75715e">## Make venv and install requirements
 </span><span style="color:#75715e"></span>	pipenv install --dev
 
@@ -371,9 +336,7 @@ Sometime you will make one or more script for your task and you need to remember
 
 <span style="color:#a6e22e">.PHONY</span><span style="color:#f92672">:</span> run
 <span style="color:#a6e22e">run</span><span style="color:#f92672">:</span> install docs <span style="color:#75715e">## Run all the task for building
-</span></code></pre></td></tr></table>
-</div>
-</div>
+</span></code></pre></div>
 <p>So, every time you will use this <em>makefile</em> with <em>run</em> you will run <em>install</em>, <em>docs</em> and <em>run</em> in this sequence.</p>
 <h2 id="force-testing">Force Testing</h2>
 <p>Testing is one of the must of programming. And it can be done only with scripting.
@@ -504,7 +467,7 @@ The best way I found is using the <em>makefile</em>. Setting up a good testing s
     <a href="https://fundor333.com/post/2020/keep_update_gitlab/" class="d-flex align-items-center justify-content-center pt-3">How to check if your GitLab is update automaticaly</a>
     <div class="d-flex align-items-center justify-content-center pt-3">
       <p class=""><i class="fa-duotone fa-mug-tea"></i>
-        Reading time 3 minutes
+        Reading time 2 minutes
       </p>
     </div>
 

@@ -28,10 +28,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js">
-</script>
-
-
 <title>
   Dotfiles, bot and yaml files  - Fundor333
 </title>
@@ -59,7 +55,7 @@
 <meta itemprop="name" content="Dotfiles, bot and yaml files">
 <meta itemprop="description" content="Using the same dotfiles on multiple computer in the easy way"><meta itemprop="datePublished" content="2020-05-01T16:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-05-01T16:00:00+00:00" />
-<meta itemprop="wordCount" content="1479"><meta itemprop="image" content="https://fundor333.com/post/2020/dotfiles-bot-yaml/cover.jpg">
+<meta itemprop="wordCount" content="1408"><meta itemprop="image" content="https://fundor333.com/post/2020/dotfiles-bot-yaml/cover.jpg">
 <meta itemprop="keywords" content="dotfiles,coding," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://fundor333.com/post/2020/dotfiles-bot-yaml/cover.jpg"/>
@@ -300,28 +296,7 @@ This was in November 2017. Github suggest it was the 20 of Novembre the first ve
 <p>This is a project python where you can write an <em>install script</em> from a template and write one or more <em>_.conf.yaml</em> with the instructions. And there are multiple plugin for some package manager (<em>pip, rust, apt, brew&hellip;</em>) which can be usefull.</p>
 <p>The best way to use (and the only one) is to make the plugin repo into a submodule so it can be updated and will be always an unicum.</p>
 <p>In my case I have a multiple config installer</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
 </span><span style="color:#75715e"></span>
 set -e
 
@@ -337,9 +312,7 @@ git submodule update --init --recursive <span style="color:#e6db74">&#34;</span>
 
 <span style="color:#66d9ef">for</span> conf in <span style="color:#e6db74">${</span>DEFAULT_CONFIG_PREFIX<span style="color:#e6db74">}</span> <span style="color:#e6db74">${</span>@<span style="color:#e6db74">}</span>; <span style="color:#66d9ef">do</span>
 <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASEDIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_BIN<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -d <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASEDIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> --plugin-dir .dotbot-brew -c <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>conf<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
-<span style="color:#66d9ef">done</span></code></pre></td></tr></table>
-</div>
-</div>
+<span style="color:#66d9ef">done</span></code></pre></div>
 <p>The only thing you need to pay attention is the <em>&ndash;plugin-dir <!-- raw HTML omitted --></em> which can be use multiple times in the command, one for plugin you have. Also you can install a plugin as a submodule for the same reasons as the bot.</p>
 <h2 id="my-idea">My Idea</h2>
 <p>I have a install script which can execute one config all the time (the <em>default</em> one) and any number of config as add for the default.</p>
@@ -363,44 +336,7 @@ I have:</p>
 <li><strong><em>meta/base.yaml</em></strong>: the base, allways called one. Here you set some default and the cleaner command</li>
 </ul>
 <p>Whith this I need to change the install file and make some difference as show in the Wiki<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/usr/bin/env bash
 </span><span style="color:#75715e"></span>
 set -e
 
@@ -432,9 +368,7 @@ echo <span style="color:#ae81ff">\$</span><span style="color:#f92672">{</span>CO
 echo -e <span style="color:#e6db74">&#34;\nConfigure </span>$config<span style="color:#e6db74">&#34;</span>
 	configFile<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>mktemp<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> ; echo -e <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>&lt;<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>BASE_CONFIG<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">\n</span><span style="color:#66d9ef">$(</span>&lt;<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>CONFIG_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>config<span style="color:#e6db74">}${</span>CONFIG_SUFFIX<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span> &gt; <span style="color:#e6db74">&#34;</span>$configFile<span style="color:#e6db74">&#34;</span>
 <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>META_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">/</span><span style="color:#e6db74">${</span>DOTBOT_BIN<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -d <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${</span>BASE_DIR<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> -c <span style="color:#e6db74">&#34;</span>$configFile<span style="color:#e6db74">&#34;</span> ; rm -f <span style="color:#e6db74">&#34;\$configFile&#34;</span>
-<span style="color:#66d9ef">done</span></code></pre></td></tr></table>
-</div>
-</div>
+<span style="color:#66d9ef">done</span></code></pre></div>
 <p>Make particolar attention of the begginning of the script because is were you can find the configuration for the script.</p>
 <p>This new script can run with or without profile. And you can also add plugins in the command as the first install script.</p>
 <h3 id="the-config-files">The config files</h3>
@@ -448,25 +382,7 @@ echo -e <span style="color:#e6db74">&#34;\nConfigure </span>$config<span style="
 <li><strong><em>plugins commands</em></strong>: the command of the installed plugins</li>
 </ul>
 <p>Now I need to write a <strong><em>meta/base.yaml</em></strong> file for the default command:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#f92672">defaults</span>:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#f92672">defaults</span>:
     <span style="color:#f92672">link</span>:
       <span style="color:#f92672">create</span>: <span style="color:#66d9ef">true</span>
       <span style="color:#f92672">relink</span>: <span style="color:#66d9ef">true</span>
@@ -479,9 +395,7 @@ echo -e <span style="color:#e6db74">&#34;\nConfigure </span>$config<span style="
     - [<span style="color:#ae81ff">git submodule update --init --recursive, Installing submodules]</span>
     - [<span style="color:#ae81ff">chmod +x ~/script/*]</span>
 
-- <span style="color:#f92672">clean</span>: [<span style="color:#e6db74">&#34;~&#34;</span>]</code></pre></td></tr></table>
-</div>
-</div>
+- <span style="color:#f92672">clean</span>: [<span style="color:#e6db74">&#34;~&#34;</span>]</code></pre></div>
 <p>I start with the default option for the <em>link</em> command:</p>
 <ul>
 <li><strong><em>create</em></strong> for creating the parent directories as needed</li>
@@ -493,34 +407,15 @@ echo -e <span style="color:#e6db74">&#34;\nConfigure </span>$config<span style="
 <p>Then we have the <em>shell</em> command with the command for import/download all the submodules of the project and the command for make executable the script folder.</p>
 <p>And we end with the <em>clean</em> command with I clean the home from dead symbolic links and delete them all.</p>
 <p>After this I need to make my fist profile, the <em>mac</em> one. So I make a new file <strong><em>make/profiles/mac</em></strong></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">git
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">git
 programming
 ssh
-zsh</code></pre></td></tr></table>
-</div>
-</div>
+zsh</code></pre></div>
 <p>Every one of this name is a yaml file in the <strong><em>makefile/configs</em></strong> with the command to make/copy/something for the program/stuff is name of.
 For example <em>git</em> is:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#f92672">link</span>:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">- <span style="color:#f92672">link</span>:
           <span style="color:#f92672">~/.gitconfig</span>:
-          <span style="color:#ae81ff">~/.gitignore_global:</span></code></pre></td></tr></table>
-</div>
-</div>
+          <span style="color:#ae81ff">~/.gitignore_global:</span></code></pre></div>
 <p>In this yaml the bot links in the path <strong><em>~/.gitconfig</em></strong> to the file <strong><em>gitconfig</em></strong> and make the same with <strong><em>~/.gitignore_global</em></strong>.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>In this way I can build multiple file for all the case I need. Some example is <em>ssh</em> or <em>zsh</em> or the <em>emacs</em> config in my <a href="https://github.com/fundor333/dotfiles">repo</a> which use the configuration describe in this post. There are some files not used like a <strong><em>requirements.txt</em></strong> or <strong><em>choco.ps1</em></strong> that I don&rsquo;t know if it&rsquo;s a good idea.</p>
 <p>In any case if you write a good <em>dotfiles repo</em> with <em>dotbot</em> you need to keep the <strong><em>idempotency</em></strong><sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> of the bot execution so you are <strong><em>mathematically</em></strong> certan that the execution don&rsquo;t make different installation with the same command.</p>

@@ -28,10 +28,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js">
-</script>
-
-
 <title>
   Create a custon Git message with GitConfig  - Fundor333
 </title>
@@ -59,7 +55,7 @@
 <meta itemprop="name" content="Create a custon Git message with GitConfig">
 <meta itemprop="description" content="Sometime you need to configure your git or have a template for the commit for your work"><meta itemprop="datePublished" content="2020-08-15T15:15:00+02:00" />
 <meta itemprop="dateModified" content="2020-08-15T15:15:00+02:00" />
-<meta itemprop="wordCount" content="168"><meta itemprop="image" content="https://fundor333.com/post/2020/gitmessage-advance-config/cover.jpg">
+<meta itemprop="wordCount" content="164"><meta itemprop="image" content="https://fundor333.com/post/2020/gitmessage-advance-config/cover.jpg">
 <meta itemprop="keywords" content="git,dotfiles," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://fundor333.com/post/2020/gitmessage-advance-config/cover.jpg"/>
@@ -293,28 +289,12 @@ In this case I will show the command for all your project.</p>
 <p>First you need to write the file.
 Usualy I make a file in the home <em><strong>~/.gitmessage</strong></em> where I put the message.
 For example a file template is:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Title of the commit, 50 chars</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Title of the commit, 50 chars</span>
 
-<span style="color:#75715e"># Body. What and Why, with Task Id/Bug Id, 72 chars</span></code></pre></td></tr></table>
-</div>
-</div>
+<span style="color:#75715e"># Body. What and Why, with Task Id/Bug Id, 72 chars</span></code></pre></div>
 <p>Remember, if a row start with # the row is a comment.</p>
 <p>After you make your own themplate you must tell git where is it so you need to launch this command:</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> git config --global commit.template ~/.gitmessage</code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> git config --global commit.template ~/.gitmessage</code></pre></div>
 <p>After this git will use your new template for the commit.</p>
 <p>Good work</p>
 

@@ -28,10 +28,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js">
-</script>
-
-
 <title>
   Color Your Python Output  - Fundor333
 </title>
@@ -59,7 +55,7 @@
 <meta itemprop="name" content="Color Your Python Output">
 <meta itemprop="description" content="Sometime you need to make your output more readible adding color to the terminal"><meta itemprop="datePublished" content="2020-09-10T21:06:21+02:00" />
 <meta itemprop="dateModified" content="2020-09-10T21:06:21+02:00" />
-<meta itemprop="wordCount" content="290"><meta itemprop="image" content="https://fundor333.com/post/2020/color-your-python-output/cover.jpg">
+<meta itemprop="wordCount" content="267"><meta itemprop="image" content="https://fundor333.com/post/2020/color-your-python-output/cover.jpg">
 <meta itemprop="keywords" content="coding,devops," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://fundor333.com/post/2020/color-your-python-output/cover.jpg"/>
@@ -291,47 +287,14 @@ It can be a lot of text and you need to make more readible for the user/sysadmin
 <h2 id="how-its-work">How it&rsquo;s work</h2>
 <p>In the ANSI character set you find the escape code for multiple things: cursor location, color, text style and other option for the terminal and the terminal emulators. So you need to check that your console support the ASCI escape code.</p>
 <p>So for using them you need to make inside the string your are outputting, like this</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
 print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[91m&#34;</span><span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;I am a red text&#34;</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[0m&#34;</span>)
 
-</code></pre></td></tr></table>
-</div>
-</div><p><img src="red-text.jpg" alt="red text"></p>
+</code></pre></div><p><img src="red-text.jpg" alt="red text"></p>
 <p>You need the string <code>\003[0m</code> for ending the color red (in this case) or the effect you are putting on the string.</p>
 <p>This was you need to make every time your string and remember every escape code<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>In my code I use this class</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
 <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CLog</span>:
     OKBLUE <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[94m&#39;</span>
     OKGREEN <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\033</span><span style="color:#e6db74">[92m&#39;</span>
@@ -351,9 +314,7 @@ print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\033</
     <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">warning</span>(self,string):
         print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>WARNING<span style="color:#e6db74">}{</span>string<span style="color:#e6db74">}{</span>self<span style="color:#f92672">.</span>ENDC<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)		
 
-</code></pre></td></tr></table>
-</div>
-</div><p>In this way I have a colored printer for my little project. If you have a project of medium size or more I suggest to use the module <a href="https://coloredlogs.readthedocs.io/en/latest/">coloredlogs</a> which add color support for the python default logger.</p>
+</code></pre></div><p>In this way I have a colored printer for my little project. If you have a project of medium size or more I suggest to use the module <a href="https://coloredlogs.readthedocs.io/en/latest/">coloredlogs</a> which add color support for the python default logger.</p>
 <p>If you choose one of this way you can make more deadible your logger or output for the user.</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
