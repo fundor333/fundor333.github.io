@@ -1,0 +1,96 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>microservice on
+			Fundor333</title>
+		<link>https://fundor333.com/tags/microservice/</link>
+		<description>Recent content in microservice on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/tags/microservice/img/pilogo.jpg</url>
+			<title>microservice on
+				Fundor333</title>
+			<link>https://fundor333.com/tags/microservice/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Mon, 19 Jul 2021 14:00:54 +0200</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/tags/microservice/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>Microsoft buy Atom, Electron and Open Source</title>
+			<link>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</link>
+			<pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/cover.png"/>]]>Now what appen because Microsoft own Github and all theire project?</description>
+		</item>
+		
+		<item>
+			<title>Floppy, Pycon e generatori di siti statici</title>
+			<link>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</link>
+			<pubDate>Thu, 03 May 2018 23:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/cover.jpg"/>]]>Racconto della mia esperienza al Pycon 9</description>
+		</item>
+		
+		<item>
+			<title>Tanti Auguri Nintendo Switch</title>
+			<link>https://fundor333.com/post/2018/tanti-auguri-nintendo/</link>
+			<pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/tanti-auguri-nintendo/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/tanti-auguri-nintendo/cover.jpg"/>]]>Esattamente un anno fa veniva rilasciata la Nintendo Switch. Oggi, un anno dopo, vediamo che tipo di mercato ha coperto.</description>
+		</item>
+		
+		<item>
+			<title>P2P offline come le Spie</title>
+			<link>https://fundor333.com/post/2018/p2p-offline-da-spie/</link>
+			<pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/p2p-offline-da-spie/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/p2p-offline-da-spie/cover.jpg"/>]]>Esistono altri sistemi per la condivisione p2p e quelli offline sono particolarmente interessanti. Eccone alcuni dei più interessanti</description>
+		</item>
+		
+		<item>
+			<title>E Talk Al Pycon9</title>
+			<link>https://fundor333.com/post/2018/e-talk-al-pycon9/</link>
+			<pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/e-talk-al-pycon9/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/e-talk-al-pycon9/cover.jpg"/>]]>E vado a parlare al Pycon9 per colpa di questo blog, della mia piccola passione per i generatori di siti statici e di un certo informatico</description>
+		</item>
+		
+		<item>
+			<title>GraphQL and working with it</title>
+			<link>https://fundor333.com/post/2018/graphql-and-working-with-it/</link>
+			<pubDate>Tue, 16 Jan 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/graphql-and-working-with-it/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/graphql-and-working-with-it/cover.jpg"/>]]>This is an article about the future of the api: GraphQL. This is the natural evolution from the REST API and it&#39;s the best thing for request only part of the data in the API</description>
+		</item>
+		
+		<item>
+			<title>DotFile e le mie config</title>
+			<link>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</link>
+			<pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/dotfile-e-le-mie-config/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/dotfile-e-le-mie-config/cover.jpg"/>]]>DotFile e la mia configurazione di tutto</description>
+		</item>
+		
+		<item>
+			<title>Un Astemio al Tezo Databeers</title>
+			<link>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</link>
+			<pubDate>Thu, 23 Nov 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/astemio-al-terzo-databeers/cover.jpg"/>]]>La mia terza esperienza al DataBeers di Venezia, mio quarto Databeers</description>
+		</item>
+		
+	</channel>
+</rss>

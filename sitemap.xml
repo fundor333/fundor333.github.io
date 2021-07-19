@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://fundor333.com/tags/flask/</loc>
+    <lastmod>2021-07-19T14:00:54+02:00</lastmod>
+  </url><url>
+    <loc>https://fundor333.com/</loc>
+    <lastmod>2021-07-19T14:00:54+02:00</lastmod>
+  </url><url>
+    <loc>https://fundor333.com/tags/hugo/</loc>
+    <lastmod>2021-07-19T14:00:54+02:00</lastmod>
+  </url><url>
+    <loc>https://fundor333.com/tags/microservice/</loc>
+    <lastmod>2021-07-19T14:00:54+02:00</lastmod>
+  </url><url>
+    <loc>https://fundor333.com/post/</loc>
+    <lastmod>2021-07-19T14:00:54+02:00</lastmod>
+  </url><url>
+    <loc>https://fundor333.com/post/2021/static-with-a-form/</loc>
+    <lastmod>2021-07-19T14:00:54+02:00</lastmod>
+  </url><url>
+    <loc>https://fundor333.com/tags/</loc>
+    <lastmod>2021-07-19T14:00:54+02:00</lastmod>
+  </url><url>
     <loc>https://fundor333.com/quiet/</loc>
     <lastmod>2021-07-13T19:15:01+02:00</lastmod>
   </url><url>
     <loc>https://fundor333.com/quiet/26584/</loc>
-    <lastmod>2021-07-13T19:15:01+02:00</lastmod>
-  </url><url>
-    <loc>https://fundor333.com/</loc>
     <lastmod>2021-07-13T19:15:01+02:00</lastmod>
   </url><url>
     <loc>https://fundor333.com/tags/coding/</loc>
@@ -20,16 +38,10 @@
     <loc>https://fundor333.com/tags/pdf/</loc>
     <lastmod>2021-05-03T09:12:14+02:00</lastmod>
   </url><url>
-    <loc>https://fundor333.com/post/</loc>
-    <lastmod>2021-05-03T09:12:14+02:00</lastmod>
-  </url><url>
     <loc>https://fundor333.com/tags/python/</loc>
     <lastmod>2021-05-03T09:12:14+02:00</lastmod>
   </url><url>
     <loc>https://fundor333.com/tags/reportlab/</loc>
-    <lastmod>2021-05-03T09:12:14+02:00</lastmod>
-  </url><url>
-    <loc>https://fundor333.com/tags/</loc>
     <lastmod>2021-05-03T09:12:14+02:00</lastmod>
   </url><url>
     <loc>https://fundor333.com/post/2021/advance-git-config-and-ssh-config/</loc>
@@ -231,9 +243,6 @@
     <lastmod>2017-05-16T12:27:11+02:00</lastmod>
   </url><url>
     <loc>https://fundor333.com/tags/docker/</loc>
-    <lastmod>2017-05-16T12:27:11+02:00</lastmod>
-  </url><url>
-    <loc>https://fundor333.com/tags/hugo/</loc>
     <lastmod>2017-05-16T12:27:11+02:00</lastmod>
   </url><url>
     <loc>https://fundor333.com/post/2017/hugo-into-docker/</loc>

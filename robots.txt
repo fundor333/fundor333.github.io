@@ -1,11 +1,23 @@
 User-agent: *
 
 
+Allow: /tags/flask/
+
+Allow: /
+
+Allow: /tags/hugo/
+
+Allow: /tags/microservice/
+
+Allow: /post/
+
+Allow: /post/2021/static-with-a-form/
+
+Allow: /tags/
+
 Allow: /quiet/
 
 Allow: /quiet/26584/
-
-Allow: /
 
 Allow: /tags/coding/
 
@@ -13,13 +25,9 @@ Allow: /post/2021/letterhead-with-reportlab/
 
 Allow: /tags/pdf/
 
-Allow: /post/
-
 Allow: /tags/python/
 
 Allow: /tags/reportlab/
-
-Allow: /tags/
 
 Allow: /post/2021/advance-git-config-and-ssh-config/
 
@@ -154,8 +162,6 @@ Allow: /post/2017/google-io-2017/
 Allow: /tags/blog/
 
 Allow: /tags/docker/
-
-Allow: /tags/hugo/
 
 Allow: /post/2017/hugo-into-docker/
 

@@ -13,6 +13,16 @@
 
 	 "items": [ 
 	    {
+	     "id": "https://fundor333.com/post/2020/dotfiles-bot-yaml/",
+	     "title": "Dotfiles, bot and yaml files",
+	     "url": "https://fundor333.com/post/2020/dotfiles-bot-yaml/",
+	     "summary": "If you ever use Unix based system you are familiar with dotfiles for configuration. Any program has some of this file or folders laying arrount in your user root.\nAnd many time it was a booring job to setup all your stuff before starting with all the work because I want the config to be the same every where I work. So, in the end of the 2017 i find an article about dotfiles: Managing your Dotfiles.",
+	     
+	     "date_published": "2020-05-01T16:00:00Z",
+	     "date_modified": "2020-05-01T16:00:00Z"        
+	   }
+	   ,
+	    {
 	     "id": "https://fundor333.com/post/2020/sock-and-socket/",
 	     "title": "Sock and socket",
 	     "url": "https://fundor333.com/post/2020/sock-and-socket/",
@@ -80,16 +90,6 @@
 	     
 	     "date_published": "2019-02-05T10:11:07Z",
 	     "date_modified": "2019-02-05T10:11:07Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/",
-	     "title": "Microsoft buy Atom, Electron and Open Source",
-	     "url": "https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/",
-	     "summary": "Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: \u0026ldquo;Whas are going to change into the OpenSource comunity or into the public code?\u0026rdquo;\nMany developer thinks about this and say something similar to \u0026ldquo;I do not want to risc my project so goodby\u0026rdquo; and the move to GitLab all theire code.\n.twitter-tweet { font: 14px/1.45 -apple-system,BlinkMacSystemFont,\"Segoe UI\"",
-	     
-	     "date_published": "2018-06-11T00:00:00Z",
-	     "date_modified": "2018-06-11T00:00:00Z"        
 	   }
 	   
 	 ]

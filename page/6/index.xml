@@ -12,11 +12,20 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Tue, 13 Jul 2021 19:15:01 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 19 Jul 2021 14:00:54 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Bot, Telegram e programmazione funzionale</title>
+			<link>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</link>
+			<pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/cover.jpg"/>]]>Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python</description>
+		</item>
 		
 		<item>
 			<title>Grumpy, come convertire il serpente nel gopher</title>

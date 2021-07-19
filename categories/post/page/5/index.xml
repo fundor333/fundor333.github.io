@@ -21,6 +21,15 @@
 		
 		
 		<item>
+			<title>Utilizzi alternativi di Firebase</title>
+			<link>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</link>
+			<pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/cover.jpg"/>]]>Utilizzare le funzionalità di Firebase in modo non &#39;standard&#39;</description>
+		</item>
+		
+		<item>
 			<title>Pipenv e come tutto è in uno</title>
 			<link>https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/</link>
 			<pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
@@ -81,15 +90,6 @@
 			
 			<guid>https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/</guid>
 			<description><![CDATA[<img src="https://fundor333.com/post/2017/jupyter-notebook-pelican-combo/cover.jpg"/>]]>Come ho combinato Jupyter con questo blog in Pelican</description>
-		</item>
-		
-		<item>
-			<title>Bot, Telegram e programmazione funzionale</title>
-			<link>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</link>
-			<pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/cover.jpg"/>]]>Come un mio tentativo di imparare a usare i decoratori in python è sfociata in un bot in Python</description>
 		</item>
 		
 	</channel>

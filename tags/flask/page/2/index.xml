@@ -1,0 +1,96 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>flask on
+			Fundor333</title>
+		<link>https://fundor333.com/tags/flask/</link>
+		<description>Recent content in flask on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/tags/flask/img/pilogo.jpg</url>
+			<title>flask on
+				Fundor333</title>
+			<link>https://fundor333.com/tags/flask/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Mon, 19 Jul 2021 14:00:54 +0200</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>Color Your Python Output</title>
+			<link>https://fundor333.com/post/2020/color-your-python-output/</link>
+			<pubDate>Thu, 10 Sep 2020 21:06:21 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/color-your-python-output/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/color-your-python-output/cover.jpg"/>]]>Sometime you need to make your output more readible adding color to the terminal</description>
+		</item>
+		
+		<item>
+			<title>Backup Your Crontab</title>
+			<link>https://fundor333.com/post/2020/backup-your-crontab/</link>
+			<pubDate>Sun, 30 Aug 2020 13:49:30 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/backup-your-crontab/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/backup-your-crontab/cover.jpg"/>]]>Using DotBot for backup and sync crontab job</description>
+		</item>
+		
+		<item>
+			<title>SSL Check With a Script</title>
+			<link>https://fundor333.com/post/2020/ssl-check-with-a-script/</link>
+			<pubDate>Thu, 20 Aug 2020 14:13:40 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/ssl-check-with-a-script/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/ssl-check-with-a-script/cover.jpg"/>]]>You need to check a lot of SSL certificate, some domain and others things</description>
+		</item>
+		
+		<item>
+			<title>Create a custon Git message with GitConfig</title>
+			<link>https://fundor333.com/post/2020/gitmessage-advance-config/</link>
+			<pubDate>Sat, 15 Aug 2020 15:15:00 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/gitmessage-advance-config/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/gitmessage-advance-config/cover.jpg"/>]]>Sometime you need to configure your git or have a template for the commit for your work</description>
+		</item>
+		
+		<item>
+			<title>Good Developer Must Be Blogger</title>
+			<link>https://fundor333.com/post/2020/good-developer-must-be-blogger/</link>
+			<pubDate>Sat, 01 Aug 2020 15:15:00 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/good-developer-must-be-blogger/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/good-developer-must-be-blogger/cover.jpg"/>]]>For be a good programmer you need to be a blogger and write regulary</description>
+		</item>
+		
+		<item>
+			<title>Building My Backend</title>
+			<link>https://fundor333.com/post/2020/building-my-backend/</link>
+			<pubDate>Fri, 26 Jun 2020 09:44:10 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/building-my-backend/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/building-my-backend/cover.jpg"/>]]>Why someone need a server and how I build mine</description>
+		</item>
+		
+		<item>
+			<title>Al You Need Is Static</title>
+			<link>https://fundor333.com/post/2020/al-you-need-is-static/</link>
+			<pubDate>Wed, 03 Jun 2020 14:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/al-you-need-is-static/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/al-you-need-is-static/cover.jpg"/>]]>Why you need to move to static site generator and where they come from</description>
+		</item>
+		
+		<item>
+			<title>Make a Excel Django combo</title>
+			<link>https://fundor333.com/post/2020/excel-django-combo/</link>
+			<pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/excel-django-combo/cover.jpg"/>]]>Import excel to django with easy and usefull form</description>
+		</item>
+		
+	</channel>
+</rss>

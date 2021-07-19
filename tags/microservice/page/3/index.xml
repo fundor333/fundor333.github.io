@@ -1,0 +1,96 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>microservice on
+			Fundor333</title>
+		<link>https://fundor333.com/tags/microservice/</link>
+		<description>Recent content in microservice on
+			Fundor333</description>
+		<image>
+			<url>https://fundor333.com/tags/microservice/img/pilogo.jpg</url>
+			<title>microservice on
+				Fundor333</title>
+			<link>https://fundor333.com/tags/microservice/</link>
+		</image>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Mon, 19 Jul 2021 14:00:54 +0200</lastBuildDate>
+		
+		<atom:link href="https://fundor333.com/tags/microservice/index.xml" rel="self" type="application/rss+xml" />
+		
+		
+		
+		<item>
+			<title>Dotfiles, bot and yaml files</title>
+			<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
+			<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/dotfiles-bot-yaml/cover.jpg"/>]]>Using the same dotfiles on multiple computer in the easy way</description>
+		</item>
+		
+		<item>
+			<title>Sock and socket</title>
+			<link>https://fundor333.com/post/2020/sock-and-socket/</link>
+			<pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/sock-and-socket/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/sock-and-socket/cover.jpg"/>]]>A little thing about socket in python</description>
+		</item>
+		
+		<item>
+			<title>Make a Tea Not Big Data</title>
+			<link>https://fundor333.com/post/2020/make-tea-not-big-data/</link>
+			<pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/make-tea-not-big-data/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/make-tea-not-big-data/cover.jpg"/>]]>A rant about workspace and data managment with tea</description>
+		</item>
+		
+		<item>
+			<title>Mew and programming</title>
+			<link>https://fundor333.com/post/2019/mew-and-programming/</link>
+			<pubDate>Sat, 28 Dec 2019 15:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/mew-and-programming/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/mew-and-programming/cover.jpg"/>]]>Why you can find a Mew under a truck on Pokemon Blue, Red and Green</description>
+		</item>
+		
+		<item>
+			<title>Beards, mugs and men</title>
+			<link>https://fundor333.com/post/2019/beards-mugs-men/</link>
+			<pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/beards-mugs-men/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/beards-mugs-men/cover.jpg"/>]]>A response about mugs to a rant about beards</description>
+		</item>
+		
+		<item>
+			<title>Buzzwords buzzwords</title>
+			<link>https://fundor333.com/post/2019/buzzwords-buzzwords/</link>
+			<pubDate>Mon, 17 Jun 2019 10:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/buzzwords-buzzwords/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/buzzwords-buzzwords/bestemmiatori.jpg"/>]]>Un rant sulle buzzwords</description>
+		</item>
+		
+		<item>
+			<title>Django Rest Framework: Multiple post</title>
+			<link>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</link>
+			<pubDate>Tue, 23 Apr 2019 10:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/django-rest-framework-multiple-post/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/django-rest-framework-multiple-post/cover.jpg"/>]]>How to make a massive put with Django Rest Framework</description>
+		</item>
+		
+		<item>
+			<title>DevOps, ChatBot e NPM</title>
+			<link>https://fundor333.com/post/2019/devops-chatbot-npm/</link>
+			<pubDate>Tue, 05 Feb 2019 10:11:07 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2019/devops-chatbot-npm/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2019/devops-chatbot-npm/cover.png"/>]]>Aggiornamento su cosa mi sta succedendo e perché ho iniziato a fare il DevOps</description>
+		</item>
+		
+	</channel>
+</rss>

@@ -12,11 +12,20 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Tue, 13 Jul 2021 19:15:01 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 19 Jul 2021 14:00:54 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Dotfiles, bot and yaml files</title>
+			<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
+			<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/dotfiles-bot-yaml/cover.jpg"/>]]>Using the same dotfiles on multiple computer in the easy way</description>
+		</item>
 		
 		<item>
 			<title>Sock and socket</title>
@@ -79,15 +88,6 @@
 			
 			<guid>https://fundor333.com/post/2019/devops-chatbot-npm/</guid>
 			<description><![CDATA[<img src="https://fundor333.com/post/2019/devops-chatbot-npm/cover.png"/>]]>Aggiornamento su cosa mi sta succedendo e perché ho iniziato a fare il DevOps</description>
-		</item>
-		
-		<item>
-			<title>Microsoft buy Atom, Electron and Open Source</title>
-			<link>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</link>
-			<pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/cover.png"/>]]>Now what appen because Microsoft own Github and all theire project?</description>
 		</item>
 		
 	</channel>

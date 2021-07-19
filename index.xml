@@ -12,11 +12,20 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Tue, 13 Jul 2021 19:15:01 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 19 Jul 2021 14:00:54 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Static With a Form in Python</title>
+			<link>https://fundor333.com/post/2021/static-with-a-form/</link>
+			<pubDate>Mon, 19 Jul 2021 14:00:54 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2021/static-with-a-form/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2021/static-with-a-form/cover.jpg"/>]]>If you have a static site you can also have forms</description>
+		</item>
 		
 		<item>
 			<title>Letterhead With ReportLab</title>
@@ -79,15 +88,6 @@
 			
 			<guid>https://fundor333.com/post/2020/manage-site-and-certificate/</guid>
 			<description><![CDATA[<img src="https://fundor333.com/post/2020/manage-site-and-certificate/cover.jpg"/>]]>One dev manage 40 sites&#39; domains, SSL and check all of them with a package</description>
-		</item>
-		
-		<item>
-			<title>Color Your Python Output</title>
-			<link>https://fundor333.com/post/2020/color-your-python-output/</link>
-			<pubDate>Thu, 10 Sep 2020 21:06:21 +0200</pubDate>
-			
-			<guid>https://fundor333.com/post/2020/color-your-python-output/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/color-your-python-output/cover.jpg"/>]]>Sometime you need to make your output more readible adding color to the terminal</description>
 		</item>
 		
 	</channel>

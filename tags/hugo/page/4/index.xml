@@ -14,11 +14,20 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Tue, 16 May 2017 12:27:11 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 19 Jul 2021 14:00:54 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Microsoft buy Atom, Electron and Open Source</title>
+			<link>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</link>
+			<pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
+			
+			<guid>https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/cover.png"/>]]>Now what appen because Microsoft own Github and all theire project?</description>
+		</item>
 		
 		<item>
 			<title>Floppy, Pycon e generatori di siti statici</title>
@@ -81,15 +90,6 @@
 			
 			<guid>https://fundor333.com/post/2017/astemio-al-terzo-databeers/</guid>
 			<description><![CDATA[<img src="https://fundor333.com/post/2017/astemio-al-terzo-databeers/cover.jpg"/>]]>La mia terza esperienza al DataBeers di Venezia, mio quarto Databeers</description>
-		</item>
-		
-		<item>
-			<title>Utilizzi alternativi di Firebase</title>
-			<link>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</link>
-			<pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/cover.jpg"/>]]>Utilizzare le funzionalità di Firebase in modo non &#39;standard&#39;</description>
 		</item>
 		
 	</channel>

@@ -14,11 +14,20 @@
 		</image>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
-		<lastBuildDate>Tue, 16 May 2017 12:27:11 +0200</lastBuildDate>
+		<lastBuildDate>Mon, 19 Jul 2021 14:00:54 +0200</lastBuildDate>
 		
 		<atom:link href="https://fundor333.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
 		
 		
+		
+		<item>
+			<title>Color Your Python Output</title>
+			<link>https://fundor333.com/post/2020/color-your-python-output/</link>
+			<pubDate>Thu, 10 Sep 2020 21:06:21 +0200</pubDate>
+			
+			<guid>https://fundor333.com/post/2020/color-your-python-output/</guid>
+			<description><![CDATA[<img src="https://fundor333.com/post/2020/color-your-python-output/cover.jpg"/>]]>Sometime you need to make your output more readible adding color to the terminal</description>
+		</item>
 		
 		<item>
 			<title>Backup Your Crontab</title>
@@ -81,15 +90,6 @@
 			
 			<guid>https://fundor333.com/post/2020/excel-django-combo/</guid>
 			<description><![CDATA[<img src="https://fundor333.com/post/2020/excel-django-combo/cover.jpg"/>]]>Import excel to django with easy and usefull form</description>
-		</item>
-		
-		<item>
-			<title>Dotfiles, bot and yaml files</title>
-			<link>https://fundor333.com/post/2020/dotfiles-bot-yaml/</link>
-			<pubDate>Fri, 01 May 2020 16:00:00 +0000</pubDate>
-			
-			<guid>https://fundor333.com/post/2020/dotfiles-bot-yaml/</guid>
-			<description><![CDATA[<img src="https://fundor333.com/post/2020/dotfiles-bot-yaml/cover.jpg"/>]]>Using the same dotfiles on multiple computer in the easy way</description>
 		</item>
 		
 	</channel>

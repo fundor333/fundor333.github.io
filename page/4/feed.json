@@ -13,6 +13,16 @@
 
 	 "items": [ 
 	    {
+	     "id": "https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/",
+	     "title": "Microsoft buy Atom, Electron and Open Source",
+	     "url": "https://fundor333.com/post/2018/microsoft-buy-atom-electron-and-open-source/",
+	     "summary": "Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: \u0026ldquo;Whas are going to change into the OpenSource comunity or into the public code?\u0026rdquo;\nMany developer thinks about this and say something similar to \u0026ldquo;I do not want to risc my project so goodby\u0026rdquo; and the move to GitLab all theire code.\n.twitter-tweet { font: 14px/1.45 -apple-system,BlinkMacSystemFont,\"Segoe UI\"",
+	     
+	     "date_published": "2018-06-11T00:00:00Z",
+	     "date_modified": "2018-06-11T00:00:00Z"        
+	   }
+	   ,
+	    {
 	     "id": "https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/",
 	     "title": "Floppy, Pycon e generatori di siti statici",
 	     "url": "https://fundor333.com/post/2018/floppy-pycon-e-generatori-di-siti-statici/",
@@ -80,16 +90,6 @@
 	     
 	     "date_published": "2017-11-23T00:00:00Z",
 	     "date_modified": "2017-11-23T00:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/",
-	     "title": "Utilizzi alternativi di Firebase",
-	     "url": "https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/",
-	     "summary": "Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all\u0026rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell\u0026rsquo;utente.\nQuesto obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l\u0026rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.",
-	     
-	     "date_published": "2017-09-04T00:00:00Z",
-	     "date_modified": "2017-09-04T00:00:00Z"        
 	   }
 	   
 	 ]

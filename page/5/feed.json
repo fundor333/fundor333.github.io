@@ -13,6 +13,16 @@
 
 	 "items": [ 
 	    {
+	     "id": "https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/",
+	     "title": "Utilizzi alternativi di Firebase",
+	     "url": "https://fundor333.com/post/2017/utilizzi-alternativi-di-farebase/",
+	     "summary": "Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all\u0026rsquo;utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell\u0026rsquo;utente.\nQuesto obbliga ad avere file di log nella macchina che sta eseguendo il task asincrono e dover leggere da quello l\u0026rsquo;esecuzione del processo nel caso io voglia vedere come sta andando il alvoro.",
+	     
+	     "date_published": "2017-09-04T00:00:00Z",
+	     "date_modified": "2017-09-04T00:00:00Z"        
+	   }
+	   ,
+	    {
 	     "id": "https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/",
 	     "title": "Pipenv e come tutto è in uno",
 	     "url": "https://fundor333.com/post/2017/pipenv-e-come-tutto-e-in-uno/",
@@ -80,16 +90,6 @@
 	     
 	     "date_published": "2017-02-14T00:00:00Z",
 	     "date_modified": "2017-02-14T00:00:00Z"        
-	   }
-	   ,
-	    {
-	     "id": "https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/",
-	     "title": "Bot, Telegram e programmazione funzionale",
-	     "url": "https://fundor333.com/post/2017/bot-telegram-e-programmazione-funzionale/",
-	     "summary": "\u003cp\u003eHo voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.\u003c/p\u003e\n\u003ch2 id=\"linizio-di-tutto\"\u003eL\u0026rsquo;inizio di tutto\u003c/h2\u003e\n\u003cp\u003eHo trovato una libreria Python per lo sviluppo di bot per Telegram (cosa che mi ha sempre affascinato) e ho deciso di provare a scrivere un bot semplice. Quindi inizio a utilizzare questa libreria \u003ca href=\"https://python-telegram-bot.org/\"\u003epython-telegram-bot\u003c/a\u003e e inizio a scrivere i primi metodi per gestire i comandi per il bot e noto una cosa: ogni volta che scrivo una funzione devo legarla a \u0026ldquo;ascoltatore\u0026rdquo; che la esegue quando riceve il comando.\u003c/p\u003e\n\u003cp\u003eAd esempio se io ho definito prima qi questo frammento di codice una funzione \u003cem\u003estart\u003c/em\u003e che mi gestisce il comando omonimo, poi io devo registrarla all\u0026rsquo;updater attraverso il dispatcher come qui sotto.\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre style=\"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"\u003e\u003ccode class=\"language-python\" data-lang=\"python\"\u003eupdater\u003cspan style=\"color:#f92672\"\u003e.\u003c/span\u003edispatcher\u003cspan style=\"color:#f92672\"\u003e.\u003c/span\u003eadd_handler(CommandHandler(\u003cspan style=\"color:#e6db74\"\u003e\u0026#39;start\u0026#39;\u003c/span\u003e, start))\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003cp\u003eVisto che devo riscrivere questa riga per ogni volta che voglio scrivere un comando per il bot ho pensato che sarebbe bene avere un \u0026ldquo;alias\u0026rdquo; per questa riga di codice che prenda in input la stringa a cui voglio risponda e la funzione.\u003c/p\u003e",
-	     
-	     "date_published": "2017-02-11T00:00:00Z",
-	     "date_modified": "2017-02-11T00:00:00Z"        
 	   }
 	   
 	 ]
