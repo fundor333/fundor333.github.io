@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div>
+    <article class="text-center col-10 offset-1 text-center h-entry">
+      <p>
+        <i class="fad fa-heart-circle"></i> Like "{{ range  .Param "mf-like-of"}}<a class="u-like-of" href="{{ . }}"> {{ . }}</a>{{end}}""
+      </p>
+
+      <div class="e-content">
+      {{ .Content | safeHTML }}
+
+      {{- partial "syndication.html" . -}}
+
+      </div>
+    </article>
+
+  </div>
+</div>

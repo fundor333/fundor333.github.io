@@ -1,0 +1,49 @@
+<script>
+  const changeThemeToDark = () => {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.className = "theme-dark";
+    $(".dark").hide();
+    $(".light").show();
+  }
+
+  const changeThemeToLight = () => {
+    localStorage.setItem("theme", "light");
+    document.documentElement.className = "theme-light";
+    $(".dark").show();
+    $(".light").hide();
+  }
+
+  function applyTheme(theme) {
+    if (theme === "light") {
+      changeThemeToLight()
+    } else if (theme === "dark") {
+      changeThemeToDark()
+    } else {
+      changeThemeToDark()
+    }
+  }
+
+  const currentTheme = localStorage.getItem("theme");
+  if (currentTheme == "dark") {
+    changeThemeToDark();
+  } else if (currentTheme == "light") {
+    changeThemeToLight();
+  }
+
+  $(window).on("load", function () {
+    const currentTheme = localStorage.getItem("theme") || "dark";
+
+    applyTheme(currentTheme);
+
+    document.querySelector("#theme").addEventListener("change", function () {
+      localStorage.setItem("theme", this.value);
+      applyTheme(this.value);
+    });
+
+    for (const optionElement of document.querySelectorAll("#theme option")) {
+      optionElement.selected = currentTheme === optionElement.value;
+    }
+
+  });
+
+</script>

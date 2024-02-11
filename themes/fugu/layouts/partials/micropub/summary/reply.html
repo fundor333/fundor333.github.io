@@ -1,0 +1,23 @@
+<div class="h-entry">
+  <div class="container-fluid  text-justify">
+    <div class="container-fluid">
+      <article class="col-10 offset-1 row h-entry">
+        <p class="pb-4">
+          In risponse of "{{ range  .Param "mf-in-reply-to"}}<a class="u-in-reply-to" href="{{ . }}">{{ end }} {{.Params.title}}"</a>
+        </p>
+
+        <div class="col-3">
+          <a href="/" rel="author" class="u-author h-card">
+            <img loading="lazy" src="{{ .Site.Params.image}}" alt="logo" class="img-fluid u-logo u-photo mx-auto d-block" width="60">
+            <p class="p-author text-center">{{ .Site.Author.name }}</p>
+          </a>
+        </div>
+
+        <div class="col">
+        {{ .Content | safeHTML }}
+        </div>
+      </article>
+
+    </div>
+  </div>
+</div>

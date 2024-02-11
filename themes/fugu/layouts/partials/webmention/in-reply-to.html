@@ -1,0 +1,13 @@
+<div class="row p-2">
+  <div class="col-2">
+	    <a class="reaction img-text" rel="ugc" title="{{.author.name}} replied" href="{{.url}}">
+	      <img class="mention-img shadow-lg bg-body-tertiary"  src="{{.author.photo}}" loading="lazy" decoding="async" alt="{{.author.name}}" onerror="this.src='/img/alternative.jpg'" >
+        <div class="centered-text-img">💬</div>
+	    </a>
+  </div>
+  <div class="col-10 text-start">
+    <a class="source" rel="ugc" href="{{.url}}">💬 {{.author.name}} - {{index . "wm-received" | time.Format "2006-01-02 15:04:05"  }}
+    </a>
+        <p class="text">{{.content.html |safeHTML}}</p>
+  </div>
+</div>

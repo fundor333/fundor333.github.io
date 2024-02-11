@@ -1,0 +1,20 @@
+{
+	"name": "fundor333.com",
+	"version": "0.0.0",
+	"private": true,
+	"description": "The source code for fundor333.com",
+	"keywords": [],
+	"author": {
+		"name": "Fundor333.com",
+		"url": "https://fundor333.com/"
+	},
+	"engines": {
+		"node": "16.x",
+		"npm": "8.x"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.4.17",
+		"postcss": "^8.4.33",
+		"postcss-cli": "^11.0.0"
+	}
+}

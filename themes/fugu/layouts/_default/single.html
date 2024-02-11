@@ -1,0 +1,10 @@
+{{ define "main"}}
+<h2 class="text-center">{{.Title}}</h2>
+<hr>
+{{ .Content }}
+
+<div class="container">
+  {{- partial "webmention.html" . -}}
+</div>
+
+{{ end }}

@@ -1,0 +1,12 @@
+disqus:
+  disable: true
+googleAnalytics:
+  disable: false
+instagram:
+  disable: true
+twitter:
+  disableInlineCSS: true
+vimeo:
+  disable: true
+youtube:
+  disable: true

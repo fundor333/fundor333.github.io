@@ -1,0 +1,35 @@
+{{ if (eq (.Param "micropub" ) "book") }}
+{{ partial "micropub/summary/book.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "bookmark") }}
+{{ partial "micropub/summary/bookmark.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "drink") }}
+{{ partial "micropub/summary/drink.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "food") }}
+{{ partial "micropub/summary/food.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "like") }}
+{{ partial "micropub/summary/like-of.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "location") }}
+{{ partial "micropub/summary/location.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "note") }}
+{{ partial "micropub/summary/note.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "reply") }}
+{{ partial "micropub/summary/reply.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "repost") }}
+{{ partial "micropub/summary/repost.html" . }}
+{{end }}

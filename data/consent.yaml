@@ -1,0 +1,5 @@
+items:
+  - title: Personal Analytics and search(functional)
+    description: Analytics self hosted and the search for the site
+    is_functional: true
+    script_file: consent.js

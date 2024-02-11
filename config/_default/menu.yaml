@@ -1,0 +1,16 @@
+main:
+  - name: home
+    url: /
+    weight: -10
+  - name: "blog"
+    weight: 10
+    url: "/post/"
+  - name: cv
+    url: /cv/
+    weight: 20
+  - name: "now"
+    weight: 60
+    url: "/now"
+  - name: "feeds"
+    weight: 70
+    url: "/feeds"

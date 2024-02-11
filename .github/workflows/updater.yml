@@ -1,0 +1,34 @@
+name: GitHub Actions Version Updater
+
+# Controls when the action will run.
+on:
+    # can be used to run workflow manually
+    workflow_dispatch:
+    schedule:
+        # Automatically run on every Sunday
+        - cron: "0 0 * * 0"
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4.1.1
+              with:
+                  # [Required] Access token with `workflow` scope.
+                  token: ${{ secrets.TOKEN }}
+
+            - name: Run GitHub Actions Version Updater
+              uses: saadmk11/github-actions-version-updater@v0.8.1
+              with:
+                  # [Required] Access token with `workflow` scope.
+                  token: ${{ secrets.WORKFLOW_SECRET }}
+                  committer_username: "F333Bot"
+                  committer_email: "git@fundor333.com"
+                  commit_message: "Update Action"
+                  pull_request_title: "Update Actions"
+                  ignore: "actions/checkout@v2, actions/cache@v2"
+                  skip_pull_request: "false"
+                  update_version_with: "release-tag"
+                  release_types: "minor, patch"
+                  pull_request_user_reviewers: "fundor333"

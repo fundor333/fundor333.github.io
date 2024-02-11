@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default " en " }}" class="theme-dark">
+  <head>
+{{- partial "head.html" . -}}
+{{- block "more_head" . }}{{- end }}
+
+{{ partial "analytics.html" . }}
+</head>
+<body>
+  <a id="top"></a>
+  <div class="container-xl">
+
+    {{- partial "header.html" . -}}
+    {{- partial "social.html" . -}}
+
+    <div class="p-5 container">
+        {{- block "main" . }}{{- end }}
+    </div>
+    <div class="container">
+    {{- partial "footer.html" . -}}
+    </div>
+  </div>
+  {{- partial "script.html" . -}}
+</body>
+
+</html>

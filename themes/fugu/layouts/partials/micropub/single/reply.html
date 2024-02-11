@@ -1,0 +1,30 @@
+<div class="h-entry">
+  <div class="container-fluid  text-justify">
+    <br>
+
+    <div class="container-fluid">
+      <div>
+        <article class="col-10 offset-1 row h-entry">
+          <h2 class="pb-4">
+            In risponse of {{ range  .Param "mf-in-reply-to"}}<a class="u-in-reply-to" href="{{ . }}">{{ end }} {{.Params.title}}</a>
+          </h2>
+
+          <div class="col-3">
+            <a href="/" rel="author" class="u-author h-card">
+              <img loading="lazy" src="{{ .Site.Params.image}}" alt="logo" class="img-fluid u-logo u-photo mx-auto d-block" width="60">
+              <p class="p-author text-center">{{ .Site.Author.name }}</p>
+            </a>
+          </div>
+
+          <div class="col e-content">
+          {{ .Content | safeHTML }}
+          </div>
+      {{- partial "syndication.html" . -}}
+
+    </article>
+    <div class="container">
+      {{- partial "webmention.html" . -}}
+    </div>
+  </div>
+  <br>
+</div>

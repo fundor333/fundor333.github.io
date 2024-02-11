@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="text-center container h-card">
+  <div class="row">
+    <img src="{{ .Site.Params.image}}" alt="{{ .Site.Title }}" class="d-none u-logo u-photo d-flex ">
+    <div class="p-note e-content">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+{{ range  first 4 (where .Site.RegularPages "Section" "post")  }}
+
+{{ .Render "summary" }}
+
+{{ end }}
+<div class="container">
+  <hr>
+  <h2>Talks about us</h2>
+  {{- partial "webmention.html" . -}}
+</div>
+{{ end }}

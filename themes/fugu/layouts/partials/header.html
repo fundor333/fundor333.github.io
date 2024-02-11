@@ -1,0 +1,33 @@
+<nav class='p-3'>
+  <div class="d-flex flex-column">
+      <a class="u-url navbar-brand text-center" rel=" me" href="{{ .Site.BaseURL }}">
+        <img loading="lazy" src="{{ .Site.Params.image}}" alt="{{ .Site.Title }}" class=" h-card rounded img-fluid u-logo lazy shadow-lg bg-body-tertiary col-1">
+      </a>
+  </div>
+  <div class='d-flex flex-column '>
+    <div class="d-flex text-center">
+      <div class="col-10 offset-1">
+          <a class="u-url col" rel="me" href="{{ .Site.BaseURL }}">
+            <h1 class="p-name">
+              <nobr>{{ .Site.Title }}</nobr> <i class="fas fa-badge-check fa-2xs theme-fundor333"></i>
+            </h1>
+          </a>
+          <h5 class="text-f333">Verified (12€/year for the domain)</h5>
+
+              {{ range .Site.Menus.main }}
+                  <a class="btn col-4 col-sm-2 u-url" href="{{ .URL }}" title="{{ .Name }}">
+                    <nobr>{{ .Name }}</nobr>
+                  </a>
+                </li>
+              {{ end }}
+                <a class="btn col-4 col-sm-2 u-url" href="/search/" title="search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>
+
+{{- partial "authentication.html" . -}}

@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="row row-cols-1 row-cols-md-3">
+
+{{ range $.Site.Data.books }}
+
+<div class="card">
+  {{ with .resources.GetRemote (print "https://covers.openlibrary.org/b/isbn/" .ISBN "-M.jpg" ) }}
+  <img class="card-img-top book img-fluid" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+  {{ end }}
+
+  <div class="card-body">
+    <h5 class="card-title">{{.Title}}</h5>
+    <p class="card-text">{{.Author}}</p>
+    {{$id := index . "Book Id" }}
+
+    <p><a target="_blank" href='https://www.goodreads.com/book/show/{{int $id}}' ><i class="fa-duotone fa-book"></i></a></p>
+  </div>
+</div>
+
+{{end}}
+</div>
+
+{{end}}

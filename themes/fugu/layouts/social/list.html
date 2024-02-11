@@ -1,0 +1,35 @@
+{{ define "main" }}
+<h2 class="text-center"><i class="fa-duotone theme-fundor333 fa-alien-8bit"></i> {{.Title}} <i class="fa-duotone theme-fundor333 fa-alien-8bit"></i></h2>
+<hr>
+<div class="e-content">
+  {{ .Content }}
+  <hr>
+</div>
+
+{{ $a :=where .Site.RegularPages ".Params.micropub" "!=" "repost" }}
+{{ $b :=where .Site.RegularPages ".Params.micropub" "!=" "like" }}
+{{ $a :=  intersect $a $b }}
+{{ $b :=where .Site.RegularPages ".Params.micropub" "!=" "h-event" }}
+{{ $pages :=  intersect $a $b }}
+
+{{ $paginator := .Paginate  (where $pages ".Params.specialpost" "!=" true)   }}
+
+{{ range $paginator.Pages }}
+<div class="row">
+  <div class="col-1 align-self-center">
+    <a href="{{.Permalink}}"><i class="fa-duotone fa-link"></i></a>
+  </div>
+  <div class="col align-self-center">
+    {{ .Render "summary" }}
+  </div>
+</div>
+
+
+<hr>
+
+{{ end }}
+
+{{ partial "paginator.html" . }}
+
+
+{{ end }}

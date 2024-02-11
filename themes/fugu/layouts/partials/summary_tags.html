@@ -1,0 +1,1 @@
+<div  class="p-summary d-none">{{ .Description }} {{ range .Params.categories }}#{{ .}} {{ end }}{{ with .Params.tags }}{{ range sort . }}#{{ .}} {{ end }}{{ end }}{{ with .Params.meta }} {{ range sort . }}#{{ .}} {{ end }}{{ end }}</div>

@@ -1,0 +1,9 @@
+highlight:
+  hl_Lines: ""
+  lineNoStart: 1
+  lineNos: false
+  tabWidth: 4
+tableOfContents:
+  endLevel: 5
+  ordered: false
+  startLevel: 2

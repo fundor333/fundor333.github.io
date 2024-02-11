@@ -1,0 +1,341 @@
+[
+	{
+		"type": "podcast",
+		"elements": [
+			{
+				"title": "Podcast.init",
+				"url": "https://www.podcastinit.com"
+			},
+			{
+				"title": "Talk Python To Me",
+				"url": "https://talkpython.fm"
+			},
+			{
+				"title": "Pythonbytes",
+				"url": "https://pythonbytes.fm"
+			},
+			{
+				"title": "Test and Code",
+				"url": "http://pythontesting.net"
+			},
+			{
+				"title": "The Changelog",
+				"url": "https://changelog.com"
+			},
+			{
+				"title": "Request For Commits",
+				"url": "https://changelog.com/rfc"
+			},
+			{
+				"title": "Partially Derivative",
+				"url": "http://partiallyderivative.com/"
+			},
+			{
+				"title": "Go Time",
+				"url": "https://changelog.com/gotime"
+			},
+			{
+				"title": "The ground up show",
+				"url": "http://mattdavella.com/podcast"
+			},
+			{
+				"title": "Data Porn",
+				"url": "https://dataporn.me/"
+			}
+		]
+	},
+	{
+		"type": "documentary",
+		"elements": [
+			{
+				"title": "The Great Hack",
+				"url": "https://www.netflix.com/title/80117542"
+			},
+			{
+				"title": "Social Dilemma",
+				"url": "https://www.netflix.com/title/81254224"
+			},
+			{
+				"title": "How iFixit Became the World's Best iPhone Teardown Team",
+				"url": "https://youtu.be/tx-9LkVIdz0"
+			},
+			{
+				"title": "THE INSIDE LIFE OF A HACKER (Best Documentary 2020)",
+				"url": "https://www.youtube.com/watch?v=CuESlhKLhCY"
+			},
+			{
+				"title": "Anonymous - The Hacker Wars",
+				"url": "https://www.youtube.com/watch?v=ku9edEKvGuY"
+			},
+			{
+				"title": "Minimalism - a Documentary",
+				"url": "https://www.netflix.com/title/80114460"
+			},
+			{
+				"title": "Minimalism - Less is Now",
+				"url": "https://netflix.com/theminimalists"
+			},
+			{
+				"title": "The Man Putin Fears The Most",
+				"url": "https://youtu.be/hrORwk_RZLM"
+			},
+			{
+				"title": "The World Design of Dark Souls | Boss Keys",
+				"url": "https://www.youtube.com/watch?v=QhWdBhc3Wjc"
+			},
+			{
+				"title": "The World Design of Hollow Knight | Boss Keys",
+				"url": "https://www.youtube.com/watch?v=7ITtPPE-pXE"
+			}
+		]
+	},
+	{
+		"type": "films and videos",
+		"elements": [
+			{
+				"title": "Movies For Hackers",
+				"url": "https://hackermovie.club"
+			},
+			{
+				"title": "The Mysterious Life Of UX Designers",
+				"url": "https://youtu.be/gfHcnig8Lo4"
+			},
+			{
+				"title": "The Mysterious Life of Developers",
+				"url": "https://youtu.be/Ey3Ix7QuKPs"
+			},
+			{
+				"title": "How “dementia villages” work",
+				"url": "https://youtu.be/LN_--egst3s"
+			},
+			{
+				"title": "The Devil Wears Prada: Miranda Priestly - A Defense of Perfectionism",
+				"url": "https://youtu.be/WBGuQl39XC0"
+			}
+		]
+	},
+	{
+		"type": "manifesto",
+		"elements": [
+			{
+				"title": "12Factor Guidelines",
+				"url": "https://12factor.net"
+			},
+			{
+				"title": "Netiquette Guidelines",
+				"url": "https://tools.ietf.org/html/rfc1855"
+			},
+			{
+				"title": "The Jargon File",
+				"url": "http://www.catb.org/jargon/"
+			},
+			{
+				"title": "Hacker Manifesto",
+				"url": "http://phrack.org/issues/7/3.html"
+			},
+			{
+				"title": "Repair Manifesto",
+				"url": "https://www.ifixit.com/Manifesto"
+			}
+		]
+	},
+	{
+		"type": "utility",
+		"elements": [
+			{
+				"title": "EmojiPedia",
+				"url": "https://emojipedia.org"
+			},
+			{
+				"title": "Shields",
+				"url": "http://shields.io"
+			},
+			{
+				"title": "Carbon Shell for scrennshot",
+				"url": "https://carbon.now.sh/"
+			},
+			{
+				"title": "Kit",
+				"url": "https://kit.co"
+			},
+			{
+				"title": "Freelancer email generator",
+				"url": "https://toggl.com/freelance-email-generator/"
+			},
+			{
+				"title": "The Bastard Operator From Hell - Style Excuse Server",
+				"url": "http://pages.cs.wisc.edu/~ballard/bofh/"
+			},
+			{
+				"title": "Hacker Scripts Repo",
+				"url": "https://github.com/NARKOZ/hacker-scripts"
+			},
+			{
+				"title": "DotFiles",
+				"url": "https://dotfiles.github.io"
+			},
+			{
+				"title": "EditorConfig",
+				"url": "http://editorconfig.org"
+			},
+			{
+				"title": "Python Release cycle",
+				"url": "https://python-release-cycle.glitch.me/"
+			},
+			{
+				"title": "Hacker Script for lazy worker",
+				"url": "https://github.com/NARKOZ/hacker-scripts"
+			},
+			{
+				"title": "Diagrams, prototyping architecture",
+				"url": "https://diagrams.mingrammer.com/"
+			},
+			{
+				"title": "AWS schema",
+				"url": "https://www.awsgeek.com/"
+			}
+		]
+	},
+	{
+		"type": "comics developer",
+		"elements": [
+			{
+				"title": "Save the princess with a programming language",
+				"url": "https://toggl.com/programming-princess/"
+			},
+			{
+				"title": "How To Build A Horse With Programming ",
+				"url": "https://blog.toggl.com/build-horse-programming/"
+			},
+			{
+				"title": "Programming languages as music",
+				"url": "https://blog.toggl.com/programming-languages-explained-with-music-comic/"
+			},
+			{
+				"title": "How to kill a dragon with 9 programming language",
+				"url": "https://blog.toggl.com/kill-dragon-comic/"
+			},
+			{
+				"title": "The Seven Circles of Developer Hell",
+				"url": "https://blog.toggl.com/seven-levels-developer-hell/"
+			},
+			{
+				"title": "IT Jobs Explained With A Broken Lightbulb",
+				"url": "https://blog.toggl.com/lightbulb-cartoon-developers/"
+			},
+			{
+				"title": "Terrible clients explained with pirates",
+				"url": "https://toggl.com/worst-client-types-infographic/"
+			},
+			{
+				"title": "If The World Was Created By A Programmer",
+				"url": "https://blog.toggl.com/world-created-programmer/"
+			},
+			{
+				"title": "Tech carrers of the future",
+				"url": "https://blog.toggl.com/tech-careers-future/"
+			},
+			{
+				"title": "11 Types of Employees You Meet at a Tech Company",
+				"url": "https://blog.toggl.com/tech-employee-stereotypes-comic/"
+			},
+			{
+				"title": "SysAdmin vs Terrorist",
+				"url": "https://xkcd.com/705/"
+			},
+			{
+				"title": "If A Startup Were A Zoo",
+				"url": "https://blog.toggl.com/startup-zoo-comic/"
+			},
+			{
+				"title": "Explaining Software Development Methods By Flying To Mars",
+				"url": "https://blog.toggl.com/mars-software-development/"
+			},
+			{
+				"title": "9 Crucial Employees Every Startup Should Have In Their Deck",
+				"url": "https://blog.toggl.com/startup-employees-deck/"
+			},
+			{
+				"title": "Little Red Riding Hood Teaches Programming",
+				"url": "https://toggl.com/blog/little-red-riding-hood-teaches-programming-comic"
+			},
+			{
+				"title": "The Hidden Dangers of Refactoring",
+				"url": "https://toggl.com/blog/hidden-dangers-refactoring"
+			}
+		]
+	},
+	{
+		"type": "fun",
+		"elements": [
+			{
+				"title": "Octodex",
+				"url": "https://octodex.github.com"
+			},
+			{
+				"title": "Order Dragons",
+				"url": "http://lizardshuffle.tumblr.com"
+			}
+		]
+	},
+	{
+		"type": "anime",
+		"elements": [
+			{
+				"title": "Bakemonogatari",
+				"url": "https://www.animeclick.it/anime/2268/bakemonogatari"
+			},
+			{
+				"title": "Steins Gate",
+				"url": "https://www.animeclick.it/anime/3114/steins-gate"
+			},
+			{
+				"title": "Psycho-Pass",
+				"url": "https://www.animeclick.it/anime/4084/psycho-pass"
+			}
+		]
+	},
+	{
+		"type": "evil overlod",
+		"elements": [
+			{
+				"title": "Decalogo del signore del male",
+				"url": "http://www.eviloverlord.com/lists/overlord.html"
+			},
+			{
+				"title": "Primo decalogo delle celle",
+				"url": "http://www.eviloverlord.com/lists/dungeon_a.html"
+			},
+			{
+				"title": "Secondo decalogo delle celle",
+				"url": "http://www.eviloverlord.com/lists/dungeon_b.html"
+			}
+		]
+	},
+	{
+		"type": "fonts",
+		"elements": [
+			{
+				"title": "MonoLisa",
+				"url": "https://www.monolisa.dev/"
+			},
+			{
+				"title": "JetBrains Mono",
+				"url": "https://www.jetbrains.com/lp/mono/"
+			},
+			{
+				"title": "Fira Code",
+				"url": "https://github.com/tonsky/FiraCode"
+			}
+		]
+	},
+	{
+		"type": "app",
+		"elements": [
+			{
+				"title": "Tachiyomi",
+				"url": "https://tachiyomi.org/"
+			}
+		]
+	}
+]

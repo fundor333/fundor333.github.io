@@ -1,0 +1,34 @@
+
+<div class="container-fluid">
+  <div>
+    <article class="text-center col-10 offset-1 row text-center h-entry">
+      <p class="pb-4">
+        <i class="fad fa-bookmark"></i> Bookmark "{{ range  .Param "mf-bookmark-of"}} <a class="u-bookmark-of" href="{{ . }}">{{ end }} {{ .Params.title }}</a>"
+      </p>
+
+      <div class="col-3">
+        <a href="/" rel="author" class="u-author h-card">
+          <img loading="lazy" src="{{ .Site.Params.image}}" alt="logo" class="img-fluid u-logo u-photo mx-auto d-block" width="60">
+          <p class="p-author text-center">{{ .Site.Author.name }}</p>
+        </a>
+      </div>
+      <div class="col">
+        {{ .Content | safeHTML }}
+    </article>
+
+  </div>
+  <div class="container text-center">
+    {{ with .Params.tags }} {{ range sort . }}
+    <a class="btn m-2 p-category tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+      <i class="fa-duotone theme-fundor333 fa-tags"></i> {{ .}}
+    </a>
+    {{ end }} {{ end }}
+
+    {{ with .Params.meta }} {{ range sort . }}
+    <p class="p-category d-none">
+      {{ .}}
+    </p>
+    {{ end }} {{ end }}
+
+  </div>
+</div>

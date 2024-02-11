@@ -1,0 +1,98 @@
+{{ define "more_head"}}
+
+{{ $image := .Resources.GetMatch "{cover.jpg,cover.png,cover.jpeg}"}}
+
+{{ end }}
+
+
+{{ define "main"}}
+<hr>
+<div class="h-entry">
+  <p class="d-none p-bridgy-twitter-content p-bridgy-mastodon-content">{{ .Title }} {{ .Description }} - {{ range .Params.categories }}#{{ .}} {{ end }}{{ with .Params.tags }}{{ range sort . }}#{{ .}} {{ end }}{{ end }}</p>
+
+  <div class="container-fluid  text-justify">
+    <br>
+    {{ $image := .Resources.GetMatch "{cover.webp,cover.jpg,cover.png,cover.jpeg}" }}
+    {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
+
+    <div class="text-center">
+      <img loading="lazy" class="u-photo img-fluid lazy" src="{{ $image.Permalink }}" width="{{ $resource.Width }}"
+           height="{{ $resource.Height }}" alt="Card image cap">
+    </div>
+
+    <br>
+    {{if .Params.feature_link}}
+    <div class="col-10 offset-1 text-center">
+      <a href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
+    </div>
+    {{end}}
+  </div>
+  <br>
+  <div class="container">
+    <h1 class="p-name text-center">
+      {{ .Title }}
+    </h1>
+  </div>
+
+  <div class="container offset-1 p-2">
+    <div>
+      <time class="dt-published" datetime='{{ .Date | time.Format "2006-01-02 15:04:05" }}'></time><i class="fa-duotone theme-fundor333 fa-calendar"></i> {{ .Date | time.Format "2006-01-02" }} |
+            <i class="fa-duotone theme-fundor333 fa-tags"></i>{{ range .Params.categories }}
+      #<a class="p-category" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ .}}</a>,
+      {{ end }}
+      {{ with .Params.tags }} {{ range sort . }}
+      #<a class="p-category tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ .}}</a>,
+      {{ end }} {{ end }}
+    </div>
+    <div><i class="fa-duotone theme-fundor333 fa-mug-tea"></i>{{ if gt .ReadingTime 4 }}<i
+      class="fa-duotone theme-fundor333 fa-mug-tea"></i>{{ if gt
+      .ReadingTime
+      7 }}<i class="fa-duotone theme-fundor333 fa-mug-tea"></i>{{ if gt .ReadingTime 10 }}<i
+        class="fa-duotone theme-fundor333 fa-mug-tea"></i>{{ end }}{{ end }}{{
+      end }}
+      Reading time {{.ReadingTime}} minutes | <i class="fa-duotone theme-fundor333 fa-pen-nib"></i> Word count {{.WordCount}}
+    </div>
+  </div>
+
+  <div class="container offset-1 p-3">
+    {{ .TableOfContents }}
+  </div>
+
+  <hr>
+
+  <div class="d-none">
+    <a href="/" rel="author" class="u-author h-card">
+      <img loading="lazy" src="{{ .Site.Params.image}}" alt="logo" class="img-fluid u-logo u-photo" width="60">
+      <p class="p-author">by {{ .Site.Author.name }}</p>
+    </a>
+  </div>
+  <article class="flex flex-col">
+
+    {{- partial "summary_tags.html" . -}}
+    <div class="e-content">
+      {{- partial "summary_tags.html" . -}}
+      {{ .Content | safeHTML }}
+
+      {{- partial "syndication.html" . -}}
+
+      {{- partial "syndication.html" . -}}
+    </div>
+    <hr>
+  </article>
+
+  <div class="container">
+    {{- partial "webmention.html" . -}}
+  </div>
+
+  {{ $related := .Site.RegularPages.Related . | first 4 }}
+  {{ with $related }}
+  <div class="flex flex-col">
+    <h3 class="text-center">See Also</h3>
+    {{ range . }}
+    {{ .Render "summary" }}
+    {{ end }}
+    {{ end }}
+
+  </div>
+</div>
+{{ end }}

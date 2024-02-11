@@ -1,0 +1,9 @@
+[{{ range $index, $page := .Site.Pages }}
+{{- if ne $page.Type "json" -}}
+{{- if and $index (gt $index 0) -}},{{- end }}
+{
+	"uri": "{{ $page.Permalink }}",
+	"links": {{ $page.Scratch.Get "links" | jsonify }}
+}
+{{- end -}}
+{{- end -}}]

@@ -1,0 +1,45 @@
+{{ define "more_head"}}
+{{ $image := .Resources.GetMatch "{cover.jpg,cover.png,cover.jpeg}"}}
+{{ end }}
+
+{{ define "main"}}
+
+<a class="u-bridgy-omit-link d-none" href="{{.Permalink}}"></a>
+
+{{ if (eq (.Param "micropub" ) "book") }}
+{{ partial "micropub/single/book.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "bookmark") }}
+{{ partial "micropub/single/bookmark.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "drink") }}
+{{ partial "micropub/single/drink.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "food") }}
+{{ partial "micropub/single/food.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "like") }}
+{{ partial "micropub/single/like-of.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "location") }}
+{{ partial "micropub/single/location.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "note") }}
+{{ partial "micropub/single/note.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "reply") }}
+{{ partial "micropub/single/reply.html" . }}
+{{end }}
+
+{{ if (eq (.Param "micropub" ) "repost") }}
+{{ partial "micropub/single/repost.html" . }}
+{{end }}
+
+{{end }}

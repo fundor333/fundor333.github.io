@@ -1,0 +1,10 @@
+
+<div class="container-fluid">
+  <div>
+    <article class="text-center col-10 offset-1 text-center h-entry">
+      <p>
+        <i class="fad fa-retweet"></i> Repost {{ range  .Param "mf-repost-of"}}<a class="u-repost-of" href="{{ . }}"> {{ . }}</a>{{ end }}
+      </p>
+    </article>
+  </div>
+</div>

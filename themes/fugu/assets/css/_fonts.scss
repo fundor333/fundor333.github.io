@@ -1,0 +1,115 @@
+/* lexend-regular - latin */
+@font-face {
+	font-family: 'Lexend';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/lexend-v16-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('/fonts/lexend-v16-latin-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('/fonts/lexend-v16-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('/fonts/lexend-v16-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('/fonts/lexend-v16-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('/fonts/lexend-v16-latin-regular.svg#Lexend') format('svg');
+	/* Legacy iOS */
+	font-display: swap;
+}
+
+/* syne-mono-regular - latin */
+@font-face {
+	font-family: 'Syne Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/syne-mono-v15-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('/fonts/syne-mono-v15-latin-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('/fonts/syne-mono-v15-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('/fonts/syne-mono-v15-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('/fonts/syne-mono-v15-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('/fonts/syne-mono-v15-latin-regular.svg#SyneMono') format('svg');
+	/* Legacy iOS */
+	font-display: swap;
+}
+
+/* vujahday-script-regular - latin */
+@font-face {
+	font-family: 'Vujahday Script';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/vujahday-script-v3-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('/fonts/vujahday-script-v3-latin-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('/fonts/vujahday-script-v3-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('/fonts/vujahday-script-v3-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('/fonts/vujahday-script-v3-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('/fonts/vujahday-script-v3-latin-regular.svg#VujahdayScript') format('svg');
+	/* Legacy iOS */
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DovesType-Regular';
+	src: url('/fonts/DovesType-Regular.eot');
+	src: url('/fonts/DovesType-Regular.eot') format('embedded-opentype'),
+		url('/fonts/DovesType-Regular.woff2') format('woff2'),
+		url('/fonts/DovesType-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: 150% 300%
+}
+
+@font-face {
+	font-family: 'Black-Baron-Gothic';
+	src: url('/fonts/Black-Baron Gothic.otf');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: 150% 300%;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Catalogue';
+	src: url('/fonts/Catalogue 2.0.ttf');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: 150% 300%;
+	font-display: swap;
+}
+
+p {
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: 2.5rem;
+	/* 3 times the body text */
+}
+
+h2 {
+	font-size: 2rem;
+	/* 2 times the body text */
+}
+
+h3 {
+	font-size: 1.5rem;
+	/* 1 ½ times the body text */
+}
+
+figcaption {
+	font-size: 0.75rem;
+	/* ¾ of the body text */
+}

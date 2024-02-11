@@ -1,0 +1,36 @@
+<div>
+  <div class="container-fluid  text-justify">
+    <br>
+
+    <div class="container-fluid">
+      <div>
+        <article class="col-10 offset-1 row ">
+          <div class="col-3">
+            <a href="/" rel="author" class="u-author h-card">
+              <img loading="lazy" src="{{ .Site.Params.image}}" alt="logo" class="img-fluid u-logo u-photo mx-auto d-block" width="60">
+              <p class="p-author text-center">{{ .Site.Author.name }}</p>
+            </a>
+          </div>
+          <div class="col h-entry">
+            <div class="p-bridgy-twitter-content p-bridgy-mastodon-content">{{ .Content }} {{ range .Params.categories }}#{{ .}} {{ end }}{{ with .Params.tags }}{{ range sort . }}#{{ .}} {{ end }}{{ end }}</div>
+          </div>
+          {{- partial "syndication.html" . -}}
+
+          <p class="text-center">If you liked this article,</p>
+          <p class="text-center"> please <a
+            href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=fundor333"
+            class="a-post u-bridgy-omit-link" title="Share on Twitter">share it on <i class="fa-brands fa-twitter"></i></a>
+          </p>
+          <p class="text-center">
+            or <a href="https://webmention.io/fundor333.com/webmention" class="a-post">webmention it</a>
+          </p>
+          {{- partial "syndication.html" . -}}
+        </div>
+        </article>
+      </div>
+    </div>
+    <div class="container">
+      {{- partial "webmention.html" . -}}
+    </div>
+  </div>
+</div>

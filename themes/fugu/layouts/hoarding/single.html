@@ -1,0 +1,41 @@
+{{ define "main"}}
+
+<h1 class="text-center">
+  <a href="/news" class="quiet-link px-3"> <i class="fa-duotone theme-fundor333 fa-dice-d12"></i></a>
+  hoarding
+  <a href="/news" class="quiet-link px-3"> <i class="fa-duotone theme-fundor333 fa-dice-d12"></i></a>
+</h1>
+
+<script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ .Site.BaseURL }}"
+    }, {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Hoarding",
+      "item": "{{ .Permalink }}"
+    }]
+  }]
+
+</script>
+
+<div class="row">
+  <div class="p-note e-content">
+    {{ .Content }}
+  </div>
+</div>
+
+{{ range $.Site.Data.feed }}
+
+{{- partial "data/hoarding_item.html" . -}}
+
+{{ end }}
+
+
+{{ end }}

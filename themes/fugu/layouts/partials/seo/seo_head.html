@@ -1,0 +1,49 @@
+<title>
+  {{- if .IsHome -}}
+    Home | {{ .Site.Title }}
+  {{- else if .Params.hide_site_title -}}
+    {{ .Page.Title }}
+  {{- else if .Page.Title -}}
+    {{ .Page.Title }} | {{ .Site.Title }}
+  {{- else -}}
+    {{ .Site.Title }}
+  {{- end -}}
+ </title>
+
+ <!-- SEO Description -->
+ {{- if .IsHome -}}
+ <meta name="description" content="{{ site.Params.Description }}" />
+{{- else -}}
+ <meta name="description" content="{{ .Params.Description }}" />
+{{- end }}
+
+<!-- SEO Meta Author -->
+<meta name="author" content="Fundor333" />
+
+<!-- SEO META Links-->
+{{- if isset .Params "canonical" -}}
+  <link rel="canonical" href="{{ .Params.canonical }}" />
+{{- else -}}
+  <link rel="canonical" href="{{ .Permalink }}" />
+{{- end }}
+
+<!-- SEO META Paginator -->
+
+{{- if .Paginator -}}
+ {{- if .Paginator.HasPrev -}}
+   <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
+ {{- end -}}
+ {{- if .Paginator.HasNext -}}
+   <link rel="prev" href="{{ .Paginator.Next.URL | absURL }}" />
+ {{- end -}}
+{{- end }}
+
+<!-- Anti AI -->
+<meta name="robots" content="noai, noimageai">
+
+<!-- layouts/partials/head.html -->
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/schema.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+{{ partial "seo/site_schema.html" . }}

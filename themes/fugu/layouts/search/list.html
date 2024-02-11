@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<h1 class="text-center">search</h1>
+
+{{ partial "search-form.html" . }}
+<br>
+<hr>
+
+<ul id="results">
+    <li>
+        Enter a keyword above to search this site.
+    </li>
+</ul>
+
+<br>
+
+{{ partial "search-index.html" . }}
+
+{{ end }}

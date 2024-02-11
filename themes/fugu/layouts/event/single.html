@@ -1,0 +1,74 @@
+{{ define "more_head"}}
+
+{{ $image := .Resources.GetMatch "{cover.jpg,cover.png,cover.jpeg}"}}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+     integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+     crossorigin="" async/>
+<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+     crossorigin="" async> </script>
+
+{{ end }}
+
+
+{{ define "main"}}
+<div class="h-entry">
+  <div class="container">
+    <h1 class="p-name">
+      {{ .Title }}
+    </h1>
+  </div>
+
+  <div class="container">
+      <div>
+        <i class="fa-duotone theme-fundor333 fa-tags"></i>{{ range .Params.categories }}
+        #<a class="p-category" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ .}}</a>
+        {{ end }}
+        {{ with .Params.tags }} {{ range sort . }}
+        #<a class="p-category tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ .}}</a>
+        {{ end }} {{ end }}
+      </div>
+
+
+      <div>
+        <i class="fa-duotone theme-fundor333 fa-calendar"></i> Start {{ .Params.start | time.Format "2006-01-02 15:04:05" }}
+      </div>
+      {{ if isset .Params "end" }}
+        <div><i class="fa-duotone theme-fundor333 fa-calendar"></i> End {{ .Params.end | time.Format "2006-01-02 15:04:05" }}</div>
+      {{end}}
+  </div>
+
+  {{ if isset .Params "location" }}
+  <div class="container">
+      {{ partial "partials/micropub/single/location.html" . }}
+  </div>
+  {{end}}
+
+  <br>
+
+  <div class="container">
+
+  <article class="flex flex-col px-3">
+
+    {{- partial "summary_tags.html" . -}}
+    <div class="e-content">
+      {{- partial "summary_tags.html" . -}}
+      {{ .Content | safeHTML }}
+
+      {{- partial "syndication.html" . -}}
+
+      <p class="text-center">If you liked this article,</p>
+      <p class="text-center"> please <a
+        href="https://twitter.com/intent/tweet?text={{ .Title }}&amp;url={{ .Permalink }}&amp;via=fundor333"
+        class="a-post" title="Share on Twitter">share it on <i class="fa-brands fa-twitter"></i></a>
+      </p>
+      <p class="text-center">
+        or <a href="https://webmention.io/fundor333.com/webmention" class="a-post">webmention it</a>
+      </p>
+      {{- partial "syndication.html" . -}}
+    </div>
+  </article>
+
+</div>
+{{ end }}

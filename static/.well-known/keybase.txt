@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/fundor333
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://fundor333.com
+  * I am fundor333 (https://keybase.io/fundor333) on keybase.
+  * I have a public key with fingerprint 641C 5336 7286 37DF 58D2  65B0 334D AEC3 3FAC 5F68
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101da1777478903a6e4fc73f4a1e16a069c308b2899447bb5f2ca92d5eb41c7d0c40a",
+      "fingerprint": "641c5336728637df58d265b0334daec33fac5f68",
+      "host": "keybase.io",
+      "key_id": "334daec33fac5f68",
+      "kid": "0101da1777478903a6e4fc73f4a1e16a069c308b2899447bb5f2ca92d5eb41c7d0c40a",
+      "uid": "7631d11cb85f486d3dce94ff9aa1bd19",
+      "username": "fundor333"
+    },
+    "merkle_root": {
+      "ctime": 1557040123,
+      "hash_meta": "8fe5228ef52a18b42fa836a2c49cf5459a114b6618e46eac5700d0add211b399",
+      "seqno": 5298904
+    },
+    "revoke": {
+      "sig_ids": [
+        "775c2a261600b747dca8b2f60318a9c662dc682ffddaf7068c8f8ae943bdf82a0f"
+      ]
+    },
+    "service": {
+      "hostname": "fundor333.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1557040205,
+  "expire_in": 157680000,
+  "prev": "6fbf42b99315113306c53a8cf2145e482095caeecc082d0adc1e6707884c2bf3",
+  "seqno": 91,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMKuAnicrZNdaB1FFMdvamJrxFBR1BcJ7EPJQyzzPbO3ftIivsRgKQk1CZf5TLb3
+Zve6u/e2SUxFpEKxaVMIrYhixQdBxZdiW/wMJS+2GqMIJRGpFEOpGm2xpVJtcTYo
+ovjovgw78z/n/M9vzszddlOpvWUZjb822/HiQsvpk7sapcH5fT0TgUrMWFCeCKp2
+dbE1Y7O8Uo1MUA4ABNBIyDknXIQAS2aJ0xw7IqGFTAIWagyEQiIMCeFKUYe0DJGh
+VhGouQGaABl0By6Kh21aT6M492mZP6MYM44Ew9w4KgxiVAGMiZFWY+ykpo4JHziS
+ZEWEN6dkZjdGid/zP5VVe/+h/599N1bTcYahgVArQR0RzGCjbUicC6WEysCwEGY2
+jeWo9WrXiE2SYoyDye5g1KbVmq2kSZIXdHUeFRpIKQcEQIR9hzIbqYzaXPpQ4SxF
+SFhHkYRCEeSkwEwiTULtKKGhhJAoxqCwhFnfNAfAAGkMglDhsDCS2afiJChTFPrG
+iXeQ2mZStUXxLBr23LKgPBBwTjWSiEEGgPKQjJaehmMAQyFDzRgymgnknDHSccCE
+Fk5I3zRWxgkkgQuGJotiaTPSq8mLi/o3gI06GfWW6mmSJzqp+aORPK9n5QJMPlYv
+tDutqvyZpaKi2Pg58RFNm2ZREntQXvlPZgjQ7sDuqkeprUSFgnImgP+KOrZZTJdT
+jiAVhhhSCDEGzA+bFNohSKglAoGQammt1kCggp6GlnHAhSAaKYf/hhhC71MO+5we
+XSzzRmqDyZOzg62llvbSzW1rigdUar9l/V/P6peta3+/tffXU9Xs0qmkUnv17vfZ
+0umFdXMvX609cHDy6Cs4+P6jxnTX52+s7F4cPHv0xtvHd2zuq19cHt/hPrs0dF/X
+ng0fbMt7j1y/66uxh3o6Zt7pILdv2NS9f6FrZuvPA3PsxB1i6PBj+f7xHx85/uDA
+gS2ts8vTdf3pvqXnrn8ZXDh0eHBzp5g6L+zstm/ghxfuvfHmuZX1R6Z26mvxx8/3
+tD38tBTtrQe/Xlx756K8vBBX++3KW254S3pF/DD/G2RnLx7Y/vrAE3t7r5lPntwD
+2u55t+3MsXrr3F7c13n1ygvfPXps+9T9L515Jtq91Hlu5vK3/BB9/KeJRv/Ae180
+559d0ze1abp/3fn8D6o7hsY=
+=zU/q
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fundor333
+
+==================================================================

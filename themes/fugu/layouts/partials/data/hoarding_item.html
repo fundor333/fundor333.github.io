@@ -1,0 +1,12 @@
+<hr>
+<h2>{{.type}}</h2>
+<ul  class="list-unstyled">
+  {{ range .elements }}
+    <li>
+        <a href="{{.url}}" class="offset-1 u-bookmark-of h-cite">
+          {{.title}}
+        </a>
+      </li>
+  {{end}}
+</ul>
+
