@@ -100,7 +100,7 @@ jobs:
         run: make deploy
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3.0.0
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: ./public
 
