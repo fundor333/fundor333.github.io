@@ -33,10 +33,10 @@ jobs:
     # Only run on main repo on and PRs that match the main repo.
     steps:
       - name: Checkout Branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3.6.0
       - name: Compress Images
         id: calibre
-        uses: calibreapp/image-actions@main
+        uses: calibreapp/image-actions@1.1.0
         with:
           githubToken: ${{ secrets.TOKEN }}
           # For non-Pull Requests, run in compressOnly mode and we'll PR after.
