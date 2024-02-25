@@ -22,7 +22,7 @@ jobs:
               uses: saadmk11/github-actions-version-updater@v0.8.1
               with:
                   # [Required] Access token with `workflow` scope.
-                  token: ${{ secrets.WORKFLOW_SECRET }}
+                  token: ${{ secrets.TOKEN }}
                   committer_username: "F333Bot"
                   committer_email: "git@fundor333.com"
                   commit_message: "Update Action"
