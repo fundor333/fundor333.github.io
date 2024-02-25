@@ -16,7 +16,7 @@ Microsoft now own Github. From this we need to make some talk about the question
 
 Many developer thinks about this and say something similar to "_I do not want to risc my project so goodby_" and the move to GitLab all theire code.
 
-{{< tweet gitlab 1004143715844124673 >}}
+{{< tweet user="gitlab" id="1004143715844124673" >}}
 
 I think a lot about this acquisition of Github and I have a lot of dubts. How much code am I willing to give to a company that i not controll or own?
 And this make me think more and more. I have some project I feel value more so I feel the need to have in mi controll.
@@ -24,7 +24,7 @@ And now I own a self hosting for my code or realy my personal important work.
 
 And sometime after, I find on twitter an four year old retweet that talk about the acquisition and, for years ago, only Microsot will buy it. And this leave me with more "_I don't understand_" than before
 
-{{< tweet jasonfried 430871267881672704 >}}
+{{< tweet user="jasonfried" id="430871267881672704" >}}
 
 And this make me understand that owning Github you don't own Github code (site) but all the service make arrown Github.
 

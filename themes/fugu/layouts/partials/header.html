@@ -12,7 +12,7 @@
               <nobr>{{ .Site.Title }}</nobr> <i class="fas fa-badge-check fa-2xs theme-fundor333"></i>
             </h1>
           </a>
-          <h5 class="text-f333">Verified (12€/year for the domain)</h5>
+          <h5 class="text-f333">{{ .Site.Params.subtitle }}</h5>
 
               {{ range .Site.Menus.main }}
                   <a class="btn col-4 col-sm-2 u-url" href="{{ .URL }}" title="{{ .Name }}">

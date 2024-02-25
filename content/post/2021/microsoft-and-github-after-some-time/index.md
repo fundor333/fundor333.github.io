@@ -20,7 +20,7 @@ This post is a follow up to one of my old post: [Microsoft buy Atom, Electron an
 ## We start at the beginning
 
 This story start with a tweet. I was scrolling on *Twitter* in June 2018 and I saw a retweet of this tweet.
-{{< tweet jasonfried 430871267881672704 >}}
+{{< tweet user="jasonfried" id="430871267881672704" >}}
 
 So I search more and find the [official blog's post](https://blogs.microsoft.com/blog/2018/06/04/microsoft-github-empowering-developers/) of the acquisition.
 
@@ -35,7 +35,7 @@ Now is three years after the original post and I have an answer for some of the 
 For what I know Microsoft solve most of the financial problem of Github, putting more money and reworking some aspects of the platform.
 
 In the begining there was an _Exodus_ torward GitLab with _#movingtogitlab_ trending on twitter
-{{< tweet gitlab 1004143715844124673 >}}
+{{< tweet user="gitlab" id="1004143715844124673" >}}
 
 But with the new [GitHub Action](https://github.blog/2018-10-16-future-of-software/) Microsoft move a lot of user from Travis, CircleCi and GitLab CI. It is easier to use and you can find on GitHub a lot of pre-done action in the Marketplace.
 

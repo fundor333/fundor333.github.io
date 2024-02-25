@@ -8,13 +8,13 @@
   {{- else -}}
     {{ .Site.Title }}
   {{- end -}}
- </title>
+</title>
 
- <!-- SEO Description -->
- {{- if .IsHome -}}
- <meta name="description" content="{{ site.Params.Description }}" />
+<!-- SEO Description -->
+{{- if .IsHome -}}
+<meta name="description" content="{{ site.Params.Description }}" />
 {{- else -}}
- <meta name="description" content="{{ .Params.Description }}" />
+<meta name="description" content="{{ .Params.Description }}" />
 {{- end }}
 
 <!-- SEO Meta Author -->
@@ -27,16 +27,6 @@
   <link rel="canonical" href="{{ .Permalink }}" />
 {{- end }}
 
-<!-- SEO META Paginator -->
-
-{{- if .Paginator -}}
- {{- if .Paginator.HasPrev -}}
-   <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
- {{- end -}}
- {{- if .Paginator.HasNext -}}
-   <link rel="prev" href="{{ .Paginator.Next.URL | absURL }}" />
- {{- end -}}
-{{- end }}
 
 <!-- Anti AI -->
 <meta name="robots" content="noai, noimageai">
