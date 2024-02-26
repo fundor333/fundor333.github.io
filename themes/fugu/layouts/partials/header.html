@@ -1,7 +1,58 @@
 <nav class='p-3'>
   <div class="d-flex flex-column">
       <a class="u-url navbar-brand text-center" rel=" me" href="{{ .Site.BaseURL }}">
-        <img loading="lazy" src="{{ .Site.Params.image}}" alt="{{ .Site.Title }}" class=" h-card rounded img-fluid u-logo lazy shadow-lg bg-body-tertiary col-1">
+
+        {{/* Just modified a bit to work with render_image hook and output webp images   */}}
+{{/* get file that matches the filename as specified as src=""  */}}
+{{ $src := resources.Get .Site.Params.logo  }}
+
+{{ if $src }}
+
+{{ $tinyw := default "500x webp" }}
+{{ $smallw := default "800x webp" }}
+{{ $mediumw := default "1200x webp" }}
+{{ $largew := default "1500x webp" }}
+
+{{ $data := newScratch }}
+{{ $data.Set "tiny" ($src.Resize $tinyw) }}
+{{ $data.Set "small" ($src.Resize $smallw) }}
+{{ $data.Set "medium" ($src.Resize $mediumw) }}
+{{ $data.Set "large" ($src.Resize $largew) }}
+
+
+{{ $tiny := $data.Get "tiny" }}
+{{ $small := $data.Get "small" }}
+{{ $medium := $data.Get "medium" }}
+{{ $large := $data.Get "large" }}
+
+
+
+    <picture alt="{{ .Site.Title }}" class=" h-card rounded img-fluid u-logo lazy shadow-lg bg-body-tertiary col-1" loading="lazy">
+
+      <source media="(max-width: 376px)"
+          srcset="{{with $tiny.RelPermalink }}{{.}}{{ end }}">
+
+      <source media="(max-width: 992px)"
+          srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+
+      <source media="(max-width: 1400px)"
+          srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
+
+      <source media="(min-width: 1600px)"
+          srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+
+      <img alt="{{ .Site.Title }}" title="{{ .Site.Title }}" src="{{ $src }}"
+          height="{{ $src.Height}}" width="{{ $src.Width }}" class=" h-card rounded img-fluid u-logo lazy shadow-lg bg-body-tertiary col-1">
+
+    </picture>
+
+  {{/* Since I do image-response class, the only thing that really
+  matters is the height and width matches the image aspect ratio */}}
+
+  {{ end }}
+
+
+
       </a>
   </div>
   <div class='d-flex flex-column '>
