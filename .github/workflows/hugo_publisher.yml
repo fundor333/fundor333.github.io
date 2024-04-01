@@ -63,7 +63,7 @@ jobs:
 
       - name: Setup GitHub Pages
         id: pages
-        uses: actions/configure-pages@v4.0.0
+        uses: actions/configure-pages@v5.0.0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4.0.2
