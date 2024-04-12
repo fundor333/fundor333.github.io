@@ -1,5 +1,10 @@
 [
 	{
+		"name":"Foto Lucca 2023",
+		"url": "https://drive.google.com/drive/folders/1Cw_RPbFxIvszODL2z4AwMoXm4kVxnHdp?usp=sharing",
+		"label": "<i class=\"fa-sharp fa-solid fa-images\"></i>"
+	},	
+	{
 		"name": "My Portfolio",
 		"url": "https://photo.fundor333.com",
 		"label": "<i class=\"fa-regular fa-globe\"></i>"
@@ -14,10 +19,20 @@
 		"url": "https://www.facebook.com/fundor333",
 		"label": "<i class=\"fa-brands fa-facebook\"></i>"
 	},
-	{
+		{
 		"name": "Discord",
 		"url": "https://discord.gg/n8NZdWNy",
 		"label": "<i class=\"fa-brands fa-discord\"></i>"
+	},
+	{
+		"name": "GitHub",
+		"url": "https://github.com/fundor333",
+		"label": "<i class=\"fa-brands fa-github\"></i>"
+	},
+	{
+		"name": "Mastodon",
+		"url": "https://mastodon.social/@fundor333",
+		"label": "<i class=\"fa-brands fa-mastodon\"></i>"
 	},
 	{
 		"name": "Twitter",
@@ -25,8 +40,8 @@
 		"label": "<i class=\"fa-brands fa-twitter\"></i>"
 	},
 	{
-		"name": "Channel Telegram",
-		"url": "https://t.me/f333_photoset",
+		"name": "Telegram",
+		"url": "https://t.me/fundor333",
 		"label": "<i class=\"fa-brands fa-telegram\"></i>"
 	},
 	{
