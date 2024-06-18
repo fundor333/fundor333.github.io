@@ -47,20 +47,3 @@ Mi auguro che non vi capiti mai una situazione del genere visto che porta solo m
 [^6]: Solitamente sono stati investiti da <montagna di soldi> a <non riesco a leggere il numero da tanti zeri che ha> e sono stati _investiti_ un paio di tecnici (tolti quelli fuggiti) di nuovi ruoli per seguire il nuovo _giocattolo_ {{<buzzword>}}
 [^7]: Ed essendo uno script _perl_ scaricato da StackOverflow configurato la prima volta poi nessun altro sarà in grado di usarlo/modificarlo/avere una vaga idea di cosa fa
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-  $(function () {
-    count = 0;
-    wordsArray = ["Big data", "Blockchain", "Cloud", "Deep learning", "DevOps",
-      "Machine Learning", "Microservices", "Real-time", "Scalability", "Think outside the box", "Web 2.0",
-      "Wev 3.0", "Buzzword",
-    ];
-    setInterval(function () {
-      count++;
-      $(".buzzword").fadeOut(400, function () {
-        $(this).text(wordsArray[count % wordsArray.length]).fadeIn(800);
-      });
-    }, 4000);
-  });
-
-</script>
