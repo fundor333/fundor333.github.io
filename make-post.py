@@ -5,6 +5,13 @@ from os.path import isfile, join
 import random
 
 
+def post_photo():
+    # get the current year as variable
+    year = str(datetime.datetime.now().year)
+    name = input("Give me the title\n")
+    os.system(f"hugo new photos/{year}/{name.replace(' ','-').replace(',','').lower()}/index.md")
+
+
 def post_fc():
     # get the current year as variable
     year = str(datetime.datetime.now().year)
@@ -26,12 +33,12 @@ def quiet_fc():
     print(f"Generated {generated}.md")
 
 
-ANSWER = {"post": post_fc, "quiet": quiet_fc}
+ANSWER = {"post": post_fc, "quiet": quiet_fc, 'photo': post_photo}
 
 
 def main_checker():
-    # text = input("You need a new [post] or a new [quiet]\n")  # Python 3
-    text = "post"
+    text = input("You need a new [post], a new [photo] or a new [quiet]\n")  # Python 3
+    # text = "post"
     ANSWER.get(text, main_checker)()
 
 

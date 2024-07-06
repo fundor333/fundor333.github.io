@@ -1,0 +1,35 @@
+<!--Implementation from https://billglover.me/2023/11/07/creating-a-photography-gallery-with-hugo/ -->
+<div class="col-start-2 col-10 offset-1 mb-5">
+  <article class="flex flex-col items-center text-center h-entry">
+      <a href="{{ .Permalink }}">
+        {{ $banner := index (.Resources.ByType "image") 0 }}
+        <div class="col-10 offset-1 text-center">
+
+          {{ $tiny := ($banner.Fill "webp 400x300 q90") }}
+          {{ $small := ($banner.Fill "webp 600x450 q90") }}
+          {{ $medium := ($banner.Fill "webp 800x600 q90") }}
+          {{ $large := ($banner.Fill "webp 1200x700 q90") }}
+
+          <img
+          srcset="
+              {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+              {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+              {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+              {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
+          src="{{ $banner.RelPermalink }}"
+          alt="{{ .Description }}" class="img-fluid lazy" loading="lazy">
+
+        </div>
+
+      </a>
+
+      <a href="{{ .Permalink }}">
+        <h1 class="text-center p-name">{{ .Title }}</h1>
+      </a>
+
+      <a href="{{ .Permalink }}"
+      class="p-summary d-flex align-items-center justify-content-center pt-3"><p>{{ .Description }}</p></a>
+
+
+  </article>
+</div>

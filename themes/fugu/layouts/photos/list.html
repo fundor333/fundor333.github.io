@@ -1,0 +1,40 @@
+
+{{ define "main" }}
+<!--Implementation from https://billglover.me/2023/11/07/creating-a-photography-gallery-with-hugo/ -->
+<header>
+    <h1>{{ .Title }}</h1>
+    {{.Content}}
+</header>
+<section class="container">
+  <div class="row">
+        {{ range .Pages.GroupByDate "Jan 2006" }}
+        <h4>{{ .Key }}</h4>
+          {{ range .Pages }}
+          <div class="col-6 col-lg-4">
+            {{ $banner := index (.Resources.ByType "image") 0 }}
+
+          {{ $tiny := ($banner.Fill "webp 400x300 q90") }}
+          {{ $small := ($banner.Fill "webp 600x450 q90") }}
+          {{ $medium := ($banner.Fill "webp 800x600 q90") }}
+          {{ $large := ($banner.Fill "webp 1200x700 q90") }}
+                <a href="{{ .RelPermalink }}" title="{{ .Title }}">
+                  <img
+                  srcset="
+                      {{- with $tiny.RelPermalink -}}{{.}} 480w{{- end -}}
+                      {{- with $small.RelPermalink -}}, {{.}} 768w{{- end -}}
+                      {{- with $medium.RelPermalink -}}, {{.}} 1024w{{- end -}}
+                      {{- with $large.RelPermalink -}}, {{.}} 1366w{{- end -}}"
+                  src="{{ $banner.RelPermalink }}"
+                  alt="{{ .Description }}" class="img-fluid lazy" loading="lazy">
+                </a>
+              </div>
+              {{ end }}
+        {{ end }}
+        </div>
+</section>
+<footer></footer>
+{{- end }}
+
+{{ define "header" }}
+{{- partial "header" . -}}
+{{ end }}
