@@ -2,6 +2,8 @@
 title: "uses"
 type: page
 specialpost: true
+aliases:
+- /stack
 ---
 
 Specifics about the hardware and software equipment I use for work and for my personal life. The page is part of the [uses.tech](https://uses.tech/) project.
