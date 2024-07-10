@@ -156,3 +156,8 @@ Like this I have multiple other CLI for email, printers, networks, servers, etc 
 At the end of the day having a lot of script can be a growing problem but if you can convert them in cli operation and command you can have some sort of order for your scripts.
 
 Have nice time making your CLI
+
+
+### **Update** 
+
+[Here]({{< ref "/post/2024/why-do-i-disinstall-pipenv-and-use-only-poetry" >}} "Here") you can find some update about the way I write code and my personal utility

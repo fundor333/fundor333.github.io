@@ -1,6 +1,6 @@
 ---
 title: "Why Do I Disinstall Pipenv and Use Only Poetry?"
-date: 2024-01-25T21:57:15+01:00
+date: 2024-07-11T13:57:15+01:00
 draft: true
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
@@ -21,6 +21,7 @@ mp-syndicate-to:
 images:
 keywords:
 ---
+
 Some time ago I wrote about my preference to write Terminal Commands for what I need [^1] and thant was not all.
 {^1]: [Why I Stop Making Script and Start to Make Bash Terminal Commands]({{< ref "post/2023/why-i-stop-making-script-and-start-to-make-bash-terminal-commands" >}} "Why I Stop Making Script and Start to Make Bash Terminal Commands")
 
@@ -31,7 +32,7 @@ Some time ago I wrote about my preference to write Terminal Commands for what I 
 
 So I develop with git and pyproject a "blank" project as template for my personal python project.
 
-The main idea is to build something with all I need for python, not only the "booring stuff". 
+The main idea is to build something with all I need for python, not only the "booring stuff".
 I toke some ispiration from other post and project of mine [^dotfile] [^gitops]
 [^gitops]: [From DevOps to GitOps]({{< ref "/post/2021/from-devops-to-gitops" >}} "From DevOps to GitOps")
 
@@ -69,13 +70,17 @@ For this reason I add _pre-commit_[^pre-commit] and _editorconfig_ for autofix a
 
 [^pre-commit]: [Using pre-commit hooks to write better code](https://praful932.dev/blog-2-pre-commit-hooks/)
 
+With pre-commit setted for your project you have an automatic way to check your code and valitated the new code without pushing and "waysting" CI cycles [^waysting].
+
+[^waysting]: Sometime you have a slow CI or a "premium" CI so the cycles are a fine resource to keep.
 
 
+[Editor config](https://editorconfig.org/) if one of the best thing I find on the web. It is divided in two part:
+1. A config file (.editorconfig) with the indication for all the type of the file of the project and how they must be formatted[^editorconfig]
+2. A checker (IDE, IDE Plugin, CI) which format the code following the .editorconfig file
 
+[^editorconfig]:I have a multifile format file done by me but if you need to start you can generate your own [here](https://editorconfig.timseverien.com/) 
 
+## Conclusion
 
-
-
-
-**Update** 
-[Here]({{< ref "/post/2024/why-do-i-disinstall-pipenv-and-use-only-poetry" >}} "Here") you can find some update about the way I write code and my personal utility
+This is a generic python project but you can do it for all the type of projects and make your personal [templating repo of Github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
