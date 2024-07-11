@@ -22,7 +22,7 @@ keywords:
 ---
 
 Some time ago I wrote about my preference to write Terminal Commands for what I need [^1] and thant was not all.
-{^1]: [Why I Stop Making Script and Start to Make Bash Terminal Commands]({{< ref "/post/2023/why-i-stop-making-script-and-start-to-make-bash-terminal-commands" >}} "Why I Stop Making Script and Start to Make Bash Terminal Commands")
+[^1]: [Why I Stop Making Script and Start to Make Bash Terminal Commands]({{< ref "/post/2023/why-i-stop-making-script-and-start-to-make-bash-terminal-commands" >}} "Why I Stop Making Script and Start to Make Bash Terminal Commands")
 
 ~~Sometime~~ More than often I need to build the same basic project for make a Terminal Command and I usualy use _makefile_[^2] for the building of the project or the command specific for this or that particolar project[^makefile].
 
