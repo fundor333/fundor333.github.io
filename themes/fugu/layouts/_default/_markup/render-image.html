@@ -8,11 +8,12 @@
 {{/* So for posts that aren't setup in the page bundles, it doesn't fail  */}}
 {{ if $src }}
 
+{{ $format := cond (eq $src.MediaType.SubType "gif") "" "webp" -}}
 
-{{ $tinyw := default "500x webp" }}
-{{ $smallw := default "800x webp" }}
-{{ $mediumw := default "1200x webp" }}
-{{ $largew := default "1500x webp" }}
+{{ $tinyw := default (printf "500x %s" $format) }}
+{{ $smallw := default (printf "800x %s" $format) }}
+{{ $mediumw := default (printf "1200x %s" $format) }}
+{{ $largew := default (printf "1500x %s" $format) }}
 
 {{/* resize the src image to the given sizes */}}
 {{/* We create a a temp scratch because it`s not available in this context */}}
@@ -34,7 +35,7 @@ image size, as Hugo will upscale small images */}}
 
 
 <a href="{{ $src.RelPermalink }}">
-    <picture class=" ">
+    <picture>
 
       <source media="(max-width: 376px)"
           srcset="{{with $tiny.RelPermalink }}{{.}}{{ end }}">
