@@ -110,4 +110,6 @@ If you set pre-commit in the right way for your project, you have an automatic w
 
 ## Conclusion
 
-This is a generic python project but you can do it for all the type of projects and make your personal [templating repo of Github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
+This is the consempt for a generic python project but you can do it for all the type of projects and make your personal [templating repo of Github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository) and add other stuff, for example a blank template for Kubernates with some type of checker of the config (maybe with _pre-commit_).
+
+You can also expand the idea adding some _dotfile_ for the IDE, like the config for running the project with multiple setting (dev mod, presentation, online, staging) or the default config four your prefer CI tool.
