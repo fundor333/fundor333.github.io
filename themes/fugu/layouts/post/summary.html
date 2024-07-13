@@ -1,3 +1,9 @@
+{{ $date := .Date.Format "2006-01-02" }}
+{{ $lastmod := .Lastmod.Format "2006-01-02" }}
+
+{{ $date_h := .Date.Format "2006-01-02 15:04:05" }}
+{{ $lastmod_h := .Lastmod.Format "2006-01-02 15:04:05" }}
+
 <div class="col-start-2 col-10 offset-1 mb-5">
   <article class="flex flex-col items-center text-center h-entry">
       <a href="{{ .Permalink }}">
@@ -34,8 +40,16 @@
 
       <div class="container">
         <div>
-          <time class="dt-published" datetime='{{ .Date | time.Format "2006-01-02 15:04:05" }}'></time><i class="fa-duotone theme-fundor333 fa-calendar"></i> {{ .Date | time.Format "2006-01-02" }} |
-                <i class="fa-duotone theme-fundor333 fa-tags"></i>{{ range .Params.categories }}
+          <time class="dt-published" datetime='{{$date_h }}'></time>
+          <i class="fa-duotone theme-fundor333 fa-calendar-plus"></i> {{ $date }} |
+          {{if ne $lastmod $date}}
+
+          <time class="dt-updated" datetime='{{ $lastmod_h }}'></time>
+          <i class="fa-duotone theme-fundor333 fa-calendar-pen"></i> {{ $lastmod }} |
+          {{ end }}
+          <i class="fa-duotone theme-fundor333 fa-tags"></i>
+
+          {{ range .Params.categories }}
           #<a class="p-category" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ .}}</a>,
           {{ end }}
           {{ with .Params.tags }} {{ range sort . }}
