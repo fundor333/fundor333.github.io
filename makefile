@@ -38,6 +38,7 @@ characters: ## Sorting characters
 	@python3 sorting_characters.py
 
 deploy: clean characters ## Ready to deploy
+	@npm update
 	@hugo --minify
 
 brodcast: clean ## Brodcast the site
