@@ -75,3 +75,14 @@ Good luch
 NB: I allways find usefull in a blog a section with some bibliography and urls of interesting site/blog or similar.
 
 [^1]: little and complete knowledge, an atomic unit of knowledge for rapid consumption. Easy to write, easy to read.
+
+
+## Bibliography
+
+Some article about this topic
+
+[Should you be blogging as a software developer?](https://www.alexhyett.com/developer-blogging/)
+
+[Every developer should have a blog. Here’s why, and how to stick with it.](https://freecodecamp.org/news/every-developer-should-have-a-blog-heres-why-and-how-to-stick-with-it-5fd55a247fbf/)
+
+[5 reasons why EVERY PROGRAMMER should have a BLOG!](https://dev.to/tumee/5-reasons-why-every-programmer-should-have-a-blog-1mh)
