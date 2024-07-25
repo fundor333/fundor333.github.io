@@ -8,7 +8,7 @@ hostName: "https://fundor333.com"
 copyright: Fundor333
 ShowFullTextinRSS: false
 
-webmention:
+maciawebmention:
   webmention: "https://webmention.io/fundor333.com/webmention"
   pingback: "https://webmention.io/fundor333.com/xmlrpc"
   micropub: "https://appletune.fundor333.com/micropub"

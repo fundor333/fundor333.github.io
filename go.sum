@@ -8,3 +8,7 @@ github.com/fundor333/macia-webmention v0.0.0-20240725203647-94709b2283ee h1:tNRs
 github.com/fundor333/macia-webmention v0.0.0-20240725203647-94709b2283ee/go.mod h1:a52OEN3AjE6bu2d8wov8c7xIhDTsp3PC7H70f+5Xb8c=
 github.com/fundor333/macia-webmention v0.0.0-20240725204131-1193320b19e5 h1:jDyO9aCnKpkKLyOnoujiqaettjeur4z/vuRqrL6sJUs=
 github.com/fundor333/macia-webmention v0.0.0-20240725204131-1193320b19e5/go.mod h1:a52OEN3AjE6bu2d8wov8c7xIhDTsp3PC7H70f+5Xb8c=
+github.com/fundor333/macia-webmention v0.0.0-20240725213011-cb8f3ca3b237 h1:dW/C+8XXED8/JVZ6yBIANc7XCmD0dCTb8+keOD+riBQ=
+github.com/fundor333/macia-webmention v0.0.0-20240725213011-cb8f3ca3b237/go.mod h1:a52OEN3AjE6bu2d8wov8c7xIhDTsp3PC7H70f+5Xb8c=
+github.com/fundor333/macia-webmention v0.0.0-20240725213257-5babe77b26ea h1:mnqe9Z8WwhcfyRDvZkFiSeAr8Bjtfgmu+IDUSoQS+Ng=
+github.com/fundor333/macia-webmention v0.0.0-20240725213257-5babe77b26ea/go.mod h1:a52OEN3AjE6bu2d8wov8c7xIhDTsp3PC7H70f+5Xb8c=
