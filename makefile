@@ -48,6 +48,5 @@ deploy: clean characters ## Ready to deploy
 	@hugo --minify
 
 brodcast: clean ## Brodcast the site
-	@hugo mod get -u
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
 

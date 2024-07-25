@@ -1,7 +1,7 @@
 DefaultContentLanguage: en
 baseURL: "https://fundor333.com"
 languageCode: en
-theme: ["github.com/fundor333/macia-webmention", "fugu"]
+theme: "fugu"
 title: Fundor 333
 author:
   name: Fundor 333
