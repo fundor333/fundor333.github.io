@@ -7,3 +7,11 @@ logo: /img/logo.jpg
 hostName: "https://fundor333.com"
 copyright: Fundor333
 ShowFullTextinRSS: false
+
+webmention:
+  webmention: "https://webmention.io/fundor333.com/webmention"
+  pingback: "https://webmention.io/fundor333.com/xmlrpc"
+  micropub: "https://appletune.fundor333.com/micropub"
+  microsub: "https://aperture.p3k.io/microsub/699"
+  authorization_endpoint: "https://indieauth.com/auth"
+  token_endpoint: "https://tokens.indieauth.com/token"

@@ -4,27 +4,32 @@ help: ## Show this help
 
 install: ## Intall
 	@npm install 
+	@hugo mod get -u
 
 send_webmention: ## Send webmention from feed
 	@pushl -c $HOME/.config/pushl-cache https://fundor333.com/index.xml
 
 develop: ## Run the site localy
-	hugo server  --minify --disableFastRender
+	@hugo server  --minify --disableFastRender
 
 developfuture: ## Run the site localy with all the future article
-	hugo server  --minify --disableFastRender --buildFuture
+	@hugo server  --minify --disableFastRender --buildFuture
 
 developall: ## Run the site localy with all the article, future or drafts
-	hugo server  --minify --disableFastRender --buildFuture --buildDrafts
+	@hugo server  --minify --disableFastRender --buildFuture --buildDrafts
+
+.PHONY: gomodule
+gomodule: ## Update Go Module
+	@hugo mod get -u
 
 .PHONY: syntax
 syntax: ## Build the style of the code
-	hugo gen chromastyles --style=dracula > themes/fugu/assets/css/_syntax.scss
+	@hugo gen chromastyles --style=dracula > themes/fugu/assets/css/_syntax.scss
 
 cache: ## Clean the cache
-	hugo --gc
+	@hugo --gc
 
-clean: cache syntax ## Clean the directory of the project of chache e meta file and other things
+clean: cache gomodule syntax ## Clean the directory of the project of chache e meta file and other things
 
 .PHONY: run
 run: clean  ## Build the site cleaning all
@@ -39,8 +44,10 @@ characters: ## Sorting characters
 
 deploy: clean characters ## Ready to deploy
 	@npm update
+	@hugo mod get -u
 	@hugo --minify
 
 brodcast: clean ## Brodcast the site
+	@hugo mod get -u
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
 
