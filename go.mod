@@ -2,4 +2,7 @@ module github.com/fundor333/fundor333.github.io
 
 go 1.22.5
 
-require github.com/fundor333/macia-webmention v0.0.0-20240725213257-5babe77b26ea // indirect
+require (
+	github.com/fundor333/macia-image v0.0.0-20240725223224-a806faf4656b // indirect
+	github.com/fundor333/macia-webmention v0.0.0-20240725213257-5babe77b26ea // indirect
+)

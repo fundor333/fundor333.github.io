@@ -6,7 +6,6 @@ image: /img/pilogo.jpg
 logo: /img/logo.jpg
 hostName: "https://fundor333.com"
 copyright: Fundor333
-ShowFullTextinRSS: false
 
 maciawebmention:
   webmention: "https://webmention.io/fundor333.com/webmention"

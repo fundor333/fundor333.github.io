@@ -1,7 +1,12 @@
-DefaultContentLanguage: en
 baseURL: "https://fundor333.com"
+DefaultContentLanguage: en
 languageCode: en
-theme: "fugu"
+theme:
+  [
+    "github.com/fundor333/macia-webmention",
+    "github.com/fundor333/macia-image",
+    "fugu",
+  ]
 title: Fundor 333
 author:
   name: Fundor 333
@@ -9,50 +14,7 @@ author:
   twitterpage: "https://twitter.com/fundor333"
   avatar: "/img/gatto.jpg"
   url: "https://fundor333.com/cv/"
-disableRSS: false
-enableRobotsTXT: true
-Paginate: 8
-rssLimit: 10
-enableGitInfo: true
-related:
-  includeNewer: true
-  threshold: 70
-  toLower: false
-  indices:
-    - name: categories
-      weight: 40
-    - name: title
-      weight: 30
-    - name: description
-      weight: 30
-    - name: tags
-      weight: 10
-    - name: meta
-      weight: 10
-    - name: date
-      weight: 10
-outputFormats:
-  SearchIndex:
-    baseName: search
-    mediaType: application/json
-outputs:
-  section:
-    - HTML
-    - RSS
-  home:
-    - HTML
-    - RSS
-    - SearchIndex
-  page:
-    - html
+
 disqusShortname: fundor333
 gtm_id: GTM-NZQKPXS
 googleAnalytics: G-H22W7LRVGC
-sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
-  priority: 0.5
-taxonomies:
-  category: categories
-  tag: tags
-  micropub: micropub
