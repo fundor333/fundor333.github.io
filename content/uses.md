@@ -4,21 +4,30 @@ type: page
 specialpost: true
 aliases:
 - /stack
+- /kit
 ---
 
 Specifics about the hardware and software equipment I use for work and for my personal life. The page is part of the [uses.tech](https://uses.tech/) project.
 
-{{< toc >}}
-
-____
 
 ## Photo Setup
 
-### Camera
+
+### Canon
 
 * [Canon EOS R5](https://www.canon.it/cameras/eos-r5/)
 * [Canon RF 50MM F1.8 STM](https://www.canon.it/lenses/rf-50mm-f1-8-stm/)
 * [Canon RF 24-105MM F/4L IS USM](https://www.canon.it/lenses/canon-rf-24-105mm-f-4l-is-usm-lens/)
+* [Canon RF 70-200MM F2.8 L IS USM](https://www.canon.it/lenses/rf-70-200mm-f2-8l-is-usm-lens/)
+
+### FujiFilm
+
+* [FujiFilm X-T30 II](https://fujifilm-x.com/it-it/products/cameras/x-t30-ii/)
+* [FUJINON XF18-55MMF2.8-4 R LM OIS](https://fujifilm-x.com/it-it/products/lenses/xf18-55mmf28-4-r-lm-ois/)
+
+### Gadget
+
+* [SanDisk 128GB Extreme PRO](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/sandisk/product/memory-cards/extreme-pro-uhs-ii-sd/data-sheet-extreme-pro-uhs-ii-sd.pdf)
 
 ## PC Setup
 
@@ -47,3 +56,8 @@ ____
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 * [Fira Code](https://github.com/tonsky/FiraCode)
 * [Operator Mono](https://www.typography.com/fonts/operator/styles)
+
+
+### Gadget
+
+* [Rubber Duck for Debugging - Dark Soul Oscar Knight of Astora](https://tubbz.com/collections/dark-souls-tubbz/products/dark-souls-oscar-knight-of-astora-tubbz-cosplaying-duck-collectible)

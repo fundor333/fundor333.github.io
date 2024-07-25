@@ -1,9 +1,3 @@
 <h{{ .Level }} id="{{ .Anchor }}">
-  <a href="#{{ .Anchor }}">
-    <i class="fa-duotone fa-quote-left theme-fundor333"></i>
-  </a>
-    {{ .Text | safeHTML }}
-  <a href="#{{ .Anchor }}">
-    <i class="fa-duotone fa-quote-right theme-fundor333"></i>
-  </a>
+  {{ .Text | safeHTML }}
 </h{{ .Level }}>
