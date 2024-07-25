@@ -9,9 +9,7 @@ aliases:
 
 Specifics about the hardware and software equipment I use for work and for my personal life. The page is part of the [uses.tech](https://uses.tech/) project.
 
-
 ## Photo Setup
-
 
 ### Canon
 
@@ -25,7 +23,7 @@ Specifics about the hardware and software equipment I use for work and for my pe
 * [FujiFilm X-T30 II](https://fujifilm-x.com/it-it/products/cameras/x-t30-ii/)
 * [FUJINON XF18-55MMF2.8-4 R LM OIS](https://fujifilm-x.com/it-it/products/lenses/xf18-55mmf28-4-r-lm-ois/)
 
-### Gadget
+### Gadget Fotografico
 
 * [SanDisk 128GB Extreme PRO](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/sandisk/product/memory-cards/extreme-pro-uhs-ii-sd/data-sheet-extreme-pro-uhs-ii-sd.pdf)
 
@@ -56,7 +54,6 @@ Specifics about the hardware and software equipment I use for work and for my pe
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 * [Fira Code](https://github.com/tonsky/FiraCode)
 * [Operator Mono](https://www.typography.com/fonts/operator/styles)
-
 
 ### Gadget
 
