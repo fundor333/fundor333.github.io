@@ -13,6 +13,8 @@ Specifics about the hardware and software equipment I use for work and for my pe
 
 ### Canon
 
+![Canon Eos R5](eos-r5.png)
+
 * [Canon EOS R5](https://www.canon.it/cameras/eos-r5/)
 * [Canon RF 50MM F1.8 STM](https://www.canon.it/lenses/rf-50mm-f1-8-stm/)
 * [Canon RF 24-105MM F/4L IS USM](https://www.canon.it/lenses/canon-rf-24-105mm-f-4l-is-usm-lens/)
