@@ -29,7 +29,7 @@ syntax: ## Build the style of the code
 cache: ## Clean the cache
 	@hugo --gc
 
-clean: cache gomodule syntax ## Clean the directory of the project of chache e meta file and other things
+clean: cache gomodule ## Clean the directory of the project of chache e meta file and other things
 
 .PHONY: run
 run: clean  ## Build the site cleaning all
