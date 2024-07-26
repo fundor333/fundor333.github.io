@@ -42,6 +42,11 @@ new: ## Make new object for the blog
 characters: ## Sorting characters
 	@python3 sorting_characters.py
 
+.PHONY: build
+build: clean ## Build for dev
+	@hugo mod get -u
+	@hugo
+
 deploy: clean characters ## Ready to deploy
 	@npm update
 	@hugo mod get -u

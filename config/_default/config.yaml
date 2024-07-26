@@ -3,7 +3,7 @@ DefaultContentLanguage: en
 languageCode: en
 theme:
   [
-    "github.com/fundor333/macia-webmention",
+    "github.com/fundor333/macia-indiweb",
     "github.com/fundor333/macia-image",
     "fugu",
   ]
