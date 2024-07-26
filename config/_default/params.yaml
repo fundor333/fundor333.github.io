@@ -18,7 +18,3 @@ maciaindieweb:
   auth:
     twitter: https://twitter.com/fundor333
     mastodon: https://mastodon.social/@fundor333
-ShowFullTextinRSS: false
-
-maciaimage:
-  imgclass: "img-fluid d-block mx-auto"
