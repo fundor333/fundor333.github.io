@@ -18,3 +18,50 @@ author:
 disqusShortname: fundor333
 gtm_id: GTM-NZQKPXS
 googleAnalytics: G-H22W7LRVGC
+
+disableRSS: false
+enableRobotsTXT: true
+Paginate: 8
+rssLimit: 10
+enableGitInfo: true
+related:
+  includeNewer: true
+  threshold: 70
+  toLower: false
+  indices:
+    - name: categories
+      weight: 40
+    - name: title
+      weight: 30
+    - name: description
+      weight: 30
+    - name: tags
+      weight: 10
+    - name: meta
+      weight: 10
+    - name: date
+      weight: 10
+
+outputFormats:
+  SearchIndex:
+    baseName: search
+    mediaType: application/json
+outputs:
+  section:
+    - HTML
+    - RSS
+  home:
+    - HTML
+    - RSS
+    - SearchIndex
+  page:
+    - html
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+taxonomies:
+  category: categories
+  tag: tags
+  micropub: micropub
