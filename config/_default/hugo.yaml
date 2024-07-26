@@ -1,0 +1,15 @@
+baseURL: "https://fundor333.com"
+DefaultContentLanguage: en
+languageCode: en
+theme: ["github.com/fundor333/fugu-theme"]
+title: Fundor 333
+author:
+  name: Fundor 333
+  email: "blog@fundor333.com"
+  twitterpage: "https://twitter.com/fundor333"
+  avatar: "/img/gatto.jpg"
+  url: "https://fundor333.com/cv/"
+
+disqusShortname: fundor333
+gtm_id: GTM-NZQKPXS
+googleAnalytics: G-H22W7LRVGC
