@@ -11,4 +11,4 @@ require github.com/fundor333/fugu-theme v0.0.0-20240726101941-cffe1a913e8f // in
 // the command line. More info:
 // https://github.com/rootwork/hugo-module-site#local-theme-development
 
-replace github.com/fundor333/fugu-theme => /Users/matteoscarpa/Coding/Personale/fugu-theme
+// replace github.com/fundor333/fugu-theme => /Users/matteoscarpa/Coding/Personale/fugu-theme
