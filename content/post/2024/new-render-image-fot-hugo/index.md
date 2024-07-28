@@ -1,7 +1,6 @@
 ---
 title: "New Render Image Fot Hugo"
-date: 2024-07-29T11:37:47+02:00
-draft: true
+date: 2024-07-28T11:37:47+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 tags:
@@ -27,7 +26,7 @@ keywords:
 Some time ago I wrote a post about _lazy loading_ and _WebP_ in _Hugo_ [^1] and how I implemented it.
 [^1]: Fundor333 - [Hugo With Lazy Loading and Webp](/post/2021/hugo-with-lazy-loading-and-webp/)
 
-When you add image in your Hugo's site you also launch some script for some image optimization. 
+When you add image in your Hugo's site you also launch some script for some image optimization.
 Some problems come from the custom script for the build, were you need to have other code install in your machine or wherever you compile your static site.
 
 It was a good implementation and a fast one but some time after I find a better way to implement better way to serve img in a static site, so I wrote a new article [^2] where I describe the implementation with a "Hugo's way" with a internal pipeline.
