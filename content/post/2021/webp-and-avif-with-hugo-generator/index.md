@@ -30,8 +30,8 @@ In the main time I read more about it and find more about the Hugo's render hook
 [^3]: [Tag HTML picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture)
 
 I did like this way because I don't find a "elegant solution" for the Avif/WebP generation problem.
-I don't like my way of generating Avif/WebP with a code outsite the Hugo pipeline like my old post[^1] or my ispiration[^4].
-[^4]: [WebP and AVIF images on a Hugo website](https://pawelgrzybek.com/webp-and-avif-images-on-a-hugo-website/)
+I don't like my way of generating Avif/WebP with a code outsite the Hugo pipeline like my old post[^1] or my ispiration[^p].
+[^p]: [WebP and AVIF images on a Hugo website](https://pawelgrzybek.com/webp-and-avif-images-on-a-hugo-website/)
 
 I need a *better way to do it*.
 
@@ -43,9 +43,9 @@ So I rewrote all the render hook.
 
 1. I will make the WebP image
 
-2. Put the code for the AVIF[^5] because now Hugo don't support AVIF
+2. Put the code for the AVIF[^pp] because now Hugo don't support AVIF
 
-[^5]: [Add image processing support for AVIF](https://github.com/gohugoio/hugo/issues/7837)
+[^pp]: [Add image processing support for AVIF](https://github.com/gohugoio/hugo/issues/7837)
 
 3. Add support for multiple img size
 
