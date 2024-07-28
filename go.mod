@@ -3,7 +3,7 @@ module github.com/fundor333/fundor333.github.io
 go 1.22.5
 
 require (
-	github.com/fundor333/fugu-theme v0.0.0-20240726104110-1aa4595503ab // indirect
+	github.com/fundor333/fugu-theme v0.0.0-20240728161402-955838482f12 // indirect
 	github.com/fundor333/macia-image v0.0.0-20240725223224-a806faf4656b // indirect
 	github.com/fundor333/macia-indiweb v0.0.0-20240725233054-91a7bc288290 // indirect
 )
