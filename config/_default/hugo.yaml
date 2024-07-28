@@ -10,6 +10,6 @@ author:
   avatar: "/img/gatto.jpg"
   url: "https://fundor333.com/cv/"
 
-disqusShortname: fundor333
-gtm_id: GTM-NZQKPXS
-googleAnalytics: G-H22W7LRVGC
+services:
+  googleAnalytics:
+    ID: G-H22W7LRVGC
