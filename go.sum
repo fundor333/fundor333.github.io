@@ -1,6 +1,12 @@
 github.com/fundor333/fugu-theme v0.0.0-20240728161402-955838482f12 h1:2t0TU+076AKPtfk8eNQotmX4evSJqlKo08K6gSZx8ek=
 github.com/fundor333/fugu-theme v0.0.0-20240728161402-955838482f12/go.mod h1:kqffrEut4mYR2wiF+PZNVbVdwsFD5RdWWpGzLY0jlJg=
+github.com/fundor333/fugu-theme v0.0.0-20240728193857-0171a7a091eb h1:KdFrGA7SpsrlDxRnKal5Pn1oXuj9QjaqwWh6+JgvKZQ=
+github.com/fundor333/fugu-theme v0.0.0-20240728193857-0171a7a091eb/go.mod h1:kqffrEut4mYR2wiF+PZNVbVdwsFD5RdWWpGzLY0jlJg=
 github.com/fundor333/macia-image v0.0.0-20240725223224-a806faf4656b h1:s1gh5Mk0XFEBb3DJKeqj/t1qH1OKV2pDELJgPkJWPTI=
 github.com/fundor333/macia-image v0.0.0-20240725223224-a806faf4656b/go.mod h1:9zBOlIP9CvKcUcK3q+La1av6XH/fWPSApaYF/lvVAKY=
+github.com/fundor333/macia-image v0.0.0-20240728183659-e648e0050a87 h1:BwDrTcbkAi0WvySmRGu3vUUVBHYXDqS2QLveRgsL+5c=
+github.com/fundor333/macia-image v0.0.0-20240728183659-e648e0050a87/go.mod h1:9zBOlIP9CvKcUcK3q+La1av6XH/fWPSApaYF/lvVAKY=
 github.com/fundor333/macia-indiweb v0.0.0-20240725233054-91a7bc288290 h1:iHO3a0Y+NiEFdOnoL/zXjg5kj3LY3fk8rSbYZGI76CI=
 github.com/fundor333/macia-indiweb v0.0.0-20240725233054-91a7bc288290/go.mod h1:mzfDNrWLvqaOhl7Fq3EaeEFuPDz5jKo5fqnNeaA9Yk4=
+github.com/fundor333/macia-indiweb v0.0.0-20240728170323-78be1951ae2d h1:05g12fXeywk1K/aowlMZYryvsHJ1H0m/8gMB0+7NqbU=
+github.com/fundor333/macia-indiweb v0.0.0-20240728170323-78be1951ae2d/go.mod h1:mzfDNrWLvqaOhl7Fq3EaeEFuPDz5jKo5fqnNeaA9Yk4=
