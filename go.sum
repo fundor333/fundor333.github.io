@@ -8,6 +8,8 @@ github.com/fundor333/fugu-theme v0.0.0-20240728204942-d326ee8db9bc h1:KcKWMjZFfN
 github.com/fundor333/fugu-theme v0.0.0-20240728204942-d326ee8db9bc/go.mod h1:kqffrEut4mYR2wiF+PZNVbVdwsFD5RdWWpGzLY0jlJg=
 github.com/fundor333/fugu-theme v0.0.0-20240728210103-52837186881e h1:KmnmFNeqniA2MCP+1n0zNzYyDe1ps224ofebUrVAgkI=
 github.com/fundor333/fugu-theme v0.0.0-20240728210103-52837186881e/go.mod h1:kqffrEut4mYR2wiF+PZNVbVdwsFD5RdWWpGzLY0jlJg=
+github.com/fundor333/fugu-theme v0.0.0-20240729204954-7f7a8c417aa8 h1:DC2uvBG1LP/2FEIsNSYHSSlvU+KKjtZBPFxSHe64vO8=
+github.com/fundor333/fugu-theme v0.0.0-20240729204954-7f7a8c417aa8/go.mod h1:kqffrEut4mYR2wiF+PZNVbVdwsFD5RdWWpGzLY0jlJg=
 github.com/fundor333/macia-image v0.0.0-20240725223224-a806faf4656b h1:s1gh5Mk0XFEBb3DJKeqj/t1qH1OKV2pDELJgPkJWPTI=
 github.com/fundor333/macia-image v0.0.0-20240725223224-a806faf4656b/go.mod h1:9zBOlIP9CvKcUcK3q+La1av6XH/fWPSApaYF/lvVAKY=
 github.com/fundor333/macia-image v0.0.0-20240728183659-e648e0050a87 h1:BwDrTcbkAi0WvySmRGu3vUUVBHYXDqS2QLveRgsL+5c=
