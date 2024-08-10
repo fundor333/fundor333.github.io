@@ -7,7 +7,7 @@ install: ## Intall
 	@hugo mod get -u
 
 send_webmention: ## Send webmention from feed
-	@pushl -c $HOME/.config/pushl-cache https://fundor333.com/index.xml
+	@poetry run python send_webmention.py
 
 develop: ## Run the site localy
 	@hugo server  --minify --disableFastRender

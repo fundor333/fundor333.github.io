@@ -2,6 +2,8 @@ import mailbox
 from pip import main
 import requests
 import feedparser
+from rich.console import Console
+from rich.text import Text
 
 feed_url = "http://fundor333.com/index.xml"
 
@@ -12,7 +14,14 @@ def send_webmention(url: str):
     r = requests.post(
         f"https://webmention.app/check?token=d6ecd337-f1c5-4b3f-8e82-5dc280d727fa&url={url}"
     )
-    print(r.status_code)
+    console = Console()
+    if 200 <=r.status_code<400:
+        color = "green"
+    else:
+        color="red"
+    text = Text.assemble((str(r.status_code), color), f" {url}")
+    console.print(text)
+
 
 
 def get_url_from_feed():
