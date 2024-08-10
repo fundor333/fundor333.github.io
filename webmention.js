@@ -1,17 +1,22 @@
 const fs = require("fs");
 const https = require("https");
+const path = require('path');
+
+function writeFileSyncRecursive(filename, content = '') {
+	fs.mkdirSync(path.dirname(filename), { recursive: true })
+	fs.writeFileSync(filename, content)
+}
 
 fetchWebmentions().then(webmentions => {
 	webmentions.forEach(webmention => {
 		const slug = webmention["wm-target"]
 			.replace("https://fundor333.com/", "")
-			.replace(/\/$/, "")
-			.replace("/", "--");
+			.replace(/\/$/, "").split('?')[0];
 
 		const filename = `${__dirname}/data/webmentions/${slug}.json`;
 
 		if (!fs.existsSync(filename)) {
-			fs.writeFileSync(filename, JSON.stringify([webmention], null, 2));
+			writeFileSyncRecursive(filename, JSON.stringify([webmention], null, 2));
 
 			return;
 		}
@@ -26,11 +31,13 @@ fetchWebmentions().then(webmentions => {
 	});
 });
 
+
+
 function fetchWebmentions() {
-	const token = process.env.WEBMENTIONS_TOKEN;
+	const token = "-g5vlz9y3p5llrdS7TmnCg";
 
 	const since = new Date();
-	since.setDate(since.getDate() - 3);
+	since.setDate(since.getDate() - 30);
 
 	const url =
 		"https://webmention.io/api/mentions.jf2" +
@@ -61,6 +68,7 @@ function fetchWebmentions() {
 			});
 	}).then(response => {
 		if (!("children" in response)) {
+			console.log(response);
 			throw new Error("Invalid webmention.io response.");
 		}
 
