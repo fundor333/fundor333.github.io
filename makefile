@@ -22,6 +22,10 @@ developall: ## Run the site localy with all the article, future or drafts
 gomodule: ## Update Go Module
 	@hugo mod get -u
 
+.PHONY: hydra
+hydra: ## Check links
+	@poetry run python hydra.py http://localhost:1313/ --config ./hydra-config.json
+
 .PHONY: syntax
 syntax: ## Build the style of the code
 	@hugo gen chromastyles --style=dracula > themes/fugu/assets/css/_syntax.scss
