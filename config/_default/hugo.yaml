@@ -1,7 +1,7 @@
 baseURL: "https://fundor333.com"
 DefaultContentLanguage: en
 languageCode: en
-theme: ["github.com/fundor333/fugu-theme"]
+theme: ["github.com/fundor333/macha-theme"]
 title: Fundor 333
 author:
   name: Fundor 333
