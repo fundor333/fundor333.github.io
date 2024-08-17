@@ -16,6 +16,8 @@ github.com/fundor333/macha-theme v0.0.0-20240817121729-0d612514c3f3 h1:ifTPQabY8
 github.com/fundor333/macha-theme v0.0.0-20240817121729-0d612514c3f3/go.mod h1:aAlXN+qVwNF6FskAehppdmea5GGmhaPWL+0BHey1wro=
 github.com/fundor333/macha-theme v1.1.0 h1:YryNANpox5uVfH0xnWEQtLIoMQMBF4RuRJPBDroDsYs=
 github.com/fundor333/macha-theme v1.1.0/go.mod h1:aAlXN+qVwNF6FskAehppdmea5GGmhaPWL+0BHey1wro=
+github.com/fundor333/macha-theme v1.2.0 h1:GZM5TOWy1F7pedL8n785ep2I+bqXRMeV1TbPN7J7vpw=
+github.com/fundor333/macha-theme v1.2.0/go.mod h1:aAlXN+qVwNF6FskAehppdmea5GGmhaPWL+0BHey1wro=
 github.com/fundor333/macia-image v0.0.0-20240728183659-e648e0050a87 h1:BwDrTcbkAi0WvySmRGu3vUUVBHYXDqS2QLveRgsL+5c=
 github.com/fundor333/macia-image v0.0.0-20240728183659-e648e0050a87/go.mod h1:9zBOlIP9CvKcUcK3q+La1av6XH/fWPSApaYF/lvVAKY=
 github.com/fundor333/macia-image v1.0.0 h1:fZpEgYjCNYidwncWpiowcHI9VCDlp9VaF5YqTe0CqLU=
