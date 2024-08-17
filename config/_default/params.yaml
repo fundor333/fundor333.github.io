@@ -3,6 +3,8 @@ title: Fundor 333
 description: Fundor 333's personal space on the web
 favicon: /img/favicon.ico
 image: /img/pilogo.jpg
+images:
+  - /img/cover.jpg
 logo: /img/logo.jpg
 hostName: "https://fundor333.com"
 copyright: Fundor333
