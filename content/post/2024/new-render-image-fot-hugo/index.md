@@ -1,5 +1,5 @@
 ---
-title: "New Render Image Fot Hugo"
+title: "New Render Image For Hugo"
 date: 2024-07-28T11:37:47+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
@@ -8,7 +8,9 @@ tags:
 - devops
 - hugo
 - module
-slug: "new-render-image-fot-hugo"
+slug: "new-render-image-for-hugo"
+aliases:
+- "new-render-image-fot-hugo"
 categories:
 - dev
 - fingerfood
