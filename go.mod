@@ -4,7 +4,7 @@ go 1.22.5
 
 require (
 	github.com/fundor333/macha-theme v1.2.1 // indirect
-	github.com/fundor333/macia-image v1.0.0 // indirect
+	github.com/fundor333/macia-image v1.0.1 // indirect
 	github.com/fundor333/macia-indiweb v1.0.0 // indirect
 )
 
