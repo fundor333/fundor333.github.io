@@ -7,6 +7,12 @@ on:
     schedule:
         # Automatically run on every Sunday
         - cron: "0 0 * * 0"
+    push:
+      branches:
+        - main
+    pull_request:
+      branches:
+        - main
 
 jobs:
     build:
@@ -17,6 +23,8 @@ jobs:
               with:
                   # [Required] Access token with `workflow` scope.
                   token: ${{ secrets.TOKEN }}
+            - name: Dependabot Updates for Go modules.
+              uses: eigenbot-app/dependabot-updates-gomod@v1.0.0
 
             - name: Run GitHub Actions Version Updater
               uses: saadmk11/github-actions-version-updater@v0.8.1

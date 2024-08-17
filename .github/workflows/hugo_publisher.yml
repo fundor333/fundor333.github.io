@@ -35,7 +35,7 @@ jobs:
     name: Install dependencies
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.131.0
+      HUGO_VERSION: 0.132.2
     steps:
       - name: Install Hugo CLI
         run: |
