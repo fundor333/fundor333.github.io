@@ -9,8 +9,6 @@ tags:
 - hugo
 - module
 slug: "new-render-image-for-hugo"
-aliases:
-- "new-render-image-fot-hugo"
 categories:
 - dev
 - fingerfood
@@ -21,6 +19,8 @@ mp-syndicate-to:
 - https://brid.gy/publish/mastodon
 images:
 keywords:
+aliases:
+- "/post/2024/new-render-image-fot-hugo/"
 ---
 
 ## The story so far
