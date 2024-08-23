@@ -3,7 +3,7 @@ module github.com/fundor333/fundor333.github.io
 go 1.22.5
 
 require (
-	github.com/fundor333/macha-theme v1.2.15 // indirect
+	github.com/fundor333/macha-theme v1.2.16 // indirect
 	github.com/fundor333/macia-image v1.0.1 // indirect
 	github.com/fundor333/macia-indiweb v1.0.0 // indirect
 )
@@ -16,4 +16,4 @@ require (
 // https://github.com/rootwork/hugo-module-site#local-theme-development
 
 // replace github.com/fundor333/fugu-theme => /Users/matteoscarpa/Coding/Personale/fugu-theme
-replace github.com/fundor333/macha-theme => /Users/matteoscarpa/Coding/Personale/macia-theme
+// replace github.com/fundor333/macha-theme => /Users/matteoscarpa/Coding/Personale/macia-theme
