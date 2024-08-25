@@ -1,7 +1,7 @@
 ---
 title: "Green Teapot"
 date: 2024-08-22T12:57:16+02:00
-tags:
+phototags:
 - tea
 - teapot
 - green

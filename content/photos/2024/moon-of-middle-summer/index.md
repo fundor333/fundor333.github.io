@@ -1,7 +1,7 @@
 ---
 title: "Moon of Middle Summer"
 date: 2024-08-17T21:37:56+02:00
-tags:
+phototags:
 - moon
 - night
 - venice

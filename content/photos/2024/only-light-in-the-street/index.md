@@ -1,7 +1,7 @@
 ---
 title: "Only Light in the Street"
 date: 2024-08-25T12:42:25+02:00
-tags:
+phototags:
 - light
 - night
 - city

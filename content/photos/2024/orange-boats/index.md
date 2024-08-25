@@ -1,7 +1,7 @@
 ---
 title: "Orange Boats"
 date: 2024-08-18T13:25:25+02:00
-tags:
+phototags:
 - venice
 - boat
 description: "Sun set on orange boats and orange houses"

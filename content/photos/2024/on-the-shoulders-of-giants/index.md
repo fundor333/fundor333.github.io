@@ -1,7 +1,7 @@
 ---
 title: "On the Shoulders of Giants"
 date: 2024-08-19T20:33:26+02:00
-tags:
+phototags:
 - Venice
 - architecture
 description: "Chiesa dell Ospedaletto in Venice"

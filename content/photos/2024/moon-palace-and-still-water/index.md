@@ -1,7 +1,7 @@
 ---
 title: "Moon Palace and Still Water"
 date: 2024-08-19T11:56:25+02:00
-tags:
+phototags:
 - venice
 - moon
 - night

@@ -1,7 +1,7 @@
 ---
 title: "Waiting for Ramen in a Restaurant"
 date: 2024-08-20T13:54:21+02:00
-tags:
+themes:
 - restaurant
 - ramen
 - japan
