@@ -4,6 +4,7 @@ date: 2024-08-18T13:25:25+02:00
 phototags:
 - venice
 - boat
+- orange
 description: "Sun set on orange boats and orange houses"
 images: ['DSCF0154.jpg']
 resources:
