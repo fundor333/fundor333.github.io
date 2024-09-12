@@ -98,7 +98,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: make deploy
+        run: make deploy_prod
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1

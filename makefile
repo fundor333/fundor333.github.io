@@ -59,3 +59,7 @@ deploy: clean characters ## Ready to deploy
 brodcast: clean ## Brodcast the site
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
 
+deploy_prod:  ## Ready to deploy
+	@npm update
+	@hugo mod get -u
+	@hugo --minify
