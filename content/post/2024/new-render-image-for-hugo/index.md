@@ -33,7 +33,7 @@ Some problems come from the custom script for the build, were you need to have o
 
 It was a good implementation and a fast one but some time after I find a better way to implement better way to serve img in a static site, so I wrote a new article [^2] where I describe the implementation with a "Hugo's way" with a internal pipeline.
 
-[^2]: Fundor333 - [Generate WebP and AVIF with Hugo](/post/2021/hugo-with-lazy-loading-and-webp/)
+[^2]: Fundor333 - [Generate WebP and AVIF with Hugo](/post/2021/webp-and-avif-with-hugo-generator/)
 
 In this implementation I combine as find in a blog post [^5] the _srv_ html tag [^src-tag] in the _picture_ tag [^picture-tag] without the Avif format file[^avif]
 
