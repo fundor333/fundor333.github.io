@@ -21,6 +21,9 @@ images:
 keywords:
 aliases:
 - "/post/2024/new-render-image-fot-hugo/"
+series:
+- https://fundor333.com/post/2021/hugo-with-lazy-loading-and-webp/
+- https://fundor333.com/post/2021/webp-and-avif-with-hugo-generator/
 ---
 
 ## The story so far

@@ -10,13 +10,13 @@ send_webmention: ## Send webmention from feed
 	@poetry run python send_webmention.py
 
 develop: ## Run the site localy
-	@hugo server  --minify --disableFastRender
+	@hugo server  --minify --disableFastRender --renderToMemory 
 
 developfuture: ## Run the site localy with all the future article
-	@hugo server  --minify --disableFastRender --buildFuture
+	@hugo server  --minify --disableFastRender --buildFuture --renderToMemory 
 
 developall: ## Run the site localy with all the article, future or drafts
-	@hugo server  --minify --disableFastRender --buildFuture --buildDrafts
+	@hugo server  --minify --disableFastRender --buildFuture --buildDrafts --renderToMemory 
 
 .PHONY: gomodule
 gomodule: ## Update Go Module
