@@ -10,8 +10,8 @@ Here I write what I'm working or studing for now:
 ## Web
 
 * [Fundor333](https://fundor333.com) - This blog make with Hugo and love. The Css framework change somethime. Now it's boostrap 4 with font awesome
-
 * [DigitalTeaRoom](https://digitaltearoom.com/) - My blog about Tea and other tea related stuff
+* [Photos' Fundor333](https://photo.fundor333.com/) - My photo cosplay blog
 
 ## Hardware
 
@@ -22,8 +22,6 @@ Here I write what I'm working or studing for now:
 * [MareaBot](https://github.com/Venice-Bot-Center/MareaBot) - Bot for read the HighWater Api of Comune di Venezia and, if there is an allert, post it on a channel on telegram. Written in Python
 
 * [PolliniVeneziaBot](https://github.com/Venice-Bot-Center/PolliniVeneziaBot) - Bot for read the Pollins and Spore Api for the City of Venice and, if there is an allert of any level, post it on a channel on telegram. Written in Python
-
-* [Server Grimoire](https://github.com/fundor333/servergrimoire) - Module for give you some command to check URLs, domains and other things in an automatic way
 
 * [Hubot tea timer](https://github.com/fundor333/hubot-tea-timer) - The last Hubot tea timer you'll ever need
 
