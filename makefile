@@ -20,6 +20,8 @@ developall: ## Run the site localy with all the article, future or drafts
 
 .PHONY: gomodule
 gomodule: ## Update Go Module
+	@hugo mod get -u ./...
+	@hugo mod tidy
 	@hugo mod get -u
 
 .PHONY: hydra
