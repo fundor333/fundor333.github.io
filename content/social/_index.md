@@ -1,5 +1,5 @@
 ---
-title: "--news--"
+title: "News"
 type: social
 specialpost: true
 

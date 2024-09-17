@@ -11,5 +11,5 @@ mp-syndicate-to:
 slug: the-downfall-of-wordpress
 micropub: bookmark
 layout: social
-date: '2022/08/30'
+date: '2022-08-29T11:39:26'
 ---

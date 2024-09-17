@@ -16,4 +16,4 @@ require (
 // https://github.com/rootwork/hugo-module-site#local-theme-development
 
 // replace github.com/fundor333/fugu-theme => /Users/matteoscarpa/Coding/Personale/fugu-theme
-// replace github.com/fundor333/macha-theme => /Users/matteoscarpa/Coding/Personale/macia-theme
+replace github.com/fundor333/macha-theme => /Users/matteoscarpa/Coding/Personale/macia-theme

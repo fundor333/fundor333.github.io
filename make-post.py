@@ -12,6 +12,12 @@ def post_photo():
     os.system(f"hugo new photos/{year}/{name.replace(' ','-').replace(',','').lower()}/index.md")
 
 
+def post_redirect():
+    # get the current year as variable
+    name = input("Give me the title\n")
+    os.system(f"hugo new redirect/{name.replace(' ','-').replace(',','').lower()}/index.md")
+
+
 def post_fc():
     # get the current year as variable
     year = str(datetime.datetime.now().year)
@@ -33,7 +39,7 @@ def quiet_fc():
     print(f"Generated {generated}.md")
 
 
-ANSWER = {"post": post_fc, "quiet": quiet_fc, 'photo': post_photo}
+ANSWER = {"post": post_fc, "quiet": quiet_fc, 'photo': post_photo, 'redirect': post_redirect}
 
 
 def main_checker():
