@@ -1,7 +1,6 @@
 ---
 title: "Test Webmention"
 date: 2024-09-21T01:00:45+02:00
-draft: true
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 tags:
