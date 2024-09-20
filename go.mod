@@ -3,8 +3,8 @@ module github.com/fundor333/fundor333.github.io
 go 1.22.5
 
 require (
-	github.com/fundor333/macha-theme v1.5.3 // indirect
-	github.com/fundor333/macia-image v1.0.1 // indirect
+	github.com/fundor333/macha-theme v1.5.5 // indirect
+	github.com/fundor333/macia-image v1.1.0 // indirect
 	github.com/fundor333/macia-indiweb v1.0.0 // indirect
 )
 

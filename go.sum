@@ -1,4 +1,6 @@
-github.com/fundor333/macia-image v1.0.1 h1:CbS9mrktbo0qGB+bgXKa4yj6fkwgR/FV0wzrbz4qqt8=
-github.com/fundor333/macia-image v1.0.1/go.mod h1:9zBOlIP9CvKcUcK3q+La1av6XH/fWPSApaYF/lvVAKY=
+github.com/fundor333/macha-theme v1.5.5 h1:r9xg47dytKVMFQJLQMAUG1lsza0gcx/2T/OA8yEvQkA=
+github.com/fundor333/macha-theme v1.5.5/go.mod h1:9wcb8vT8U3KtPVG5XIGK//OlUfgA2lc80cc/7zLzHbs=
+github.com/fundor333/macia-image v1.1.0 h1:dLPDbQ8giOhTRKMM4/xWCJ/yFFlkz5HO9nDEH2s1w/Q=
+github.com/fundor333/macia-image v1.1.0/go.mod h1:9zBOlIP9CvKcUcK3q+La1av6XH/fWPSApaYF/lvVAKY=
 github.com/fundor333/macia-indiweb v1.0.0 h1:W/S9d5FpT69FLv3hzA2unDKy2a7NRns+ANWM87rMFjY=
 github.com/fundor333/macia-indiweb v1.0.0/go.mod h1:mzfDNrWLvqaOhl7Fq3EaeEFuPDz5jKo5fqnNeaA9Yk4=
