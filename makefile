@@ -65,3 +65,8 @@ deploy_prod:  ## Ready to deploy
 	@npm update
 	@hugo mod get -u
 	@hugo --minify
+
+
+.PHONY: submodule
+submodule: ## Get submodule for this repo
+	git submodule update --init --recursive
