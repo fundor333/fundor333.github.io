@@ -24,6 +24,8 @@ The page is part of the [uses.tech](https://uses.tech/) project.
 
 ### FujiFilm
 
+![FujiFilm X-T30 II](fujifilm_xt30_ii.jpg)
+
 * [FujiFilm X-T30 II](https://fujifilm-x.com/it-it/products/cameras/x-t30-ii/)
 * [FUJINON XF18-55MMF2.8-4 R LM OIS](https://fujifilm-x.com/it-it/products/lenses/xf18-55mmf28-4-r-lm-ois/)
 
@@ -35,7 +37,12 @@ The page is part of the [uses.tech](https://uses.tech/) project.
 
 ### Hardware
 
-* [MelGeek MOJO68 Plastic See-through](https://www.melgeek.com/products/melgeek-mojo68-plastic-see-through-custom-programmable-mechanical-keyboard?variant=42827346051326)
+![MelGeek MOJO68 Advance](MOJO68_Advance.png)
+
+* [MelGeek MOJO68 Advance](https://www.melgeek.com/products/melgeek-mojo68-plastic-advance-see-through-custom-programmable-mechanical-keyboard)
+
+![Blue Yeti](blue_yeti.png)
+
 * [Blue Yeti Microfone](https://www.amazon.it/gp/product/B01LY6Z2M6)
 
 ### Software
