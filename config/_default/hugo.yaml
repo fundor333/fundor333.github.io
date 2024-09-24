@@ -4,3 +4,8 @@ languageCode: en
 theme: ["hugo-redirect","github.com/fundor333/macha-theme"]
 title: Fundor333
 enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
