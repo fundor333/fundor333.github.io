@@ -26,11 +26,6 @@
 		"label": "<i class=\"fa-brands fa-discord\"></i>"
 	},
 	{
-		"name": "Twitter",
-		"url": "https://twitter.com/fundor333",
-		"label": "<i class=\"fa-brands fa-twitter\"></i>"
-	},
-	{
 		"name": "Channel Telegram",
 		"url": "https://t.me/f333_photoset",
 		"label": "<i class=\"fa-brands fa-telegram\"></i>"
