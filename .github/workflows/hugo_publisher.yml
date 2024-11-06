@@ -48,7 +48,7 @@ jobs:
           submodules: recursive
 
       - name: Cache node modules
-        uses: actions/cache@v4.1.1
+        uses: actions/cache@v4.1.2
         env:
           cache-name: cache-node-modules-v1
         with:
@@ -80,7 +80,7 @@ jobs:
           timezoneMacos: Europe/Rome
 
       - name: Cache built website
-        uses: actions/cache@v4.1.1
+        uses: actions/cache@v4.1.2
         env:
           cache-name: cache-website-v1
         with:
