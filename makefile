@@ -64,7 +64,7 @@ brodcast: clean ## Brodcast the site
 deploy_prod:  ## Ready to deploy
 	@npm update
 	@hugo mod get -u
-	@hugo --minify --verbose
+	@hugo --minify 
 
 
 .PHONY: submodule
