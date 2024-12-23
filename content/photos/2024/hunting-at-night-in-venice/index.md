@@ -6,7 +6,7 @@ phototags:
 - night
 - sign
 - hunting
-description: "In Venice there is a vegetable shop on a boat. One of the 'briccolr' which keep the boat in place has this sign."
+description: "In Venice there is a vegetable shop on a boat. One of the 'briccole' which keep the boat in place has this sign."
 images: ['IMG_0663.jpg']
 resources:
 - title: "Hunting at Night in Venice"
