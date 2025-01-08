@@ -8,12 +8,13 @@ copyright: Fundor333
 photoLicense: CC BY-NC-ND 4.0
 
 maciaindieweb:
-  webmention: "https://webmention.io/fundor333.com/webmention"
+  webmention: "https://micro.blog/webmention"
   pingback: "https://webmention.io/fundor333.com/xmlrpc"
-  micropub: "https://appletune.fundor333.com/micropub"
-  microsub: "https://aperture.p3k.io/microsub/699"
-  authorization_endpoint: "https://indieauth.com/auth"
-  token_endpoint: "https://tokens.indieauth.com/token"
+  micropub: "https://micro.blog/micropub"
+  microsub: "https://micro.blog/microsub"
+  authorization_endpoint: "https://micro.blog/indieauth/auth"
+  token_endpoint: "https://micro.blog/indieauth/token"
+  subscribe: "https://micro.blog/users/follow"
 
   auth:
     twitter: https://twitter.com/fundor333
@@ -27,4 +28,4 @@ author:
   url: "https://fundor333.com/cv/"
   authorURL: "https://fundor333.com/"
   description: "Pythonista, Backend Developer, Dev Ops, Ex-Scout, Bookworm and Tea Lover. Sometime you can find me in a GDG, a DataBeers, a Pycon or other similar event. Huge Open Source fan and user I am allways searching something new to do or to study. Huge fan of automation, autodeploy and bots. A lot of my personal stuff are on my blog and more in my Github"
-  fediverse: "@fundor333@mastodon.social"
+  fediverse: "@fundor333@micro.blog"
