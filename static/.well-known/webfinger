@@ -1,23 +1,23 @@
 {
 	"aliases": [
-		"https://mastodon.social/@fundor333",
-		"https://mastodon.social/users/fundor333"
+		"https://micro.blog/@fundor333",
+		"https://micro.blog/users/fundor333"
 	],
 	"links": [
 		{
-			"href": "https://mastodon.social/@fundor333",
+			"href": "https://micro.blog/@fundor333",
 			"rel": "http://webfinger.net/rel/profile-page",
 			"type": "text/html"
 		},
 		{
-			"href": "https://mastodon.social/users/fundor333",
+			"href": "https://micro.blog/users/fundor333",
 			"rel": "self",
 			"type": "application/activity+json"
 		},
 		{
 			"rel": "http://ostatus.org/schema/1.0/subscribe",
-			"template": "https://mastodon.social/authorize_interaction?uri={uri}"
+			"template": "https://micro.blog/authorize_interaction?uri={uri}"
 		}
 	],
-	"subject": "acct:fundor333@mastodon.social"
+	"subject": "acct:fundor333@micro.blog"
 }
