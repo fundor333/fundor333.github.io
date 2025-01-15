@@ -13,7 +13,7 @@ categories:
 - dev
 - fingerfood
 description: "Sometime you need to add a Progress Bar to your script and this is how"
-type: "post"
+
 ---
 
 Sometime you need to make a script or a program with some task and show to the user you are doing something so you need to write something as output: a Progress Bar.

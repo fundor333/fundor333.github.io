@@ -6,8 +6,6 @@ type: page
 This page collects content I'm producing in some way or the other, and is consumable with RSS. 
 [Learn more about the idea](https://marcus.io/blog/making-rss-more-visible-again-with-slash-feeds).
 
-![RSS logo](/static/img/rss.png)
-
 You can follow me here:
 
 * [All stuff from my blog](https://fundor333.com/index.xml)

@@ -12,7 +12,7 @@ slug: "more-stuff-i-do-with-webmention-micropub-and-bridgy"
 categories:
 - dev
 description: "I implement and code more stuff from webmention, micropub and brid.gy"
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

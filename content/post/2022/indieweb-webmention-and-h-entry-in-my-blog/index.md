@@ -14,7 +14,7 @@ categories:
 - dev
 - coding
 description: "Adding Indieweb and Webmention in my blog"
-type: "post"
+
 ---
 
 ## Some history of this blog

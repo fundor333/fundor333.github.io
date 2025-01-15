@@ -11,7 +11,7 @@ slug: "following-the-elephant-toots-with-the-python"
 categories:
 - develop
 description: "How I follow all who Toots about PyconIt2023"
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

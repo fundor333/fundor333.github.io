@@ -12,7 +12,7 @@ categories:
 - dev
 - fingerfood
 description: "How to print a pdf with Django and return it from url"
-type: "post"
+
 meta:
 - pdf
 - python

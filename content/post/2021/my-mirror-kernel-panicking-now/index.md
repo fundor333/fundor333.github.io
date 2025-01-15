@@ -11,7 +11,7 @@ slug: "My-mirror-kernel-panicking-now"
 categories:
 - dev
 description: "More IoT is more Kernel Panic and other errors"
-type: "post"
+
 meta:
 - sex toy
 - hacking

@@ -12,7 +12,7 @@ categories:
 - dev
 - fingerfood
 description: "If you have a static site you can also have forms"
-type: "post"
+
 ---
 
 Sometime you need to make a contact form or something similar but you have a static site. So what do you do?

@@ -12,7 +12,7 @@ slug: "why-have-a-blog-in-the-fast-social-media-era"
 categories:
 - rant
 description: ""
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

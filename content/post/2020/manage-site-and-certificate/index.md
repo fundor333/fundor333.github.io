@@ -12,7 +12,7 @@ slug: "manage-site-and-certificate"
 categories: 
 - dev
 description: "One dev manage 40 sites' domains, SSL and check all of them with a package"
-type: "post"
+
 ---
 
 After my [other post]({{< relref "post/2020/ssl-check-with-a-script/index.md" >}}) I find we (me and my coworker) need to check between 30 to 40 domain, subdomain and SSL certificate for work and some more for our private life so I put on the test my [other post's script]({{< relref "post/2020/ssl-check-with-a-script/index.md" >}}) but we need to check more. 

@@ -1,11 +1,7 @@
 baseURL: "https://fundor333.com"
 DefaultContentLanguage: en
 languageCode: en
-theme: ["hugo-redirect","github.com/fundor333/macha-theme"]
+theme: "hugo-blog-awesome"
 title: Fundor333
 enableRobotsTXT: true
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+fediverseAccount: "@fundor333@mastodon.social"

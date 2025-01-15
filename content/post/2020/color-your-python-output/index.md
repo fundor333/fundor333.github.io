@@ -12,7 +12,7 @@ categories:
 - fingerfood
 - dev
 description: "Sometime you need to make your output more readible adding color to the terminal"
-type: "post"
+
 ---
 
 Sometime you need to output error and other stuff in the same terminal. 

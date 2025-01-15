@@ -12,7 +12,7 @@ slug: "The-team-makefile"
 categories: 
 - dev
 description: "You need to make a makefile if you are working on a team project"
-type: "post"
+
 ---
 
 Working on a project with a team is a difficult task. If the project is not simple, you need to build it, test it and publish it and you can have multiple project with similar command but different parameters or path for build/test/stuff-making.

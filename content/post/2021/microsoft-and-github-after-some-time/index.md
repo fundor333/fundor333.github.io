@@ -9,7 +9,7 @@ slug: "Microsoft-and-GitHub-after-some-time"
 categories: 
 - rant
 description: "Three years later I talk about Microsoft buying Github"
-type: "post"
+
 meta:
 - github
 - microsoft

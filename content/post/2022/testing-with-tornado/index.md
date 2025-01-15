@@ -13,7 +13,7 @@ categories:
 - dev
 - fingerfood
 description: "How to test a Tornado application"
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

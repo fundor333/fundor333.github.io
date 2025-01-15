@@ -13,7 +13,7 @@ categories:
 - dev
 - fingerfood
 description: "How to have infinite scrolling in Django FilterView"
-type: "post"
+
 meta:
 ---
 

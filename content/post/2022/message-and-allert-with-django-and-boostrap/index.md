@@ -12,7 +12,7 @@ categories:
 - dev
 - fingerfood
 description: "How to use Django messages with Boostrap5"
-type: "post"
+
 meta:
 - message
 - allert

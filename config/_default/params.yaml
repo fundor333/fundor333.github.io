@@ -1,30 +1,47 @@
-title: Fundor 333
-subtitle: Verified (12€/year for the domain)
+sitename: Fundor 333
 description: Fundor 333's personal space on the web
 image: /img/pilogo.jpg
 logo: /img/logo.png
-hostName: "https://fundor333.com"
-copyright: Fundor333
-photoLicense: CC BY-NC-ND 4.0
+defaultColor:
+  "dark" # set color mode: dark, light, auto
+  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
+  # the default value is set to 'auto'.
+  # You can take a look at layouts/index.html for more information.
+mainSections: ["post"]
+toc: false # set to false to disable table of contents 'globally'
+tocOpen: false # set to true to open table of contents by default
+goToTop: true # set to false to disable 'go to top' button
+additionalScripts:
+  []
+  # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
+  # Your custom scripts will be concatenated to one file `custom.js`.
+  # When building for production it will be minified.
+  # The file `custom.js` is loaded on each page (before body tag ends).
+dateFormat:
+  "2 January 2006" # default date format used on various pages
+  # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
+rssFeedDescription:
+  "summary" # available options: 1) summary 2) full
+  # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
+  # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
+  # By default (or if nothing is specified), summary is used.
 
-maciaindieweb:
-  webmention: "https://webmention.io/fundor333.com/webmention"
-  pingback: "https://webmention.io/fundor333.com/xmlrpc"
-  micropub: "https://appletune.fundor333.com/micropub"
-  microsub: "https://aperture.p3k.io/microsub/699"
-  authorization_endpoint: "https://indieauth.com/auth"
-  token_endpoint: "https://tokens.indieauth.com/token"
-
-  auth:
-    twitter: https://twitter.com/fundor333
-    mastodon: https://mastodon.social/@fundor333
+socialIcons:
+  - name: "github"
+    url: "https://github.com/fundor333"
+  - name: "facebook"
+    url: "https://www.facebook.com/fundor333"
+  - name: "mastodon"
+    url: "https://mastodon.social/@fundor333"
+  - name: "youtube"
+    url: "https://www.youtube.com/channel/UC7SGz-dENnmAueXXjP0Ki2A"
+  - name: "instagram"
+    url: "https://www.instagram.com/fundor333/"
 
 author:
-  name: Fundor 333
-  email: "blog@fundor333.com"
-  twitterpage: "https://twitter.com/fundor333"
-  avatar: "/img/gatto.jpg"
-  url: "https://fundor333.com/cv/"
-  authorURL: "https://fundor333.com/"
-  description: "Pythonista, Backend Developer, Dev Ops, Ex-Scout, Bookworm and Tea Lover. Sometime you can find me in a GDG, a DataBeers, a Pycon or other similar event. Huge Open Source fan and user I am allways searching something new to do or to study. Huge fan of automation, autodeploy and bots. A lot of my personal stuff are on my blog and more in my Github"
-  fediverse: "@fundor333@micro.blog"
+  avatar: "img/logo.png" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro: "Fundor 333's personal space on the web"
+  name: "Fundor333"
+  description: "Pythonista, Backend Developer, Photographer, Dev Ops, Ex-Scout, Bookworm and Tea Lover. Sometime you can find me in a GDG, a DataBeers, a Pycon, a Comicon or other similar event. Huge Open Source fan and user I am allways searching something new to do or to study. Huge fan of automation, autodeploy, data sharing and bots. A lot of my personal stuff are here in my blog and some in my Github."
+  fediverseAccount: "@fundor333@mastodon.social"

@@ -12,7 +12,7 @@ categories:
 - dev
 - fingerfood
 description: "Adding Lazy load, WebP and AVIF to your Hugo"
-type: "post"
+
 meta:
 - webp
 - avif

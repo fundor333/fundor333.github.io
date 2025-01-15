@@ -11,7 +11,7 @@ slug: "why-you-need-a-doc"
 categories: 
 - dev
 description: "Every project you make you understand new things so you need to write down some thing. Something like a doc"
-type: "post"
+
 ---
 
 Where you write code, an app, a mockup or a procedure you remember what you do but after 10,20,100 time you will forget one or more point. So you need to write down all.

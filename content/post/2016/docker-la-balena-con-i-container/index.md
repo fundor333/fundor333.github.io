@@ -11,7 +11,7 @@ categories:
 - dev
 feature_link: "https://unsplash.com/photos/hHntcuiLbOg"
 feature_text: "Photo by Antoine Petitteville on Unsplash"
-type: "post"
+
 ---
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
 Docker.  

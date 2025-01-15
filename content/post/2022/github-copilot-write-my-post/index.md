@@ -10,7 +10,7 @@ slug: "github-copilot-write-my-post"
 categories:
 - rant
 description: "How Github Copilot write my post and scare me two times"
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

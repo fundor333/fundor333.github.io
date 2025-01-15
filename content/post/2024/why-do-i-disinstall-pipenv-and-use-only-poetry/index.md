@@ -13,7 +13,7 @@ categories:
 - dev
 - coding
 description: "I choose to don't use pipenv and move to poetry and pyproject and other stuff for dev with python"
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

@@ -12,7 +12,7 @@ categories:
 - fingerfood
 - dev
 description: "How to check if your GitLab is update automaticaly"
-type: "post"
+
 ---
 
 Some time ago I had a problem with a selfhosted Gitlab instances. I had a new user, johnyj12345, which create a repo and an issiue and log off.

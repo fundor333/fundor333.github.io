@@ -11,7 +11,7 @@ categories:
 - fingerfood
 - dev
 description: "Sometime you need to fix your frozen Mac TouchBar"
-type: "post"
+
 meta:
 - mac
 - repair

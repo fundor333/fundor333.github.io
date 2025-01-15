@@ -12,7 +12,7 @@ categories:
 - dev
 - fingerfood
 description: "You need to check a lot of SSL certificate, some domain and others things"
-type: "post"
+
 ---
 
 As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don't have money I use [Let's Encrypt](https://letsencrypt.org/) for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.

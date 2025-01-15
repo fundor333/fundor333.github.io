@@ -12,7 +12,7 @@ categories:
 - coding
 - hacking
 description: ""
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

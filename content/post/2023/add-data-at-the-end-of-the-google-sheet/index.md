@@ -11,7 +11,7 @@ slug: "add-data-at-the-end-of-the-google-sheet"
 categories:
 - dev
 description: "How I write a row of data at the end of a Google Sheet with Python Api"
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

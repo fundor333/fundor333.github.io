@@ -11,7 +11,7 @@ categories:
 - fingerfood
 - dev
 description: "Generate WebP and AVIF with Hugo"
-type: "post"
+
 meta:
 - webp
 - avif

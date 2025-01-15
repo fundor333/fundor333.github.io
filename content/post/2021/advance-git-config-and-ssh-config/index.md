@@ -11,7 +11,7 @@ tags:
 - git
 slug: "Advance-git-config-and-ssh-config"
 description: "My advance config for git e ssh"
-type: "post"
+
 ---
 
 Many and many times I update my dotfiles[^1] and rewrite part of them for keep my work config and personal config in a same repo with all the config split for usage.

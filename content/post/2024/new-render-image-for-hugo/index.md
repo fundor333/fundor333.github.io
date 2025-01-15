@@ -13,7 +13,7 @@ categories:
 - dev
 - fingerfood
 description: "The new way to elaborate image for the site generation of the site with Hugo Module"
-type: "post"
+
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon

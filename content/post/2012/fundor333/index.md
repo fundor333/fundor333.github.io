@@ -8,7 +8,7 @@ slug: "Fundor333"
 categories: 
 - rant
 description: "Primo post"
-type: "post"
+
 meta:
 ---
 

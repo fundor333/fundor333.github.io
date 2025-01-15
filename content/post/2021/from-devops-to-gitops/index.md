@@ -11,7 +11,7 @@ slug: "From-DevOps-to-GitOps"
 categories: 
 - dev
 description: "Why am I moving from DevOps to GitOps"
-type: "post"
+
 meta:
 - google
 - kubernetes

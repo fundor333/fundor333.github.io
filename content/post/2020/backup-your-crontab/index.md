@@ -11,7 +11,7 @@ slug: "backup-your-crontab"
 categories: 
 - dev
 description: "Using DotBot for backup and sync crontab job"
-type: "post"
+
 ---
 
 With covid I work sometime at home, sometime at office, allwayse with different computer.
