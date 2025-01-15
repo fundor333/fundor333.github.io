@@ -10,3 +10,6 @@ module:
     - path: github.com/hugo-sid/hugo-blog-awesome
 
 theme: "github.com/hugo-sid/hugo-blog-awesome"
+
+footer:
+  disclaimer: "ciao"
