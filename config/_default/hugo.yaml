@@ -1,7 +1,6 @@
 baseURL: "https://fundor333.com"
 DefaultContentLanguage: en
 languageCode: en
-theme: "hugo-blog-awesome"
 title: Fundor333
 enableRobotsTXT: true
 fediverseAccount: "@fundor333@mastodon.social"
@@ -9,3 +8,5 @@ fediverseAccount: "@fundor333@mastodon.social"
 module:
   imports:
     - path: github.com/hugo-sid/hugo-blog-awesome
+
+theme: "github.com/hugo-sid/hugo-blog-awesome"
