@@ -13,3 +13,21 @@ theme: "github.com/hugo-sid/hugo-blog-awesome"
 
 footer:
   disclaimer: "ciao"
+
+related:
+  includeNewer: true
+  threshold: 70
+  toLower: false
+  indices:
+    - name: categories
+      weight: 40
+    - name: title
+      weight: 30
+    - name: description
+      weight: 30
+    - name: tags
+      weight: 10
+    - name: meta
+      weight: 10
+    - name: date
+      weight: 10

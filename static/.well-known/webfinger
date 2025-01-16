@@ -1,1 +1,28 @@
-{"subject":"acct:fundor333@micro.blog","links":[{"rel":"http://webfinger.net/rel/profile-page","type":"text/html","href":"https://micro.blog/activitypub/fundor333"},{"rel":"self","type":"application/activity+json","href":"https://micro.blog/activitypub/fundor333"},{"rel":"http://ostatus.org/schema/1.0/subscribe","template":"https://micro.blog/mastodon/follow?url={uri}"}]}
+{
+	"aliases": [
+		"https://mastodon.social/@fundor333",
+		"https://mastodon.social/users/fundor333"
+	],
+	"links": [
+		{
+			"href": "https://mastodon.social/@fundor333",
+			"rel": "http://webfinger.net/rel/profile-page",
+			"type": "text/html"
+		},
+		{
+			"href": "https://mastodon.social/users/fundor333",
+			"rel": "self",
+			"type": "application/activity+json"
+		},
+		{
+			"rel": "http://ostatus.org/schema/1.0/subscribe",
+			"template": "https://mastodon.social/authorize_interaction?uri={uri}"
+		},
+		{
+			"href": "https://files.mastodon.social/accounts/avatars/000/030/873/original/67f41e16a70f9ef6.png",
+			"rel": "http://webfinger.net/rel/avatar",
+			"type": "image/png"
+		}
+	],
+	"subject": "acct:fundor333@mastodon.social"
+}
