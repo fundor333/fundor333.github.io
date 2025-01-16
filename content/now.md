@@ -10,8 +10,7 @@ Here I write what I'm working or studing for now:
 ## Web
 
 * [Fundor333](https://fundor333.com) - This blog make with Hugo and love. The Css framework change somethime. Now it's boostrap 4 with font awesome
-* [DigitalTeaRoom](https://digitaltearoom.com/) - My blog about Tea and other tea related stuff
-* [Photos' Fundor333](https://photo.fundor333.com/) - My photo cosplay blog
+* [DigitalTeaRoom](https://digitaltearoom.com/) - My blog about Tea and other stuff i like/love
 
 ## Hardware
 
