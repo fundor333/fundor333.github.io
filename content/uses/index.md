@@ -5,6 +5,7 @@ specialpost: true
 aliases:
 - /stack
 - /kit
+date: 2000-08-20T12:00:00+02:00
 ---
 
 Specifics about the hardware and software equipment I use for work and for my personal life. 
