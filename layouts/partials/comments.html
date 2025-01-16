@@ -1,9 +1,21 @@
-
-
-
+<hr>
 <script src="/js/webmention.min.js"
 data-wordcount='50'
 data-page-url='{{replace (absURL .RelPermalink) "localhost:1313" "fundor333.com"}}'
 data-alternative-url='{{ range .Aliases }}{{  (absURL .)   }}{{ end }}' async>
 </script>
 <div id="webmentions"></div>
+
+<p>To reply to this post, you can send a <a href="https://indieweb.org/Webmention" target="_blank">Webmention</a><br>
+
+You mentioned this post on your site? Send a <a href="https://indieweb.org/Webmention" target="_blank">Webmention</a></p>
+
+{{ $related := .Site.RegularPages.Related .  | first 5 }}
+
+{{ with $related }}
+<h3>See Also</h3>
+
+{{ range . }}
+{{ partial "postCard" . }}
+{{ end }}
+{{ end }}

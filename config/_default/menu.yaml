@@ -7,6 +7,10 @@ main:
     name: "Blog"
     url: "/post"
     weight: 20
+  - pageRef: "/photos"
+    name: "Photos"
+    url: "/photos"
+    weight: 25
   - pageRef: "/feeds"
     name: "Feeds"
     url: "/feeds"
