@@ -8,7 +8,6 @@ This page collects content I'm producing in some way or the other, and is consum
 
 You can follow me here:
 
-* [All stuff from my blog](https://fundor333.com/index.xml)
-* [All my post from my blog](https://fundor333.com/post/index.xml)
-* [All my photo from my blog](https://fundor333.com/photos/index.xml)
-* [Rss from my Mastodon](https://mastodon.social/@fundor333.rss)
+* [All stuff from my blog](/index.xml)
+* [All my post from my blog](/post/index.xml)
+* [All my photo from my blog](/photos/index.xml)
