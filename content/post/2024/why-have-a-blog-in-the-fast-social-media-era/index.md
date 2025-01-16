@@ -1,7 +1,6 @@
 ---
 title: "Why Have a Blog in the Fast Social Media Era"
 date: 2024-07-16T11:28:21+02:00
-draft: true
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 tags:
@@ -12,7 +11,6 @@ slug: "why-have-a-blog-in-the-fast-social-media-era"
 categories:
 - rant
 description: ""
-
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
