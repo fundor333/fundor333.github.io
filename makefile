@@ -57,6 +57,7 @@ deploy: clean characters ## Ready to deploy
 	@npm update
 	@hugo mod get -u
 	@hugo --minify
+	@find . -type d -empty -delete
 	@python mastodon2hugo.py @fundor333@micro.blog
 	@python mastodon2hugo.py @fundor333@mastodon.social
 
