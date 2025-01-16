@@ -13,6 +13,6 @@ resources:
   src: 'DSCF0070.jpg'
 ---
 
-heavily edited with the IA from Lightroom for cleaning, I love this photo but if you print in big format can have problems...
+Heavily edited with the IA from Lightroom for cleaning, I love this photo but if you print in big format can have problems...
 
 I need to work more on the night setting for having less editing.
