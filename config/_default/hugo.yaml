@@ -9,10 +9,7 @@ module:
   imports:
     - path: github.com/hugo-sid/hugo-blog-awesome
 
-theme: "github.com/hugo-sid/hugo-blog-awesome"
-
-footer:
-  disclaimer: "ciao"
+theme: ["hugo-redirect", "github.com/hugo-sid/hugo-blog-awesome"]
 
 related:
   includeNewer: true
