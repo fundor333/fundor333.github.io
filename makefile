@@ -58,6 +58,7 @@ deploy: clean characters ## Ready to deploy
 	@hugo mod get -u
 	@hugo --minify
 	@python mastodon2hugo.py @fundor333@micro.blog
+	@python mastodon2hugo.py @fundor333@mastodon.social
 
 brodcast: clean ## Brodcast the site
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
