@@ -1,0 +1,25 @@
+[
+  {
+    "type": "entry",
+    "author": {
+      "type": "card",
+      "name": "🇺🇦🏳️‍🌈🐍Fundor 333🐳👨‍💻",
+      "photo": "https://webmention.io/avatar/pbs.twimg.com/c3d085f0266cb157220a9e6312c26ccaeb56e5c4d2d501cf0d6426f05c36890e.jpg",
+      "url": "https://twitter.com/fundor333"
+    },
+    "url": "https://twitter.com/fundor333/status/1577345091492102152",
+    "published": "2022-10-04T17:09:10+00:00",
+    "wm-received": "2022-10-04T19:05:25Z",
+    "wm-id": 1532897,
+    "wm-source": "https://brid.gy/comment/twitter/fundor333/1577345091492102152/1577345091492102152",
+    "wm-target": "https://fundor333.com/social/2022/10/04/1664903082/",
+    "wm-protocol": "webmention",
+    "content": {
+      "html": "- (<a href=\"https://fundor333.com/social/2022/10/04/1664903082/\">fundor333.com/social/2022/10…</a>)\n<a class=\"u-mention\" href=\"https://twitter.com/Biberkopf76\"></a>",
+      "text": "- (fundor333.com/social/2022/10…)"
+    },
+    "in-reply-to": "https://fundor333.com/social/2022/10/04/1664903082/",
+    "wm-property": "in-reply-to",
+    "wm-private": false
+  }
+]

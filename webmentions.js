@@ -9,9 +9,11 @@ fetchWebmentions().then(webmentions => {
       .replace("/", "--");
  
     const filename = `${__dirname}/data/webmentions/${slug}.json`;
+
  
     if (!fs.existsSync(filename)) {
-      fs.writeFileSync(filename, JSON.stringify([webmention], null, 2));
+	fs.mkdirSync(`${__dirname}/data/webmentions/${slug}`, { recursive: true });
+	fs.writeFileSync(filename, JSON.stringify([webmention], null, 2));
  
       return;
     }
@@ -30,7 +32,7 @@ function fetchWebmentions() {
   const token = process.env.WEBMENTIONS_TOKEN;
  
   const since = new Date();
-  since.setDate(since.getDate() - 3);
+  since.setDate(since.getDate() - 15);
  
   const url =
     "https://webmention.io/api/mentions.jf2" +
