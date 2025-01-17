@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article class="h-entry">
+            <header class="header">
+                <h1 class="header-title p-name">{{ .Title }}</h1>
+                <div class="post-meta">
+                  <a class="u-url" href="{{ .Permalink }}">
+                  {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+                  {{ with .Date }}
+                  {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
+                      <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
+                  {{ end }}
+                  by {{ with .Site.Params.Hcard.Avatar }}<img class="u-photo" alt="" style=" display: none;" src="{{ . | absURL }}"> {{ end }}<a class="p-author h-card" rel="author" href="{{ .Site.BaseURL }}">{{ .Site.Params.Hcard.FullName }}</a>
+                  </a>
+                </div>
+            </header>
+            {{ partial "toc.html" .}}
+            <div class="page-content">
+                {{ .Content }}
+            </div>
+        </article>
+        {{- partial "comments.html" . -}}
+    </main>
+</div>
+{{ end }}

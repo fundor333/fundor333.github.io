@@ -1,6 +1,8 @@
 <footer class="footer">
+
     <span class="footer_item"> </span>
-    &nbsp;
+    {{ partial "hcard" . }}
+
 
     <div class="footer_social-icons">
         {{- partial "socialIcons.html" site.Params.socialIcons -}}

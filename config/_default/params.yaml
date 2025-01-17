@@ -45,3 +45,22 @@ author:
   name: "Fundor333"
   description: "Pythonista, Backend Developer, Photographer, Dev Ops, Ex-Scout, Bookworm and Tea Lover. Sometime you can find me in a GDG, a DataBeers, a Pycon, a Comicon or other similar event. Huge Open Source fan and user I am allways searching something new to do or to study. Huge fan of automation, autodeploy, data sharing and bots. A lot of my personal stuff are here in my blog and some in my Github."
   fediverseAccount: "@fundor333@mastodon.social"
+
+hcard:
+  avatar: "img/logo.png"
+  fullName: Fundor333
+  pronouns:
+    - he
+    - his
+  nickname: F333
+  city: Venice
+  region: Ve
+  country: IT
+  showLocation: true
+  social:
+    - platform: email
+      identity: blog@fundor333.com
+      url_pattern: mailto:%s
+    - platform: github
+      identity: fundor333
+      url_pattern: https://github.com/%s
