@@ -1,6 +1,6 @@
 ---
 title: "My Zsh Command History"
-date: 2025-01-18T11:47:42+01:00
+date: 2025-01-17T11:47:42+01:00
 description: "And I print my ZSH History"
 isStarred: false
 tags:
