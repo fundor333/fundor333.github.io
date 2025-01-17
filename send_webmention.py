@@ -3,7 +3,10 @@ import feedparser
 from rich.console import Console
 from rich.text import Text
 
-feed_url = "http://fundor333.com/index.xml"
+feed_url = [
+    "https://micro.fundor333.com/index.xml",
+    "http://fundor333.com/index.xml",
+]
 
 
 def send_webmention(url: str):
@@ -20,10 +23,11 @@ def send_webmention(url: str):
     console.print(text)
 
 
-def get_url_from_feed():
+def get_url_from_feed(feed_url: str):
     for link in feedparser.parse(feed_url).entries:
         send_webmention(link.link)
 
 
 if __name__ == '__main__':
-    get_url_from_feed()
+    for url in feed_url:
+        get_url_from_feed(url)
