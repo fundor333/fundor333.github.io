@@ -18,9 +18,8 @@ series:
 
 For social pression of some blogger I follow ([Andrea Grandi](https://www.andreagrandi.it/posts/my-zsh-history/),[Nicola Iarocci](https://nicolaiarocci.com/my-most-used-command-line-commands/), [Chris DeLuca](https://www.chrisdeluca.me/2024/12/31/my-cli-wrapped-most-used.html) ) I follow with the history of my terminal (ZSH)
 
-
 - 90 git
-- 49 
+- 49
 - 38 open
 - 34 poetry
 - 27 make
@@ -31,8 +30,7 @@ For social pression of some blogger I follow ([Andrea Grandi](https://www.andrea
 - 14 pipenv
 
 As a dev the first command is _git_... The second command is a bad habits I have... Spam new line in the terminal...
-I don't find _ls_ and I find it strange... 
-
+I don't find _ls_ and I find it strange...
 
 Here the command I used
 
