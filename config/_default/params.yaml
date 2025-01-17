@@ -57,10 +57,3 @@ hcard:
   region: Ve
   country: IT
   showLocation: true
-  social:
-    - platform: email
-      identity: blog@fundor333.com
-      url_pattern: mailto:%s
-    - platform: github
-      identity: fundor333
-      url_pattern: https://github.com/%s
