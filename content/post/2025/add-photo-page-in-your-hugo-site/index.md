@@ -1,7 +1,6 @@
 ---
 title: "Add Photo Page in your Hugo Site"
 date: 2025-01-16T12:49:32+01:00
-draft: true
 description: "Some time ago I add a new post type to my blog: photography"
 isStarred: false
 tags:
