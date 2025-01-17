@@ -5,6 +5,7 @@
             <header class="header">
                 <h1 class="header-title p-name">{{ .Title }}</h1>
                 <div class="post-meta">
+                  <div style="display: none;" class="p-summary	">{{ .Description }}</div>
                   <a class="u-url" href="{{ .Permalink }}">
                   {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
                   {{ with .Date }}
