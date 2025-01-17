@@ -4,6 +4,8 @@ languageCode: en
 title: Fundor333
 enableRobotsTXT: true
 fediverseAccount: "@fundor333@mastodon.social"
+ignoreLogs:
+  - "warning-goldmark-raw-html"
 
 module:
   imports:

@@ -26,7 +26,7 @@ gomodule: ## Update Go Module
 
 .PHONY: hydra
 hydra: ## Check links
-	@poetry run python hydra.py http://localhost:1313/ --config ./hydra-config.json
+	@python hydra.py http://localhost:1313/ --config ./hydra-config.json
 
 .PHONY: syntax
 syntax: ## Build the style of the code
