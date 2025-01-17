@@ -12,7 +12,7 @@
                   {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
                       <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
                   {{ end }}
-                  by {{ with .Site.Params.Hcard.Avatar }}<img class="u-photo" alt="" style=" display: none;" src="{{ . | absURL }}"> {{ end }}<a class="p-author h-card" rel="author" href="{{ .Site.BaseURL }}">{{ .Site.Params.Hcard.FullName }}</a>
+                  by {{ with .Site.Params.Hcard.Avatar }}<img class="u-photo" alt="" style=" display: none;" src="{{ . | absURL }}"> {{ end }}<a class="p-author h-card" rel="author" href="{{ .Site.BaseURL }}">{{ $.Site.Params.Hcard.FullName }}</a>
                   </a>
                 </div>
             </header>
