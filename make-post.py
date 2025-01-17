@@ -25,25 +25,25 @@ def post_fc():
     os.system(f"hugo new post/{year}/{name.replace(' ','-').replace(',','').lower()}/index.md")
 
 
-def quiet_fc():
-    print("Make a quiet")
-    onlyfiles = [f for f in listdir("content/quiet") if isfile(join("content/quiet", f))]
-    numbs = []
-    for e in onlyfiles:
-        s = filter(str.isdigit, e)
-        s = "".join(s)
-        if s:
-            numbs.append(int(s))
-    generated = max(numbs) + random.randint(151, 839)
-    os.system(f"hugo new quiet/{generated}.md")
+def micro_fc():
+    print("Make a micro")
+    name = input("Give me the title\n")
+    year = str(datetime.datetime.now().year)
+    month = str(datetime.datetime.now().month)
+    day = str(datetime.datetime.now().day)
+    hour = str(datetime.datetime.now().hour)
+    minute = str(datetime.datetime.now().minute)
+    generated = f"{year.ljust(4,"0")}{month.ljust(2,"0")}{day.ljust(2,"0")}{hour.ljust(2,"0")}{minute.ljust(2,"0")}-{name.replace(' ', '-').replace(',', '').lower()}"
+    print(generated)
+    os.system(f"hugo new micro/{generated}.md")
     print(f"Generated {generated}.md")
 
 
-ANSWER = {"post": post_fc, "quiet": quiet_fc, 'photo': post_photo, 'redirect': post_redirect}
+ANSWER = {"post": post_fc, "micro": micro_fc, 'photo': post_photo, 'redirect': post_redirect}
 
 
 def main_checker():
-    text = input("You need a new [post], a new [photo] or a new [quiet]\n")  # Python 3
+    text = input("You need a new [post], a new [photo] or a new [micro]\n")  # Python 3
     # text = "post"
     ANSWER.get(text, main_checker)()
 

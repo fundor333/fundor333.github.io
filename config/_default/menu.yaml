@@ -7,6 +7,10 @@ main:
     name: "Blog"
     url: "/post"
     weight: 20
+  - pageRef: "/micro"
+    name: "Micro"
+    url: "/micro"
+    weight: 22
   - pageRef: "/photos"
     name: "Photos"
     url: "/photos"
