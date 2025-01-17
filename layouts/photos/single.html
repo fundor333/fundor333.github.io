@@ -5,26 +5,28 @@
     <main class="page-content" aria-label="Content">
         <article class="h-entry">
             <header class="header">
-                <h1 class="header-title">{{ .Title }}</h1>
+                <h1 class="header-title p-name">{{ .Title }}</h1>
                 {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
                 {{ with .Date }}
                 {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
                 <div class="post-meta">
-                    <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
+                    <time datetime="{{ $ISO_time }}" itemprop="datePublished"  class="dt-published"> {{ . | time.Format $configDateFormat }} </time> by
+                    <a rel="author" class="p-author h-card no-underline " href="{{ $.Site.BaseURL }}">{{$.Site.Params.Author.name }}</a>
+
                 </div>
                 {{ end }}
             </header>
             {{ partial "toc.html" .}}
-            <div class="page-content">
+            <div class="page-content e-content">
               {{ with .Resources.ByType "image" }}
-              <div class="grid grid-cols-1 place-items-center">
+              <div class="grid grid-cols-1 place-items-center ">
 
                 {{ range . }}
                     {{ $image := .Fit "1024x1024" }}
 
                     <figure class="figure grid grid-cols-1 place-items-center hmedia">
                       <img loading="lazy" class="u-photo u-featured rounded-lg shadow-2xl" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $.Description }}">
-                      <figcaption class="figure-caption">{{ $.Description }} - <a rel="author" class="p-author h-card no-underline " href="{{ $.Site.BaseURL }}">{{$.Site.Params.Author.name }}</a></figcaption>
+                      <figcaption class="figure-caption">{{ $.Description }}</figcaption>
                     </figure>
 
 
@@ -134,7 +136,7 @@
 
                 {{ end }}
 
-                <div class="grid grid-cols-1 justify-items-start e-content">
+                <div class="grid grid-cols-1 justify-items-start">
                   {{- .Content }}
                 </div>
 
