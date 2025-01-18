@@ -32,8 +32,8 @@ def micro_fc():
     month = str(datetime.datetime.now().month)
     generated = f"{year.ljust(4,"0")}/{month.ljust(2,"0")}/{name.replace(' ', '-').replace(',', '').lower()}"
 
-    os.system(f"hugo new micro/{generated}.md")
-    print(f"Generated {generated}.md")
+    os.system(f"hugo new micro/{generated}/index.md")
+    print(f"Generated {generated}/index.md")
 
 
 ANSWER = {"post": post_fc, "micro": micro_fc, 'photo': post_photo, 'redirect': post_redirect}
