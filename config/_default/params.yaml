@@ -2,6 +2,8 @@ sitename: Fundor 333
 description: Fundor 333's personal space on the web
 image: /img/pilogo.jpg
 logo: /img/logo.png
+images:
+  - /img/Opengraph.png
 defaultColor:
   "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
