@@ -9,15 +9,9 @@ ignoreLogs:
 
 module:
   imports:
-    - path: github.com/fundor333/macia-image
     - path: github.com/hugo-sid/hugo-blog-awesome
 
-theme:
-  [
-    "hugo-redirect",
-    "github.com/fundor333/macia-image",
-    "github.com/hugo-sid/hugo-blog-awesome",
-  ]
+theme: ["hugo-redirect", "github.com/hugo-sid/hugo-blog-awesome"]
 
 related:
   includeNewer: true
