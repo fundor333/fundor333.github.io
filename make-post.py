@@ -30,11 +30,8 @@ def micro_fc():
     name = input("Give me the title\n")
     year = str(datetime.datetime.now().year)
     month = str(datetime.datetime.now().month)
-    day = str(datetime.datetime.now().day)
-    hour = str(datetime.datetime.now().hour)
-    minute = str(datetime.datetime.now().minute)
-    generated = f"{year.ljust(4,"0")}{month.ljust(2,"0")}{day.ljust(2,"0")}{hour.ljust(2,"0")}{minute.ljust(2,"0")}-{name.replace(' ', '-').replace(',', '').lower()}"
-    print(generated)
+    generated = f"{year.ljust(4,"0")}/{month.ljust(2,"0")}/{name.replace(' ', '-').replace(',', '').lower()}"
+
     os.system(f"hugo new micro/{generated}.md")
     print(f"Generated {generated}.md")
 
