@@ -30,3 +30,15 @@ related:
       weight: 10
     - name: date
       weight: 10
+
+outputs:
+  home:
+    - html
+  uses:
+    - html
+  feeds:
+    - html
+  now:
+    - html
+  redirect:
+    - html

@@ -3,6 +3,9 @@ title: "feeds"
 specialpost: true
 type: page
 date: 2000-08-20T12:00:00+02:00
+outputs:
+-  'html' 
+
 ---
 This page collects content I'm producing in some way or the other, and is consumable with RSS. 
 [Learn more about the idea](https://marcus.io/blog/making-rss-more-visible-again-with-slash-feeds).

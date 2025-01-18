@@ -6,4 +6,5 @@ url = "/social_card/"
 redirect_to = "https://linktr.ee/fundor333"
 redirect_enabled = true
 private = true
+outputs=[ 'html' ]
 +++

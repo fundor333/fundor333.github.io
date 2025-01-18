@@ -10,6 +10,7 @@ defaultColor:
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
 mainSections: ["post", "photos", "micro"]
+feedSections: ["post", "photos", "micro"]
 commentSections: ["post", "photos", "micro"]
 suggestionSections: ["post"]
 toc: false # set to false to disable table of contents 'globally'
