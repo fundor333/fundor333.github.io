@@ -14,6 +14,8 @@ keywords:
 - terminal
 - zsh
 series:
+feature_link: "https://www.midjourney.com/home/"
+feature_text: "by IA Midjourney"
 ---
 
 For social pression of some blogger I follow ([Andrea Grandi](https://www.andreagrandi.it/posts/my-zsh-history/),[Nicola Iarocci](https://nicolaiarocci.com/my-most-used-command-line-commands/), [Chris DeLuca](https://www.chrisdeluca.me/2024/12/31/my-cli-wrapped-most-used.html) ) I follow with the history of my terminal (ZSH)

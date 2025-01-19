@@ -12,6 +12,8 @@ categories:
 images:
 keywords:
 series:
+feature_link: "https://www.midjourney.com/home/"
+feature_text: "by IA Midjourney"
 ---
 
 A lot of time ago I was an active user of DevianArt[^1] where I share my photos.
