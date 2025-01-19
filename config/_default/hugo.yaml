@@ -43,3 +43,7 @@ outputs:
     - html
   redirect:
     - html
+
+services:
+  rss:
+    limit: 10
