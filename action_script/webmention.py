@@ -15,8 +15,6 @@ now = datetime.datetime.now()
 since_data = now - datetime.timedelta(hours=24 * since_days)
 url = f"https://webmention.io/api/mentions.jf2?domain={domain}&token={token}&since={since_data.isoformat()}&per-page=999"
 
-print(url)
-
 
 def clean_slug(slug: str):
     return slug.replace(http_domain, "").split("?")[0]
