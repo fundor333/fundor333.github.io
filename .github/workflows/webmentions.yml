@@ -16,11 +16,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@master
 
-      - name: Set up Node.js
-        uses: actions/setup-node@master
-        with:
-          node-version: 12.x
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -36,7 +31,7 @@ jobs:
       - name: Fetch webmentions
         env:
           WEBMENTIONS_TOKEN: ${{ secrets.WEBMENTIONS_TOKEN }}
-        run: node ./webmentions.js
+        run: python ./action_script/webmention.py
 
       - name: Commit to repository
         env:
