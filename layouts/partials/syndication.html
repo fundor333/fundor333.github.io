@@ -1,0 +1,15 @@
+{{ if .Params.syndication_urls }}
+<hr>
+<br>
+  <div class="syndication">
+      <i class="fas fa-link"></i>
+      This post was also syndicated to:
+      {{- range $index, $url := .Params.syndication_urls }}
+        {{- $parsed_url := urls.Parse $url -}}
+        {{- if $index }}, {{- end }}
+        <a class="u-syndication" href="{{ $url }}" rel="syndication">{{ $parsed_url.Host }}</a>
+      {{- end }}
+    </small>
+  </div>
+  <br>
+{{ end }}

@@ -10,6 +10,8 @@ repost:
 like:
 rsvp:
 bookmark:
+syndication_urls:
+- https://mastodon.social/@fundor333/113862274690176965
 ---
 
 Another blog using Webmentions, creating and indipendent network between sites/blogs without the needs of social networks

@@ -38,6 +38,7 @@
             <div class="page-content e-content">
                 {{ .Content }}
             </div>
+            {{- partial "syndication.html" . -}}
         </article>
         {{- partial "comments.html" . -}}
     </main>

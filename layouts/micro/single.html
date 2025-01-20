@@ -22,6 +22,7 @@
               {{ partial "micro.html" . }}
                 {{ .Content }}
             </div>
+            {{- partial "syndication.html" . -}}
         </article>
         {{- partial "comments.html" . -}}
     </main>

@@ -7,6 +7,7 @@ images: []
 resources:
 - title: "{{ replace .Name "-" " " | title }}"
   src: '_D0A7928-2.jpg'
+syndication_urls:
 ---
 
 ## Challenge

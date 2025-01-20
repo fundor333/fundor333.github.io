@@ -10,5 +10,6 @@ repost:
 like:
 rsvp:
 bookmark:
+syndication_urls:
 ---
 
