@@ -36,7 +36,8 @@ cache: ## Clean the cache
 	@hugo --gc
 
 clean: cache gomodule ## Clean the directory of the project of chache e meta file and other things
-
+	@find . -type d -empty -delete
+	
 .PHONY: run
 run: clean  ## Build the site cleaning all
 	@hugo --minify
@@ -57,7 +58,6 @@ deploy: clean characters ## Ready to deploy
 	@npm update
 	@hugo mod get -u
 	@hugo --minify
-	@find . -type d -empty -delete
 	@python mastodon2hugo.py @fundor333@micro.blog
 	@python mastodon2hugo.py @fundor333@mastodon.social
 

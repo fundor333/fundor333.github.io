@@ -27,7 +27,7 @@ class MastodonFinder:
                         if output.get(e, False):
                             output[e].append(link)
                         else:
-                            output[e] = [link]
+                            output[e] = [link.strip()]
         else:
             print("Failed to get RSS feed. Status code:", feed.status)
 
@@ -46,15 +46,17 @@ class WriterSyndication:
         for key in self.output.keys():
             original_path = key.split(self.domain)[1]
             path_list = original_path.split('/')
+
+            path_list = [x for x in path_list if x.strip()]
+            filename = path_list.pop()
+
             path_folder = os.path.join('data', "syndication", *path_list)
 
             Path(path_folder).mkdir(parents=True, exist_ok=True)
-            path_file = os.path.normpath(original_path)
-
-            print(path_folder)
+            path_file = os.path.join(path_folder, filename)
 
             with open(path_file, 'w') as fp:
-                json.dump(self.output[key], fp)
+                json.dump({"syndication": self.output[key]}, fp)
 
     def run(self):
         self.data_gathering()
