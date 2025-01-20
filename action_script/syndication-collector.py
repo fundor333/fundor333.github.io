@@ -50,10 +50,10 @@ class WriterSyndication:
             path_list = [x for x in path_list if x.strip()]
             filename = path_list.pop()
 
-            path_folder = os.path.join('data', "syndication", *path_list)
+            path_folder = os.path.join("..", 'data', "syndication", *path_list)
 
             Path(path_folder).mkdir(parents=True, exist_ok=True)
-            path_file = os.path.join(path_folder, filename)
+            path_file = os.path.join(path_folder, filename + ".json")
 
             with open(path_file, 'w') as fp:
                 json.dump({"syndication": self.output[key]}, fp)

@@ -184,3 +184,4 @@ OME/
 .DS_Store
 build
 
+action_script/.env

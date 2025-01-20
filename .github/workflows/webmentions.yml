@@ -31,7 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch Syndication
-        run: python ./syndication-collector.py
+        run: python ./action_script/syndication-collector.py
 
       - name: Fetch webmentions
         env:
