@@ -55,8 +55,9 @@ Hcard:
   avatar: "img/logo.png"
   fullName: Fundor333
   pronouns:
-    - he
-    - his
+    nominative: he
+    oblique: him
+    possessive: his
   nickname: F333
   city: Venice
   region: Ve
