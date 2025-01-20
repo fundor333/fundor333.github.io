@@ -1,11 +1,9 @@
 import requests
 import os
 import datetime
-from dotenv import load_dotenv
 import json
 from pathlib import Path
 
-load_dotenv()
 
 http_domain = "https://fundor333.com"
 domain = "fundor333.com"
