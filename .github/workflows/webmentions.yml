@@ -9,6 +9,7 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:
 jobs:
   webmentions:
     runs-on: ubuntu-latest
