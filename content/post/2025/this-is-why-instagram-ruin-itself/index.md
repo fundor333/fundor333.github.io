@@ -50,8 +50,7 @@ So if i post a photo of my cat flying and I have a big community, I can say in t
 
 Why????
 
-[^instasize]: Original announcment [Introducing Landscape and Portrait Formats on Instagram
-](https://about.instagram.com/blog/announcements/introducing-landscape-and-portrait-formats-on-instagram)
+[^instasize]: Original announcment [Introducing Landscape and Portrait Formats on Instagram](https://about.instagram.com/blog/announcements/introducing-landscape-and-portrait-formats-on-instagram)
 [^communitynote]: [Meta now has community note not fact check](https://about.fb.com/news/2025/01/meta-more-speech-fewer-mistakes/)
 
 ## Third problem
