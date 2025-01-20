@@ -28,7 +28,7 @@ jobs:
 
       - name: Commit to repository
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           COMMIT_MSG: |
             Fetch webmentions
             skip-checks: true
