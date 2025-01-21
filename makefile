@@ -56,16 +56,19 @@ build: clean ## Build for dev
 
 deploy: clean characters ## Ready to deploy
 	@npm update
+	@poetry export --without-hashes --format=requirements.txt > requirements.txt
 	@hugo mod get -u
 	@hugo --minify
 	@python mastodon2hugo.py @fundor333@micro.blog
 	@python mastodon2hugo.py @fundor333@mastodon.social
+
 
 brodcast: clean ## Brodcast the site
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
 
 deploy_prod:  ## Ready to deploy
 	@npm update
+	@poetry export --without-hashes --format=requirements.txt > requirements.txt
 	@hugo mod get -u
 	@hugo --minify 
 
