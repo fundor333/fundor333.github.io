@@ -2,10 +2,16 @@ import feedparser
 from pathlib import Path
 import os
 import json
+import hashlib
+
+domain = "https://fundor333.com"
+rss_url_mastodon = "https://mastodon.social/@fundor333.rss"
 
 
-domain = 'https://fundor333.com'
-rss_url_mastodon = 'https://mastodon.social/@fundor333.rss'
+def clean_slug(slug: str):
+    return hashlib.md5(
+        (slug.split("?")[0]).encode("utf-8"), usedforsecurity=False
+    ).hexdigest()
 
 
 class MastodonFinder:
@@ -21,9 +27,10 @@ class MastodonFinder:
         feed = feedparser.parse(rss_url)
         if feed.status == 200:
             for entry in feed.entries:
-                link = entry.get('link')
-                for e in self.find_urls(entry.get('description')):
+                link = entry.get("link")
+                for e in self.find_urls(entry.get("description")):
                     if domain in e:
+                        e = clean_slug(e)
                         if output.get(e, False):
                             output[e].append(link)
                         else:
@@ -44,18 +51,13 @@ class WriterSyndication:
 
     def write(self):
         for key in self.output.keys():
-            original_path = key.split(self.domain)[1]
-            path_list = original_path.split('/')
 
-            path_list = [x for x in path_list if x.strip()]
-            filename = path_list.pop()
-
-            path_folder = os.path.join('data', "syndication", *path_list)
+            path_folder = os.path.join("data", "syndication")
 
             Path(path_folder).mkdir(parents=True, exist_ok=True)
-            path_file = os.path.join(path_folder, filename + ".json")
+            path_file = os.path.join(path_folder, key)
 
-            with open(path_file, 'w') as fp:
+            with open(path_file + ".json", "w") as fp:
                 json.dump({"syndication": self.output[key]}, fp)
 
     def run(self):

@@ -5,6 +5,9 @@
           <header class="header">
           <h1 class="header-title p-name">{{ .Title }}</h1>
 
+          {{ $urlized := .Page.Permalink | md5 }}
+          {{ $urlized}}
+
           <div class="post-meta">
             <div style="display: none;" class="p-summary	">{{ .Description }}</div>
             <a class="u-url" href="{{ .Permalink }}">

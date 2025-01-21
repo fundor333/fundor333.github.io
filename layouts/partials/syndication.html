@@ -1,15 +1,23 @@
-{{ if .Params.syndication_urls }}
+{{ $urlized := .Page.Permalink | md5 }}
+{{ if index .Site.Data.syndication $urlized }}
+
 <hr>
 <br>
   <div class="syndication">
       <i class="fas fa-link"></i>
       This post was also syndicated to:
-      {{- range $index, $url := .Params.syndication_urls }}
+      {{ $data:=  index .Site.Data.syndication $urlized  }}
+
+      {{ $data:= $data.syndication }}
+
+      {{ range $index, $url := $data}}
         {{- $parsed_url := urls.Parse $url -}}
         {{- if $index }}, {{- end }}
         <a class="u-syndication" href="{{ $url }}" rel="syndication">{{ $parsed_url.Host }}</a>
-      {{- end }}
-    </small>
+      {{ end }}
   </div>
   <br>
 {{ end }}
+
+
+

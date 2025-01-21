@@ -3,20 +3,23 @@ help: ## Show this help
 	@egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 install: ## Intall
-	@npm install 
+	@npm install
 	@hugo mod get -u
+	@poetry install --no-root
+	@poetry run pre-commit install
+	@poetry run pre-commit autoupdate
 
 send_webmention: ## Send webmention from feed
 	@poetry run python send_webmention.py
 
 develop: ## Run the site localy
-	@hugo server  --minify --disableFastRender --renderToMemory 
+	@hugo server  --minify --disableFastRender --renderToMemory
 
 developfuture: ## Run the site localy with all the future article
-	@hugo server  --minify --disableFastRender --buildFuture --renderToMemory 
+	@hugo server  --minify --disableFastRender --buildFuture --renderToMemory
 
 developall: ## Run the site localy with all the article, future or drafts
-	@hugo server  --minify --disableFastRender --buildFuture --buildDrafts --renderToMemory 
+	@hugo server  --minify --disableFastRender --buildFuture --buildDrafts --renderToMemory
 
 .PHONY: gomodule
 gomodule: ## Update Go Module
@@ -37,7 +40,7 @@ cache: ## Clean the cache
 
 clean: cache gomodule ## Clean the directory of the project of chache e meta file and other things
 	@find . -type d -empty -delete
-	
+
 .PHONY: run
 run: clean  ## Build the site cleaning all
 	@hugo --minify
@@ -61,6 +64,7 @@ deploy: clean characters ## Ready to deploy
 	@hugo --minify
 	@python mastodon2hugo.py @fundor333@micro.blog
 	@python mastodon2hugo.py @fundor333@mastodon.social
+	@poetry run pre-commit autoupdate
 
 
 brodcast: clean ## Brodcast the site
@@ -70,7 +74,7 @@ deploy_prod:  ## Ready to deploy
 	@npm update
 	@poetry export --without-hashes --format=requirements.txt > requirements.txt
 	@hugo mod get -u
-	@hugo --minify 
+	@hugo --minify
 
 
 .PHONY: submodule

@@ -1,3 +1,0 @@
-feedparser==6.0.11
-requests
-python-dotenv
