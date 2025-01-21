@@ -72,7 +72,6 @@ brodcast: clean ## Brodcast the site
 
 deploy_prod:  ## Ready to deploy
 	@npm update
-	@poetry export --without-hashes --format=requirements.txt > requirements.txt
 	@hugo mod get -u
 	@hugo --minify
 
