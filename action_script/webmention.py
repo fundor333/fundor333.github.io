@@ -3,12 +3,12 @@ import os
 import datetime
 import json
 from pathlib import Path
-
+import hashlib
 
 http_domain = "https://fundor333.com"
 domain = "fundor333.com"
 token = os.getenv("WEBMENTIONS_TOKEN")
-since_days = 30
+since_days = 90000
 
 
 now = datetime.datetime.now()
@@ -17,7 +17,9 @@ url = f"https://webmention.io/api/mentions.jf2?domain={domain}&token={token}&sin
 
 
 def clean_slug(slug: str):
-    return slug.replace(http_domain, "").split("?")[0]
+    return hashlib.md5(
+        (slug.split("?")[0]).encode("utf-8"), usedforsecurity=False
+    ).hexdigest()
 
 
 r = requests.get(url)
@@ -29,6 +31,7 @@ for webmention in data["children"]:
     with open("temp.json", "w") as fp:
 
         label = clean_slug(webmention["wm-target"])
+        label += "/" + str(webmention["wm-id"])
 
         if output.get(label, False):
             output[label].append(webmention)
