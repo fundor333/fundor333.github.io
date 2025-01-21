@@ -1,0 +1,32 @@
+
+{{ $urlized := .Page.Permalink | md5 }}
+
+
+{{ if index .Site.Data.webmentions $urlized }}
+
+  {{ $data:=  index .Site.Data.webmentions $urlized  }}
+
+  {{ $data }}
+
+  {{ range (index .Site.Data.webmentions $urlized )}}
+    {{   . }}
+  {{ end }}
+
+  {{ $likes := index (index .Site.Data $urlized) "like-of" }}
+  {{ $replys := index (index .Site.Data $urlized) "in-reply-to" }}
+  {{ $reposts := index (index .Site.Data $urlized) "repost-of"}}
+  <h4>Likes</h4>
+  {{ range $i, $like := $likes }}
+    <a href="{{$like.url}}"><img src="{{ $like.author.photo}}" alt="{{ $like.author.name }}" class="profile photo"></a>
+  {{end}}
+
+  <h4>Reposts</h4>
+  {{ range $i, $repost := $reposts }}
+    <a href="{{$repost.url}}"><img src="{{ $repost.author.photo}}" alt="{{ $repost.author.name }}" class="profile photo"></a>
+  {{end}}
+
+  <h4>Comments and Replies</h4>
+  {{ range $i, $reply := $replys }}
+    <a href="{{$reply.url}}"><img src="{{ $reply.author.photo}}" alt="{{ $reply.author.name }}" class="profile photo"></a>
+  {{end}}
+{{end}}
