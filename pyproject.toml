@@ -23,3 +23,6 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.plugins.dotenv]
 ignore = "false"
 location = ".env"
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
