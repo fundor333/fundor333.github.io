@@ -1,12 +1,13 @@
-
+<h1> ----- </h1>
 {{ $urlized := .Page.Permalink | md5 }}
 
+
+{{index .Site.Data.webmentions $urlized }}
 
 {{ if index .Site.Data.webmentions $urlized }}
 
   {{ $data:=  index .Site.Data.webmentions $urlized  }}
 
-  {{ $data }}
 
   {{ range (index .Site.Data.webmentions $urlized )}}
     {{   . }}

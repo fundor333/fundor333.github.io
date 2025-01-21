@@ -1,5 +1,5 @@
 ---
-title: "Github Action for Webmention and Syndication Links"
+title: "Github Action for Syndication Links"
 date: 2025-01-23T13:22:54+01:00
 draft: true
 feature_link: "https://www.midjourney.com/home/"
