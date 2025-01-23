@@ -11,6 +11,5 @@ categories:
 images:
 keywords:
 series:
-syndication_urls:
 ---
 
