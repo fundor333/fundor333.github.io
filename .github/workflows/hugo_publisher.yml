@@ -19,6 +19,7 @@ on:
       - main
   schedule:
     - cron: "*/15 * * * *"
+  workflow_dispatch:
 
   # Run when webmentions are fetched
   workflow_run:
