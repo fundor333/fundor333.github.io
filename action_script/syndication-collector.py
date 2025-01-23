@@ -91,14 +91,15 @@ class WriterSyndication:
                 with open(path_file + ".json") as fp:
                     data = json.load(fp)
                     if data.get("syndication", False):
-                        data["syndication"] = list(
+                        data["syndication"] = sorted(
                             set(data["syndication"] + self.output[key])
                         )
+
                     else:
-                        data["syndication"] = self.output[key]
+                        data["syndication"] = sorted(self.output[key])
 
             else:
-                data = {"syndication": self.output[key]}
+                data = {"syndication": sorted(self.output[key])}
 
             with open(path_file + ".json", "w") as fp:
                 json.dump(data, fp)

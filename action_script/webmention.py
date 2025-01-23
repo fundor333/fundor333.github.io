@@ -9,7 +9,7 @@ import hashlib
 http_domain = "https://fundor333.com"
 domain = "fundor333.com"
 token = os.getenv("WEBMENTIONS_TOKEN")
-since_days = 30
+since_days = 31
 
 
 class WebmentionFinder:
@@ -20,8 +20,10 @@ class WebmentionFinder:
         self.http_domain = http_domain
         self.domain = domain
         self.token = token
-        self.url = f"https://webmention.io/api/mentions.jf2?domain={self.domain}"
-        "&token={self.token}&since={self.since_data.isoformat()}&per-page=999"
+        self.url = (
+            f"https://webmention.io/api/mentions.jf2?domain={self.domain}"
+            + f"&token={self.token}&since={self.since_data.isoformat()}&per-page=999"
+        )
 
     def __clean_slug(self, slug: str):
         return hashlib.md5(
