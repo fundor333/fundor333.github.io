@@ -1,17 +1,15 @@
 <h1> ----- </h1>
-{{ $urlized := .Page.Permalink | md5 }}
+{{ $urlized := (replace (absURL .RelPermalink) "http://localhost:1313" "https://fundor333.com") | md5 }}
+
 
 
 {{index .Site.Data.webmentions $urlized }}
 
 {{ if index .Site.Data.webmentions $urlized }}
 
-  {{ $data:=  index .Site.Data.webmentions $urlized  }}
+  {{ $data:=  index (index .Site.Data.webmentions $urlized ) "stats" }}
 
-
-  {{ range (index .Site.Data.webmentions $urlized )}}
-    {{   . }}
-  {{ end }}
+<h1>---</h1>
 
   {{ $likes := index (index .Site.Data $urlized) "like-of" }}
   {{ $replys := index (index .Site.Data $urlized) "in-reply-to" }}

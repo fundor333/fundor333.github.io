@@ -1,3 +1,5 @@
+
+{{ $urlized := (replace (absURL .RelPermalink) "http://localhost:1313" "https://fundor333.com") | md5 }}
 {{ $urlized := .Page.Permalink | md5 }}
 {{ if index .Site.Data.syndication $urlized }}
 

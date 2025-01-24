@@ -9,7 +9,7 @@ import hashlib
 http_domain = "https://fundor333.com"
 domain = "fundor333.com"
 token = os.getenv("WEBMENTIONS_TOKEN")
-since_days = 31
+since_days = 360 * 20  # 31
 
 
 class WebmentionFinder:
@@ -71,10 +71,43 @@ class WebmentionFinder:
 
             files = os.listdir(path_f)
 
-            out_dict = []
+            out_dict = {
+                "source": [],
+                "stats": {
+                    "like-of": 0,
+                    "bookmark-of": 0,
+                    "mention-of": 0,
+                    "repost-of": 0,
+                    "in-reply-to": 0,
+                    "comments": [],
+                },
+            }
+            source = []
             for e in files:
                 with open(os.path.join(path_f, e)) as file:
-                    out_dict.append(json.load(file))
+                    for element in json.load(file):
+                        source.append(element)
+
+            out_dict["source"] += source
+            comments = []
+            links = []
+
+            for e in source:
+                wm_property = e["wm-property"]
+                out_dict["stats"][wm_property] += 1
+                link = e["wm-source"]
+                if e.get("content", False):
+                    if not (link in links):
+                        single_data = {
+                            "content": e["content"]["text"],
+                            "link": e["wm-source"],
+                            "author_name": e["author"]["name"],
+                            "author_photo": e["author"]["photo"],
+                            "author_url": e["author"]["url"],
+                        }
+                        comments.append(single_data)
+                        links.append(link)
+            out_dict["stats"]["comments"] = comments
 
             with open(os.path.join("data", "webmentions", folder + ".json"), "w") as fp:
                 json.dump(out_dict, fp)
