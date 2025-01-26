@@ -35,14 +35,6 @@ outputs:
   home:
     - html
     - rss
-  uses:
-    - html
-  feeds:
-    - html
-  now:
-    - html
-  redirect:
-    - html
 
 services:
   rss:
