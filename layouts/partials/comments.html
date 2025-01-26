@@ -1,20 +1,20 @@
 
 {{if in  site.Params.commentSections .Type}}
-
 <hr>
-{{ partial "webmention" . }}
+<h3>Comments</h3>
 
 <p>To reply to this post, you can send a <a href="https://indieweb.org/Webmention" target="_blank">Webmention</a> or you can toot me at <a href="https://mastodon.social/@fundor333">fundor333@mastodon.social</a> <br>
 
 You mentioned this post on your site? Send a <a href="https://indieweb.org/Webmention" target="_blank">Webmention</a></p>
 
+{{ partial "webmention" . }}
 
 <a href='https://brid.gy/publish/bluesky'></a>
 <a href='https://brid.gy/publish/mastodon'></a>
 {{end}}
 
 {{if in  site.Params.suggestionSections .Type}}
-
+<br>
 {{ $related := .Site.RegularPages.Related .  | first 5 }}
 
 {{ with $related }}
