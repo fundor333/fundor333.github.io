@@ -17,4 +17,4 @@ Some of the foto has the best light effects I ever saw in a foggy day
 
 #photography #fog #venice
 
-![foto](DSCF0317.jpg)
+![foto](cover.jpg)
