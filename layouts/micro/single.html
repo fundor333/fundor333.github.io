@@ -7,14 +7,17 @@
 
                 <div class="post-meta">
                   <div style="display: none;" class="p-summary	">{{ .Description }}</div>
-                  <a class="u-url" href="{{ .Permalink }}">
+
+                  <i class="fa-regular fa-typewriter"></i> {{.Site.Params.Author.name }} |
                   {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
                   {{ with .Date }}
                   {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
-                      <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
+                  <i class="fa-regular fa-calendar-range"></i>
+                  <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished">
+                    {{ . | time.Format $configDateFormat }}
+                  </time>
                   {{ end }}
-                  by {{ with .Site.Params.Hcard.Avatar }}<img class="u-photo" alt="" style=" display: none;" src="{{ . | absURL }}"> {{ end }}<a class="p-author h-card" rel="author" href="{{ .Site.BaseURL }}">{{ $.Site.Params.Hcard.FullName }}</a>
-                  </a>
+
                 </div>
             </header>
             {{ partial "toc.html" .}}

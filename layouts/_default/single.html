@@ -9,7 +9,8 @@
             <a class="u-url" href="{{ .Permalink }}"><div style="display: none;" class="p-summary">{{ .Description }}</div></a>
             <a rel="author" class="p-author h-card no-underline " href="{{ .Site.BaseURL }}" style="display: none;" >{{ .Site.Params.Author.name }}</a>
 
-            <i class="fa-duotone fa-solid fa-typewriter"></i> {{.Site.Params.Author.name }} |
+            {{ if eq .Type "post" }}
+            <i class="fa-regular fa-typewriter"></i> {{.Site.Params.Author.name }} |
             {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
             {{ with .Date }}
             {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
@@ -18,8 +19,10 @@
               {{ . | time.Format $configDateFormat }}
             </time> |
             {{ end }}
-            <i class="fa-duotone fa-mug-tea"></i> Reading time {{.ReadingTime}} minutes |
-            <i class="fa-duotone fa-pen-nib"></i> Word count {{.WordCount}}
+            <i class="fa-regular fa-mug-tea"></i></i> Reading time {{.ReadingTime}} minutes |
+            <i class="fa-regular fa-pen-nib"></i></i> Word count {{.WordCount}}
+            {{ end }}
+
 
           </div>
           <br>
