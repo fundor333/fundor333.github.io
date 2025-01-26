@@ -17,6 +17,10 @@ meta:
 - pdf
 - python
 Focus_Keyword: "django pdf reportlab"
+series:
+- Django tricks
+- Printing With ReportLab
+
 ---
 
 Sometime you need to print a pdf from your site or your web app with some custom data.

@@ -6,13 +6,15 @@ feature_text: "Photo by Liam Tucker on Unsplash"
 tags:
 - rant
 slug: "Microsoft-and-GitHub-after-some-time"
-categories: 
+categories:
 - rant
 description: "Three years later I talk about Microsoft buying Github"
 
 meta:
 - github
 - microsoft
+series:
+- Tech News
 ---
 
 This post is a follow up to one of my old post: [Microsoft buy Atom, Electron and Open Source](/post/2018/microsoft-buy-atom-electron-and-open-source).
@@ -26,9 +28,9 @@ So I search more and find the [official blog's post](https://blogs.microsoft.com
 
 After reading it and some more research I write a [post](/post/2018/microsoft-buy-atom-electron-and-open-source).
 
-## The big questions 
+## The big questions
 
-Now is three years after the original post and I have an answer for some of the questions i ask in my post. 
+Now is three years after the original post and I have an answer for some of the questions i ask in my post.
 
 ### Github has problems. Microsoft buying it will solve the problems or kill GitHub?
 
@@ -83,9 +85,9 @@ Now you have multiple integration from Azure to GitHub and from GitHub to Azure.
 
 ## Conclusion
 
-In my opinion is this[^1] bad for the Open Source community? 
+In my opinion is this[^1] bad for the Open Source community?
 [^1]: Microsoft owning GitHub
-**_Yes_**. No one must controll the biggest hosting for code. 
+**_Yes_**. No one must controll the biggest hosting for code.
 
 _But how we can change the situation?_
 

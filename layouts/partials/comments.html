@@ -17,6 +17,12 @@ You mentioned this post on your site? Send a <a href="https://indieweb.org/Webme
 <br>
 {{ $related := .Site.RegularPages.Related .  | first 5 }}
 
+{{- if .Params.series -}}
+  <div class="post-series-bottom">
+    {{ partial "series.html" . }}
+  </div>
+{{- end -}}
+
 {{ with $related }}
 <h3>See Also</h3>
 

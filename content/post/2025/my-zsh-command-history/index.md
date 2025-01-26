@@ -13,7 +13,6 @@ keywords:
 - bash
 - terminal
 - zsh
-series:
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 ---

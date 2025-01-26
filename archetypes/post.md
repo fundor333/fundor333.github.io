@@ -11,5 +11,10 @@ categories:
 images:
 keywords:
 series:
+- Tech News
+- Printing With ReportLab
+- Hugo tricks
+- Django tricks
+- Indiweb, webmentions and friends
 ---
 

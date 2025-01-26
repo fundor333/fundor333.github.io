@@ -19,6 +19,8 @@ keywords:
 - blog
 - site
 - social media
+series:
+- "A dev need a blog"
 ---
 
 I am a HUGE RSS reader so sometime I find something interesting and I want to read the full post.
@@ -36,7 +38,7 @@ So this is my point of view.
 
 ## The problem with the Social Media
 
-This is the era of Fast Social Media, your social media experience change every year. TikTok, YouTube Short and Instagram Reals are now the new standard, a short type of format which is eating away the other type of post (text, photo, long video) and for now they are the standard. 
+This is the era of Fast Social Media, your social media experience change every year. TikTok, YouTube Short and Instagram Reals are now the new standard, a short type of format which is eating away the other type of post (text, photo, long video) and for now they are the standard.
 
 But now with the AI generating content there will be a change of the type of the post you need to make for the _algorithm god_.
 

@@ -14,8 +14,8 @@ categories:
 - post
 - fingerfood
 description: "How to make a django form for reading BarCode and QRCode"
-
-meta:
+series:
+- Django tricks
 ---
 For work I need to implement a strange usercase: I need to have a form with QRCode and BarCode input.
 

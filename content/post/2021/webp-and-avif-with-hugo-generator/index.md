@@ -11,12 +11,13 @@ categories:
 - fingerfood
 - dev
 description: "Generate WebP and AVIF with Hugo"
-
 meta:
 - webp
 - avif
 - lazy load
 - microformat
+series:
+- Hugo tricks
 ---
 
 ## In the last episode

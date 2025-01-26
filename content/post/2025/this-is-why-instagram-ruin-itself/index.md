@@ -13,9 +13,10 @@ keywords:
 - meta
 - photo
 - social network
-series:
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
+series:
+- Tech News
 ---
 
 Instagram is a social network based on images and more recently on short format video (TikTok style) called stories.
@@ -42,7 +43,7 @@ All of this because:
 ## Second problem
 
 Meta now has community note not fact checking[^communitynote].
-So if i post a photo of my cat flying and I have a big community, I can say in the community note 
+So if i post a photo of my cat flying and I have a big community, I can say in the community note
 
 > Cat can fly on Friday Afternoon but only when Mars is in the Fishes
 >

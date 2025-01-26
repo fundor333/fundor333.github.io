@@ -11,22 +11,23 @@ categories:
 - dev
 images:
 keywords:
-series:
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
+series:
+- Hugo tricks
 ---
 
 A lot of time ago I was an active user of DevianArt[^1] where I share my photos.
 [^1]: A social media site for artists.  [Here](https://fundor333.deviantart.com) is my old profile
 
-One of the things I loved of the site are the meta-data under the photo. 
+One of the things I loved of the site are the meta-data under the photo.
 If you share any digital media with metadata, the site show them ([example](https://www.deviantart.com/fundor333/art/Venice-light-1071838909)) and because of them I learn something of photography.
 
 But now [DeviantArt is a zombie](https://micro.fundor333.com/2025/01/15/do-we-need-all-this/) and Instagram is not in a good place so I want to build my own photo space.
 
 ## Searching for Theme
 
-So I search something like a GoHugo Theme with photo gallery and single page info. 
+So I search something like a GoHugo Theme with photo gallery and single page info.
 Every theme I found with this support I didn't like it.
 
 One has the gallery but not the single page, one was only gallery no posts, one was single photo or video... So I change my mind and start reading the doc for Gohugo and some article find on google about GoHugo and photos...
@@ -192,7 +193,7 @@ In the header of the markdown you need to have all the image you want to render 
   </div>
 </div>
 ```
-In this template the first thing we do is find all resources which are image and render with a loop. 
+In this template the first thing we do is find all resources which are image and render with a loop.
 After render the image in a _figure_ tag we search the file for metadata EXIF.
 All the value EXIF we find we show them. Some are inside a "switch case" because we need something more human readible for some of them.
 

@@ -7,13 +7,15 @@ feature_text: "Photo by David Klein on Unsplash"
 tags:
 - rant
 slug: "good-developer-must-be-blogger"
-categories: 
+categories:
 - dev
 - rant
 description: "For be a good programmer you need to be a blogger and write regulary"
+series:
+- "A dev need a blog"
 ---
 
-I find the way to become a good programmer: 
+I find the way to become a good programmer:
 
 > Write a Blog about what are you doing
 
@@ -21,7 +23,7 @@ I see more and more good programmers have good blog and good blog about programm
 
 After studing somee good blog and some bad blog I came with this list
 
-> You need to write a blog about what you know. 
+> You need to write a blog about what you know.
 >
 > You must keep it updated.
 >
@@ -60,9 +62,9 @@ It, also, will be a motivation for research more and more stuff.
 
 More you research more you will want to know. This make a virtuosus circle of curiosity for understanding more and more stuff.
 
-This take you to abuse rss and podcast, because they are the easy way to have new knowledge directly on you phone/tablet/watch/smart mirror/cat. 
+This take you to abuse rss and podcast, because they are the easy way to have new knowledge directly on you phone/tablet/watch/smart mirror/cat.
 
-In this way you can have ***fingerfoods*** from other source and you can excenge with them. 
+In this way you can have ***fingerfoods*** from other source and you can excenge with them.
 
 ## So?
 

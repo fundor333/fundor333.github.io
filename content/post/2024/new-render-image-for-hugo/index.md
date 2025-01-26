@@ -22,8 +22,7 @@ keywords:
 aliases:
 - "/post/2024/new-render-image-fot-hugo/"
 series:
-- https://fundor333.com/post/2021/hugo-with-lazy-loading-and-webp/
-- https://fundor333.com/post/2021/webp-and-avif-with-hugo-generator/
+- Hugo tricks
 ---
 
 ## The story so far
@@ -130,7 +129,7 @@ So this is my code form the path _**layouts/_default/_markup/render-image.html**
 
   {{ end }}
 
-```   
+```
 
 In this code I set some values from the configs of the site so you can customize it in your theme and import it when ever you need it.
 

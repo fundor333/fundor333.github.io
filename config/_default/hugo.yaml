@@ -39,3 +39,6 @@ outputs:
 services:
   rss:
     limit: 20
+
+taxonomies:
+  series: series

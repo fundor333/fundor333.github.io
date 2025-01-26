@@ -10,6 +10,8 @@ title: Microsoft buy Atom, Electron and Open Source
 meta:
 - github
 - microsoft
+series:
+- Tech News
 ---
 
 Microsoft now own Github. From this we need to make some talk about the question which all the open source community is doing: "_Whas are going to change into the OpenSource comunity or into the public code?_"

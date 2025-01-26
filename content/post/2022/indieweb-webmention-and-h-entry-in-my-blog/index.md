@@ -14,6 +14,8 @@ categories:
 - dev
 - coding
 description: "Adding Indieweb and Webmention in my blog"
+series:
+- Indiweb, webmentions and friends
 
 ---
 

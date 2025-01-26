@@ -15,6 +15,8 @@ keywords:
 - blogging
 - hacking
 series:
+- Hugo tricks
+- Indiweb, webmentions and friends
 ---
 
 A lot of time ago I implement the Webmention in my site following a lot of blogpost.

@@ -8,15 +8,16 @@ tags:
 - devops
 - hugo
 slug: "Hugo-with-lazy-loading-and-webp"
-categories: 
+categories:
 - dev
 - fingerfood
 description: "Adding Lazy load, WebP and AVIF to your Hugo"
-
 meta:
 - webp
 - avif
 - lazy load
+series:
+- Hugo tricks
 ---
 
 New work and new knowledge. For having a better site/blog performance you can use _loadding="static"_ in the resources you need last and, if there are img, you can use avif and webp for faster render page time.
@@ -119,7 +120,7 @@ So this is my final _render-image.html_.
 {{- end -}}
 ```
 
-The start if is for manage linked image and work as a base case of this code using the "simple" code for the base. 
+The start if is for manage linked image and work as a base case of this code using the "simple" code for the base.
 For the "this is one of my blog's image" case we use a _picture_ tag. All the _source_ tags after are use only if ugo find the img with the correct img format.
 
 But the real different form the _pawelgrzybek's code_. I get the image config form the image in the content and not from the static's path. With the config of the image we can get the width and the height of the img.

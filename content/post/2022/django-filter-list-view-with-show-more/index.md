@@ -13,8 +13,9 @@ categories:
 - dev
 - fingerfood
 description: "How to have infinite scrolling in Django FilterView"
-
 meta:
+series:
+- Django tricks
 ---
 
 Sometime you want to have infinite scrolling in a Django ListView.
