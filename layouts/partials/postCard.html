@@ -1,0 +1,28 @@
+<article class="post-item">
+    <h4 class="post-item-title">
+        <a href="{{ .RelPermalink }}">
+          {{if eq .Type "post" }}
+            <i class="fa-regular fa-newspaper"></i>
+          {{ else if eq .Type  "micro" }}
+            <i class="fa-regular fa-thought-bubble fa-flip-horizontal"></i>
+          {{ else if eq .Type  "photos" }}
+            <i class="fa-regular fa-camera-retro"></i>
+          {{ else }}
+            <i class="fa-regular fa-cookie-bite"></i>
+          {{ end}}
+          {{ .Title }}</a>
+    </h4>
+    <h5>
+    {{/* format date string to create an ISO 8601 string */}}
+    {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
+    {{ $configDateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+    {{ if .Params.isStarred }}
+    <div class="post-item-right">
+      <i class="fa-regular fa-star"></i>
+    </div>
+    {{ end }}
+    <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
+        {{ time.Format $configDateFormat .Date }}
+        {{/* OLD FORMAT: .Date.Format $configDateFormat */}}
+    </time>
+</article>
