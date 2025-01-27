@@ -23,6 +23,7 @@
             {{ partial "toc.html" .}}
             <div class="page-content e-content">
               {{ partial "micro.html" . }}
+              {{- partial "bridgy.html" . -}}
                 {{ .Content }}
             </div>
             {{- partial "syndication.html" . -}}

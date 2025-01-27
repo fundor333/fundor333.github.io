@@ -44,6 +44,8 @@
             </header>
             {{ partial "toc.html" .}}
             <div class="page-content e-content">
+              {{- partial "bridgy.html" . -}}
+
                 {{ .Content }}
             </div>
             {{- partial "syndication.html" . -}}
