@@ -1,7 +1,6 @@
 ---
 title: "Substack vs Medium: What Is Better for a Coder?"
-date: 2025-01-26T23:12:52+01:00
-draft: true
+date: 2025-01-27T12:02:52+01:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: "If you are a developer where do you blog better? Medium or Substack?"
@@ -50,7 +49,7 @@ print("Hello World!")
 and the platform need to support all the types of the files _Bob_'s code but we only need the highlight for the languages...
 If _Bob_ needs to blog about _Cobol_ or _Pascal_[^cobol]
 
-[^cobol] Cobol and Pascal are two of the oldest languages and almost every highlighter in a generic blogging platform don't support them, so you need to use a more professional blogging platform and lost time with the custumizations
+[^cobol]: Cobol and Pascal are two of the oldest languages and almost every highlighter in a generic blogging platform don't support them, so you need to use a more professional blogging platform and lost time with the custumizations
 
 ### Customing and theming
 
