@@ -1,2 +1,7 @@
-<a href='https://brid.gy/publish/bluesky'></a>
-<a href='https://brid.gy/publish/mastodon'></a>
+{{ range .Site.Params.bridgy }}
+<a href='https://brid.gy/publish/{{.}}'></a>
+{{ end }}
+
+{{ if ne .Type "micro"}}
+<div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">{{ .Description }}</div>
+{{ end }}

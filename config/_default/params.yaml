@@ -63,3 +63,7 @@ Hcard:
   region: Ve
   country: IT
   showLocation: true
+
+bridgy:
+  - "mastodon"
+  - "bluesky"
