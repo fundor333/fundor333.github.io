@@ -29,7 +29,6 @@
           {{ $image := .Resources.GetMatch "{cover.webp,cover.jpg,cover.png,cover.jpeg}" }}
           {{ if  $image }}
           <div class="container-fluid  text-justify">
-            {{ $image := .Resources.GetMatch "{*.webp,*.jpg,*.png,*.jpeg}" }}
             {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
 
             <div class="flex flex-col items-stretch">
