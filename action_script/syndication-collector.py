@@ -85,14 +85,13 @@ class FeedFinder:
 
                 for e in self.find_urls(self.get_label(feed.version, entry)):
                     if domain in e:
-                        print(f"{link} - {e}")
                         e = clean_slug(e)
                         if output.get(e, False):
                             output[e].append(link.strip())
                         else:
                             output[e] = [link.strip()]
         else:
-            print("Failed to get RSS feed. Status code:", feed.status)
+            logging.error("Failed to get RSS feed. Status code:", feed.status)
 
 
 class WriterSyndication:
