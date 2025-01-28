@@ -57,6 +57,11 @@ build: clean ## Build for dev
 	@hugo mod get -u
 	@hugo
 
+.PHONY: syndication
+syndication: ## Syndication script
+	@poetry run python action_script/syndication-collector.py
+	@poetry run python action_script/webmention.py
+
 deploy: clean characters ## Ready to deploy
 	@npm update
 	@poetry export --without-hashes --format=requirements.txt > requirements.txt
