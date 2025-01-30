@@ -1,6 +1,6 @@
 ---
 title: "An Easy Way to Start a Life in the IndieWeb"
-date: 2025-01-30T20:46:00+01:00
+date: 2025-01-31T12:46:00+01:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: "A tool to start a life on the IndieWeb leaving the social media behind"
