@@ -57,6 +57,7 @@ class HackerNewsFinder:
                         else:
                             output[hashed] = [info[0]]
                     data["readed"].append(link)
+            data["readed"] = sorted(set(data["readed"]))
         with open(self.path_file + ".json", "w") as fp:
             json.dump(data, fp)
 
