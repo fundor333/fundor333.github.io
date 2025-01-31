@@ -40,7 +40,7 @@ class HackerNewsFinder:
     def get_article(self, article_id):
         url = f"https://hacker-news.firebaseio.com/v0/item/{article_id}.json"
         data = requests.get(url).json()
-        if data.get("type", False) == "story":
+        if data.get("type", False) == "story" and not data.get("dead", False):
             return (f"https://news.ycombinator.com/item?id={article_id}", data["url"])
         return False
 
