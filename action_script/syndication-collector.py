@@ -23,7 +23,7 @@ def clean_slug(slug: str):
 
 
 class HackerNewsFinder:
-    def __init__(self, hacker_news_username):
+    def __init__(self, hacker_news_usernam, output):
         self.hacker_news_username = hacker_news_username
         self.path_folder = os.path.join("data", "syndication", "hacker_news")
         Path(self.path_folder).mkdir(parents=True, exist_ok=True)
@@ -31,6 +31,7 @@ class HackerNewsFinder:
         if os.path.exists(self.path_file + ".json") is False:
             with open(self.path_file + ".json", "w") as fp:
                 json.dump({"readed": []}, fp)
+        self.output = output
 
     def get_articles_id(self):
         url = f"https://hacker-news.firebaseio.com/v0/user/{self.hacker_news_username}.json"
@@ -44,7 +45,7 @@ class HackerNewsFinder:
             return (f"https://news.ycombinator.com/item?id={article_id}", data["url"])
         return False
 
-    def run(self, output: dict):
+    def run(self):
         with open(self.path_file + ".json") as fp:
             data = json.load(fp)
             for link in self.get_articles_id():
@@ -52,10 +53,10 @@ class HackerNewsFinder:
                     info = self.get_article(link)
                     if info:
                         hashed = clean_slug(info[1])
-                        if output.get(hashed, False):
-                            output[hashed].append(info[0])
+                        if self.output.get(hashed, False):
+                            self.output[hashed].append(info[0])
                         else:
-                            output[hashed] = [info[0]]
+                            self.output[hashed] = [info[0]]
                     data["readed"].append(link)
             data["readed"] = sorted(set(data["readed"]))
         with open(self.path_file + ".json", "w") as fp:
@@ -112,8 +113,8 @@ class WriterSyndication:
         for i in self.rss:
             ff.run(i, self.domain, self.output)
 
-        hn = HackerNewsFinder(self.hacker_news_username)
-        hn.run(self.output)
+        hn = HackerNewsFinder(self.hacker_news_username, self.output)
+        hn.run()
 
     def write(self):
         for key in self.output.keys():
