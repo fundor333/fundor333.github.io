@@ -35,7 +35,7 @@ class WebmentionFinder:
         data = r.json()
         self.output = {}
 
-        for webmention in data["children"]:
+        for webmention in data.get("children", []):
 
             label = self.__clean_slug(webmention["wm-target"])
             self.all_hash.append(label)
