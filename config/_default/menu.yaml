@@ -15,6 +15,10 @@ main:
     name: "Photos"
     url: "/photos"
     weight: 25
+  - pageRef: "https://newsletter.digitaltearoom.com/"
+    name: "Newsletter"
+    url: "https://newsletter.digitaltearoom.com/"
+    weight: 27
   - pageRef: "/feeds"
     name: "Feeds"
     url: "/feeds"
