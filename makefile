@@ -87,3 +87,7 @@ deploy_prod:  ## Ready to deploy
 .PHONY: submodule
 submodule: ## Get submodule for this repo
 	git submodule update --init --recursive
+
+.PHONY: weekly
+weekly: ## Weekly script
+	@weeknote -config weeknote-config.json
