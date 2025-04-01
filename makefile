@@ -70,7 +70,6 @@ deploy: clean characters webmention syndication## Ready to deploy
 	@poetry export --without-hashes --format=requirements.txt > requirements.txt
 	@hugo mod get -u
 	@hugo --minify
-	@python mastodon2hugo.py @fundor333@micro.blog
 	@python mastodon2hugo.py @fundor333@mastodon.social
 	@poetry run pre-commit autoupdate
 
