@@ -1,1 +1,44 @@
-{"feeds": [{"url": "https://appletune.fundor333.com/api/feed/", "title": "Suggested Links/Posts"}, {"url": "https://www.fundor333.com/index.xml", "title": "New post from my blog"}, {"url": "https://newsletter.digitaltearoom.com/rss/", "title": "New post from my newsletter"}], "fix_links": [{"url": "https://www.fundor333.com", "title": "My blog"}, {"url": "https://newsletter.digitaltearoom.com", "title": "My newsletter"}, {"url": "https://ko-fi.com/fundor333", "title": "Support me"}], "generator": {"tag": "week note", "output": "content/weeknotes/", "fix_links_label": "My Links", "type_weeknote": "weeknote"}, "anilist": {"user_id": "fundor333"}, "goodread": {"user_id": "5312887-matteo", "shelf_name_code": "currently-reading", "shelf_name_label": "Currently Reading"}}
+{
+	"anilist": {
+		"user_id": "fundor333"
+	},
+	"feeds": [
+		{
+			"title": "Suggested Links/Posts",
+			"url": "https://appletune.fundor333.com/api/feed/"
+		},
+		{
+			"title": "New post from my blog",
+			"url": "https://www.fundor333.com/index.xml"
+		},
+		{
+			"title": "New post from my newsletter",
+			"url": "https://newsletter.digitaltearoom.com/rss/"
+		}
+	],
+	"fix_links": [
+		{
+			"title": "My blog",
+			"url": "https://www.fundor333.com"
+		},
+		{
+			"title": "My newsletter",
+			"url": "https://newsletter.digitaltearoom.com"
+		},
+		{
+			"title": "Support me",
+			"url": "https://ko-fi.com/fundor333"
+		}
+	],
+	"generator": {
+		"fix_links_label": "My Links",
+		"output": "content/weeknotes/",
+		"tag": "week note",
+		"type_weeknote": "weeknote"
+	},
+	"goodread": {
+		"shelf_name_code": "currently-reading",
+		"shelf_name_label": "Currently Reading",
+		"user_id": "5312887-matteo"
+	}
+}

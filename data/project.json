@@ -2,94 +2,94 @@
 	{
 		"types": [
 			{
-				"type": "web",
 				"elements": [
 					{
+						"description": "This blog make with Hugo and love.  The Css framework change somethime. Now it's boostrap 4 with font awesome",
 						"name": "Fundor333",
-						"url": "http://fundor333.com/",
-						"description": "This blog make with Hugo and love.  The Css framework change somethime. Now it's boostrap 4 with font awesome"
+						"url": "http://fundor333.com/"
 					},
 					{
+						"description": "My blog about Tea and other tea related stuff",
 						"name": "DigitalTeaRoom",
-						"url": "https://digitaltearoom.com/",
-						"description": "My blog about Tea and other tea related stuff"
+						"url": "https://digitaltearoom.com/"
 					},
 					{
+						"description": "Project for an exame at the University for Regione Veneto. I work on the coordination and the style for the project. Made with HTML5 and Bootstrap.",
 						"name": "ìnformatica sarà lei",
-						"url": "http://test01.danielvedovato.it",
-						"description": "Project for an exame at the University for Regione Veneto. I work on the coordination and the style for the project. Made with HTML5 and Bootstrap."
+						"url": "http://test01.danielvedovato.it"
 					}
-				]
+				],
+				"type": "web"
 			},
 			{
-				"type": "python",
 				"elements": [
 					{
+						"description": "Bot for read the HighWater Api of Comune di Venezia and, if there is an allert, post it on a channel on telegram",
 						"name": "MareaBot",
-						"url": "http://venicebotcenter.org/MareaBot/",
-						"description": "Bot for read the HighWater Api of Comune di Venezia and, if there is an allert, post it on a channel on telegram"
+						"url": "http://venicebotcenter.org/MareaBot/"
 					}
-				]
+				],
+				"type": "python"
 			},
 			{
-				"type": "devops",
 				"elements": [
 					{
+						"description": "My configuration for a Mac, a Windows or a Linux installation.",
 						"name": "Dotfiles",
-						"url": "https://github.com/fundor333/dotfiles",
-						"description": "My configuration for a Mac, a Windows or a Linux installation."
+						"url": "https://github.com/fundor333/dotfiles"
 					},
 					{
+						"description": "Plugin for Dotbot for managing crontab",
 						"name": "Crontab Dotbot",
-						"url": "https://github.com/fundor333/crontab-dotbot",
-						"description": "Plugin for Dotbot for managing crontab"
+						"url": "https://github.com/fundor333/crontab-dotbot"
 					},
 					{
+						"description": "Module for give you some command to check URLs, domains and other things in an automatic way",
 						"name": "Server Grimoire",
-						"url": "https://github.com/fundor333/servergrimoire",
-						"description": "Module for give you some command to check URLs, domains and other things in an automatic way"
+						"url": "https://github.com/fundor333/servergrimoire"
 					}
-				]
+				],
+				"type": "devops"
 			},
 			{
-				"type": "hardware",
 				"elements": [
 					{
+						"description": "Project about a sensors' system for calc the well being of the people in the area",
 						"name": "Rioba Project",
-						"url": "https://riobaproject.it",
-						"description": "Project about a sensors' system for calc the well being of the people in the area"
+						"url": "https://riobaproject.it"
 					}
-				]
+				],
+				"type": "hardware"
 			},
 			{
-				"type": "stuffs",
 				"elements": [
 					{
+						"description": "Template for LaTeX for the final paper. Made with LaTex and a lot of my blood",
 						"name": "Template LaTeX for Unive",
-						"url": "https://github.com/fundor333/TesiUniveLaTeX",
-						"description": "Template for LaTeX for the final paper. Made with LaTex and a lot of my blood"
+						"url": "https://github.com/fundor333/TesiUniveLaTeX"
 					},
 					{
+						"description": "A Docker image for the static sites generated Hugo",
 						"name": "Docker Hugo",
-						"url": "https://github.com/fundor333/docker-hugo",
-						"description": "A Docker image for the static sites generated Hugo"
+						"url": "https://github.com/fundor333/docker-hugo"
 					},
 					{
+						"description": "The last Hubot tea timer you'll ever need",
 						"name": "Hubot tea timer",
-						"url": "https://github.com/fundor333/hubot-tea-timer",
-						"description": "The last Hubot tea timer you'll ever need"
+						"url": "https://github.com/fundor333/hubot-tea-timer"
 					},
 					{
+						"description": "Plugin for ohmyszh for adding a fortune style message from a BOFH",
 						"name": "Bofh Oh-My-Zsh",
-						"url": "https://github.com/fundor333/bofh",
-						"description": "Plugin for ohmyszh for adding a fortune style message from a BOFH"
+						"url": "https://github.com/fundor333/bofh"
 					},
 					{
+						"description": "An oh-my-zsh plugin for printing smile",
 						"name": "Smile Oh-My-Zsh",
-						"url": "https://github.com/fundor333/smile",
-						"description": "An oh-my-zsh plugin for printing smile"
+						"url": "https://github.com/fundor333/smile"
 					}
-				]
+				],
+				"type": "stuffs"
 			}
 		]
 	}

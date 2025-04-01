@@ -1,1 +1,25 @@
-[{"type": "entry", "author": {"type": "card", "name": "fundor333", "photo": "https://webmention.io/avatar/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "url": "https://bsky.app/profile/fundor333.com"}, "url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3kzeuwzfkby2t", "published": "2024-08-10T16:26:47+00:00", "wm-received": "2024-08-10T16:26:50Z", "wm-id": 1842721, "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3kzeuwzfkby2t%23bridgy-fed-create", "wm-target": "https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss", "wm-protocol": "webmention", "content": {"html": "A short post about how to implement a config file in your app with future in head. It look like it is the git way to the config file (<a href=\"https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss\">https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss</a>)", "text": "A short post about how to implement a config file in your app with future in head. It look like it is the git way to the config file (https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss)"}, "mention-of": "https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss", "wm-property": "mention-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "fundor333",
+			"photo": "https://webmention.io/avatar/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+			"type": "card",
+			"url": "https://bsky.app/profile/fundor333.com"
+		},
+		"content": {
+			"html": "A short post about how to implement a config file in your app with future in head. It look like it is the git way to the config file (<a href=\"https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss\">https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss</a>)",
+			"text": "A short post about how to implement a config file in your app with future in head. It look like it is the git way to the config file (https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss)"
+		},
+		"mention-of": "https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss",
+		"published": "2024-08-10T16:26:47+00:00",
+		"type": "entry",
+		"url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3kzeuwzfkby2t",
+		"wm-id": 1842721,
+		"wm-private": false,
+		"wm-property": "mention-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2024-08-10T16:26:50Z",
+		"wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3kzeuwzfkby2t%23bridgy-fed-create",
+		"wm-target": "https://fundor333.com/social/2024/08/10/dont-prefill-config-files/?utm_medium=rss"
+	}
+]

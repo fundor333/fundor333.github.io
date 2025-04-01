@@ -1,1 +1,62 @@
-{"source": [{"type": "entry", "author": {"type": "card", "name": "Simone Cortesi \ud83c\uddea\ud83c\uddfa", "photo": "https://webmention.io/avatar/pbs.twimg.com/a9aeb33d7425c8786c4d3ee84094da4dc7ee0d04a846021a61b3a9c78b49a20e.jpg", "url": "https://twitter.com/simonecortesi"}, "url": "https://twitter.com/simonecortesi/status/1450542958713966592", "published": "2021-10-19T19:22:45+00:00", "wm-received": "2021-10-19T19:37:35Z", "wm-id": 1293476, "wm-source": "https://brid.gy/comment/twitter/fundor333/1446460514364710916/1450542958713966592", "wm-target": "https://fundor333.com/post/2021/from-devops-to-gitops/", "wm-protocol": "webmention", "content": {"html": "Yo!\n<a class=\"u-mention\" href=\"https://fundor333.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/fundor333\"></a>", "text": "Yo!"}, "in-reply-to": "https://fundor333.com/post/2021/from-devops-to-gitops/", "wm-property": "in-reply-to", "wm-private": false}, {"type": "entry", "author": {"type": "card", "name": "\ud83d\udc0dFundor 333\ud83d\udc33\ud83d\udc68\u200d\ud83d\udcbb", "photo": "https://webmention.io/avatar/pbs.twimg.com/c3d085f0266cb157220a9e6312c26ccaeb56e5c4d2d501cf0d6426f05c36890e.jpg", "url": "https://twitter.com/fundor333"}, "url": "https://twitter.com/fundor333/status/1446460514364710916#favorited-by-2687984266", "published": null, "wm-received": "2021-10-19T12:10:15Z", "wm-id": 1293235, "wm-source": "https://brid.gy/like/twitter/fundor333/1446460514364710916/2687984266", "wm-target": "https://fundor333.com/post/2021/from-devops-to-gitops/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/post/2021/from-devops-to-gitops/", "wm-property": "like-of", "wm-private": false}], "stats": {"like-of": 1, "bookmark-of": 0, "mention-of": 0, "repost-of": 0, "in-reply-to": 1, "comments": [{"content": "Yo!", "link": "https://brid.gy/comment/twitter/fundor333/1446460514364710916/1450542958713966592", "author_name": "Simone Cortesi \ud83c\uddea\ud83c\uddfa", "author_photo": "https://webmention.io/avatar/pbs.twimg.com/a9aeb33d7425c8786c4d3ee84094da4dc7ee0d04a846021a61b3a9c78b49a20e.jpg", "author_url": "https://twitter.com/simonecortesi"}]}}
+{
+	"source": [
+		{
+			"author": {
+				"name": "🐍Fundor 333🐳👨‍💻",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/c3d085f0266cb157220a9e6312c26ccaeb56e5c4d2d501cf0d6426f05c36890e.jpg",
+				"type": "card",
+				"url": "https://twitter.com/fundor333"
+			},
+			"like-of": "https://fundor333.com/post/2021/from-devops-to-gitops/",
+			"published": null,
+			"type": "entry",
+			"url": "https://twitter.com/fundor333/status/1446460514364710916#favorited-by-2687984266",
+			"wm-id": 1293235,
+			"wm-private": false,
+			"wm-property": "like-of",
+			"wm-protocol": "webmention",
+			"wm-received": "2021-10-19T12:10:15Z",
+			"wm-source": "https://brid.gy/like/twitter/fundor333/1446460514364710916/2687984266",
+			"wm-target": "https://fundor333.com/post/2021/from-devops-to-gitops/"
+		},
+		{
+			"author": {
+				"name": "Simone Cortesi 🇪🇺",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/a9aeb33d7425c8786c4d3ee84094da4dc7ee0d04a846021a61b3a9c78b49a20e.jpg",
+				"type": "card",
+				"url": "https://twitter.com/simonecortesi"
+			},
+			"content": {
+				"html": "Yo!\n<a class=\"u-mention\" href=\"https://fundor333.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/fundor333\"></a>",
+				"text": "Yo!"
+			},
+			"in-reply-to": "https://fundor333.com/post/2021/from-devops-to-gitops/",
+			"published": "2021-10-19T19:22:45+00:00",
+			"type": "entry",
+			"url": "https://twitter.com/simonecortesi/status/1450542958713966592",
+			"wm-id": 1293476,
+			"wm-private": false,
+			"wm-property": "in-reply-to",
+			"wm-protocol": "webmention",
+			"wm-received": "2021-10-19T19:37:35Z",
+			"wm-source": "https://brid.gy/comment/twitter/fundor333/1446460514364710916/1450542958713966592",
+			"wm-target": "https://fundor333.com/post/2021/from-devops-to-gitops/"
+		}
+	],
+	"stats": {
+		"bookmark-of": 0,
+		"comments": [
+			{
+				"author_name": "Simone Cortesi 🇪🇺",
+				"author_photo": "https://webmention.io/avatar/pbs.twimg.com/a9aeb33d7425c8786c4d3ee84094da4dc7ee0d04a846021a61b3a9c78b49a20e.jpg",
+				"author_url": "https://twitter.com/simonecortesi",
+				"content": "Yo!",
+				"link": "https://brid.gy/comment/twitter/fundor333/1446460514364710916/1450542958713966592"
+			}
+		],
+		"in-reply-to": 1,
+		"like-of": 1,
+		"mention-of": 0,
+		"repost-of": 0
+	}
+}

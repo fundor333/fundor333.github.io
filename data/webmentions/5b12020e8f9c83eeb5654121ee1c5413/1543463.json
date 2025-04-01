@@ -1,1 +1,21 @@
-[{"type": "entry", "author": {"type": "card", "name": "Michel Murabito", "photo": "https://webmention.io/avatar/pbs.twimg.com/0b84c31cf0b9e33abe8e2bff95dad66665dfd63bc32f7dbaafffc4ac61759cc9.jpg", "url": "https://twitter.com/michelmurabito"}, "url": "https://twitter.com/fundor333/status/1583801197688811520#favorited-by-51541465", "published": null, "wm-received": "2022-10-22T15:10:27Z", "wm-id": 1543463, "wm-source": "https://brid.gy/like/twitter/fundor333/1583801197688811520/51541465", "wm-target": "https://fundor333.com/social/2022/10/22/1666442277/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/social/2022/10/22/1666442277/", "wm-property": "like-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "Michel Murabito",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/0b84c31cf0b9e33abe8e2bff95dad66665dfd63bc32f7dbaafffc4ac61759cc9.jpg",
+			"type": "card",
+			"url": "https://twitter.com/michelmurabito"
+		},
+		"like-of": "https://fundor333.com/social/2022/10/22/1666442277/",
+		"published": null,
+		"type": "entry",
+		"url": "https://twitter.com/fundor333/status/1583801197688811520#favorited-by-51541465",
+		"wm-id": 1543463,
+		"wm-private": false,
+		"wm-property": "like-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2022-10-22T15:10:27Z",
+		"wm-source": "https://brid.gy/like/twitter/fundor333/1583801197688811520/51541465",
+		"wm-target": "https://fundor333.com/social/2022/10/22/1666442277/"
+	}
+]

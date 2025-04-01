@@ -1,6 +1,5 @@
 [
 	{
-		"type": "podcast",
 		"elements": [
 			{
 				"title": "Podcast.init",
@@ -42,10 +41,10 @@
 				"title": "Data Porn",
 				"url": "https://dataporn.me/"
 			}
-		]
+		],
+		"type": "podcast"
 	},
 	{
-		"type": "documentary",
 		"elements": [
 			{
 				"title": "The Great Hack",
@@ -87,10 +86,10 @@
 				"title": "The World Design of Hollow Knight | Boss Keys",
 				"url": "https://www.youtube.com/watch?v=7ITtPPE-pXE"
 			}
-		]
+		],
+		"type": "documentary"
 	},
 	{
-		"type": "films and videos",
 		"elements": [
 			{
 				"title": "Movies For Hackers",
@@ -112,10 +111,10 @@
 				"title": "The Devil Wears Prada: Miranda Priestly - A Defense of Perfectionism",
 				"url": "https://youtu.be/WBGuQl39XC0"
 			}
-		]
+		],
+		"type": "films and videos"
 	},
 	{
-		"type": "manifesto",
 		"elements": [
 			{
 				"title": "12Factor Guidelines",
@@ -137,10 +136,10 @@
 				"title": "Repair Manifesto",
 				"url": "https://www.ifixit.com/Manifesto"
 			}
-		]
+		],
+		"type": "manifesto"
 	},
 	{
-		"type": "utility",
 		"elements": [
 			{
 				"title": "EmojiPedia",
@@ -194,10 +193,10 @@
 				"title": "AWS schema",
 				"url": "https://www.awsgeek.com/"
 			}
-		]
+		],
+		"type": "utility"
 	},
 	{
-		"type": "comics developer",
 		"elements": [
 			{
 				"title": "Save the princess with a programming language",
@@ -263,10 +262,10 @@
 				"title": "The Hidden Dangers of Refactoring",
 				"url": "https://toggl.com/blog/hidden-dangers-refactoring"
 			}
-		]
+		],
+		"type": "comics developer"
 	},
 	{
-		"type": "fun",
 		"elements": [
 			{
 				"title": "Octodex",
@@ -276,10 +275,10 @@
 				"title": "Order Dragons",
 				"url": "http://lizardshuffle.tumblr.com"
 			}
-		]
+		],
+		"type": "fun"
 	},
 	{
-		"type": "anime",
 		"elements": [
 			{
 				"title": "Bakemonogatari",
@@ -293,10 +292,10 @@
 				"title": "Psycho-Pass",
 				"url": "https://www.animeclick.it/anime/4084/psycho-pass"
 			}
-		]
+		],
+		"type": "anime"
 	},
 	{
-		"type": "evil overlod",
 		"elements": [
 			{
 				"title": "Decalogo del signore del male",
@@ -310,10 +309,10 @@
 				"title": "Secondo decalogo delle celle",
 				"url": "http://www.eviloverlord.com/lists/dungeon_b.html"
 			}
-		]
+		],
+		"type": "evil overlod"
 	},
 	{
-		"type": "fonts",
 		"elements": [
 			{
 				"title": "MonoLisa",
@@ -327,15 +326,16 @@
 				"title": "Fira Code",
 				"url": "https://github.com/tonsky/FiraCode"
 			}
-		]
+		],
+		"type": "fonts"
 	},
 	{
-		"type": "app",
 		"elements": [
 			{
 				"title": "Mihon",
 				"url": "https://mihon.app/"
 			}
-		]
+		],
+		"type": "app"
 	}
 ]

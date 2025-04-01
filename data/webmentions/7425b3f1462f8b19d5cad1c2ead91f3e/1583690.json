@@ -1,1 +1,28 @@
-[{"type": "entry", "author": {"type": "card", "name": "Indie Interesting Websites", "photo": "https://webmention.io/avatar/pbs.twimg.com/e3942d7d60a1c449cb10217438031265b5be3f4edd48b74cec0e6a9f08023684.jpg", "url": "https://twitter.com/IndieRandWeb"}, "url": "https://twitter.com/IndieRandWeb/status/1604576040646492161", "published": "2022-12-18T20:35:14+00:00", "wm-received": "2022-12-19T05:09:04Z", "wm-id": 1583690, "wm-source": "https://brid.gy/post/twitter/fundor333/1604576040646492161", "wm-target": "https://fundor333.com/", "wm-protocol": "webmention", "photo": ["https://pbs.twimg.com/media/FkSZZ-PXoAE9wjh.jpg"], "content": {"html": "Fundor333\n\n<a href=\"https://fundor333.com\">fundor333.com</a>\n\n<a class=\"u-mention\" href=\"https://fundor333.com/\"></a>", "text": "Fundor333\n\nfundor333.com"}, "mention-of": "https://fundor333.com/", "wm-property": "mention-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "Indie Interesting Websites",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e3942d7d60a1c449cb10217438031265b5be3f4edd48b74cec0e6a9f08023684.jpg",
+			"type": "card",
+			"url": "https://twitter.com/IndieRandWeb"
+		},
+		"content": {
+			"html": "Fundor333\n\n<a href=\"https://fundor333.com\">fundor333.com</a>\n\n<a class=\"u-mention\" href=\"https://fundor333.com/\"></a>",
+			"text": "Fundor333\n\nfundor333.com"
+		},
+		"mention-of": "https://fundor333.com/",
+		"photo": [
+			"https://pbs.twimg.com/media/FkSZZ-PXoAE9wjh.jpg"
+		],
+		"published": "2022-12-18T20:35:14+00:00",
+		"type": "entry",
+		"url": "https://twitter.com/IndieRandWeb/status/1604576040646492161",
+		"wm-id": 1583690,
+		"wm-private": false,
+		"wm-property": "mention-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2022-12-19T05:09:04Z",
+		"wm-source": "https://brid.gy/post/twitter/fundor333/1604576040646492161",
+		"wm-target": "https://fundor333.com/"
+	}
+]

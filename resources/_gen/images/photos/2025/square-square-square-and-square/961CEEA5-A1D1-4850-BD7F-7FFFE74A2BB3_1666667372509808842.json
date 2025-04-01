@@ -1,1 +1,11 @@
-{"Exif":{"Lat":0,"Long":0,"Date":"0001-01-01T00:00:00Z","Tags":{"Orientation|uint16":"1","Software":"Layout from Instagram"}}}
+{
+	"Exif": {
+		"Date": "0001-01-01T00:00:00Z",
+		"Lat": 0,
+		"Long": 0,
+		"Tags": {
+			"Orientation|uint16": "1",
+			"Software": "Layout from Instagram"
+		}
+	}
+}

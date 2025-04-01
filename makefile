@@ -91,3 +91,6 @@ submodule: ## Get submodule for this repo
 .PHONY: weekly
 weekly: ## Weekly script
 	@weeknote -config weeknote-config.json
+
+precommit: ## Run pre-commit hooks
+	@git add . & poetry run pre-commit run --all-files

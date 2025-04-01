@@ -1,1 +1,21 @@
-[{"type": "entry", "author": {"type": "card", "name": "Salva Rivas", "photo": "https://webmention.io/avatar/cdn.bsky.app/51492fc81fc987141a26f2ed91fe3eebeebc02652eba5b078b4bf175e89c0f09.jpg", "url": "https://bsky.app/profile/srivas.bsky.social"}, "url": "https://bsky.app/profile/fundor333.bsky.social/post/3kywmxsskkk2t#liked_by_did:plc:rmighyqfgqo37snbbv46xkkd", "published": null, "wm-received": "2024-08-05T00:57:55Z", "wm-id": 1841585, "wm-source": "https://brid.gy/like/bluesky/did:plc:u7piwonv4s27ysugjaa6im2q/at%253A%252F%252Fdid%253Aplc%253Au7piwonv4s27ysugjaa6im2q%252Fapp.bsky.feed.post%252F3kywmxsskkk2t/did%253Aplc%253Armighyqfgqo37snbbv46xkkd", "wm-target": "https://fundor333.com/social/2024/08/05/why-hagoromo-chalk-is-so-expensive--so-expensive--business-insider---youtube/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/social/2024/08/05/why-hagoromo-chalk-is-so-expensive--so-expensive--business-insider---youtube/", "wm-property": "like-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "Salva Rivas",
+			"photo": "https://webmention.io/avatar/cdn.bsky.app/51492fc81fc987141a26f2ed91fe3eebeebc02652eba5b078b4bf175e89c0f09.jpg",
+			"type": "card",
+			"url": "https://bsky.app/profile/srivas.bsky.social"
+		},
+		"like-of": "https://fundor333.com/social/2024/08/05/why-hagoromo-chalk-is-so-expensive--so-expensive--business-insider---youtube/",
+		"published": null,
+		"type": "entry",
+		"url": "https://bsky.app/profile/fundor333.bsky.social/post/3kywmxsskkk2t#liked_by_did:plc:rmighyqfgqo37snbbv46xkkd",
+		"wm-id": 1841585,
+		"wm-private": false,
+		"wm-property": "like-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2024-08-05T00:57:55Z",
+		"wm-source": "https://brid.gy/like/bluesky/did:plc:u7piwonv4s27ysugjaa6im2q/at%253A%252F%252Fdid%253Aplc%253Au7piwonv4s27ysugjaa6im2q%252Fapp.bsky.feed.post%252F3kywmxsskkk2t/did%253Aplc%253Armighyqfgqo37snbbv46xkkd",
+		"wm-target": "https://fundor333.com/social/2024/08/05/why-hagoromo-chalk-is-so-expensive--so-expensive--business-insider---youtube/"
+	}
+]

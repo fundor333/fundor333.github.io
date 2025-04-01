@@ -2,56 +2,55 @@
 	{
 		"types": [
 			{
-				"type": "Mathematics",
 				"elements": [
 					{
+						"description": "Note from Calculus at UniVe",
 						"name": "Calculus (it)",
-						"url": "https://github.com/fundor333/Appunti-di-Calcolo",
-						"description": "Note from Calculus at UniVe"
+						"url": "https://github.com/fundor333/Appunti-di-Calcolo"
 					}
-				]
+				],
+				"type": "Mathematics"
 			},
 			{
-				"type": "Computer Science",
 				"elements": [
 					{
+						"description": "Little presentation made for the exam of Networking",
 						"name": "Network (it)",
-						"url": "https://github.com/fundor333/TesinaReti",
-						"description":"Little presentation made for the exam of Networking"
+						"url": "https://github.com/fundor333/TesinaReti"
 					}
-				]
+				],
+				"type": "Computer Science"
 			},
 			{
-				"type": "Talk and Presentation",
 				"elements": [
 					{
+						"description": "Talk about the static site generator Pelican",
 						"name": "Talk Pycon9, Pelican e perchè generare siti statici (it)",
-						"url": "https://github.com/fundor333/pelican-e-perche-generare-siti-statici",
-						"description": "Talk about the static site generator Pelican"
+						"url": "https://github.com/fundor333/pelican-e-perche-generare-siti-statici"
 					}
-				]
+				],
+				"type": "Talk and Presentation"
 			},
 			{
-				"type": "Other",
 				"elements": [
 					{
+						"description": "UnOfficial template for thesis in LaTaX",
 						"name": "Template Latex Thesis for UniVe",
-						"url": "https://github.com/fundor333/TesiUniveLaTeX",
-						"description": "UnOfficial template for thesis in LaTaX"
+						"url": "https://github.com/fundor333/TesiUniveLaTeX"
 					},
 					{
+						"description": "My personal template for article",
 						"name": "Personal LaTeX Article Template",
-						"url": "https://github.com/fundor333/Personal-LaTeX-Article-Template",
-						"description": "My personal template for article"
+						"url": "https://github.com/fundor333/Personal-LaTeX-Article-Template"
 					},
 					{
+						"description": "My personal template for beamer",
 						"name": "Personal LaTeX Beamer Template",
-						"url": "https://github.com/fundor333/f333_beamer",
-						"description": "My personal template for beamer"
+						"url": "https://github.com/fundor333/f333_beamer"
 					}
-				]
+				],
+				"type": "Other"
 			}
-			
 		]
 	}
 ]

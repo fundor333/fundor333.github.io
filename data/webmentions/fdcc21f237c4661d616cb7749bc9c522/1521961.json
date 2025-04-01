@@ -1,1 +1,21 @@
-[{"type": "entry", "author": {"type": "card", "name": "Juna Salviati", "photo": "https://webmention.io/avatar/pbs.twimg.com/db009297897afff07f3d2f4e2b0975db90fc93750fb726d947439bff65268c71.jpg", "url": "https://twitter.com/1littleendian"}, "url": "https://twitter.com/fundor333/status/1571209821579317249#favorited-by-777766650", "published": null, "wm-received": "2022-09-18T10:17:19Z", "wm-id": 1521961, "wm-source": "https://brid.gy/like/twitter/fundor333/1571209821579317249/777766650", "wm-target": "https://fundor333.com/post/2022/github-copilot-write-my-post/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/post/2022/github-copilot-write-my-post/", "wm-property": "like-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "Juna Salviati",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/db009297897afff07f3d2f4e2b0975db90fc93750fb726d947439bff65268c71.jpg",
+			"type": "card",
+			"url": "https://twitter.com/1littleendian"
+		},
+		"like-of": "https://fundor333.com/post/2022/github-copilot-write-my-post/",
+		"published": null,
+		"type": "entry",
+		"url": "https://twitter.com/fundor333/status/1571209821579317249#favorited-by-777766650",
+		"wm-id": 1521961,
+		"wm-private": false,
+		"wm-property": "like-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2022-09-18T10:17:19Z",
+		"wm-source": "https://brid.gy/like/twitter/fundor333/1571209821579317249/777766650",
+		"wm-target": "https://fundor333.com/post/2022/github-copilot-write-my-post/"
+	}
+]

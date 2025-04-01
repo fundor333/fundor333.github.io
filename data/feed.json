@@ -1,1512 +1,1512 @@
 [
-    {
-        "elements": [
-            {
-                "title": "CommitStrip",
-                "url": "http://www.commitstrip.com/en/feed/"
-            },
-            {
-                "title": "Joshua Wright Dot Net",
-                "url": "http://www.joshuawright.net/rss_joshuawright.xml"
-            },
-            {
-                "title": "yehudadevir",
-                "url": "https://www.yehudadevir.com/feed.xml"
-            },
-            {
-                "title": "MonkeyUser",
-                "url": "http://www.monkeyuser.com/feed.xml"
-            },
-            {
-                "title": "belzebubs",
-                "url": "http://www.belzebubs.com/rss"
-            },
-            {
-                "title": "lolnein",
-                "url": "https://lolnein.com/feed/"
-            },
-            {
-                "title": "Fun \u2013 Toggl Blog",
-                "url": "https://blog.toggl.com/category/fun/feed/"
-            },
-            {
-                "title": "Consolia Comics",
-                "url": "https://consolia-comic.com/rss.xml"
-            },
-            {
-                "title": "PHD Comics",
-                "url": "http://www.phdcomics.com/gradfeed.php"
-            },
-            {
-                "title": "arcaderage.co",
-                "url": "https://arcaderage.co/feed/"
-            },
-            {
-                "title": "cartadamacello \u00bb Feed",
-                "url": "https://cartadamacello.it/feed/"
-            },
-            {
-                "title": "turnoff.us - geek comic site",
-                "url": "http://turnoff.us/feed.xml"
-            },
-            {
-                "title": "System32Comics",
-                "url": "https://www.webtoons.com/en/challenge/system32comics/rss?title_no=235074"
-            },
-            {
-                "title": "My Life As A Background Slytherin \u2013 Emily McGovern",
-                "url": "http://emilymcgovern.com/?feed=rss2&cat=6"
-            },
-            {
-                "title": "Purpurea Noxa Updates",
-                "url": "http://purpureanoxa.smackjeeves.com/rss/"
-            },
-            {
-                "title": "Emily's Cartoons",
-                "url": "http://emilyscartoons.tumblr.com/rss"
-            },
-            {
-                "title": "xkcd",
-                "url": "http://xkcd.com/rss.xml"
-            },
-            {
-                "title": "comic \u2013 Toggl Blog",
-                "url": "https://blog.toggl.com/tag/comic/feed/"
-            }
-        ],
-        "type": "Web Comics"
-    },
-    {
-        "elements": [
-            {
-                "title": "DevFest1 Veneto",
-                "url": "https://gdg-venezia.github.io/devfest1-veneto/feed.xml"
-            },
-            {
-                "title": "DEF CON Announcements!",
-                "url": "http://www.defcon.org/defconrss.xml"
-            },
-            {
-                "title": "PyconIT blog",
-                "url": "http://feeds.feedburner.com/pyconit"
-            },
-            {
-                "title": "Nephila Digital Agency",
-                "url": "https://www.nephila.it/it/blog/feed/"
-            },
-            {
-                "title": "EuroPython Blog",
-                "url": "http://blog.europython.eu/rss"
-            }
-        ],
-        "type": "Blog Convention Society"
-    },
-    {
-        "elements": [
-            {
-                "title": "Release notes from hugo",
-                "url": "https://github.com/spf13/hugo/releases.atom"
-            },
-            {
-                "title": "Mentions",
-                "url": "https://webmention.io/api/mentions.atom?token=-g5vlz9y3p5llrdS7TmnCg"
-            }
-        ],
-        "type": "Automation"
-    },
-    {
-        "elements": [
-            {
-                "title": "Eloraams Blog",
-                "url": "http://www.eloraam.com/atom.xml"
-            },
-            {
-                "title": "PahiCraft",
-                "url": "http://www.pahimar.com/feed/"
-            },
-            {
-                "title": "iChun's blog \u00bb",
-                "url": "http://ichun.us/feed/"
-            }
-        ],
-        "type": "Modder"
-    },
-    {
-        "elements": [
-            {
-                "title": "Neon Dystopia",
-                "url": "http://www.neondystopia.com/feed/"
-            },
-            {
-                "title": "CyberPunkReview",
-                "url": "http://www.cyberpunkreview.com/feed/"
-            }
-        ],
-        "type": "Cyberpunk"
-    },
-    {
-        "elements": [
-            {
-                "title": "Reasonably Polymorphic",
-                "url": "http://reasonablypolymorphic.com/feed.rss"
-            },
-            {
-                "title": "dbader.org",
-                "url": "https://dbader.org/rss"
-            },
-            {
-                "title": "Andre Torrez",
-                "url": "http://torrez.org/feed.xml"
-            },
-            {
-                "title": "CodingJam",
-                "url": "http://feeds.feedburner.com/CoseNonJaviste"
-            },
-            {
-                "title": "Brain Baking",
-                "url": "https://brainbaking.com/index.xml"
-            },
-            {
-                "title": "Bennett Notes",
-                "url": "https://www.bennettnotes.com/index.xml"
-            },
-            {
-                "title": "Mike Coutermarsh",
-                "url": "https://mikecoutermarsh.com/feed.xml"
-            },
-            {
-                "title": "Alex Ellis' Blog",
-                "url": "http://blog.alexellis.io/rss/"
-            },
-            {
-                "title": "low level fun",
-                "url": "https://sc0ty.pl/feed/"
-            },
-            {
-                "title": "Hundred Rabbits",
-                "url": "https://100r.co/links/rss.xml"
-            },
-            {
-                "title": "Victoria Drake's Blog",
-                "url": "https://vickylai.com/index.xml"
-            },
-            {
-                "title": "Blogs on Luca Guidi",
-                "url": "http://feeds.feedburner.com/LucaGuidi"
-            },
-            {
-                "title": "Adam Johnson",
-                "url": "https://adamj.eu/tech/atom.xml"
-            },
-            {
-                "title": "Squid Shock Studios",
-                "url": "https://squidshockstudios.com/feed/"
-            },
-            {
-                "title": "sohamp.dev",
-                "url": "https://www.sohamp.dev/blog/rss.xml"
-            },
-            {
-                "title": "I am Jonas",
-                "url": "https://www.iamjonas.me/feeds/posts/default?alt=rss"
-            },
-            {
-                "title": "Justin Beckwith",
-                "url": "https://jbeckwith.com/feed/"
-            },
-            {
-                "title": "Christine Donath",
-                "url": "https://christinedonath.com/feed/"
-            },
-            {
-                "title": "Jacob Tomlinson",
-                "url": "https://jacobtomlinson.dev/feed.xml"
-            },
-            {
-                "title": "Nick Janetakis",
-                "url": "http://nickjanetakis.com/atom.xml"
-            },
-            {
-                "title": "Posts on Marco Gomiero",
-                "url": "https://www.marcogomiero.com/posts/index.xml"
-            },
-            {
-                "title": "MutantEstate",
-                "url": "http://blog.openstreetmap.it/feed/"
-            },
-            {
-                "title": "Stories by Thiago Amanaj\u00e1s on Medium",
-                "url": "https://medium.com/feed/@amanajas"
-            },
-            {
-                "title": "Seph",
-                "url": "http://josephg.com/blog/rss/"
-            },
-            {
-                "title": "Ayushi Rawat's Blog",
-                "url": "https://ayushirawat.com/rss.xml"
-            },
-            {
-                "title": "Thinking in a digital life on Thinking in a digital life",
-                "url": "https://matjaz.it/index.xml"
-            },
-            {
-                "title": "RSS",
-                "url": "https://medium.com/feed/@batuhan-apaydin-11378"
-            },
-            {
-                "title": "Blog on Karthik Karanth",
-                "url": "https://karthikkaranth.me/blog/index.xml"
-            },
-            {
-                "title": "Ctrl blog",
-                "url": "https://feed.ctrl.blog/latest.atom"
-            },
-            {
-                "title": "Hi, I'm Christian Engel on chringel.dev",
-                "url": "https://chringel.dev/index.xml"
-            },
-            {
-                "title": "Infrequently Noted",
-                "url": "https://infrequently.org/feed/"
-            },
-            {
-                "title": "beepb00p",
-                "url": "https://beepb00p.xyz/rss.xml"
-            },
-            {
-                "title": "Storax",
-                "url": "https://storax.github.io/rss.xml"
-            },
-            {
-                "title": "Mislav's blog",
-                "url": "http://feeds.feedburner.com/mislav/dev"
-            },
-            {
-                "title": "The Machine Spirit",
-                "url": "https://www.bensampica.com/index.xml"
-            },
-            {
-                "title": "Eloraams Blog",
-                "url": "http://www.eloraam.com/atom.xml"
-            },
-            {
-                "title": "maelvls dev blog",
-                "url": "https://maelvls.dev/index.xml"
-            },
-            {
-                "title": "RSS",
-                "url": "https://medium.com/feed/@kiaruzza_dev"
-            },
-            {
-                "title": "Essays",
-                "url": "http://essays.ubik.tech/feeds/all.atom.xml"
-            },
-            {
-                "title": "Monte Hellawell",
-                "url": "https://blog.monte.me.uk/feed/"
-            },
-            {
-                "title": "Bas codes",
-                "url": "https://bas.codes/rss.xml"
-            },
-            {
-                "title": "Federico Terzi",
-                "url": "https://federicoterzi.com/feed.xml"
-            },
-            {
-                "title": "vsupalov.com",
-                "url": "https://vsupalov.com/index.xml"
-            },
-            {
-                "title": "Contact Form 7",
-                "url": "https://contactform7.com/feed/"
-            },
-            {
-                "title": "Abdullah Khabir",
-                "url": "https://abdullah.today/index.xml"
-            },
-            {
-                "title": "Bonjour, Hi \ud83c\udde8\ud83c\udde6 on Regis Philibert",
-                "url": "https://www.regisphilibert.com/index.xml"
-            },
-            {
-                "title": "Go With The Flow - Medium",
-                "url": "https://gwtf.it/feed/"
-            },
-            {
-                "title": "icyphox",
-                "url": "https://icyphox.sh/blog/feed.xml"
-            },
-            {
-                "title": "Nabeel Valley's Blog",
-                "url": "https://nabeelvalley.netlify.app/rss.xml"
-            },
-            {
-                "title": "Stories by Sebasti\u00e1n Ram\u00edrez on Medium",
-                "url": "https://medium.com/feed/@tiangolo"
-            },
-            {
-                "title": "Raja Simon",
-                "url": "https://rajasimon.io/index.xml"
-            },
-            {
-                "title": "Mykal Machon (mykal.codes)",
-                "url": "https://mykal.codes/rss.xml"
-            },
-            {
-                "title": "Jos\u00e9 Padilla",
-                "url": "http://jpadilla.com/rss"
-            },
-            {
-                "title": "dtrapezoid",
-                "url": "http://dtrapezoid.com/feeds/all.atom.xml"
-            },
-            {
-                "title": "LOW\u2190TECH MAGAZINE",
-                "url": "https://solar.lowtechmagazine.com/feeds/all.atom.xml"
-            },
-            {
-                "title": "rixx.de",
-                "url": "https://rixx.de/feed.xml"
-            },
-            {
-                "title": "Andr\u00e9 Jaenisch's blog",
-                "url": "https://jaenis.ch/blog/feed.xml"
-            },
-            {
-                "title": "tanaike",
-                "url": "https://tanaikech.github.io/index.xml"
-            },
-            {
-                "title": "mattcen's mumblings",
-                "url": "https://blog.mattcen.com/feed/"
-            },
-            {
-                "title": "Mimsy Were the Borogoves",
-                "url": "https://www.hoboes.com/Mimsy/feed/"
-            },
-            {
-                "title": "Norman K\u00f6hring a.k.a. koehr a.k.a. n4n",
-                "url": "https://koehr.tech/feed/"
-            },
-            {
-                "title": "Jeff Triplett",
-                "url": "http://feeds.feedburner.com/JeffTriplett"
-            },
-            {
-                "title": "Luca Corbucci",
-                "url": "https://lucacorbucci.me/index.xml"
-            },
-            {
-                "title": "Sebastian De Deyne",
-                "url": "https://sebastiandedeyne.com/index.xml"
-            },
-            {
-                "title": "rixx.de",
-                "url": "https://rixx.de/de/feed.xml"
-            },
-            {
-                "title": "Ordered List",
-                "url": "http://feeds.feedburner.com/orderedlist"
-            },
-            {
-                "title": "Lambert",
-                "url": "https://www.lambertmech.ir/index.xml"
-            },
-            {
-                "title": "Eggon",
-                "url": "https://eggon.co/feed/"
-            },
-            {
-                "title": "Gautam Krishna R \u00bb Feed",
-                "url": "https://www.gautamkrishnar.com/feed/"
-            },
-            {
-                "title": "nerdypepper's \u03bcblog",
-                "url": "https://peppe.rs/index.xml"
-            },
-            {
-                "title": "Justin Mayer",
-                "url": "http://justinmayer.com/feeds/all.atom.xml"
-            },
-            {
-                "title": "Dinosaurs Are Forever",
-                "url": "http://chrisarges.net/feed.xml"
-            },
-            {
-                "title": "Multiline Comment",
-                "url": "https://multiline.co/mment/feed.xml"
-            },
-            {
-                "title": "Tantek \u00c7elik",
-                "url": "http://tantek.com/updates.atom"
-            },
-            {
-                "title": "Christian Oliff",
-                "url": "https://christianoliff.com/feed.xml"
-            },
-            {
-                "title": "Patrick Kidger",
-                "url": "https://kidger.site/index.xml"
-            },
-            {
-                "title": "",
-                "url": "https://marksuth.dev/feed/posts.xml"
-            },
-            {
-                "title": "sobolevn\u2019s personal blog",
-                "url": "https://sobolevn.me/feed.xml"
-            },
-            {
-                "title": "PahiCraft",
-                "url": "http://www.pahimar.com/feed/"
-            },
-            {
-                "title": "fuzzy notepad",
-                "url": "http://me.veekun.com/atom.xml"
-            },
-            {
-                "title": "Rowan Manning",
-                "url": "https://rowanmanning.com/feed.xml"
-            },
-            {
-                "title": "Lost in IRC",
-                "url": "https://dygalo.dev/rss.xml"
-            },
-            {
-                "title": "Jake Wharton",
-                "url": "http://jakewharton.com/feed.xml"
-            },
-            {
-                "title": "Meandering streams of consciousness",
-                "url": "http://annaraven.blogspot.com/feeds/posts/default"
-            },
-            {
-                "title": "~prologic",
-                "url": "https://prologic.shortcircuit.net.au/index.xml"
-            },
-            {
-                "title": "Piccalilli",
-                "url": "https://piccalil.li/feed.xml"
-            },
-            {
-                "title": "Victoria's Neofeed",
-                "url": "https://victoria.dev/neofeed/index.xml"
-            },
-            {
-                "title": "Main Page on STRM",
-                "url": "https://strm.sh/index.xml"
-            },
-            {
-                "title": "Miriam Eric Suzanne",
-                "url": "https://www.miriamsuzanne.com/feed.xml"
-            },
-            {
-                "title": "Rowan\u2019s Blog | Rowan Manning",
-                "url": "https://rowanmanning.com/posts/feed.xml"
-            },
-            {
-                "title": "Pelle Wessman",
-                "url": "https://voxpelli.com/all.xml"
-            },
-            {
-                "title": "Xero",
-                "url": "https://www.xero.nu/feed/"
-            },
-            {
-                "title": "Anish Athalye",
-                "url": "http://www.anishathalye.com/feed.xml"
-            },
-            {
-                "title": "code 'n fold",
-                "url": "http://code-n-fold.com/feed.xml"
-            },
-            {
-                "title": "James Loh",
-                "url": "https://jloh.co/index.xml"
-            },
-            {
-                "title": "The Land of XComp \u00bb Feed",
-                "url": "http://blog.xcompwiz.com/feed/"
-            },
-            {
-                "title": "/var/",
-                "url": "http://spapas.github.io/feeds/all.atom.xml"
-            },
-            {
-                "title": "fribbledom's Journal",
-                "url": "https://fribbledom.com/index.xml"
-            },
-            {
-                "title": "pickles.dev",
-                "url": "https://pickles.dev/rss/"
-            },
-            {
-                "title": "OgniBit \u00bb Feed",
-                "url": "https://www.ognibit.it/feed/"
-            },
-            {
-                "title": "Modern Web Development with Chrome",
-                "url": "https://paul.kinlan.me/index.xml"
-            },
-            {
-                "title": "barrl",
-                "url": "http://barrl.net/feed"
-            },
-            {
-                "title": "Deciphering Glyph",
-                "url": "http://glyph.twistedmatrix.com/feeds/posts/default"
-            },
-            {
-                "title": "Slinky's corner",
-                "url": "https://slinkydeveloper.com/atom.xml"
-            },
-            {
-                "title": "Starred Articles",
-                "url": "https://feedbin.com/starred/9e637b645b460951ca3f158f167a0bea.xml"
-            },
-            {
-                "title": "The Mypy Blog",
-                "url": "http://mypy-lang.blogspot.com/feeds/posts/default"
-            },
-            {
-                "title": "The Blogging of Prolog",
-                "url": "http://prologomenon.wordpress.com/feed/"
-            },
-            {
-                "title": "Adam \u0160abla",
-                "url": "http://adamsabla.sk/feed/"
-            },
-            {
-                "title": "marcus.io",
-                "url": "https://marcus.io/feed"
-            },
-            {
-                "title": "iChun's blog \u00bb",
-                "url": "http://ichun.us/feed/"
-            },
-            {
-                "title": "Stefans Welt",
-                "url": "http://blog.behnel.de/rss.xml"
-            },
-            {
-                "title": "00dani.me",
-                "url": "https://00dani.me/atom"
-            },
-            {
-                "title": "the code of xero harrison",
-                "url": "https://feeds.xero.nu/atom/code/nerdtree/master"
-            },
-            {
-                "title": "Haki Benita",
-                "url": "https://hakibenita.com/feeds/all.atom.xml"
-            },
-            {
-                "title": "BrianLi.com",
-                "url": "https://brianli.com/index.xml"
-            },
-            {
-                "title": "https://aklsh.github.io/",
-                "url": "https://aklsh.github.io/feed.xml"
-            },
-            {
-                "title": "Marco's Blog",
-                "url": "https://marco.kamner.eu/index.xml"
-            },
-            {
-                "title": "Kitty Giraudel",
-                "url": "https://hugogiraudel.com/rss/index.xml"
-            },
-            {
-                "title": "Sysadmins",
-                "url": "http://sysadmins.co.za/rss/"
-            },
-            {
-                "title": "Obey the Testing Goat!",
-                "url": "https://www.obeythetestinggoat.com/feeds/all.atom.xml"
-            },
-            {
-                "title": "Essays - Kenneth Reitz",
-                "url": "http://www.kennethreitz.org/essays?format=rss"
-            },
-            {
-                "title": "Ferd.ca",
-                "url": "http://ferd.ca/feed.rss"
-            },
-            {
-                "title": "Zach Holman",
-                "url": "https://zachholman.com/atom.xml"
-            },
-            {
-                "title": "Coding Blog By Arnab Kumar Shil",
-                "url": "https://ruddra.com/index.xml"
-            },
-            {
-                "title": "Trevor D. Miller blog",
-                "url": "https://trevordmiller.com/blog/feed"
-            },
-            {
-                "title": "Simple is Better Than Complex",
-                "url": "http://simpleisbetterthancomplex.com/feed.xml"
-            },
-            {
-                "title": "Chris Coyier",
-                "url": "http://chriscoyier.net/feed/"
-            },
-            {
-                "title": "ayush sharma's notes \u2615 + \ud83c\udfa7 + \ud83d\udd79\ufe0f",
-                "url": "http://notes.ayushsharma.in/feed.xml"
-            },
-            {
-                "title": "Max B\u00f6ck",
-                "url": "https://mxb.dev/feed.xml"
-            },
-            {
-                "title": "Alfred Blog",
-                "url": "https://www.alfredapp.com/blog/feed.xml"
-            },
-            {
-                "title": "Christian Fei's Blog",
-                "url": "https://cri.dev/rss.xml"
-            },
-            {
-                "title": "Free and Open Source GIS Ramblings",
-                "url": "http://underdark.wordpress.com/feed/"
-            },
-            {
-                "title": "Vento's projects",
-                "url": "http://v3n7o.wordpress.com/feed/"
-            },
-            {
-                "title": "Essays - Kenneth Reitz",
-                "url": "https://www.kennethreitz.org/essays?format=RSS"
-            },
-            {
-                "title": "Xetera",
-                "url": "https://xetera.dev/rss.xml"
-            },
-            {
-                "title": "Slaptijack",
-                "url": "http://feeds.feedburner.com/slaptijack"
-            },
-            {
-                "title": "bsago.me",
-                "url": "https://bsago.me/feed.atom"
-            },
-            {
-                "title": "SecNigma",
-                "url": "https://secnigma.wordpress.com/feed/"
-            },
-            {
-                "title": "Fundor333 on Fundor 333",
-                "url": "https://fundor333.com/index.xml"
-            },
-            {
-                "title": "no.lol",
-                "url": "https://www.no.lol/rss.xml"
-            },
-            {
-                "title": "Grab The Blaster",
-                "url": "http://dottorblaster.it/feed/"
-            },
-            {
-                "title": "Thiago Amanaj\u00e1s",
-                "url": "http://amanajas.com/index.xml"
-            },
-            {
-                "title": "nonmateria.com RSS",
-                "url": "http://npisanti.com/rss.xml"
-            },
-            {
-                "title": "concise coder",
-                "url": "https://concisecoder.io/feed/"
-            },
-            {
-                "title": "Path-Sensitive",
-                "url": "http://pathsensitive.blogspot.com/feeds/posts/default"
-            },
-            {
-                "title": "Colin Wilson",
-                "url": "https://colinwilson.uk/index.xml"
-            },
-            {
-                "title": "Waylon Walkers Digital Garden - blog posts",
-                "url": "https://waylonwalker.com/blog/rss.xml"
-            },
-            {
-                "title": "Dylan Anthony",
-                "url": "https://dylananthony.com/atom.xml"
-            },
-            {
-                "title": "Robbi Nespu",
-                "url": "https://robbinespu.gitlab.io/index.xml"
-            },
-            {
-                "title": "-Noise-",
-                "url": "http://zerodoc.wordpress.com/feed/"
-            },
-            {
-                "title": "Jamie Tanna | Software Engineer",
-                "url": "https://www.jvt.me/feed.xml"
-            },
-            {
-                "title": "Articles \u2014 brandur.org",
-                "url": "https://brandur.org/articles.atom"
-            },
-            {
-                "title": "pawelgrzybek.com",
-                "url": "https://pawelgrzybek.com/feed.xml"
-            },
-            {
-                "title": "Go With The Flow",
-                "url": "https://gwtf.it/feed"
-            },
-            {
-                "title": "ines.io",
-                "url": "http://www.klammerauf.org/feed/"
-            },
-            {
-                "title": "Blog - Beads Language Home site",
-                "url": "http://beadslang.org/blog?format=rss"
-            },
-            {
-                "title": "PeterGoes.nl Blog",
-                "url": "https://www.petergoes.nl/blog/feed.xml"
-            },
-            {
-                "title": "Stories by Juna Salviati on Medium",
-                "url": "https://medium.com/feed/@1littleendian"
-            }
-        ],
-        "type": "Personal Blog IT"
-    },
-    {
-        "elements": [
-            {
-                "title": "Transit Maps",
-                "url": "http://transitmap.net/rss"
-            },
-            {
-                "title": "Transit Maps",
-                "url": "http://transitmaps.tumblr.com/rss"
-            },
-            {
-                "title": "Charting Transport",
-                "url": "http://chartingtransport.wordpress.com/feed/"
-            }
-        ],
-        "type": "Transport"
-    },
-    {
-        "elements": [
-            {
-                "title": "Giap",
-                "url": "http://feeds.feedburner.com/giap"
-            },
-            {
-                "title": "sullaluna",
-                "url": "https://www.sullalunavenezia.it/feed/"
-            }
-        ],
-        "type": "Libri"
-    },
-    {
-        "elements": [
-            {
-                "title": "N O D E",
-                "url": "https://n-o-d-e.net/rss/rss.xml"
-            },
-            {
-                "title": "The GitHub Blog",
-                "url": "https://github.com/blog/all.atom"
-            },
-            {
-                "title": "Glue-Lab",
-                "url": "https://feedly.com/email/uhd7btr5kpy6qjwi3v2b"
-            },
-            {
-                "title": "Docker Pirates ARMed with explosive stuff",
-                "url": "http://blog.hypriot.com/index.xml"
-            },
-            {
-                "title": "Commands with 3 up-votes",
-                "url": "http://www.commandlinefu.com/feed/threeup"
-            },
-            {
-                "title": "The Django weblog",
-                "url": "http://www.djangoproject.com/rss/weblog/"
-            },
-            {
-                "title": "Mouse Vs Python",
-                "url": "http://feeds.feedburner.com/TheMouseVsThePython"
-            },
-            {
-                "title": "Heroku",
-                "url": "https://blog.heroku.com/feed"
-            },
-            {
-                "title": "Coding Horror",
-                "url": "http://feeds.feedburner.com/codinghorror/"
-            },
-            {
-                "title": "Python Tips",
-                "url": "http://freepythontips.wordpress.com/feed/"
-            },
-            {
-                "title": "Over the Wireless",
-                "url": "http://overthewireless.wordpress.com/feed/"
-            },
-            {
-                "title": "Let's Encrypt",
-                "url": "https://letsencrypt.org/feed.xml"
-            }
-        ],
-        "type": "IT Stuff"
-    },
-    {
-        "elements": [
-            {
-                "title": "Darkest Dungeon",
-                "url": "http://www.darkestdungeon.com/home/feed/"
-            },
-            {
-                "title": "studiogiochi",
-                "url": "https://www.studiogiochi.com/feed/"
-            },
-            {
-                "title": "Team Cherry",
-                "url": "http://teamcherry.com.au/feed/"
-            },
-            {
-                "title": "Retrogaming-Italia",
-                "url": "http://www.retrogaming-italia.it/feed/"
-            },
-            {
-                "title": "Blog | Darkest Dungeon",
-                "url": "http://www.darkestdungeon.com/blog/rss/"
-            }
-        ],
-        "type": "Games"
-    },
-    {
-        "elements": [
-            {
-                "title": "DeviantArt: vempirick/24267432's gallery",
-                "url": "http://backend.deviantart.com/rss.xml?q=gallery%3Avempirick%2F24267432&type=deviation"
-            },
-            {
-                "title": "omi",
-                "url": "https://omikim.jp/feed/"
-            },
-            {
-                "title": "DeviantArt: tohdraws/358212's gallery",
-                "url": "http://backend.deviantart.com/rss.xml?q=gallery%3Atohdraws%2F358212&type=deviation"
-            },
-            {
-                "title": "GitHub Octodex",
-                "url": "http://feeds.feedburner.com/Octocats"
-            },
-            {
-                "title": "max kay art",
-                "url": "http://brakken.tumblr.com/rss"
-            },
-            {
-                "title": "Atakeru-san",
-                "url": "http://backend.deviantart.com/rss.xml?q=gallery%3Atakeru-san%2F358212&type=deviation"
-            },
-            {
-                "title": "Bellanaris: A Dragon Age Fan Comic Updates",
-                "url": "http://bellanaris.smackjeeves.com/rss/"
-            },
-            {
-                "title": "DeviantArt: SnaiLords's Gallery",
-                "url": "http://backend.deviantart.com/rss.xml?q=by%3ASnaiLords&type=deviation"
-            },
-            {
-                "title": "Technicolor London",
-                "url": "http://technicolorlondoncomic.com/rss.php"
-            },
-            {
-                "title": "DeviantArt: Kibbitzer/24734902's gallery",
-                "url": "http://backend.deviantart.com/rss.xml?q=gallery%3AKibbitzer%2F24734902"
-            }
-        ],
-        "type": "Artist"
-    },
-    {
-        "elements": [
-            {
-                "title": "Gokberk Yaltirakli",
-                "url": "https://gkbrk.com/feed.xml"
-            },
-            {
-                "title": "Blog - The Wondersmith",
-                "url": "https://www.thewondersmith.com/blog?format=RSS"
-            },
-            {
-                "title": "Wesley's Notebook",
-                "url": "https://notebook.wesleyac.com/atom.xml"
-            },
-            {
-                "title": "Down to the Wire",
-                "url": "http://dttw.tech/rss"
-            },
-            {
-                "title": "Niklas' blog",
-                "url": "http://niklasblog.com/?feed=rss2"
-            },
-            {
-                "title": "ful-filled",
-                "url": "http://www.ful-filled.com/feed/"
-            },
-            {
-                "title": "VICE IT - MOTHERBOARD",
-                "url": "https://motherboard.vice.com/it/rss"
-            },
-            {
-                "title": "Transit Maps",
-                "url": "http://transitmaps.tumblr.com/rss"
-            },
-            {
-                "title": "DuvelmanDice",
-                "url": "https://duvelmandice.blogspot.com/feeds/posts/default"
-            },
-            {
-                "title": "Dyson's Dodecahedron",
-                "url": "https://dysonlogos.blog/feed/"
-            },
-            {
-                "title": "Hosting 4 Agency",
-                "url": "https://www.hosting4agency.com/feed/"
-            },
-            {
-                "title": "Robin Rendle",
-                "url": "https://www.robinrendle.com/feed.xml"
-            },
-            {
-                "title": "SQUADRATI",
-                "url": "http://www.squadrati.com/feed/"
-            },
-            {
-                "title": "Thinker Tinker Maker",
-                "url": "https://thinkertinkermaker.wordpress.com/feed/"
-            },
-            {
-                "title": "Bibliorelle",
-                "url": "https://bibliorelle.wordpress.com/feed/"
-            },
-            {
-                "title": "Ali Abdaal",
-                "url": "https://aliabdaal.com/rss/"
-            },
-            {
-                "title": "Questo blog non esiste",
-                "url": "http://aubreymcfato.wordpress.com/feed/"
-            },
-            {
-                "title": "Welcome to the Necro Nomnomnomicon",
-                "url": "https://eatthedead.com/feed/"
-            },
-            {
-                "title": "Studio Samo",
-                "url": "https://www.studiosamo.it/feed/"
-            },
-            {
-                "title": "c00kies@venice",
-                "url": "http://secgroup.github.io/feed"
-            },
-            {
-                "title": "Winnie Lim",
-                "url": "https://winnielim.org/feed/"
-            },
-            {
-                "title": "Toggl Blog",
-                "url": "http://blog.toggl.com/feed/"
-            },
-            {
-                "title": null,
-                "url": "https://iquadernidiarda.it/feed/"
-            },
-            {
-                "title": "Blog on Ana Ulin",
-                "url": "https://anaulin.org/blog/index.xml"
-            },
-            {
-                "title": "Shut Up & Sit Down",
-                "url": "http://susd.pretend-money.com/blog/feed.xml"
-            },
-            {
-                "title": "DATAPORN",
-                "url": "https://dataporn.me/feed.xml"
-            },
-            {
-                "title": "ITCHBAN.com / Blog - itchban",
-                "url": "https://www.itchban.com/blog?format=rss"
-            },
-            {
-                "title": "electro\u00b7pizza",
-                "url": "https://electro.pizza/feed.xml"
-            },
-            {
-                "title": "Marco's Blog",
-                "url": "https://blog.marco.ninja/index.xml"
-            },
-            {
-                "title": "Zero Equals False - Quality content delivered to you.",
-                "url": "https://zeroequalsfalse.com/atom.xml"
-            },
-            {
-                "title": "Bullet Journal - The Bullet Journalist",
-                "url": "https://bulletjournal.com/blogs/bulletjournalist.atom"
-            },
-            {
-                "title": "Articles by Aaron Parecki",
-                "url": "https://aaronparecki.com/feed.xml"
-            },
-            {
-                "title": "Pythonstacks",
-                "url": "https://feedly.com/email/6n7eaci8p6yzvtlatcfy"
-            },
-            {
-                "title": "Ready for commons",
-                "url": "https://readyforcommons.com/feed.xml"
-            },
-            {
-                "title": "The Inn at the Crossroads",
-                "url": "http://innatthecrossroads.com/feed/"
-            },
-            {
-                "title": "PirateBox Forum - PirateBox News and Events",
-                "url": "http://forum.daviddarts.com/feed.php?9,type=rss"
-            },
-            {
-                "title": "Cyberpunk Italia",
-                "url": "http://cyberpunkitalia.altervista.org/blog/feed/"
-            },
-            {
-                "title": "Nicole van der Hoeven",
-                "url": "https://nicolevanderhoeven.github.io/index.xml"
-            },
-            {
-                "title": "Paths Peculiar",
-                "url": "https://www.wistedt.net/feed/"
-            },
-            {
-                "title": "Sudo Satirical",
-                "url": "https://www.sudosatirical.com/index.xml"
-            },
-            {
-                "title": "Ana Ulin",
-                "url": "https://anaulin.org/index.xml"
-            },
-            {
-                "title": "Home on rogs",
-                "url": "https://rogs.me/index.xml"
-            },
-            {
-                "title": "Google Developers Italia",
-                "url": "http://developersitalia.blogspot.com/feeds/posts/default"
-            }
-        ],
-        "type": "Blog"
-    },
-    {
-        "elements": [
-            {
-                "title": "Travellers Notebook Times",
-                "url": "http://travellersnotebooktimes.com/feed/"
-            },
-            {
-                "title": "Becoming Sleek",
-                "url": "http://becomingsleek.com/feed/"
-            },
-            {
-                "title": "The Poor Penman",
-                "url": "https://thepoorpenman.com/feed/"
-            },
-            {
-                "title": "ZenKraft Traveler's Notes",
-                "url": "http://zenkrafttravelersnotebook.blogspot.com/feeds/posts/default"
-            },
-            {
-                "title": "Bullet Journal",
-                "url": "https://bulletjournal.it/feed/"
-            },
-            {
-                "title": "My Life All in One Place",
-                "url": "http://www.mylifeallinoneplace.com/feeds/posts/default"
-            },
-            {
-                "title": "The Gentleman Stationer",
-                "url": "http://www.gentlemanstationer.com/blog?format=rss"
-            },
-            {
-                "title": "",
-                "url": "https://inkpothesis.com/home-1?format=rss"
-            },
-            {
-                "title": "The Desk of Adam",
-                "url": "http://www.thedeskofadam.com/blog?format=rss"
-            }
-        ],
-        "type": "Notebook and Pens"
-    },
-    {
-        "elements": [
-            {
-                "title": "Jasdavi's web comics",
-                "url": "https://jasdavi92.wordpress.com/feed/"
-            }
-        ],
-        "type": "Web other"
-    },
-    {
-        "elements": [
-            {
-                "title": "Ospiti della Sala Macchine",
-                "url": "http://www.soft-land.org/rss/softland/ospiti.rss"
-            },
-            {
-                "title": "Storie dalla Sala Macchine",
-                "url": "http://www.soft-land.org/rss/softland/sdsm.rss"
-            }
-        ],
-        "type": "Storie della Sala macchine"
-    },
-    {
-        "type": "podcast",
-        "elements": [
-            {
-                "title": "Podcast.init",
-                "url": "https://www.podcastinit.com"
-            },
-            {
-                "title": "Talk Python To Me",
-                "url": "https://talkpython.fm"
-            },
-            {
-                "title": "Pythonbytes",
-                "url": "https://pythonbytes.fm"
-            },
-            {
-                "title": "Test and Code",
-                "url": "http://pythontesting.net"
-            },
-            {
-                "title": "The Changelog",
-                "url": "https://changelog.com"
-            },
-            {
-                "title": "Request For Commits",
-                "url": "https://changelog.com/rfc"
-            },
-            {
-                "title": "Partially Derivative",
-                "url": "http://partiallyderivative.com/"
-            },
-            {
-                "title": "Go Time",
-                "url": "https://changelog.com/gotime"
-            },
-            {
-                "title": "The ground up show",
-                "url": "http://mattdavella.com/podcast"
-            },
-            {
-                "title": "Data Porn",
-                "url": "https://dataporn.me/"
-            }
-        ]
-    },
-    {
-        "type": "documentary",
-        "elements": [
-            {
-                "title": "The Great Hack",
-                "url": "https://www.netflix.com/title/80117542"
-            },
-            {
-                "title": "Social Dilemma",
-                "url": "https://www.netflix.com/title/81254224"
-            },
-            {
-                "title": "How iFixit Became the World's Best iPhone Teardown Team",
-                "url": "https://youtu.be/tx-9LkVIdz0"
-            },
-            {
-                "title": "THE INSIDE LIFE OF A HACKER (Best Documentary 2020)",
-                "url": "https://www.youtube.com/watch?v=CuESlhKLhCY"
-            },
-            {
-                "title": "Anonymous - The Hacker Wars",
-                "url": "https://www.youtube.com/watch?v=ku9edEKvGuY"
-            },
-            {
-                "title": "Minimalism - a Documentary",
-                "url": "https://www.netflix.com/title/80114460"
-            },
-            {
-                "title": "Minimalism - Less is Now",
-                "url": "https://netflix.com/theminimalists"
-            },
-            {
-                "title": "The Man Putin Fears The Most",
-                "url": "https://youtu.be/hrORwk_RZLM"
-            },
-            {
-                "title": "The World Design of Dark Souls | Boss Keys",
-                "url": "https://www.youtube.com/watch?v=QhWdBhc3Wjc"
-            },
-            {
-                "title": "The World Design of Hollow Knight | Boss Keys",
-                "url": "https://www.youtube.com/watch?v=7ITtPPE-pXE"
-            }
-        ]
-    },
-    {
-        "type": "films and videos",
-        "elements": [
-            {
-                "title": "Movies For Hackers",
-                "url": "https://hackermovie.club"
-            },
-            {
-                "title": "The Mysterious Life Of UX Designers",
-                "url": "https://youtu.be/gfHcnig8Lo4"
-            },
-            {
-                "title": "The Mysterious Life of Developers",
-                "url": "https://youtu.be/Ey3Ix7QuKPs"
-            },
-            {
-                "title": "How \u201cdementia villages\u201d work",
-                "url": "https://youtu.be/LN_--egst3s"
-            }
-        ]
-    },
-    {
-        "type": "manifesto",
-        "elements": [
-            {
-                "title": "12Factor Guidelines",
-                "url": "https://12factor.net"
-            },
-            {
-                "title": "Netiquette Guidelines",
-                "url": "https://tools.ietf.org/html/rfc1855"
-            },
-            {
-                "title": "The Jargon File",
-                "url": "http://www.catb.org/jargon/"
-            },
-            {
-                "title": "Hacker Manifesto",
-                "url": "http://phrack.org/issues/7/3.html"
-            },
-            {
-                "title": "Repair Manifesto",
-                "url": "https://www.ifixit.com/Manifesto"
-            }
-        ]
-    },
-    {
-        "type": "utility",
-        "elements": [
-            {
-                "title": "EmojiPedia",
-                "url": "https://emojipedia.org"
-            },
-            {
-                "title": "Shields",
-                "url": "http://shields.io"
-            },
-            {
-                "title": "Carbon Shell for scrennshot",
-                "url": "https://carbon.now.sh/"
-            },
-            {
-                "title": "Kit",
-                "url": "https://kit.com"
-            },
-            {
-                "title": "Freelancer email generator",
-                "url": "https://toggl.com/freelance-email-generator/"
-            },
-            {
-                "title": "The Bastard Operator From Hell - Style Excuse Server",
-                "url": "http://pages.cs.wisc.edu/~ballard/bofh/"
-            },
-            {
-                "title": "Hacker Scripts Repo",
-                "url": "https://github.com/NARKOZ/hacker-scripts"
-            },
-            {
-                "title": "DotFiles",
-                "url": "https://dotfiles.github.io"
-            },
-            {
-                "title": "EditorConfig",
-                "url": "http://editorconfig.org"
-            },
-            {
-                "title": "Python Release cycle",
-                "url": "https://python-release-cycle.glitch.me/"
-            },
-            {
-                "title": "Hacker Script for lazy worker",
-                "url": "https://github.com/NARKOZ/hacker-scripts"
-            },
-            {
-                "title": "Diagrams, prototyping architecture",
-                "url": "https://diagrams.mingrammer.com/"
-            },
-            {
-                "title": "AWS schema",
-                "url": "https://www.awsgeek.com/"
-            }
-        ]
-    },
-    {
-        "type": "comics developer",
-        "elements": [
-            {
-                "title": "Save the princess with a programming language",
-                "url": "https://toggl.com/programming-princess/"
-            },
-            {
-                "title": "How To Build A Horse With Programming ",
-                "url": "https://blog.toggl.com/build-horse-programming/"
-            },
-            {
-                "title": "Programming languages as music",
-                "url": "https://blog.toggl.com/programming-languages-explained-with-music-comic/"
-            },
-            {
-                "title": "How to kill a dragon with 9 programming language",
-                "url": "https://blog.toggl.com/kill-dragon-comic/"
-            },
-            {
-                "title": "The Seven Circles of Developer Hell",
-                "url": "https://blog.toggl.com/seven-levels-developer-hell/"
-            },
-            {
-                "title": "IT Jobs Explained With A Broken Lightbulb",
-                "url": "https://blog.toggl.com/lightbulb-cartoon-developers/"
-            },
-            {
-                "title": "Terrible clients explained with pirates",
-                "url": "https://toggl.com/worst-client-types-infographic/"
-            },
-            {
-                "title": "If The World Was Created By A Programmer",
-                "url": "https://blog.toggl.com/world-created-programmer/"
-            },
-            {
-                "title": "Tech carrers of the future",
-                "url": "https://blog.toggl.com/tech-careers-future/"
-            },
-            {
-                "title": "11 Types of Employees You Meet at a Tech Company",
-                "url": "https://blog.toggl.com/tech-employee-stereotypes-comic/"
-            },
-            {
-                "title": "SysAdmin vs Terrorist",
-                "url": "https://xkcd.com/705/"
-            },
-            {
-                "title": "If A Startup Were A Zoo",
-                "url": "https://blog.toggl.com/startup-zoo-comic/"
-            },
-            {
-                "title": "Explaining Software Development Methods By Flying To Mars",
-                "url": "https://blog.toggl.com/mars-software-development/"
-            },
-            {
-                "title": "9 Crucial Employees Every Startup Should Have In Their Deck",
-                "url": "https://blog.toggl.com/startup-employees-deck/"
-            },
-            {
-                "title": "Little Red Riding Hood Teaches Programming",
-                "url": "https://toggl.com/blog/little-red-riding-hood-teaches-programming-comic"
-            },
-            {
-                "title": "The Hidden Dangers of Refactoring",
-                "url": "https://toggl.com/blog/hidden-dangers-refactoring"
-            }
-        ]
-    },
-    {
-        "type": "fun",
-        "elements": [
-            {
-                "title": "Octodex",
-                "url": "https://octodex.github.com"
-            },
-            {
-                "title": "Order Dragons",
-                "url": "http://lizardshuffle.tumblr.com"
-            }
-        ]
-    },
-    {
-        "type": "anime",
-        "elements": [
-            {
-                "title": "Bakemonogatari",
-                "url": "https://www.animeclick.it/anime/2268/bakemonogatari"
-            },
-            {
-                "title": "Steins Gate",
-                "url": "https://www.animeclick.it/anime/3114/steins-gate"
-            },
-            {
-                "title": "Psycho-Pass",
-                "url": "https://www.animeclick.it/anime/4084/psycho-pass"
-            }
-        ]
-    },
-    {
-        "type": "evil overlod",
-        "elements": [
-            {
-                "title": "Decalogo del signore del male",
-                "url": "http://www.eviloverlord.com/lists/overlord.html"
-            },
-            {
-                "title": "Primo decalogo delle celle",
-                "url": "http://www.eviloverlord.com/lists/dungeon_a.html"
-            },
-            {
-                "title": "Secondo decalogo delle celle",
-                "url": "http://www.eviloverlord.com/lists/dungeon_b.html"
-            }
-        ]
-    },
-    {
-        "type": "fonts",
-        "elements": [
-            {
-                "title": "MonoLisa",
-                "url": "https://www.monolisa.dev/"
-            },
-            {
-                "title": "JetBrains Mono",
-                "url": "https://www.jetbrains.com/lp/mono/"
-            },
-            {
-                "title": "Fira Code",
-                "url": "https://github.com/tonsky/FiraCode"
-            }
-        ]
-    },
-    {
-        "type": "app",
-        "elements": [
-            {
-                "title": "Mihon.app",
-                "url": "https://mihon.app/"
-            }
-        ]
-    }
+	{
+		"elements": [
+			{
+				"title": "CommitStrip",
+				"url": "http://www.commitstrip.com/en/feed/"
+			},
+			{
+				"title": "Joshua Wright Dot Net",
+				"url": "http://www.joshuawright.net/rss_joshuawright.xml"
+			},
+			{
+				"title": "yehudadevir",
+				"url": "https://www.yehudadevir.com/feed.xml"
+			},
+			{
+				"title": "MonkeyUser",
+				"url": "http://www.monkeyuser.com/feed.xml"
+			},
+			{
+				"title": "belzebubs",
+				"url": "http://www.belzebubs.com/rss"
+			},
+			{
+				"title": "lolnein",
+				"url": "https://lolnein.com/feed/"
+			},
+			{
+				"title": "Fun – Toggl Blog",
+				"url": "https://blog.toggl.com/category/fun/feed/"
+			},
+			{
+				"title": "Consolia Comics",
+				"url": "https://consolia-comic.com/rss.xml"
+			},
+			{
+				"title": "PHD Comics",
+				"url": "http://www.phdcomics.com/gradfeed.php"
+			},
+			{
+				"title": "arcaderage.co",
+				"url": "https://arcaderage.co/feed/"
+			},
+			{
+				"title": "cartadamacello » Feed",
+				"url": "https://cartadamacello.it/feed/"
+			},
+			{
+				"title": "turnoff.us - geek comic site",
+				"url": "http://turnoff.us/feed.xml"
+			},
+			{
+				"title": "System32Comics",
+				"url": "https://www.webtoons.com/en/challenge/system32comics/rss?title_no=235074"
+			},
+			{
+				"title": "My Life As A Background Slytherin – Emily McGovern",
+				"url": "http://emilymcgovern.com/?feed=rss2&cat=6"
+			},
+			{
+				"title": "Purpurea Noxa Updates",
+				"url": "http://purpureanoxa.smackjeeves.com/rss/"
+			},
+			{
+				"title": "Emily's Cartoons",
+				"url": "http://emilyscartoons.tumblr.com/rss"
+			},
+			{
+				"title": "xkcd",
+				"url": "http://xkcd.com/rss.xml"
+			},
+			{
+				"title": "comic – Toggl Blog",
+				"url": "https://blog.toggl.com/tag/comic/feed/"
+			}
+		],
+		"type": "Web Comics"
+	},
+	{
+		"elements": [
+			{
+				"title": "DevFest1 Veneto",
+				"url": "https://gdg-venezia.github.io/devfest1-veneto/feed.xml"
+			},
+			{
+				"title": "DEF CON Announcements!",
+				"url": "http://www.defcon.org/defconrss.xml"
+			},
+			{
+				"title": "PyconIT blog",
+				"url": "http://feeds.feedburner.com/pyconit"
+			},
+			{
+				"title": "Nephila Digital Agency",
+				"url": "https://www.nephila.it/it/blog/feed/"
+			},
+			{
+				"title": "EuroPython Blog",
+				"url": "http://blog.europython.eu/rss"
+			}
+		],
+		"type": "Blog Convention Society"
+	},
+	{
+		"elements": [
+			{
+				"title": "Release notes from hugo",
+				"url": "https://github.com/spf13/hugo/releases.atom"
+			},
+			{
+				"title": "Mentions",
+				"url": "https://webmention.io/api/mentions.atom?token=-g5vlz9y3p5llrdS7TmnCg"
+			}
+		],
+		"type": "Automation"
+	},
+	{
+		"elements": [
+			{
+				"title": "Eloraams Blog",
+				"url": "http://www.eloraam.com/atom.xml"
+			},
+			{
+				"title": "PahiCraft",
+				"url": "http://www.pahimar.com/feed/"
+			},
+			{
+				"title": "iChun's blog »",
+				"url": "http://ichun.us/feed/"
+			}
+		],
+		"type": "Modder"
+	},
+	{
+		"elements": [
+			{
+				"title": "Neon Dystopia",
+				"url": "http://www.neondystopia.com/feed/"
+			},
+			{
+				"title": "CyberPunkReview",
+				"url": "http://www.cyberpunkreview.com/feed/"
+			}
+		],
+		"type": "Cyberpunk"
+	},
+	{
+		"elements": [
+			{
+				"title": "Reasonably Polymorphic",
+				"url": "http://reasonablypolymorphic.com/feed.rss"
+			},
+			{
+				"title": "dbader.org",
+				"url": "https://dbader.org/rss"
+			},
+			{
+				"title": "Andre Torrez",
+				"url": "http://torrez.org/feed.xml"
+			},
+			{
+				"title": "CodingJam",
+				"url": "http://feeds.feedburner.com/CoseNonJaviste"
+			},
+			{
+				"title": "Brain Baking",
+				"url": "https://brainbaking.com/index.xml"
+			},
+			{
+				"title": "Bennett Notes",
+				"url": "https://www.bennettnotes.com/index.xml"
+			},
+			{
+				"title": "Mike Coutermarsh",
+				"url": "https://mikecoutermarsh.com/feed.xml"
+			},
+			{
+				"title": "Alex Ellis' Blog",
+				"url": "http://blog.alexellis.io/rss/"
+			},
+			{
+				"title": "low level fun",
+				"url": "https://sc0ty.pl/feed/"
+			},
+			{
+				"title": "Hundred Rabbits",
+				"url": "https://100r.co/links/rss.xml"
+			},
+			{
+				"title": "Victoria Drake's Blog",
+				"url": "https://vickylai.com/index.xml"
+			},
+			{
+				"title": "Blogs on Luca Guidi",
+				"url": "http://feeds.feedburner.com/LucaGuidi"
+			},
+			{
+				"title": "Adam Johnson",
+				"url": "https://adamj.eu/tech/atom.xml"
+			},
+			{
+				"title": "Squid Shock Studios",
+				"url": "https://squidshockstudios.com/feed/"
+			},
+			{
+				"title": "sohamp.dev",
+				"url": "https://www.sohamp.dev/blog/rss.xml"
+			},
+			{
+				"title": "I am Jonas",
+				"url": "https://www.iamjonas.me/feeds/posts/default?alt=rss"
+			},
+			{
+				"title": "Justin Beckwith",
+				"url": "https://jbeckwith.com/feed/"
+			},
+			{
+				"title": "Christine Donath",
+				"url": "https://christinedonath.com/feed/"
+			},
+			{
+				"title": "Jacob Tomlinson",
+				"url": "https://jacobtomlinson.dev/feed.xml"
+			},
+			{
+				"title": "Nick Janetakis",
+				"url": "http://nickjanetakis.com/atom.xml"
+			},
+			{
+				"title": "Posts on Marco Gomiero",
+				"url": "https://www.marcogomiero.com/posts/index.xml"
+			},
+			{
+				"title": "MutantEstate",
+				"url": "http://blog.openstreetmap.it/feed/"
+			},
+			{
+				"title": "Stories by Thiago Amanajás on Medium",
+				"url": "https://medium.com/feed/@amanajas"
+			},
+			{
+				"title": "Seph",
+				"url": "http://josephg.com/blog/rss/"
+			},
+			{
+				"title": "Ayushi Rawat's Blog",
+				"url": "https://ayushirawat.com/rss.xml"
+			},
+			{
+				"title": "Thinking in a digital life on Thinking in a digital life",
+				"url": "https://matjaz.it/index.xml"
+			},
+			{
+				"title": "RSS",
+				"url": "https://medium.com/feed/@batuhan-apaydin-11378"
+			},
+			{
+				"title": "Blog on Karthik Karanth",
+				"url": "https://karthikkaranth.me/blog/index.xml"
+			},
+			{
+				"title": "Ctrl blog",
+				"url": "https://feed.ctrl.blog/latest.atom"
+			},
+			{
+				"title": "Hi, I'm Christian Engel on chringel.dev",
+				"url": "https://chringel.dev/index.xml"
+			},
+			{
+				"title": "Infrequently Noted",
+				"url": "https://infrequently.org/feed/"
+			},
+			{
+				"title": "beepb00p",
+				"url": "https://beepb00p.xyz/rss.xml"
+			},
+			{
+				"title": "Storax",
+				"url": "https://storax.github.io/rss.xml"
+			},
+			{
+				"title": "Mislav's blog",
+				"url": "http://feeds.feedburner.com/mislav/dev"
+			},
+			{
+				"title": "The Machine Spirit",
+				"url": "https://www.bensampica.com/index.xml"
+			},
+			{
+				"title": "Eloraams Blog",
+				"url": "http://www.eloraam.com/atom.xml"
+			},
+			{
+				"title": "maelvls dev blog",
+				"url": "https://maelvls.dev/index.xml"
+			},
+			{
+				"title": "RSS",
+				"url": "https://medium.com/feed/@kiaruzza_dev"
+			},
+			{
+				"title": "Essays",
+				"url": "http://essays.ubik.tech/feeds/all.atom.xml"
+			},
+			{
+				"title": "Monte Hellawell",
+				"url": "https://blog.monte.me.uk/feed/"
+			},
+			{
+				"title": "Bas codes",
+				"url": "https://bas.codes/rss.xml"
+			},
+			{
+				"title": "Federico Terzi",
+				"url": "https://federicoterzi.com/feed.xml"
+			},
+			{
+				"title": "vsupalov.com",
+				"url": "https://vsupalov.com/index.xml"
+			},
+			{
+				"title": "Contact Form 7",
+				"url": "https://contactform7.com/feed/"
+			},
+			{
+				"title": "Abdullah Khabir",
+				"url": "https://abdullah.today/index.xml"
+			},
+			{
+				"title": "Bonjour, Hi 🇨🇦 on Regis Philibert",
+				"url": "https://www.regisphilibert.com/index.xml"
+			},
+			{
+				"title": "Go With The Flow - Medium",
+				"url": "https://gwtf.it/feed/"
+			},
+			{
+				"title": "icyphox",
+				"url": "https://icyphox.sh/blog/feed.xml"
+			},
+			{
+				"title": "Nabeel Valley's Blog",
+				"url": "https://nabeelvalley.netlify.app/rss.xml"
+			},
+			{
+				"title": "Stories by Sebastián Ramírez on Medium",
+				"url": "https://medium.com/feed/@tiangolo"
+			},
+			{
+				"title": "Raja Simon",
+				"url": "https://rajasimon.io/index.xml"
+			},
+			{
+				"title": "Mykal Machon (mykal.codes)",
+				"url": "https://mykal.codes/rss.xml"
+			},
+			{
+				"title": "José Padilla",
+				"url": "http://jpadilla.com/rss"
+			},
+			{
+				"title": "dtrapezoid",
+				"url": "http://dtrapezoid.com/feeds/all.atom.xml"
+			},
+			{
+				"title": "LOW←TECH MAGAZINE",
+				"url": "https://solar.lowtechmagazine.com/feeds/all.atom.xml"
+			},
+			{
+				"title": "rixx.de",
+				"url": "https://rixx.de/feed.xml"
+			},
+			{
+				"title": "André Jaenisch's blog",
+				"url": "https://jaenis.ch/blog/feed.xml"
+			},
+			{
+				"title": "tanaike",
+				"url": "https://tanaikech.github.io/index.xml"
+			},
+			{
+				"title": "mattcen's mumblings",
+				"url": "https://blog.mattcen.com/feed/"
+			},
+			{
+				"title": "Mimsy Were the Borogoves",
+				"url": "https://www.hoboes.com/Mimsy/feed/"
+			},
+			{
+				"title": "Norman Köhring a.k.a. koehr a.k.a. n4n",
+				"url": "https://koehr.tech/feed/"
+			},
+			{
+				"title": "Jeff Triplett",
+				"url": "http://feeds.feedburner.com/JeffTriplett"
+			},
+			{
+				"title": "Luca Corbucci",
+				"url": "https://lucacorbucci.me/index.xml"
+			},
+			{
+				"title": "Sebastian De Deyne",
+				"url": "https://sebastiandedeyne.com/index.xml"
+			},
+			{
+				"title": "rixx.de",
+				"url": "https://rixx.de/de/feed.xml"
+			},
+			{
+				"title": "Ordered List",
+				"url": "http://feeds.feedburner.com/orderedlist"
+			},
+			{
+				"title": "Lambert",
+				"url": "https://www.lambertmech.ir/index.xml"
+			},
+			{
+				"title": "Eggon",
+				"url": "https://eggon.co/feed/"
+			},
+			{
+				"title": "Gautam Krishna R » Feed",
+				"url": "https://www.gautamkrishnar.com/feed/"
+			},
+			{
+				"title": "nerdypepper's μblog",
+				"url": "https://peppe.rs/index.xml"
+			},
+			{
+				"title": "Justin Mayer",
+				"url": "http://justinmayer.com/feeds/all.atom.xml"
+			},
+			{
+				"title": "Dinosaurs Are Forever",
+				"url": "http://chrisarges.net/feed.xml"
+			},
+			{
+				"title": "Multiline Comment",
+				"url": "https://multiline.co/mment/feed.xml"
+			},
+			{
+				"title": "Tantek Çelik",
+				"url": "http://tantek.com/updates.atom"
+			},
+			{
+				"title": "Christian Oliff",
+				"url": "https://christianoliff.com/feed.xml"
+			},
+			{
+				"title": "Patrick Kidger",
+				"url": "https://kidger.site/index.xml"
+			},
+			{
+				"title": "",
+				"url": "https://marksuth.dev/feed/posts.xml"
+			},
+			{
+				"title": "sobolevn’s personal blog",
+				"url": "https://sobolevn.me/feed.xml"
+			},
+			{
+				"title": "PahiCraft",
+				"url": "http://www.pahimar.com/feed/"
+			},
+			{
+				"title": "fuzzy notepad",
+				"url": "http://me.veekun.com/atom.xml"
+			},
+			{
+				"title": "Rowan Manning",
+				"url": "https://rowanmanning.com/feed.xml"
+			},
+			{
+				"title": "Lost in IRC",
+				"url": "https://dygalo.dev/rss.xml"
+			},
+			{
+				"title": "Jake Wharton",
+				"url": "http://jakewharton.com/feed.xml"
+			},
+			{
+				"title": "Meandering streams of consciousness",
+				"url": "http://annaraven.blogspot.com/feeds/posts/default"
+			},
+			{
+				"title": "~prologic",
+				"url": "https://prologic.shortcircuit.net.au/index.xml"
+			},
+			{
+				"title": "Piccalilli",
+				"url": "https://piccalil.li/feed.xml"
+			},
+			{
+				"title": "Victoria's Neofeed",
+				"url": "https://victoria.dev/neofeed/index.xml"
+			},
+			{
+				"title": "Main Page on STRM",
+				"url": "https://strm.sh/index.xml"
+			},
+			{
+				"title": "Miriam Eric Suzanne",
+				"url": "https://www.miriamsuzanne.com/feed.xml"
+			},
+			{
+				"title": "Rowan’s Blog | Rowan Manning",
+				"url": "https://rowanmanning.com/posts/feed.xml"
+			},
+			{
+				"title": "Pelle Wessman",
+				"url": "https://voxpelli.com/all.xml"
+			},
+			{
+				"title": "Xero",
+				"url": "https://www.xero.nu/feed/"
+			},
+			{
+				"title": "Anish Athalye",
+				"url": "http://www.anishathalye.com/feed.xml"
+			},
+			{
+				"title": "code 'n fold",
+				"url": "http://code-n-fold.com/feed.xml"
+			},
+			{
+				"title": "James Loh",
+				"url": "https://jloh.co/index.xml"
+			},
+			{
+				"title": "The Land of XComp » Feed",
+				"url": "http://blog.xcompwiz.com/feed/"
+			},
+			{
+				"title": "/var/",
+				"url": "http://spapas.github.io/feeds/all.atom.xml"
+			},
+			{
+				"title": "fribbledom's Journal",
+				"url": "https://fribbledom.com/index.xml"
+			},
+			{
+				"title": "pickles.dev",
+				"url": "https://pickles.dev/rss/"
+			},
+			{
+				"title": "OgniBit » Feed",
+				"url": "https://www.ognibit.it/feed/"
+			},
+			{
+				"title": "Modern Web Development with Chrome",
+				"url": "https://paul.kinlan.me/index.xml"
+			},
+			{
+				"title": "barrl",
+				"url": "http://barrl.net/feed"
+			},
+			{
+				"title": "Deciphering Glyph",
+				"url": "http://glyph.twistedmatrix.com/feeds/posts/default"
+			},
+			{
+				"title": "Slinky's corner",
+				"url": "https://slinkydeveloper.com/atom.xml"
+			},
+			{
+				"title": "Starred Articles",
+				"url": "https://feedbin.com/starred/9e637b645b460951ca3f158f167a0bea.xml"
+			},
+			{
+				"title": "The Mypy Blog",
+				"url": "http://mypy-lang.blogspot.com/feeds/posts/default"
+			},
+			{
+				"title": "The Blogging of Prolog",
+				"url": "http://prologomenon.wordpress.com/feed/"
+			},
+			{
+				"title": "Adam Šabla",
+				"url": "http://adamsabla.sk/feed/"
+			},
+			{
+				"title": "marcus.io",
+				"url": "https://marcus.io/feed"
+			},
+			{
+				"title": "iChun's blog »",
+				"url": "http://ichun.us/feed/"
+			},
+			{
+				"title": "Stefans Welt",
+				"url": "http://blog.behnel.de/rss.xml"
+			},
+			{
+				"title": "00dani.me",
+				"url": "https://00dani.me/atom"
+			},
+			{
+				"title": "the code of xero harrison",
+				"url": "https://feeds.xero.nu/atom/code/nerdtree/master"
+			},
+			{
+				"title": "Haki Benita",
+				"url": "https://hakibenita.com/feeds/all.atom.xml"
+			},
+			{
+				"title": "BrianLi.com",
+				"url": "https://brianli.com/index.xml"
+			},
+			{
+				"title": "https://aklsh.github.io/",
+				"url": "https://aklsh.github.io/feed.xml"
+			},
+			{
+				"title": "Marco's Blog",
+				"url": "https://marco.kamner.eu/index.xml"
+			},
+			{
+				"title": "Kitty Giraudel",
+				"url": "https://hugogiraudel.com/rss/index.xml"
+			},
+			{
+				"title": "Sysadmins",
+				"url": "http://sysadmins.co.za/rss/"
+			},
+			{
+				"title": "Obey the Testing Goat!",
+				"url": "https://www.obeythetestinggoat.com/feeds/all.atom.xml"
+			},
+			{
+				"title": "Essays - Kenneth Reitz",
+				"url": "http://www.kennethreitz.org/essays?format=rss"
+			},
+			{
+				"title": "Ferd.ca",
+				"url": "http://ferd.ca/feed.rss"
+			},
+			{
+				"title": "Zach Holman",
+				"url": "https://zachholman.com/atom.xml"
+			},
+			{
+				"title": "Coding Blog By Arnab Kumar Shil",
+				"url": "https://ruddra.com/index.xml"
+			},
+			{
+				"title": "Trevor D. Miller blog",
+				"url": "https://trevordmiller.com/blog/feed"
+			},
+			{
+				"title": "Simple is Better Than Complex",
+				"url": "http://simpleisbetterthancomplex.com/feed.xml"
+			},
+			{
+				"title": "Chris Coyier",
+				"url": "http://chriscoyier.net/feed/"
+			},
+			{
+				"title": "ayush sharma's notes ☕ + 🎧 + 🕹️",
+				"url": "http://notes.ayushsharma.in/feed.xml"
+			},
+			{
+				"title": "Max Böck",
+				"url": "https://mxb.dev/feed.xml"
+			},
+			{
+				"title": "Alfred Blog",
+				"url": "https://www.alfredapp.com/blog/feed.xml"
+			},
+			{
+				"title": "Christian Fei's Blog",
+				"url": "https://cri.dev/rss.xml"
+			},
+			{
+				"title": "Free and Open Source GIS Ramblings",
+				"url": "http://underdark.wordpress.com/feed/"
+			},
+			{
+				"title": "Vento's projects",
+				"url": "http://v3n7o.wordpress.com/feed/"
+			},
+			{
+				"title": "Essays - Kenneth Reitz",
+				"url": "https://www.kennethreitz.org/essays?format=RSS"
+			},
+			{
+				"title": "Xetera",
+				"url": "https://xetera.dev/rss.xml"
+			},
+			{
+				"title": "Slaptijack",
+				"url": "http://feeds.feedburner.com/slaptijack"
+			},
+			{
+				"title": "bsago.me",
+				"url": "https://bsago.me/feed.atom"
+			},
+			{
+				"title": "SecNigma",
+				"url": "https://secnigma.wordpress.com/feed/"
+			},
+			{
+				"title": "Fundor333 on Fundor 333",
+				"url": "https://fundor333.com/index.xml"
+			},
+			{
+				"title": "no.lol",
+				"url": "https://www.no.lol/rss.xml"
+			},
+			{
+				"title": "Grab The Blaster",
+				"url": "http://dottorblaster.it/feed/"
+			},
+			{
+				"title": "Thiago Amanajás",
+				"url": "http://amanajas.com/index.xml"
+			},
+			{
+				"title": "nonmateria.com RSS",
+				"url": "http://npisanti.com/rss.xml"
+			},
+			{
+				"title": "concise coder",
+				"url": "https://concisecoder.io/feed/"
+			},
+			{
+				"title": "Path-Sensitive",
+				"url": "http://pathsensitive.blogspot.com/feeds/posts/default"
+			},
+			{
+				"title": "Colin Wilson",
+				"url": "https://colinwilson.uk/index.xml"
+			},
+			{
+				"title": "Waylon Walkers Digital Garden - blog posts",
+				"url": "https://waylonwalker.com/blog/rss.xml"
+			},
+			{
+				"title": "Dylan Anthony",
+				"url": "https://dylananthony.com/atom.xml"
+			},
+			{
+				"title": "Robbi Nespu",
+				"url": "https://robbinespu.gitlab.io/index.xml"
+			},
+			{
+				"title": "-Noise-",
+				"url": "http://zerodoc.wordpress.com/feed/"
+			},
+			{
+				"title": "Jamie Tanna | Software Engineer",
+				"url": "https://www.jvt.me/feed.xml"
+			},
+			{
+				"title": "Articles — brandur.org",
+				"url": "https://brandur.org/articles.atom"
+			},
+			{
+				"title": "pawelgrzybek.com",
+				"url": "https://pawelgrzybek.com/feed.xml"
+			},
+			{
+				"title": "Go With The Flow",
+				"url": "https://gwtf.it/feed"
+			},
+			{
+				"title": "ines.io",
+				"url": "http://www.klammerauf.org/feed/"
+			},
+			{
+				"title": "Blog - Beads Language Home site",
+				"url": "http://beadslang.org/blog?format=rss"
+			},
+			{
+				"title": "PeterGoes.nl Blog",
+				"url": "https://www.petergoes.nl/blog/feed.xml"
+			},
+			{
+				"title": "Stories by Juna Salviati on Medium",
+				"url": "https://medium.com/feed/@1littleendian"
+			}
+		],
+		"type": "Personal Blog IT"
+	},
+	{
+		"elements": [
+			{
+				"title": "Transit Maps",
+				"url": "http://transitmap.net/rss"
+			},
+			{
+				"title": "Transit Maps",
+				"url": "http://transitmaps.tumblr.com/rss"
+			},
+			{
+				"title": "Charting Transport",
+				"url": "http://chartingtransport.wordpress.com/feed/"
+			}
+		],
+		"type": "Transport"
+	},
+	{
+		"elements": [
+			{
+				"title": "Giap",
+				"url": "http://feeds.feedburner.com/giap"
+			},
+			{
+				"title": "sullaluna",
+				"url": "https://www.sullalunavenezia.it/feed/"
+			}
+		],
+		"type": "Libri"
+	},
+	{
+		"elements": [
+			{
+				"title": "N O D E",
+				"url": "https://n-o-d-e.net/rss/rss.xml"
+			},
+			{
+				"title": "The GitHub Blog",
+				"url": "https://github.com/blog/all.atom"
+			},
+			{
+				"title": "Glue-Lab",
+				"url": "https://feedly.com/email/uhd7btr5kpy6qjwi3v2b"
+			},
+			{
+				"title": "Docker Pirates ARMed with explosive stuff",
+				"url": "http://blog.hypriot.com/index.xml"
+			},
+			{
+				"title": "Commands with 3 up-votes",
+				"url": "http://www.commandlinefu.com/feed/threeup"
+			},
+			{
+				"title": "The Django weblog",
+				"url": "http://www.djangoproject.com/rss/weblog/"
+			},
+			{
+				"title": "Mouse Vs Python",
+				"url": "http://feeds.feedburner.com/TheMouseVsThePython"
+			},
+			{
+				"title": "Heroku",
+				"url": "https://blog.heroku.com/feed"
+			},
+			{
+				"title": "Coding Horror",
+				"url": "http://feeds.feedburner.com/codinghorror/"
+			},
+			{
+				"title": "Python Tips",
+				"url": "http://freepythontips.wordpress.com/feed/"
+			},
+			{
+				"title": "Over the Wireless",
+				"url": "http://overthewireless.wordpress.com/feed/"
+			},
+			{
+				"title": "Let's Encrypt",
+				"url": "https://letsencrypt.org/feed.xml"
+			}
+		],
+		"type": "IT Stuff"
+	},
+	{
+		"elements": [
+			{
+				"title": "Darkest Dungeon",
+				"url": "http://www.darkestdungeon.com/home/feed/"
+			},
+			{
+				"title": "studiogiochi",
+				"url": "https://www.studiogiochi.com/feed/"
+			},
+			{
+				"title": "Team Cherry",
+				"url": "http://teamcherry.com.au/feed/"
+			},
+			{
+				"title": "Retrogaming-Italia",
+				"url": "http://www.retrogaming-italia.it/feed/"
+			},
+			{
+				"title": "Blog | Darkest Dungeon",
+				"url": "http://www.darkestdungeon.com/blog/rss/"
+			}
+		],
+		"type": "Games"
+	},
+	{
+		"elements": [
+			{
+				"title": "DeviantArt: vempirick/24267432's gallery",
+				"url": "http://backend.deviantart.com/rss.xml?q=gallery%3Avempirick%2F24267432&type=deviation"
+			},
+			{
+				"title": "omi",
+				"url": "https://omikim.jp/feed/"
+			},
+			{
+				"title": "DeviantArt: tohdraws/358212's gallery",
+				"url": "http://backend.deviantart.com/rss.xml?q=gallery%3Atohdraws%2F358212&type=deviation"
+			},
+			{
+				"title": "GitHub Octodex",
+				"url": "http://feeds.feedburner.com/Octocats"
+			},
+			{
+				"title": "max kay art",
+				"url": "http://brakken.tumblr.com/rss"
+			},
+			{
+				"title": "Atakeru-san",
+				"url": "http://backend.deviantart.com/rss.xml?q=gallery%3Atakeru-san%2F358212&type=deviation"
+			},
+			{
+				"title": "Bellanaris: A Dragon Age Fan Comic Updates",
+				"url": "http://bellanaris.smackjeeves.com/rss/"
+			},
+			{
+				"title": "DeviantArt: SnaiLords's Gallery",
+				"url": "http://backend.deviantart.com/rss.xml?q=by%3ASnaiLords&type=deviation"
+			},
+			{
+				"title": "Technicolor London",
+				"url": "http://technicolorlondoncomic.com/rss.php"
+			},
+			{
+				"title": "DeviantArt: Kibbitzer/24734902's gallery",
+				"url": "http://backend.deviantart.com/rss.xml?q=gallery%3AKibbitzer%2F24734902"
+			}
+		],
+		"type": "Artist"
+	},
+	{
+		"elements": [
+			{
+				"title": "Gokberk Yaltirakli",
+				"url": "https://gkbrk.com/feed.xml"
+			},
+			{
+				"title": "Blog - The Wondersmith",
+				"url": "https://www.thewondersmith.com/blog?format=RSS"
+			},
+			{
+				"title": "Wesley's Notebook",
+				"url": "https://notebook.wesleyac.com/atom.xml"
+			},
+			{
+				"title": "Down to the Wire",
+				"url": "http://dttw.tech/rss"
+			},
+			{
+				"title": "Niklas' blog",
+				"url": "http://niklasblog.com/?feed=rss2"
+			},
+			{
+				"title": "ful-filled",
+				"url": "http://www.ful-filled.com/feed/"
+			},
+			{
+				"title": "VICE IT - MOTHERBOARD",
+				"url": "https://motherboard.vice.com/it/rss"
+			},
+			{
+				"title": "Transit Maps",
+				"url": "http://transitmaps.tumblr.com/rss"
+			},
+			{
+				"title": "DuvelmanDice",
+				"url": "https://duvelmandice.blogspot.com/feeds/posts/default"
+			},
+			{
+				"title": "Dyson's Dodecahedron",
+				"url": "https://dysonlogos.blog/feed/"
+			},
+			{
+				"title": "Hosting 4 Agency",
+				"url": "https://www.hosting4agency.com/feed/"
+			},
+			{
+				"title": "Robin Rendle",
+				"url": "https://www.robinrendle.com/feed.xml"
+			},
+			{
+				"title": "SQUADRATI",
+				"url": "http://www.squadrati.com/feed/"
+			},
+			{
+				"title": "Thinker Tinker Maker",
+				"url": "https://thinkertinkermaker.wordpress.com/feed/"
+			},
+			{
+				"title": "Bibliorelle",
+				"url": "https://bibliorelle.wordpress.com/feed/"
+			},
+			{
+				"title": "Ali Abdaal",
+				"url": "https://aliabdaal.com/rss/"
+			},
+			{
+				"title": "Questo blog non esiste",
+				"url": "http://aubreymcfato.wordpress.com/feed/"
+			},
+			{
+				"title": "Welcome to the Necro Nomnomnomicon",
+				"url": "https://eatthedead.com/feed/"
+			},
+			{
+				"title": "Studio Samo",
+				"url": "https://www.studiosamo.it/feed/"
+			},
+			{
+				"title": "c00kies@venice",
+				"url": "http://secgroup.github.io/feed"
+			},
+			{
+				"title": "Winnie Lim",
+				"url": "https://winnielim.org/feed/"
+			},
+			{
+				"title": "Toggl Blog",
+				"url": "http://blog.toggl.com/feed/"
+			},
+			{
+				"title": null,
+				"url": "https://iquadernidiarda.it/feed/"
+			},
+			{
+				"title": "Blog on Ana Ulin",
+				"url": "https://anaulin.org/blog/index.xml"
+			},
+			{
+				"title": "Shut Up & Sit Down",
+				"url": "http://susd.pretend-money.com/blog/feed.xml"
+			},
+			{
+				"title": "DATAPORN",
+				"url": "https://dataporn.me/feed.xml"
+			},
+			{
+				"title": "ITCHBAN.com / Blog - itchban",
+				"url": "https://www.itchban.com/blog?format=rss"
+			},
+			{
+				"title": "electro·pizza",
+				"url": "https://electro.pizza/feed.xml"
+			},
+			{
+				"title": "Marco's Blog",
+				"url": "https://blog.marco.ninja/index.xml"
+			},
+			{
+				"title": "Zero Equals False - Quality content delivered to you.",
+				"url": "https://zeroequalsfalse.com/atom.xml"
+			},
+			{
+				"title": "Bullet Journal - The Bullet Journalist",
+				"url": "https://bulletjournal.com/blogs/bulletjournalist.atom"
+			},
+			{
+				"title": "Articles by Aaron Parecki",
+				"url": "https://aaronparecki.com/feed.xml"
+			},
+			{
+				"title": "Pythonstacks",
+				"url": "https://feedly.com/email/6n7eaci8p6yzvtlatcfy"
+			},
+			{
+				"title": "Ready for commons",
+				"url": "https://readyforcommons.com/feed.xml"
+			},
+			{
+				"title": "The Inn at the Crossroads",
+				"url": "http://innatthecrossroads.com/feed/"
+			},
+			{
+				"title": "PirateBox Forum - PirateBox News and Events",
+				"url": "http://forum.daviddarts.com/feed.php?9,type=rss"
+			},
+			{
+				"title": "Cyberpunk Italia",
+				"url": "http://cyberpunkitalia.altervista.org/blog/feed/"
+			},
+			{
+				"title": "Nicole van der Hoeven",
+				"url": "https://nicolevanderhoeven.github.io/index.xml"
+			},
+			{
+				"title": "Paths Peculiar",
+				"url": "https://www.wistedt.net/feed/"
+			},
+			{
+				"title": "Sudo Satirical",
+				"url": "https://www.sudosatirical.com/index.xml"
+			},
+			{
+				"title": "Ana Ulin",
+				"url": "https://anaulin.org/index.xml"
+			},
+			{
+				"title": "Home on rogs",
+				"url": "https://rogs.me/index.xml"
+			},
+			{
+				"title": "Google Developers Italia",
+				"url": "http://developersitalia.blogspot.com/feeds/posts/default"
+			}
+		],
+		"type": "Blog"
+	},
+	{
+		"elements": [
+			{
+				"title": "Travellers Notebook Times",
+				"url": "http://travellersnotebooktimes.com/feed/"
+			},
+			{
+				"title": "Becoming Sleek",
+				"url": "http://becomingsleek.com/feed/"
+			},
+			{
+				"title": "The Poor Penman",
+				"url": "https://thepoorpenman.com/feed/"
+			},
+			{
+				"title": "ZenKraft Traveler's Notes",
+				"url": "http://zenkrafttravelersnotebook.blogspot.com/feeds/posts/default"
+			},
+			{
+				"title": "Bullet Journal",
+				"url": "https://bulletjournal.it/feed/"
+			},
+			{
+				"title": "My Life All in One Place",
+				"url": "http://www.mylifeallinoneplace.com/feeds/posts/default"
+			},
+			{
+				"title": "The Gentleman Stationer",
+				"url": "http://www.gentlemanstationer.com/blog?format=rss"
+			},
+			{
+				"title": "",
+				"url": "https://inkpothesis.com/home-1?format=rss"
+			},
+			{
+				"title": "The Desk of Adam",
+				"url": "http://www.thedeskofadam.com/blog?format=rss"
+			}
+		],
+		"type": "Notebook and Pens"
+	},
+	{
+		"elements": [
+			{
+				"title": "Jasdavi's web comics",
+				"url": "https://jasdavi92.wordpress.com/feed/"
+			}
+		],
+		"type": "Web other"
+	},
+	{
+		"elements": [
+			{
+				"title": "Ospiti della Sala Macchine",
+				"url": "http://www.soft-land.org/rss/softland/ospiti.rss"
+			},
+			{
+				"title": "Storie dalla Sala Macchine",
+				"url": "http://www.soft-land.org/rss/softland/sdsm.rss"
+			}
+		],
+		"type": "Storie della Sala macchine"
+	},
+	{
+		"elements": [
+			{
+				"title": "Podcast.init",
+				"url": "https://www.podcastinit.com"
+			},
+			{
+				"title": "Talk Python To Me",
+				"url": "https://talkpython.fm"
+			},
+			{
+				"title": "Pythonbytes",
+				"url": "https://pythonbytes.fm"
+			},
+			{
+				"title": "Test and Code",
+				"url": "http://pythontesting.net"
+			},
+			{
+				"title": "The Changelog",
+				"url": "https://changelog.com"
+			},
+			{
+				"title": "Request For Commits",
+				"url": "https://changelog.com/rfc"
+			},
+			{
+				"title": "Partially Derivative",
+				"url": "http://partiallyderivative.com/"
+			},
+			{
+				"title": "Go Time",
+				"url": "https://changelog.com/gotime"
+			},
+			{
+				"title": "The ground up show",
+				"url": "http://mattdavella.com/podcast"
+			},
+			{
+				"title": "Data Porn",
+				"url": "https://dataporn.me/"
+			}
+		],
+		"type": "podcast"
+	},
+	{
+		"elements": [
+			{
+				"title": "The Great Hack",
+				"url": "https://www.netflix.com/title/80117542"
+			},
+			{
+				"title": "Social Dilemma",
+				"url": "https://www.netflix.com/title/81254224"
+			},
+			{
+				"title": "How iFixit Became the World's Best iPhone Teardown Team",
+				"url": "https://youtu.be/tx-9LkVIdz0"
+			},
+			{
+				"title": "THE INSIDE LIFE OF A HACKER (Best Documentary 2020)",
+				"url": "https://www.youtube.com/watch?v=CuESlhKLhCY"
+			},
+			{
+				"title": "Anonymous - The Hacker Wars",
+				"url": "https://www.youtube.com/watch?v=ku9edEKvGuY"
+			},
+			{
+				"title": "Minimalism - a Documentary",
+				"url": "https://www.netflix.com/title/80114460"
+			},
+			{
+				"title": "Minimalism - Less is Now",
+				"url": "https://netflix.com/theminimalists"
+			},
+			{
+				"title": "The Man Putin Fears The Most",
+				"url": "https://youtu.be/hrORwk_RZLM"
+			},
+			{
+				"title": "The World Design of Dark Souls | Boss Keys",
+				"url": "https://www.youtube.com/watch?v=QhWdBhc3Wjc"
+			},
+			{
+				"title": "The World Design of Hollow Knight | Boss Keys",
+				"url": "https://www.youtube.com/watch?v=7ITtPPE-pXE"
+			}
+		],
+		"type": "documentary"
+	},
+	{
+		"elements": [
+			{
+				"title": "Movies For Hackers",
+				"url": "https://hackermovie.club"
+			},
+			{
+				"title": "The Mysterious Life Of UX Designers",
+				"url": "https://youtu.be/gfHcnig8Lo4"
+			},
+			{
+				"title": "The Mysterious Life of Developers",
+				"url": "https://youtu.be/Ey3Ix7QuKPs"
+			},
+			{
+				"title": "How “dementia villages” work",
+				"url": "https://youtu.be/LN_--egst3s"
+			}
+		],
+		"type": "films and videos"
+	},
+	{
+		"elements": [
+			{
+				"title": "12Factor Guidelines",
+				"url": "https://12factor.net"
+			},
+			{
+				"title": "Netiquette Guidelines",
+				"url": "https://tools.ietf.org/html/rfc1855"
+			},
+			{
+				"title": "The Jargon File",
+				"url": "http://www.catb.org/jargon/"
+			},
+			{
+				"title": "Hacker Manifesto",
+				"url": "http://phrack.org/issues/7/3.html"
+			},
+			{
+				"title": "Repair Manifesto",
+				"url": "https://www.ifixit.com/Manifesto"
+			}
+		],
+		"type": "manifesto"
+	},
+	{
+		"elements": [
+			{
+				"title": "EmojiPedia",
+				"url": "https://emojipedia.org"
+			},
+			{
+				"title": "Shields",
+				"url": "http://shields.io"
+			},
+			{
+				"title": "Carbon Shell for scrennshot",
+				"url": "https://carbon.now.sh/"
+			},
+			{
+				"title": "Kit",
+				"url": "https://kit.com"
+			},
+			{
+				"title": "Freelancer email generator",
+				"url": "https://toggl.com/freelance-email-generator/"
+			},
+			{
+				"title": "The Bastard Operator From Hell - Style Excuse Server",
+				"url": "http://pages.cs.wisc.edu/~ballard/bofh/"
+			},
+			{
+				"title": "Hacker Scripts Repo",
+				"url": "https://github.com/NARKOZ/hacker-scripts"
+			},
+			{
+				"title": "DotFiles",
+				"url": "https://dotfiles.github.io"
+			},
+			{
+				"title": "EditorConfig",
+				"url": "http://editorconfig.org"
+			},
+			{
+				"title": "Python Release cycle",
+				"url": "https://python-release-cycle.glitch.me/"
+			},
+			{
+				"title": "Hacker Script for lazy worker",
+				"url": "https://github.com/NARKOZ/hacker-scripts"
+			},
+			{
+				"title": "Diagrams, prototyping architecture",
+				"url": "https://diagrams.mingrammer.com/"
+			},
+			{
+				"title": "AWS schema",
+				"url": "https://www.awsgeek.com/"
+			}
+		],
+		"type": "utility"
+	},
+	{
+		"elements": [
+			{
+				"title": "Save the princess with a programming language",
+				"url": "https://toggl.com/programming-princess/"
+			},
+			{
+				"title": "How To Build A Horse With Programming ",
+				"url": "https://blog.toggl.com/build-horse-programming/"
+			},
+			{
+				"title": "Programming languages as music",
+				"url": "https://blog.toggl.com/programming-languages-explained-with-music-comic/"
+			},
+			{
+				"title": "How to kill a dragon with 9 programming language",
+				"url": "https://blog.toggl.com/kill-dragon-comic/"
+			},
+			{
+				"title": "The Seven Circles of Developer Hell",
+				"url": "https://blog.toggl.com/seven-levels-developer-hell/"
+			},
+			{
+				"title": "IT Jobs Explained With A Broken Lightbulb",
+				"url": "https://blog.toggl.com/lightbulb-cartoon-developers/"
+			},
+			{
+				"title": "Terrible clients explained with pirates",
+				"url": "https://toggl.com/worst-client-types-infographic/"
+			},
+			{
+				"title": "If The World Was Created By A Programmer",
+				"url": "https://blog.toggl.com/world-created-programmer/"
+			},
+			{
+				"title": "Tech carrers of the future",
+				"url": "https://blog.toggl.com/tech-careers-future/"
+			},
+			{
+				"title": "11 Types of Employees You Meet at a Tech Company",
+				"url": "https://blog.toggl.com/tech-employee-stereotypes-comic/"
+			},
+			{
+				"title": "SysAdmin vs Terrorist",
+				"url": "https://xkcd.com/705/"
+			},
+			{
+				"title": "If A Startup Were A Zoo",
+				"url": "https://blog.toggl.com/startup-zoo-comic/"
+			},
+			{
+				"title": "Explaining Software Development Methods By Flying To Mars",
+				"url": "https://blog.toggl.com/mars-software-development/"
+			},
+			{
+				"title": "9 Crucial Employees Every Startup Should Have In Their Deck",
+				"url": "https://blog.toggl.com/startup-employees-deck/"
+			},
+			{
+				"title": "Little Red Riding Hood Teaches Programming",
+				"url": "https://toggl.com/blog/little-red-riding-hood-teaches-programming-comic"
+			},
+			{
+				"title": "The Hidden Dangers of Refactoring",
+				"url": "https://toggl.com/blog/hidden-dangers-refactoring"
+			}
+		],
+		"type": "comics developer"
+	},
+	{
+		"elements": [
+			{
+				"title": "Octodex",
+				"url": "https://octodex.github.com"
+			},
+			{
+				"title": "Order Dragons",
+				"url": "http://lizardshuffle.tumblr.com"
+			}
+		],
+		"type": "fun"
+	},
+	{
+		"elements": [
+			{
+				"title": "Bakemonogatari",
+				"url": "https://www.animeclick.it/anime/2268/bakemonogatari"
+			},
+			{
+				"title": "Steins Gate",
+				"url": "https://www.animeclick.it/anime/3114/steins-gate"
+			},
+			{
+				"title": "Psycho-Pass",
+				"url": "https://www.animeclick.it/anime/4084/psycho-pass"
+			}
+		],
+		"type": "anime"
+	},
+	{
+		"elements": [
+			{
+				"title": "Decalogo del signore del male",
+				"url": "http://www.eviloverlord.com/lists/overlord.html"
+			},
+			{
+				"title": "Primo decalogo delle celle",
+				"url": "http://www.eviloverlord.com/lists/dungeon_a.html"
+			},
+			{
+				"title": "Secondo decalogo delle celle",
+				"url": "http://www.eviloverlord.com/lists/dungeon_b.html"
+			}
+		],
+		"type": "evil overlod"
+	},
+	{
+		"elements": [
+			{
+				"title": "MonoLisa",
+				"url": "https://www.monolisa.dev/"
+			},
+			{
+				"title": "JetBrains Mono",
+				"url": "https://www.jetbrains.com/lp/mono/"
+			},
+			{
+				"title": "Fira Code",
+				"url": "https://github.com/tonsky/FiraCode"
+			}
+		],
+		"type": "fonts"
+	},
+	{
+		"elements": [
+			{
+				"title": "Mihon.app",
+				"url": "https://mihon.app/"
+			}
+		],
+		"type": "app"
+	}
 ]

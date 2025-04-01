@@ -1,52 +1,52 @@
 [
 	{
+		"label": "<i class=\"fa-sharp fa-solid fa-images\"></i>",
 		"name": "Foto Lucca 2023",
-		"url": "https://drive.google.com/drive/folders/1Cw_RPbFxIvszODL2z4AwMoXm4kVxnHdp?usp=sharing",
-		"label": "<i class=\"fa-sharp fa-solid fa-images\"></i>"
+		"url": "https://drive.google.com/drive/folders/1Cw_RPbFxIvszODL2z4AwMoXm4kVxnHdp?usp=sharing"
 	},
 	{
+		"label": "<i class=\"fa-regular fa-globe\"></i>",
 		"name": "My Portfolio",
-		"url": "https://photo.fundor333.com",
-		"label": "<i class=\"fa-regular fa-globe\"></i>"
+		"url": "https://photo.fundor333.com"
 	},
 	{
+		"label": "<i class=\"fa-brands fa-instagram\"></i>",
 		"name": "Instagram",
-		"url": "https://www.instagram.com/fundor333/",
-		"label": "<i class=\"fa-brands fa-instagram\"></i>"
+		"url": "https://www.instagram.com/fundor333/"
 	},
 	{
+		"label": "<i class=\"fa-brands fa-facebook\"></i>",
 		"name": "Facebook",
-		"url": "https://www.facebook.com/fundor333",
-		"label": "<i class=\"fa-brands fa-facebook\"></i>"
+		"url": "https://www.facebook.com/fundor333"
 	},
 	{
+		"label": "<i class=\"fa-brands fa-discord\"></i>",
 		"name": "Discord",
-		"url": "https://discord.gg/C56ScB8c",
-		"label": "<i class=\"fa-brands fa-discord\"></i>"
+		"url": "https://discord.gg/C56ScB8c"
 	},
 	{
+		"label": "<i class=\"fa-brands fa-github\"></i>",
 		"name": "GitHub",
-		"url": "https://github.com/fundor333",
-		"label": "<i class=\"fa-brands fa-github\"></i>"
+		"url": "https://github.com/fundor333"
 	},
 	{
+		"label": "<i class=\"fa-brands fa-mastodon\"></i>",
 		"name": "Mastodon",
-		"url": "https://mastodon.social/@fundor333",
-		"label": "<i class=\"fa-brands fa-mastodon\"></i>"
+		"url": "https://mastodon.social/@fundor333"
 	},
 	{
+		"label": "<i class=\"fa-brands fa-twitter\"></i>",
 		"name": "Twitter",
-		"url": "https://twitter.com/fundor333",
-		"label": "<i class=\"fa-brands fa-twitter\"></i>"
+		"url": "https://twitter.com/fundor333"
 	},
 	{
+		"label": "<i class=\"fa-brands fa-telegram\"></i>",
 		"name": "Telegram",
-		"url": "https://t.me/fundor333",
-		"label": "<i class=\"fa-brands fa-telegram\"></i>"
+		"url": "https://t.me/fundor333"
 	},
 	{
+		"label": "<i class=\"fa-regular fa-globe\"></i>",
 		"name": "My Site",
-		"url": "https://fundor333.com",
-		"label": "<i class=\"fa-regular fa-globe\"></i>"
+		"url": "https://fundor333.com"
 	}
 ]

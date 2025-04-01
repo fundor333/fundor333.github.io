@@ -1,1 +1,43 @@
-{"source": [{"type": "entry", "author": {"type": "card", "name": "fundor333", "photo": "https://webmention.io/avatar/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "url": "https://bsky.app/profile/fundor333.com"}, "url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3kzealj2fbo2k", "published": "2024-08-10T10:22:26+00:00", "wm-received": "2024-08-10T10:22:28Z", "wm-id": 1842642, "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3kzealj2fbo2k%23bridgy-fed-create", "wm-target": "https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss", "wm-protocol": "webmention", "content": {"html": "Curiosus test\u2026 I want to see the results (<a href=\"https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss\">https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss</a>)", "text": "Curiosus test\u2026 I want to see the results (https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss)"}, "mention-of": "https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss", "wm-property": "mention-of", "wm-private": false}], "stats": {"like-of": 0, "bookmark-of": 0, "mention-of": 1, "repost-of": 0, "in-reply-to": 0, "comments": [{"content": "Curiosus test\u2026 I want to see the results (https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss)", "link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3kzealj2fbo2k%23bridgy-fed-create", "author_name": "fundor333", "author_photo": "https://webmention.io/avatar/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "author_url": "https://bsky.app/profile/fundor333.com"}]}}
+{
+	"source": [
+		{
+			"author": {
+				"name": "fundor333",
+				"photo": "https://webmention.io/avatar/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"type": "card",
+				"url": "https://bsky.app/profile/fundor333.com"
+			},
+			"content": {
+				"html": "Curiosus test… I want to see the results (<a href=\"https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss\">https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss</a>)",
+				"text": "Curiosus test… I want to see the results (https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss)"
+			},
+			"mention-of": "https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss",
+			"published": "2024-08-10T10:22:26+00:00",
+			"type": "entry",
+			"url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3kzealj2fbo2k",
+			"wm-id": 1842642,
+			"wm-private": false,
+			"wm-property": "mention-of",
+			"wm-protocol": "webmention",
+			"wm-received": "2024-08-10T10:22:28Z",
+			"wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3kzealj2fbo2k%23bridgy-fed-create",
+			"wm-target": "https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss"
+		}
+	],
+	"stats": {
+		"bookmark-of": 0,
+		"comments": [
+			{
+				"author_name": "fundor333",
+				"author_photo": "https://webmention.io/avatar/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"author_url": "https://bsky.app/profile/fundor333.com",
+				"content": "Curiosus test… I want to see the results (https://fundor333.com/social/2023/09/20/bots-spiders-and-crawlers--manu/?utm_medium=rss)",
+				"link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3kzealj2fbo2k%23bridgy-fed-create"
+			}
+		],
+		"in-reply-to": 0,
+		"like-of": 0,
+		"mention-of": 1,
+		"repost-of": 0
+	}
+}

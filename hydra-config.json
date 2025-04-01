@@ -16,7 +16,10 @@
 		"tel"
 	],
 	"tags": [
-"a", "link", "img", "script"
+		"a",
+		"link",
+		"img",
+		"script"
 	],
 	"threads": 25,
 	"timeout": 30
