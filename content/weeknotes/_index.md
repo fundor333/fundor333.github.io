@@ -1,0 +1,4 @@
+---
+title: "WeekNote"
+specialpost: true
+---

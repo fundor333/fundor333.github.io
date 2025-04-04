@@ -1,5 +1,5 @@
 ---
-title: "uses"
+title: "Uses"
 type: page
 specialpost: true
 aliases:
@@ -7,10 +7,10 @@ aliases:
 - /kit
 date: 2000-08-20T12:00:00+02:00
 outputs:
-- 'html' 
+- 'html'
 ---
 
-Specifics about the hardware and software equipment I use for work and for my personal life. 
+Specifics about the hardware and software equipment I use for work and for my personal life.
 
 The page is part of the [uses.tech](https://uses.tech/) project.
 

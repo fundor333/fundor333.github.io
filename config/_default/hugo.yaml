@@ -6,6 +6,7 @@ enableRobotsTXT: true
 fediverseAccount: "@fundor333@mastodon.social"
 ignoreLogs:
   - "warning-goldmark-raw-html"
+goToTop: true
 
 module:
   imports:
