@@ -12,7 +12,6 @@ categories:
 images:
 keywords:
 series:
-- Hugo tricks
 - Indiweb, webmentions and friends
 ---
 
