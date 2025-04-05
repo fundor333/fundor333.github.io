@@ -15,15 +15,7 @@ main:
     name: "Photos"
     url: "/photos"
     weight: 25
-  - pageRef: "/feeds"
-    name: "Feeds"
-    url: "/feeds"
+  - pageRef: "/explore"
+    name: "Explore"
+    url: "/explore"
     weight: 30
-  - pageRef: "/now"
-    name: "Now"
-    url: "/now"
-    weight: 40
-  - pageRef: "/uses"
-    name: "Uses"
-    url: "/uses"
-    weight: 50

@@ -1,0 +1,16 @@
+{{ $url := "https://appletune.fundor333.com/api//blogroolgroup/?format=json"  }}
+
+{{ with resources.GetRemote $url }}
+{{- $content := .Content | transform.Unmarshal -}}
+
+{{- range $content -}}
+  <h2>{{ .name }}</h2>
+  <ul>
+  {{- range .rows }}
+  <li><a href='{{.url}}'>{{.name}}</a> (<a href='{{.feed_url}}'>feed</a>)</li>
+  {{ end}}
+  </ul>
+{{ end }}
+
+
+{{ end }}
