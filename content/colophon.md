@@ -1,0 +1,13 @@
+---
+title: "Colophon"
+type: page
+specialpost: true
+allpage: true
+---
+
+> In publishing, a colophon (/ˈkɒləfən, -fɒn/) is a brief statement containing information about the publication of a book such as an "imprint" (the place of publication, the publisher, and the date of publication).
+>
+> [Wikipedia](https://en.wikipedia.org/wiki/Colophon_(publishing))
+
+The code for this website is hosted on [GitHub](https://github.com/fundor333/fundor333.github.io) and created using [Visual Studio Code](https://code.visualstudio.com/). Automated deployments are done with Github Action and hosted by GitHub Pages.
+[Hugo](https://gohugo.io/) is used as the static site generator and the theme is an edited version of [Hugo Blog Awesome](https://github.com/hugo-sid/hugo-blog-awesome). Some of the icons are from [Fontawesome](https://fontawesome.com/).

@@ -1,0 +1,7 @@
+<ul>
+  {{ range (where .Site.RegularPages.ByTitle "Params.allpage" "eq" true) }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+  {{ end }}
+</ul>

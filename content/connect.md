@@ -4,6 +4,7 @@ specialpost: true
 type: page
 outputs:
 -  'html'
+allpage: true
 
 ---
 

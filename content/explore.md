@@ -8,8 +8,4 @@ outputs:
 
 A list of all pages on this website, in alphabetical order.
 
-* [Blogroll](/blogroll)
-* [Connect](/connect)
-* [Feeds](/feeds)
-* [Now](/now)
-* [Uses](/uses)
+{{< allpages >}}

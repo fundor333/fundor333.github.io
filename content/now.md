@@ -1,7 +1,8 @@
 ---
 title: "Now"
-type: now
+type: page
 specialpost: true
+allpage: true
 date: 2000-08-20T12:00:00+02:00
 outputs:
 -  'html'
