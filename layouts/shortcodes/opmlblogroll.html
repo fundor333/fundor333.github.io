@@ -1,4 +1,4 @@
-{{ $url := "https://appletune.fundor333.com/api//blogroolgroup/?format=json"  }}
+{{ $url := "https://appletune.fundor333.com/api/blogrollgroup/?format=json"  }}
 
 {{ with resources.GetRemote $url }}
 {{- $content := .Content | transform.Unmarshal -}}
