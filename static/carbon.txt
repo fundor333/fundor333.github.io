@@ -1,9 +1,4 @@
-[org]
-disclosures = [
-	{ doc_type='web-page', url='https://fundor333.com/sustainability', domain='fundor333.com' }
-]
-
 [upstream]
 services = [
-	{ domain='cloudflare.com', service_type='network-content-delivery-networks' }
+	{ domain='cloudflare.com', service_type='cdn' }
 ]
