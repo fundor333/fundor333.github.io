@@ -26,7 +26,7 @@ class Config:
 
         if config_filename != "":
             # Update settings if there is a config file
-            with open(config_filename, "r") as file:
+            with open(config_filename) as file:
                 file_text = file.read()
                 config_json = json.loads(file_text)
                 self.tags = config_json.get("tags", self.tags)
@@ -37,7 +37,9 @@ class Config:
                 self.threads = config_json.get("threads", self.threads)
                 self.timeout = config_json.get("timeout", self.timeout)
                 self.OK = config_json.get("OK", self.OK)
-                self.graceful_exit = config_json.get("graceful_exit", self.graceful_exit)
+                self.graceful_exit = config_json.get(
+                    "graceful_exit", self.graceful_exit
+                )
 
     def __str__(self):
         text = (
@@ -55,7 +57,7 @@ class Parser(HTMLParser):
     """Parse tags found in webpages to get more links to check"""
 
     def __init__(self, config):
-        super(Parser, self).__init__()
+        super().__init__()
         self.links = []
         self.config = config
 
@@ -101,7 +103,7 @@ class Checker:
         self.broken = []
         self.domain = extract_domain(url)
         self.visited = set()
-        self.mailto_links = list()
+        self.mailto_links = []
         self.pool = futures.ThreadPoolExecutor(max_workers=self.config.threads)
         self.report = ""
 
@@ -120,8 +122,8 @@ class Checker:
         self.broken.append(entry)
 
     def load_url(self, page, timeout):
-        """ Try to retrieve contents of a page and record result
-            Store the link to be checked and its parent in the result
+        """Try to retrieve contents of a page and record result
+        Store the link to be checked and its parent in the result
         """
         result = {
             "url": page["url"],
@@ -138,7 +140,7 @@ class Checker:
             },
         )
 
-        try:
+        try:  # noqa: B025
             http_response = request.urlopen(r, timeout=self.config.timeout)
 
             encoding = http_response.headers.get("Content-Encoding")
@@ -205,10 +207,10 @@ class Checker:
             parser = Parser(self.config)
             links = parser.feed_me(page["data"])
             new_links = [x for x in links if x not in self.visited]
-            full_links = [parse.urljoin(parent, l) for l in new_links]
-            for l in full_links:
-                if l not in self.visited:
-                    li = {"parent": parent, "url": l}
+            full_links = [parse.urljoin(parent, element) for element in new_links]
+            for element in full_links:
+                if element not in self.visited:
+                    li = {"parent": parent, "url": element}
                     self.TO_PROCESS.put(li)
 
     def make_report(self):
@@ -223,7 +225,10 @@ class Checker:
         self.report += "\n---\n"
         sorted_list = sorted(self.broken, key=lambda k: k["code"], reverse=True)
         for link in sorted_list:
-            self.report += f"\n- code:    {link['code']}\n  url:     {link['link']}\n  parent:  {link['parent']}\n  error:   {link['err']}\n"
+            self.report += (
+                f"\n- code:    {link['code']}\n  url:     {link['link']}\n"
+                + f"  parent:  {link['parent']}\n  error:   {link['err']}\n"
+            )
         return self.report
 
     def run(self):
@@ -232,7 +237,7 @@ class Checker:
             try:
                 target_url = self.TO_PROCESS.get(block=True, timeout=4)
                 if target_url["url"].startswith("mailto:"):
-                    email = target_url["url"][len("mailto:") :]
+                    email = target_url["url"][len("mailto:") :]  # noqa: E203
                     self.mailto_links.append(email)
 
                 elif target_url["url"] not in self.visited:

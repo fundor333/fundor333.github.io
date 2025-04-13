@@ -2,9 +2,9 @@
 # By Francesco Maida (https://github.com/fmaida)
 #
 # This script will download a copy of the
-# .well-known/webfinger file from your mastodon account 
+# .well-known/webfinger file from your mastodon account
 # and will place it under your 'static' directory
-# 
+#
 # Why you should use it?
 # ----------------------
 # This way, if any user try to search on mastodon by using
@@ -20,7 +20,7 @@ from urllib.request import urlretrieve
 from urllib.error import URLError
 
 
-# Let's try to fetch the Mastodon account 
+# Let's try to fetch the Mastodon account
 # from the command line argument
 if len(sys.argv) > 1:
     account = sys.argv[1]
@@ -46,7 +46,7 @@ else:
 # Now let's check if the user provided a valid account
 if not valid_account:
     # Sorry, it's a no go.
-    print(f"'{account}' doesn't look like a valid Mastodon account.")
+    print(f"{account!r} doesn't look like a valid Mastodon account.")
     exit(-1)
 
 # If the user provided a valid account,
@@ -64,14 +64,14 @@ webfinger_file = os.path.join(well_known_dir, "webfinger")
 # Let's check if a 'static' directory already exists
 if not os.path.exists(static_dir):
     # Nope. We need to create it
-    print(f"Creating static directory at '{static_dir}'")
+    print(f"Creating static directory at {static_dir!r}")
     os.makedirs(static_dir)
 
-# Let's check if a '.well-known' sub-directory 
+# Let's check if a '.well-known' sub-directory
 # already exists inside of the 'static' directory
 if not os.path.exists(well_known_dir):
     # Nope. We need to create it
-    print(f"Creating static/.well-known directory at '{well_known_dir}'")
+    print(f"Creating static/.well-known directory at {well_known_dir!r}")
     os.makedirs(well_known_dir)
 
 # Let's download the Mastodon account's webfinger file
@@ -80,7 +80,7 @@ try:
     urlretrieve(url, webfinger_file)
 except URLError:
     # Uh Oh, something went wrong
-    print(f"Couldn't connect to '{url}'")
+    print(f"Couldn't connect to {url!r}")
     quit(-1)
 
 # Everything is done

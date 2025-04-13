@@ -28,6 +28,6 @@ def get_url_from_feed(feed_url: str):
         send_webmention(link.link)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     for url in feed_url:
         get_url_from_feed(url)
