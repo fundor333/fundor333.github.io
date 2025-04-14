@@ -16,5 +16,11 @@ series:
 - Hugo tricks
 - Django tricks
 - Indiweb, webmentions and friends
+
+reply:
+repost:
+like:
+rsvp:
+bookmark:
 ---
 

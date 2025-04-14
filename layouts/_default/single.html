@@ -4,6 +4,7 @@
         <article class="h-entry">
           <header class="header">
           <h1 class="header-title p-name">{{ .Title }}</h1>
+          {{ partial "micro.html" . }}
 
           <div>
             <a class="u-url" href="{{ .Permalink }}"><div style="display: none;" class="p-summary">{{ .Description }}</div></a>
