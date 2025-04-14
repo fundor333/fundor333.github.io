@@ -6,7 +6,6 @@ feature_text: "by IA Midjourney"
 description: There are some page you need to have in your blog if your blog is for human
 tags:
 - dev
-- blog
 categories:
 - blog
 images:

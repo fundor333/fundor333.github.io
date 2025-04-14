@@ -1,0 +1,9 @@
+<p>
+{{ with .Params.tags }} {{ range sort . }}
+#<a class="p-category tag"  rel="tag" href="#">{{ .}}</a>
+{{ end }} {{ end }}
+
+{{ with .Params.categories }} {{ range sort . }}
+#<a class="p-category tag"  rel="tag" href="#">{{ .}}</a>
+{{ end }} {{ end }}
+</p>

@@ -17,6 +17,7 @@
                     {{ . | time.Format $configDateFormat }}
                   </time>
                   {{ end }}
+                  {{- partial "tags.html" . -}}
 
                 </div>
             </header>
