@@ -8,9 +8,9 @@ packages = [{ include = "fundor333" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-feedparser = "^6.0.11"
-requests = "^2.32.3"
-python-dotenv = "^1.0.1"
+feedparser = "*"
+requests = "*"
+python-dotenv = "*"
 
 
 [tool.poetry.group.dev.dependencies]
