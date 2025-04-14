@@ -25,7 +25,7 @@ Following the post from [Ruben](https://rubenerd.com/using-re-in-blog-titles/) I
 >
 > Oscar Wilde
 
-The basic idea come from a post by [Brandon's Journal](https://brandons-journal.com/re-im-part-of-the-problem/) where Brandon response to an article and use the __Re:__ prefix, like a email threads...
+The basic idea come from a post by [Brandon's Journal](https://brandons-journal.com/re-im-part-of-the-problem/) where Brandon response to an article and use the __Re:__ prefix, like a email threads in the title of the post...
 
 And I add a microformat following the IndieWeb stuff for the response tags.
 So my post which are a "Re:" will have a __u-in-reply-to__ in the class of the links for implementing the IndieWeb, like in this article.
