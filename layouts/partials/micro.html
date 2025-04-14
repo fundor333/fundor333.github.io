@@ -1,14 +1,14 @@
 {{with .Params.Reply}}
-<p><a href="{{.}}" class="u-in-reply"><i class="fa-regular fa-reply"></i> In replay of <span class="url-title">{{.}}</span></a></p>
+<p><a href="{{.}}" class="u-in-reply-to u-in-reply-to"><i class="fa-regular fa-reply"></i> In replay of <span class="url-title">{{.}}</span></a></p>
 {{end}}
 {{with .Params.Repost}}
-<p><a href="{{.}}" class="u-repost"><i class="fa-regular fa-retweet"></i> Repost of <span class="url-title">{{.}}</span></a></p>
+<p><a href="{{.}}" class="u-repost u-repost-of"><i class="fa-regular fa-retweet"></i> Repost of <span class="url-title">{{.}}</span></a></p>
 {{end}}
 {{with .Params.Like}}
-<p><a href="{{.}}" class="u-like"><i class="fa-regular fa-heart"></i> Like the lik <span class="url-title">{{.}}</span></a></p>
+<p><a href="{{.}}" class="u-like u-like-of"><i class="fa-regular fa-heart"></i> Like the lik <span class="url-title">{{.}}</span></a></p>
 {{end}}
 {{with .Params.Bookmark}}
-<p><a href="{{.}}" class="u-bookmark"><i class="fa-regular fa-bookmark"></i> Bookmark of <span class="url-title">{{.}}</span></a></p>
+<p><a href="{{.}}" class="u-bookmark u-bookmark-of"><i class="fa-regular fa-bookmark"></i> Bookmark of <span class="url-title">{{.}}</span></a></p>
 {{end}}
 {{with .Params.Rspv}}
 <p><a href="{{.}}" class="u-rsvp"><i class="fa-regular fa-calendar-heart"></i> RSPV of <span class="url-title">{{.}}</span></a></p>
