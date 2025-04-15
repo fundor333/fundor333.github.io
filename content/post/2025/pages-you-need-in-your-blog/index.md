@@ -7,7 +7,7 @@ description: There are some page you need to have in your blog if your blog is f
 tags:
 - dev
 categories:
-- blog
+- rant
 images:
 keywords:
 series:

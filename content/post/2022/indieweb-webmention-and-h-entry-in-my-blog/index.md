@@ -12,11 +12,10 @@ tags:
 slug: "indieweb-webmention-and-h-entry-in-my-blog"
 categories:
 - dev
-- coding
 description: "Adding Indieweb and Webmention in my blog"
 series:
 - Indiweb, webmentions and friends
-
+- Hugo tricks
 ---
 
 ## Some history of this blog

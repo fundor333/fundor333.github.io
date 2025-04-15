@@ -11,7 +11,7 @@ tags:
 slug: "why-do-i-disinstall-pipenv-and-use-only-poetry"
 categories:
 - dev
-- coding
+- fingerfood
 description: "I choose to don't use pipenv and move to poetry and pyproject and other stuff for dev with python"
 
 mp-syndicate-to:
@@ -50,14 +50,14 @@ In the beginning, I wrote all my project with a _pipfile_[^3] in mind which is a
 
 [^3]: [Pipenv e come tutto è in uno]({{< ref "/post/2017/pipenv-e-come-tutto-e-in-uno" >}} "Pipenv e come tutto è in uno")
 
-If it is a personal project you need to run only on your machine and not relese anyware else it is a great tool because Pipenv is build for deploy only. 
+If it is a personal project you need to run only on your machine and not relese anyware else it is a great tool because Pipenv is build for deploy only.
 
 But with the new white hairs on my head I change my mind.
 
-If I want to become something bigger than a little dev I find usefull have all the code and the test ready for mass distribuition or having a simpler system to install on a pc or server as a command like a _Click_ program. 
+If I want to become something bigger than a little dev I find usefull have all the code and the test ready for mass distribuition or having a simpler system to install on a pc or server as a command like a _Click_ program.
 So I search more and find pyproject and I want to try it.
 
-But PyProject without a tool is horrible, no other words... 
+But PyProject without a tool is horrible, no other words...
 It's easy to read but you need to know all the parameters and keywords for editing or updating soo... No, I don't like it, but maybe there are some tools for edit pyproject in a easy way so I search for something more funtional and easy to use and _poetry_ was suggested to me. [^poetry-over-pipenv]
 
 [^poetry-over-pipenv]: Beautifull article about Poetry over others [I move from pipenv to poetry in 2023 - Am I right ?](https://dev.to/farcellier/i-migrate-to-poetry-in-2023-am-i-right--115)
@@ -79,13 +79,13 @@ poetry config --local virtualenvs.in-project true
 
 With poetry we have the _venv_ so now we need to define the style of the code and check if the code is following it.
 
-So I find [Editor config](https://editorconfig.org/), one of the best thing I found on the web. 
+So I find [Editor config](https://editorconfig.org/), one of the best thing I found on the web.
 
 It is a tool split in two part:
 1. A config file (.editorconfig) with the indication for all the type of the file of the project and how they must be formatted[^editorconfig]
 2. A checker (something implemented in an IDE, an IDE Plugin, CI) which format or check the code following the .editorconfig file configuration.
 
-[^editorconfig]:I have a multifile format file done by me but if you need to start you can generate your own [here](https://editorconfig.timseverien.com/) 
+[^editorconfig]:I have a multifile format file done by me but if you need to start you can generate your own [here](https://editorconfig.timseverien.com/)
 
 In my case every time I save something the editor (VSCode in my case) will reformatting the code following the .editorconfig settings.
 
@@ -97,7 +97,7 @@ I feel the need for this tool because I worked with some developer who wrote _Sp
 
 This is something I use as safety net for myself. Some time I work at night or with time restriction I make error or make something not python-like but spaghetti-like and this is bad, very bad.
 
-For this reason I add _pre-commit_[^pre-commit] for autofix and check all this minor error. 
+For this reason I add _pre-commit_[^pre-commit] for autofix and check all this minor error.
 And because I add _pre-commit_ I add more dotfiles for configurations of all the parts of the project and the tools for make more check and fix some of the problems.
 
 [^pre-commit]: [Using pre-commit hooks to write better code](https://praful932.dev/blog-2-pre-commit-hooks/)

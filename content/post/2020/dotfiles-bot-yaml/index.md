@@ -10,7 +10,6 @@ tags:
 slug: "dotfiles-bot-yaml"
 categories:
 - dev
-- zeta target
 description: "Using the same dotfiles on multiple computer in the easy way"
 ---
 
@@ -194,11 +193,11 @@ For example *git* is:
 
 In this yaml the bot links in the path __*~/.gitconfig*__ to the file __*gitconfig*__ and make the same with __*~/.gitignore_global*__.[^2]
 
-In this way I can build multiple file for all the case I need. Some example is *ssh* or *zsh* or the *emacs* config in my [repo](https://github.com/fundor333/dotfiles) which use the configuration describe in this post. There are some files not used like a __*requirements.txt*__ or __*choco.ps1*__ that I don't know if it's a good idea. 
+In this way I can build multiple file for all the case I need. Some example is *ssh* or *zsh* or the *emacs* config in my [repo](https://github.com/fundor333/dotfiles) which use the configuration describe in this post. There are some files not used like a __*requirements.txt*__ or __*choco.ps1*__ that I don't know if it's a good idea.
 
 In any case if you write a good *dotfiles repo* with *dotbot* you need to keep the __*idempotency*__[^3] of the bot execution so you are __*mathematically*__ certan that the execution don't make different installation with the same command.
 
-If you want to copy some part of my config you can do it but remember: 
+If you want to copy some part of my config you can do it but remember:
 
 >Dotfiles are supposed to contain your personal settings — what works for someone else isn’t necessarily optimal for you. If certain configurations worked for everybody, those settings would have been built into programs as defaults. Blindly cloning someone else’s dotfiles, especially without having an understanding of how everything works, is not the optimal approach.
 >

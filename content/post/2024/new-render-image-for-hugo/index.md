@@ -4,7 +4,7 @@ date: 2024-07-28T11:37:47+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 tags:
-- blog
+- blogging
 - devops
 - hugo
 - module

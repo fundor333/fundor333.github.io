@@ -6,7 +6,7 @@ feature_text: "by IA Midjourney"
 tags:
 - dev
 - rant
-- blog
+- blogging
 slug: "why-have-a-blog-in-the-fast-social-media-era"
 categories:
 - rant
@@ -16,7 +16,7 @@ mp-syndicate-to:
 - https://brid.gy/publish/mastodon
 images:
 keywords:
-- blog
+- blogging
 - site
 - social media
 series:

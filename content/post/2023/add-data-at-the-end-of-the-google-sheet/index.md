@@ -10,6 +10,7 @@ tags:
 slug: "add-data-at-the-end-of-the-google-sheet"
 categories:
 - dev
+- fingerfood
 description: "How I write a row of data at the end of a Google Sheet with Python Api"
 
 mp-syndicate-to:
@@ -29,7 +30,7 @@ This tutorial expect you to have follow the [Google prerequisit's post](https://
 
 In our case we need:
 
-* a API Key with writing power 
+* a API Key with writing power
 * the email for the project (create with the app)
 * a gsheet with data
 

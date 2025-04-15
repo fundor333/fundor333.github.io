@@ -8,16 +8,16 @@ tags:
 description: Docker, cos'è e come funziona
 slug: docker-la-balena-con-i-container
 categories:
-- dev
+- rant
 feature_link: "https://unsplash.com/photos/hHntcuiLbOg"
 feature_text: "Photo by Antoine Petitteville on Unsplash"
 
 ---
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
-Docker.  
+Docker.
 ![Docker](docker-logo.png)
 
-<!--more-->  
+<!--more-->
 La prima volta che ho incontrato Docker è stato leggendo un articolo
 sulle macchine virtuali e su come rendere uguale l'ambiente di develop,
 testing e di produzione. Quando lo ho letto non capivo bene come
@@ -67,7 +67,7 @@ Puoi distribuire il file di configurazione (semplice file di testo,
 solitamente anche molto breve) al posto che condividere un intero disco
 virtuale e è più compatto rispetto alla virtual machine per quanto
 riguarda lo spazio occupato, in quanto c'è solo le librerie richieste e
-nessun altra componente del sistema operativo o delle librerie.  
+nessun altra componente del sistema operativo o delle librerie.
 In oltre, in caso di multiple istanze di docker risulta spesso più
 performante, sopratutto quanto più sono simili le immagini.
 
@@ -75,7 +75,7 @@ performante, sopratutto quanto più sono simili le immagini.
 
 Bisogna imparare a fare i file docker e, nel caso di una solo istanza di
 docker in funzione sulla macchina potrebbe essere più pesante di una
-macchina virtuale.  
+macchina virtuale.
 
 Personalmente ultimamente lo uso molto per sviluppare siti web. Questo
 mi permette di avere una unica installazione di php e di mysql senza

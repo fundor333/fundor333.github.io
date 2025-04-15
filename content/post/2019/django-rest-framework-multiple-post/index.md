@@ -8,11 +8,12 @@ tags:
 - api
 categories:
 - dev
-- fingerfood
 slug: django-rest-framework-multiple-post
 description: How to make a massive put with Django Rest Framework
 feature_link: "https://unsplash.com/photos/8QYjpgFdiLU"
 feature_text: "Photo by Kevin Canlas on Unsplash"
+series:
+- Django tricks
 ---
 I need to have a massive **put** in my rest endpoint and Django Rest Framework doesn't do it. So I make my personal method for mycase.
 

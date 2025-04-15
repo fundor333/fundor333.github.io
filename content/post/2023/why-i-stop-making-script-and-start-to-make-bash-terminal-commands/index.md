@@ -9,8 +9,8 @@ tags:
 - command line
 slug: "why-i-stop-making-script-and-start-to-make-bash-terminal-commands"
 categories:
-- coding
-- hacking
+- dev
+- fingerfood
 description: ""
 
 mp-syndicate-to:
@@ -97,9 +97,9 @@ def check_https(url:str):
         console.print(f"[green]{url}")
     else:
         console.print(f"[red]{url}")
-``` 
+```
 
-With this command added the cli become more compless with a help autogenerate. 
+With this command added the cli become more compless with a help autogenerate.
 At the end the script/cli will look like some like this
 
 ``` python
@@ -144,10 +144,10 @@ def check_https(url:str):
         console.print(f"[green]{url}")
     else:
         console.print(f"[red]{url}")
-        
+
 if __name__ == "__main__":
     app()
-``` 
+```
 
 Like this I have multiple other CLI for email, printers, networks, servers, etc and I have something more clean and organize than a bin of scripts.
 
@@ -158,6 +158,6 @@ At the end of the day having a lot of script can be a growing problem but if you
 Have nice time making your CLI
 
 
-### **Update** 
+### **Update**
 
 [Here]({{< ref "/post/2024/why-do-i-disinstall-pipenv-and-use-only-poetry" >}} "Here") you can find some update about the way I write code and my personal utility

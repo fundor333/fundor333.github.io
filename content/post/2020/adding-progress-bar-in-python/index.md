@@ -11,7 +11,6 @@ tags:
 slug: "Adding Progress Bar in Python"
 categories:
 - dev
-- fingerfood
 description: "Sometime you need to add a Progress Bar to your script and this is how"
 
 ---

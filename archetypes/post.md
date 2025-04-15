@@ -16,6 +16,7 @@ series:
 - Hugo tricks
 - Django tricks
 - Indiweb, webmentions and friends
+- Horror stories
 
 reply:
 repost:

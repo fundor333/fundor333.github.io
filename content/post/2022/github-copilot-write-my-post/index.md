@@ -14,6 +14,8 @@ description: "How Github Copilot write my post and scare me two times"
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
+- series:
+- Horror stories
 ---
 
 I was writing another post for my blog with VS Code when Github Copilot write all the introduction for me.

@@ -6,7 +6,7 @@ categories:
 - dev
 tags:
 - python
-- coding
+- dev
 aliases:
 - "/dev/pipenv-e-come-tutto-e-in-uno/"
 description: Assistiamo al matrimonio di Pipfile, Pip e PipEnv

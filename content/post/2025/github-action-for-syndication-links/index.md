@@ -6,6 +6,9 @@ feature_text: "by IA Midjourney"
 description: "How I have syndications'links fill by the machine"
 isStarred: false
 tags:
+- hugo
+- github
+- github actiom
 categories:
 - dev
 images:

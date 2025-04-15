@@ -7,10 +7,12 @@ tags:
 - coding
 - rant
 categories:
-- zeta target
 - dev
+- rant
 slug: buzzwords-buzzwords
 description: Un rant sulle buzzwords
+series:
+- Horror stories
 ---
 
 Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le _buzzword_. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune _buzzword_ sotto forma di termini tipo {{< buzzword >}}.

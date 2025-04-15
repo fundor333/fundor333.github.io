@@ -4,7 +4,7 @@ date: 2021-07-27T10:00:00+02:00
 feature_link: "https://unsplash.com/photos/9Gz5bMWdGYE"
 feature_text: "Photo by Sara Julie on Unsplash"
 tags:
-- blog
+- blogging
 - devops
 - hugo
 slug: "Hugo-with-lazy-loading-and-webp"

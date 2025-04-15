@@ -9,7 +9,7 @@ tags:
 - blogging
 - indiweb
 categories:
-- blog
+- dev
 images:
 keywords:
 series:

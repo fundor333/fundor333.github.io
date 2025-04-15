@@ -7,10 +7,11 @@ tags:
 - rant
 categories:
 - dev
-- zeta target
+- rant
 slug: beards-mugs-men
-description: A response about mugs to a rant about beards 
-
+description: A response about mugs to a rant about beards
+series:
+- Horror stories
 ---
 
 I use DevRant, a social for rant by developer. One day I find [this](https://devrant.com/rants/1684566/some-empty-headed-helpdesk-girl-skipped-into-our-office-yesterday-afternoon-desp) rant.
@@ -65,7 +66,7 @@ I love it and I find it sometime too realistic in my experience. But sometime af
 ## Commoner mug
 
 Standard mug. Only one color with or without the phrase "Best Dad/Mum/Something Ever!".
-Full of pens, always Bic or some type of ultra-low-price pen. Sometime there is a magnifier if the owner is in the legal or tax department. 
+Full of pens, always Bic or some type of ultra-low-price pen. Sometime there is a magnifier if the owner is in the legal or tax department.
 
 Never ever used as a mug.
 
@@ -112,5 +113,5 @@ Only sometime you will find a sysadmin with the *vim command sheet*'s mug.
 This are some of the type of mug I find in my worklife. If i find other i will create a second part of this post.
 
 
-[^1]: An exquisite tea from the Fujian province, where it is grown in gardens. Its name is due to its pearl-like shape. With a pronounced jasmine aroma, it has a soft taste and digestive properties that make it very recommendable for drinking on its own after meals. 
+[^1]: An exquisite tea from the Fujian province, where it is grown in gardens. Its name is due to its pearl-like shape. With a pronounced jasmine aroma, it has a soft taste and digestive properties that make it very recommendable for drinking on its own after meals.
 [^2]: From a true story

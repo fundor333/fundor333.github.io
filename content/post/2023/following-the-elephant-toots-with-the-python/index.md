@@ -9,7 +9,8 @@ tags:
 - pyconit
 slug: "following-the-elephant-toots-with-the-python"
 categories:
-- develop
+- dev
+- fingerfood
 description: "How I follow all who Toots about PyconIt2023"
 
 mp-syndicate-to:
@@ -37,7 +38,7 @@ I need to break the task in little steeps for easyer development:
 3. Follow all the users (you need to follow someone to add to a list)
 4. Add all the users in the list _PyconIt2023_
 
-So I wrote this code for a commandline 
+So I wrote this code for a commandline
 
 ~~~ python
 from typing import Annotated

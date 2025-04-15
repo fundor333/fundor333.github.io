@@ -3,7 +3,6 @@ date: 2017-05-16 12:27:11 +0200
 tags:
 - docker
 - hugo
-- blog
 title: Hugo into Docker
 categories:
 - dev

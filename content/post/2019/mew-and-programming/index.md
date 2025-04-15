@@ -8,7 +8,6 @@ tags:
     - coding
 categories:
     - dev
-    - zeta target
 slug: mew-and-programming
 description: Why you can find a Mew under a truck on Pokemon Blue, Red and Green
 ---

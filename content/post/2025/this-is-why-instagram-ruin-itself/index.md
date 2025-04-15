@@ -7,7 +7,7 @@ tags:
 - social
 - instagram
 categories:
-- blog
+- rant
 images:
 keywords:
 - meta

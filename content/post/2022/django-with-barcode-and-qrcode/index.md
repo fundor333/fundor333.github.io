@@ -11,7 +11,7 @@ tags:
 - barcode
 slug: "django-with-barcode-and-qrcode"
 categories:
-- post
+- dev
 - fingerfood
 description: "How to make a django form for reading BarCode and QRCode"
 series:

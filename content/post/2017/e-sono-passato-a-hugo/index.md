@@ -4,7 +4,7 @@ date: 2017-04-04 00:00:00 +0000
 slug: e-sono-passato-a-hugo
 tags:
 - hugo
-- blog
+- blogging
 description: Come e perchè sono passato a Hugo da Pelican
 categories:
 - rant

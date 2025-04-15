@@ -11,7 +11,7 @@ tags:
 - blogging
 categories:
 - dev
-- blogging
+- rant
 series:
 - "A dev need a blog"
 ---

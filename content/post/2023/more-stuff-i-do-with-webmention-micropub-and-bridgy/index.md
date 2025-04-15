@@ -8,6 +8,7 @@ tags:
 - micropub
 - microformat
 - bridgy
+- hugo
 slug: "more-stuff-i-do-with-webmention-micropub-and-bridgy"
 categories:
 - dev

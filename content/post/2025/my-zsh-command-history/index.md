@@ -8,6 +8,7 @@ tags:
 - zsh
 categories:
 - dev
+- fingerfood
 images:
 keywords:
 - bash

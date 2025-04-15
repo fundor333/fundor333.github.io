@@ -12,6 +12,8 @@ categories:
     - dev
     - fingerfood
 description: "Import excel to django with easy and usefull form"
+series:
+- Django tricks
 ---
 
 Sometime you need to import "old data" or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.
@@ -112,12 +114,12 @@ In this fragment we loop on the array and, for each row, create an user for that
   </form>
 {{< / highlight >}}
 
-And this is the form for the upload, the last part of the project. 
+And this is the form for the upload, the last part of the project.
 
 __NB__: use the *enctype="multipart/form-data"* for upload files. If you can't upload files
 
-With all this code you can read all the xls you ever want but remember: 
+With all this code you can read all the xls you ever want but remember:
 
 > This code work only if you allways have the same xls's structure.
 >
-> You can change the pyexcel module for change the type of file read 
+> You can change the pyexcel module for change the type of file read

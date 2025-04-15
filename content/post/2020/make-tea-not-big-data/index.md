@@ -11,6 +11,8 @@ slug: "make-tea-not-big-data"
 categories:
     - rant
 description: "A rant about workspace and data managment with tea"
+series:
+- Horror stories
 ---
 
 # The story
