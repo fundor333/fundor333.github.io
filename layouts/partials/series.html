@@ -1,23 +1,28 @@
-{{- with (.GetTerms "series") -}}
-  {{- range . -}}
-    {{- $series := .Pages.ByDate -}}
-    <details class="entry-toc">
-      <summary>
-        <span class="entry-toc-header">
-          This post is part of the <strong>{{ .Title }}</strong> series
-        </span>
-      </summary>
-      <ol>
-        {{- range $series -}}
-        <li>
-          {{- if eq .File.UniqueID $.File.UniqueID -}}
-            <b>{{ .Title }}</b>
-          {{- else -}}
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          {{- end -}}
-        </li>
-        {{- end -}}
-      </ol>
-    </details>
-  {{- end -}}
+
+{{- if .Params.series -}}
+  <div class="post-series-bottom">
+    {{- with (.GetTerms "series") -}}
+      {{- range . -}}
+        {{- $series := .Pages.ByDate -}}
+        <details class="entry-toc">
+          <summary>
+            <span class="entry-toc-header">
+              This post is part of the <strong>{{ .Title }}</strong> series
+            </span>
+          </summary>
+          <ol>
+            {{- range $series -}}
+            <li>
+              {{- if eq .File.UniqueID $.File.UniqueID -}}
+                <b>{{ .Title }}</b>
+              {{- else -}}
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              {{- end -}}
+            </li>
+            {{- end -}}
+          </ol>
+        </details>
+      {{- end -}}
+    {{- end -}}
+  </div>
 {{- end -}}

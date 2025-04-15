@@ -15,6 +15,10 @@ main:
     name: "Photos"
     url: "/photos"
     weight: 25
+  - pageRef: "/series"
+    name: "Series"
+    url: "/series"
+    weight: 27
   - pageRef: "/explore"
     name: "Explore"
     url: "/explore"

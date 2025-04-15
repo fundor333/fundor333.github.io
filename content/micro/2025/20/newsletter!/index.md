@@ -5,7 +5,7 @@ description: E ora ho una newsletter
 tags:
 - post
 categories:
-- news
+- rant
 reply:
 repost:
 like:

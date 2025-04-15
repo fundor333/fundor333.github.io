@@ -1,0 +1,15 @@
+{{- define "main" -}}
+<div class="wrapper list-page">
+    <header class="header">
+        <h1 class="header-title center">{{ .Title }}</h1>
+    </header>
+    <main class="page-content" aria-label="Content">
+        {{ range .Pages.GroupByDate "2006" }}
+        {{/* create a list of posts for each month, with month as heading */}}
+        {{ range $index, $element := .Pages.ByDate }}
+        {{ partial "postCard" . }}
+        {{ end }} {{/* end range .Pages.ByDate */}}
+        {{ end }} {{/* end range .Pages.GroupByDate "2006" */}}
+    </main>
+</div>
+{{- end -}}

@@ -41,15 +41,14 @@
           </div>
           {{end}}
 
-
-
             </header>
             {{ partial "toc.html" .}}
             <div class="page-content e-content">
               {{- partial "bridgy.html" . -}}
-
                 {{ .Content }}
             </div>
+
+            {{ partial "series.html" . }}
             {{- partial "syndication.html" . -}}
             {{- partial "comments.html" . -}}
           </article>
