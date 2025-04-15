@@ -42,7 +42,7 @@ def micro_fc():
     month = str(datetime.datetime.now().month)
     title = name_cleaning(name)
 
-    generated = f"{year.ljust(4, "0")}/{month.ljust(2, "0")}/{title}"
+    generated = f"{year.rjust(4, "0")}/{month.rjust(2, "0")}/{title}"
 
     os.system(f"hugo new micro/{generated}/index.md")
     print(f"Generated {generated}/index.md")
