@@ -1,9 +1,8 @@
-<p>
-{{ with .Params.tags }} {{ range sort . }}
-#<a class="p-category tag"  rel="tag" href="#">{{ .}}</a>
-{{ end }} {{ end }}
-
-{{ with .Params.categories }} {{ range sort . }}
-#<a class="p-category tag"  rel="tag" href="#">{{ .}}</a>
-{{ end }} {{ end }}
+<p id="tags">
+  {{ range .Params.tags }}
+    #<a  class="p-category tag"  rel="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
+  {{ end }}
+  {{ range .Params.categories }}
+    #<a  class="p-category tag"  rel="tag" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
+  {{ end }}
 </p>

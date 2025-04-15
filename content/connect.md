@@ -5,7 +5,7 @@ type: page
 outputs:
 -  'html'
 allpage: true
-
+summary: How to follow or contact me
 ---
 
 This is where you can connect with me.

@@ -43,3 +43,5 @@ services:
 
 taxonomies:
   series: series
+  category: categories
+  tag: tags

@@ -6,6 +6,7 @@ allpage: true
 date: 2000-08-20T12:00:00+02:00
 outputs:
 -  'html'
+summary: Here I write what I'm working or studing for now
 ---
 This is my now page, and if you have your own site, [you should make one too](https://nownownow.com/about).
 

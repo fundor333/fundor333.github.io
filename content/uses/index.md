@@ -9,7 +9,7 @@ date: 2000-08-20T12:00:00+02:00
 outputs:
 - 'html'
 allpage: true
-
+summary: My tech stuffs, from every day to work tech
 ---
 
 Specifics about the hardware and software equipment I use for work and for my personal life.
@@ -45,6 +45,10 @@ The page is part of the [uses.tech](https://uses.tech/) project.
 ![MelGeek MOJO68 Advance](MOJO68_Advance.png)
 
 * [MelGeek MOJO68 Advance](https://www.melgeek.com/products/melgeek-mojo68-plastic-advance-see-through-custom-programmable-mechanical-keyboard)
+
+![Epomaker Split 65](split65_pic.jpg)
+
+* [Epomaker Split 65](https://epomaker.com/products/epomaker-split-65?_pos=4&_sid=37b0e8fa3&_ss=r)
 
 ![Blue Yeti](blue_yeti.png)
 
