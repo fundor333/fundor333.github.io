@@ -54,6 +54,8 @@ The page is part of the [uses.tech](https://uses.tech/) project.
 
 * [Blue Yeti Microfone](https://www.amazon.it/gp/product/B01LY6Z2M6)
 
+* [Keycaps](https://smollab.co/)
+
 ### Software
 
 * [VS Code](https://code.visualstudio.com/)
