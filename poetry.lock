@@ -531,14 +531,14 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.7)", "coverage-enable-subprocess
 
 [[package]]
 name = "weeknotebot"
-version = "1.5.0"
+version = "1.5.1"
 description = "A bot for generate WeekNote for Hugo"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "weeknotebot-1.5.0-py3-none-any.whl", hash = "sha256:a74e087dd678832d614bf094a22bebcbda7c6fec9463a581a6365051330efa06"},
-    {file = "weeknotebot-1.5.0.tar.gz", hash = "sha256:0eafcd24881fd7a5d1885ed4d49b6f6551e5979588dbf326e71d4b93d2083372"},
+    {file = "weeknotebot-1.5.1-py3-none-any.whl", hash = "sha256:d9e9f57cb7995b066b555eb3ad06ea4298b3e858bf76e4dfd17cc3798a53b038"},
+    {file = "weeknotebot-1.5.1.tar.gz", hash = "sha256:d61ab3d32500774c46d56dda27c7eba3704f955d21f3447f38c1e429fd0502d3"},
 ]
 
 [package.dependencies]
