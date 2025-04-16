@@ -551,4 +551,4 @@ rich = ">=13.9.4,<14.0.0"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "bffc03837e7dfcd54943aec4b3828474ac787328fb429047dcf46f54c884261e"
+content-hash = "52c08678f21e8ee263387614cbe136cefa06790ea9ab64c6fcc62e3c455499b2"
