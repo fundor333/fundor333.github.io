@@ -4,7 +4,6 @@ date: 2025-01-31T12:46:00+01:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: "A tool to start a life on the IndieWeb leaving the social media behind"
-isStarred: true
 tags:
 - blogging
 - indiweb
