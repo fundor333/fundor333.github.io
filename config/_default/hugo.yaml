@@ -32,10 +32,16 @@ related:
     - name: date
       weight: 10
 
+outputFormats:
+  SearchIndex:
+    baseName: search
+    mediaType: application/json
+
 outputs:
   home:
     - html
     - rss
+    - SearchIndex
 
 services:
   rss:
