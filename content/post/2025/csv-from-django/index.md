@@ -1,6 +1,6 @@
 ---
 title: "Csv From Django"
-date: 2025-04-19T12:23:09+02:00
+date: 2025-04-18T12:23:09+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: A little class view for return CSV
