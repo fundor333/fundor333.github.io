@@ -1,1 +1,52 @@
-{"feeds": [{"url": "https://appletune.fundor333.com/api/feed/", "title": "Suggested Links/Posts", "utm_source": "fundor333.com"}, {"url": "https://www.fundor333.com/index.xml", "title": "New post from my blog", "utm_source": "fundor333.com"}, {"url": "https://newsletter.digitaltearoom.com/rss/", "title": "New post from my newsletter", "utm_source": "fundor333.com"}], "fix_links": [{"url": "https://www.fundor333.com", "title": "My blog", "utm_source": "fundor333.com"}, {"url": "https://newsletter.digitaltearoom.com", "title": "My newsletter", "utm_source": "fundor333.com"}, {"url": "https://ko-fi.com/fundor333", "title": "Support me", "utm_source": "fundor333.com"}], "generator": {"tag": "week note", "output": "content/weeknotes/", "fix_links_label": "My Links", "type_weeknote": "weeknote", "draft": false}, "anilist": {"user_id": "fundor333"}, "goodread": {"user_id": "5312887-matteo", "shelf_name_code": "currently-reading", "shelf_name_label": "Currently Reading"}, "text_api": "https://appletune.fundor333.com/api/weekdone/?format=json"}
+{
+	"anilist": {
+		"user_id": "fundor333"
+	},
+	"feeds": [
+		{
+			"title": "Suggested Links/Posts",
+			"url": "https://appletune.fundor333.com/api/feed/",
+			"utm_source": "fundor333.com"
+		},
+		{
+			"title": "New post from my blog",
+			"url": "https://www.fundor333.com/index.xml",
+			"utm_source": "fundor333.com"
+		},
+		{
+			"title": "New post from my newsletter",
+			"url": "https://newsletter.digitaltearoom.com/rss/",
+			"utm_source": "fundor333.com"
+		}
+	],
+	"fix_links": [
+		{
+			"title": "My blog",
+			"url": "https://www.fundor333.com",
+			"utm_source": "fundor333.com"
+		},
+		{
+			"title": "My newsletter",
+			"url": "https://newsletter.digitaltearoom.com",
+			"utm_source": "fundor333.com"
+		},
+		{
+			"title": "Support me",
+			"url": "https://ko-fi.com/fundor333",
+			"utm_source": "fundor333.com"
+		}
+	],
+	"generator": {
+		"draft": false,
+		"fix_links_label": "My Links",
+		"output": "content/weeknotes/",
+		"tag": "week note",
+		"type_weeknote": "weeknote"
+	},
+	"goodread": {
+		"shelf_name_code": "currently-reading",
+		"shelf_name_label": "Currently Reading",
+		"user_id": "5312887-matteo"
+	},
+	"text_api": "https://appletune.fundor333.com/api/weekdone/?format=json"
+}
