@@ -13,3 +13,4 @@ resources:
   src: '_D0A1901.jpg'
 ---
 
+Waiting at the Venice Con, I find this beautifull shot of the green near me.
