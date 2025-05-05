@@ -21,16 +21,23 @@
             {{ partial "toc.html" .}}
             <div class="page-content e-content">
               {{ with .Resources.ByType "image" }}
-              <div class="grid grid-cols-1 place-items-center ">
 
                 {{ range . }}
-                    {{ $image := .Fit "1024x1024" }}
+                    {{ $image := . }}
+                    {{ if  $image }}
+                    <div class="container-fluid  text-justify">
+                      {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
 
-                    <figure class="figure grid grid-cols-1 place-items-center hmedia">
-                      <img loading="lazy" class="u-photo u-featured rounded-lg shadow-2xl" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $.Description }}">
-                      <figcaption class="figure-caption">{{ $.Description }}</figcaption>
-                    </figure>
-
+                      <div class="flex flex-col items-stretch">
+                        <figure class="figure hmedia">
+                          <img loading="lazy" class="u-photo rounded-lg figure-img img-fluid" src="{{ $image.Permalink }}"alt="{{ $.Description }}">
+                      {{if .Params.feature_link}}
+                          <figcaption class="figure-caption">{{ $.Description }}</figcaption>
+                        </figure>
+                      <a class="self-center" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
+                      {{end}}
+                    </div>
+                    {{end}}
 
                     {{ with .Exif }}
                     <table>
@@ -145,7 +152,6 @@
 
 
               </div>
-            </div>
         </article>
 
         {{ partial "series.html" . }}
