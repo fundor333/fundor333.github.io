@@ -1,10 +1,10 @@
-<footer class="footer">
+<footer class="footer wrapper">
 
     <span class="footer_item"> </span>
     {{ partial "hcard" . }}
 
 
-    <div class="footer_social-icons">
+    <div class="footer_social-icons flex">
         {{- partial "socialIcons.html" site.Params.socialIcons -}}
         <p class="flex justify-center">
           <a href='https://webring.recurse.com' target='_blank'>
@@ -19,6 +19,10 @@
           <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a>
           <a href="https://xn--sr8hvo.ws/next">→</a>
         </p>
+        <div class="webring">
+          <webring-css site="https://fundor333.com"></webring-css>
+          <script src="https://djangowebring.com/static/webring.js"></script>
+        </div>
       </div>
     <small class="footer_copyright">
     © {{ now.Format "2006" }} {{ .Site.Params.author.name }}.
