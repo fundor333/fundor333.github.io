@@ -1,0 +1,30 @@
+name: Anilist Cron
+
+on:
+  schedule:
+    - cron: "0 */10 * * *"
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  Anilist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@master
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip" # caching pip dependencies
+
+      - name: Install Pip dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Anylist
+        run: python ./action_script/aniist_run.py
