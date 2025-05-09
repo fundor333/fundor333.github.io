@@ -6,9 +6,9 @@ feature_text: "Photo by Zoe on Unsplash"
 tags:
 - hugo
 - microservice
-- flask 
+- flask
 slug: "Static-with-a-Form"
-categories: 
+categories:
 - dev
 - fingerfood
 description: "If you have a static site you can also have forms"
@@ -28,7 +28,7 @@ My personal solution for this problem is a *Microservice[^1]* *Rest Api[^2]* wit
 [^2]: [Wikipedia definition of *Rest Api*](https://en.wikipedia.org/wiki/Representational_state_transfer)
 [^3]: [Wikipedia definition of *Captcha*](https://en.wikipedia.org/wiki/CAPTCHA)
 
-You can also implement this code in a larger system but I make this code for a *Microservice*. 
+You can also implement this code in a larger system but I make this code for a *Microservice*.
 Also this is my *Python* implementation because *I use Python* but you can make this solution with your favorite language[^4].
 
 [^4]: If your favorite language is *Cobol* or *Pascal* I suggest my code for your mental stability
@@ -44,11 +44,11 @@ For this you need two part. One is the frontend and one is the backend.
 
 <form method="post" action="/somewhere_else">
 	... your form data ...
-<button class="g-recaptcha" 
-        data-sitekey="reCAPTCHA_site_key" 
-        data-callback='onSubmit' 
+<button class="g-recaptcha"
+        data-sitekey="reCAPTCHA_site_key"
+        data-callback='onSubmit'
         data-action='submit'>Submit</button>
-</form>             
+</form>
 
 <script>
    function onSubmit(token) {
@@ -57,15 +57,15 @@ For this you need two part. One is the frontend and one is the backend.
 </script>
 ```
 
-With this code for form the client will call the Google server for the *reCaptcha* validation and send the form data to *"/somewhere_else"* as our endpoint. 
+With this code for form the client will call the Google server for the *reCaptcha* validation and send the form data to *"/somewhere_else"* as our endpoint.
 
-This code is *Universal* so any backend you will use its allways be usefull. For more info about *reCaptcha* and how to use them you can read the [official Google Guide](https://developers.google.com/recaptcha/docs/v3)[^5]. 
+This code is *Universal* so any backend you will use its allways be usefull. For more info about *reCaptcha* and how to use them you can read the [official Google Guide](https://developers.google.com/recaptcha/docs/v3)[^5].
 
 [^5]: [Link](https://developers.google.com/recaptcha/docs/v3)
 
 ### Backend Python Flask and Requests
 
-In my solution I use MailGun for send me the content of the form. This code send all the the content of the post without check it. It can be use for multiple form at the same time. 
+In my solution I use MailGun for send me the content of the form. This code send all the the content of the post without check it. It can be use for multiple form at the same time.
 
 All the config are environment variables so you can recicle the script without a lot of work and this script is ready for *serveless* implementations.
 
@@ -112,12 +112,12 @@ def hello_world():
         return redirect(SUCCESS_URL, code=302)
 ```
 
-In this implementation you recive the post from the form and read the form data and send it to someone with MailGun. 
+In this implementation you recive the post from the form and read the form data and send it to someone with MailGun.
 If you don't need to send but to save it you can easy change the *send_mailgun_message* with what you need.
 
 ## Alternative
 
-With the html code show before you can have different endpoint. 
-You can change the desination changing the function. 
+With the html code show before you can have different endpoint.
+You can change the desination changing the function.
 
 For example you can send as email with SMTP or save into a database or some file in the server. The only limit is the Api Rest Post url for getting the data from the form.

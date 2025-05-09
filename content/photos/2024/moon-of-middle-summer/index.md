@@ -16,5 +16,5 @@ I LOVE to walk after dark but I am not very good with the astronomical photo
 
 ## Challenge
 
-I am studing how to take a photo of the moon or the stars. 
+I am studing how to take a photo of the moon or the stars.
 In this one I use some filters to get a better image the day after.

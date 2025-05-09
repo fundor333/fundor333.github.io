@@ -27,7 +27,7 @@ Nel prossimo futuro ho intenzione di pubblicare un articolo di approfondimento, 
 
 # La competizione dei floppy
 
-A ogni partecipante alla convention viene dato un floppy disk con l'adesivo con i dati del partecipante e dietro un piccolo QRCode.  
+A ogni partecipante alla convention viene dato un floppy disk con l'adesivo con i dati del partecipante e dietro un piccolo QRCode.
 {{< tweet user="matteo_zuccon" id="987619049029939200" >}}
 
 E' propio quest'ultimo che ha attirato enormemente la mia attenzione sulla cosa e si è rivelata un bell' easter egg.
@@ -43,7 +43,7 @@ In ogni caso mi ha permesso di socializzare con alcune persone e di divertirmi i
 Quest'anno, sia per un discorso economico che per un discorso di tempi, ho deciso di non partecipare alla Pyfiorentina ma andare a caccia di Lampredotto.
 
 
-Trovato quindi il locale e mangiato il lampredotto ho avuto una idea per un progetto con i GTFS di Google grazie all'autobus che per poco non mi metteva sotto (troppo distratto io dal lampredotto). 
+Trovato quindi il locale e mangiato il lampredotto ho avuto una idea per un progetto con i GTFS di Google grazie all'autobus che per poco non mi metteva sotto (troppo distratto io dal lampredotto).
 
 Su questo spero di darvi presto aggiornamento.
 

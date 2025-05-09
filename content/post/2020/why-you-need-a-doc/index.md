@@ -4,11 +4,11 @@ date: 2020-11-09T11:00:50+01:00
 
 feature_link: "https://unsplash.com/photos/8OVDzMGB_kw"
 feature_text: "Photo by Matt Ragland on Unsplash"
-tags: 
+tags:
 - coding
 - devops
 slug: "why-you-need-a-doc"
-categories: 
+categories:
 - dev
 description: "Every project you make you understand new things so you need to write down some thing. Something like a doc"
 
@@ -20,18 +20,18 @@ And you have multiple tool for doing it.
 
 # Tecnology or tools used
 
-We only have 2 tipe of tool for this task: paper o paperless. 
-You can't use other type of tool or tecnology and you can use the same tecnic in all the tecnology or tools you use. 
+We only have 2 tipe of tool for this task: paper o paperless.
+You can't use other type of tool or tecnology and you can use the same tecnic in all the tecnology or tools you use.
 
 This is because you need to understand how the human work for make a better doc.
 
 ## Paper or Journal or notebook or a printed paper
 
-The old fascion way. You write all into paper and no one can use it other then you. Sometime you can put in the office somewhere all the colleague can read it. 
+The old fascion way. You write all into paper and no one can use it other then you. Sometime you can put in the office somewhere all the colleague can read it.
 
 ![Manual](manual.jpg)
 
-Sometime this is a good idea have a printed paper near a machine or someting similar because all the taks are in the "physical" world. But if you are working from home this is a bad solution. 
+Sometime this is a good idea have a printed paper near a machine or someting similar because all the taks are in the "physical" world. But if you are working from home this is a bad solution.
 
 You can't share it without pass a physical copy of it to the other member of the team/client/human. This is a huge limit if your documentation.
 
@@ -64,11 +64,11 @@ You can learn with a "wiki" style of documentation and you can make task with a 
 
 # My way
 
-I love MarkDown and the GitHub/GitLab issiue so for my personal and work project I combine them. 
+I love MarkDown and the GitHub/GitLab issiue so for my personal and work project I combine them.
 
 For the documentation I use [MkDocs](https://www.mkdocs.org/) for build the documentation. I write it as a Question-Answer document, so it isn't about HOW THE SOFTWARE WORK but it is about HOW DO TASK WITH SOFTWARE. In this way I find more easly what I want or what I need.
 
-When I need to do something I write a issiue with a __todo__ with the micro-task I need to do for the issie, in this way I break the macro-task into task and after in micro-task so I can remember all and keep a trace of the task if I need to do It again.  
+When I need to do something I write a issiue with a __todo__ with the micro-task I need to do for the issie, in this way I break the macro-task into task and after in micro-task so I can remember all and keep a trace of the task if I need to do It again.
 
 If I find the task I doing can be needed in the future I copy the __ToDo__ list into a MarkDown and I make a wiki about the task for future reference.
 In this way I have, for the big task, a to do list and a wiki for the task in question.

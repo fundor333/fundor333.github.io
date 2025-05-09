@@ -8,7 +8,7 @@ tags:
 - git
 - dotfiles
 slug: "gitmessage-advance-config"
-categories: 
+categories:
 - dev
 - fingerfood
 description: "Sometime you need to configure your git or have a template for the commit for your work"
@@ -20,14 +20,14 @@ Allways put something (ticket code, bug code, etc...), order of stuff, some comm
 
 ## How to do
 
-In Git you can set a a file as the template for the git commit. 
-You can do it for a single project or for your user. 
+In Git you can set a a file as the template for the git commit.
+You can do it for a single project or for your user.
 In this case I will show the command for all your project.
 
 ### The config
 
 First you need to write a file.
-Usualy I make a file in the home ***~/.gitmessage*** where I put the message. 
+Usualy I make a file in the home ***~/.gitmessage*** where I put the message.
 For example a file template is:
 
 {{< highlight bash >}}

@@ -8,14 +8,14 @@ tags:
 - coding
 - devops
 slug: "color-your-python-output"
-categories: 
+categories:
 - fingerfood
 - dev
 description: "Sometime you need to make your output more readible adding color to the terminal"
 
 ---
 
-Sometime you need to output error and other stuff in the same terminal. 
+Sometime you need to output error and other stuff in the same terminal.
 It can be a lot of text and you need to make more readible for the user/sysadmin/victim so, the easy way, is to make different the output.
 
 The easy way to do it is to color the output to some color.
@@ -59,7 +59,7 @@ class CLog:
         print(f"{self.OKBLUE}{string}{self.ENDC}")
 
     def warning(self,string):
-        print(f"{self.WARNING}{string}{self.ENDC}")		
+        print(f"{self.WARNING}{string}{self.ENDC}")
 
 ```
 

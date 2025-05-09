@@ -19,5 +19,5 @@ I love it and I love the food.
 
 ## Problem
 
-WOST LIGHT EVER! 
+WOST LIGHT EVER!
 I don't like the multiple type of light they have inside so you need to be good with feeling the light changing at every corner

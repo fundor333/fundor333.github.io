@@ -1,5 +1,5 @@
 +++
-# For example, to Redirect from /old_blog to /blog, set 
+# For example, to Redirect from /old_blog to /blog, set
 # url to "/old_blog" and redirect_to to "/blog" below
 type = "redirect"
 url = "/social_card/"

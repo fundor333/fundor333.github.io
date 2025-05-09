@@ -9,15 +9,15 @@ tags:
     - coding
     - api
 slug: "building-my-backend"
-categories: 
+categories:
 - dev
 description: "Why someone need a server and how I build mine"
 ---
 
-More time pass more time I need a server for my cronjob and other process. 
+More time pass more time I need a server for my cronjob and other process.
 Sometime the cron was a supid thing, working only for the short period and after can be trashed but the real problem start with Feedly, the subscription for feed I use.
 
-One day, adding a new feed to my Feedly account, I discovered that I can't add more in the free subscription. 
+One day, adding a new feed to my Feedly account, I discovered that I can't add more in the free subscription.
 So I start thinking some alternative.
 
 ## What I need
@@ -48,7 +48,7 @@ In this way I discover some dead blog and other formats of feed (old one from so
 
 After this I builds the task for the cronjob for getting all the feed of the multiple sources. This task add a command into redis and when the wrapper (celery in my case) can do the job, it does it and log into the database a row with the log in case of failure.
 
-I did the same also for the "mark as read" task so if I mark one this is a task done by the browser but if I do for the "last month" or "all" posts they make a Celery task into Redis because it can be a lot of work for the server because I can do more thinks with this but not now. 
+I did the same also for the "mark as read" task so if I mark one this is a task done by the browser but if I do for the "last month" or "all" posts they make a Celery task into Redis because it can be a lot of work for the server because I can do more thinks with this but not now.
 
 In the future I am thinking about point system for the post and other thinks that need a after processing for making a "prefernce system" or other similar thinks for my personal use[^1] and I want to save the top post into my Poket account or save it in a way I can store for personal reference with or without the site working and store it indefenitly.
 
@@ -92,5 +92,5 @@ With some time I build more function into this system and add more api. For the 
 
 Because all the project I am working on I don't have a lot of time so all this project have the least priority of all but, one day after the other I will be updating all of this project with all the function I need but for now I have this.
 
-[^1]: This is an idea I copy from Feedly Premium. 
-[^2]: The *DRF* is the *[Django Rest Framework](https://www.django-rest-framework.org/)* 
+[^1]: This is an idea I copy from Feedly Premium.
+[^2]: The *DRF* is the *[Django Rest Framework](https://www.django-rest-framework.org/)*

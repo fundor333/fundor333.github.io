@@ -8,7 +8,7 @@ tags:
 - coding
 - devops
 slug: "ssl-check-with-a-script"
-categories: 
+categories:
 - dev
 - fingerfood
 description: "You need to check a lot of SSL certificate, some domain and others things"
@@ -21,7 +21,7 @@ Every sistem I have use CertBot, the bot for Let's Encrypt, who renew the certif
 
 ## Script out the problem
 
-For this script we need 
+For this script we need
 
 * Python 3.6 or more
 * PyOpenssl

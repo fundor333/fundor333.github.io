@@ -9,7 +9,7 @@ tags:
 - coding
 - hacking
 slug: "The-team-makefile"
-categories: 
+categories:
 - dev
 description: "You need to make a makefile if you are working on a team project"
 
@@ -41,7 +41,7 @@ Some git hosting like GitHub, GitLab and GitTea will show your README.md at the 
 
 ## Building script
 
-Any project you have will be having a different set of config and command to launch every task. 
+Any project you have will be having a different set of config and command to launch every task.
 Sometime you will make one or more script for your task and you need to remember all of the function and launch command. So I write a makefile for all my project, personal and job related.
 
 ### Base of makefile
@@ -88,14 +88,14 @@ run: install docs ## Run all the task for building
 
 So, every time you will use this _makefile_ with _run_ you will run _install_, _docs_ and _run_ in this sequence.
 
-## Force Testing 
+## Force Testing
 
-Testing is one of the must of programming. And it can be done only with scripting. 
-The best way I found is using the _makefile_. Setting up a good testing suite with a full cover for the code is the base of a good project. 
+Testing is one of the must of programming. And it can be done only with scripting.
+The best way I found is using the _makefile_. Setting up a good testing suite with a full cover for the code is the base of a good project.
 
 And a good way for testing is using some type of _Continuous Integration_ like [_GitHub Action_](https://github.com/features/actions), [_Circle CI_](https://circleci.com/) or [_Travis CI_](https://travis-ci.org/).
 
-If you will use a _CI_ with a [git-flow](http://danielkummer.github.io/git-flow-cheatsheet/)'s flow you can make the tests' result blocking for merging branch. 
+If you will use a _CI_ with a [git-flow](http://danielkummer.github.io/git-flow-cheatsheet/)'s flow you can make the tests' result blocking for merging branch.
 
 ## Lint and reformatting
 
@@ -118,6 +118,6 @@ Also the command _pre-commit run_ will run the pre-commit hooks without make a c
 
 ## Conclusion
 
-With this setup you can have a lot of automatic task for your project so you and your team will work better, more like a clock and without a lot of coordination if you can follow a standar template like this. 
+With this setup you can have a lot of automatic task for your project so you and your team will work better, more like a clock and without a lot of coordination if you can follow a standar template like this.
 
 And you can leave and enter in any project in an easy and fast way.

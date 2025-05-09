@@ -60,7 +60,7 @@
           description: Python library for rich text and beautiful formatting in the terminal
         - name: Datasette
           url: https://github.com/simonw/datasette
-          description:  An open source multi-tool for exploring and publishing data 
+          description:  An open source multi-tool for exploring and publishing data
 - language: others
   package:
     - subtype: style
@@ -95,4 +95,4 @@
           description: GitHub Action to build and deploy a Hugo site to a remote repository 🚀
         - name: Blog post workflow
           url: https://github.com/marketplace/actions/blog-post-workflow
-          description:  Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed 
+          description:  Show your latest blog posts from any sources or StackOverflow activity or Youtube Videos on your GitHub profile/project readme automatically using the RSS feed

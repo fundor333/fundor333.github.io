@@ -8,7 +8,7 @@ tags:
 - devops
 - hacking
 slug: "keep_update_gitlab"
-categories: 
+categories:
 - fingerfood
 - dev
 description: "How to check if your GitLab is update automaticaly"
@@ -37,7 +37,7 @@ So I decide to hack the system and make an allert for me.
 First ve need to understand how the label work.
 A rapid ispection of the page show that the label is a responde of a _get_ at the url *version.gitlab.com/check.svg* with some parameters.
 
-In particolar we need the GitLab version installed. So we need it too. And for them we need the token from the self hosted installation[^3]. 
+In particolar we need the GitLab version installed. So we need it too. And for them we need the token from the self hosted installation[^3].
 
 ### Get the version of GitLab
 For this project we only need python and [_requests_](https://pypi.org/project/requests/)
@@ -74,7 +74,7 @@ def last_version_gitlab():
 	return r.text
 ```
 
-In this way you return a string with the label as xml img. 
+In this way you return a string with the label as xml img.
 So if you want a feedback when is to update it you can do this.
 
 ``` python
@@ -86,7 +86,7 @@ In this way you return _False_ if you need to update, _True_ elsewhere.
 
 ## Conclusion
 
-Whith this you can make another function for sending a notification or a mail for the update. 
+Whith this you can make another function for sending a notification or a mail for the update.
 I make all this code into a cronjob with mail sender for getting at the start of my work hours a mail for unupdated gitlab installation.
 I also suggest Slack or Telegram for the notification for the unupgraded GitLab.
 

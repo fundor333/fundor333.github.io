@@ -20,7 +20,7 @@ Questo ha portato alla creazione di alcuni progetti hardware/software che cercan
 
 Nonostante quello che mostrano nei film, lo scambio 'di persona' è molto pericoloso e raramente usato. Viene invece usato il *Dead Drops* o *consegna morta*:
 dopo essersi accordati su un punto di consegna, il mittente lascia il "pacchetto" nel punto di consegna dove, il ricevente, lo viene a ritirare
-	
+
 Da questa idea nasce il primo progetto che esamino da lungo tempo: il progetto "*Dead Drops*"
 
 ## Dead Drop
@@ -30,7 +30,7 @@ Nato come progetto d'arte di Aram Bartholl, un artista con base a Berlino, è un
 
 Infatti è considerabile come _hack urbano_ in quanto è, semplicemente, il posizionamento di supporti di memoria fissa nel territorio. Ad esempio il murare una chiavetta usb su una parete o legare, con una sicura, ad un albero un supporto usb.
 
-Tutto questo viene gestito all'interno di un sito internet[^5] che ha anche un database in cui vengono segnalati i dead drop esistenti, il contenuto di partenza e lo stato del supporto stesso per rendere tutto più semplice e funzionale. 
+Tutto questo viene gestito all'interno di un sito internet[^5] che ha anche un database in cui vengono segnalati i dead drop esistenti, il contenuto di partenza e lo stato del supporto stesso per rendere tutto più semplice e funzionale.
 
 Questo sistema risulta essere molto interessante da un punto di vista tecnico ma difficile da mantenere in quanto molto soggetta allo stato della parete stessa e alle condizioni atmosferiche dell'area. In oltre può essere anche intesa come _danneggiamento di suolo pubblico/privato_.
 
@@ -48,7 +48,7 @@ Ispirata dal sistema delle radio pirata, la PiratBox è un sistema hardware di o
 
 ![Pirate Box](piratebox.gif)
 
-Tecnicamente è un router modificato in modo da creare un _hotspot_ "offile" da cui prendere e lasciare file e commenti. Si basa su una "patch" di _OpenWrt_ che trasforma il router compatibile in un hotspot/server. 
+Tecnicamente è un router modificato in modo da creare un _hotspot_ "offile" da cui prendere e lasciare file e commenti. Si basa su una "patch" di _OpenWrt_ che trasforma il router compatibile in un hotspot/server.
 
 Attraverso una interfaccia web e collegandosi via WiFi è possibile caricare e scaricare i file contenuti all'interno della _PirateBox_.
 
@@ -66,7 +66,7 @@ In oltre alcune di queste modifiche sono diventate talmente _grosse_ da diventar
 
 ## LibraryBox
 
-Mod e poi fork di _PirateBox_, è la versione "per libri" della _PirateBox_. 
+Mod e poi fork di _PirateBox_, è la versione "per libri" della _PirateBox_.
 
 Risulta utilizzare la stessa base hardware (sempre un router con una unità di memoria) ed è sempre una "_patch_" di _OpenrWrt_ a cui viene cambiata l'interfaccia grafica e alcune funzionalità.
 
@@ -81,7 +81,7 @@ Questo ha portato molti a sfruttare molto più pesantemente la _LibraryBox_ risp
 ---
 
 Fondamentalmente queste sono le tecnologie _P2P_ offline che suggerisco e di cui mi sono interessato nel mio tempo libero. Nel caso ne trovi di nuove mi preoccuperò di fare un aggiornamento in quanto l'argomento a me piace in modo particolare e lo trovo anche particolarmente interessante anche dal punto di vista umano, perchè è sempre interessante vedere i nuovi sistemi con cui il genere umano condivide la conoscenza.
- 
+
 [^1]: [The Guardian: Moscow names British 'spies' in NGO row](https://www.theguardian.com/world/2006/jan/23/russia.politics)
 [^2]: Sito ufficiale del progetto Dead Drops  _Link con problemi_ ~~deaddrops.com~~
 [^3.1]: [Thread sulla mod con Icecast](http://forum.piratebox.cc/read.php?2,3764) e [tutorial](https://github.com/janbre/Assorted/tree/master/Piratebox/PirateBoxRadio)

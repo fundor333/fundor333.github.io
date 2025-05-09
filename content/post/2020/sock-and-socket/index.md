@@ -51,7 +51,7 @@ def server_program():
 	server_socket.listen(20)
 {{< / highlight >}}
 
-Where we 
+Where we
 
 * Start a socket with __socket.socket()__
 * Set the socket to the Host and Port with __.bind((HOST, PORT))__
@@ -68,7 +68,7 @@ After this you need to accept new incomming request. I also set a timeout becaus
 
 We put into __data_raw__ the data from the connection (here we use size)[^2] and we have 2 more interesting object:
 
-* __conn__ a socket with *this* connection 
+* __conn__ a socket with *this* connection
 * __address__ the *ip* for *this* connection
 
 

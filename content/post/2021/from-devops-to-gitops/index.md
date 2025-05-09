@@ -8,7 +8,7 @@ tags:
 - devops
 - gitops
 slug: "From-DevOps-to-GitOps"
-categories: 
+categories:
 - dev
 description: "Why am I moving from DevOps to GitOps"
 
@@ -38,14 +38,14 @@ _GitOps_ is an evolution of _DevOps_.
 
 Usually this is done with script and automation (tools, code, ape with a keyboard...) and remove some human error.
 
-_DevOps_ is a deployment practices, in other way is a philosophy. 
-In any way you have a concept without an implementation. 
+_DevOps_ is a deployment practices, in other way is a philosophy.
+In any way you have a concept without an implementation.
 
 _DevOps_ define a way of working and we need something more practical for the world.
 
 With _DevOps_ in mind we can make an implementation of this set of steps:
 
-* _Coding_ writing code 
+* _Coding_ writing code
 * _Building code_ automatic build or similar application specific
 * _Testing code_ in automatic way and you don't have bug on the deploy
 * _Approving_ with issue and merge requests
@@ -89,9 +89,9 @@ If you don't have man power you *need* to use this technique for trying to have 
 
 ## I can use it for my little project?
 
-Yes, you can. This blog is a _GitOps_ example. 
+Yes, you can. This blog is a _GitOps_ example.
 
-This site is made with all the necessary stuff and the configs inside repos. 
+This site is made with all the necessary stuff and the configs inside repos.
 
 All you need for run it is inside one of two repo:
 
@@ -99,16 +99,16 @@ All you need for run it is inside one of two repo:
 * The Hugo repo (the software for building my blog)
 
 ### An Example
-In this repos (the blog one) you have 
+In this repos (the blog one) you have
 
 #### The Data
 
 Like the posts and the images used in this blog and all the info for the Search engine are store in plain files. Some of them are media file but a lot of them are text files (a lot of _MarkDown_ files and some _Json_). Only the comments are outside of the repo.
 
 #### The Code
-All the template and the Css/JavaScript of the site (and in my case the SCSS for building the Css). 
-I also have a couple script for generating compressed img for the web.[^2] 
-[^2]: [Hugo With Lazy Loading and Webp]({{< relref "post/2021/Hugo-with-lazy-loading-and-webp" >}}) 
+All the template and the Css/JavaScript of the site (and in my case the SCSS for building the Css).
+I also have a couple script for generating compressed img for the web.[^2]
+[^2]: [Hugo With Lazy Loading and Webp]({{< relref "post/2021/Hugo-with-lazy-loading-and-webp" >}})
 
 
 #### The Config
@@ -119,10 +119,10 @@ It also have some config for GitHub for the GitHub Action and the config for Git
 I added some GitHub Action for building the site and test for 404 or similar error after the build. In this way I don't need to check all the link manually.
 
 #### Console/command file
-I need this for dev and run it because I don't remember all the commands. In my case an easy to use _makefile_ with some command for building, cleaning and testing the site before deploy it on the _world wild web_.[^3] 
-[^3]: [The team Makefile]({{< relref "post/2021/the-team-makefile" >}}) 
+I need this for dev and run it because I don't remember all the commands. In my case an easy to use _makefile_ with some command for building, cleaning and testing the site before deploy it on the _world wild web_.[^3]
+[^3]: [The team Makefile]({{< relref "post/2021/the-team-makefile" >}})
 
 ## Conclusion
 
-Working in a little team _GitOps_ is an essential tool for our teamwork. 
+Working in a little team _GitOps_ is an essential tool for our teamwork.
 Good luck for your implementation of _GitOps_

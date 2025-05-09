@@ -8,7 +8,7 @@ tags:
 - dotfiles
 - coding
 slug: "backup-your-crontab"
-categories: 
+categories:
 - dev
 description: "Using DotBot for backup and sync crontab job"
 

@@ -9,13 +9,13 @@ tags:
 - bot
 - dotfiles
 slug: "manage-site-and-certificate"
-categories: 
+categories:
 - dev
 description: "One dev manage 40 sites' domains, SSL and check all of them with a package"
 
 ---
 
-After my [other post]({{< relref "post/2020/ssl-check-with-a-script/index.md" >}}) I find we (me and my coworker) need to check between 30 to 40 domain, subdomain and SSL certificate for work and some more for our private life so I put on the test my [other post's script]({{< relref "post/2020/ssl-check-with-a-script/index.md" >}}) but we need to check more. 
+After my [other post]({{< relref "post/2020/ssl-check-with-a-script/index.md" >}}) I find we (me and my coworker) need to check between 30 to 40 domain, subdomain and SSL certificate for work and some more for our private life so I put on the test my [other post's script]({{< relref "post/2020/ssl-check-with-a-script/index.md" >}}) but we need to check more.
 
 We need to check when the domain expire (DNS Lookup), we need to check if the server are up and the SSL certificate. This is a problem because we need to launch the same commands every day for multiple server every day and some time we forgot a domain or a url and we don't check it for days. And if something boom we need to fix it with *zero down time* so we need to do some sysadmin work.
 
@@ -42,7 +42,7 @@ So for start I need to register some urls like google and amazon for example
 
 Now you only register the url, nothing is check for now.
 
-For run all job or only one you need to use the *run* directive with the *--c* flag for adding command. 
+For run all job or only one you need to use the *run* directive with the *--c* flag for adding command.
 
 ```bash
  servergrimoire run
@@ -52,7 +52,7 @@ After this you don't have any return beause this command is for cronjob or simil
 
 If you need to see what was the last run you can call *stats* and *info* if you want to see what is save into the data file. This way make easy for cronjob, automatic task and will grow with other function. All the command are in the *help* directive if you need more info.
 
-This is a little module but can be extrime usefull in small list of urls but you need other tool if you use it for hundreds urls. 
+This is a little module but can be extrime usefull in small list of urls but you need other tool if you use it for hundreds urls.
 I also accept help for the plugin.
 
 

@@ -26,7 +26,7 @@ All of this is from personal research and study.
 
 In the 1945 was publish in _The Atlantic Monthly_ the article "As We May Think" where the _Memex_, the first concept of _hypertext_ was born.
 
-In 1963 the term "hypertext" and "hypermedia" was coined as part of a model for creating linked content. 
+In 1963 the term "hypertext" and "hypermedia" was coined as part of a model for creating linked content.
 
 From here to 1980 any region of the planet make a type of _hypertext_ but we ignore all of them because we aren't interested in them now. You need to go to the 1980 CERN for have a software call ENQUIRE, a _hypertext_ software.
 But it was unaccessible for everybody so the software was discart.
@@ -57,7 +57,7 @@ And this become more evident with _Wordpress_ where you need from 10 to 40 query
 
 ### And now the static site generators
 
-Now we have to talk about the static site generator. 
+Now we have to talk about the static site generator.
 
 First we talk about the one is not in use anymore: the gui one. Is a complex software where you have multiple buttons for build the gui and put the text, img and all the other things in position. This way was popular at the end of the 90' and the beginning of the 2000' with _Microsoft Publisher_ and _iLife iWeb_. All of them death today because was too long to make a site and you need html knowledge for the more advance stuff and integrate js for some animation or others things.
 
@@ -81,7 +81,7 @@ There are multiple good reason for this:
 * Fast: they ask the page you serve it without any form of elaboration. You cant have a site more fast than static
 * Easy to backup: you can backup in infinite ways your blog because you only need to save the theme, config and the content. All the other thins (the server software, the genererator and plugins) you don't need in your backup. All are descript in the theme, config and content.
 * No upgrade: you don't need to update the site to the newer version of one library or the plugin for X. With a static site generator you have a HTML site allways valid
-* You need hyperlink not plugin: at the end of the day you want the hyperlink of a site/blog not the fancy plugin for an unicorn running on the page. Any plugin add complexity at the system and the site, it make the site slower and sometime, when not working right, more difficult to debuggin. 
+* You need hyperlink not plugin: at the end of the day you want the hyperlink of a site/blog not the fancy plugin for an unicorn running on the page. Any plugin add complexity at the system and the site, it make the site slower and sometime, when not working right, more difficult to debuggin.
 
 ## Conclusion
 

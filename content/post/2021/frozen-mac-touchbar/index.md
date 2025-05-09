@@ -7,7 +7,7 @@ tags:
 - hacking
 - rant
 slug: "frozen-mac-touchbar"
-categories: 
+categories:
 - fingerfood
 - dev
 description: "Sometime you need to fix your frozen Mac TouchBar"

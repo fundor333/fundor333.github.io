@@ -8,7 +8,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta charset="UTF-8"/>
-        
+
         <link type="text/css" rel="stylesheet" href="https://xaselgio.net/css/styles.d225b84765ebd5eb4ab83f06e7e09371032e7199475bda8157f1f285bac0e0720482db82ed01710cced83ed937c019f9d0dfe2da88e3600f24c09c6903e360ee.css" integrity="sha512-0iW4R2Xr1etKuD8G5+CTcQMucZlHW9qBV/HyhbrA4HIEgtuC7QFxDM7YPtk3wBn50N/i2ojjYA8kwJxpA+Ng7g==" />
         <style>
           .aboutfeeds {
@@ -38,7 +38,7 @@
             align-items: center;
           }
           body{max-width:768px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:16px;line-height:1.5em}section{margin:30px 15px}h1{font-size:2em;margin:.67em 0;line-height:1.125em}h2{border-bottom:1px solid #eaecef;padding-bottom:.3em}.alert{background:#fff5b1;padding:4px 12px;margin:0 -12px}a{text-decoration:none}.entry h3{margin-bottom:0}.entry p{margin:4px 0}
-        
+
         </style>
       </head>
       <body>

@@ -5,7 +5,7 @@ feature_link: ""
 feature_text: ""
 tags:
 slug: "Fundor333"
-categories: 
+categories:
 - rant
 description: "Primo post"
 
