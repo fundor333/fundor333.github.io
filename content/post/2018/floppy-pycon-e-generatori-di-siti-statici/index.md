@@ -28,7 +28,7 @@ Nel prossimo futuro ho intenzione di pubblicare un articolo di approfondimento, 
 # La competizione dei floppy
 
 A ogni partecipante alla convention viene dato un floppy disk con l'adesivo con i dati del partecipante e dietro un piccolo QRCode.
-{{< tweet user="matteo_zuccon" id="987619049029939200" >}}
+{{< x user="matteo_zuccon" id="987619049029939200" >}}
 
 E' propio quest'ultimo che ha attirato enormemente la mia attenzione sulla cosa e si è rivelata un bell' easter egg.
 

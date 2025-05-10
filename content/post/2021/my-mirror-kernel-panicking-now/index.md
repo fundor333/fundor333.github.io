@@ -27,18 +27,18 @@ And we have more and more code (crappy and sicure) in ours house but lot's of pe
 
 ## Now we have problems with our Mirrors?
 
-{{< twitter user="tlakomy" id="1442567313803390977">}} #specchio
+{{< x user="tlakomy" id="1442567313803390977">}} #specchio
 
 ## Also Facebook has problems with the IoT
 
-{{< twitter  user="briankrebs" id="1445147230244061184">}} #facebook fall
+{{< x  user="briankrebs" id="1445147230244061184">}} #facebook fall
 
 ## Even the Sex Toy are a target
 
-{{< twitter  user="internetofshit" id="848919726973734912">}} # hacking dildo
+{{< x  user="internetofshit" id="848919726973734912">}} # hacking dildo
 
 ### And now we have a standard for the security for the sex toy
 
-{{< twitter  user="ThatSexToyGuy" id="1445444247063126023">}} #dildo iso[^dildo]
+{{< x  user="ThatSexToyGuy" id="1445444247063126023">}} #dildo iso[^dildo]
 
 [^dildo]: [Finally, Dildos are Getting Safety Standards](https://www.vice.com/en/article/3aq3w5/sex-toy-safety-standards-iso) from Motherboard
