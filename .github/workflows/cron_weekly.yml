@@ -3,6 +3,7 @@ name: Cron Weekly
 on:
   schedule:
     - cron: "15 6 * * 0"
+    - cron: "55 23 * * 0"
   workflow_dispatch:
 jobs:
   weekly:
