@@ -6,8 +6,6 @@
 
 <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
-<style>
-  .page-content a[target=_blank]::after {
-    content: none;
-  }
-</style>
+
+{{- $style := resources.Get "sass/add.scss" | resources.ExecuteAsTemplate "add.scss" . | toCSS (dict "targetPath" "add.css") | minify | fingerprint }}
+<link href="{{ $style.RelPermalink }}" rel="stylesheet">
