@@ -8,7 +8,7 @@ description:
 isStarred: false
 tags:
 categories:
-- rsnt
+- rant
 - dev
 - fingerfood
 images:

@@ -35,3 +35,6 @@
     {{ partial "svgs/arrowUp.svg" (dict "height" 48 "width" 48) . }}
 </a>
 {{- end -}}
+
+{{- $flag := resources.Get "js/codecorner.js" -}}
+<script type="text/javascript" src="{{ $flag.RelPermalink }}"></script>
