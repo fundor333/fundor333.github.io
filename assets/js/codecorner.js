@@ -21,9 +21,9 @@ function insert() {
 
   var css =
   '@media only screen and (min-width: 768px) {' +
-  '#pridecodes-code-corner-svg {width: 100px;}' +
+  '#pridecodes-code-corner-svg {width: 150px;}' +
   '} @media only screen and (max-width: 767px) {' +
-  '#pridecodes-code-corner-svg {width: 50px;}' +
+  '#pridecodes-code-corner-svg {width: 75px;}' +
   '}' +
   '@keyframes enterIn {0% {opacity: 0;}100% {opacity: 100;}}' +
   '#pridecodes-code-corner-svg { animation: enterIn 2s; transition: all .2s ease-in-out; }' +
