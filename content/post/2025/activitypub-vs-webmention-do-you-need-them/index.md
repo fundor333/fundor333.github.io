@@ -8,6 +8,7 @@ isStarred: false
 tags:
 - webmention
 - activitypub
+- indieweb
 categories:
 - rant
 - dev
