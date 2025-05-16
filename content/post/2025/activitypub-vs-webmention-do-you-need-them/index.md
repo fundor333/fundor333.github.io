@@ -26,6 +26,10 @@ repost:
 like:
 rsvp:
 bookmark:
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: 114516904456408423
 ---
 
 I have a lot of article about webmention because I implement them on my site/blog. And I use them ad comment, like sistem and more. But more I read about ActivityPub and the Feedverse more I thing it can be a good think to implement it insite your site for your content and for share to the Feedverse.
