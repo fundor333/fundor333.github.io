@@ -13,6 +13,13 @@ rss = [
     "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/rss",
     "https://fundor333.medium.com/feed",
 ]
+
+indieweb = [
+    (
+        "https://granary.io/url?input=html&output=atom&url=https://news.indieweb.org/en",
+        "https://news.indieweb.org/en",
+    )
+]
 hacker_news_username = "fundor333"
 
 
@@ -72,7 +79,6 @@ class FeedFinder:
     def get_label(self, feed_type: str, entry: dict):
         if feed_type == "rss20":
             return entry.get("summary")
-
         else:
             logging.error(f"Feed type not supported: {feed_type}")
 
@@ -96,15 +102,49 @@ class FeedFinder:
             logging.error("Failed to get RSS feed. Status code:", feed.status)
 
 
+class IndieWebOrg:
+    def find_urls(self, string):
+        urls = re.findall(r"(?:(?:https?|ftp):\/\/)?[\w/\-?=%.]+\.[\w/\-?=%.]+", string)
+
+        return urls
+
+    def get_label(self, feed_type: str, entry: dict):
+        if feed_type == "rss20":
+            return entry.get("summary")
+        elif feed_type == "atom10":
+            return entry.get("id")
+        else:
+            logging.error(f"Feed type not supported: {feed_type}")
+
+            return entry.get("content")
+
+    def run(self, rss_url: str, site: str, domain: str, output: dict):
+        feed = feedparser.parse(rss_url)
+
+        if feed.status == 200:
+            for entry in feed.entries:
+                for e in self.find_urls(self.get_label(feed.version, entry)):
+                    if domain in e:
+                        e = clean_slug(e)
+                        if output.get(e, False):
+                            output[e].append(site)
+                        else:
+                            output[e] = [site]
+        else:
+            logging.error("Failed to get RSS feed. Status code:", feed.status)
+
+
 class WriterSyndication:
     def __init__(
         self,
         rss: list[str],
+        indiweb: list[str],
         hacker_news_username: str,
         domain: str,
     ):
         self.output = {}
         self.rss = rss
+        self.indiweb = indiweb
         self.domain = domain
         self.hacker_news_username = hacker_news_username
 
@@ -112,6 +152,9 @@ class WriterSyndication:
         ff = FeedFinder()
         for i in self.rss:
             ff.run(i, self.domain, self.output)
+        ii = IndieWebOrg()
+        for a, b in self.indiweb:
+            ii.run(a, b, self.domain, output=self.output)
 
         hn = HackerNewsFinder(self.hacker_news_username, self.output)
         hn.run()
@@ -148,6 +191,7 @@ class WriterSyndication:
 
 w = WriterSyndication(
     rss,
+    indieweb,
     hacker_news_username,
     domain,
 )
