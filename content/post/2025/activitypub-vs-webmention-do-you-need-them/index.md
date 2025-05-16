@@ -1,6 +1,6 @@
 ---
 title: "Activitypub vs Webmention Do You Need Them ?"
-date: 2025-05-16T09:23:27+02:00
+date: 2025-05-16T07:23:27+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: Some personal thinking about webmention and activitypub and how to use/combine them
