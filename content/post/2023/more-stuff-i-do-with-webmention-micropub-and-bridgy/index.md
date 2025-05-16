@@ -17,6 +17,7 @@ description: "I implement and code more stuff from webmention, micropub and brid
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
+- https://news.indieweb.org/en
 aliases:
 - /post/2023/02/more-stuff-i-do-with-webmention-micropub-and-bridgy/
 series:

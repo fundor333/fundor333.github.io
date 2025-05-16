@@ -20,4 +20,7 @@
   <br>
 {{ end }}
 
-
+{{ if .Param "mp-syndicate-to" }}
+    {{ range .Param "mp-syndicate-to" }}
+<a class="u-syndication" href="{{ . }}"></a>
+{{ end }}

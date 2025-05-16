@@ -13,6 +13,10 @@ images:
 keywords:
 series:
 - Indiweb, webmentions and friends
+mp-syndicate-to:
+- https://brid.gy/publish/twitter
+- https://brid.gy/publish/mastodon
+- https://news.indieweb.org/en
 ---
 
 There are more and more post about the Indieweb and what you can find in a indiweb site/blog[^1] but I didn't find an easy tutorial for starting with IndiWeb. But first:

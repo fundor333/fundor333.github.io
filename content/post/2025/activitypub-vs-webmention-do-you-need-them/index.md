@@ -16,7 +16,10 @@ keywords:
 series:
 - Tech News
 - Indiweb, webmentions and friends
-
+mp-syndicate-to:
+- https://brid.gy/publish/twitter
+- https://brid.gy/publish/mastodon
+- https://news.indieweb.org/en
 reply:
 repost:
 like:
