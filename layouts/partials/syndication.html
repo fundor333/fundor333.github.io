@@ -22,5 +22,6 @@
 
 {{ if .Param "mp-syndicate-to" }}
     {{ range .Param "mp-syndicate-to" }}
-<a class="u-syndication" href="{{ . }}"></a>
+      <a class="u-syndication" href="{{ . }}"></a>
+    {{ end }}
 {{ end }}
