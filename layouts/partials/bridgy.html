@@ -3,5 +3,7 @@
 {{ end }}
 
 {{ if ne .Type "micro"}}
-<div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">{{ .Description }}</div>
+<div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">
+  {{ .Description }} {{ range .Params.tags }}#{{ . }} {{ end }} {{ range .Params.categories }}#{{ . }} {{ end }}
+</div>
 {{ end }}
