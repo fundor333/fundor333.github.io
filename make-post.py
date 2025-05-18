@@ -1,6 +1,20 @@
 import datetime
 import os
 import re
+from PIL import Image, ImageDraw
+
+WIDTH = 1200
+HEIGHT = 630
+
+
+def generate_img(message: str, path: str):
+    img = Image.new("RGB", (WIDTH, HEIGHT), color="blue")
+
+    imgDraw = ImageDraw.Draw(img)
+
+    imgDraw.text((10, 10), message, fill=(255, 255, 0))
+
+    img.save("content/" + path + "/cover.png")
 
 
 def name_cleaning(name: str) -> str:
@@ -18,6 +32,7 @@ def post_photo():
     name = input("Give me the title\n")
     title = name_cleaning(name)
     os.system(f"hugo new photos/{year}/{title}/index.md")
+    generate_img(name, f"photos/{year}/{title}")
 
 
 def post_redirect():
@@ -33,6 +48,7 @@ def post_fc():
     name = input("Give me the title\n")
     title = name_cleaning(name)
     os.system(f"hugo new post/{year}/{title}/index.md")
+    generate_img(name, f"post/{year}/{title}")
 
 
 def micro_fc():
@@ -43,9 +59,9 @@ def micro_fc():
     title = name_cleaning(name)
 
     generated = f"{year.rjust(4, "0")}/{month.rjust(2, "0")}/{title}"
-
     os.system(f"hugo new micro/{generated}/index.md")
     print(f"Generated {generated}/index.md")
+    generate_img(name, f"micro/{title}")
 
 
 ANSWER = {

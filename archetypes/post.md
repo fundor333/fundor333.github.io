@@ -20,9 +20,6 @@ series:
 - Django tricks
 - Indiweb, webmentions and friends
 - Horror stories
-mp-syndicate-to:
-- https://brid.gy/publish/twitter
-- https://brid.gy/publish/mastodon
 reply:
 repost:
 like:

@@ -12,6 +12,7 @@ feedparser = "*"
 requests = "*"
 python-dotenv = "*"
 weeknotebot = "*"
+pillow = "^11.2.1"
 
 
 [tool.poetry.group.dev.dependencies]
