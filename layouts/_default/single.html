@@ -46,6 +46,13 @@
             <div class="page-content e-content">
               {{- partial "bridgy.html" . -}}
                 {{ .Content }}
+                {{ if eq .Type "post" }}
+                  <p class="e-bridgy-mastodon-content" hidden>{{ .Description }}
+                      {{ range .Params.tags }}#{{ . }} {{ end }}
+                      {{ range .Params.categories }}#{{ . }} {{ end }}
+                  </p>
+                {{end}}
+
             </div>
 
             {{ partial "series.html" . }}
