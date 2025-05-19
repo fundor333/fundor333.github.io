@@ -23,6 +23,11 @@ repost:
 like:
 rsvp:
 bookmark:
+
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: 114534076728750119
 ---
 
 After [Django With Barcode and Qrcode]({{% ref "/post/2022/django-with-barcode-and-qrcode" %}}) and [Django Return Pdf With Reportlab]({{% ref "http://localhost:1313/post/2022/django-return-pdf-with-reportlab" %}}) I need something new in my Django server. I need a barcode generator for labeling stuffs.
