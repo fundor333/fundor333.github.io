@@ -18,7 +18,6 @@ series:
 - Printing With ReportLab
 - Django tricks
 
-draft: true
 reply:
 repost:
 like:
