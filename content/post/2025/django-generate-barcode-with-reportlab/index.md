@@ -1,6 +1,6 @@
 ---
 title: "Django Generate Barcode With Reportlab"
-date: 2025-05-19T012:30:00+02:00
+date: 2025-05-19T12:30:00+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: Tutorial to build pages and pages of barcode for labeling stuffs
