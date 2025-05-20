@@ -7,3 +7,11 @@
   {{ .Description }} {{ range .Params.tags }}#{{ . }} {{ end }} {{ range .Params.categories }}#{{ . }} {{ end }}
 </div>
 {{ end }}
+
+
+{{ if .Type "micro"}}
+<div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">
+  {{ .Content }} {{ range .Params.tags }}#{{ . }} {{ end }} {{ range .Params.categories }}#{{ . }} {{ end }}
+</div>
+<data class="p-bridgy-omit-link" value="true" />
+{{ end }}
