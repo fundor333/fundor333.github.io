@@ -9,7 +9,7 @@
 {{ end }}
 
 
-{{ if .Type "micro"}}
+{{ if eq .Type "micro"}}
 <div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">
   {{ .Content }} {{ range .Params.tags }}#{{ . }} {{ end }} {{ range .Params.categories }}#{{ . }} {{ end }}
 </div>
