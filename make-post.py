@@ -61,7 +61,6 @@ def micro_fc():
     generated = f"{year.rjust(4, "0")}/{month.rjust(2, "0")}/{title}"
     os.system(f"hugo new micro/{generated}/index.md")
     print(f"Generated {generated}/index.md")
-    generate_img(name, f"micro/{title}")
 
 
 ANSWER = {
