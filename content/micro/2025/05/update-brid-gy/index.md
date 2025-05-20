@@ -4,7 +4,7 @@ date: 2025-05-20T17:29:28+02:00
 description:
 tags:
 - webmention
-- brid.gy
+- bridgy
 categories:
 
 reply:
