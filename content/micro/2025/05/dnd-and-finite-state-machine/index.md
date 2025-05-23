@@ -21,4 +21,4 @@ I deow this flowchart for the next DnD session (we have a boss battle).
 
 ![flowchart](Flowchart.jpg)
 
-Can I make a finite-state machine out of this?
+Can I make a finite-state machine out of this? I will try
