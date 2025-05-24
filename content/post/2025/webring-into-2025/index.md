@@ -1,7 +1,6 @@
 ---
 title: "Having a Webring Into 2025"
-date: 2025-05-24T02:11:42+02:00
-draft: true
+date: 2025-05-24T12:11:42+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: What are the webrings and why you need to be in one into 2025
