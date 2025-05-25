@@ -24,7 +24,7 @@ bookmark: https://mxb.dev/blog/webring-kit/
 comments:
   host: mastodon.social
   username: fundor333
-  id:
+  id: 114565534042467712
 ---
 
 Once upon a time Internet was different. No social media, no search engine, no fiber...
