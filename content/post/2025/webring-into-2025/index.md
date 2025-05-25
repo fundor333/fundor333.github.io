@@ -6,10 +6,10 @@ feature_text: "by IA Midjourney"
 description: What are the webrings and why you need to be in one into 2025
 isStarred: false
 tags:
+- webring
+- indieweb
 categories:
 - rant
-- dev
-- fingerfood
 images:
 keywords:
 series:

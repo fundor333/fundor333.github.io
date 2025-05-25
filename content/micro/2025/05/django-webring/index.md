@@ -9,6 +9,7 @@ tags:
 - flask
 
 categories:
+- rant
 
 reply: https://mastodon.social/@webology/114359764809777726
 repost:
