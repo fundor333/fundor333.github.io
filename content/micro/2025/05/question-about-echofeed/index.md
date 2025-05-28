@@ -21,7 +21,7 @@ comments:
   id:
 ---
 
-echofeed@robb@social.lol I trying echofeed but I don't understand one thing in the content - variables: hashtags???
+@robb@social.lol I trying echofeed but I don't understand one thing in the content - variables: hashtags???
 
 Which type of feed/tag I need to use/add for this content-variable?
 
