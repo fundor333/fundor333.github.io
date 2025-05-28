@@ -42,6 +42,7 @@ outputs:
     - html
     - rss
     - SearchIndex
+    - json
 
 services:
   rss:
