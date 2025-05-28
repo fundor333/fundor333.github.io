@@ -10,5 +10,10 @@ repost:
 like:
 rsvp:
 bookmark:
+
+comments:
+  host: mastodon.social
+  username: fundor333
+  id:
 ---
 

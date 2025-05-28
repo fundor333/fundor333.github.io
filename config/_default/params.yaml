@@ -10,6 +10,7 @@ defaultColor:
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
 mainSections: ["post", "photos", "weeknote"]
+secondarysections: ["micro"]
 feedSections: ["post", "photos", "micro", "weeknote"]
 commentSections: ["post", "photos", "micro", "weeknote"]
 suggestionSections: ["post"]

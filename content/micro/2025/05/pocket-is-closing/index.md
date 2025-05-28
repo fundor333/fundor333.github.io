@@ -12,6 +12,11 @@ repost:
 like:
 rsvp:
 bookmark:
+
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: 114581620705519039
 ---
 
 #Pocket is closing and I had rework all the stuff I got into my personal #Django server.
