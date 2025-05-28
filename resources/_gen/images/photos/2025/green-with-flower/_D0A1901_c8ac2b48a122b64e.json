@@ -1,1 +1,38 @@
-{"Exif":{"Lat":0,"Long":0,"Date":"2025-05-03T12:21:15+02:00","Tags":{"ApertureValue":4,"Artist":"Fundor333","Copyright":"© fundor333","CreateDate":"2025:05:03 12:21:15","CustomRendered|uint16":"0","DateTimeOriginal":"2025:05:03 12:21:15","ExposureCompensation|*imagemeta.rat[int32]":"0","ExposureTime|*imagemeta.rat[uint32]":"1/200","FNumber|*imagemeta.rat[uint32]":"4","FocalLength|*imagemeta.rat[uint32]":"70","ISO|uint16":"125","LensInfo":"70 200 undef undef","LensModel":"RF70-200mm F4 L IS USM","LensSerialNumber":"2033000253","Make":"Canon","MaxApertureValue":4,"Model":"Canon EOS R5","ModifyDate":"2025:05:05 09:41:07","OffsetTime":"+02:00","OffsetTimeDigitized":"+01:00","OffsetTimeOriginal":"+01:00","RecommendedExposureIndex|uint32":"125","SceneCaptureType|uint16":"0","SensitivityType|uint16":"2","SerialNumber":"253026001930","ShutterSpeedValue":0.005000000657709118,"Software":"Adobe Lightroom 8.3 (Macintosh)","SubSecTimeDigitized|int":"5","SubSecTimeOriginal|int":"5"}}}
+{
+	"Exif": {
+		"Date": "2025-05-03T12:21:15+02:00",
+		"Lat": 0,
+		"Long": 0,
+		"Tags": {
+			"ApertureValue": 4,
+			"Artist": "Fundor333",
+			"Copyright": "© fundor333",
+			"CreateDate": "2025:05:03 12:21:15",
+			"CustomRendered|uint16": "0",
+			"DateTimeOriginal": "2025:05:03 12:21:15",
+			"ExposureCompensation|*imagemeta.rat[int32]": "0",
+			"ExposureTime|*imagemeta.rat[uint32]": "1/200",
+			"FNumber|*imagemeta.rat[uint32]": "4",
+			"FocalLength|*imagemeta.rat[uint32]": "70",
+			"ISO|uint16": "125",
+			"LensInfo": "70 200 undef undef",
+			"LensModel": "RF70-200mm F4 L IS USM",
+			"LensSerialNumber": "2033000253",
+			"Make": "Canon",
+			"MaxApertureValue": 4,
+			"Model": "Canon EOS R5",
+			"ModifyDate": "2025:05:05 09:41:07",
+			"OffsetTime": "+02:00",
+			"OffsetTimeDigitized": "+01:00",
+			"OffsetTimeOriginal": "+01:00",
+			"RecommendedExposureIndex|uint32": "125",
+			"SceneCaptureType|uint16": "0",
+			"SensitivityType|uint16": "2",
+			"SerialNumber": "253026001930",
+			"ShutterSpeedValue": 0.005000000657709118,
+			"Software": "Adobe Lightroom 8.3 (Macintosh)",
+			"SubSecTimeDigitized|int": "5",
+			"SubSecTimeOriginal|int": "5"
+		}
+	}
+}

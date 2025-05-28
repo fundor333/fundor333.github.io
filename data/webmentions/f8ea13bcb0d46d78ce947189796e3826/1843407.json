@@ -1,1 +1,21 @@
-[{"type": "entry", "author": {"type": "card", "name": "Raya ???? | Vtuber | EN | Fx Twitch", "photo": "https://avatars.webmention.io/cdn.bsky.app/79df3042bff3b88e3d7660dbf661ebcfafe490e3e52e530653039d613fb66e5f.jpg", "url": "https://bsky.app/profile/hi01.bsky.social"}, "url": "https://bsky.app/profile/fundor333.bsky.social/post/3kzeuwzfkby2t#liked_by_did:plc:bpphohr6ngb62tc6j4tko2if", "published": null, "wm-received": "2024-08-16T15:15:01Z", "wm-id": 1843407, "wm-source": "https://brid.gy/like/bluesky/did:plc:u7piwonv4s27ysugjaa6im2q/at%253A%252F%252Fdid%253Aplc%253Au7piwonv4s27ysugjaa6im2q%252Fapp.bsky.feed.post%252F3kzeuwzfkby2t/did%253Aplc%253Abpphohr6ngb62tc6j4tko2if", "wm-target": "https://fundor333.com/social/2024/08/10/dont-prefill-config-files/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/social/2024/08/10/dont-prefill-config-files/", "wm-property": "like-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "Raya ???? | Vtuber | EN | Fx Twitch",
+			"photo": "https://avatars.webmention.io/cdn.bsky.app/79df3042bff3b88e3d7660dbf661ebcfafe490e3e52e530653039d613fb66e5f.jpg",
+			"type": "card",
+			"url": "https://bsky.app/profile/hi01.bsky.social"
+		},
+		"like-of": "https://fundor333.com/social/2024/08/10/dont-prefill-config-files/",
+		"published": null,
+		"type": "entry",
+		"url": "https://bsky.app/profile/fundor333.bsky.social/post/3kzeuwzfkby2t#liked_by_did:plc:bpphohr6ngb62tc6j4tko2if",
+		"wm-id": 1843407,
+		"wm-private": false,
+		"wm-property": "like-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2024-08-16T15:15:01Z",
+		"wm-source": "https://brid.gy/like/bluesky/did:plc:u7piwonv4s27ysugjaa6im2q/at%253A%252F%252Fdid%253Aplc%253Au7piwonv4s27ysugjaa6im2q%252Fapp.bsky.feed.post%252F3kzeuwzfkby2t/did%253Aplc%253Abpphohr6ngb62tc6j4tko2if",
+		"wm-target": "https://fundor333.com/social/2024/08/10/dont-prefill-config-files/"
+	}
+]

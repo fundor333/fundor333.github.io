@@ -1,1 +1,25 @@
-[{"type": "entry", "author": {"type": "card", "name": "fundor333", "photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "url": "https://bsky.app/profile/fundor333.com"}, "url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3kzeapoyy7y2b", "published": "2024-08-10T10:24:47+00:00", "wm-received": "2024-08-10T10:24:49Z", "wm-id": 1842668, "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3kzeapoyy7y2b%23bridgy-fed-create", "wm-target": "https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss", "wm-protocol": "webmention", "content": {"html": "post (<a href=\"https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss\">https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss</a>)", "text": "post (https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss)"}, "mention-of": "https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss", "wm-property": "mention-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "fundor333",
+			"photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+			"type": "card",
+			"url": "https://bsky.app/profile/fundor333.com"
+		},
+		"content": {
+			"html": "post (<a href=\"https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss\">https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss</a>)",
+			"text": "post (https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss)"
+		},
+		"mention-of": "https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss",
+		"published": "2024-08-10T10:24:47+00:00",
+		"type": "entry",
+		"url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3kzeapoyy7y2b",
+		"wm-id": 1842668,
+		"wm-private": false,
+		"wm-property": "mention-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2024-08-10T10:24:49Z",
+		"wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3kzeapoyy7y2b%23bridgy-fed-create",
+		"wm-target": "https://fundor333.com/social/2022/12/20/open-certain-urls-in-certain-browsers---chris-coyier/?utm_medium=rss"
+	}
+]

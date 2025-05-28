@@ -1,1 +1,43 @@
-{"source": [{"type": "entry", "author": {"type": "card", "name": "fundor333", "photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "url": "https://bsky.app/profile/fundor333.bsky.social"}, "url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3lgbdrqmupm27", "published": "2025-01-21T17:01:16+00:00", "wm-received": "2025-01-21T17:09:15Z", "wm-id": 1878063, "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lgbdrqmupm27%23bridgy-fed-create", "wm-target": "https://fundor333.com/micro/2025/10/dark-early/", "wm-protocol": "webmention", "content": {"html": "Dark Early: <a href=\"https://fundor333.com/micro/2025/10/dark-early/\">https://fundor333.com/micro/2025/10/dark-early/</a>", "text": "Dark Early: https://fundor333.com/micro/2025/10/dark-early/"}, "mention-of": "https://fundor333.com/micro/2025/10/dark-early/", "wm-property": "mention-of", "wm-private": false}], "stats": {"like-of": 0, "bookmark-of": 0, "mention-of": 1, "repost-of": 0, "in-reply-to": 0, "comments": [{"content": "Dark Early: https://fundor333.com/micro/2025/10/dark-early/", "link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lgbdrqmupm27%23bridgy-fed-create", "author_name": "fundor333", "author_photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "author_url": "https://bsky.app/profile/fundor333.bsky.social"}]}}
+{
+	"source": [
+		{
+			"author": {
+				"name": "fundor333",
+				"photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"type": "card",
+				"url": "https://bsky.app/profile/fundor333.bsky.social"
+			},
+			"content": {
+				"html": "Dark Early: <a href=\"https://fundor333.com/micro/2025/10/dark-early/\">https://fundor333.com/micro/2025/10/dark-early/</a>",
+				"text": "Dark Early: https://fundor333.com/micro/2025/10/dark-early/"
+			},
+			"mention-of": "https://fundor333.com/micro/2025/10/dark-early/",
+			"published": "2025-01-21T17:01:16+00:00",
+			"type": "entry",
+			"url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3lgbdrqmupm27",
+			"wm-id": 1878063,
+			"wm-private": false,
+			"wm-property": "mention-of",
+			"wm-protocol": "webmention",
+			"wm-received": "2025-01-21T17:09:15Z",
+			"wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lgbdrqmupm27%23bridgy-fed-create",
+			"wm-target": "https://fundor333.com/micro/2025/10/dark-early/"
+		}
+	],
+	"stats": {
+		"bookmark-of": 0,
+		"comments": [
+			{
+				"author_name": "fundor333",
+				"author_photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"author_url": "https://bsky.app/profile/fundor333.bsky.social",
+				"content": "Dark Early: https://fundor333.com/micro/2025/10/dark-early/",
+				"link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lgbdrqmupm27%23bridgy-fed-create"
+			}
+		],
+		"in-reply-to": 0,
+		"like-of": 0,
+		"mention-of": 1,
+		"repost-of": 0
+	}
+}

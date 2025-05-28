@@ -1,1 +1,43 @@
-{"source": [{"type": "entry", "author": {"type": "card", "name": "fundor333", "photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "url": "https://bsky.app/profile/fundor333.bsky.social"}, "url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3lgiievnrsg2t", "published": "2025-01-24T13:10:25+00:00", "wm-received": "2025-01-24T13:20:10Z", "wm-id": 1879638, "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lgiievnrsg2t%23bridgy-fed-create", "wm-target": "https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/", "wm-protocol": "webmention", "content": {"html": "And Now I Have Syndication Link: <a href=\"https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/\">https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/</a>", "text": "And Now I Have Syndication Link: https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/"}, "mention-of": "https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/", "wm-property": "mention-of", "wm-private": false}], "stats": {"like-of": 0, "bookmark-of": 0, "mention-of": 1, "repost-of": 0, "in-reply-to": 0, "comments": [{"content": "And Now I Have Syndication Link: https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/", "link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lgiievnrsg2t%23bridgy-fed-create", "author_name": "fundor333", "author_photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "author_url": "https://bsky.app/profile/fundor333.bsky.social"}]}}
+{
+	"source": [
+		{
+			"author": {
+				"name": "fundor333",
+				"photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"type": "card",
+				"url": "https://bsky.app/profile/fundor333.bsky.social"
+			},
+			"content": {
+				"html": "And Now I Have Syndication Link: <a href=\"https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/\">https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/</a>",
+				"text": "And Now I Have Syndication Link: https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/"
+			},
+			"mention-of": "https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/",
+			"published": "2025-01-24T13:10:25+00:00",
+			"type": "entry",
+			"url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3lgiievnrsg2t",
+			"wm-id": 1879638,
+			"wm-private": false,
+			"wm-property": "mention-of",
+			"wm-protocol": "webmention",
+			"wm-received": "2025-01-24T13:20:10Z",
+			"wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lgiievnrsg2t%23bridgy-fed-create",
+			"wm-target": "https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/"
+		}
+	],
+	"stats": {
+		"bookmark-of": 0,
+		"comments": [
+			{
+				"author_name": "fundor333",
+				"author_photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"author_url": "https://bsky.app/profile/fundor333.bsky.social",
+				"content": "And Now I Have Syndication Link: https://fundor333.com/micro/2025/10/and-now-i-have-syndication-link/",
+				"link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lgiievnrsg2t%23bridgy-fed-create"
+			}
+		],
+		"in-reply-to": 0,
+		"like-of": 0,
+		"mention-of": 1,
+		"repost-of": 0
+	}
+}

@@ -1,1 +1,21 @@
-[{"type": "entry", "author": {"type": "card", "name": "Open Ulysses", "photo": "https://avatars.webmention.io/files.mastodon.social/5f9942dc80bbabb20572ac52ca81927974ce96962616ce3ad119868a93443092.png", "url": "https://mastodon.social/@openulysses"}, "url": "https://mastodon.social/@fundor333/114516904456408423#favorited-by-114466774962283663", "published": null, "wm-received": "2025-05-16T10:30:53Z", "wm-id": 1911692, "wm-source": "https://brid.gy/like/mastodon/@fundor333@mastodon.social/114516904456408423/114466774962283663", "wm-target": "https://fundor333.com/post/2025/activitypub-vs-webmention-do-you-need-them/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/post/2025/activitypub-vs-webmention-do-you-need-them/", "wm-property": "like-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "Open Ulysses",
+			"photo": "https://avatars.webmention.io/files.mastodon.social/5f9942dc80bbabb20572ac52ca81927974ce96962616ce3ad119868a93443092.png",
+			"type": "card",
+			"url": "https://mastodon.social/@openulysses"
+		},
+		"like-of": "https://fundor333.com/post/2025/activitypub-vs-webmention-do-you-need-them/",
+		"published": null,
+		"type": "entry",
+		"url": "https://mastodon.social/@fundor333/114516904456408423#favorited-by-114466774962283663",
+		"wm-id": 1911692,
+		"wm-private": false,
+		"wm-property": "like-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2025-05-16T10:30:53Z",
+		"wm-source": "https://brid.gy/like/mastodon/@fundor333@mastodon.social/114516904456408423/114466774962283663",
+		"wm-target": "https://fundor333.com/post/2025/activitypub-vs-webmention-do-you-need-them/"
+	}
+]

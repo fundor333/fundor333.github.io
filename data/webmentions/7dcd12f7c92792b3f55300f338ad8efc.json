@@ -1,1 +1,43 @@
-{"source": [{"type": "entry", "author": {"type": "card", "name": "fundor333", "photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "url": "https://bsky.app/profile/fundor333.bsky.social"}, "url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3lpxe75uzk52r", "published": "2025-05-25T00:01:58+00:00", "wm-received": "2025-05-25T00:02:02Z", "wm-id": 1913364, "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lpxe75uzk52r%23bridgy-fed-create", "wm-target": "https://fundor333.com/post/2025/webring-into-2025/", "wm-protocol": "webmention", "content": {"html": "What are the webrings and why you need to be in one into 2025 #rant #dev #fingerfood (<a href=\"https://fundor333.com/post/2025/webring-into-2025/\">https://fundor333.com/post/2025/webring-into-2025/</a>)", "text": "What are the webrings and why you need to be in one into 2025 #rant #dev #fingerfood (https://fundor333.com/post/2025/webring-into-2025/)"}, "mention-of": "https://fundor333.com/post/2025/webring-into-2025/", "wm-property": "mention-of", "wm-private": false}], "stats": {"like-of": 0, "bookmark-of": 0, "mention-of": 1, "repost-of": 0, "in-reply-to": 0, "comments": [{"content": "What are the webrings and why you need to be in one into 2025 #rant #dev #fingerfood (https://fundor333.com/post/2025/webring-into-2025/)", "link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lpxe75uzk52r%23bridgy-fed-create", "author_name": "fundor333", "author_photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "author_url": "https://bsky.app/profile/fundor333.bsky.social"}]}}
+{
+	"source": [
+		{
+			"author": {
+				"name": "fundor333",
+				"photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"type": "card",
+				"url": "https://bsky.app/profile/fundor333.bsky.social"
+			},
+			"content": {
+				"html": "What are the webrings and why you need to be in one into 2025 #rant #dev #fingerfood (<a href=\"https://fundor333.com/post/2025/webring-into-2025/\">https://fundor333.com/post/2025/webring-into-2025/</a>)",
+				"text": "What are the webrings and why you need to be in one into 2025 #rant #dev #fingerfood (https://fundor333.com/post/2025/webring-into-2025/)"
+			},
+			"mention-of": "https://fundor333.com/post/2025/webring-into-2025/",
+			"published": "2025-05-25T00:01:58+00:00",
+			"type": "entry",
+			"url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3lpxe75uzk52r",
+			"wm-id": 1913364,
+			"wm-private": false,
+			"wm-property": "mention-of",
+			"wm-protocol": "webmention",
+			"wm-received": "2025-05-25T00:02:02Z",
+			"wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lpxe75uzk52r%23bridgy-fed-create",
+			"wm-target": "https://fundor333.com/post/2025/webring-into-2025/"
+		}
+	],
+	"stats": {
+		"bookmark-of": 0,
+		"comments": [
+			{
+				"author_name": "fundor333",
+				"author_photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"author_url": "https://bsky.app/profile/fundor333.bsky.social",
+				"content": "What are the webrings and why you need to be in one into 2025 #rant #dev #fingerfood (https://fundor333.com/post/2025/webring-into-2025/)",
+				"link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3lpxe75uzk52r%23bridgy-fed-create"
+			}
+		],
+		"in-reply-to": 0,
+		"like-of": 0,
+		"mention-of": 1,
+		"repost-of": 0
+	}
+}

@@ -1,1 +1,27 @@
-[{"type": "entry", "author": {"type": "card", "name": "Christian", "photo": "", "url": "https://serverless.industries/people/christian.html"}, "url": "https://serverless.industries/stream/2025/05/6367c69411c6c47b46f25e66ea368910.html", "published": "2025-05-20T17:47:12", "wm-received": "2025-05-20T15:58:26Z", "wm-id": 1912397, "wm-source": "https://serverless.industries/stream/2025/05/6367c69411c6c47b46f25e66ea368910.html", "wm-target": "https://fundor333.com/post/2025/an-easy-way-to-start-a-life-in-the-indieweb/", "wm-protocol": "webmention", "content": {"text": "Have fun in the rabbit hole called IndieWeb. And thank you for the linked guide! ????"}, "in-reply-to": "https://fundor333.com/post/2025/an-easy-way-to-start-a-life-in-the-indieweb/", "wm-property": "in-reply-to", "wm-private": false, "rels": {"canonical": "https://serverless.industries/stream/2025/05/6367c69411c6c47b46f25e66ea368910.html"}}]
+[
+	{
+		"author": {
+			"name": "Christian",
+			"photo": "",
+			"type": "card",
+			"url": "https://serverless.industries/people/christian.html"
+		},
+		"content": {
+			"text": "Have fun in the rabbit hole called IndieWeb. And thank you for the linked guide! ????"
+		},
+		"in-reply-to": "https://fundor333.com/post/2025/an-easy-way-to-start-a-life-in-the-indieweb/",
+		"published": "2025-05-20T17:47:12",
+		"rels": {
+			"canonical": "https://serverless.industries/stream/2025/05/6367c69411c6c47b46f25e66ea368910.html"
+		},
+		"type": "entry",
+		"url": "https://serverless.industries/stream/2025/05/6367c69411c6c47b46f25e66ea368910.html",
+		"wm-id": 1912397,
+		"wm-private": false,
+		"wm-property": "in-reply-to",
+		"wm-protocol": "webmention",
+		"wm-received": "2025-05-20T15:58:26Z",
+		"wm-source": "https://serverless.industries/stream/2025/05/6367c69411c6c47b46f25e66ea368910.html",
+		"wm-target": "https://fundor333.com/post/2025/an-easy-way-to-start-a-life-in-the-indieweb/"
+	}
+]

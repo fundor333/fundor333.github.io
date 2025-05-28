@@ -1,1 +1,61 @@
-{"source": [{"type": "entry", "author": {"type": "card", "name": "Rahul", "photo": "https://avatars.webmention.io/pbs.twimg.com/703f3659749ffe49b61b1a2f94d0e991c67c4ac617e1dc34eeac4c3aee5d3a06.jpg", "url": "https://twitter.com/rahul05ranjan"}, "url": "https://twitter.com/fundor333/status/1548774048875806720#favorited-by-411419084", "published": null, "wm-received": "2022-08-02T20:47:27Z", "wm-id": 1448702, "wm-source": "https://brid.gy/like/twitter/fundor333/1548774048875806720/411419084", "wm-target": "https://fundor333.com/social/2022/07/17/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream--pawelgrzybekcom/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/social/2022/07/17/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream--pawelgrzybekcom/", "wm-property": "like-of", "wm-private": false}, {"type": "entry", "author": {"type": "card", "name": "Rahul", "photo": "https://avatars.webmention.io/pbs.twimg.com/703f3659749ffe49b61b1a2f94d0e991c67c4ac617e1dc34eeac4c3aee5d3a06.jpg", "url": "https://twitter.com/rahul05ranjan"}, "url": "https://twitter.com/rahul05ranjan/status/1548774073832198144", "published": "2022-07-17T20:58:08+00:00", "wm-received": "2022-07-17T22:37:48Z", "wm-id": 1435273, "wm-source": "https://brid.gy/repost/twitter/fundor333/1548774048875806720/1548774073832198144", "wm-target": "https://fundor333.com/social/2022/07/17/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream--pawelgrzybekcom/", "wm-protocol": "webmention", "content": {"text": "\ud83d\udd16 Auto setup remote branch and never again see an error about the missing upstream | pawelgrzybek.com fundor333.com/social/2022/07\u2026 #git #develop #programming"}, "repost-of": "https://fundor333.com/social/2022/07/17/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream--pawelgrzybekcom/", "wm-property": "repost-of", "wm-private": false}], "stats": {"like-of": 1, "bookmark-of": 0, "mention-of": 0, "repost-of": 1, "in-reply-to": 0, "comments": [{"content": "\ud83d\udd16 Auto setup remote branch and never again see an error about the missing upstream | pawelgrzybek.com fundor333.com/social/2022/07\u2026 #git #develop #programming", "link": "https://brid.gy/repost/twitter/fundor333/1548774048875806720/1548774073832198144", "author_name": "Rahul", "author_photo": "https://avatars.webmention.io/pbs.twimg.com/703f3659749ffe49b61b1a2f94d0e991c67c4ac617e1dc34eeac4c3aee5d3a06.jpg", "author_url": "https://twitter.com/rahul05ranjan"}]}}
+{
+	"source": [
+		{
+			"author": {
+				"name": "Rahul",
+				"photo": "https://avatars.webmention.io/pbs.twimg.com/703f3659749ffe49b61b1a2f94d0e991c67c4ac617e1dc34eeac4c3aee5d3a06.jpg",
+				"type": "card",
+				"url": "https://twitter.com/rahul05ranjan"
+			},
+			"like-of": "https://fundor333.com/social/2022/07/17/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream--pawelgrzybekcom/",
+			"published": null,
+			"type": "entry",
+			"url": "https://twitter.com/fundor333/status/1548774048875806720#favorited-by-411419084",
+			"wm-id": 1448702,
+			"wm-private": false,
+			"wm-property": "like-of",
+			"wm-protocol": "webmention",
+			"wm-received": "2022-08-02T20:47:27Z",
+			"wm-source": "https://brid.gy/like/twitter/fundor333/1548774048875806720/411419084",
+			"wm-target": "https://fundor333.com/social/2022/07/17/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream--pawelgrzybekcom/"
+		},
+		{
+			"author": {
+				"name": "Rahul",
+				"photo": "https://avatars.webmention.io/pbs.twimg.com/703f3659749ffe49b61b1a2f94d0e991c67c4ac617e1dc34eeac4c3aee5d3a06.jpg",
+				"type": "card",
+				"url": "https://twitter.com/rahul05ranjan"
+			},
+			"content": {
+				"text": "🔖 Auto setup remote branch and never again see an error about the missing upstream | pawelgrzybek.com fundor333.com/social/2022/07… #git #develop #programming"
+			},
+			"published": "2022-07-17T20:58:08+00:00",
+			"repost-of": "https://fundor333.com/social/2022/07/17/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream--pawelgrzybekcom/",
+			"type": "entry",
+			"url": "https://twitter.com/rahul05ranjan/status/1548774073832198144",
+			"wm-id": 1435273,
+			"wm-private": false,
+			"wm-property": "repost-of",
+			"wm-protocol": "webmention",
+			"wm-received": "2022-07-17T22:37:48Z",
+			"wm-source": "https://brid.gy/repost/twitter/fundor333/1548774048875806720/1548774073832198144",
+			"wm-target": "https://fundor333.com/social/2022/07/17/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream--pawelgrzybekcom/"
+		}
+	],
+	"stats": {
+		"bookmark-of": 0,
+		"comments": [
+			{
+				"author_name": "Rahul",
+				"author_photo": "https://avatars.webmention.io/pbs.twimg.com/703f3659749ffe49b61b1a2f94d0e991c67c4ac617e1dc34eeac4c3aee5d3a06.jpg",
+				"author_url": "https://twitter.com/rahul05ranjan",
+				"content": "🔖 Auto setup remote branch and never again see an error about the missing upstream | pawelgrzybek.com fundor333.com/social/2022/07… #git #develop #programming",
+				"link": "https://brid.gy/repost/twitter/fundor333/1548774048875806720/1548774073832198144"
+			}
+		],
+		"in-reply-to": 0,
+		"like-of": 1,
+		"mention-of": 0,
+		"repost-of": 1
+	}
+}

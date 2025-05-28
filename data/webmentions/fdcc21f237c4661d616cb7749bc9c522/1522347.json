@@ -1,1 +1,24 @@
-[{"type": "entry", "author": {"type": "card", "name": "\ud83c\uddfa\ud83c\udde6\ud83c\udff3\ufe0f\u200d\ud83c\udf08\ud83d\udc0dFundor 333\ud83d\udc33\ud83d\udc68\u200d\ud83d\udcbb", "photo": "https://avatars.webmention.io/pbs.twimg.com/c3d085f0266cb157220a9e6312c26ccaeb56e5c4d2d501cf0d6426f05c36890e.jpg", "url": "https://twitter.com/fundor333"}, "url": "https://twitter.com/fundor333/status/1571761030824337409", "published": "2022-09-19T07:20:06+00:00", "wm-received": "2022-09-19T07:30:05Z", "wm-id": 1522347, "wm-source": "https://brid.gy/comment/twitter/fundor333/1571209821579317249/1571761030824337409", "wm-target": "https://fundor333.com/post/2022/github-copilot-write-my-post/", "wm-protocol": "webmention", "photo": ["https://pbs.twimg.com/media/FdAEUv1X0AEHAxf.jpg"], "in-reply-to": "https://fundor333.com/post/2022/github-copilot-write-my-post/", "wm-property": "in-reply-to", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "🇺🇦🏳️‍🌈🐍Fundor 333🐳👨‍💻",
+			"photo": "https://avatars.webmention.io/pbs.twimg.com/c3d085f0266cb157220a9e6312c26ccaeb56e5c4d2d501cf0d6426f05c36890e.jpg",
+			"type": "card",
+			"url": "https://twitter.com/fundor333"
+		},
+		"in-reply-to": "https://fundor333.com/post/2022/github-copilot-write-my-post/",
+		"photo": [
+			"https://pbs.twimg.com/media/FdAEUv1X0AEHAxf.jpg"
+		],
+		"published": "2022-09-19T07:20:06+00:00",
+		"type": "entry",
+		"url": "https://twitter.com/fundor333/status/1571761030824337409",
+		"wm-id": 1522347,
+		"wm-private": false,
+		"wm-property": "in-reply-to",
+		"wm-protocol": "webmention",
+		"wm-received": "2022-09-19T07:30:05Z",
+		"wm-source": "https://brid.gy/comment/twitter/fundor333/1571209821579317249/1571761030824337409",
+		"wm-target": "https://fundor333.com/post/2022/github-copilot-write-my-post/"
+	}
+]

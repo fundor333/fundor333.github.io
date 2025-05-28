@@ -1,1 +1,41 @@
-{"Exif":{"Lat":0,"Long":0,"Date":"2025-01-10T16:05:48+01:00","Tags":{"ApertureValue":4,"BrightnessValue|*imagemeta.rat[int32]":"24/5","Copyright":"© fundor333","CreateDate":"2025:01:10 16:05:48","CustomRendered|uint16":"0","DateTimeOriginal":"2025:01:10 16:05:48","ExposureCompensation|*imagemeta.rat[int32]":"0","ExposureTime|*imagemeta.rat[uint32]":"1/500","FNumber|*imagemeta.rat[uint32]":"4","FileSource|uint8":"3","FocalLengthIn35mmFormat|uint16":"67","FocalLength|*imagemeta.rat[uint32]":"222/5","ISO|uint16":"2000","LensInfo":"18 55 2.8 4","LensMake":"FUJIFILM","LensModel":"XF18-55mmF2.8-4 R LM OIS","LensSerialNumber":"3CC22388","LightSource|uint16":"0","Make":"FUJIFILM","MaxApertureValue":2.82842712474619,"Model":"X-T30 II","ModifyDate":"2025:01:10 23:28:43","OffsetTime":"+01:00","OffsetTimeDigitized":"+02:00","OffsetTimeOriginal":"+02:00","SceneCaptureType|uint16":"0","SceneType|uint8":"1","SensitivityType|uint16":"1","SerialNumber":"3D015250","ShutterSpeedValue":0.002000000394625486,"Software":"Adobe Lightroom 8.1 (Macintosh)","SubjectDistanceRange|uint16":"0"}}}
+{
+	"Exif": {
+		"Date": "2025-01-10T16:05:48+01:00",
+		"Lat": 0,
+		"Long": 0,
+		"Tags": {
+			"ApertureValue": 4,
+			"BrightnessValue|*imagemeta.rat[int32]": "24/5",
+			"Copyright": "© fundor333",
+			"CreateDate": "2025:01:10 16:05:48",
+			"CustomRendered|uint16": "0",
+			"DateTimeOriginal": "2025:01:10 16:05:48",
+			"ExposureCompensation|*imagemeta.rat[int32]": "0",
+			"ExposureTime|*imagemeta.rat[uint32]": "1/500",
+			"FNumber|*imagemeta.rat[uint32]": "4",
+			"FileSource|uint8": "3",
+			"FocalLengthIn35mmFormat|uint16": "67",
+			"FocalLength|*imagemeta.rat[uint32]": "222/5",
+			"ISO|uint16": "2000",
+			"LensInfo": "18 55 2.8 4",
+			"LensMake": "FUJIFILM",
+			"LensModel": "XF18-55mmF2.8-4 R LM OIS",
+			"LensSerialNumber": "3CC22388",
+			"LightSource|uint16": "0",
+			"Make": "FUJIFILM",
+			"MaxApertureValue": 2.82842712474619,
+			"Model": "X-T30 II",
+			"ModifyDate": "2025:01:10 23:28:43",
+			"OffsetTime": "+01:00",
+			"OffsetTimeDigitized": "+02:00",
+			"OffsetTimeOriginal": "+02:00",
+			"SceneCaptureType|uint16": "0",
+			"SceneType|uint8": "1",
+			"SensitivityType|uint16": "1",
+			"SerialNumber": "3D015250",
+			"ShutterSpeedValue": 0.002000000394625486,
+			"Software": "Adobe Lightroom 8.1 (Macintosh)",
+			"SubjectDistanceRange|uint16": "0"
+		}
+	}
+}

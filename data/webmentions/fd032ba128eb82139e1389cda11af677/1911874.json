@@ -1,1 +1,25 @@
-[{"type": "entry", "author": {"type": "card", "name": "Fundor333", "photo": "https://avatars.webmention.io/files.mastodon.social/36bc58e7595de593f520ba92ea9a8433b6dfde5a76f3f6d7d69755ac29007318.png", "url": "https://mastodon.social/@fundor333"}, "url": "https://mastodon.social/@fundor333/114523550157664441", "published": "2025-05-17T14:04:54+00:00", "wm-received": "2025-05-17T14:26:37Z", "wm-id": 1911874, "wm-source": "https://brid.gy/comment/mastodon/@fundor333@mastodon.social/114523473282741682/114523550157664441", "wm-target": "https://fundor333.com/post/2022/django-with-barcode-and-qrcode/", "wm-protocol": "webmention", "content": {"html": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@l3viathan\" class=\"u-url\">@<span>l3viathan</span></a></span> I use this with my mobile phone (iOS) and a tablet (oooooold Android) and I don t have problems with the speed but with the room lights</p>", "text": "@l3viathan I use this with my mobile phone (iOS) and a tablet (oooooold Android) and I don t have problems with the speed but with the room lights"}, "in-reply-to": "https://fundor333.com/post/2022/django-with-barcode-and-qrcode/", "wm-property": "in-reply-to", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "Fundor333",
+			"photo": "https://avatars.webmention.io/files.mastodon.social/36bc58e7595de593f520ba92ea9a8433b6dfde5a76f3f6d7d69755ac29007318.png",
+			"type": "card",
+			"url": "https://mastodon.social/@fundor333"
+		},
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@l3viathan\" class=\"u-url\">@<span>l3viathan</span></a></span> I use this with my mobile phone (iOS) and a tablet (oooooold Android) and I don t have problems with the speed but with the room lights</p>",
+			"text": "@l3viathan I use this with my mobile phone (iOS) and a tablet (oooooold Android) and I don t have problems with the speed but with the room lights"
+		},
+		"in-reply-to": "https://fundor333.com/post/2022/django-with-barcode-and-qrcode/",
+		"published": "2025-05-17T14:04:54+00:00",
+		"type": "entry",
+		"url": "https://mastodon.social/@fundor333/114523550157664441",
+		"wm-id": 1911874,
+		"wm-private": false,
+		"wm-property": "in-reply-to",
+		"wm-protocol": "webmention",
+		"wm-received": "2025-05-17T14:26:37Z",
+		"wm-source": "https://brid.gy/comment/mastodon/@fundor333@mastodon.social/114523473282741682/114523550157664441",
+		"wm-target": "https://fundor333.com/post/2022/django-with-barcode-and-qrcode/"
+	}
+]

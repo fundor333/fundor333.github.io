@@ -1,1 +1,21 @@
-[{"type": "entry", "author": {"type": "card", "name": "POP Culture Now", "photo": "https://avatars.webmention.io/cdn.bsky.app/91a77a7c94a2ccf8d4936330590d04a4879ae91018fc0c3f6c74974457f71291.jpg", "url": "https://bsky.app/profile/popculturenow.bsky.social"}, "url": "https://bsky.app/profile/fundor333.bsky.social/post/3kywmxsskkk2t#liked_by_did:plc:l73qmlket35rholtb4bj3uww", "published": null, "wm-received": "2024-08-05T13:25:31Z", "wm-id": 1841623, "wm-source": "https://brid.gy/like/bluesky/did:plc:u7piwonv4s27ysugjaa6im2q/at%253A%252F%252Fdid%253Aplc%253Au7piwonv4s27ysugjaa6im2q%252Fapp.bsky.feed.post%252F3kywmxsskkk2t/did%253Aplc%253Al73qmlket35rholtb4bj3uww", "wm-target": "https://fundor333.com/social/2024/08/05/why-hagoromo-chalk-is-so-expensive--so-expensive--business-insider---youtube/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/social/2024/08/05/why-hagoromo-chalk-is-so-expensive--so-expensive--business-insider---youtube/", "wm-property": "like-of", "wm-private": false}]
+[
+	{
+		"author": {
+			"name": "POP Culture Now",
+			"photo": "https://avatars.webmention.io/cdn.bsky.app/91a77a7c94a2ccf8d4936330590d04a4879ae91018fc0c3f6c74974457f71291.jpg",
+			"type": "card",
+			"url": "https://bsky.app/profile/popculturenow.bsky.social"
+		},
+		"like-of": "https://fundor333.com/social/2024/08/05/why-hagoromo-chalk-is-so-expensive--so-expensive--business-insider---youtube/",
+		"published": null,
+		"type": "entry",
+		"url": "https://bsky.app/profile/fundor333.bsky.social/post/3kywmxsskkk2t#liked_by_did:plc:l73qmlket35rholtb4bj3uww",
+		"wm-id": 1841623,
+		"wm-private": false,
+		"wm-property": "like-of",
+		"wm-protocol": "webmention",
+		"wm-received": "2024-08-05T13:25:31Z",
+		"wm-source": "https://brid.gy/like/bluesky/did:plc:u7piwonv4s27ysugjaa6im2q/at%253A%252F%252Fdid%253Aplc%253Au7piwonv4s27ysugjaa6im2q%252Fapp.bsky.feed.post%252F3kywmxsskkk2t/did%253Aplc%253Al73qmlket35rholtb4bj3uww",
+		"wm-target": "https://fundor333.com/social/2024/08/05/why-hagoromo-chalk-is-so-expensive--so-expensive--business-insider---youtube/"
+	}
+]

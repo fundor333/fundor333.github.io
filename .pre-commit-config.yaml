@@ -5,6 +5,13 @@ repos:
     hooks:
       - id: djade
         args: [--target-version, "4.2"] # Replace with Django version
+  - repo: https://github.com/tillig/json-sort-cli
+    rev: v1.0.0 # Use a version tag or SHA commit hash
+    hooks:
+      - id: json-sort
+        args:
+          - --autofix
+
   - repo: https://github.com/psf/black
     rev: 25.1.0
     hooks:
