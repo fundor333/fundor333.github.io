@@ -4,6 +4,8 @@ image: /img/pilogo.jpg
 logo: /img/logo.png
 images:
   - /img/Opengraph.png
+favicon: "apple-touch-icon.png"
+icon: "apple-touch-icon.png"
 defaultColor:
   "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
@@ -51,6 +53,7 @@ author:
   name: "Fundor333"
   description: "Pythonista, Backend Developer, Photographer, Dev Ops, Ex-Scout, Bookworm and Tea Lover. Sometime you can find me in a GDG, a DataBeers, a Pycon, a Comicon or other similar event. Huge Open Source fan and user I am allways searching something new to do or to study. Huge fan of automation, autodeploy, data sharing and bots. A lot of my personal stuff are here in my blog and some in my Github."
   fediverseAccount: "@fundor333@mastodon.social"
+  url: "https://fundor333.com"
 
 Hcard:
   avatar: "img/logo.png"

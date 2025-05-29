@@ -1,10 +1,4 @@
-
-
-
-
-
-
-     {{- $pctx := . }}
+{{- $pctx := . }}
 {{- if .IsHome }}{{ $pctx = .Site }}{{ end }}
 {{- $pages := slice }}
 {{- if or $.IsHome $.IsSection }}
@@ -34,31 +28,42 @@
     {{ with $.Param "favicon" -}}
     "favicon": "{{ . | absURL }}",
     {{ end -}}
-    {{ with site.Params.author -}}
+    {{ with site.Params.author.name -}}
     "authors": [
-        {{ .| jsonify }}
+        {
+            "name": "{{ . }}"{{ with site.Params.author.url }},
+            "url": "{{ . }}"{{ end }}{{ with site.Params.author.avatar }},
+            "avatar": "{{ . | absURL }}"{{ end }}
+        }
     ],
     {{ end -}}
     "items": [
         {{ range $index, $element := $pages -}}
-        {
-            "title": {{ .Title | jsonify }},
-            "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-            "date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
-            "id": "{{ .Permalink }}",
-            "url": "{{ .Permalink }}",
-            {{ with .Params.author -}}
-            "authors": [
-                {
-                  "name": "{{ . }}"
-                }
-            ],
-            {{ end -}}
-	    "tags":[
-		  {{ range .Params.tags }}"{{ . }}", {{ end }}{{ range .Params.categories }}"{{ . }}", {{ end }}
-	    ],
-            "content_html": {{ .Content | jsonify }}
-        }{{ if ne (add $index 1) $length }},{{ end }}
+		{
+		"title": {{ .Title | jsonify }},
+		"date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+		"date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+		"id": "{{ .Permalink }}",
+		"url": "{{ .Permalink }}",
+		{{ with .Params.author -}}
+		"authors": [
+			{
+			"name": "{{ . }}"
+			}
+		],
+		{{ end -}}
+		"tags":[
+			{{ range .Params.tags }}"{{ . }}", {{ end }}{{ range .Params.categories }}"{{ . }}", {{ end }}
+		],
+		"content_html": {{ .Content | jsonify }},
+		"content_text":{{ .Content | plainify | jsonify }},
+		{{ $image := .Resources.GetMatch "{cover.webp,cover.jpg,cover.png,cover.jpeg}" }}
+          	{{ if  $image }}
+		"image":  "{{ $image.Permalink }}",
+		"banner_image": "{{ $image.Permalink }}",
+	  	{{ end }}
+		}
+		{{ if ne (add $index 1) (len $pages) }},{{ end }}
         {{ end -}}
     ]
 }
