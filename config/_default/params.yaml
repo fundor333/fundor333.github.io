@@ -6,6 +6,7 @@ images:
   - /img/Opengraph.png
 favicon: "apple-touch-icon.png"
 icon: "apple-touch-icon.png"
+icon96: "favicon-96x96.png"
 defaultColor:
   "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
@@ -71,3 +72,7 @@ Hcard:
 bridgy:
   - "mastodon"
   - "bluesky"
+
+dateFormatAtomFeed: "2006-01-02T15:04:05-07:00"
+dateFormatTag: "2006"
+feedUUID: "43c22089-5c06-4cc4-8fd2-5b3563d5d257"

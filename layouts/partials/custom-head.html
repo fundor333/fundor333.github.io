@@ -8,3 +8,7 @@
 
 {{- $style := resources.Get "sass/add.scss" | resources.ExecuteAsTemplate "add.scss" . | toCSS (dict "targetPath" "add.css") | minify | fingerprint }}
 <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+
+{{ with .OutputFormats.Get "atom" }}
+        <link href="{{ .RelPermalink }}" rel="alternate" type="{{.MediaType.Type}}" title="{{ $.Site.Title }}">
+{{ end }}

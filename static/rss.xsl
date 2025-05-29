@@ -7,9 +7,7 @@
         <title><xsl:value-of select="/rss/channel/title"/> RSS Feed</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        <meta charset="UTF-8"/>
-
-        <link type="text/css" rel="stylesheet" href="https://xaselgio.net/css/styles.d225b84765ebd5eb4ab83f06e7e09371032e7199475bda8157f1f285bac0e0720482db82ed01710cced83ed937c019f9d0dfe2da88e3600f24c09c6903e360ee.css" integrity="sha512-0iW4R2Xr1etKuD8G5+CTcQMucZlHW9qBV/HyhbrA4HIEgtuC7QFxDM7YPtk3wBn50N/i2ojjYA8kwJxpA+Ng7g==" />
+        <meta charset="UTF-8"/>=
         <style>
           .aboutfeeds {
             margin: 24px 0; padding: 12px;

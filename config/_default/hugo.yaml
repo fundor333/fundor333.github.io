@@ -32,10 +32,18 @@ related:
     - name: date
       weight: 10
 
+mediaTypes:
+  application/atom+xml:
+    suffixes:
+      - xml
+
 outputFormats:
   SearchIndex:
     baseName: search
     mediaType: application/json
+  Atom:
+    mediaType: "application/atom+xml"
+    baseName: atom
 
 outputs:
   home:
@@ -43,6 +51,12 @@ outputs:
     - rss
     - SearchIndex
     - json
+    - Atom
+  section:
+    - html
+    - rss
+    - json
+    - Atom
 
 services:
   rss:
