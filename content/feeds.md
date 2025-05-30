@@ -16,4 +16,4 @@ You can follow me here:
 * All stuff from my blog [Atom](/atom.xml) [RSS](/index.xml) [Json](/index.json)
 * All my post from my blog [Atom](/post/atom.xml) [RSS](/post/index.xml) [Json](/post/index.json)
 * All my photo from my blog [Atom](/photos/atom.xml) [RSS](/photos/index.xml) [Json](/photos/index.json)
-* My personal Newsletter [RSS](https://newsletter.digitaltearoom.com/index.xml)
+* My personal Newsletter [Atom](https://newsletter.digitaltearoom.com/atom) [RSS](https://newsletter.digitaltearoom.com/rss)
