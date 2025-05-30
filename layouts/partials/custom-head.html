@@ -10,5 +10,9 @@
 <link href="{{ $style.RelPermalink }}" rel="stylesheet">
 
 {{ with .OutputFormats.Get "atom" }}
-        <link href="{{ .RelPermalink }}" rel="alternate" type="{{.MediaType.Type}}" title="{{ $.Site.Title }}">
+        <link href="{{ .RelPermalink }}" rel="alternate" type="{{.MediaType.Type}}" title="{{ $.Site.Title }} feed - Atom">
+{{ end }}
+
+{{ with .OutputFormats.Get "json" }}
+        <link href="{{ .RelPermalink }}" rel="alternate" type="{{.MediaType.Type}}" title="{{ $.Site.Title }} feed - JSON">
 {{ end }}
