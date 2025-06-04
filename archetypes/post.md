@@ -11,6 +11,8 @@ categories:
 - rant
 - dev
 - fingerfood
+- tinkering
+
 images:
 keywords:
 series:

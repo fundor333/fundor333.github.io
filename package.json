@@ -15,8 +15,7 @@
 		"node": "16.x",
 		"npm": "8.x"
 	},
-	"keywords": [
-	],
+	"keywords": [],
 	"name": "fundor333.com",
 	"private": true,
 	"version": "0.0.0"
