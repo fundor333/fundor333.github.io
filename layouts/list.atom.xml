@@ -47,7 +47,7 @@
     </author>
     {{ end }}
     <id>tag:{{ $u := urls.Parse .Permalink }}{{ $u.Hostname }},{{ .Date.Format .Site.Params.dateFormatTag }}:{{ replace $u.Path "#" "_" }}</id>
-    <link rel="alternate" href="{{ .Permalink }}?utm_source=fundor333.com&utm_medium=atom&utm_campaign=blogging&ref=fundor333.com"/>
+    <link rel="alternate" href="{{ .Permalink }}"/>
     <title>{{ .Title }}</title>
     <published>{{ .Date.Format .Site.Params.dateFormatAtomFeed | safeHTML }}</published>
     <updated>{{ .Lastmod.Format .Site.Params.dateFormatAtomFeed | safeHTML }}</updated>
