@@ -7,7 +7,7 @@
 		"autoprefixer": "^10.4.21",
 		"cjs-loader": "^0.1.0",
 		"lunr": "^2.3.9",
-		"postcss": "^8.5.4",
+		"postcss": "^8.5.5",
 		"postcss-cli": "^11.0.1"
 	},
 	"description": "The source code for fundor333.com",
