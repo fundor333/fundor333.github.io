@@ -17,7 +17,7 @@ bookmark:
 comments:
   host: mastodon.social
   username: fundor333
-  id:
+  id: 114627452417111937
 ---
 
 ![cover](cover.png)
