@@ -17,7 +17,7 @@ bookmark:
 comments:
   host: mastodon.social
   username: fundor333
-  id:
+  id: 114681429148697486
 ---
 
 Staarting moving to Umami for analytics because I don't want to not having control of my data
