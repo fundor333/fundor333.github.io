@@ -1,6 +1,6 @@
 ---
 title: "Add Minor Things to Django for templating"
-date: 2025-06-17T12:36:00+02:00
+date: 2025-06-15T21:36:00+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: Some code I use in my django project for having some utility
