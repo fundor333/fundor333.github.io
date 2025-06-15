@@ -17,7 +17,7 @@ bookmark:
 comments:
   host: mastodon.social
   username: fundor333
-  id:
+  id: 114689671753564243
 ---
 
 I need a place online where put my character sheet with some check (like auto calc bonus for int/char/str/etc..) but all the automatism are behoind the paywall.
