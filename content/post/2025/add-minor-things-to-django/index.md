@@ -25,7 +25,7 @@ bookmark:
 comments:
   host: mastodon.social
   username: fundor333
-  id:
+  id: 114689582471095983
 ---
 
 More and more time I need some little thing for templating:
