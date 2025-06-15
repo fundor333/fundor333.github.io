@@ -21,6 +21,7 @@ This is my face when I open Twitter...
 
 A fragment of code with parentesies at the end of the row...
 
+![Horror code](twitter.jpeg)
 
 >Use whatever brace style you prefer.
 >
