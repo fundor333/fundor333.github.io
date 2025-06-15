@@ -18,4 +18,4 @@ comments:
   id:
 ---
 
-Thanks and i like the new _querystring_ tag
+Thanks and i like the new _querystring_  tag
