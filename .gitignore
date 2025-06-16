@@ -187,3 +187,5 @@ build
 .env
 
 log_syndication.csv
+
+log_feed.csv

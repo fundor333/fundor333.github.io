@@ -118,7 +118,7 @@ def process_feed(feed_url, fonte):
     aggiornamenti = []
 
     resp = requests.get(feed_url)
-    soup = BeautifulSoup(resp.content, "xml")
+    soup = BeautifulSoup(resp.text, "xml")
 
     for item in soup.find_all("item"):
         guid = item.find("guid").text.strip()
