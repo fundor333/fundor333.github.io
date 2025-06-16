@@ -84,7 +84,7 @@ class FeedFinder:
 
             return entry.get("content")
 
-    def run(self, rss_url: str, domain: str, output: dict):
+    def run(self, rss_url: str, domain: str, output: dict, data: dict):
         feed = feedparser.parse(rss_url)
 
         if feed.status == 200:
@@ -93,7 +93,9 @@ class FeedFinder:
 
                 for e in self.find_urls(self.get_label(feed.version, entry)):
                     if domain in e:
+                        temp = e
                         e = clean_slug(e)
+                        data[e] = temp
                         if output.get(e, False):
                             output[e].append(link.strip())
                         else:
@@ -118,14 +120,16 @@ class IndieWebOrg:
 
             return entry.get("content")
 
-    def run(self, rss_url: str, site: str, domain: str, output: dict):
+    def run(self, rss_url: str, site: str, domain: str, output: dict, data: dict):
         feed = feedparser.parse(rss_url)
 
         if feed.status == 200:
             for entry in feed.entries:
                 for e in self.find_urls(self.get_label(feed.version, entry)):
                     if domain in e:
+                        temp = e
                         e = clean_slug(e)
+                        data[e] = temp
                         if output.get(e, False):
                             output[e].append(site)
                         else:
@@ -143,6 +147,7 @@ class WriterSyndication:
         domain: str,
     ):
         self.output = {}
+        self.data = {}
         self.rss = rss
         self.indiweb = indiweb
         self.domain = domain
@@ -151,25 +156,26 @@ class WriterSyndication:
     def data_gathering(self):
         ff = FeedFinder()
         for i in self.rss:
-            ff.run(i, self.domain, self.output)
+            ff.run(i, self.domain, self.output, self.data)
         ii = IndieWebOrg()
         for a, b in self.indiweb:
-            ii.run(a, b, self.domain, output=self.output)
+            ii.run(a, b, self.domain, output=self.output, data=self.data)
 
         hn = HackerNewsFinder(self.hacker_news_username, self.output)
         hn.run()
+        print(self.data)
 
     def write(self):
         for key in self.output.keys():
 
             path_folder = os.path.join("data", "syndication")
-
             Path(path_folder).mkdir(parents=True, exist_ok=True)
             path_file = os.path.join(path_folder, key)
 
             if os.path.exists(path_file + ".json"):
                 with open(path_file + ".json") as fp:
                     data = json.load(fp)
+                    data["source"] = self.data.get(key, None)
                     if data.get("syndication", False):
                         data["syndication"] = sorted(
                             set(data["syndication"] + self.output[key])
