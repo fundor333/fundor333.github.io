@@ -15,7 +15,7 @@ bookmark: null
 comments:
   host: mastodon.social
   username: fundor333
-  id: 114627452417111937
+  id: '114627452417111937'
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lroqna6rpn2o
 - https://mastodon.social/@fundor333/114627452417111937

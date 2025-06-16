@@ -23,7 +23,7 @@ bookmark: null
 comments:
   host: mastodon.social
   username: fundor333
-  id: 114690259109867675
+  id: '114690259109867675'
 syndication:
 - https://mastodon.social/@fundor333/114690259109867675
 ---

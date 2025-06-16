@@ -23,7 +23,7 @@ bookmark: https://mxb.dev/blog/webring-kit/
 comments:
   host: mastodon.social
   username: fundor333
-  id: 114565534042467712
+  id: '114565534042467712'
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lpxe75uzk52r
 - https://mastodon.social/@fundor333/114565534042467712

@@ -18,6 +18,7 @@ feature_text: by IA Midjourney
 series:
 - Tech News
 syndication:
+- https://fundor333.medium.com/this-is-why-instagram-ruin-itself-5e939a3bd4c6?source=rss-48447ba4c2e
 - https://fundor333.medium.com/this-is-why-instagram-ruin-itself-5e939a3bd4c6?source=rss-48447ba4c2e------2
 ---
 

@@ -9,7 +9,23 @@ CARTELLA_POST = "content"
 CSV_LOG = "log_feed.csv"
 MASTODON_FEED = "https://mastodon.social/users/fundor333.rss"
 BSKY_FEED = "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/rss"  # facoltativo, se disponibile
-MEDIUM_FEED = "https://medium.com/feed/@fundor333"
+MEDIUM_FEED = None  # "https://medium.com/feed/@fundor333"
+
+
+def parse_fediverse_url(url):
+    # Mastodon / Akkoma / Pleroma
+    match1 = re.match(r"https?://([^/]+)/@([^/]+)/(\d+)", url)
+    if match1:
+        host, username, post_id = match1.groups()
+        return {"host": host, "username": username, "id": post_id}
+
+    # Misskey / Firefish
+    match2 = re.match(r"https?://([^/]+)/notes/([a-zA-Z0-9]+)", url)
+    if match2:
+        host, post_id = match2.groups()
+        return {"host": host, "username": None, "id": post_id}
+
+    return None
 
 
 def process_feed_medium(feed_url, fonte):
@@ -83,7 +99,7 @@ def aggiungi_syndication_a_post(percorso_file, nuovi_link):
         content = f.read()
 
     if content.startswith("+++"):
-        raise NotImplementedError("Supporto TOML non ancora gestito.")
+        raise NotImplementedError("Supporto TOML non gestito.")
     elif content.startswith("---"):
         parts = content.split("---")
         if len(parts) < 3:
@@ -92,6 +108,8 @@ def aggiungi_syndication_a_post(percorso_file, nuovi_link):
 
         frontmatter = yaml.safe_load(parts[1])
         esistenti = frontmatter.get("syndication", [])
+        if isinstance(esistenti, str):
+            esistenti = [esistenti]
 
         esistenti_norm = set(map(normalizza_url, esistenti))
         nuovi_norm = set(map(normalizza_url, nuovi_link))
@@ -99,7 +117,17 @@ def aggiungi_syndication_a_post(percorso_file, nuovi_link):
         da_aggiungere = list(nuovi_norm - esistenti_norm)
 
         if da_aggiungere:
+            # Aggiorna il campo syndication
             frontmatter["syndication"] = sorted(esistenti_norm.union(nuovi_norm))
+
+            # Se troviamo un link Mastodon, estrai info nei meta commenti
+            for link in da_aggiungere:
+                parsed = parse_fediverse_url(link)
+                if parsed:
+                    frontmatter["comments"] = (
+                        parsed  # Sostituisce se già esiste (puoi estendere a lista se vuoi)
+                    )
+
             nuovo_frontmatter = yaml.dump(
                 frontmatter, sort_keys=False, allow_unicode=True
             )

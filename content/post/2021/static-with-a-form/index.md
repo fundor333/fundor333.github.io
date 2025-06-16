@@ -13,6 +13,7 @@ categories:
 - fingerfood
 description: If you have a static site you can also have forms
 syndication:
+- https://fundor333.medium.com/static-with-a-form-in-python-0a11c50a04cd?source=rss-48447ba4c2e
 - https://fundor333.medium.com/static-with-a-form-in-python-0a11c50a04cd?source=rss-48447ba4c2e------2
 ---
 
