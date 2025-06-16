@@ -13,6 +13,7 @@ requests = "*"
 python-dotenv = "*"
 weeknotebot = "*"
 pillow = "^11.2.1"
+beautifulsoup4 = "^4.13.4"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -1,1 +1,6 @@
-{"syndication": ["https://mastodon.social/@fundor333/114523473282741682"]}
+{
+  "syndication": [
+    "https://mastodon.social/@fundor333/114523473282741682"
+  ],
+  "source": "https://fundor333.com/post/2022/django-with-barcode-and-qrcode/"
+}
