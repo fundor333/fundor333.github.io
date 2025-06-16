@@ -1,17 +1,20 @@
 ---
-title: "Pages You Need in Your Blog"
-date: 2025-04-06T13:42:47+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: There are some page you need to have in your blog if your blog is for human
+title: Pages You Need in Your Blog
+date: 2025-04-06 13:42:47+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: There are some page you need to have in your blog if your blog is for
+  human
 tags:
 - dev
 categories:
 - rant
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Indiweb, webmentions and friends
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lm5hbpey752q
 ---
 
 More and more blog I read and more and more I find that a lot of the dev blog and personal blog on the web has a lot of common pages but not the old _About_ or _Contacts_ so I make this list of interesting pages types.

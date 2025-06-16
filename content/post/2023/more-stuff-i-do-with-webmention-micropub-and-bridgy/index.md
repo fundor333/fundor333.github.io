@@ -1,19 +1,18 @@
 ---
-title: "More Stuff I Do With Webmention, Micropub and Brid.gy"
-date: 2023-02-12T12:56:05+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: More Stuff I Do With Webmention, Micropub and Brid.gy
+date: 2023-02-12 12:56:05+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 tags:
 - webmention
 - micropub
 - microformat
 - bridgy
 - hugo
-slug: "more-stuff-i-do-with-webmention-micropub-and-bridgy"
+slug: more-stuff-i-do-with-webmention-micropub-and-bridgy
 categories:
 - dev
-description: "I implement and code more stuff from webmention, micropub and brid.gy"
-
+description: I implement and code more stuff from webmention, micropub and brid.gy
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
@@ -23,6 +22,8 @@ aliases:
 series:
 - Hugo tricks
 - Indiweb, webmentions and friends
+syndication:
+- https://news.indieweb.org/en
 ---
 
 After my first work on Micropub, Microformat and WebMention (you can find more [here]({{< ref "/post/2022/indieweb-webmention-and-h-entry-in-my-blog" >}} "How I implement Indieweb, Webmention and H Entry in My Blog")) I change some things here and there.

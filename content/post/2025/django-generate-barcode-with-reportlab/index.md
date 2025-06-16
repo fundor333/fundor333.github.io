@@ -1,8 +1,8 @@
 ---
-title: "Django Generate Barcode With Reportlab"
-date: 2025-05-19T12:30:00+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Django Generate Barcode With Reportlab
+date: 2025-05-19 12:30:00+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 description: Tutorial to build pages and pages of barcode for labeling stuffs
 tags:
 - reportlab
@@ -11,23 +11,22 @@ tags:
 - qrcode
 categories:
 - dev
-
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Printing With ReportLab
 - Django tricks
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
-
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
 comments:
   host: mastodon.social
   username: fundor333
   id: 114534076728750119
+syndication:
+- https://mastodon.social/@fundor333/114534076728750119
 ---
 
 After [Django With Barcode and Qrcode]({{% ref "/post/2022/django-with-barcode-and-qrcode" %}}) and [Django Return Pdf With Reportlab]({{% ref "http://localhost:1313/post/2022/django-return-pdf-with-reportlab" %}}) I need something new in my Django server. I need a barcode generator for labeling stuffs.

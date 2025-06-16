@@ -1,21 +1,23 @@
 ---
-title: "Django With Barcode and Qrcode"
-date: 2022-02-22T12:39:07+01:00
-feature_link: "https://unsplash.com/photos/ZqjNiJnzZqw"
-feature_text: "Photo by Katya Azi on Unsplash"
+title: Django With Barcode and Qrcode
+date: 2022-02-22 12:39:07+01:00
+feature_link: https://unsplash.com/photos/ZqjNiJnzZqw
+feature_text: Photo by Katya Azi on Unsplash
 tags:
 - django
 - hacking
 - api
 - qrcode
 - barcode
-slug: "django-with-barcode-and-qrcode"
+slug: django-with-barcode-and-qrcode
 categories:
 - dev
 - fingerfood
-description: "How to make a django form for reading BarCode and QRCode"
+description: How to make a django form for reading BarCode and QRCode
 series:
 - Django tricks
+syndication:
+- https://mastodon.social/@fundor333/114523473282741682
 ---
 For work I need to implement a strange usercase: I need to have a form with QRCode and BarCode input.
 

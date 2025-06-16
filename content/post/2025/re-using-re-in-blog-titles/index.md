@@ -1,22 +1,24 @@
 ---
-title: "Re:Using 'Re:' in Blog Titles"
-date: 2025-04-14T21:00:21+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Re:Using 'Re:' in Blog Titles
+date: 2025-04-14 21:00:21+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 description: Blogpost about how to write a post response
 tags:
 - microformat
 - indieweb
 categories:
 - rant
-images:
-keywords:
-
-reply: "https://rubenerd.com/using-re-in-blog-titles/"
-repost:
-like:
-rsvp:
-bookmark:
+images: null
+keywords: null
+reply: https://rubenerd.com/using-re-in-blog-titles/
+repost: null
+like: null
+rsvp: null
+bookmark: null
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lmsw3ujvvn2t
+- https://mastodon.social/@fundor333/114337976246816369
 ---
 
 Following the post from [Ruben](https://rubenerd.com/using-re-in-blog-titles/) I start imitating this idea and expand on it.

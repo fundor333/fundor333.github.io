@@ -1,7 +1,7 @@
 ---
-title: "My Zsh Command History"
-date: 2025-01-17T11:47:42+01:00
-description: "And I print my ZSH History"
+title: My Zsh Command History
+date: 2025-01-17 11:47:42+01:00
+description: And I print my ZSH History
 isStarred: false
 tags:
 - dev
@@ -9,13 +9,15 @@ tags:
 categories:
 - dev
 - fingerfood
-images:
+images: null
 keywords:
 - bash
 - terminal
 - zsh
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+syndication:
+- https://mastodon.social/@fundor333/113844062450163628
 ---
 
 For social pression of some blogger I follow ([Andrea Grandi](https://www.andreagrandi.it/posts/my-zsh-history/),[Nicola Iarocci](https://nicolaiarocci.com/my-most-used-command-line-commands/), [Chris DeLuca](https://www.chrisdeluca.me/2024/12/31/my-cli-wrapped-most-used.html) ) I follow with the history of my terminal (ZSH)

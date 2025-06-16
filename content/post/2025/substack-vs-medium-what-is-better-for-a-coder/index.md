@@ -1,9 +1,9 @@
 ---
-title: "Substack vs Medium: What Is Better for a Coder?"
-date: 2025-01-27T12:02:52+01:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: "If you are a developer where do you blog better? Medium or Substack?"
+title: 'Substack vs Medium: What Is Better for a Coder?'
+date: 2025-01-27 12:02:52+01:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: If you are a developer where do you blog better? Medium or Substack?
 isStarred: false
 tags:
 - medium
@@ -13,7 +13,11 @@ categories:
 - dev
 - rant
 series:
-- "A dev need a blog"
+- A dev need a blog
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lgpspspw6525
+- https://mastodon.social/@fundor333/113900165230585466
+- https://news.ycombinator.com/item?id=42840293
 ---
 
 I am first and most a Developer and a Coder and I think that coding and developing software (site, app, AI, etc...) need to be a share experience.

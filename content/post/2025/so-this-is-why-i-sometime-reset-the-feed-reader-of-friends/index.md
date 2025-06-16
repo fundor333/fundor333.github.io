@@ -1,8 +1,8 @@
 ---
-title: "So This Is Why I Sometime Reset the Feed Reader of Friends"
-date: 2025-05-31T12:32:59+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: So This Is Why I Sometime Reset the Feed Reader of Friends
+date: 2025-05-31 12:32:59+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 description: I find something I didn't know abouts feed rss and atom
 isStarred: false
 tags:
@@ -12,20 +12,20 @@ tags:
 - coding
 categories:
 - rant
-images:
-keywords:
-series:
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
-
+images: null
+keywords: null
+series: null
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
 comments:
   host: mastodon.social
   username: fundor333
   id: 114690259109867675
+syndication:
+- https://mastodon.social/@fundor333/114690259109867675
 ---
 
 I have a friend who read my blog using my feed. And sometime he pings me for some problem with the feed, like a drop of all the article as new

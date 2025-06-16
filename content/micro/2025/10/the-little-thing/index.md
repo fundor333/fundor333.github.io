@@ -1,15 +1,16 @@
 ---
-title: "The Little Thing"
-date: 2025-01-18T12:11:23+01:00
+title: The Little Thing
+date: 2025-01-18 12:11:23+01:00
 description: Sometime the little things are the best one
-tags:
-categories:
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+tags: null
+categories: null
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
+syndication:
+- https://mastodon.social/@fundor333/113849100063105825
 ---
 
 ![little things](little_things.png)

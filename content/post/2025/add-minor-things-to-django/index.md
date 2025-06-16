@@ -1,8 +1,8 @@
 ---
-title: "Add Minor Things to Django for templating"
-date: 2025-06-15T21:36:00+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Add Minor Things to Django for templating
+date: 2025-06-15 21:36:00+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 description: Some code I use in my django project for having some utility
 isStarred: false
 tags:
@@ -11,21 +11,21 @@ tags:
 categories:
 - dev
 - fingerfood
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Django tricks
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
-
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
 comments:
   host: mastodon.social
   username: fundor333
   id: 114689582471095983
+syndication:
+- https://mastodon.social/@fundor333/114689582471095983
 ---
 
 More and more time I need some little thing for templating:

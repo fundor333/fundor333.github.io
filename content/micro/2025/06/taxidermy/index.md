@@ -1,20 +1,20 @@
 ---
-title: "Taxidermy"
-date: 2025-06-02T19:34:45+02:00
-description:
-tags:
-categories:
-
+title: Taxidermy
+date: 2025-06-02 19:34:45+02:00
+description: null
+tags: null
+categories: null
 reply: https://rowanmanning.com/weeknotes/240/
-repost:
-like:
-rsvp:
-bookmark:
-
+repost: null
+like: null
+rsvp: null
+bookmark: null
 comments:
   host: mastodon.social
   username: fundor333
-  id:
+  id: null
+syndication:
+- https://mastodon.social/@fundor333/114615017065338141
 ---
 
 Why not share the taxidermy??? Why not?

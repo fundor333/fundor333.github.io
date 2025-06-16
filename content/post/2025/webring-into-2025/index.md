@@ -1,8 +1,8 @@
 ---
-title: "Having a Webring Into 2025"
-date: 2025-05-24T12:11:42+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Having a Webring Into 2025
+date: 2025-05-24 12:11:42+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 description: What are the webrings and why you need to be in one into 2025
 isStarred: false
 tags:
@@ -10,21 +10,23 @@ tags:
 - indieweb
 categories:
 - rant
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Tech News
 - Indiweb, webmentions and friends
-reply:
-repost:
+reply: null
+repost: null
 like: https://mxb.dev/blog/webring-kit/
-rsvp:
+rsvp: null
 bookmark: https://mxb.dev/blog/webring-kit/
-
 comments:
   host: mastodon.social
   username: fundor333
   id: 114565534042467712
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lpxe75uzk52r
+- https://mastodon.social/@fundor333/114565534042467712
 ---
 
 Once upon a time Internet was different. No social media, no search engine, no fiber...

@@ -1,8 +1,8 @@
 ---
-title: "Csv From Django"
-date: 2025-04-18T12:23:09+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Csv From Django
+date: 2025-04-18 12:23:09+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 description: A little class view for return CSV
 isStarred: false
 tags:
@@ -11,16 +11,18 @@ tags:
 categories:
 - dev
 - fingerfood
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Django tricks
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3ln47mdil4n24
+- https://mastodon.social/@fundor333/114361190187586506
 ---
 
 Some time you need to export a file into a specific format for some use like upload to the old system.

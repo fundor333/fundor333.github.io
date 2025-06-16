@@ -1,9 +1,10 @@
 ---
-title: "Activitypub vs Webmention Do You Need Them ?"
-date: 2025-05-16T07:23:27+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: Some personal thinking about webmention and activitypub and how to use/combine them
+title: Activitypub vs Webmention Do You Need Them ?
+date: 2025-05-16 07:23:27+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: Some personal thinking about webmention and activitypub and how to use/combine
+  them
 isStarred: false
 tags:
 - webmention
@@ -12,8 +13,8 @@ tags:
 categories:
 - rant
 - dev
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Tech News
 - Indiweb, webmentions and friends
@@ -21,15 +22,18 @@ mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
 - https://news.indieweb.org/en
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
 comments:
   host: mastodon.social
   username: fundor333
   id: 114516904456408423
+syndication:
+- https://mastodon.social/@fundor333/114516904456408423
+- https://news.indieweb.org/en
 ---
 
 I have a lot of article about webmention because I implement them on my site/blog. And I use them ad comment, like sistem and more. But more I read about ActivityPub and the Feedverse more I thing it can be a good think to implement it insite your site for your content and for share to the Feedverse.

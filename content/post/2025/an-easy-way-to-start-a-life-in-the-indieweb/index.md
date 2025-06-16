@@ -1,21 +1,25 @@
 ---
-title: "An Easy Way to Start a Life in the IndieWeb"
-date: 2025-01-31T12:46:00+01:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: "A tool to start a life on the IndieWeb leaving the social media behind"
+title: An Easy Way to Start a Life in the IndieWeb
+date: 2025-01-31 12:46:00+01:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: A tool to start a life on the IndieWeb leaving the social media behind
 tags:
 - blogging
 - indiweb
 categories:
 - dev
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Indiweb, webmentions and friends
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
+- https://news.indieweb.org/en
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lgzy7zblnf2t
+- https://mastodon.social/@fundor333/113922836635086947
 - https://news.indieweb.org/en
 ---
 
