@@ -1,3 +1,33 @@
+:root {
+	--blockquote-border-size: 4px;
+	--blockquote-background-color: rgb(248 248 248);
+
+	--heading-border-size: 4px;
+
+	--link-background-color: 189, 195, 199;
+	--link-background-opacity: 0.5;
+	--link-background-opacity-hover: 0.7;
+
+	--pre-background-color: #272822;
+	--pre-text-color: #f8f8f2;
+
+	--code-background-color: rgba(0, 0, 0, 0.12);
+	--code-text-color: #808080;
+
+	--table-border-color: #dadada;
+	--tr-even-background-color: #efefee;
+
+	@media (prefers-color-scheme: dark) {
+		--code-background-color: #272822;
+		--code-text-color: rgba(255, 255, 255, 0.9);
+
+		--table-border-color: #717171;
+		--tr-even-background-color: #545454;
+
+		--blockquote-background-color: rgb(75 75 75);
+	}
+}
+
 .author {
 	margin: 0;
 }
@@ -48,5 +78,157 @@
 	&:hover {
 		transform: scale(1.1);
 		transform-origin: left top;
+	}
+}
+
+small,
+aside p {
+	font-size: smaller;
+	opacity: 0.9;
+}
+
+section#comments {
+	#comments-wrapper {
+		margin: 1.5em 0;
+		padding: 0 var(--card-padding);
+	}
+
+	.comment {
+		display: grid;
+		column-gap: 1rem;
+		grid-template-areas:
+			"avatar name"
+			"avatar time"
+			"avatar post"
+			"...... interactions";
+		grid-template-columns: min-content;
+		justify-items: start;
+		margin: 0em auto 0em -1em;
+		padding: 0.5em;
+
+		&.comment-reply {
+			margin: 0em auto 0em 1em;
+		}
+
+		.avatar-link {
+			grid-area: avatar;
+			height: 4rem;
+			position: relative;
+			width: 4rem;
+
+			.avatar {
+				height: 100%;
+				width: 100%;
+				border-radius: 20%;
+			}
+
+			&.op::after {
+				background-color: var(--accent-color);
+				border-radius: 50%;
+				bottom: -0.25rem;
+				color: var(--accent-color-text);
+				content: "✓";
+				display: block;
+				font-size: 1.25rem;
+				font-weight: bold;
+				height: 1.5rem;
+				line-height: 1.5rem;
+				position: absolute;
+				right: -0.25rem;
+				text-align: center;
+				width: 1.5rem;
+			}
+		}
+
+		.author {
+			align-items: center;
+			display: flex;
+			font-weight: bold;
+			gap: 0.5em;
+			grid-area: name;
+
+			.instance {
+				background-color: var(--code-background-color);
+				border-radius: 9999px;
+				color: var(--neutral);
+				font-size: smaller;
+				font-weight: normal;
+				padding: 0.25em 0.75em;
+
+				&:hover {
+					opacity: 0.8;
+					text-decoration: none;
+				}
+
+				&.op {
+					background-color: var(
+						--code-background-color
+					);
+					color: var(--accent-color-text);
+
+					&::before {
+						content: "✓";
+						font-weight: bold;
+						margin-inline-end: 0.25em;
+					}
+				}
+			}
+		}
+
+		time {
+			@extend small;
+
+			grid-area: time;
+			line-height: 1.5rem;
+		}
+
+		main {
+			grid-area: post;
+
+			p:first-child {
+				margin-top: 0.25em;
+			}
+
+			p:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		footer {
+			@extend small;
+
+			grid-area: interactions;
+
+			.faves {
+				color: inherit;
+
+				&:hover {
+					opacity: 0.8;
+					text-decoration: none;
+				}
+
+				&::before {
+					color: red;
+					content: "♥";
+					font-size: 2rem;
+					margin-inline-end: 0.25em;
+				}
+			}
+		}
+
+		.emoji {
+			display: inline;
+			height: 1.25em;
+			vertical-align: middle;
+			width: 1.25em;
+		}
+
+		.invisible {
+			display: none;
+		}
+
+		.ellipsis::after {
+			content: "…";
+		}
 	}
 }

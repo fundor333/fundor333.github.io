@@ -15,7 +15,7 @@ bookmark:
 comments:
   host: mastodon.social
   username: fundor333
-  id:
+  id: 114689964896474095
 ---
 
 Thanks and i like the new _querystring_  tag

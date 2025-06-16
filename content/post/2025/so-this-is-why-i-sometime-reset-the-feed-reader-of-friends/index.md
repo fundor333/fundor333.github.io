@@ -25,7 +25,7 @@ bookmark:
 comments:
   host: mastodon.social
   username: fundor333
-  id:
+  id: 114690259109867675
 ---
 
 I have a friend who read my blog using my feed. And sometime he pings me for some problem with the feed, like a drop of all the article as new

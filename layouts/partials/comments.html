@@ -3,18 +3,15 @@
 <hr>
 <h3>Comments</h3>
 
-<p>To reply to this post, you can send a <a href="https://indieweb.org/Webmention" target="_blank">Webmention</a> or you can toot me at <a href="https://mastodon.social/@fundor333">fundor333@mastodon.social</a>
-
-  {{ with .Params.comments }}
-    {{if .id}}
-      <p>With an account on the Fediverse or Mastodon, you can respond to this <a href="https://{{ .host }}/@{{ .username }}/{{ .id }}">post</a>. Since Mastodon is decentralized, you can use your existing account hosted by another Mastodon server or compatible platform if you don't have an account on this one. Known non-private replies are displayed below.</p>
-    {{end}}
-  {{ end }}
-
-<br>
-
+<p>To reply to this post, you can send a <a href="https://indieweb.org/Webmention" target="_blank">Webmention</a> or you can toot me at <a href="https://mastodon.social/@fundor333" target="_blank">fundor333@mastodon.social</a>
 
 {{ partial "webmention" . }}
+
+{{ $params := .Params.comments }}
+{{  with  .Params.comments.id}}
+  {{ partial "mastodon" $params }}
+{{ end }}
+
 
 <a href='https://brid.gy/publish/bluesky'></a>
 <a href='https://brid.gy/publish/mastodon'></a>

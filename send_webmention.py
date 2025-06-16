@@ -4,7 +4,6 @@ from rich.console import Console
 from rich.text import Text
 
 feed_url = [
-    "https://micro.fundor333.com/index.xml",
     "http://fundor333.com/index.xml",
 ]
 
