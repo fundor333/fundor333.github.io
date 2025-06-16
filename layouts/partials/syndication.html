@@ -1,17 +1,11 @@
-{{ $urlized := (replace (absURL .RelPermalink) "http://localhost:1313" "https://fundor333.com") | md5 }}
-
-{{ if index .Site.Data.syndication $urlized }}
+{{with .Params.syndication}}
 
 <hr>
   <div class="syndication">
     <h3>Syndication</h3>
       <i class="fas fa-link"></i>
       This post was also syndicated to:
-      {{ $data:=  index .Site.Data.syndication $urlized  }}
-
-      {{ $data:= $data.syndication }}
-
-      {{ range $index, $url := $data}}
+      {{ range $index, $url := .}}
         {{- $parsed_url := urls.Parse $url -}}
         {{- if $index }}, {{- end }}
         <a target="_blank" class="u-syndication" href="{{ $url }}" rel="syndication">{{ $parsed_url.Host }}</a>
@@ -20,8 +14,3 @@
   <br>
 {{ end }}
 
-{{ if .Param "mp-syndicate-to" }}
-    {{ range .Param "mp-syndicate-to" }}
-      <a class="u-syndication" href="{{ . }}"></a>
-    {{ end }}
-{{ end }}

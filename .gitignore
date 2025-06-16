@@ -185,3 +185,5 @@ OME/
 build
 
 .env
+
+log_syndication.csv

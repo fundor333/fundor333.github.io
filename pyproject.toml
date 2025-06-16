@@ -14,6 +14,7 @@ python-dotenv = "*"
 weeknotebot = "*"
 pillow = "^11.2.1"
 beautifulsoup4 = "^4.13.4"
+pyyaml = "^6.0.2"
 
 
 [tool.poetry.group.dev.dependencies]
