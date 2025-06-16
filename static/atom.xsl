@@ -60,7 +60,7 @@
       <h3>
         <a target="_blank">
           <xsl:attribute name="href">
-            <xsl:value-of select="atom:id"/>
+            <xsl:value-of select="atom:link"/>
           </xsl:attribute>
           <xsl:value-of select="atom:title"/>
         </a>
