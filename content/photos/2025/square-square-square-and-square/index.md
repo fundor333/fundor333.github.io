@@ -19,5 +19,4 @@ resources:
 syndication:
 - https://fundor333.medium.com/github-action-for-syndication-links-33d3d2703708?source=rss-48447ba4c2e
 - https://fundor333.medium.com/github-action-for-syndication-links-33d3d2703708?source=rss-48447ba4c2e------2
-- https://mastodon.social/@fundor333/113809667070052761
 ---

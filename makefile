@@ -60,7 +60,6 @@ build: clean ## Build for dev
 
 .PHONY: syndication
 syndication: ## Syndication script
-	@poetry run python action_script/syndication-collector.py
 	@poetry run python action_script/syndication-adder.py
 
 .PHONY: webmention
