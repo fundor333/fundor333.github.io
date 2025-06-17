@@ -15,7 +15,7 @@ defaultColor:
 mainSections: ["post", "photos", "weeknote"]
 secondarysections: ["micro"]
 feedSections: ["post", "photos", "micro", "weeknote"]
-commentSections: ["post", "photos", "micro", "weeknote"]
+commentSections: ["post", "photos", "micro", "weeknote", "series"]
 suggestionSections: ["post"]
 toc: false # set to false to disable table of contents 'globally'
 tocOpen: false # set to true to open table of contents by default
