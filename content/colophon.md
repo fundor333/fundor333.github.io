@@ -5,10 +5,23 @@ specialpost: true
 allpage: true
 summary: Info about this site publication/build
 ---
+## What is this page?
+
+This is a Colophon page or a "How this blog work?" page.
 
 > In publishing, a colophon (/ˈkɒləfən, -fɒn/) is a brief statement containing information about the publication of a book such as an "imprint" (the place of publication, the publisher, and the date of publication).
 >
 > [Wikipedia](https://en.wikipedia.org/wiki/Colophon_(publishing))
+
+This page exist because I am a coder with the passion of try new stuff with code or system, so here I collect what I use.
+
+## Some story about this site
+
+This blog start in the August 2012 as a Wordpress site (no I did not leave any trace about it),some time after in the 2016 as a Pelican site (I have some [article in Italian about Pelican](/series/pelican-for-my-site/)) and some time after Hugo.
+
+I try multiple configuration, I wrote some Pelican plugins and some Hugo stuff but a lot of them are trash...
+
+## Today
 
 The code for this website is hosted on [GitHub](https://github.com/fundor333/fundor333.github.io) and created using [Visual Studio Code](https://code.visualstudio.com/). Automated deployments are done with Github Action and hosted by GitHub Pages.
 [Hugo](https://gohugo.io/) is used as the static site generator and the theme is an edited version (by me) of [Hugo Blog Awesome](https://github.com/hugo-sid/hugo-blog-awesome). Some of the icons are from [Fontawesome](https://fontawesome.com/).
