@@ -19,6 +19,7 @@ series:
 - Tech News
 - Printing With ReportLab
 - Hugo tricks
+- Pelican for my site
 - Django tricks
 - Indiweb, webmentions and friends
 - Horror stories

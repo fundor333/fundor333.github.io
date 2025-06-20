@@ -5,7 +5,7 @@ description = "Racconto della mia esperienza al Pycon 9"
 slug = "floppy-pycon-e-generatori-di-siti-statici"
 tags = ["pycon", "rant", "convention"]
 title = "Floppy, Pycon e generatori di siti statici"
-
+series =["Pelican for my site"]
 +++
 Anche quest'anno sono stato al Pycon italia, raduno di pythonisti ormai arrivato alla nona riiterazione della cosa. Questo però non vuole dire che per me non è stata una nuova esperienza.
 

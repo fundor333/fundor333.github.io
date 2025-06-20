@@ -12,6 +12,8 @@ categories:
 - rant
 feature_link: "https://unsplash.com/photos/C4G18Paw0d4"
 feature_text: "Photo by Daniil Kuželev on Unsplash"
+series:
+- Pelican for my site
 ---
 E per caso mi ritrovo a dover parlare al Pycon... E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
 

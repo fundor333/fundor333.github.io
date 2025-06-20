@@ -8,6 +8,8 @@ tags:
 description: Come e perchè sono passato a Hugo da Pelican
 categories:
 - rant
+series:
+- Pelican for my site
 feature_link: "https://unsplash.com/photos/gy08FXeM2L4"
 feature_text: "Photo by Oskar Yildiz on Unsplash"
 

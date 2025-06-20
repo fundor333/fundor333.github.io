@@ -11,7 +11,8 @@ description: Come scrivere un blog interamente in pelican, gestito in github e t
   con autopubblicazioni
 aliases:
 - "/dev/scrivi-push-public/"
-
+series:
+- Pelican for my site
 feature_link: "https://unsplash.com/photos/ICW6QYOcdlg"
 feature_text: "Photo by Galymzhan Abdugalimov on Unsplash"
 ---
