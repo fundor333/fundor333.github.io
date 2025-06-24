@@ -51,7 +51,7 @@ comments:
 - [Support me](https://ko-fi.com/fundor333)
 
 ## Currently Reading
-[![Foxglove (Belladonna, #2)](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714663422l/211170617._SX98_.jpg)](https://www.goodreads.com/review/show/7583111149?utm_medium=api&utm_source=rss) [![Il Maestro e Margherita](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449182290l/28095021._SX98_.jpg)](https://www.goodreads.com/review/show/7613476820?utm_medium=api&utm_source=rss) [![Cromorama: Come il colore ha cambiato il nostro sguardo](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505808761l/36266532._SX98_.jpg)](https://www.goodreads.com/review/show/5993206761?utm_medium=api&utm_source=rss) 
+[![Foxglove (Belladonna, #2)](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714663422l/211170617._SX98_.jpg)](https://www.goodreads.com/review/show/7583111149?utm_medium=api&utm_source=rss) [![Il Maestro e Margherita](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449182290l/28095021._SX98_.jpg)](https://www.goodreads.com/review/show/7613476820?utm_medium=api&utm_source=rss) [![Cromorama: Come il colore ha cambiato il nostro sguardo](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505808761l/36266532._SX98_.jpg)](https://www.goodreads.com/review/show/5993206761?utm_medium=api&utm_source=rss)
 
 ## Anime and manga's stats
 
