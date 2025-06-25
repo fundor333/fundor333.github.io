@@ -95,3 +95,6 @@ weekly: ## Weekly script
 
 precommit: ## Run pre-commit hooks
 	@git add . & poetry run pre-commit run
+
+micro: ## Run microblog script
+	@python3 make-post.py micro
