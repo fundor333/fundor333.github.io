@@ -56,11 +56,11 @@ def post_fc():
 def micro_fc():
     print("Make a micro")
     name = input("Give me the title\n")
-    year = str(datetime.datetime.now().year)
-    month = str(datetime.datetime.now().month)
+    year = str(datetime.datetime.now().year).rjust(4, "0")
+    month = str(datetime.datetime.now().month).rjust(2, "0")
     title = name_cleaning(name)
 
-    generated = f"{year.rjust(4, "0")}/{month.rjust(2, "0")}/{title}"
+    generated = f"{year}/{month}/{title}"
     os.system(f"hugo new micro/{generated}/index.md")
     print(f"Generated {generated}/index.md")
 
