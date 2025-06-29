@@ -1,13 +1,3 @@
-.author {
-	margin: 0;
-}
-
-.center-img {
-	display: flex;
-	justify-content: center;
-	width: 80%;
-}
-
 .menu {
 	.trigger {
 		float: left;
@@ -22,10 +12,4 @@
 			position: relative;
 		}
 	}
-}
-
-small,
-aside p {
-	font-size: smaller;
-	opacity: 0.9;
 }

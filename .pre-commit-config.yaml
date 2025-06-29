@@ -47,3 +47,8 @@ repos:
             "flake8-implicit-str-concat",
             "pydocstyle>=5.0.0",
           ]
+  - repo: https://github.com/oxipng/oxipng
+    rev: v9.1.4
+    hooks:
+      - id: oxipng
+        args: ["-o", "4", "--alpha"]
