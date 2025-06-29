@@ -1,0 +1,31 @@
+.author {
+	margin: 0;
+}
+
+.center-img {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+
+.menu {
+	.trigger {
+		float: left;
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.menu {
+		.menu-icon {
+			position: relative;
+		}
+	}
+}
+
+small,
+aside p {
+	font-size: smaller;
+	opacity: 0.9;
+}

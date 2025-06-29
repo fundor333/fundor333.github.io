@@ -1,0 +1,66 @@
+#webmentions {
+	margin: 0;
+	position: relative;
+	z-index: 100;
+	line-height: 1.2em;
+
+	.comments {
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+
+	h2 {
+		font-size: medium;
+		margin: 0;
+		padding: 2px;
+	}
+
+	.reacts img {
+		margin: 3px -1ex 8px 0;
+	}
+
+	img.missing {
+		border: dashed black 1px;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 4px;
+	}
+
+	li {
+		text-indent: -1em;
+		padding-left: 1em;
+	}
+
+	a.reaction {
+		position: relative;
+		text-decoration: none;
+		margin-right: 0;
+		letter-spacing: -1ex;
+		margin-right: 3ex;
+
+		img {
+			max-height: 3em;
+			width: auto;
+			margin-right: -1ex;
+			border-radius: 25%;
+		}
+
+		sub {
+			font-size: 50%;
+		}
+	}
+
+	.comments li {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+
+		.text {
+			font-style: italic;
+			text-decoration: none;
+		}
+	}
+}

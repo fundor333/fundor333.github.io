@@ -1,0 +1,26 @@
+@keyframes enterIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 100;
+	}
+}
+@media only screen and (min-width: 768px) {
+	#pridecodes-code-corner-svg {
+		width: 150px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#pridecodes-code-corner-svg {
+		width: 75px;
+	}
+}
+#pridecodes-code-corner-svg {
+	animation: enterIn 2s;
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		transform: scale(1.1);
+		transform-origin: left top;
+	}
+}
