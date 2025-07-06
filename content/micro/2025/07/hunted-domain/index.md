@@ -1,10 +1,10 @@
 ---
-title: "Hunted Domain"
+title: Hunted Domain
 date: 2025-07-06T01:51:04+02:00
 description: Haunted domain
+tags:
 - haunt
 - domain
-tags:
 categories:
 
 reply:
