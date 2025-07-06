@@ -1,18 +1,11 @@
 ---
-title: Week Note Nº 27/2025
-date: '2025-07-06T09:00:00+01:00'
-lastmod: '2025-07-06T09:00:00+01:00'
-tags:
-- week note
-type: weeknote
-summary: Random notes for week 27 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/114805963010753124
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '114805963010753124'
+title: "Week Note Nº 27/2025"
+date: "2025-07-06T09:00:00+01:00"
+lastmod: "2025-07-06T09:00:00+01:00"
+tags: ["week note"]
+type : "weeknote"
+summary: "Random notes for week 27 of 2025"
+draft: False
 ---
 
 - OK why is KPop Demon Hunters so good?
@@ -22,6 +15,8 @@ comments:
 
 ## Suggested Reading Links/Posts
 - [Before you buy a domain name, first check to see if it's haunted |  Bryan Braun - Frontend Developer](https://www.bryanbraun.com/2024/10/25/before-you-buy-a-domain-name-first-check-to-see-if-its-haunted/?utm_source=fundor333.com)
+- [My thoughts about InCoWriMo](https://www.maaikebrinkhof.nl/my-thoughts-about-incowrimo/?utm_source=fundor333.com)
+- [Humanity hates people.](https://www.maaikebrinkhof.nl/humanity-hates-people/?utm_source=fundor333.com)
 - [Making My Own Hacktoberfest T-Shirts – Terence Eden’s Blog](https://shkspr.mobi/blog/2025/07/making-my-own-hacktoberfest-t-shirts/?utm_source=fundor333.com)
 - [Python eBook Fourth of July Sale - Mouse Vs Python](https://www.blog.pythonlibrary.org/2025/07/03/python-ebook-fourth-of-july-sale/?utm_source=fundor333.com)
 - [Why do I want to post?](https://json.blog/2025/07/01/why-do-i-want-to.html?utm_source=fundor333.com)
@@ -31,6 +26,8 @@ comments:
 - [Creating a Website with Sphinx and Markdown - Mouse Vs Python](https://www.blog.pythonlibrary.org/2025/07/01/creating-a-website-with-sphinx-and-markdown/?utm_source=fundor333.com)
 - [Rubenerd: Ceasing my use of Creative Commons](https://rubenerd.com/ceasing-my-use-of-creative-commons/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 27/2025](https://fundor333.com/weeknotes/2025/27/?utm_source=fundor333.com)
+- [Hunted Domain](https://fundor333.com/micro/2025/07/hunted-domain/?utm_source=fundor333.com)
 - [Making a Katsudon](https://fundor333.com/micro/2025/07/making-a-katsudon/?utm_source=fundor333.com)
 
 ## My Links
