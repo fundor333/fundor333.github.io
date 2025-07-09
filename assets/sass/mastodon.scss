@@ -1,0 +1,131 @@
+.toot {
+	--toot-bg: var(--entry);
+	--toot-border: rgba(0, 0, 0, 0.1);
+	--toot-radius: 12px;
+	--toot-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+	background: var(--toot-bg);
+	border: 1px solid var(--toot-border);
+	border-radius: var(--toot-radius);
+	box-shadow: var(--toot-shadow);
+	padding: 16px;
+	margin: 1.5rem auto;
+	max-width: 600px;
+	font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+.dark .toot {
+	--toot-border: rgba(255, 255, 255, 0.1);
+	--toot-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.toot-header {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+
+.toot-profile img {
+	width: 48px;
+	height: 48px;
+	border-radius: 4px;
+	display: block;
+}
+
+.toot-author {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.toot-author-name {
+	color: var(--primary);
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.toot-author-handle {
+	color: var(--secondary);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.toot-content {
+	color: var(--content);
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 12px 0;
+}
+
+.toot-content p {
+	margin: 0 0 12px;
+}
+
+.toot-content p:last-child {
+	margin-bottom: 0;
+}
+
+.toot-content a {
+	color: #2b90d9;
+	text-decoration: none;
+}
+
+.toot-content a:hover {
+	text-decoration: underline;
+}
+
+.toot-media-grid {
+	display: grid;
+	grid-gap: 8px;
+	margin: 12px 0;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.toot-media-grid[data-count="1"] {
+	grid-template-columns: 1fr;
+}
+
+.toot-media-grid[data-count="2"] {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.toot-media-grid[data-count="3"] {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.toot-media-grid[data-count="3"] > :first-child {
+	grid-column: 1 / -1;
+}
+
+.toot-media-grid[data-count="4"] {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.toot-media-item img {
+	width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 4px;
+}
+
+.toot-footer {
+	margin-top: 12px;
+	padding-top: 12px;
+	border-top: 1px solid var(--toot-border);
+	color: var(--secondary);
+	font-size: 14px;
+}
+
+.toot-date {
+	color: inherit;
+	text-decoration: none;
+}
+
+.toot-date:hover {
+	text-decoration: underline;
+}

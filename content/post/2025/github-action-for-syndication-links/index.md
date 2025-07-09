@@ -26,11 +26,11 @@ A lot of time ago I implement the Webmention in my site following a lot of blogp
 
 One of them was a bigger ispiration for my implementation[^indiewebify] and I have some chat with the author of the post over Mastodon for the implementation of the syndications link in a static site[^synd] and how to implement it.
 
-{{< mastodon "https://mastodon.social/@fundor333/108752916197327869">}}
+{{< toot instance="mastodon.social" id="108752916197327869">}}
 
 <br><hr>
 
-{{< mastodon "https://fosstodon.org/@chringel/108754642028626230" >}}
+{{< toot instance="fosstodon.org" id="108754642028626230" >}}
 
 
 After 3 years I find the solution in a post about webmetions!

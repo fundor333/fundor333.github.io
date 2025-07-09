@@ -26,7 +26,7 @@ series:
 I am a HUGE RSS reader so sometime I find something interesting and I want to read the full post.
 This time I find some article about this toot about personal website in the era of social network. [^original] [^response]
 
-{{< mastodon "https://fosstodon.org/@JasonBrewster/112696028819666648" >}}
+{{< toot instance="fosstodon.org" id="112696028819666648"  >}}
 
 [^original]: [Why Have a Personal Site Instead of Social Media?](https://kevquirk.com/blog/why-have-a-personal-site-instead-of-social-media) the original post which is a response to the mastodon twoot
 

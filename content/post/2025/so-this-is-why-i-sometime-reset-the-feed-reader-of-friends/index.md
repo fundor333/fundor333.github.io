@@ -30,9 +30,9 @@ syndication:
 
 I have a friend who read my blog using my feed. And sometime he pings me for some problem with the feed, like a drop of all the article as new
 
-{{<mastodon "https://social.lol/@robb/113854214799861227">}}
+{{<toot instance="social.lol" id="113854214799861227">}}
 
-{{<mastodon "https://mastodon.social/@andreagrandi/113854638640440084" >}}
+{{<toot instance="mastodon.social" id="113854638640440084" >}}
 
 And after read some other post with the same problem ( [Robb Knight problem with feed reader](https://rknight.me/notes/202501190902/) [Kev other problem with feed reader](https://kevquirk.com/notes/20250528-1702?utm_source=fundor333.com&utm_medium=link&utm_campaign=blogging&ref=fundor333.com) ) I understand a little this: Atom is newer and superior than Rss.
 

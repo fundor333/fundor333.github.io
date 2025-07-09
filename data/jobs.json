@@ -5,7 +5,7 @@
 		"inizio": "05/2021",
 		"roles": [
 			{
-				"description": "Autodeploy and some Wordpress automation. GitLab, MariaDB, Bash and Nginx",
+				"description": "Develop and update auto-deploy and some Wordpress automation. GitLab, MariaDB, Bash and Nginx",
 				"role": "Dev Ops"
 			},
 			{
