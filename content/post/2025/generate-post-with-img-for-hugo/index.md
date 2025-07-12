@@ -1,8 +1,8 @@
 ---
-title: "Generate Post With Img for Hugo"
-date: 2025-07-12T08:36:34+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: ""
+title: Generate Post With Img for Hugo
+date: 2025-07-12 08:36:34+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: ''
 description: How I create new post on Hugo and generate an image as cover
 tags:
 - image
@@ -12,16 +12,21 @@ tags:
 categories:
 - dev
 - fingerfood
-
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Hugo tricks
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
+syndication:
+- https://mastodon.social/@fundor333/114838916912095814
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '114838916912095814'
 ---
 
 Some days ago I find a new post from a blog I follow about "[Open Graph Meta Tags on Hugo and WordPress Blogs](https://www.burgeonlab.com/blog/hugo-and-wordpress-open-graph-meta-tags/)" as a toot
