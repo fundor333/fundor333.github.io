@@ -13,13 +13,13 @@
             {{ if eq .Type "post" }}
             <i class="fa-regular fa-typewriter"></i> {{.Site.Params.Author.name }} |
             {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
-            {{ with .Date }}
+            {{- with .Date }}
             {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
             <i class="fa-regular fa-calendar-range"></i>
             <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished">
               {{ . | time.Format $configDateFormat }}
             </time> |
-            {{ end }}
+            {{ end -}}
             <i class="fa-regular fa-mug-tea"></i></i> Reading time {{.ReadingTime}} minutes |
             <i class="fa-regular fa-pen-nib"></i></i> Word count {{.WordCount}}
             {{ end }}
