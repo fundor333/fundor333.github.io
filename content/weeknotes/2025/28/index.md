@@ -1,11 +1,18 @@
 ---
-title: "Week Note Nº 28/2025"
-date: "2025-07-13T09:00:00+01:00"
-lastmod: "2025-07-13T09:00:00+01:00"
-tags: ["week note"]
-type : "weeknote"
-summary: "Random notes for week 28 of 2025"
-draft: False
+title: Week Note Nº 28/2025
+date: '2025-07-13T09:00:00+01:00'
+lastmod: '2025-07-13T09:00:00+01:00'
+tags:
+- week note
+type: weeknote
+summary: Random notes for week 28 of 2025
+draft: false
+syndication:
+- https://mastodon.social/@fundor333/114844912241288485
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '114844912241288485'
 ---
 
 - Buy and start a new Bullet Journal (Leuchtturm1917 A5 - Dotted - Sagge color)
