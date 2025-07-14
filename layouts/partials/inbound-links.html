@@ -1,0 +1,23 @@
+{{ $currentPage := . }}
+{{ $backlinks := slice }}
+
+<h1>Pizza Backlinks</h1>
+{{ range where .Site.RegularPages "Type" "post" }}
+    {{ $content := .Content }}
+    {{ if findRE (printf "<a href=\"%s\">" $currentPage.Permalink) $content }}
+        {{ $backlinks = $backlinks | append . }}
+    {{ end }}
+{{ end }}
+
+{{ $backlinks }}
+
+{{ if gt (len $backlinks) 0 }}
+  <div class="backlinks">
+    <h3>Backlinks:</h3>
+    <ul>
+      {{ range $backlinks }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
