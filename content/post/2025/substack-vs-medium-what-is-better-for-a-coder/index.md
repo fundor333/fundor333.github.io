@@ -26,7 +26,7 @@ So I think a dev must share knowledge in the web. Somebody help people on StackO
 In the last _X_ years[^1] I understand the important of blogging and why a dev or a coder need to write a blog/newsletter/magazine about what is doing[^2] and how big time sink is developing and maintaining a custom blog so I have this question:
 
 [^1]: Where _X_ is a big but not too big number
-[^2]: This is also explained in one of my [old post](https://fundor333.com/post/2020/good-developer-must-be-blogger/)
+[^2]: This is also explained in one of my [old post]({{< ref "photos/2025/square-square-square-and-square" >}})
 
 > For sharing Dev/Coding experiences is better Medium or StackOverflow?[^3]
 

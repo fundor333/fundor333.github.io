@@ -28,14 +28,14 @@ series:
 ## The story so far
 
 Some time ago I wrote a post about _lazy loading_ and _WebP_ in _Hugo_ [^1] and how I implemented it.
-[^1]: Fundor333 - [Hugo With Lazy Loading and Webp](/post/2021/hugo-with-lazy-loading-and-webp/)
+[^1]: Fundor333 - [Hugo With Lazy Loading and Webp]({{< ref "post/2021/hugo-with-lazy-loading-and-webp" >}})
 
 When you add image in your Hugo's site you also launch some script for some image optimization.
 Some problems come from the custom script for the build, were you need to have other code install in your machine or wherever you compile your static site.
 
 It was a good implementation and a fast one but some time after I find a better way to implement better way to serve img in a static site, so I wrote a new article [^2] where I describe the implementation with a "Hugo's way" with a internal pipeline.
 
-[^2]: Fundor333 - [Generate WebP and AVIF with Hugo](/post/2021/webp-and-avif-with-hugo-generator/)
+[^2]: Fundor333 - [Generate WebP and AVIF with Hugo]({{< ref "post/2021/webp-and-avif-with-hugo-generator" >}})
 
 In this implementation I combine as find in a blog post [^5] the _srv_ html tag [^src-tag] in the _picture_ tag [^picture-tag] without the Avif format file[^avif]
 

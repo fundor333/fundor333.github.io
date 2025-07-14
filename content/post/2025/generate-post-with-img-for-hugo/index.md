@@ -37,7 +37,7 @@ and I find I do the same thing and some more. I generate a default cover because
 
 ## How I generate the post?
 
-When I write a post I launch a [makefile command](/post/2021/the-team-makefile/) and it launch two command for me:
+When I write a post I launch a [makefile command]({{< ref "post/2021/the-team-makefile" >}}) and it launch two command for me:
 
 1. Generate a new post with hugo new
 2. Generate a cover with my python script

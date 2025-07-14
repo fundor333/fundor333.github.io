@@ -32,7 +32,7 @@ So I write a tool for check all the point: [Server Grimoire](https://github.com/
 
 ## How to work?
 
-It is a terminal app, so work all into your console. All the configs and the data are into two *dotfiles*, one called *.servergrimoire_config* and *.servergrimoire_data* (config and data respectively) and can be backup like all [dotfiles](/tags/dotfiles/).
+It is a terminal app, so work all into your console. All the configs and the data are into two *dotfiles*, one called *.servergrimoire_config* and *.servergrimoire_data* (config and data respectively) and can be backup like all [dotfiles]({{< ref "tags/dotfiles" >}}).
 
 So for start I need to register some urls like google and amazon for example
 

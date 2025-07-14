@@ -75,7 +75,7 @@ First are the data structure: json, with the name of the file is an hash of the 
 }
 ```
 
-For example this is my data for [this post](https://fundor333.com/photos/2025/square-square-square-and-square/). I choose Json because I can make check on it and it is a beautiful format for data
+For example this is my data for [this post]({{< ref "photos/2025/square-square-square-and-square" >}}). I choose Json because I can make check on it and it is a beautiful format for data
 
 ### The Scraper script
 

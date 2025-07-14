@@ -17,7 +17,7 @@ series:
 - Tech News
 ---
 
-This post is a follow up to one of my old post: [Microsoft buy Atom, Electron and Open Source](/post/2018/microsoft-buy-atom-electron-and-open-source).
+This post is a follow up to one of my old post: [Microsoft buy Atom, Electron and Open Source]({{< ref "/post/2018/microsoft-buy-atom-electron-and-open-source" >}}).
 
 ## We start at the beginning
 
@@ -26,7 +26,7 @@ This story start with a tweet. I was scrolling on *Twitter* in June 2018 and I s
 
 So I search more and find the [official blog's post](https://blogs.microsoft.com/blog/2018/06/04/microsoft-github-empowering-developers/) of the acquisition.
 
-After reading it and some more research I write a [post](/post/2018/microsoft-buy-atom-electron-and-open-source).
+After reading it and some more research I write a [post]({{< ref "/post/2018/microsoft-buy-atom-electron-and-open-source" >}}).
 
 ## The big questions
 
