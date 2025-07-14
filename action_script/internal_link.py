@@ -49,7 +49,9 @@ def get_internal_links_pointing_to_pages(sitemap_url):
             page_response.raise_for_status()
             page_soup = BeautifulSoup(page_response.content, "html.parser")
 
-            for link in page_soup.find_all("a", href=True):
+            for link in page_soup.find_all(
+                "a", {"class": "interlink-script"}, href=True
+            ):
                 href = link.get("href")
                 absolute_href = urljoin(page_url, href)
                 parsed_absolute_href = urlparse(absolute_href)
