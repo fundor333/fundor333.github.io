@@ -1,39 +1,35 @@
 ---
-title: Week Note Nº 29/2025
-date: '2025-07-20T09:00:00+01:00'
-lastmod: '2025-07-20T09:00:00+01:00'
-tags:
-- week note
-type: weeknote
-summary: Random notes for week 29 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/114884549300366620
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '114884549300366620'
+title: "Week Note Nº 29/2025"
+date: "2025-07-20T09:00:00+01:00"
+lastmod: "2025-07-20T09:00:00+01:00"
+tags: ["week note"]
+type : "weeknote"
+summary: "Random notes for week 29 of 2025"
+draft: False
 ---
 
 - Testing some of the hugo query for stuff
 
 ## Suggested Reading Links/Posts
-- [Building a Personal Monorepo for Writing · Andrew Stiefel](https://andrewstiefel.com/monorepo?utm_source=fundor333.com)
-- [Communicating the indie web | James' Coffee Blog](https://jamesg.blog/2025/07/19/communicating-the-indie-web/?utm_source=fundor333.com)
-- [Futures for the web | James' Coffee Blog](https://jamesg.blog/2025/07/19/futures-for-the-web/?utm_source=fundor333.com)
-- [How to Customize ReText: Python Markdown Editor - Burgeon Lab](https://www.burgeonlab.com/blog/customize-retext-markdown-editor/?utm_source=fundor333.com)
+- [No. 10: My Analogue Station - by Chelsea Park](https://wordsinthemargins.substack.com/p/no-10-my-analogue-station?utm_source=fundor333.com)
 - [Summer Pen Show Schedule and D.C. and San Francisco Pen Show Details — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2025/7/19/summer-pen-show-schedule-and-dc-and-san-francisco-pen-show-details?utm_source=fundor333.com)
+- [How to Customize ReText: Python Markdown Editor - Burgeon Lab](https://www.burgeonlab.com/blog/customize-retext-markdown-editor/?utm_source=fundor333.com)
+- [Futures for the web | James' Coffee Blog](https://jamesg.blog/2025/07/19/futures-for-the-web/?utm_source=fundor333.com)
+- [Communicating the indie web | James' Coffee Blog](https://jamesg.blog/2025/07/19/communicating-the-indie-web/?utm_source=fundor333.com)
+- [Building a Personal Monorepo for Writing · Andrew Stiefel](https://andrewstiefel.com/monorepo?utm_source=fundor333.com)
 - [Book Review: Problems Have No Sex – Caroline Haslett (1949) – Terence Eden’s Blog](https://shkspr.mobi/blog/2025/07/book-review-problems-have-no-sex-caroline-haslett-1949/?utm_source=fundor333.com)
 - [Custom CLI tool to link Mastodon posts and blog posts : Juha-Matti Santala](https://hamatti.org/posts/Custom-CLI-tool-to-link-Mastodon-posts-and-blog-posts/?utm_source=fundor333.com)
 - [Comparing Claude Code vs OpenCode (and testing different models)](https://www.andreagrandi.it/posts/comparing-claude-code-vs-opencode-testing-different-models/?utm_source=fundor333.com)
 - [The Mad Scientist Method of Mixing Your Own Fountain Pen Ink Colors – The Well-Appointed Desk](https://www.wellappointeddesk.com/2025/07/the-mad-scientist-method-of-mixing-your-own-fountain-pen-ink-colors/?utm_source=fundor333.com)
 - [Tattooing Your Traveler’s Notebook: Leather Emboss (A Personal Story)](https://www.scriptionstudio.com/post/tattooing-your-traveler-s-notebook-leather-emboss-a-personal-story?utm_source=fundor333.com)
 - [Moving On in 2025: Reclaiming My Creative Journey with Chronodex](https://www.scriptionstudio.com/post/moving-on-in-2025-reclaiming-my-creative-journey-with-chronodex?utm_source=fundor333.com)
+- [Designing Your Own Life: From Reaction to Intention](https://www.scriptionstudio.com/post/designing-your-own-life-from-reaction-to-intention?utm_source=fundor333.com)
 - [Leveling Up with Tea | Olive Octopus](https://oliveoctopus.ink/lvluptea.htm?utm_source=fundor333.com)
 - [Dominant Industry Ink Archiving Book | Olive Octopus](https://oliveoctopus.ink/inkarchivingbook.htm?utm_source=fundor333.com)
 - [Dominant Industry Ink Archiving Book: A Log of Elixir | Olive Octopus](https://oliveoctopus.ink/inkarchivingbook2.htm?utm_source=fundor333.com)
-- [Designing Your Own Life: From Reaction to Intention](https://www.scriptionstudio.com/post/designing-your-own-life-from-reaction-to-intention?utm_source=fundor333.com)
 - [120 Col-o-dex Cards | Olive Octopus](https://oliveoctopus.ink/colodex-120.htm?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 29/2025](https://fundor333.com/weeknotes/2025/29/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
