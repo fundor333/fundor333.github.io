@@ -1,11 +1,18 @@
 ---
-title: "Week Note Nº 29/2025"
-date: "2025-07-20T09:00:00+01:00"
-lastmod: "2025-07-20T09:00:00+01:00"
-tags: ["week note"]
-type : "weeknote"
-summary: "Random notes for week 29 of 2025"
-draft: False
+title: Week Note Nº 29/2025
+date: '2025-07-20T09:00:00+01:00'
+lastmod: '2025-07-20T09:00:00+01:00'
+tags:
+- week note
+type: weeknote
+summary: Random notes for week 29 of 2025
+draft: false
+syndication:
+- https://mastodon.social/@fundor333/114884549300366620
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '114884549300366620'
 ---
 
 - Testing some of the hugo query for stuff
