@@ -1,9 +1,9 @@
 import datetime
 import os
 import re
-from PIL import Image, ImageDraw, ImageFont  # 👉️ Import modules from PIL
 import typer
 from typing import Annotated
+from PIL import Image, ImageDraw, ImageFont
 
 
 def generate_img(message: str, path: str):

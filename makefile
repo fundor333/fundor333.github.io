@@ -48,7 +48,7 @@ run: clean  ## Build the site cleaning all
 
 .PHONY: new
 new: ## Make new object for the blog
-	@python3 make-post.py
+	@poetry run python3 make-post.py
 
 characters: ## Sorting characters
 	@python3 sorting_characters.py
@@ -97,4 +97,4 @@ precommit: ## Run pre-commit hooks
 	@git add . & poetry run pre-commit run
 
 micro: ## Run microblog script
-	@python3 make-post.py micro
+	@poetry run python3 make-post.py micro
