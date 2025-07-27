@@ -4,7 +4,6 @@ categories: null
 date: 2025-07-26 21:44:17+02:00
 description: null
 like: null
-mastodon_reply: true
 reply: https://mastodon.social/@lordmatt/114921189342113182
 repost: null
 rsvp: null
