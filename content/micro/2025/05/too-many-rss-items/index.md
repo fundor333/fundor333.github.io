@@ -1,20 +1,19 @@
 ---
-title: "Too Many Rss Items"
-date: 2025-05-29T00:42:53+02:00
-description:
-tags:
-categories:
-
-reply: https://mastodon.social/@andreagrandi/113854638640440084
-repost:
-like:
-rsvp:
-bookmark:
-
+bookmark: null
+categories: null
 comments:
   host: mastodon.social
+  id: null
   username: fundor333
-  id:
+date: 2025-05-29 00:42:53+02:00
+description: null
+like: null
+mastodon_reply: true
+reply: https://mastodon.social/@andreagrandi/113854638640440084
+repost: null
+rsvp: null
+tags: null
+title: Too Many Rss Items
 ---
 
 I am not the only one who fuck up the feed of a blog
