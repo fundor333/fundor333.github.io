@@ -6,7 +6,8 @@ description: null
 like: null
 preview_text_from_reply: The TikTok ban, the Musk Twitter takeover, the Facebook moderation
   policy changes, the Republicans’ rapidly intensifying crackdowns on speech... let
-  these be the proof you needed to move anything you ...
+  these be the proof you needed to move anything you care about online to a space
+  you control.Digital sovereignty is more important than ever.
 reply: https://www.mollywhite.net/micro/entry/202501190959
 repost: null
 rsvp: null

@@ -8,9 +8,14 @@ comments:
 date: 2025-07-27 17:16:12+02:00
 description: null
 like: null
-preview_text_from_reply: I think the problem is not that webmentions are not used
+preview_text_from_reply: "I think the problem is not that webmentions are not used
   enough, but that people in general have still not left all the centralized walled
-  gardens to build their personal web presences with which they...
+  gardens to build their personal web presences with which they could make better
+  use of webmentions and comparable. I think the fediverse/ActivityPub side of things
+  is a step towards the right direction, but I think it is too easy to “just get on
+  Mastodon” and leave it at that, in terms of leaving the walled-gardens. And oh hey,
+  you got me off my butt and to go and fix some things in my webmentions implementation
+  before I could write this reply to you, so thanks. \U0001F605"
 reply: https://www.ottorask.com/blog/webmentions-are-not-dying
 repost: null
 rsvp: null
