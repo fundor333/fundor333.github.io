@@ -7,16 +7,17 @@ readme = "README.md"
 packages = [{ include = "fundor333" }]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 feedparser = "*"
 requests = "*"
 python-dotenv = "*"
 weeknotebot = "*"
-pillow = "^11.2.1"
-beautifulsoup4 = "^4.13.4"
-pyyaml = "^6.0.2"
-lxml = "^5.4.0"
-typer = "^0.16.0"
+pillow = "*"
+beautifulsoup4 = "*"
+pyyaml = "*"
+lxml = "*"
+typer = "*"
+python-frontmatter = "^1.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
