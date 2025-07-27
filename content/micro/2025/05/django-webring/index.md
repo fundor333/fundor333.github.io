@@ -5,6 +5,9 @@ categories:
 date: 2025-05-23 23:41:06+02:00
 description: null
 like: null
+mastodon_id: '114359764809777726'
+mastodon_instance: mastodon.social
+mastodon_reply: true
 reply: https://mastodon.social/@webology/114359764809777726
 repost: null
 rsvp: null

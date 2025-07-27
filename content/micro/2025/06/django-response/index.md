@@ -8,6 +8,9 @@ comments:
 date: 2025-06-16 01:19:14+02:00
 description: null
 like: null
+mastodon_id: '114689689606537892'
+mastodon_instance: fosstodon.org
+mastodon_reply: true
 reply: https://fosstodon.org/@adamchainz/114689689606537892
 repost: null
 rsvp: null

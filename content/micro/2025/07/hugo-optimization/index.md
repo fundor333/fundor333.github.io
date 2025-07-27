@@ -4,6 +4,9 @@ categories: null
 date: 2025-07-13 01:41:54+02:00
 description: null
 like: null
+mastodon_id: '114841141517679556'
+mastodon_instance: fosstodon.org
+mastodon_reply: true
 reply: https://fosstodon.org/@eclecticpassions/114841141517679556
 repost: null
 rsvp: null

@@ -4,6 +4,9 @@ categories: null
 date: 2025-07-08 22:34:36+02:00
 description: Little response to post
 like: null
+mastodon_id: '114818281454845557'
+mastodon_instance: fosstodon.org
+mastodon_reply: true
 reply: https://fosstodon.org/@eclecticpassions/114818281454845557
 repost: null
 rsvp: null
