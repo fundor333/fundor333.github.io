@@ -8,6 +8,8 @@ comments:
 date: 2025-05-29 00:42:53+02:00
 description: null
 like: null
+mastodon_id: '113854638640440084'
+mastodon_instance: mastodon.social
 mastodon_reply: true
 reply: https://mastodon.social/@andreagrandi/113854638640440084
 repost: null
