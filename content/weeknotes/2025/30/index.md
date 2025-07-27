@@ -1,18 +1,11 @@
 ---
-title: Week Note Nº 30/2025
-date: '2025-07-27T09:00:00+01:00'
-lastmod: '2025-07-27T09:00:00+01:00'
-tags:
-- week note
-type: weeknote
-summary: Random notes for week 30 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/114924184280999333
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '114924184280999333'
+title: "Week Note Nº 30/2025"
+date: "2025-07-27T09:00:00+01:00"
+lastmod: "2025-07-27T09:00:00+01:00"
+tags: ["week note"]
+type : "weeknote"
+summary: "Random notes for week 30 of 2025"
+draft: False
 ---
 
 - Testing Ghosttly as my main terminal
@@ -20,6 +13,7 @@ comments:
 - Making a notebook with some of my photo and studing all the errors
 
 ## Suggested Reading Links/Posts
+- [Pen and Notebook frustrations | Baty.net](https://baty.net/posts/2025/07/pen-and-notebook-frustrations/?utm_source=fundor333.com)
 - [Ghostty is the hot new terminal and it’s out now](https://birchtree.me/blog/ghostty-is-the-hot-new-terminal-and-its-out-now/?utm_source=fundor333.com)
 - [My lil' Ghostty terminal config](https://birchtree.me/blog/my-lil-ghosty-terminal-config-2/?utm_source=fundor333.com)
 - [Minifying HTML on my Jekyll website – alexwlchan](https://alexwlchan.net/2025/minifying-html/?ref=rss&utm_source=fundor333.com)
@@ -29,6 +23,9 @@ comments:
 - [TIL: Making My First Pull Request on GitHub - Burgeon Lab](https://www.burgeonlab.com/blog/my-first-github-pull-request/?utm_source=fundor333.com)
 - [Kobe Ginza Gold Sepia Fountain Pen Ink Review — The Pen Addict](https://www.penaddict.com/blog/2025/7/21/kobe-ginza-gold-sepia-fountain-pen-ink-review?utm_source=fundor333.com)
 ## New post from my blog
+- [Re](https://fundor333.com/micro/2025/07/re-/?utm_source=fundor333.com)
+- [Re Webmentions Are Not Dying](https://fundor333.com/micro/2025/07/re-webmentions-are-not-dying/?utm_source=fundor333.com)
+- [Week Note Nº 30/2025](https://fundor333.com/weeknotes/2025/30/?utm_source=fundor333.com)
 - [Response to Response Dnd](https://fundor333.com/micro/2025/07/response-to-response-dnd/?utm_source=fundor333.com)
 - [Dnd Response](https://fundor333.com/micro/2025/07/dnd-response/?utm_source=fundor333.com)
 
