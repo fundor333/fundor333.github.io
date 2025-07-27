@@ -25,7 +25,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch Syndication
-        run: python ./action_script/cron_replay.py
+        run: python ./action_script/replay-getter.py
 
       - name: Fetch webmentions
         env:
