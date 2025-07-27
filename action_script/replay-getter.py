@@ -3,10 +3,75 @@ import re
 import requests
 import frontmatter
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse
 
 # --- Funzioni di Supporto ---
 
 HUGO_CONTENT_PATH = "content"
+MAX_LENGHT = 800
+
+
+def get_instance_and_id(url):
+    """
+    Estrae l'istanza (hostname) e un potenziale ID da un URL,
+    basandosi su pattern comuni di Mastodon.
+
+    Args:
+        url (str): La stringa URL da analizzare.
+
+    Returns:
+        tuple: Una tupla contenente (istanza, id).
+               Restituisce (None, None) se l'URL non è ben formato
+               o se non è possibile estrarre un'istanza.
+    """
+    parsed_url = urlparse(url)
+
+    instance = parsed_url.netloc if parsed_url.netloc else None
+
+    if not instance:
+        return None, None
+
+    path_segments = parsed_url.path.strip("/").split("/")
+
+    # Logica per trovare l'ID basandosi sui pattern di Mastodon
+    if len(path_segments) >= 2 and path_segments[0].startswith("@"):
+        if len(path_segments) == 2:
+            if path_segments[1].isdigit():
+                return instance, path_segments[1]
+            else:
+                return instance, path_segments[0]
+        elif (
+            len(path_segments) > 2
+            and path_segments[1] == "statuses"
+            and path_segments[2].isdigit()
+        ):
+            return instance, path_segments[2]
+        elif len(path_segments) > 2 and path_segments[2].isdigit():
+            return instance, path_segments[2]
+
+    elif (
+        len(path_segments) >= 3
+        and path_segments[0] == "web"
+        and path_segments[1] == "statuses"
+        and path_segments[2].isdigit()
+    ):
+        return instance, path_segments[2]
+
+    elif (
+        len(path_segments) >= 4
+        and path_segments[0] == "users"
+        and path_segments[2] == "statuses"
+        and path_segments[3].isdigit()
+    ):
+        return instance, path_segments[3]
+
+    if path_segments:
+        if path_segments[-1].isdigit():
+            return instance, path_segments[-1]
+        elif path_segments[0].startswith("@") and len(path_segments) == 1:
+            return instance, path_segments[0]
+
+    return instance, None  # Nessun ID specifico trovato per URL di base o generici
 
 
 def get_page_content(url):
@@ -23,7 +88,7 @@ def get_page_content(url):
         return None
 
 
-def extract_preview_from_html(html_content, max_length=200):
+def extract_preview_from_html(html_content, max_length=MAX_LENGHT):
     """
     Estrae una porzione di testo pulita dal contenuto HTML per una preview.
     Prioritizza l'estrazione da:
@@ -146,6 +211,10 @@ def process_hugo_markdown_files(root_dir):
                         if is_mastodon_link(reply_url):
                             if post.metadata.get("mastodon_reply") is not True:
                                 post.metadata["mastodon_reply"] = True
+                                (
+                                    post.metadata["mastodon_instance"],
+                                    post.metadata["mastodon_id"],
+                                ) = get_instance_and_id(reply_url)
                                 modified = True
                                 print(
                                     f"  Flag 'mastodon_reply: true' aggiunto/aggiornato per {reply_url}"
@@ -153,6 +222,8 @@ def process_hugo_markdown_files(root_dir):
                         elif post.metadata.get("mastodon_reply") is True:
                             # Se non è più un link Mastodon ma il flag era presente, rimuovilo
                             del post.metadata["mastodon_reply"]
+                            del post.metadata["mastodon_instance"]
+                            del post.metadata["mastodon_id"]
                             modified = True
                             print(
                                 f"  Flag 'mastodon_reply' rimosso per {reply_url} (non più Mastodon)."

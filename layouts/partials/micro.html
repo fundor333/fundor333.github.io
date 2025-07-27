@@ -13,3 +13,15 @@
 {{with .Params.Rspv}}
 <p><a href="{{.}}" class="u-rsvp"><i class="fa-regular fa-calendar-heart"></i> RSPV of <span class="url-title">{{.}}</span></a></p>
 {{end}}
+
+{{with .Params.Preview_text_from_reply}}
+<blockquote class="u-in-reply-to in-reply-to">
+<p>{{.}}</p>
+</blockquote>
+{{end}}
+
+{{ if .Params.mastodon_reply}}
+
+{{ partial "toot"  . }}
+
+{{end}}

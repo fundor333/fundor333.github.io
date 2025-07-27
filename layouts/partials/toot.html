@@ -1,0 +1,63 @@
+
+{{ $masIns := .Params.mastodon_instance }}
+{{ $id :=  .Params.mastodon_id }}
+{{ $tootLink := "" }}
+{{ $handleInst := "" }}
+{{ $urlToGet := print "https://" $masIns "/api/v1/statuses/" $id }}
+
+{{ with resources.GetRemote $urlToGet }}
+    {{ $json := .Content | unmarshal }}
+    {{ if isset $json "account" }}
+        {{ $tootLink = print "https://" $masIns "@" $json.account.acct "/status/" $id }}
+        {{ $handleInst = print "@" $json.account.acct "@" $masIns }}
+    {{ end }}
+
+    {{ if isset $json "content" }}
+        <div class="toot">
+            <div class="toot-header">
+                <a class="toot-profile" href="https://{{ $masIns }}/@{{ $json.account.acct }}" rel="noopener">
+                    <img src="{{ $json.account.avatar }}"
+                         alt="Avatar for {{ $handleInst }}"
+                         loading="lazy">
+                </a>
+                <div class="toot-author">
+                    <a class="toot-author-name"
+                       href="https://{{ $masIns }}/@{{ $json.account.acct }}"
+                       rel="noopener">{{ $json.account.display_name }}</a>
+                    <a class="toot-author-handle"
+                       href="https://{{ $masIns }}/@{{ $json.account.acct }}"
+                       rel="noopener">{{ $handleInst }}</a>
+                </div>
+            </div>
+
+            <div class="toot-content">{{ $json.content | safeHTML }}</div>
+
+            {{ with $json.media_attachments }}
+                {{ $count := len . }}
+                <div class="toot-media-grid" data-count="{{ $count }}">
+                    {{ range . }}
+                        {{ if eq .type "image" }}
+                            <div class="toot-media-item">
+                                <img src="{{ .url }}"
+                                     alt=""
+                                     loading="lazy">
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            {{ end }}
+
+            <div class="toot-footer">
+                <a href="{{ $tootLink }}"
+                   class="toot-date"
+                   rel="noopener">{{ dateFormat "3:04 PM · Jan 2, 2006" $json.created_at }}</a>
+            </div>
+        </div>
+    {{ end }}
+{{ else }}
+    <div class="toot">
+        <p style="text-align: center; color: var(--secondary); margin: 0;">
+            [Source not online at time of site build.]
+        </p>
+    </div>
+{{ end }}
