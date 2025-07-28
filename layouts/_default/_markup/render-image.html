@@ -1,12 +1,12 @@
 {{- if .IsBlock -}}
   <figure>
-    <img class="center-img" src="{{ .Destination | safeURL }}"
+    <img class="center-img u-photo" src="{{ .Destination | safeURL }}"
       {{- with .PlainText }} alt="{{ . }}"{{ end -}}
     >
     {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
   </figure>
 {{- else -}}
-  <img  class="center-img"  src="{{ .Destination | safeURL }}"
+  <img  class="center-img u-photo "  src="{{ .Destination | safeURL }}"
     {{- with .PlainText }} alt="{{ . }}"{{ end -}}
     {{- with .Title }} title="{{ . }}"{{ end -}}
   >
