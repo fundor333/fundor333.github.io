@@ -1,9 +1,14 @@
 ---
-title: Ghostty Matcha
-date: 2025-07-28 17:12:47+02:00
-description: null
-tags: null
-categories: null
+title: "Ghostty VScode"
+date: 2025-07-28T17:12:47+02:00
+description:
+tags:
+- terminal
+- ghostty
+- terminalporn
+- catppuccin
+categories:
+
 reply: https://bsky.app/profile/andreagrandi.it/post/3luznu3xfoc2k
 repost: null
 like: null
