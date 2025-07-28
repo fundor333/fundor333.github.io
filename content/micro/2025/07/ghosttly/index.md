@@ -1,5 +1,5 @@
 ---
-title: "Ghosttly"
+title: "Ghostty"
 date: 2025-07-28T13:41:32+02:00
 description:
 tags:
