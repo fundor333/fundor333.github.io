@@ -1,23 +1,18 @@
 ---
-title: Week Note Nº 31/2025
-date: '2025-08-03T09:00:00+01:00'
-lastmod: '2025-08-03T09:00:00+01:00'
-tags:
-- week note
-type: weeknote
-summary: Random notes for week 31 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/114963821453547039
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '114963821453547039'
+title: "Week Note Nº 31/2025"
+date: "2025-08-03T09:00:00+01:00"
+lastmod: "2025-08-03T09:00:00+01:00"
+tags: ["week note"]
+type : "weeknote"
+summary: "Random notes for week 31 of 2025"
+draft: False
 ---
 
 - Learning to use the FuroshikI
 
 ## Suggested Reading Links/Posts
+- [A receipt printer cured my procrastination [ADHD]](https://www.laurieherault.com/articles/a-thermal-receipt-printer-cured-my-procrastination?utm_source=fundor333.com)
+- [Sono tre anni che uso un laptop incredibile: ode al mio Thinkpad x270 · Grab The Blaster](https://dottorblaster.it/2025/08/thinkpad-x270/?utm_source=fundor333.com)
 - [Loopwerk: Announcing django-generic-notifications 1.0.0](https://www.loopwerk.io/articles/2025/announcing-django-generic-notifications/?utm_source=fundor333.com)
 - ["You can't pause an online game" — how childhood gaming formed my work preferences : Juha-Matti Santala](https://hamatti.org/posts/you-cant-pause-an-online-game-how-childhood-gaming-formed-my-work-preferences/?utm_source=fundor333.com)
 - [Django: write a custom URL path converter to match given strings - Adam Johnson](https://adamj.eu/tech/2025/08/01/django-custom-url-converter-string/?utm_source=fundor333.com)
@@ -25,6 +20,7 @@ comments:
 - [Top 3 Games for Upscale Lobbies and Waiting Rooms - Walnut](https://walnutstudiolo.com/blogs/blog/top-3-games-for-lobbies-and-waiting-rooms?utm_source=fundor333.com)
 - [How to Wrap Gifts with a Bandana (The Japanese Art of Furoshiki) - Walnut](https://walnutstudiolo.com/blogs/blog/how-to-wrap-gifts-with-a-bandana-the-japanese-art-of-furoshiki?utm_source=fundor333.com)
 - [Migrating from Pelican to Hugo using Claude Code](https://sujee.dev/post/migrating-from-pelican-to-hugo-using-claude-code/?utm_source=fundor333.com)
+- [Leaving GitHub Pages for Bunny.net: My New Static Site Host - Burgeon Lab](https://www.burgeonlab.com/blog/hosting-static-sites-with-github-pages-or-bunny-net/?utm_source=fundor333.com)
 - [Loopwerk: Automate Python package releases](https://www.loopwerk.io/articles/2025/automate-python-releases/?utm_source=fundor333.com)
 - [Say Hi To Pierre | Brain Baking](https://brainbaking.com/post/2025/07/say-hi-to-pierre/?utm_source=fundor333.com)
 - [Pelikan Style Fountain Pen – The Well-Appointed Desk](https://www.wellappointeddesk.com/2025/07/pelikan-style-fountain-pen/?utm_source=fundor333.com)
@@ -37,6 +33,7 @@ comments:
 - [Run Any Project with 'r'](https://www.judy.co.uk/blog/run-any-project-with-fish/?utm_source=fundor333.com)
 - [Releasing Log Basset: an open source CLI to access Scalyr logs](https://www.andreagrandi.it/posts/releasing-log-basset-open-source-cli-access-scalyr-logs/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 31/2025](https://fundor333.com/weeknotes/2025/31/?utm_source=fundor333.com)
 - [Minature on a Shelf](https://fundor333.com/photos/2025/minature-on-a-shelf/?utm_source=fundor333.com)
 - [Furoshiki](https://fundor333.com/micro/2025/08/furoshiki/?utm_source=fundor333.com)
 - [Barnaba at Sunset](https://fundor333.com/photos/2025/barnaba-at-sunset/?utm_source=fundor333.com)
