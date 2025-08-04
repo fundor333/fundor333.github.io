@@ -1,1 +1,6 @@
-<a class="a-post interlink-script" href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }} target="_blank">{{ .Text | safeHTML }}</a>
+<a class="a-post interlink-script" href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}"{{ end }} {{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>
+  {{- .Text | safeHTML -}}
+  {{- if strings.HasPrefix .Destination "https" -}}
+  &nbsp;&nbsp;<i class="fa-whiteboard fa-semibold fa-link"></i>
+  {{- end -}}
+</a>
