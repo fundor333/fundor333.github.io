@@ -5,6 +5,8 @@
 
 <link rel="stylesheet" href="/css/webmention.css" />
 
+<script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+
 <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
 {{- $style := resources.Get "sass/add.scss" | resources.ExecuteAsTemplate "add.scss" . | toCSS (dict "targetPath" "add.css") | minify | fingerprint }}
