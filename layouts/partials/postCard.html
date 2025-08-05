@@ -2,15 +2,17 @@
     <h4 class="post-item-title">
         <a href="{{ .RelPermalink }}">
           {{if eq .Type "post" }}
-            <i class="fa-regular fa-newspaper"></i>
+            <i class="fa-whiteboard fa-semibold fa-newspaper fa-xl"></i>
           {{ else if eq .Type  "micro" }}
-            <i class="fa-regular fa-thought-bubble fa-flip-horizontal"></i>
+            <i class="fa-whiteboard fa-semibold fa-quotes fa-xl"></i>
           {{ else if eq .Type  "photos" }}
-            <i class="fa-regular fa-camera-retro"></i>
+            <i class="fa-whiteboard fa-semibold fa-camera fa-xl"></i>
           {{ else if eq .Type  "weeknote" }}
           <i class="fa-kit fa-regular-bowl-chopsticks-noodles-at fa-xl"></i>
+          {{ else if eq .Type  "now" }}
+            <i class="fa-whiteboard fa-semibold fa-skull fa-xl"></i>
           {{ else }}
-          <i class="fa-duotone fa-solid fa-sushi"></i>
+          <i class="fa-whiteboard fa-semibold fa-ghost fa-xl"></i>
           {{ end}}
           {{ .Title }}</a>
     </h4>

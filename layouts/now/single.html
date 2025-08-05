@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article class="h-entry post-entry">
+          <header class="header">
+            <h1 class="header-title p-name">{{ .Title }} <a href="/now/"><i class="fa-whiteboard fa-semibold fa-backward-step"></i></a></h1>
+
+            <div>
+              <a class="u-url" href="{{ .Permalink }}"><div style="display: none;" class="p-summary">{{ .Description }}</div></a>
+              <a rel="author" class="p-author h-card no-underline " href="{{ .Site.BaseURL }}" style="display: none;" >{{ .Site.Params.Author.name }}</a>
+            </div>
+          </header>
+            <div class="page-content e-content">
+              {{ .Content }}
+            </div>
+            {{- partial "syndication.html" . -}}
+            {{- partial "comments.html" . -}}
+          </article>
+    </main>
+</div>
+{{ end }}

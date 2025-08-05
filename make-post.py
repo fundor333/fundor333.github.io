@@ -74,12 +74,24 @@ def weeklycover():
     generate_img(file_string, f"weeknotes/{year}/{week}")
 
 
+def now_fc():
+    print("Make a now")
+    year = str(datetime.datetime.now().year).rjust(4, "0")
+    month = str(datetime.datetime.now().month).rjust(2, "0")
+    day = str(datetime.datetime.now().day).rjust(2, "0")
+
+    generated = f"{year}/{month}/{day}"
+    os.system(f"hugo new now/{generated}/{year}-{month}-{day}.md")
+    print(f"Generated {generated}/index.md")
+
+
 ANSWER = {
     "post": post_fc,
     "micro": micro_fc,
     "photo": post_photo,
     "redirect": post_redirect,
     "weekly_cover": weeklycover,
+    "now": now_fc,
 }
 
 
@@ -92,7 +104,7 @@ def main_checker():
 def main(text: Annotated[str, typer.Argument()] = None):
     if text is None:
         text = input(
-            "You need a new [post], a new [photo], a new [micro] or [weekly_cover]\n"
+            "You need a new [post], a new [photo], a new [micro], a [weekly_cover] or [now]\n"
         )
     ANSWER.get(text, main)()
 

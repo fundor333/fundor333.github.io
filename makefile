@@ -98,3 +98,6 @@ precommit: ## Run pre-commit hooks
 
 micro: ## Run microblog script
 	@poetry run python3 make-post.py micro
+
+now: ## Run now script
+	@poetry run python3 make-post.py now
