@@ -19,10 +19,10 @@
         {{ partial "bio" . }}
         <main aria-label="Content">
             <h3 class="posts-item-note" aria-label="Recent Posts">{{ T "home.recent_posts" }}</h3>
-            {{/* Show last 10 posts in reverse date order */}}
+            {{/* Show last 20 posts in reverse date order */}}
             {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
             {{ $posts := $pagesToShow.ByDate.Reverse }}
-            {{ range first 10 $posts }}
+            {{ range first 20 $posts }}
             {{ partial "postCard" . }}
             {{ end }}
             {{ if gt (len $posts) 5 }}
@@ -33,10 +33,10 @@
             </p>
             {{ end }}
             <h3 class="posts-item-note" aria-label="Recent status/toots/micropost">{{ T "home.recent_posts" }}</h3>
-            {{/* Show last 10 posts in reverse date order */}}
+            {{/* Show last 20 posts in reverse date order */}}
             {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.secondarysections }}
             {{ $posts := $pagesToShow.ByDate.Reverse }}
-            {{ range first 10 $posts }}
+            {{ range first 20 $posts }}
             {{ partial "postCard" . }}
             {{ end }}
             {{ if gt (len $posts) 5 }}
