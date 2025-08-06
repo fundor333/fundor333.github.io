@@ -23,7 +23,7 @@ main:
     name: "Now"
     url: "/now"
     weight: 28
-  - pageRef: "/explore"
-    name: "Explore"
-    url: "/explore"
+  - pageRef: "/slashpages"
+    name: "SlashPages"
+    url: "/slashpages"
     weight: 30
