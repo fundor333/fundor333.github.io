@@ -1,18 +1,11 @@
 ---
-title: Week Note Nº 32/2025
-date: '2025-08-10T09:00:00+01:00'
-lastmod: '2025-08-10T09:00:00+01:00'
-tags:
-- week note
-type: weeknote
-summary: Random notes for week 32 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115003457605843632
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115003457605843632'
+title: "Week Note Nº 32/2025"
+date: "2025-08-10T09:00:00+01:00"
+lastmod: "2025-08-10T09:00:00+01:00"
+tags: ["week note"]
+type : "weeknote"
+summary: "Random notes for week 32 of 2025"
+draft: False
 ---
 
 - Studing more slashpages for my blog
@@ -33,6 +26,7 @@ comments:
 - [Best Free Synthesizer Plugins in 2025 · Matthias Ott](https://matthiasott.com/notes/best-free-synthesizer-vst-plugins-in-2025?utm_source=fundor333.com)
 - [Adding a Dynamic Now Page in Jekyll](https://derekkedziora.com/blog/dynamic-now-page?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 32/2025](https://fundor333.com/weeknotes/2025/32/?utm_source=fundor333.com)
 - [2025 08 05](https://fundor333.com/now/2025/08/05/2025-08-05/?utm_source=fundor333.com)
 
 ## My Links
