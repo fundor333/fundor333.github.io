@@ -1,24 +1,19 @@
 ---
-title: Week Note Nº 33/2025
-date: '2025-08-17T09:00:00+01:00'
-lastmod: '2025-08-17T09:00:00+01:00'
-tags:
-- week note
-type: weeknote
-summary: Random notes for week 33 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115043094483598557
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115043094483598557'
+title: "Week Note Nº 33/2025"
+date: "2025-08-17T09:00:00+01:00"
+lastmod: "2025-08-17T09:00:00+01:00"
+tags: ["week note"]
+type : "weeknote"
+summary: "Random notes for week 33 of 2025"
+draft: False
 ---
 
 
 ## Suggested Reading Links/Posts
+- [Sunday Reading for August 17, 2025 — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2025/8/17/sunday-reading-for-august-17-2025?utm_source=fundor333.com)
 - [Claude Code Status Line Script](https://www.andreagrandi.it/posts/claude-code-status-line-script/?utm_source=fundor333.com)
 - [The Pen Addict Podcast: Episode 678 - Where Forth How You Been? — The Pen Addict](https://www.penaddict.com/blog/2025/8/14/the-pen-addict-podcast-episode-678-where-forth-how-you-been?utm_source=fundor333.com)
+- [Designing a mobile-first HTML editor | James' Coffee Blog](https://jamesg.blog/2025/08/17/designing-a-mobile-first-html-editor?utm_source=fundor333.com)
 - [New Lamy Safari and AL-Star Pens: Introducing Dark Dusk and Mint! — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2025/8/12/new-lamy-safari-and-al-star-pens-introducing-dark-dusk-and-mint?utm_source=fundor333.com)
 - [Ink Review: Teranishi Guitar Taisho Roman Haikara Innocent Mauve Ink – The Well-Appointed Desk](https://www.wellappointeddesk.com/2025/08/ink-review-teranishi-guitar-taisho-roman-haikara-innocent-mauve-ink/?utm_source=fundor333.com)
 - [GitHub Pages Alternative: SourceHut Builds + Bunny.net](https://www.burgeonlab.com/blog/migrate-github-pages-to-sourcehut-bunny/?utm_source=fundor333.com)
@@ -27,6 +22,7 @@ comments:
 - [📷 Five Notebooks from Italy - by Adam Webb](https://takenotepod.substack.com/p/five-notebooks-from-italy?utm_source=fundor333.com)
 - [25 years of blogging | Baty.net](https://baty.net/posts/2025/08/25-years-of-blogging/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 33/2025](https://fundor333.com/weeknotes/2025/33/?utm_source=fundor333.com)
 - [Federation Hosting Code](https://fundor333.com/micro/2025/08/federation-hosting-code/?utm_source=fundor333.com)
 - [Hot Hot Too Hot](https://fundor333.com/micro/2025/08/hot-hot-too-hot/?utm_source=fundor333.com)
 ## New post from my newsletter
