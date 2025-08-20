@@ -5,4 +5,7 @@
   {{ range .Params.categories }}
     #<a  class="p-category tag"  rel="tag" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
   {{ end }}
+    {{ range .Params.themes }}
+    #<a  class="p-category tag"  rel="tag" href="{{ "/themes/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
+  {{ end }}
 </p>

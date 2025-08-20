@@ -17,7 +17,7 @@
                   {{ . | time.Format $configDateFormat }}
                 </time>
                 {{ end }}
-                {{- partial "tags.html" . -}}
+                {{ partial "tags.html" . }}
 
             {{ partial "toc.html" .}}
             <div class="page-content e-content">
