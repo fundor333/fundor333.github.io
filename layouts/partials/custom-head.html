@@ -9,15 +9,17 @@
 
 <script src="https://kit.fontawesome.com/2f3b6e2e4c.js" crossorigin="anonymous"></script>
 
+<script type="module" src="/js/share-button.js"></script>
+
 {{- $style := resources.Get "sass/add.scss" | resources.ExecuteAsTemplate "add.scss" . | toCSS (dict "targetPath" "add.css") | minify | fingerprint }}
 <link href="{{ $style.RelPermalink }}" rel="stylesheet">
 
 {{ with .OutputFormats.Get "atom" }}
-        <link href="{{ .RelPermalink }}" rel="alternate" type="{{.MediaType.Type}}" title="{{ $.Site.Title }} feed - Atom">
+<link href="{{ .RelPermalink }}" rel="alternate" type="{{.MediaType.Type}}" title="{{ $.Site.Title }} feed - Atom">
 {{ end }}
 
 {{ with .OutputFormats.Get "json" }}
-        <link href="{{ .RelPermalink }}" rel="alternate" type="{{.MediaType.Type}}" title="{{ $.Site.Title }} feed - JSON">
+<link href="{{ .RelPermalink }}" rel="alternate" type="{{.MediaType.Type}}" title="{{ $.Site.Title }} feed - JSON">
 {{ end }}
 
-<meta name="p:domain_verify" content="044c46ebb9078c8301b117f84b40c0cf"/>
+<meta name="p:domain_verify" content="044c46ebb9078c8301b117f84b40c0cf" />
