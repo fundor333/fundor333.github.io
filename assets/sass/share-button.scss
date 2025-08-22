@@ -1,0 +1,43 @@
+$color_1: #fff;
+$background-color_1: #0c9;
+
+share-button {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	left: 40px;
+	color: $color_1;
+	background-color: $background-color_1;
+	border-radius: 50px;
+	text-align: center;
+
+	button {
+		background-color: transparent;
+		border: none;
+		margin: 0;
+		padding: 0;
+		text-align: inherit;
+		font: inherit;
+		border-radius: 0;
+		appearance: none;
+	}
+
+	&:not(:defined) {
+		button {
+			display: none;
+		}
+		display: none;
+	}
+
+	&:defined {
+		a {
+			display: none;
+		}
+		display: none;
+	}
+}
+
+.my-float {
+	margin-top: 22px;
+}
