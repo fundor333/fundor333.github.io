@@ -76,3 +76,18 @@ bridgy:
 dateFormatAtomFeed: "2006-01-02T15:04:05-07:00"
 dateFormatTag: "2006"
 feedUUID: "43c22089-5c06-4cc4-8fd2-5b3563d5d257"
+
+shareButtons:
+  size: small
+  networks:
+    - facebook
+    - twitter
+    - tumblr
+    - email
+    - linkedin
+    - reddit
+    - xing
+    - whatsapp
+    - hackernews
+    - vk
+    - telegram
