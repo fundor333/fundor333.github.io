@@ -1,6 +1,6 @@
 ---
 title: "Square of Textures"
-date: 2025-08-24T12:13:38+02:00
+date: 2025-08-23T12:13:38+02:00
 themes:
 - venice
 - texture
