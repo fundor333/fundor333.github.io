@@ -1,18 +1,11 @@
 ---
-title: Week Note Nº 34/2025
-date: '2025-08-24T09:00:00+01:00'
-lastmod: '2025-08-24T09:00:00+01:00'
-tags:
-- week note
-type: weeknote
-summary: Random notes for week 34 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115082729781062174
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115082729781062174'
+title: "Week Note Nº 34/2025"
+date: "2025-08-24T09:00:00+01:00"
+lastmod: "2025-08-24T09:00:00+01:00"
+tags: ["week note"]
+type : "weeknote"
+summary: "Random notes for week 34 of 2025"
+draft: False
 ---
 
 - To hot for doing anything and after that to much storm here
@@ -28,6 +21,7 @@ comments:
 - [Quick Setup: Second Device (Linux) For Blogging With Hugo](https://www.burgeonlab.com/blog/multi-device-blogging-with-hugo/?utm_source=fundor333.com)
 - [Multi Pen Versatility: Combining the Pilot 4+1 Multi Pen with the Uni Style Fit Gel Refill — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2025/8/20/multi-pen-versatility-combining-the-pilot-41-multi-pen-with-the-uni-style-fit-gel-refill?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 34/2025](https://fundor333.com/weeknotes/2025/34/?utm_source=fundor333.com)
 - [Square of Textures](https://fundor333.com/photos/2025/square-of-textures/?utm_source=fundor333.com)
 - [Red Orange Red Light](https://fundor333.com/photos/2025/red-orange-red-light/?utm_source=fundor333.com)
 
