@@ -5,12 +5,12 @@ help: ## Show this help
 install: ## Intall
 	@npm install
 	@hugo mod get -u
-	@poetry install --no-root
-	@poetry run pre-commit install
-	@poetry run pre-commit autoupdate
+	@uv install --no-root
+	@uv run pre-commit install
+	@uv run pre-commit autoupdate
 
 send_webmention: ## Send webmention from feed
-	@poetry run python send_webmention.py
+	@uv run python send_webmention.py
 
 develop: ## Run the site localy
 	@hugo server  --minify --disableFastRender --renderToMemory
@@ -48,7 +48,7 @@ run: clean  ## Build the site cleaning all
 
 .PHONY: new
 new: ## Make new object for the blog
-	@poetry run python3 make-post.py
+	@uv run python3 make-post.py
 
 characters: ## Sorting characters
 	@python3 sorting_characters.py
@@ -60,19 +60,19 @@ build: clean ## Build for dev
 
 .PHONY: syndication
 syndication: ## Syndication script
-	@poetry run python action_script/syndication-adder.py
+	@uv run python action_script/syndication-adder.py
 
 .PHONY: webmention
 webmention: ## Webmention script
-	@poetry run python action_script/webmention.py
+	@uv run python action_script/webmention.py
 
 deploy: clean characters webmention syndication## Ready to deploy
 	@npm update
-	@poetry export --without-hashes --format=requirements.txt > requirements.txt
+	@uv export --no-hashes --format requirements-txt > requirements.txt
 	@hugo mod get -u
 	@hugo --minify
 	@python mastodon2hugo.py @fundor333@mastodon.social
-	@poetry run pre-commit autoupdate
+	@uv run pre-commit autoupdate
 
 
 brodcast: clean ## Brodcast the site
@@ -94,10 +94,10 @@ weekly: ## Weekly script
 	@python3 make-post.py weekly_cover
 
 precommit: ## Run pre-commit hooks
-	@git add . & poetry run pre-commit run
+	@git add . & uv run pre-commit run
 
 micro: ## Run microblog script
-	@poetry run python3 make-post.py micro
+	@uv run python3 make-post.py micro
 
 now: ## Run now script
-	@poetry run python3 make-post.py now
+	@uv run python3 make-post.py now

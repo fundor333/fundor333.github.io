@@ -1,36 +1,37 @@
-[tool.poetry]
+[project]
 name = "fundor333-github-io"
 version = "0.1.0"
 description = ""
-authors = ["Fundor333 <fundor333@fundor333.com>"]
+authors = [{ name = "Fundor333", email = "fundor333@fundor333.com" }]
+requires-python = "~=3.12"
 readme = "README.md"
-packages = [{ include = "fundor333" }]
+dependencies = [
+    "feedparser",
+    "requests",
+    "python-dotenv",
+    "weeknotebot",
+    "pillow",
+    "beautifulsoup4",
+    "pyyaml",
+    "lxml",
+    "typer",
+    "python-frontmatter>=1.1.0,<2",
+    "bleach>=6.2.0,<7",
+]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-feedparser = "*"
-requests = "*"
-python-dotenv = "*"
-weeknotebot = "*"
-pillow = "*"
-beautifulsoup4 = "*"
-pyyaml = "*"
-lxml = "*"
-typer = "*"
-python-frontmatter = "^1.1.0"
-bleach = "^6.2.0"
-
-
-[tool.poetry.group.dev.dependencies]
-pre-commit = "^4.1.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.plugins.dotenv]
+[project.entry-points.dotenv]
 ignore = "false"
 location = ".env"
 
-[tool.poetry.requires-plugins]
-poetry-plugin-export = ">=1.8"
+[dependency-groups]
+dev = ["pre-commit>=4.1.0,<5"]
+
+[tool.hatch.build.targets.sdist]
+include = ["fundor333"]
+
+[tool.hatch.build.targets.wheel]
+include = ["fundor333"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
