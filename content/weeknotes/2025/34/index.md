@@ -1,11 +1,18 @@
 ---
-title: "Week Note Nº 34/2025"
-date: "2025-08-24T09:00:00+01:00"
-lastmod: "2025-08-24T09:00:00+01:00"
-tags: ["week note"]
-type : "weeknote"
-summary: "Random notes for week 34 of 2025"
-draft: False
+title: Week Note Nº 34/2025
+date: '2025-08-24T09:00:00+01:00'
+lastmod: '2025-08-24T09:00:00+01:00'
+tags:
+- week note
+type: weeknote
+summary: Random notes for week 34 of 2025
+draft: false
+syndication:
+- https://mastodon.social/@fundor333/115082729781062174
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115082729781062174'
 ---
 
 - To hot for doing anything and after that to much storm here
