@@ -1,27 +1,26 @@
 <footer class="footer wrapper">
 
-    <span class="footer_item"> </span>
-    {{ partial "hcard" . }}
+  <span class="footer_item"> </span>
+  {{ partial "hcard" . }}
 
-
-    <div class="footer_social-icons flex">
-        {{- partial "socialIcons.html" site.Params.socialIcons -}}
-        <p class="flex justify-center">
-          <a href='https://webring.xxiivv.com/#random' target='_blank'>
-            <img loading="lazy" width=" 30" height="30" src='https://webring.xxiivv.com/icon.white.svg' />
-          </a>
-        </p>
-        <p>
-          <a href="https://xn--sr8hvo.ws/previous">←</a>
-          <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a>
-          <a href="https://xn--sr8hvo.ws/next">→</a>
-        </p>
-        <div class="webring">
-          <webring-css site="https://fundor333.com"></webring-css>
-          <script src="https://djangowebring.com/static/webring.js"></script>
-        </div>
-      </div>
-    <small class="footer_copyright">
+  <div class="footer_social-icons flex">
+    {{- partial "socialIcons.html" site.Params.socialIcons -}}
+    <p class="flex justify-center">
+      <a href='https://webring.xxiivv.com/#random' target='_blank'>
+        <img loading="lazy" width=" 30" height="30" src='https://webring.xxiivv.com/icon.white.svg' />
+      </a>
+    </p>
+    <p>
+      <a href="https://xn--sr8hvo.ws/previous">←</a>
+      <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a>
+      <a href="https://xn--sr8hvo.ws/next">→</a>
+    </p>
+    <div class="webring">
+      <webring-css site="https://fundor333.com"></webring-css>
+      <script src="https://djangowebring.com/static/webring.js"></script>
+    </div>
+  </div>
+  <small class="footer_copyright">
     © {{ now.Format "2006" }} {{ .Site.Params.author.name }}.
     {{ T "footer.disclaimer" | safeHTML }}
   </small>
@@ -29,7 +28,7 @@
 
 {{- if .Site.Params.goToTop -}}
 <a href="#" title="{{ T "footer.go_to_top" }}" id="totop">
-    {{ partial "svgs/arrowUp.svg" (dict "height" 48 "width" 48) . }}
+  {{ partial "svgs/arrowUp.svg" (dict "height" 48 "width" 48) . }}
 </a>
 {{- end -}}
 
@@ -51,15 +50,18 @@
 </script>
 
 <script>
+$(window).on('load', function() {
+    // Seleziona tutte le immagini con la classe 'u-photo'
+    var images = $('img.u-photo');
 
-$(window).load(function(){
+    // Itera su ogni immagine trovata
+    images.each(function() {
+        // 'this' si riferisce all'elemento immagine corrente
+        var currentImage = $(this);
 
-    $.each($('u-photo'), function(){
-
-        // Set the height, hard-style!
-        $(this).attr('height', $(this).height());
-
+        // Prende l'altezza calcolata e la imposta come attributo 'height' del tag
+        var imageHeight = currentImage.height();
+        currentImage.attr('height', imageHeight);
     });
-
 });
 </script>

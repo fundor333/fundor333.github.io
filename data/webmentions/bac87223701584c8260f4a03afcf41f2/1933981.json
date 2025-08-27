@@ -1,1 +1,21 @@
-[{"type": "entry", "author": {"type": "card", "name": "ZioN1k9", "photo": "https://avatars.webmention.io/files.mastodon.social/cff7c181721f7b6d2ac02f8fb12a44cbea1f5e6f9defce1401e7a158d9a1d80d.png", "url": "https://livellosegreto.it/@n1k9"}, "url": "https://mastodon.social/@fundor333/115101286930871373#reblogged-by-109094054789012545", "published": null, "wm-received": "2025-08-27T19:46:22Z", "wm-id": 1933981, "wm-source": "https://brid.gy/repost/mastodon/@fundor333@mastodon.social/115101286930871373/109094054789012545", "wm-target": "https://fundor333.com/micro/2025/08/pydata-venezia-2025/?amp%3Butm_medium=jsonfeed&amp%3Butm_campaign=blogging&amp%3Bref=fundor333feed.com", "wm-protocol": "webmention", "repost-of": "https://fundor333.com/micro/2025/08/pydata-venezia-2025/?amp%3Butm_medium=jsonfeed&amp%3Butm_campaign=blogging&amp%3Bref=fundor333feed.com", "wm-property": "repost-of", "wm-private": false}]
+[
+	{
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "ZioN1k9",
+			"photo": "https://avatars.webmention.io/files.mastodon.social/cff7c181721f7b6d2ac02f8fb12a44cbea1f5e6f9defce1401e7a158d9a1d80d.png",
+			"url": "https://livellosegreto.it/@n1k9"
+		},
+		"url": "https://mastodon.social/@fundor333/115101286930871373#reblogged-by-109094054789012545",
+		"published": null,
+		"wm-received": "2025-08-27T19:46:22Z",
+		"wm-id": 1933981,
+		"wm-source": "https://brid.gy/repost/mastodon/@fundor333@mastodon.social/115101286930871373/109094054789012545",
+		"wm-target": "https://fundor333.com/micro/2025/08/pydata-venezia-2025/",
+		"wm-protocol": "webmention",
+		"repost-of": "https://fundor333.com/micro/2025/08/pydata-venezia-2025/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	}
+]
