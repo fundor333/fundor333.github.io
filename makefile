@@ -5,7 +5,7 @@ help: ## Show this help
 install: ## Intall
 	@npm install
 	@hugo mod get -u
-	@uv install --no-root
+	@uv sync
 	@uv run pre-commit install
 	@uv run pre-commit autoupdate
 
