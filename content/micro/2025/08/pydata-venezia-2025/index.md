@@ -1,6 +1,6 @@
 ---
-title: "PydataVe 22"
-date: 2025-08-27T16:09:19+02:00
+title: PydataVe 22
+date: 2025-08-27 16:09:19+02:00
 description: Waiting for the new event
 tags:
 - pydatave
@@ -9,14 +9,18 @@ tags:
 - data
 - pydata
 - venice
-
-categories:
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+categories: null
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
+syndication:
+- https://mastodon.social/@fundor333/115101269000557955
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115101269000557955'
 ---
 
 Waiting for tomorrow when I am going to the PyData Event in Venice 🐍👨🏻‍💻🐍
