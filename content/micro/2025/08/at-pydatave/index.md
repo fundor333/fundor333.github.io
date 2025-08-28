@@ -6,7 +6,13 @@ tags:
 - pydata
 - pydatave
 - python
-categories: 
+categories: null
+syndication:
+- https://mastodon.social/@fundor333/115107577546429660
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115107577546429660'
 ---
 
 And now I m at the PyDataVe
