@@ -15,8 +15,8 @@ dependencies = [
     "pyyaml",
     "lxml",
     "typer",
-    "python-frontmatter>=1.1.0,<2",
-    "bleach>=6.2.0,<7",
+    "python-frontmatter",
+    "bleach",
 ]
 
 [project.entry-points.dotenv]

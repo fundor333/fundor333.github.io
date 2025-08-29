@@ -9,6 +9,13 @@ install: ## Intall
 	@uv run pre-commit install
 	@uv run pre-commit autoupdate
 
+update: ## Update the site dipendency
+	@npm update
+	@uv lock
+	@uv sync
+	@uv run pre-commit autoupdate
+	@uv export --no-hashes --format requirements-txt > requirements.txt
+
 send_webmention: ## Send webmention from feed
 	@uv run python send_webmention.py
 
