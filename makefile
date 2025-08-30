@@ -9,7 +9,23 @@ install: ## Intall
 	@uv run pre-commit install
 	@uv run pre-commit autoupdate
 
-update: ## Update the site dipendency
+cache: ## Clean the cache
+	@hugo --gc
+
+clean: cache gomodule ## Clean the directory of the project of chache e meta file and other things
+	@find . -type d -empty -delete
+
+.PHONY: run
+run: clean  ## Build the site cleaning all
+	@hugo --minify
+
+.PHONY: gomodule
+gomodule: ## Update Go Module
+	@hugo mod get -u ./...
+	@hugo mod tidy
+	@hugo mod get -u
+
+update: clean ## Update the site dipendency
 	@npm update
 	@uv lock
 	@uv sync
@@ -28,30 +44,10 @@ developfuture: ## Run the site localy with all the future article
 developall: ## Run the site localy with all the article, future or drafts
 	@hugo server  --minify --disableFastRender --buildFuture --buildDrafts --renderToMemory
 
-.PHONY: gomodule
-gomodule: ## Update Go Module
-	@hugo mod get -u ./...
-	@hugo mod tidy
-	@hugo mod get -u
-
 .PHONY: hydra
 hydra: ## Check links
 	@python hydra.py http://localhost:1313/ --config ./hydra-config.json
 	@python hydra.py http://fundor333.com/ --config ./hydra-config.json
-
-.PHONY: syntax
-syntax: ## Build the style of the code
-	@hugo gen chromastyles --style=dracula > themes/fugu/assets/css/_syntax.scss
-
-cache: ## Clean the cache
-	@hugo --gc
-
-clean: cache gomodule ## Clean the directory of the project of chache e meta file and other things
-	@find . -type d -empty -delete
-
-.PHONY: run
-run: clean  ## Build the site cleaning all
-	@hugo --minify
 
 .PHONY: new
 new: ## Make new object for the blog
@@ -73,14 +69,9 @@ syndication: ## Syndication script
 webmention: ## Webmention script
 	@uv run python action_script/webmention.py
 
-deploy: clean characters webmention syndication## Ready to deploy
-	@npm update
-	@uv export --no-hashes --format requirements-txt > requirements.txt
-	@hugo mod get -u
+deploy: update characters webmention syndication## Ready to deploy
 	@hugo --minify
 	@python mastodon2hugo.py @fundor333@mastodon.social
-	@uv run pre-commit autoupdate
-
 
 brodcast: clean ## Brodcast the site
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
