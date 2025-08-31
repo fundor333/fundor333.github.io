@@ -1,23 +1,18 @@
 ---
-title: Week Note Nº 35/2025
-date: '2025-08-31T09:00:00+01:00'
-lastmod: '2025-08-31T09:00:00+01:00'
-tags:
-- week note
-type: weeknote
-summary: Random notes for week 35 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115122360761125987
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115122360761125987'
+title: "Week Note Nº 35/2025"
+date: "2025-08-31T09:00:00+01:00"
+lastmod: "2025-08-31T09:00:00+01:00"
+tags: ["week note"]
+type : "weeknote"
+summary: "Random notes for week 35 of 2025"
+draft: False
 ---
 
+- New post on my blog because I am restart playing with Jupyter Notebook
 - I went to PyDataVe 22 edition and I love it. A workshop about analysing data with Klib and other tools
 
 ## Suggested Reading Links/Posts
+- [the Hexploration Kit | Dyson's Dodecahedron](https://dysonlogos.blog/2025/08/31/the-hexploration-kit/?utm_source=fundor333.com)
 - [Loopwerk: How I write Django views](https://www.loopwerk.io/articles/2025/django-views/?utm_source=fundor333.com)
 - [No. 11: Accessorizing Accessories - by Chelsea Park](https://wordsinthemargins.substack.com/p/no-11-accessorizing-accessories?utm_source=fundor333.com)
 - [Shortcut to add link to today’s note in Obsidian : Juha-Matti Santala](https://hamatti.org/posts/shortcut-to-add-link-to-todays-note-in-obsidian/?utm_source=fundor333.com)
@@ -27,6 +22,7 @@ comments:
 - [Ink Review: Colorverse Blue Dragon Collection — Mountain of Ink](https://mountainofink.com/blog/colorverse-blue-dragon?utm_source=fundor333.com)
 - [#971226 is my colour in the web : Juha-Matti Santala](https://hamatti.org/posts/971226-is-my-colour-in-the-web/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 35/2025](https://fundor333.com/weeknotes/2025/35/?utm_source=fundor333.com)
 - [Alchool at Pydatave](https://fundor333.com/micro/2025/08/alchool-at-pydatave/?utm_source=fundor333.com)
 - [At PyDataVe](https://fundor333.com/micro/2025/08/at-pydatave/?utm_source=fundor333.com)
 - [Going to Pydatave](https://fundor333.com/micro/2025/08/going-to-pydatave/?utm_source=fundor333.com)
