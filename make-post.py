@@ -6,10 +6,10 @@ from typing import Annotated
 from PIL import Image, ImageDraw, ImageFont
 
 
-def generate_img(message: str, path: str):
+def generate_img(message: str, path: str, image_name: str = "cover.jpg"):
     font_path = "Futura Book font.ttf"  # 👉️ Font .ttf Path
     font_size = 100  # 👉️ Font Size
-    img = Image.open("cover.jpg")  # 👉️ Open Image
+    img = Image.open(image_name)  # 👉️ Open Image
     dr = ImageDraw.Draw(img)  # 👉️ Create New Image
     my_font = ImageFont.truetype(font_path, font_size)  # 👉️ Initialize Font
     text_x = (img.width) // 2
@@ -59,7 +59,15 @@ def notebook_fc():
     name = input("Give me the title\n")
     title = name_cleaning(name)
     os.system(f"hugo_nbnew ./content/post/{year}/{title}")
-    generate_img(name, f"post/{year}/{title}")
+    generate_img(name, f"post/{year}/{title}", "alternative_cover.jpg")
+    with open(f"notescript/{title}.sh", "w") as rsh:
+        rsh.write(
+            """\
+    #! /bin/bash
+    uv run hugo_nbconvert ../content/post/"""
+            + f"{year}/{title}/index.ipynb"
+        )
+    os.system(f"chmod +x  notescript/{title}.sh")
 
 
 def micro_fc():
