@@ -26,6 +26,7 @@ location = ".env"
 [dependency-groups]
 dev = [
     "hugo-nbconvert>=2025.5.24.3",
+    "jupyterlab>=4.4.6",
     "pre-commit>=4.1.0,<5",
 ]
 

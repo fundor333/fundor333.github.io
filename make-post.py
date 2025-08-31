@@ -64,7 +64,7 @@ def notebook_fc():
         rsh.write(
             """\
     #! /bin/bash
-    uv run hugo_nbconvert ../content/post/"""
+    uv run hugo_nbconvert content/post/"""
             + f"{year}/{title}/index.ipynb"
         )
     os.system(f"chmod +x  notescript/{title}.sh")

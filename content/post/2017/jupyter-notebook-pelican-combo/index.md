@@ -11,6 +11,7 @@ feature_link: "https://unsplash.com/photos/VSNoQdimlQQ"
 feature_text: "Photo by Zahrin Lukman on Unsplash"
 series:
 - Pelican for my site
+- Data and Data Tools
 ---
 
 Si sta avvicinando il **Pycon 8** e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest' anno.

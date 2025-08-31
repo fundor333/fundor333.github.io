@@ -23,6 +23,7 @@ series:
 - Django tricks
 - Indiweb, webmentions and friends
 - Horror stories
+- Data and Data Tools
 reply:
 repost:
 like:

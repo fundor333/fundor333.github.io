@@ -104,4 +104,4 @@ notebook: ## Run notebook script
 	@uv run python3 make-post.py notebook
 
 notebook_editor: ## Run notebook editor
-	@uv run jupyter notebook .
+	@uv run jupyter lab .
