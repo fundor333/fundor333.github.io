@@ -53,6 +53,15 @@ def post_fc():
     generate_img(name, f"post/{year}/{title}")
 
 
+def notebook_fc():
+    # get the current year as variable
+    year = str(datetime.datetime.now().year)
+    name = input("Give me the title\n")
+    title = name_cleaning(name)
+    os.system(f"hugo_nbnew ./content/post/{year}/{title}")
+    generate_img(name, f"post/{year}/{title}")
+
+
 def micro_fc():
     print("Make a micro")
     name = input("Give me the title\n")
@@ -92,6 +101,7 @@ ANSWER = {
     "redirect": post_redirect,
     "weekly_cover": weeklycover,
     "now": now_fc,
+    "notebook": notebook_fc,
 }
 
 

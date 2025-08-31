@@ -99,3 +99,6 @@ micro: ## Run microblog script
 
 now: ## Run now script
 	@uv run python3 make-post.py now
+
+notebook: ## Run notebook script
+	@uv run python3 make-post.py notebook
