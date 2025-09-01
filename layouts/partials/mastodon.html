@@ -6,7 +6,7 @@
   <p>Learn how this is implemented <a target="_blank" class="link"
       href="https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/">here.</a></p>
 
-  <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
+  <p id="mastodon-comments-list"><button id="load-comment" style="display:none">Load comments</button></p>
   <div id="comments-wrapper">
     <noscript><p>Loading comments relies on JavaScript. Try enabling JavaScript and reloading, or visit <a
           href="https://{{ .host }}/@{{ .username }}/{{ .id }}">the original post</a> on Mastodon.</p></noscript>
@@ -189,6 +189,7 @@
           }
         });
       }
-      document.getElementById("load-comment").addEventListener("click", loadComments);
+
+      loadComments();
   </script>
 </section>
