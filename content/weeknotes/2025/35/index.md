@@ -1,11 +1,18 @@
 ---
-title: "Week Note Nº 35/2025"
-date: "2025-08-31T09:00:00+01:00"
-lastmod: "2025-08-31T09:00:00+01:00"
-tags: ["week note"]
-type : "weeknote"
-summary: "Random notes for week 35 of 2025"
-draft: False
+title: Week Note Nº 35/2025
+date: '2025-08-31T09:00:00+01:00'
+lastmod: '2025-08-31T09:00:00+01:00'
+tags:
+- week note
+type: weeknote
+summary: Random notes for week 35 of 2025
+draft: false
+syndication:
+- https://mastodon.social/@fundor333/115122360761125987
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115122360761125987'
 ---
 
 - New post on my blog because I am restart playing with Jupyter Notebook
