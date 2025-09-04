@@ -30,7 +30,7 @@ update: clean ## Update the site dipendency
 	@uv lock
 	@uv sync
 	@uv run pre-commit autoupdate
-	@uv export --no-hashes --format requirements-txt > requirements.txt
+	@uv export --no-dev --no-hashes --format requirements-txt > requirements.txt
 
 send_webmention: ## Send webmention from feed
 	@uv run python send_webmention.py
