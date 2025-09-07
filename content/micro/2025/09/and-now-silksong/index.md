@@ -5,6 +5,7 @@ description: null
 tags:
 - videogame
 - silksong
+- gaming
 categories: null
 reply: null
 repost: null
