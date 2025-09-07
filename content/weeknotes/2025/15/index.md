@@ -5,7 +5,7 @@ lastmod: '2025-04-13T09:00:00+01:00'
 tags:
 - week note
 type: weeknote
-summary: Random notes for week 15 of 2025
+description: Random notes for week 15 of 2025
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lnaab7fwza2t
 ---

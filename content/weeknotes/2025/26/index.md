@@ -5,7 +5,7 @@ lastmod: '2025-06-29T09:00:00+01:00'
 tags:
 - week note
 type: weeknote
-summary: Random notes for week 26 of 2025
+description: Random notes for week 26 of 2025
 draft: false
 syndication:
 - https://mastodon.social/@fundor333/114768707120138492
@@ -38,7 +38,7 @@ comments:
 - [Support me](https://ko-fi.com/fundor333)
 
 ## Currently Reading
-[![Foxglove (Belladonna, #2)](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714663422l/211170617._SX98_.jpg)](https://www.goodreads.com/review/show/7583111149?utm_medium=api&utm_source=rss) [![Il Maestro e Margherita](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449182290l/28095021._SX98_.jpg)](https://www.goodreads.com/review/show/7613476820?utm_medium=api&utm_source=rss) [![Cromorama: Come il colore ha cambiato il nostro sguardo](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505808761l/36266532._SX98_.jpg)](https://www.goodreads.com/review/show/5993206761?utm_medium=api&utm_source=rss) 
+[![Foxglove (Belladonna, #2)](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1714663422l/211170617._SX98_.jpg)](https://www.goodreads.com/review/show/7583111149?utm_medium=api&utm_source=rss) [![Il Maestro e Margherita](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1449182290l/28095021._SX98_.jpg)](https://www.goodreads.com/review/show/7613476820?utm_medium=api&utm_source=rss) [![Cromorama: Come il colore ha cambiato il nostro sguardo](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1505808761l/36266532._SX98_.jpg)](https://www.goodreads.com/review/show/5993206761?utm_medium=api&utm_source=rss)
 
 ## Anime and manga's stats
 

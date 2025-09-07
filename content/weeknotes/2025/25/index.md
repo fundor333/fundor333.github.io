@@ -5,7 +5,7 @@ lastmod: '2025-06-22T09:00:00+01:00'
 tags:
 - week note
 type: weeknote
-summary: Random notes for week 25 of 2025
+description: Random notes for week 25 of 2025
 draft: false
 syndication:
 - https://mastodon.social/@fundor333/114726003982488236

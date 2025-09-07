@@ -5,7 +5,7 @@ lastmod: '2025-05-25T09:00:00+01:00'
 tags:
 - week note
 type: weeknote
-summary: Random notes for week 21 of 2025
+description: Random notes for week 21 of 2025
 draft: false
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lroqnv2r652s
