@@ -1,5 +1,5 @@
 ---
-title: "Test for Mi Personal Stuff on Mastodon"
+title: "Test for My Personal Stuff on Mastodon"
 date: 2025-09-08T01:19:56+02:00
 description:
 tags:
