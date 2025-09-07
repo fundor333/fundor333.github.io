@@ -1,21 +1,15 @@
 ---
-title: Week Note Nº 36/2025
-date: '2025-09-07T09:00:00+01:00'
-lastmod: '2025-09-07T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 36 of 2025
-description: Personal notes for week 36 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115162002739971282
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115162002739971282'
+title: "Week Note Nº 36/2025"
+date: "2025-09-07T09:00:00+01:00"
+lastmod: "2025-09-07T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 36 of 2025"
+description: "Personal notes for week 36 of 2025"
+draft: False
 ---
 
+- Some fix for the code of my blog for some optimization and a lower generating time
 - I make more testing with LLM, Ollama and Python
 - And now I generate summary for dataset with AI
 - New post on my blog because I am restart playing with Jupyter Notebook
@@ -25,9 +19,10 @@ comments:
 - [Using Ollama with Python: Step-by-Step Guide - Cohorte Projects](https://www.cohorte.co/blog/using-ollama-with-python-step-by-step-guide?utm_source=fundor333.com)
 - [A little oddity in the way curl deals with old dates – Terence Eden’s Blog](https://shkspr.mobi/blog/2025/09/a-little-oddity-in-the-way-curl-deals-with-old-dates/?utm_source=fundor333.com)
 ## New post from my blog
+- [More love to Silksong](https://fundor333.com/micro/2025/09/more-love-silksong/?utm_source=fundor333.com)
 - [Week Note Nº 36/2025](https://fundor333.com/weeknotes/2025/36/?utm_source=fundor333.com)
 - [And More More Llm but This Time at Esc Summer Camp](https://fundor333.com/micro/2025/09/and-more-more-llm-but-this-time-at-/?utm_source=fundor333.com)
-- [And Now Silksong](https://fundor333.com/micro/2025/09/and-now-silksong/?utm_source=fundor333.com)
+- [And Now Silksong!](https://fundor333.com/micro/2025/09/and-now-silksong/?utm_source=fundor333.com)
 - [And Now I Study Ollama](https://fundor333.com/micro/2025/09/and-now-i-study-ollama/?utm_source=fundor333.com)
 - [Generate Dataframe Summaries With Python](https://fundor333.com/post/2025/generate-dataframe-summaries-with-python/?utm_source=fundor333.com)
 - [Hugo Blog With Jupyter Notebook](https://fundor333.com/post/2025/hugo-blog-with-jupyter-notebook/?utm_source=fundor333.com)
