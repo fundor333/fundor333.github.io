@@ -2,30 +2,33 @@
 <a href='https://brid.gy/publish/{{.}}'></a>
 {{ end }}
 
-{{ if ne .Type "micro"}}
 <div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">
-  {{ .Description }} {{ range .Params.tags }}#{{ . }} {{ end }} {{ range .Params.categories }}#{{ . }} {{ end }}
-</div>
-{{ end }}
 
-
-{{ if eq .Type "micro"}}
-<div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">
-  {{ .Content }} {{ range .Params.tags }}#{{ . }} {{ end }} {{ range .Params.categories }}#{{ . }} {{ end }}
-</div>
-{{ end }}
-
-
-{{ if eq .Type "photos"}}
-<div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">
-  {{ .Content }} {{ range .Params.tags }}#{{ . }} {{ end }} {{ range .Params.categories }}#{{ . }} {{ end }}
- {{ with .Resources.ByType "image" }}
-    {{ range . }}
-        {{ $image := . }}
-        {{ if  $image }}
-        <img loading="lazy" class="u-photo" src="{{ $image.Permalink }}"alt="{{ $.Description }}">
-        {{ end }}
-    {{ end }}
+  {{ if ne .Type "micro"}}
+  {{ .Description }}
   {{ end }}
-</div>
-{{ end }}
+
+  {{ if eq .Type "micro"}}
+  {{ .Content }}
+  {{ end }}
+
+  {{ if eq .Type "photos"}}
+  {{ .Content }}
+  {{ end }}
+  {{ with .Resources.ByType "image" }}
+  {{ range . }}
+  {{ $image := . }}
+  {{ if $image }}
+  <img loading="lazy" class="u-photo" src="{{ $image.Permalink }}" alt="{{ $.Description }}">
+  {{ end }}
+  {{ end }}
+  {{ end }}
+
+  {{ range .Params.tags }}
+  <div class="p-category">#{{ . }}</div>
+  {{ end }}
+
+  {{ range .Params.categories }}
+  <div class="p-category">#{{ . }}</div>
+  {{ end }}
+  <div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">
