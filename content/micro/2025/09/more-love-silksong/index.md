@@ -6,6 +6,12 @@ tags:
 - gaming
 - silksong
 - videogame
+syndication:
+- https://mastodon.social/@fundor333/115165553342779913
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115165553342779913'
 ---
 
 And I love more and more Silksong (not the red stuff in the game)
