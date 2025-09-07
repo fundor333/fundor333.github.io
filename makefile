@@ -16,7 +16,7 @@ clean: cache gomodule ## Clean the directory of the project of chache e meta fil
 	@find . -type d -empty -delete
 
 .PHONY: run
-run: clean  ## Build the site cleaning all
+run: clean ## Build the site cleaning all
 	@hugo --minify
 
 .PHONY: gomodule
@@ -36,13 +36,13 @@ send_webmention: ## Send webmention from feed
 	@uv run python send_webmention.py
 
 develop: ## Run the site localy
-	@hugo server  --minify --disableFastRender --renderToMemory
+	@hugo server --disableFastRender --renderToMemory
 
 developfuture: ## Run the site localy with all the future article
-	@hugo server  --minify --disableFastRender --buildFuture --renderToMemory
+	@hugo server --disableFastRender --buildFuture --renderToMemory
 
 developall: ## Run the site localy with all the article, future or drafts
-	@hugo server  --minify --disableFastRender --buildFuture --buildDrafts --renderToMemory
+	@hugo server --disableFastRender --buildFuture --buildDrafts --renderToMemory
 
 .PHONY: hydra
 hydra: ## Check links
@@ -76,7 +76,7 @@ deploy: update characters webmention syndication## Ready to deploy
 brodcast: clean ## Brodcast the site
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
 
-deploy_prod:  ## Ready to deploy
+deploy_prod: ## Ready to deploy
 	@npm update
 	@hugo mod get -u
 	@hugo --minify

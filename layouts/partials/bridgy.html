@@ -3,32 +3,9 @@
 {{ end }}
 
 <div style="display: none;" class="p-summary {{ range .Site.Params.bridgy }}e-bridgy-{{.}}-content {{ end }}">
+  {{ if ne .Type "micro"}}{{ .Description }}{{ end }}
+  {{ if eq .Type "micro"}}{{ partial "bridgy/micro.html" . }}{{ end }}
+  {{ if eq .Type "photos"}}{{ partial "bridgy/photos.html" . }}{{ end }}
 
-  {{ if ne .Type "micro"}}
-  {{ .Description }}
-  {{ end }}
-
-  {{ if eq .Type "micro"}}
-  {{ .Content }}
-  {{ end }}
-
-  {{ if eq .Type "photos"}}
-  {{ .Content }}
-  {{ end }}
-  {{ with .Resources.ByType "image" }}
-  {{ range . }}
-  {{ $image := . }}
-  {{ if $image }}
-  <img loading="lazy" class="u-photo" src="{{ $image.Permalink }}" alt="{{ $.Description }}">
-  {{ end }}
-  {{ end }}
-  {{ end }}
-
-  {{ range .Params.tags }}
-  <div class="p-category">#{{ . }}</div>
-  {{ end }}
-
-  {{ range .Params.categories }}
-  <div class="p-category">#{{ . }}</div>
-  {{ end }}
+  {{ range .Params.tags }} <span class="p-category">#{{ . }}</span>{{ end }} {{ range .Params.categories }} <span class="p-category">#{{ . }}</span>{{ end }}
 </div>

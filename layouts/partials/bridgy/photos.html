@@ -1,0 +1,9 @@
+{{ .Content }}
+{{ with .Resources.ByType "image" }}
+{{ range . }}
+{{ $image := . }}
+{{ if $image }}
+<img loading="lazy" class="u-photo" src="{{ $image.Permalink }}" alt="{{ $.Description }}">
+{{ end }}
+{{ end }}
+{{ end }}
