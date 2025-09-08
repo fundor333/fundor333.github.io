@@ -1,12 +1,19 @@
 ---
-title: "Week Note Nº 36/2025"
-date: "2025-09-07T09:00:00+01:00"
-lastmod: "2025-09-07T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 36 of 2025"
-description: "Personal notes for week 36 of 2025"
-draft: False
+title: Week Note Nº 36/2025
+date: '2025-09-07T09:00:00+01:00'
+lastmod: '2025-09-07T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 36 of 2025
+description: Personal notes for week 36 of 2025
+draft: false
+syndication:
+- https://mastodon.social/@fundor333/115162002739971282
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115162002739971282'
 ---
 
 - Some fix for the code of my blog for some optimization and a lower generating time
