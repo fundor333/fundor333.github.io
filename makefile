@@ -65,9 +65,19 @@ build: clean ## Build for dev
 syndication: ## Syndication script
 	@uv run python action_script/syndication-adder.py
 
+
 .PHONY: webmention
 webmention: ## Webmention script
 	@uv run python action_script/webmention.py
+
+.PHONY: anime
+anime: ## Anime script
+	@uv run python action_script/aniist_run.py
+
+automation: anime webmention syndication ## Run all the automation script
+	@uv run python action_script/syndication-collector.py
+	@uv run python action_script/syndication-correction.py
+
 
 deploy: update characters webmention syndication## Ready to deploy
 	@hugo --minify
