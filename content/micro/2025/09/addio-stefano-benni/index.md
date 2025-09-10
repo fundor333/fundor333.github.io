@@ -1,18 +1,23 @@
 ---
-title: "Addio Stefano Benni"
-date: 2025-09-09T22:15:36+02:00
-description:
+title: Addio Stefano Benni
+date: 2025-09-09 22:15:36+02:00
+description: null
 tags:
 - StefanoBenni
 - Libri
 - Baol,
-categories:
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+categories: null
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
+syndication:
+- https://mastodon.social/@fundor333/115176214643942903
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115176214643942903'
 ---
 
 Oggi é venuto a mancare uno dei miei autori preferiti Stefano Benni. Io vorrei ricordarlo cosi, con una delle piú belle descrizioni di sempre del __*lecchino*__
