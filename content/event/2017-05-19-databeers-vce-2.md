@@ -8,7 +8,7 @@ slot:
   group:
   - DataBeers Venezia
   location: Negozio Piave 67, Via Piave 67, Venezia
-
+date: 2017-05-19 00:00:00 +0000
 ---
 Hey Data Lovers! Following the huge success of the first edtion… we’re back! Databeers Venice #2 is live! We’re waiting for you next Friday, May 19th @ Negozio Piave 67, via Piave 67, Venezia, starting at 18:00 sharp!
 

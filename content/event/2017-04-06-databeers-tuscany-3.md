@@ -9,7 +9,7 @@ slot:
   - PyData Italia
   - Pycon Italy
   location: Pycon8 c/o Grand Hotel Mediterraneo, Lungarno del Tempio 44, Firenze
-
+date: 2017-04-06 00:00:00 +0000
 ---
 Lo spirito dei DataBeers è quello di dare la possibilità a appassionati, smanettoni e professionisti dei dati di raccontare quello che hanno scoperto su un data base a loro disposizione, come hanno impiegato una certa API, come hanno impiegato in modo "smart" i dati per risolvere un problema, cosa hanno scoperto analizzando twitter .... e molto altro!
 

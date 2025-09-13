@@ -1,6 +1,7 @@
 ---
-title: Scala Italy
+title: Scala Italy 3
 talk: The only Italian conference on Scala
+date: 2016-05-14 00:00:00 +0000
 slot:
   start: 2016-05-14 00:00:00 +0000
   end: 2016-05-14 00:00:00 +0000

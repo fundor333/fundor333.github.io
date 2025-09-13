@@ -4,7 +4,8 @@ date: 2019-11-15T09:30:00.000Z
 talk: DevFest
 slot:
   end: 2019-11-16T07:00:00.000Z
-  group: []
+  group:
+  - GDG Venezia
   location: Via Torino, Campus Scientifico
   start: 2019-11-16T09:30:00.000Z
   url: 'https://devfestvenice.com/'
