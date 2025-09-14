@@ -4,13 +4,13 @@ title: >-
   Padiglione Venezia a Forte Marghera
 date: 2018-06-26T16:30:53.852Z
 talk: Follow Up
-slot:
-  end: 2018-06-25T22:00:00.000Z
-  group: []
-  location: Forte Marghera
-  start: 2018-06-26T20:33:53.865Z
-  url: >-
-    https://www.eventbrite.it/e/biglietti-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-al-forte-47146147396#
+end: 2018-06-25T22:00:00.000Z
+group:
+- Follow UP
+location: Forte Marghera
+start: 2018-06-26T20:33:53.865Z
+event_url: >-
+  https://www.eventbrite.it/e/biglietti-venezia-conta-dai-dati-allambiente-biennale-architettura-follow-up-dal-padiglione-venezia-al-forte-47146147396#
 ---
 Per il terzo incontro per il Padiglione Venezia parleremo di design della comunicazione per usare i dati per informare sull’emergenze ambientali e sociali nella città: strumenti interpretativi per affrontare la complessità.
 

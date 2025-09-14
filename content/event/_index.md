@@ -1,5 +1,8 @@
 ---
-title: Convention ed eventi
-
+title: "Con and Event"
+allpage: true
+specialpost: true
+summary: My personal list of event and con I went and will go
 ---
-Questo è un elenco completo dei talk e dei convegni a cui ho partecipato nel corso degli anni e a quelli che ho intenzione di partecipare.
+
+Events and convention I went and I will goß

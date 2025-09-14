@@ -2,13 +2,12 @@
 title: 'DevFest Venezia 2025'
 date: 2025-10-11T09:00:00.000Z
 talk: DevFest
-slot:
-  end: 2025-10-11T18:30:00.000Z
-  group:
-  - GDG Venezia
-  location: Campo Scientifico Universitá di Ca Foscari, Mestre
-  start: 2025-08-27T19:00:00.000Z
-  url: 'https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-venezia-2025/'
+end: 2025-10-11T18:30:00.000Z
+group:
+- GDG Venezia
+location: Campo Scientifico Universitá di Ca Foscari, Mestre
+start: 2025-08-27T19:00:00.000Z
+event_url: 'https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-venezia-2025/'
 ---
 
 About this event

@@ -2,13 +2,13 @@
 title: 'Follow UP! Dati dal Padiglione al Forte: “Abitare” a Venezia'
 date: 2018-10-04T16:00:00.000Z
 talk: Follow UP!
-slot:
-  end: 2018-10-04T20:39:42.929Z
-  group: []
-  location: Forte Marghera
-  start: 2018-10-04T20:39:42.926Z
-  url: >-
-    https://www.eventbrite.it/e/biglietti-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia-50389110185#
+end: 2018-10-04T20:39:42.929Z
+group:
+- Follow UP
+location: Forte Marghera
+start: 2018-10-04T20:39:42.926Z
+event_url: >-
+  https://www.eventbrite.it/e/biglietti-follow-up-dati-dal-padiglione-al-forte-abitare-a-venezia-50389110185#
 ---
 Descrizione
 Matteo Basso, Federica Fava, Laura Fregolent, Renato Gibin presentano:

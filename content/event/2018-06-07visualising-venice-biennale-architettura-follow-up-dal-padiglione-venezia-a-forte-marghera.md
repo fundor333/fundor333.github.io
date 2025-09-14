@@ -4,13 +4,13 @@ title: >-
   Forte Marghera
 date: 2018-06-07T16:25:00.000Z
 talk: Follow UP
-slot:
-  end:  2018-06-07T16:25:00.000Z
-  group: []
-  location: Forte Marghera
-  start:  2018-06-07T16:25:00.000Z
-  url: >-
-    https://www.eventbrite.it/e/biglietti-visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-al-forte-marghera-46694717156#
+end:  2018-06-07T16:25:00.000Z
+group:
+- Follow UP
+location: Forte Marghera
+start:  2018-06-07T16:25:00.000Z
+event_url: >-
+  https://www.eventbrite.it/e/biglietti-visualising-venice-biennale-architettura-follow-up-dal-padiglione-venezia-al-forte-marghera-46694717156#
 ---
 # Secondo incontro del Padiglione Venezia a Forte Marghera
 

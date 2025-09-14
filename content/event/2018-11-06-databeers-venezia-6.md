@@ -2,13 +2,12 @@
 title: 'DataBeers Venezia #6'
 date: 2018-11-06T17:30:00.000Z
 talk: DataBeers
-slot:
-  end: 2018-11-06T17:30:00.000Z
-  group:
-  - DataBeers Venezia
-  location: Negozio Piave 67
-  start: 2018-11-06T17:30:00.000Z
-  url: 'https://www.eventbrite.com/e/databeers-venezia-6-tickets-51764979447#'
+end: 2018-11-06T17:30:00.000Z
+group:
+- DataBeers Venezia
+location: Negozio Piave 67
+start: 2018-11-06T17:30:00.000Z
+event_url: 'https://www.eventbrite.com/e/databeers-venezia-6-tickets-51764979447#'
 ---
 DataBeers Venezia #6 - 30.11.18 @ Negozio Piave 67, Venezia
 
