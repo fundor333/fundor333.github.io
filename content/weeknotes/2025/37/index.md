@@ -1,19 +1,12 @@
 ---
-title: Week Note Nº 37/2025
-date: '2025-09-14T09:00:00+01:00'
-lastmod: '2025-09-14T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 37 of 2025
-description: Personal notes for week 37 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115201639067257164
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115201639067257164'
+title: "Week Note Nº 37/2025"
+date: "2025-09-14T09:00:00+01:00"
+lastmod: "2025-09-14T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 37 of 2025"
+description: "Personal notes for week 37 of 2025"
+draft: False
 ---
 
 - Working on a new section of the blog: event section
@@ -21,10 +14,13 @@ comments:
 - Some fix for the code of my blog for some optimization and a lower generating time
 
 ## Suggested Reading Links/Posts
+- [Planner-izing and Realizing - Line Variation](https://linevariation.blot.im/planner-izing-and-realizing?utm_source=fundor333.com)
+- [Diamine Herbert – Inkcredible Colours](https://inkcrediblecolours.com/2025/09/13/diamine-herbert/?utm_source=fundor333.com)
 - [A Brief Summer Check in - by Daniela - Journaling Dan](https://journalingdan.substack.com/p/a-brief-summer-check-in?utm_source=fundor333.com)
 - [My Hobonichi 2026 order](https://www.maaikebrinkhof.nl/my-hobonichi-2026-order/?utm_source=fundor333.com)
 - [Typewriter Walking and Singing: Improving Typewriter Performance with Mats, Pads, Rubber Feet, Felt, Recovered Platens, and More | Chris Aldrich](https://boffosocko.com/2025/09/07/typewriter-walking-and-singing-improving-typewriter-performance-with-mats-rubber-feet-felt-recovered-platens-and-more/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 37/2025](https://fundor333.com/weeknotes/2025/37/?utm_source=fundor333.com)
 - [Silksong Skip](https://fundor333.com/micro/2025/09/silksong-skip/?utm_source=fundor333.com)
 - [Addio Stefano Benni](https://fundor333.com/micro/2025/09/addio-stefano-benni/?utm_source=fundor333.com)
 
