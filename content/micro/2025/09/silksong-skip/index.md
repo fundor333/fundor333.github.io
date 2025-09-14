@@ -22,4 +22,4 @@ comments:
 
 And I skip a boss without knowing
 
-![[cover.jpg](cover.jpg)
+![cover.jpg](cover.jpg)
