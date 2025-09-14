@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+    <article class="h-entry">
+      <header class="header">
+        <h1 class="header-title p-name">{{ .Title }}</h1>
+        {{ partial "micro.html" . }}
+
+        <div>
+          <a class="u-url" href="{{ .Permalink }}"><div style="display: none;" class="p-summary">{{ .Description }}</div></a>
+          <a rel="author" class="p-author h-card no-underline " href="{{ .Site.BaseURL }}" style="display: none;">{{ .Site.Params.Author.name }}</a>
+
+          {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+          {{- with .Params.start }}
+          {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
+          <i class="fa-regular fa-calendar-range"></i>
+          <time datetime="{{ $ISO_time }}" class="dt-start" itemprop="datePublished">
+            {{ . | time.Format $configDateFormat }}
+          </time>
+          {{ end -}}
+          {{- with .Params.end }}
+          {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }} -
+          <i class="fa-regular fa-calendar-range"></i>
+          <time datetime="{{ $ISO_time }}" class="dt-end" itemprop="datePublished">
+            {{ . | time.Format $configDateFormat }}
+          </time>
+          {{ end -}}
+          {{- with .Params.location }}
+          <p>
+            <i class="fa-whiteboard fa-semibold fa-location-dot"></i>
+            <span class="p-location">
+              {{ . }}
+            </span>
+          </p>
+          {{ end -}}
+
+          {{- partial "tags.html" . -}}
+
+        </div>
+        <br>
+      </header>
+      {{ partial "toc.html" .}}
+      <div class="page-content e-content">
+        {{- partial "bridgy.html" . -}}
+        {{ .Content }}
+      </div>
+
+      {{ partial "series.html" . }}
+      {{ partial "share-buttons" . }}
+      {{- partial "syndication.html" . -}}
+      {{- partial "comments.html" . -}}
+    </article>
+  </main>
+</div>
+{{ end }}

@@ -13,6 +13,8 @@
       <i class="fa-whiteboard fa-semibold fa-calendar"></i>
       {{ else if eq .Type "now" }}
       <i class="fa-whiteboard fa-semibold fa-skull fa-xl"></i>
+      {{ else if eq .Type "series" }}
+      <i class="fa-whiteboard fa-semibold fa-list-ul fa-xl"></i>
       {{ else }}
       <i class="fa-whiteboard fa-semibold fa-ghost fa-xl"></i>
       {{ end}}

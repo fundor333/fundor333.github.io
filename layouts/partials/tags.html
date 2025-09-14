@@ -1,11 +1,14 @@
 <p id="tags">
   {{ range .Params.tags }}
-    #<a  class="p-category tag"  rel="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
+  #<a class="p-category tag" rel="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
   {{ end }}
   {{ range .Params.categories }}
-    #<a  class="p-category tag"  rel="tag" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
+  #<a class="p-category tag" rel="tag" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
   {{ end }}
-    {{ range .Params.themes }}
-    #<a  class="p-category tag"  rel="tag" href="{{ "/themes/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
+  {{ range .Params.themes }}
+  #<a class="p-category tag" rel="tag" href="{{ "/themes/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
+  {{ end }}
+  {{ range .Params.group }}
+  #<a class="p-category tag" rel="tag" href="{{ "/group/" | relLangURL }}{{ . | urlize }}">{{ . }} </a>
   {{ end }}
 </p>

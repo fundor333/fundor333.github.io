@@ -19,10 +19,14 @@ main:
     name: "Series"
     url: "/series"
     weight: 27
+  - pageRef: "/event"
+    name: "Event"
+    url: "/event"
+    weight: 28
   - pageRef: "/now"
     name: "Now"
     url: "/now"
-    weight: 28
+    weight: 29
   - pageRef: "/slashpages"
     name: "SlashPages"
     url: "/slashpages"
