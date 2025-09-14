@@ -2,12 +2,12 @@
 title: DataBeers VCE 4
 talk: Tre presentazioni da speacker di vario tipo
 slot:
-  start: 2018-02-23 00:00:00 +0000
-  end: 2018-02-23 00:00:00 +0000
-  url: https://databeersvce.tumblr.com/post/170622476910/databeers-venezia-4-230218-negozio-piave
-  group:
-  - DataBeers Venezia
-  location: Negozio Piave 67, Via Piave 67, Venezia
+start: 2018-02-23 00:00:00 +0000
+end: 2018-02-23 00:00:00 +0000
+event_url: https://databeersvce.tumblr.com/post/170622476910/databeers-venezia-4-230218-negozio-piave
+group:
+- DataBeers Venezia
+location: Negozio Piave 67, Via Piave 67, Venezia
 date: 2018-02-23 00:00:00 +0000
 ---
 Hey Hey, My My! Databeers will never die! We are launching the new chapter of Databeers Venezia! Great speakers for you next Friday February 23 @ Negozio Piave 67, Venezia, starting at 18:30 sharp!

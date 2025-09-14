@@ -1,33 +1,40 @@
 <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="{{ .RelPermalink }}">
-          {{if eq .Type "post" }}
-            <i class="fa-whiteboard fa-semibold fa-newspaper fa-xl"></i>
-          {{ else if eq .Type  "micro" }}
-            <i class="fa-whiteboard fa-semibold fa-thumbtack fa-rotate-by fa-xl" style="--fa-rotate-angle: -45deg;"></i>
-          {{ else if eq .Type  "photos" }}
-            <i class="fa-whiteboard fa-semibold fa-camera fa-xl"></i>
-          {{ else if eq .Type  "weeknote" }}
-          <i class="fa-kit fa-regular-bowl-chopsticks-noodles-at fa-xl"></i>
-          {{ else if eq .Type  "now" }}
-            <i class="fa-whiteboard fa-semibold fa-skull fa-xl"></i>
-          {{ else }}
-          <i class="fa-whiteboard fa-semibold fa-ghost fa-xl"></i>
-          {{ end}}
-          {{ .Title }}</a>
-    </h4>
-    {{/* format date string to create an ISO 8601 string */}}
-    {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
-    {{ $configDateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
-    {{ if .Params.isStarred }}
-    <div class="post-item-right">
-      <i class="fa-regular fa-star"></i>
-    </div>
-    {{ end }}
-    {{if not (eq .Type "series") }}
-    <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
-        {{ time.Format $configDateFormat .Date }}
-        {{/* OLD FORMAT: .Date.Format $configDateFormat */}}
-    </time>
-    {{ end}}
+  <h4 class="post-item-title">
+    <a href="{{ .RelPermalink }}">
+      {{if eq .Type "post" }}
+      <i class="fa-whiteboard fa-semibold fa-newspaper fa-xl"></i>
+      {{ else if eq .Type "micro" }}
+      <i class="fa-whiteboard fa-semibold fa-thumbtack fa-rotate-by fa-xl" style="--fa-rotate-angle: -45deg;"></i>
+      {{ else if eq .Type "photos" }}
+      <i class="fa-whiteboard fa-semibold fa-camera fa-xl"></i>
+      {{ else if eq .Type "weeknote" }}
+      <i class="fa-kit fa-regular-bowl-chopsticks-noodles-at fa-xl"></i>
+      {{ else if eq .Type "event" }}
+      <i class="fa-whiteboard fa-semibold fa-calendar"></i>
+      {{ else if eq .Type "now" }}
+      <i class="fa-whiteboard fa-semibold fa-skull fa-xl"></i>
+      {{ else }}
+      <i class="fa-whiteboard fa-semibold fa-ghost fa-xl"></i>
+      {{ end}}
+      {{ .Title }}</a>
+  </h4>
+  {{/* format date string to create an ISO 8601 string */}}
+  {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
+  {{ $configDateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+  {{ if .Params.isStarred }}
+  <div class="post-item-right">
+    <i class="fa-whiteboard fa-semibold fa-star fa-xl"></i>
+  </div>
+  {{ end }}
+  {{ if .Params.speaker }}
+  <div class="post-item-right">
+    <i class="fa-whiteboard fa-semibold fa-microphone fa-xl"></i>
+  </div>
+  {{ end }}
+  {{if not (eq .Type "series") }}
+  <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
+    {{ time.Format $configDateFormat .Date }}
+    {{/* OLD FORMAT: .Date.Format $configDateFormat */}}
+  </time>
+  {{ end}}
 </article>
