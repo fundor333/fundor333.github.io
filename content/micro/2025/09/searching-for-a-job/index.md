@@ -1,19 +1,24 @@
 ---
-title: "Searching for a Job"
-date: 2025-09-16T16:11:31+02:00
-description:
+title: Searching for a Job
+date: 2025-09-16 16:11:31+02:00
+description: null
 tags:
 - jobsofmastodon
 - fedihire
 - jobsearching
 - python
-categories:
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+categories: null
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
+syndication:
+- https://mastodon.social/@fundor333/115214437249024327
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115214437249024327'
 ---
 
 Hello FedVerse!
