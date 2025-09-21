@@ -1,29 +1,27 @@
 ---
-title: Week Note Nº 38/2025
-date: '2025-09-21T09:00:00+01:00'
-lastmod: '2025-09-21T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 38 of 2025
-description: Personal notes for week 38 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115241273968618461
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115241273968618461'
+title: "Week Note Nº 38/2025"
+date: "2025-09-21T09:00:00+01:00"
+lastmod: "2025-09-21T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 38 of 2025"
+description: "Personal notes for week 38 of 2025"
+draft: False
 ---
 
 - Learning AWS for personal project
 
 ## Suggested Reading Links/Posts
+- [Winnie Lim » preserving and growing our energy capacity](https://winnielim.org/journal/preserving-and-growing-our-energy-capacity/?utm_source=fundor333.com)
+- [Web Syndication](https://www.burgeonlab.com/subscribe/?utm_source=fundor333.com)
+- [How to have only one blog | Baty.net](https://baty.net/posts/2025/09/how-to-have-only-one-blog/?utm_source=fundor333.com)
+- [Cooking with glasses - macwright.com](https://macwright.com/2025/09/21/cooking-with-glasses.html?utm_source=fundor333.com)
 - [I do believe the number of headphones Jasper says I need](https://json.blog/2025/09/20/i-do-believe-the-number.html?utm_source=fundor333.com)
 - [Five Boutique Paper Brands I'm Watching Closely and Why — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2025/9/20/five-boutique-paper-brands-im-watching-closely-and-why?utm_source=fundor333.com)
 - [switch and restore are now Official in Git 2.51](https://nubecolectiva.com/comunidad/flyers/switch-restore-official-git/?utm_source=fundor333.com)
 - [Git Stashes | Alchemists](https://alchemists.io/articles/git_stashes?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 38/2025](https://fundor333.com/weeknotes/2025/38/?utm_source=fundor333.com)
 - [Searching for a Job](https://fundor333.com/micro/2025/09/searching-for-a-job/?utm_source=fundor333.com)
 - [Is Silksong an Horror](https://fundor333.com/micro/2025/09/is-silksong-an-horror-/?utm_source=fundor333.com)
 
