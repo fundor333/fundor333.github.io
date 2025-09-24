@@ -17,3 +17,5 @@ bookmark:
 
 E anche quest'anno vedo al Lucca Comics and Games. E faccio foto in TF.
 Se qualcuno é interessato mi contatti in privato
+
+![cover.png](cover.png)
