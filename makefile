@@ -2,7 +2,7 @@
 help: ## Show this help
 	@egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
-install: ## Intall
+install: ## Install
 	@npm install
 	@hugo mod get -u
 	@uv sync
@@ -12,7 +12,7 @@ install: ## Intall
 cache: ## Clean the cache
 	@hugo --gc
 
-clean: cache gomodule ## Clean the directory of the project of chache e meta file and other things
+clean: cache gomodule ## Clean the directory of the project of cache e meta file and other things
 	@find . -type d -empty -delete
 
 .PHONY: run
@@ -25,7 +25,7 @@ gomodule: ## Update Go Module
 	@hugo mod tidy
 	@hugo mod get -u
 
-update: clean ## Update the site dipendency
+update: clean ## Update the site requirements
 	@npm update
 	@uv lock
 	@uv sync
@@ -35,13 +35,13 @@ update: clean ## Update the site dipendency
 send_webmention: ## Send webmention from feed
 	@uv run python send_webmention.py
 
-develop: ## Run the site localy
+develop: ## Run the site local
 	@hugo server --disableFastRender --renderToMemory
 
-developfuture: ## Run the site localy with all the future article
+developfuture: ## Run the site local with all the future article
 	@hugo server --disableFastRender --buildFuture --renderToMemory
 
-developall: ## Run the site localy with all the article, future or drafts
+developall: ## Run the site local with all the article, future or drafts
 	@hugo server --disableFastRender --buildFuture --buildDrafts --renderToMemory
 
 .PHONY: hydra
@@ -83,7 +83,7 @@ deploy: update characters webmention syndication## Ready to deploy
 	@hugo --minify
 	@python mastodon2hugo.py @fundor333@mastodon.social
 
-brodcast: clean ## Brodcast the site
+broadcast: clean ## broadcast the site
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
 
 deploy_prod: ## Ready to deploy
