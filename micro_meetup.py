@@ -96,9 +96,9 @@ how_to_find_us: {how_to_find_us}
 
 
 def add_to_memory(text: str):
-    # Save in /data/memory.txt, if not already present, the url pass as argument
+    # Save in /data/memory_meetup.txt, if not already present, the url pass as argument
     os.makedirs("data", exist_ok=True)
-    memory_file = "data/memory.txt"
+    memory_file = "data/memory_meetup.txt"
     if not os.path.exists(memory_file):
         with open(memory_file, "w") as f:
             f.write("")
@@ -118,8 +118,8 @@ def main(
     memory: Annotated[bool, typer.Option("--memory", "-m")] = False,
 ):
     if memory:
-        if os.path.exists("data/memory.txt"):
-            with open("data/memory.txt") as f:
+        if os.path.exists("data/memory_meetup.txt"):
+            with open("data/memory_meetup.txt") as f:
                 memory = f.read().splitlines()
             for item in memory:
                 print(f"Fetching event {item} from memory...")
