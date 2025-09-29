@@ -1,6 +1,6 @@
 ---
-title: 'Google I/O Extended Venezia 2017'
-date: 2025-09-29T21:20:36
+title: Google I/O Extended Venezia 2017
+date: 2025-09-29 21:20:36
 start: 2017-05-17 17:45:00
 end: 2017-05-17 20:45:00
 location: Online
@@ -8,7 +8,13 @@ group:
 - GDG Venezia
 tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/239405910/
-how_to_find_us:
+how_to_find_us: null
+syndication:
+- https://mastodon.social/@fundor333/115290017201930795
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115290017201930795'
 ---
 
 https://secure.meetupstatic.com/photos/event/8/5/8/8/600_460234184.jpeg

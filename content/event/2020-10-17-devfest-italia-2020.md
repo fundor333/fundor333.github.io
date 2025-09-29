@@ -1,6 +1,6 @@
 ---
-title: 'DevFest Italia 2020'
-date: 2025-09-29T21:17:24
+title: DevFest Italia 2020
+date: 2025-09-29 21:17:24
 start: 2020-10-17 10:00:00
 end: 2020-10-18 17:00:00
 location: Online
@@ -8,7 +8,13 @@ group:
 - GDG Venezia
 tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/273576878/
-how_to_find_us:
+how_to_find_us: null
+syndication:
+- https://mastodon.social/@fundor333/115290014481317201
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115290014481317201'
 ---
 
 THIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW
@@ -59,26 +65,3 @@ https://www.devfest.it/speakers/
 
 Agenda
 
----
-
-Hosted By
-
-Andrea Maglie, GDG Organizer
-
-Marco Gomiero, GDG Organizer
-
-I’m working as Uniwhere Tech Lead, where I manage the end-to-end development of a platform with half a million users.
-
-I’m a Kotlin lover with a Computer Engineering degree, I have experience with native Android and native iOS development, as well as cross-platform development with React Native, Flutter and Kotlin Multiplatform.
-
-In my spare time I write and maintain open source code, I share my dev experience by speaking at confs and organizing events with the Google Developer Group Venezia and I play basketball.
-
-Simone Formica, GDG Organizer
-
-Omar Al Bukhari, GDG Organizer
-
----
-
-THIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW
-
-https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-italia-2020/
