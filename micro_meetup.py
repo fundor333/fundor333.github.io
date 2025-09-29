@@ -130,9 +130,9 @@ def main(
         return
     if text is None:
         text = input("Give me a Meetup event URL or ID: ")
-        match = re.search(r"meetup.com/.+?/events/(\d+)", text)
-        if match:
-            text = match.group(1)
+    match = re.search(r"meetup.com/.+?/events/(\d+)", text)
+    if match:
+        text = match.group(1)
     add_to_memory(text)
     data = fetch_event(text)
     convert_json_to_post(data)
