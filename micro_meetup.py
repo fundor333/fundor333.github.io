@@ -47,7 +47,7 @@ def fetch_event(event_id):
 def convert_json_to_post(data):
     # convert the json to a markdown post following the format in content/event
 
-    now = datetime.datetime.now(datetime.UTC)
+    now = datetime.datetime.now(datetime.UTC) - datetime.timedelta(days=36500)
 
     event = data["data"]["event"]
     title = event["title"]

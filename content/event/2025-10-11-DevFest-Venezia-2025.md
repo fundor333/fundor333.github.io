@@ -1,6 +1,6 @@
 ---
 title: 'DevFest Venezia 2025'
-date: 2025-09-29T21:15:07
+date: 1925-10-24T23:27:14
 start: 2025-10-11 09:00:00
 end: 2025-10-11 18:30:00
 location: Online
