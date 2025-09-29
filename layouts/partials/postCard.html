@@ -33,7 +33,12 @@
     <i class="fa-whiteboard fa-semibold fa-microphone fa-xl"></i>
   </div>
   {{ end }}
-  {{if not (eq .Type "series") }}
+  {{if eq .Type "event" }}
+  <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Params.start }}">
+    {{ time.Format $configDateFormat .Params.start }}
+    {{/* OLD FORMAT: .Date.Format $configDateFormat */}}
+  </time>
+  {{else if not (eq .Type "series") }}
   <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
     {{ time.Format $configDateFormat .Date }}
     {{/* OLD FORMAT: .Date.Format $configDateFormat */}}

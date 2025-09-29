@@ -1,0 +1,30 @@
+{{- define "main" -}}
+{{ $year := 30000 }}
+{{ $dataYear := "" }}
+
+<div class="wrapper list-page">
+  <header class="header">
+    <h1 class="header-title center">{{ .Title }}</h1>
+  </header>
+  <main class="page-content" aria-label="Content">
+    {{ range (site.Pages.GroupByParam "start").Reverse}}
+
+    {{ $dataYear = (dateFormat "2006" .Key ) }}
+
+    {{ if lt $dataYear $year }}
+    {{ $year = $dataYear }}
+    <h2 class="year">{{ $year }}</h2>
+    {{ end }}
+
+    {{/* create a list of posts for each month, with month as heading */}}
+
+    {{ range .Pages }}
+    {{ partial "postCard" . }}
+
+    {{ end }} {{/* end range .Pages */}}
+
+    {{ end }} {{/* end range .Pages.GroupByDate "2006" */}}
+
+  </main>
+</div>
+{{- end -}}
