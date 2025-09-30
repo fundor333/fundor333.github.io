@@ -1,0 +1,35 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2025-09-16T19:00:00+02:00",
+            "description": "Carissimi, proseguiamo il nostro viaggio con una **#Competition** !\n\nCi troviamo in **#presenza MARTED\u00ec 16 settembre alle ore 19:00**.\nL'incontro si terr\u00e0 presso il[ Coworking Mestre](https://www.coworkingmestre.it/), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su [YouTube](https://www.youtube.com/watch?v=GB4eUm1p5b8).\n\nLa scaletta prevede:\n\ud83c\udfc6 la spiegazione del torneo, basato su [AWS Cloud Quest](https://aws.amazon.com/training/digital/aws-cloud-quest/), l'unico gioco di ruolo 3D che ti aiuta a sviluppare competenze pratiche per il cloud AWS\n\ud83c\udfc5 allenarsi per il **#badge Cloud Practitioner** e, se hai questa certificazione AWS, \ud83d\udd04 vale come rinnovo \u203c\ufe0f\n\ud83c\udfae la presentazione del canale **discord**\n\ud83d\udcbb l\u2019uso del proprio **computer**, per iscriversi al torneo\n\ud83d\udea6 lo start della competizione\n\ud83c\udd98 qualche aiutino pratico per gareggiare al meglio\n\ud83c\udfc1 la competizione rimarr\u00e0 attiva una settimana\n\n\ud83d\udc55 E poi ci troviamo **gioved\u00ec 25 settembre** per la premiazione \u203c\ufe0f\n\nE come sempre, proponete[vi per] argomenti e/o location con il [Form Google](https://forms.gle/1JdE6YWPbo6phuLe8) o direttamente nel canale Telegram !",
+            "endTime": "2025-09-16T21:00:00+02:00",
+            "eventType": "HYBRID",
+            "eventUrl": "https://www.meetup.com/aws-user-group-venezia/events/310538528/",
+            "group": {
+                "name": "AWS User Group Venezia"
+            },
+            "howToFindUs": null,
+            "title": "AWS User Group Venezia #9 Competition",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Via Torino, 135",
+                    "city": "Venezia",
+                    "country": "it",
+                    "name": "Via Torino, 135"
+                },
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "310538528",
+    "now": "1925-10-25T00:06:32"
+}

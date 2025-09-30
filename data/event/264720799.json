@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2019-09-21T17:00:00+02:00",
+            "description": "Cari pythonisti e non solo... ci siamo! Il primo Pydata Venice sta per iniziare! Grazie agli amici dell'EndSummerCamp, nel pomeriggio di sabato 21 settembre avremo la possibilit\u00e0 di presentare il nostro gruppo e solleticare l'attenzione con qualche bel talk pieno zeppo di dati!\n\nEcco il programma!\n\nPresentazione del meetup\nTalk \u201cPython, Sudoku & RAM\u201d sull\u2019ottimizzazione in Python\nWorkshop \u201cIntro a Pandas\u201d\nDiscussione informale con i partecipanti per definire i prossimi appuntamenti\n\nGrazie ai ragazzi dell'EndSummerCamp per l'ospitalit\u00e0!!!",
+            "endTime": "2019-09-21T19:00:00+02:00",
+            "eventType": "PHYSICAL",
+            "eventUrl": "https://www.meetup.com/pydata-venice/events/264720799/",
+            "group": {
+                "name": "PyData Venice"
+            },
+            "howToFindUs": "",
+            "title": "PyData Venice #0",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Via Bazzera, 60",
+                    "city": "Venezia",
+                    "country": "it",
+                    "name": "Forte Bazzera"
+                }
+            ]
+        }
+    },
+    "id": "264720799",
+    "now": "1925-10-25T00:06:35"
+}

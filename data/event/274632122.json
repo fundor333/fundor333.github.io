@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2020-11-27T18:30:00+01:00",
+            "description": "Massimo Lamanna, coordinatore tecnico dell\u2019esperimento ALICE al CERN di Ginevra, ci presenter\u00e0 ROOT, il tool di analisi dati pi\u00f9 usato in fisica delle particelle (quello utilizzato per la scoperta del Bosone di Higgs!). Non mancate!\n\nL'evento si terr\u00e0 online e il link Zoom verr\u00e0 recapitato solo a chi si iscrive.",
+            "endTime": "2020-11-27T19:30:00+01:00",
+            "eventType": "ONLINE",
+            "eventUrl": "https://www.meetup.com/pydata-venice/events/274632122/",
+            "group": {
+                "name": "PyData Venice"
+            },
+            "howToFindUs": null,
+            "title": "PyDataVE #6 - CERN Edition",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "274632122",
+    "now": "1925-10-25T00:06:33"
+}

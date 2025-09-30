@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2023-12-02T09:00:00+01:00",
+            "description": "\ud83c\udf1f DevFest Venezia 2023 \ud83c\udf1f\n\nSiamo entusiasti di annunciare il ritorno della DevFest a Venezia, l'evento straordinario dove appassionati ed esperti si incontrano per condividere la loro passione per lo sviluppo a tutto tondo.\nQuest'anno, stiamo alzando l'asticella con tre tracce contemporanee, due in inglese e una in italiano, aprendo le porte a un pubblico pi\u00f9 vasto e diversificato!\n\n\ud83d\udd25 Cosa aspettarci:\n\n\ud83c\udfa4 Speaker d'eccezione da tutto il mondo condividono le loro conoscenze sui prodotti Google e non solo.\n\n\ud83c\udf10 Tre tracce coinvolgenti con sessioni in inglese e italiano.\n\n\ud83e\udd1d Opportunit\u00e0 uniche di networking con sviluppatori e appassionati del settore.\n\n\ud83c\udd93 L'ingresso all'evento \u00e8 assolutamente gratuito!\n\nQuesto evento \u00e8 pensato per riunire la comunit\u00e0 tech, mettendo in primo piano l'apprendimento, la connessione e l'ispirazione. Scopri le ultime tendenze in ambito tecnologico, affina le tue competenze e connettiti con professionisti del settore provenienti da tutto il mondo.\n\nNon perdere questa occasione unica di crescita professionale e preparati a essere ispirato! \ud83d\ude80\n\nMaggiori informazioni qua:\n\nhttps://devfest23.gdgvenezia.it/\n\nAgenda\n\n---\n\nHosted By\n\nMarco Gomiero, Android Engineer\n\nMarco is an Android engineer, currently working at TIER. He is a Google Developer Expert for Kotlin, he loves Kotlin and he has experience with native Android and native iOS development, as well as cross-platform development with Flutter and Kotlin Multiplatform.\n\nIn his spare time, he writes and maintains open-source code, he shares his dev experience by writing on his blog, speaking at confs and organizing events with the Google Developer Group Venezia and he plays basketball.\n\nSimone Formica, Organizer\n\nAndroid & AOSP Dev\nLinux lovers,\nIoT and Photo lover\n\nCo-organizer of GdG Venezia - Mentor at Coderdojo ZeroBranco (TV)\n\nAndrea Maglie, Organizer\n\nOmar Al Bukhari, Android Developer\n\nI am specialized in developing Android applications.\nI love to learn a lot of new things even not related to my field.\nI spend my time also on doing karate, traveling to places that I have never visited, and I do love photo-shooting the world.\nI am part of the Google Developer Group community as one of many lead co-organizers in GDG Venice and GDG Italy.\nI have just one goal in my entire life, being inspired every time no matter what is in front of me!\n\nGiuseppe Sorce, Senior Mobile Developer\n\nFabio Catinella, Android Engineer\n\nComplete your event RSVP here: https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-venezia-2023/.",
+            "endTime": "2023-12-02T18:30:00+01:00",
+            "eventType": "PHYSICAL",
+            "eventUrl": "https://www.meetup.com/gdg-venezia/events/296579530/",
+            "group": {
+                "name": "GDG Venezia"
+            },
+            "howToFindUs": "",
+            "title": "DevFest Venezia - 2023",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Via Torino, 155",
+                    "city": "Mestre, Venezia",
+                    "country": "it",
+                    "name": "Campus Scientifico Universit\u00e0 Ca' Foscari"
+                }
+            ]
+        }
+    },
+    "id": "296579530",
+    "now": "1925-10-25T00:06:28"
+}

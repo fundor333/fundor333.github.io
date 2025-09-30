@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2020-03-31T18:00:00+02:00",
+            "description": "EVENTO ONLINE SU ZOOM\nRiproponiamo l'evento in modalit\u00e0 videoconferenza.\n\nIl tema del meetup \u00e8 la visualizzazione dei dati. Ci scambieremo conoscenze e best practice su tool e librerie per mostrare e comprendere i dati che elaboriamo. Come spunto di partenza partiremo da un caso d'uso sulla visualizzazione su mappa di punti geospaziali usando Python.\n\nCi sar\u00e0 spazio per il dialogo e il confronto anche sui temi di attualit\u00e0 legati ai dati. Se qualcuno vuole proporre qualche caso d'uso di visualizzazione dati \u00e8 pregato di scrivere agli organizzatori cos\u00ec da venire messo in scaletta.\n\nIl meeting ID sar\u00e0 diffuso il giorno dell'evento",
+            "endTime": "2020-03-31T19:00:00+02:00",
+            "eventType": "ONLINE",
+            "eventUrl": "https://www.meetup.com/pydata-venice/events/269622193/",
+            "group": {
+                "name": "PyData Venice"
+            },
+            "howToFindUs": null,
+            "title": "PyDataVE #2 - DataViz (geo e non)",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "269622193",
+    "now": "1925-10-25T00:06:34"
+}

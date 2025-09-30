@@ -1,0 +1,22 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2020-10-17T10:00:00+02:00",
+            "description": "THIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW\n\nhttps://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-italia-2020/\n\nAnche quest\u2019anno torna la DevFest, in una nuova veste nazionale, coordinata globalmente e totalmente online.\n\nDevFest 2020 riunir\u00e0 migliaia di sviluppatori dalla passione condivisa per le tecnologie Google e non per un weekend epico in cui le comunit\u00e0 di tutto il mondo si uniranno per connettersi, imparare e, soprattutto, divertirsi.\n\nUnisciti anche te il 17 e il 18 ottobre per la pi\u00f9 grande conferenza tecnologica virtuale distribuita mai creata!\n\n\ud83c\udfab Registrazione gratuita \u2192 gdg.community.dev/e/mjmb5j/\n\nUn evento totalmente online e interattivo con talk, discussioni a tema tech, giochi e divertimento.\n\nDue giorni in cui affrontare 7 aree tematiche:\n\n\u2601 Cloud Computing\n\n\ud83e\udd16 Machine Learning\n\n\ud83d\udcbb Front-end\n\n\ud83d\udcf1 Mobile\n\n\ud83d\udcca Marketing\n\n\ud83c\udf0d Diversity & Inclusion\n\n\ud83d\ude0e Soft Skill\n\n\u2753 INFO E FAQ\n\nQuando: sabato 17 e domenica 18 ottobre\nOrario: mattina e pomeriggio (TBD)\nDove: online (piattaforma TBD)\nCosto: gratis\nAlcune track tematiche saranno tenute in parallelo\nRegistrazioni \u27a1 gdg.community.dev\nSito web \u27a1 devfest.it\nLeggi il codice di condotta\nHashtag ufficiali: #devfestitalia #devfestita20 #devfest2020 #gdgfun\nScopri le altre DevFest europee \u27a1 devfesteurope.com\n\n\ud83d\udc69\u200d\ud83d\udcbb PROGRAMMA (in costruzione)\nhttps://www.devfest.it/speakers/\n\nAgenda\n\n---\n\nHosted By\n\nAndrea Maglie, GDG Organizer\n\nMarco Gomiero, GDG Organizer\n\nI\u2019m working as Uniwhere Tech Lead, where I manage the end-to-end development of a platform with half a million users.\n\nI\u2019m a Kotlin lover with a Computer Engineering degree, I have experience with native Android and native iOS development, as well as cross-platform development with React Native, Flutter and Kotlin Multiplatform.\n\nIn my spare time I write and maintain open source code, I share my dev experience by speaking at confs and organizing events with the Google Developer Group Venezia and I play basketball.\n\nSimone Formica, GDG Organizer\n\nOmar Al Bukhari, GDG Organizer\n\n---\n\nTHIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW\n\nhttps://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-italia-2020/",
+            "endTime": "2020-10-18T17:00:00+02:00",
+            "eventType": "PHYSICAL",
+            "eventUrl": "https://www.meetup.com/gdg-venezia/events/273576878/",
+            "group": {
+                "name": "GDG Venezia"
+            },
+            "howToFindUs": "",
+            "title": "DevFest Italia 2020",
+            "topics": {
+                "edges": []
+            },
+            "venues": []
+        }
+    },
+    "id": "273576878",
+    "now": "1925-10-25T00:06:29"
+}

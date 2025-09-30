@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2017-05-17T17:45:00+02:00",
+            "description": "https://secure.meetupstatic.com/photos/event/8/5/8/8/600_460234184.jpeg\n\nAnche quest'anno il GDG Venezia \u00e8 lieto di organizzare il Google I/O Extended, per scoprire insieme tutte le novit\u00e0 che Google ha in serbo per sviluppatori e non.\n\nL'evento si terr\u00e0 presso: \"Tesa 94, Arsenale Nord, Venezia\"\n\nProgramma:\n\n\u2022 17.45: Check-in\n\n\u2022 18.00: Aperitivo di Networking con buffet\n\n\u2022 19.00: Inizio del keynote in live streaming\n\n\u2022 21.00: Conclusione dell'evento.\n\nCi sar\u00e0 inoltre la possibilit\u00e0 di ricevere qualche gadget. Vi aspettiamo!\n\nCome Raggiungerci:\n\nE' consigliabile raggiungere Venezia\n\nin treno ( Link (http://www.trenitalia.com/)),\nin autobus ( Link (http://actv.avmspa.it/it))\nin tram Linea T1 ( Link (http://actv.avmspa.it/it/content/il-tram-0) )\ne prendere i vaporetti 4.1 o 5.2 (fermata Celestia o Bacini)\n\nOppure da piazzale Roma seguire per Piazza San Marco e poi per Arsenale (passeggiata di 35min circa).\n\nNell'immagine qui sotto potete capire al meglio qual'\u00e8 la Tesa 94.\n\nhttps://secure.meetupstatic.com/photos/event/1/a/f/d/600_460626909.jpeg",
+            "endTime": "2017-05-17T20:45:00+02:00",
+            "eventType": "PHYSICAL",
+            "eventUrl": "https://www.meetup.com/gdg-venezia/events/239405910/",
+            "group": {
+                "name": "GDG Venezia"
+            },
+            "howToFindUs": "",
+            "title": "Google I/O Extended Venezia 2017",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Arsenale Nord",
+                    "city": "Venezia",
+                    "country": "it",
+                    "name": "Tesa 94, Arsenale Nord"
+                }
+            ]
+        }
+    },
+    "id": "239405910",
+    "now": "1925-10-25T00:06:36"
+}

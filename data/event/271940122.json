@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2020-11-11T09:00:00+01:00",
+            "description": "PyData Global is the very first fully-online PyData conference. Join our global community for five days packed with talks, tutorials, posters, open-source sprints and a digital hallway track.\n\nFor more information, check out global.pydata.org\n\nThe CFP is now live! (https://global.pydata.org/pages/cfp.html)\nTickets will be on sale soon at the website.",
+            "endTime": "2020-11-11T23:00:00+01:00",
+            "eventType": "ONLINE",
+            "eventUrl": "https://www.meetup.com/pydata-venice/events/271940122/",
+            "group": {
+                "name": "PyData Venice"
+            },
+            "howToFindUs": null,
+            "title": "PyData Global 2020 Online Conference ",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "271940122",
+    "now": "1925-10-25T00:06:33"
+}

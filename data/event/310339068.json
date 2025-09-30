@@ -1,0 +1,35 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2025-08-28T19:00:00+02:00",
+            "description": "Carissimi, continuiamo con i meetup PyData, incentrati come sempre sulla condivisione di best practice, metodologie, analisi, sistemi di machine learning, .., con i progetti open source del programma di [NumFOCUS](https://numfocus.org/sponsored-projects) ma non solo !\n\nCi troviamo in **#presenza gioved\u00ec 28 agosto alle ore 19:00**.\nSaremo ospitati da [Anda Venice Hostel](https://maps.app.goo.gl/XEf4i3UYwpLAmGoT8) a Mestre, e per chi non potesse raggiungerci, si terr\u00e0 anche su [YouTube](https://www.youtube.com/watch?v=0T720NCMS2o) in **#streaming**.\n\n\ud83d\udc65 Avremo due sessioni interessanti, una teorica e una pratica:\n\ud83d\udde3[ ](https://www.linkedin.com/in/bigluck/)[Alessandra Bilardi](https://www.linkedin.com/in/bilardi/) ci porter\u00e0 da zero alle basi della **#DataAnalysis**, per comprenderne le fondamenta e le **#BestPractice**, nonch\u00e9 le librerie utili per l\u2019**#EDA**.\nA seguire \ud83d\udcbb andremo a sfruttare quanto raccontato, per analizzare i dati di una competizione di **#Kaggle** e provare alcune librerie !\n\n\u2699\ufe0f Il meetup sar\u00e0 organizzato come un workshop: ci saranno alcuni sondaggi durante la prima sessione e, nella seconda, si potr\u00e0 lavorare con il proprio portatile su **#Colab**, in modo da provare con mano le librerie proposte\u203c\ufe0f\n\n\ud83d\udcfd E se avete piacere di condividere idee, progetti, argomenti, o proporvi come prossimi speaker, lascio il solito [form Google](https://forms.gle/rVMWxFnodHaNb9ab9) !",
+            "endTime": "2025-08-28T21:00:00+02:00",
+            "eventType": "HYBRID",
+            "eventUrl": "https://www.meetup.com/pydata-venice/events/310339068/",
+            "group": {
+                "name": "PyData Venice"
+            },
+            "howToFindUs": null,
+            "title": "PyDataVE #22 - #DataAnalysis #Workshop",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Via Ortigara, 10, 30171 Mestre VE",
+                    "city": "Venice",
+                    "country": "it",
+                    "name": "Anda Venice Hostel"
+                },
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "310339068",
+    "now": "1925-10-25T00:06:32"
+}

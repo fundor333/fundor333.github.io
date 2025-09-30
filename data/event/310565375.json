@@ -1,0 +1,35 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2025-12-18T19:00:00+01:00",
+            "description": "Carissimi, continuiamo con i meetup PyData, incentrati come sempre sulla condivisione di best practice, metodologie, analisi, sistemi di machine learning, .., con i progetti open source del programma di [NumFOCUS](https://numfocus.org/sponsored-projects) ma non solo !\n\nCi troviamo in **#presenza gioved\u00ec 18 dicembre alle ore 19:00**.\nL'incontro si terr\u00e0 presso il [Coworking Mestre](https://www.google.com/maps/search/?api=1&query=45.480717%2C%2012.250518), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su YouTube.\n\nLa scaletta non \u00e8 ancora stata definita.\n\nSe volete partecipare attivamete, proponete[vi per] argomenti e/o location con il[ Form Google](https://forms.gle/rVMWxFnodHaNb9ab9) o direttamente nel canale Telegram !",
+            "endTime": "2025-12-18T21:00:00+01:00",
+            "eventType": "HYBRID",
+            "eventUrl": "https://www.meetup.com/pydata-venice/events/310565375/",
+            "group": {
+                "name": "PyData Venice"
+            },
+            "howToFindUs": null,
+            "title": "PyDataVE #24",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Via Torino, 135",
+                    "city": "Venezia",
+                    "country": "it",
+                    "name": "Via Torino, 135"
+                },
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "310565375",
+    "now": "1925-10-25T00:06:30"
+}

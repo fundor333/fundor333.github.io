@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2020-05-07T18:30:00+02:00",
+            "description": "In questo incontro approfondiremo una libreria emersa durante il PyDataVE #2 per la generazione di grafici e data visualization. A seguire un'introduzione a NumPy e Pandas , gli strumenti principali del mondo Python per l'analisi dei dataset. Per finire, l'annuncio di un nuovo progetto comunitario!\n\nL'incontro si terr\u00e0 su Zoom e l'ID della stanza verr\u00e0 comunicato a ridosso dell'evento via email a chi dar\u00e0 conferma di partecipazione.",
+            "endTime": "2020-05-07T19:30:00+02:00",
+            "eventType": "ONLINE",
+            "eventUrl": "https://www.meetup.com/pydata-venice/events/270401915/",
+            "group": {
+                "name": "PyData Venice"
+            },
+            "howToFindUs": null,
+            "title": "PyDataVE #3 (ONLINE) - Python Data Tools",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "270401915",
+    "now": "1925-10-25T00:06:34"
+}

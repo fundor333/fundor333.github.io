@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2024-05-14T18:30:00+02:00",
+            "description": "Il GDG Venezia vi invita al Google I/O Extended 2024 il 14 maggio! L'evento offre la possibilit\u00e0 di seguire in diretta streaming il Keynote del Google I/O, ma soprattutto di connettersi con altri appassionati di tecnologia e sviluppatori.&nbsp;\nIl Google I/O Extended 2024 \u00e8 gratuito, ma la registrazione \u00e8 obbligatoria. Il numero di posti \u00e8 limitato, quindi registrati subito per non perdere l'occasione di partecipare!\n\nL'evento sar\u00e0 ospitato da Zero12.\nLa zona \u00e8 facilmente raggiungibile con i mezzi pubblici.\n\nAgenda\n\n6:30 PM: Registrazione\n\n7:00 PM: Inizio livestream del Keynote\n\n8:30 PM: Cena e networking\n\n---\n\nHosted By\n\nMarco Gomiero, Android Engineer\n\nMarco is an Android engineer, currently working at Airalo. He is a Google Developer Expert for Kotlin, he loves Kotlin and he has experience with native Android and native iOS development, as well as cross-platform development with Flutter and Kotlin Multiplatform.\n\nIn his spare time, he writes and maintains open-source code, he shares his dev experience by writing on his blog, speaking at confs and organizing events with the Google Developer Group Venezia and he plays basketball.\n\nAndrea Maglie, Organizer\n\nSimone Formica, Organizer\n\nAndroid & AOSP Dev\nLinux lovers,\nIoT and Photo lover\n\nCo-organizer of GdG Venezia - Mentor at Coderdojo ZeroBranco (TV)\n\nOmar Al Bukhari, Android Developer\n\nI am specialized in developing Android applications.\nI love to learn a lot of new things even not related to my field.\nI spend my time also on doing karate, traveling to places that I have never visited, and I do love photo-shooting the world.\nI am part of the Google Developer Group community as one of many lead co-organizers in GDG Venice and GDG Italy.\nI have just one goal in my entire life, being inspired every time no matter what is in front of me!\n\nGiuseppe Sorce, Senior Mobile Developer\n\nFabio Catinella, Android Engineer\n\n---\n\nPartner\n\nZero12 (https://www.zero12.it/)\n\n---\n\nComplete your event RSVP here: https://gdg.community.dev/events/details/google-gdg-venezia-presents-google-io-extended-2024-watch-party/.",
+            "endTime": "2024-05-14T20:30:00+02:00",
+            "eventType": "PHYSICAL",
+            "eventUrl": "https://www.meetup.com/gdg-venezia/events/300733325/",
+            "group": {
+                "name": "GDG Venezia"
+            },
+            "howToFindUs": "",
+            "title": "Google I/O Extended 2024 Watch Party",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "22B Via Salboro",
+                    "city": "Padova",
+                    "country": "IT",
+                    "name": "zero12 srl"
+                }
+            ]
+        }
+    },
+    "id": "300733325",
+    "now": "1925-10-25T00:06:28"
+}

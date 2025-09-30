@@ -1,0 +1,29 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2025-10-11T09:00:00+02:00",
+            "description": "\ud83c\udf1f DevFest Venezia 2025 \ud83c\udf1f\n\nWe're thrilled to announce the return of DevFest to Venice, the extraordinary event where enthusiasts and experts meet to share their passion for all-around development.\n\nThis year, we're raising the bar with three concurrent tracks, two in English and one in Italian, opening the doors to a wider and more diverse audience!\n\n\ud83d\udd25 What to expect:\n\n\ud83c\udfa4 Exceptional speakers from all over the world sharing their knowledge on Google products and beyond.\n\n\ud83c\udf10 Three engaging tracks with sessions in both English and Italian.\n\n\ud83e\udd1d Unique networking opportunities with developers and industry enthusiasts.\n\n\ud83c\udd93 Admission to the event is completely free!\n\nThis event is designed to bring the tech community together, focusing on learning, connection, and inspiration. Discover the latest tech trends, sharpen your skills, and connect with industry professionals from around the world.\n\nDon't miss this unique opportunity for professional growth and get ready to be inspired! \ud83d\ude80\n\nMore information here: https://devfest25.gdgvenezia.it/\n------------------------------------------\n\ud83c\udf1f DevFest Venezia 2025 \ud83c\udf1f\n\nSiamo entusiasti di annunciare il ritorno della DevFest a Venezia, l'evento straordinario dove appassionati ed esperti si incontrano per condividere la loro passione per lo sviluppo a tutto tondo.\n\nQuest'anno, stiamo alzando l'asticella con tre tracce contemporanee, due in inglese e una in italiano, aprendo le porte a un pubblico pi\u00f9 vasto e diversificato!\n\n\ud83d\udd25 Cosa aspettarci:\n\n\ud83c\udfa4 Speaker d'eccezione da tutto il mondo condividono le loro conoscenze sui prodotti Google e non solo.\n\n\ud83c\udf10 Tre tracce coinvolgenti con sessioni in inglese e italiano.\n\n\ud83e\udd1d Opportunit\u00e0 uniche di networking con sviluppatori e appassionati del settore.\n\n\ud83c\udd93 L'ingresso all'evento \u00e8 assolutamente gratuito!\n\nQuesto evento \u00e8 pensato per riunire la comunit\u00e0 tech, mettendo in primo piano l'apprendimento, la connessione e l'ispirazione. Scopri le ultime tendenze in ambito tecnologico, affina le tue competenze e connettiti con professionisti del settore provenienti da tutto il mondo.\n\nNon perdere questa occasione unica di crescita professionale e preparati a essere ispirato! \ud83d\ude80\n\nMaggiori informazioni qua:\n\nhttps://devfest25.gdgvenezia.it/\n\nAgenda\n\n---\n\nHosted By\n\nMarco Gomiero, Android Engineer\n\nMarco is an Android engineer, currently working at Airalo. He is a Google Developer Expert for Kotlin, he loves Kotlin and he has experience with native Android and native iOS development, as well as cross-platform development with Flutter and Kotlin Multiplatform.\n\nIn his spare time, he writes and maintains open-source code, he shares his dev experience by writing on his blog, speaking at confs and organizing events with the Google Developer Group Venezia and he plays basketball.\n\nAndrea Maglie, Organizer\n\nSimone Formica, Organizer\n\nAndroid & AOSP Dev\nLinux lovers,\nIoT and Photo lover\n\nCo-organizer of GdG Venezia - Mentor at Coderdojo ZeroBranco (TV)\n\nOmar Al Bukhari, Organizer\n\nExperienced Mobile Developer with a track record of optimizing development lifecycles and enhancing client satisfaction.Key highlights include:\n\n-Proven expertise in Android, Outsystems development, and ongoing learning in Kotlin Multiplatform.\n-Successfully reduced time-to-market by 30% through optimised development practices.\n-Lead co-organizer at GDG Venice and GDG Italy, fostering collaboration within the tech community.\n-Avid learner with a passion for exploring new technologies and contributing to the growth of the Google Developer Group community.\n\nFabio Catinella, Android Engineer\n\nGiuseppe Sorce, Senior Mobile Developer\n\nComplete your event RSVP here: https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-venezia-2025/.",
+            "endTime": "2025-10-11T18:30:00+02:00",
+            "eventType": "PHYSICAL",
+            "eventUrl": "https://www.meetup.com/gdg-venezia/events/310753901/",
+            "group": {
+                "name": "GDG Venezia"
+            },
+            "howToFindUs": "",
+            "title": "DevFest Venezia 2025",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Via Torino, 155",
+                    "city": "Mestre, Venezia",
+                    "country": "it",
+                    "name": "Campus Scientifico Universit\u00e0 Ca' Foscari"
+                }
+            ]
+        }
+    },
+    "id": "310753901",
+    "now": "1925-10-25T00:06:27"
+}
