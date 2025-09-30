@@ -1,8 +1,8 @@
 ---
 title: 'AWS User Group Venezia #9 Competition'
-date: 1925-10-24 23:27:18
-start: 2025-09-16 19:00:00
-end: 2025-09-16 21:00:00
+date: 1925-10-25 00:06:32
+start: 2025-09-16 19:00:00+02:00
+end: 2025-09-16 21:00:00+02:00
 location: Via Torino, 135, Venezia, it
 group:
 - AWS User Group Venezia

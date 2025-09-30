@@ -1,8 +1,8 @@
 ---
 title: 'PyData Global 2020 Online Conference '
-date: 1925-10-24 23:27:20
-start: 2020-11-11 09:00:00
-end: 2020-11-11 23:00:00
+date: 1925-10-25 00:06:33
+start: 2020-11-11 09:00:00+01:00
+end: 2020-11-11 23:00:00+01:00
 location: Online
 group:
 - PyData Venice

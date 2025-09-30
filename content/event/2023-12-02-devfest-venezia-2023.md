@@ -1,8 +1,8 @@
 ---
 title: DevFest Venezia - 2023
-date: 1925-10-24 23:27:15
-start: 2023-12-02 09:00:00
-end: 2023-12-02 18:30:00
+date: 1925-10-25 00:06:28
+start: 2023-12-02 09:00:00+01:00
+end: 2023-12-02 18:30:00+01:00
 location: Online
 group:
 - GDG Venezia

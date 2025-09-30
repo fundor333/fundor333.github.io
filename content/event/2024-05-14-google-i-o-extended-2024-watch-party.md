@@ -1,8 +1,8 @@
 ---
 title: Google I/O Extended 2024 Watch Party
-date: 1925-10-24 23:27:15
-start: 2024-05-14 18:30:00
-end: 2024-05-14 20:30:00
+date: 1925-10-25 00:06:28
+start: 2024-05-14 18:30:00+02:00
+end: 2024-05-14 20:30:00+02:00
 location: Online
 group:
 - GDG Venezia

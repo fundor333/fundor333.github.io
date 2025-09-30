@@ -1,8 +1,8 @@
 ---
 title: 'PyData Venice #0'
-date: 1925-10-24 23:27:21
-start: 2019-09-21 17:00:00
-end: 2019-09-21 19:00:00
+date: 1925-10-25 00:06:35
+start: 2019-09-21 17:00:00+02:00
+end: 2019-09-21 19:00:00+02:00
 location: Online
 group:
 - PyData Venice

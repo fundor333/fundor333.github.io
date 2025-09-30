@@ -79,7 +79,7 @@ automation: anime webmention syndication ## Run all the automation script
 	@uv run python action_script/syndication-correction.py
 
 
-deploy: update characters webmention syndication## Ready to deploy
+deploy: update characters meet webmention syndication## Ready to deploy
 	@hugo --minify
 	@python mastodon2hugo.py @fundor333@mastodon.social
 
@@ -115,3 +115,6 @@ notebook: ## Run notebook script
 
 notebook_editor: ## Run notebook editor
 	@uv run jupyter lab .
+
+meet: ## Run meet script
+	@uv run python3 micro_meetup.py --memory True

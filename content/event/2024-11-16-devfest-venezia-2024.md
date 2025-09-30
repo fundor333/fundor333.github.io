@@ -1,8 +1,8 @@
 ---
 title: DevFest Venezia 2024
-date: 1925-10-24 23:27:14
-start: 2024-11-16 09:00:00
-end: 2024-11-16 18:30:00
+date: 1925-10-25 00:06:27
+start: 2024-11-16 09:00:00+01:00
+end: 2024-11-16 18:30:00+01:00
 location: Online
 group:
 - GDG Venezia

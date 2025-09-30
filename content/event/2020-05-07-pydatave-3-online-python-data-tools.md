@@ -1,8 +1,8 @@
 ---
 title: 'PyDataVE #3 (ONLINE) - Python Data Tools'
-date: 1925-10-24 23:27:20
-start: 2020-05-07 18:30:00
-end: 2020-05-07 19:30:00
+date: 1925-10-25 00:06:34
+start: 2020-05-07 18:30:00+02:00
+end: 2020-05-07 19:30:00+02:00
 location: Online
 group:
 - PyData Venice

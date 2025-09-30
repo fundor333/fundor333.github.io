@@ -1,8 +1,8 @@
 ---
 title: 'PyDataVE #6 - CERN Edition'
-date: 1925-10-24 23:27:19
-start: 2020-11-27 18:30:00
-end: 2020-11-27 19:30:00
+date: 1925-10-25 00:06:33
+start: 2020-11-27 18:30:00+01:00
+end: 2020-11-27 19:30:00+01:00
 location: Online
 group:
 - PyData Venice

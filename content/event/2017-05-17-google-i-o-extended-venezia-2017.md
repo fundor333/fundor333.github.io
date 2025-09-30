@@ -1,8 +1,8 @@
 ---
 title: Google I/O Extended Venezia 2017
-date: 1925-10-24 23:27:21
-start: 2017-05-17 17:45:00
-end: 2017-05-17 20:45:00
+date: 1925-10-25 00:06:36
+start: 2017-05-17 17:45:00+02:00
+end: 2017-05-17 20:45:00+02:00
 location: Online
 group:
 - GDG Venezia

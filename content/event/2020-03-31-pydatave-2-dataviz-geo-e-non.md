@@ -1,8 +1,8 @@
 ---
 title: 'PyDataVE #2 - DataViz (geo e non)'
-date: 1925-10-24 23:27:20
-start: 2020-03-31 18:00:00
-end: 2020-03-31 19:00:00
+date: 1925-10-25 00:06:34
+start: 2020-03-31 18:00:00+02:00
+end: 2020-03-31 19:00:00+02:00
 location: Online
 group:
 - PyData Venice

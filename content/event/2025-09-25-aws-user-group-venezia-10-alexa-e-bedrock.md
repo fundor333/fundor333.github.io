@@ -1,8 +1,8 @@
 ---
 title: 'AWS User Group Venezia #10 - #Alexa e #Bedrock'
-date: 1925-10-24 23:27:17
-start: 2025-09-25 19:00:00
-end: 2025-09-25 21:00:00
+date: 1925-10-25 00:06:31
+start: 2025-09-25 19:00:00+02:00
+end: 2025-09-25 21:00:00+02:00
 location: Via Torino, 135, Venezia, it
 group:
 - AWS User Group Venezia
