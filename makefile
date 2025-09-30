@@ -79,9 +79,12 @@ automation: anime webmention syndication ## Run all the automation script
 	@uv run python action_script/syndication-correction.py
 
 
-deploy: update characters meet webmention syndication precommit## Ready to deploy
+deploy: update characters meet webmention syndication## Ready to deploy
 	@hugo --minify
 	@python mastodon2hugo.py @fundor333@mastodon.social
+	@git add .
+	@uv run pre-commit run
+	@git add .
 
 broadcast: clean ## broadcast the site
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
