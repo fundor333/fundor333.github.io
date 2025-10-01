@@ -1,24 +1,16 @@
 ---
 title: 'PyVenice #1 - #Astrophysics #MachineLearning #Coding #AgenticAi'
-date: 1925-10-25 00:06:30
+date: 1925-10-25T00:06:30
 start: 2025-10-02 19:00:00+02:00
 end: 2025-10-02 21:00:00+02:00
 location: Online
 group:
 - PyVenice
-tags:
-- meetup-584902
-- meetup-917262
-- meetup-34455
+tags: [meetup-584902, meetup-917262, meetup-34455]
 event_url: https://www.meetup.com/pyvenice/events/311033533/
-how_to_find_us: null
-syndication:
-- https://mastodon.social/@fundor333/115290014437745064
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115290014437745064'
+how_to_find_us:
 ---
+
 
 **#PyVenice #1 - #Ai #Astrophysics #AgentAi #Coding #OpenSource**
 
