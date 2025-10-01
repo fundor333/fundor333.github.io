@@ -16,9 +16,7 @@ comments:
   username: fundor333
   id: '115290017201930795'
 ---
-
-
-https://secure.meetupstatic.com/photos/event/8/5/8/8/600_460234184.jpeg
+    https://secure.meetupstatic.com/photos/event/8/5/8/8/600_460234184.jpeg
 
 Anche quest'anno il GDG Venezia è lieto di organizzare il Google I/O Extended, per scoprire insieme tutte le novità che Google ha in serbo per sviluppatori e non.
 

@@ -16,9 +16,7 @@ comments:
   username: fundor333
   id: '115290014481317201'
 ---
-
-
-THIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW
+    THIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW
 
 https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-italia-2020/
 

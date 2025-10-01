@@ -107,7 +107,7 @@ event_url: {event_url}
 how_to_find_us: {how_to_find_us}
 ---
     """
-    post += f"\n\n{description}\n"
+    post += f"{description}\n"
     # create the content/event directory if it doesn't exist
     os.makedirs("content/event", exist_ok=True)
     # write to a markdown file where is in the format content/event/YYYY-MM-DD-event-title.md

@@ -16,9 +16,7 @@ comments:
   username: fundor333
   id: '115290016670492455'
 ---
-
-
-EVENTO ONLINE SU ZOOM
+    EVENTO ONLINE SU ZOOM
 Riproponiamo l'evento in modalità videoconferenza.
 
 Il tema del meetup è la visualizzazione dei dati. Ci scambieremo conoscenze e best practice su tool e librerie per mostrare e comprendere i dati che elaboriamo. Come spunto di partenza partiremo da un caso d'uso sulla visualizzazione su mappa di punti geospaziali usando Python.

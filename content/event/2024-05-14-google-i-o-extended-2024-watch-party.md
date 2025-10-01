@@ -16,9 +16,7 @@ comments:
   username: fundor333
   id: '115290013776632905'
 ---
-
-
-Il GDG Venezia vi invita al Google I/O Extended 2024 il 14 maggio! L'evento offre la possibilità di seguire in diretta streaming il Keynote del Google I/O, ma soprattutto di connettersi con altri appassionati di tecnologia e sviluppatori.&nbsp;
+    Il GDG Venezia vi invita al Google I/O Extended 2024 il 14 maggio! L'evento offre la possibilità di seguire in diretta streaming il Keynote del Google I/O, ma soprattutto di connettersi con altri appassionati di tecnologia e sviluppatori.&nbsp;
 Il Google I/O Extended 2024 è gratuito, ma la registrazione è obbligatoria. Il numero di posti è limitato, quindi registrati subito per non perdere l'occasione di partecipare!
 
 L'evento sarà ospitato da Zero12.

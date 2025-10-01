@@ -16,8 +16,6 @@ comments:
   username: fundor333
   id: '115290015818427149'
 ---
-
-
-Massimo Lamanna, coordinatore tecnico dell’esperimento ALICE al CERN di Ginevra, ci presenterà ROOT, il tool di analisi dati più usato in fisica delle particelle (quello utilizzato per la scoperta del Bosone di Higgs!). Non mancate!
+    Massimo Lamanna, coordinatore tecnico dell’esperimento ALICE al CERN di Ginevra, ci presenterà ROOT, il tool di analisi dati più usato in fisica delle particelle (quello utilizzato per la scoperta del Bosone di Higgs!). Non mancate!
 
 L'evento si terrà online e il link Zoom verrà recapitato solo a chi si iscrive.

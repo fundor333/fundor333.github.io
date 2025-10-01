@@ -16,8 +16,6 @@ comments:
   username: fundor333
   id: '115290016377785510'
 ---
-
-
-In questo incontro approfondiremo una libreria emersa durante il PyDataVE #2 per la generazione di grafici e data visualization. A seguire un'introduzione a NumPy e Pandas , gli strumenti principali del mondo Python per l'analisi dei dataset. Per finire, l'annuncio di un nuovo progetto comunitario!
+    In questo incontro approfondiremo una libreria emersa durante il PyDataVE #2 per la generazione di grafici e data visualization. A seguire un'introduzione a NumPy e Pandas , gli strumenti principali del mondo Python per l'analisi dei dataset. Per finire, l'annuncio di un nuovo progetto comunitario!
 
 L'incontro si terrà su Zoom e l'ID della stanza verrà comunicato a ridosso dell'evento via email a chi darà conferma di partecipazione.

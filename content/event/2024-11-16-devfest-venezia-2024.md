@@ -16,9 +16,7 @@ comments:
   username: fundor333
   id: '115290013116714153'
 ---
-
-
-🌟 DevFest Venezia 2024 🌟
+    🌟 DevFest Venezia 2024 🌟
 
 Siamo entusiasti di annunciare il ritorno della DevFest a Venezia, l'evento straordinario dove appassionati ed esperti si incontrano per condividere la loro passione per lo sviluppo a tutto tondo.
 

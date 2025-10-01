@@ -16,9 +16,7 @@ comments:
   username: fundor333
   id: '115290016101924220'
 ---
-
-
-PyData Global is the very first fully-online PyData conference. Join our global community for five days packed with talks, tutorials, posters, open-source sprints and a digital hallway track.
+    PyData Global is the very first fully-online PyData conference. Join our global community for five days packed with talks, tutorials, posters, open-source sprints and a digital hallway track.
 
 For more information, check out global.pydata.org
 

@@ -19,9 +19,7 @@ comments:
   username: fundor333
   id: '115290014437745064'
 ---
-
-
-**#PyVenice #1 - #Ai #Astrophysics #AgentAi #Coding #OpenSource**
+    **#PyVenice #1 - #Ai #Astrophysics #AgentAi #Coding #OpenSource**
 
 Continuiamo il nostro viaggio per il **#Veneto** da Vicenza alle **#stelle**, ospitati dall’Elevator Innovation Hub.
 
