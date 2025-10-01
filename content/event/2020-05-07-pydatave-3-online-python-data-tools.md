@@ -1,6 +1,6 @@
 ---
 title: 'PyDataVE #3 (ONLINE) - Python Data Tools'
-date: 1925-10-25T00:06:34
+date: 1925-10-25 00:06:34
 start: 2020-05-07 18:30:00+02:00
 end: 2020-05-07 19:30:00+02:00
 location: Online
@@ -9,6 +9,12 @@ group:
 tags: []
 event_url: https://www.meetup.com/pydata-venice/events/270401915/
 how_to_find_us: None
+syndication:
+- https://mastodon.social/@fundor333/115290016377785510
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115290016377785510'
 ---
 
 
