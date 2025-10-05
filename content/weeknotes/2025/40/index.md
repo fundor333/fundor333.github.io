@@ -1,12 +1,19 @@
 ---
-title: "Week Note Nº 40/2025"
-date: "2025-10-05T09:00:00+01:00"
-lastmod: "2025-10-05T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 40 of 2025"
-description: "Personal notes for week 40 of 2025"
-draft: False
+title: Week Note Nº 40/2025
+date: '2025-10-05T09:00:00+01:00'
+lastmod: '2025-10-05T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 40 of 2025
+description: Personal notes for week 40 of 2025
+draft: false
+syndication:
+- https://mastodon.social/@fundor333/115320547562309167
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115320547562309167'
 ---
 
 - Searcing open data for Pollin of my city
