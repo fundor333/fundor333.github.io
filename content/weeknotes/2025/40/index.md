@@ -1,19 +1,12 @@
 ---
-title: Week Note Nº 40/2025
-date: '2025-10-05T09:00:00+01:00'
-lastmod: '2025-10-05T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 40 of 2025
-description: Personal notes for week 40 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115320547562309167
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115320547562309167'
+title: "Week Note Nº 40/2025"
+date: "2025-10-05T09:00:00+01:00"
+lastmod: "2025-10-05T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 40 of 2025"
+description: "Personal notes for week 40 of 2025"
+draft: False
 ---
 
 - Searcing open data for Pollin of my city
@@ -25,6 +18,7 @@ comments:
 - [Book Review: Streaming Wars – How Getting Everything We Wanted Changed Entertainment Forever by Charlotte Henry – Terence Eden’s Blog](https://shkspr.mobi/blog/2025/10/book-review-streaming-wars-how-getting-everything-we-wanted-changed-entertainment-forever-by-charlotte-henry/?utm_source=fundor333.com)
 - [Trying out health tracking spreads in the Hobonichi Weeks](https://www.maaikebrinkhof.nl/trying-out-health-tracking-spreads/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 40/2025](https://fundor333.com/weeknotes/2025/40/?utm_source=fundor333.com)
 - [Fog Machine](https://fundor333.com/photos/2025/fog-machine/?utm_source=fundor333.com)
 
 ## My Links
