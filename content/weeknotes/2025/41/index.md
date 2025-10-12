@@ -1,29 +1,26 @@
 ---
-title: Week Note Nº 41/2025
-date: '2025-10-12T09:00:00+01:00'
-lastmod: '2025-10-12T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 41 of 2025
-description: Personal notes for week 41 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115360183491385508
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115360183491385508'
+title: "Week Note Nº 41/2025"
+date: "2025-10-12T09:00:00+01:00"
+lastmod: "2025-10-12T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 41 of 2025"
+description: "Personal notes for week 41 of 2025"
+draft: False
 ---
 
+- And today i was taking photo at cosplayers at San Dona Fumetto, a Con near my city
 
 ## Suggested Reading Links/Posts
+- [Add a GitHub Style Calendar Heatmap Widget to your Blog](https://www.burgeonlab.com/blog/github-style-heatmap-calendar-widget-visualizing-hugo/?utm_source=fundor333.com)
 - [An /intro to Python 3.14's New Features - Mouse Vs Python](https://www.blog.pythonlibrary.org/2025/10/09/an-intro-to-python-3-14s-new-features/?utm_source=fundor333.com)
 - [| Chris Aldrich](https://boffosocko.com/2025/10/08/mcgill-file-tab-3-inch-punch/?utm_source=fundor333.com)
 - [| Chris Aldrich](https://boffosocko.com/2025/10/08/blue-lacquerware-pen-and-pad-holder-by-otagiri/?utm_source=fundor333.com)
 - [Ink Review #2850: KWZ Grapefruit — Mountain of Ink](https://mountainofink.com/blog/kwz-grapefruit?utm_source=fundor333.com)
 - [Rubenerd: Fully-adhesive sticky notes from Muji](https://rubenerd.com/full-adhesive-sticky-notes/?utm_source=fundor333.com)
 - [Django: one ORM to rule all databases 💍](https://www.paulox.net/2025/10/06/django-orm-comparison/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 41/2025](https://fundor333.com/weeknotes/2025/41/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
