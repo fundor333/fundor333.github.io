@@ -1,19 +1,12 @@
 ---
-title: Week Note Nº 42/2025
-date: '2025-10-19T09:00:00+01:00'
-lastmod: '2025-10-19T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 42 of 2025
-description: Personal notes for week 42 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115399820370555532
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115399820370555532'
+title: "Week Note Nº 42/2025"
+date: "2025-10-19T09:00:00+01:00"
+lastmod: "2025-10-19T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 42 of 2025"
+description: "Personal notes for week 42 of 2025"
+draft: False
 ---
 
 
@@ -23,6 +16,9 @@ comments:
 - [Compressed Fluid Typography · Matthias Ott](https://matthiasott.com/notes/compressed-fluid-typography?utm_source=fundor333.com)
 - [Sunday, October 12, 2025 | Baty.net](https://baty.net/journal/2025/10/12/today/?utm_source=fundor333.com)
 - [LAMY Balloon Fountain Pen Giveaway — The Pen Addict](https://www.penaddict.com/blog/2025/10/14/lamy-balloon-fountain-pen-giveaway?utm_source=fundor333.com)
+## New post from my blog
+- [And Now Pokemon ZA](https://fundor333.com/micro/2025/10/and-now-pokemon-za/?utm_source=fundor333.com)
+- [Week Note Nº 42/2025](https://fundor333.com/weeknotes/2025/42/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
