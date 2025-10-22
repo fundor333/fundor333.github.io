@@ -1,0 +1,11 @@
+{
+    "id": 976021730,
+    "number": 5,
+    "title": "Draft page bundle+figure+lazyload+webp integration",
+    "url": "https://github.com/rootwork/rootwork.org/issues/5",
+    "repository": "rootwork/rootwork.org",
+    "created_at": "2021-08-21T02:45:51Z",
+    "state": "closed",
+    "author": "rootwork",
+    "body": "And possibly create PR for Clarity theme.\r\n\r\n# Models\r\nhttps://fundor333.com/post/2021/hugo-with-lazy-loading-and-webp/\r\nhttps://pawelgrzybek.com/webp-and-avif-images-on-a-hugo-website/\r\n\r\n# Documentation\r\nhttps://gohugo.io/content-management/organization/\r\nhttps://gohugo.io/content-management/image-processing/\r\nhttps://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes\r\nhttps://discourse.gohugo.io/t/can-hugo-convert-all-images-to-webp-after-the-update/32893/2\r\nhttps://discourse.gohugo.io/t/images-webp-just-convert-solely/32653/6\r\nhttps://www.regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/\r\n\r\n## References\r\nhttps://laurakalbag.com/processing-responsive-images-with-hugo/\r\nhttps://github.com/chipzoller/hugo-clarity/issues/72\r\nhttps://github.com/onweru/newsroom/issues/6"
+}
