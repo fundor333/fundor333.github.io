@@ -1,19 +1,12 @@
 ---
-title: Week Note Nº 43/2025
-date: '2025-10-26T09:00:00+01:00'
-lastmod: '2025-10-26T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 43 of 2025
-description: Personal notes for week 43 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115439462309618304
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115439462309618304'
+title: "Week Note Nº 43/2025"
+date: "2025-10-26T09:00:00+01:00"
+lastmod: "2025-10-26T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 43 of 2025"
+description: "Personal notes for week 43 of 2025"
+draft: False
 ---
 
 
@@ -24,6 +17,8 @@ comments:
 - [The London Autumn Pen Show 2025: my haul. | Fountain pen blog](https://rupertarzeian.com/2025/10/17/the-london-autumn-pen-show-2025-my-haul/?utm_source=fundor333.com)
 - [Ink Overview: Kuretake Art Nouveau Collection – The Well-Appointed Desk](https://www.wellappointeddesk.com/2025/10/ink-overview-kuretake-art-nouveau-collection/?utm_source=fundor333.com)
 - [Teranishi Guitar Night Time Soda Fountain Pen Ink Review — The Pen Addict](https://www.penaddict.com/blog/2025/10/20/teranishi-guitar-night-time-soda-fountain-pen-ink-review?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 43/2025](https://fundor333.com/weeknotes/2025/43/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
