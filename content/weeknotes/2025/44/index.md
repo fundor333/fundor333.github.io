@@ -1,22 +1,17 @@
 ---
-title: Week Note Nº 44/2025
-date: '2025-11-02T09:00:00+01:00'
-lastmod: '2025-11-02T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 44 of 2025
-description: Personal notes for week 44 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115479120966431831
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115479120966431831'
+title: "Week Note Nº 44/2025"
+date: "2025-11-02T09:00:00+01:00"
+lastmod: "2025-11-02T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 44 of 2025"
+description: "Personal notes for week 44 of 2025"
+draft: False
 ---
 
 
+## New post from my blog
+- [Week Note Nº 44/2025](https://fundor333.com/weeknotes/2025/44/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
