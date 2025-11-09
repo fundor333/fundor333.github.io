@@ -1,12 +1,19 @@
 ---
-title: "Week Note Nº 45/2025"
-date: "2025-11-09T09:00:00+01:00"
-lastmod: "2025-11-09T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 45 of 2025"
-description: "Personal notes for week 45 of 2025"
-draft: False
+title: Week Note Nº 45/2025
+date: '2025-11-09T09:00:00+01:00'
+lastmod: '2025-11-09T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 45 of 2025
+description: Personal notes for week 45 of 2025
+draft: false
+syndication:
+- https://mastodon.social/@fundor333/115518755885444048
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115518755885444048'
 ---
 
 
