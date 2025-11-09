@@ -1,24 +1,22 @@
 ---
-title: Week Note Nº 45/2025
-date: '2025-11-09T09:00:00+01:00'
-lastmod: '2025-11-09T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 45 of 2025
-description: Personal notes for week 45 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115518755885444048
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115518755885444048'
+title: "Week Note Nº 45/2025"
+date: "2025-11-09T09:00:00+01:00"
+lastmod: "2025-11-09T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 45 of 2025"
+description: "Personal notes for week 45 of 2025"
+draft: False
 ---
 
+- And I watch in one day all Arcane and love it... Fuck the world I was nerding out
+- Starting editing photo from lucca comics
 
 ## Suggested Reading Links/Posts
+- [Fountain Pen Day Prep, Part II: An Overview of Fountain Pen Inks — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2025/11/5/fountain-pen-day-prep-part-ii-an-overview-of-fountain-pen-inks?utm_source=fundor333.com)
 - [Mastodon 4.5 for Developers - Mastodon Blog](https://blog.joinmastodon.org/2025/10/mastodon-4-5-for-devs/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 45/2025](https://fundor333.com/weeknotes/2025/45/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
