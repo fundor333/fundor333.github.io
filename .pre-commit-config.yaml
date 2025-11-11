@@ -6,7 +6,7 @@ repos:
       - id: djade
         args: [--target-version, "4.2"] # Replace with Django version
   - repo: https://github.com/psf/black
-    rev: 25.9.0
+    rev: 25.11.0
     hooks:
       - id: black
         language_version: python3.12
@@ -28,7 +28,7 @@ repos:
       - id: python-no-log-warn
       - id: python-use-type-annotations
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.20.0
+    rev: v3.21.1
     hooks:
       - id: pyupgrade
         args: [--py312-plus]
