@@ -4,7 +4,7 @@
 		"url": "https://fundor333.com/"
 	},
 	"dependencies": {
-		"autoprefixer": "^10.4.21",
+		"autoprefixer": "^10.4.22",
 		"cjs-loader": "^0.1.0",
 		"lunr": "^2.3.9",
 		"postcss": "^8.5.5",
