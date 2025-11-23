@@ -1,26 +1,21 @@
 ---
-title: Week Note Nº 47/2025
-date: '2025-11-23T09:00:00+01:00'
-lastmod: '2025-11-23T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 47 of 2025
-description: Personal notes for week 47 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115597988076114199
-- https://mastodon.social/@fundor333/115597993192076217
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115597988076114199'
+title: "Week Note Nº 47/2025"
+date: "2025-11-23T09:00:00+01:00"
+lastmod: "2025-11-23T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 47 of 2025"
+description: "Personal notes for week 47 of 2025"
+draft: False
 ---
 
 
 ## Suggested Reading Links/Posts
+- [Daggerheart’s First Expansion: Hope & Fear for Players and GMs! – Darrington Press](https://darringtonpress.com/daggerhearts-first-expansion-hope-fear-for-players-and-gms/?utm_source=fundor333.com)
 - [Can you take an ox to Oxford? – alexwlchan](https://alexwlchan.net/2025/ox-in-oxford/?ref=rss&utm_source=fundor333.com)
 - [Stationery Addict takes on Tokyo International Pen Show 2025](https://thepenguinpost.substack.com/p/stationery-addict-takes-on-tokyo?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 47/2025](https://fundor333.com/weeknotes/2025/47/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
