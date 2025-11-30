@@ -1,26 +1,20 @@
 ---
-title: Week Note Nº 48/2025
-date: '2025-11-30T09:00:00+01:00'
-lastmod: '2025-11-30T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 48 of 2025
-description: Personal notes for week 48 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115637621307576652
-- https://mastodon.social/@fundor333/115637643136712387
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115637621307576652'
+title: "Week Note Nº 48/2025"
+date: "2025-11-30T09:00:00+01:00"
+lastmod: "2025-11-30T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 48 of 2025"
+description: "Personal notes for week 48 of 2025"
+draft: False
 ---
 
 
 ## Suggested Reading Links/Posts
 - [Django: implement HTTP bearer authentication - Adam Johnson](https://adamj.eu/tech/2025/11/25/django-bearer-authentication/?utm_source=fundor333.com)
 - [Improve your programming skills with Advent of Code : Juha-Matti Santala](https://hamatti.org/posts/improve-your-programming-skills-with-advent-of-code/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 48/2025](https://fundor333.com/weeknotes/2025/48/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
