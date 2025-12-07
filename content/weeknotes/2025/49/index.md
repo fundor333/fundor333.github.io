@@ -1,12 +1,20 @@
 ---
-title: "Week Note Nº 49/2025"
-date: "2025-12-07T09:00:00+01:00"
-lastmod: "2025-12-07T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 49 of 2025"
-description: "Personal notes for week 49 of 2025"
-draft: False
+title: Week Note Nº 49/2025
+date: '2025-12-07T09:00:00+01:00'
+lastmod: '2025-12-07T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 49 of 2025
+description: Personal notes for week 49 of 2025
+draft: false
+syndication:
+- https://mastodon.social/@fundor333/115677261356262675
+- https://mastodon.social/@fundor333/115677280266661091
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115677261356262675'
 ---
 
 - And second day... No problem for this
