@@ -1,20 +1,12 @@
 ---
-title: Week Note Nº 49/2025
-date: '2025-12-07T09:00:00+01:00'
-lastmod: '2025-12-07T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 49 of 2025
-description: Personal notes for week 49 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115677261356262675
-- https://mastodon.social/@fundor333/115677280266661091
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115677261356262675'
+title: "Week Note Nº 49/2025"
+date: "2025-12-07T09:00:00+01:00"
+lastmod: "2025-12-07T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 49 of 2025"
+description: "Personal notes for week 49 of 2025"
+draft: False
 ---
 
 - And second day... No problem for this
@@ -25,6 +17,8 @@ comments:
 - [Django 6.0 released | Weblog | Django](https://www.djangoproject.com/weblog/2025/dec/03/django-60-released/?utm_source=fundor333.com)
 - [I built a tiny RSS generator for my Advent of Code solutions : Juha-Matti Santala](https://hamatti.org/posts/i-built-a-tiny-rss-generator-for-my-advent-of-code-solutions/?utm_source=fundor333.com)
 - [Index: Techo Kaigi 2026 - by Chelsea Park](https://wordsinthemargins.substack.com/p/index-techo-kaigi-2026?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 49/2025](https://fundor333.com/weeknotes/2025/49/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
