@@ -3,21 +3,21 @@
 
 {{/* allow website developer to enforce default dark mode */}}
 {{- if eq $defaultColor "dark" -}}
-<html lang="{{ .Site.LanguageCode }}" class="dark">
-{{- else if eq $defaultColor "light" -}}
-<html lang="{{ .Site.LanguageCode }}" class="light">
-{{- else -}}
-<html lang="{{ .Site.LanguageCode }}">
-{{- end -}}
+<html lang="{{ .Site.LanguageCode }}" class="dark" data-theme="dark">
+  {{- else if eq $defaultColor "light" -}}
+  <html lang="{{ .Site.LanguageCode }}" class="light" data-theme="light">
+    {{- else -}}
+    <html lang="{{ .Site.LanguageCode }}" data-theme="dark">
+      {{- end -}}
 
-{{- partial "head.html" . -}}
+      {{- partial "head.html" . -}}
 
-<body data-theme="{{ $defaultColor }}" class="notransition">
-    {{- partial "scriptsBodyStart.html" . -}}
-    {{- partial "header.html" . -}}
-    <div class="wrapper">
-        {{ partial "bio" . }}
-        <main aria-label="Content">
+      <body data-theme="{{ $defaultColor }}" class="notransition">
+        {{- partial "scriptsBodyStart.html" . -}}
+        {{- partial "header.html" . -}}
+        <div class="wrapper">
+          {{ partial "bio" . }}
+          <main aria-label="Content">
             <h3 class="posts-item-note" aria-label="Recent Posts">{{ T "home.recent_posts" }}</h3>
             {{/* Show last 20 posts in reverse date order */}}
             {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
@@ -27,9 +27,9 @@
             {{ end }}
             {{ if gt (len $posts) 5 }}
             <p>
-                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
-                <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
-                {{ end }}
+              {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
+              <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
+              {{ end }}
             </p>
             {{ end }}
             <h3 class="posts-item-note" aria-label="Recent status/toots/micropost">{{ T "home.recent_posts" }}</h3>
@@ -41,15 +41,15 @@
             {{ end }}
             {{ if gt (len $posts) 5 }}
             <p>
-                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
-                <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
-                {{ end }}
+              {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
+              <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
+              {{ end }}
             </p>
             {{ end }}
-        </main>
-    </div>
-    {{- partial "footer.html" . -}}
-    {{- partial "scriptsBodyEnd.html" . -}}
-</body>
+          </main>
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "scriptsBodyEnd.html" . -}}
+      </body>
 
-</html>
+    </html>
