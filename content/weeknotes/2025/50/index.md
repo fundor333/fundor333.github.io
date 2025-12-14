@@ -1,20 +1,12 @@
 ---
-title: Week Note Nº 50/2025
-date: '2025-12-14T09:00:00+01:00'
-lastmod: '2025-12-14T09:00:00+01:00'
-tags:
-- weeknote
-type: weeknote
-summary: Personal notes for week 50 of 2025
-description: Personal notes for week 50 of 2025
-draft: false
-syndication:
-- https://mastodon.social/@fundor333/115716898377508823
-- https://mastodon.social/@fundor333/115716915532870247
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115716898377508823'
+title: "Week Note Nº 50/2025"
+date: "2025-12-14T09:00:00+01:00"
+lastmod: "2025-12-14T09:00:00+01:00"
+tags: ["weeknote"]
+type : "weeknote"
+summary: "Personal notes for week 50 of 2025"
+description: "Personal notes for week 50 of 2025"
+draft: False
 ---
 
 
@@ -26,6 +18,7 @@ comments:
 - [No, RSS isn't dead! - Andrew Blackman](https://andrewblackman.net/2025/05/no-rss-isnt-dead/?utm_source=fundor333.com)
 - [My favorite terminal emulator, Ghostty, is now a non-profit](https://birchtree.me/blog/my-favorite-terminal-emulator-i/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 50/2025](https://fundor333.com/weeknotes/2025/50/?utm_source=fundor333.com)
 - [2025 12 10](https://fundor333.com/now/2025/12/10/2025-12-10/?utm_source=fundor333.com)
 
 ## My Links
