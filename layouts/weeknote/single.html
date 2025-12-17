@@ -1,36 +1,35 @@
 {{ define "main" }}
 <div class="wrapper post">
-    <main class="page-content" aria-label="Content">
-        <article class="h-entry post-entry">
-          <header class="header">
-            <h1 class="header-title p-name"><i class="fa-kit fa-regular-bowl-chopsticks-noodles-at fa-xl"></i> {{ .Title }}</h1>
+  <main class="page-content" aria-label="Content">
+    <article class="h-entry post-entry">
+      <header class="header">
+        <h1 class="header-title p-name"><i class="fa-kit fa-regular-bowl-chopsticks-noodles-at fa-xl"></i> {{ .Title }}</h1>
 
-            <div>
-              <a class="u-url" href="{{ .Permalink }}"><div style="display: none;" class="p-summary">{{ .Description }}</div></a>
-              <a rel="author" class="p-author h-card no-underline " href="{{ .Site.BaseURL }}" style="display: none;" >{{ .Site.Params.Author.name }}</a>
-            </div>
-            <br>
-            {{ $image := .Resources.GetMatch "{cover.webp,cover.jpg,cover.png,cover.jpeg}" }}
-            {{ if  $image }}
-            <div class="container-fluid  text-justify">
-              {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
+        <div>
+          <a class="u-url" href="{{ .Permalink }}"><div style="display: none;" class="p-summary">{{ .Description }}</div></a>
+          <a rel="author" class="p-author h-card no-underline " href="{{ .Site.BaseURL }}" style="display: none;">{{ .Site.Params.Author.name }}</a>
+        </div>
+        <br>
+        {{ $image := .Resources.GetMatch "{cover.webp,cover.jpg,cover.png,cover.jpeg}" }}
+        {{ if $image }}
+        <div class="container-fluid  text-justify">
+          {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
 
-              <div class="flex flex-col items-stretch">
-                <img loading="lazy" class="u-photo rounded-lg" src="{{ $image.Permalink }}"alt="Card image cap">
-              {{if .Params.feature_link}}
-              <a class="self-center" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
-              {{end}}
-            </div>
+          <div class="flex flex-col items-stretch">
+            <img loading="lazy" class="u-photo rounded-lg" src="{{ $image.Permalink }}" alt="Card image cap">
+            {{if .Params.feature_link}}
+            <a class="self-center" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
             {{end}}
-          </header>
-            {{ partial "toc.html" .}}
-            <div class="page-content e-content weeknote">
-              {{- partial "bridgy.html" . -}}
-              {{ .Content }}
-            </div>
-            {{- partial "syndication.html" . -}}
-            {{- partial "comments.html" . -}}
-          </article>
+          </div>
+          {{end}}
+        </header>
+        {{ partial "toc.html" .}}
+        <div class="page-content e-content weeknote">
+          {{ .Content }}
+        </div>
+        {{- partial "syndication.html" . -}}
+        {{- partial "comments.html" . -}}
+      </article>
     </main>
-</div>
-{{ end }}
+  </div>
+  {{ end }}
