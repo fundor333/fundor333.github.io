@@ -13,11 +13,10 @@ rsvp: null
 bookmark: null
 syndication:
 - https://mastodon.social/@fundor333/115740612296730505
-- https://mastodon.social/@fundor333/115740626614512579
 comments:
   host: mastodon.social
   username: fundor333
-  id: '115740626614512579'
+  id: '115740612296730505'
 ---
 
 And today afterwork I will go to PyData Venezia... With or without the rain
