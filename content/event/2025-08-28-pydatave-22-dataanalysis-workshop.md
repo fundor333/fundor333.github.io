@@ -1,6 +1,6 @@
 ---
 title: 'PyDataVE #22 - #DataAnalysis #Workshop'
-date: 1925-10-25 00:06:32
+date: 1925-10-25T00:06:32
 start: 2025-08-28 19:00:00+02:00
 end: 2025-08-28 21:00:00+02:00
 location: Anda Venice Hostel, Venice, it
@@ -9,12 +9,6 @@ group:
 tags: []
 event_url: https://www.meetup.com/pydata-venice/events/310339068/
 how_to_find_us: None
-syndication:
-- https://mastodon.social/@fundor333/115290015644202147
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115290015644202147'
 ---
     Carissimi, continuiamo con i meetup PyData, incentrati come sempre sulla condivisione di best practice, metodologie, analisi, sistemi di machine learning, .., con i progetti open source del programma di [NumFOCUS](https://numfocus.org/sponsored-projects) ma non solo !
 

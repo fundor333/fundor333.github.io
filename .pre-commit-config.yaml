@@ -1,12 +1,12 @@
 fail_fast: true
 repos:
   - repo: https://github.com/adamchainz/djade-pre-commit
-    rev: "1.6.0" # Replace with the latest tag on GitHub
+    rev: "1.7.0" # Replace with the latest tag on GitHub
     hooks:
       - id: djade
         args: [--target-version, "4.2"] # Replace with Django version
   - repo: https://github.com/psf/black
-    rev: 25.11.0
+    rev: 25.12.0
     hooks:
       - id: black
         language_version: python3.12
@@ -28,7 +28,7 @@ repos:
       - id: python-no-log-warn
       - id: python-use-type-annotations
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.21.1
+    rev: v3.21.2
     hooks:
       - id: pyupgrade
         args: [--py312-plus]
@@ -47,7 +47,7 @@ repos:
             "pydocstyle>=5.0.0",
           ]
   - repo: https://github.com/oxipng/oxipng
-    rev: v9.1.5
+    rev: v10.0.0
     hooks:
       - id: oxipng
         args: ["-o", "4", "--alpha"]

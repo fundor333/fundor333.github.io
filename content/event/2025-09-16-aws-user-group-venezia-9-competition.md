@@ -1,6 +1,6 @@
 ---
 title: 'AWS User Group Venezia #9 Competition'
-date: 1925-10-25 00:06:32
+date: 1925-10-25T00:06:32
 start: 2025-09-16 19:00:00+02:00
 end: 2025-09-16 21:00:00+02:00
 location: Via Torino, 135, Venezia, it
@@ -9,12 +9,6 @@ group:
 tags: []
 event_url: https://www.meetup.com/aws-user-group-venezia/events/310538528/
 how_to_find_us: None
-syndication:
-- https://mastodon.social/@fundor333/115290015088524672
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '115290015088524672'
 ---
     Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
 
