@@ -12,8 +12,10 @@ draft: False
 - Make some db cleaning of my personal server
 
 ## Suggested Reading Links/Posts
+- [A fruitful year of creative journaling in the Take a Note Planner](https://thepenguinpost.substack.com/p/a-fruitful-year-of-creative-journaling?utm_source=fundor333.com)
 - [Times New Roman, Calibri, and who accessibility is for (hint: all of us)](https://birchtree.me/blog/times-new-roman-calibri-and-who-accessibility-is-for-hint-all-of-us/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 51/2025](https://fundor333.com/weeknotes/2025/51/?utm_source=fundor333.com)
 - [Working and Pydata](https://fundor333.com/micro/2025/12/working-and-pydata/?utm_source=fundor333.com)
 
 ## My Links
