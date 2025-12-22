@@ -1,26 +1,27 @@
 {{- define "main" -}}
 <div class="wrapper list-page">
-    <header class="header">
-        <h1 class="header-title center">{{ .Title }}</h1>
-    </header>
-    <main class="page-content e-content" aria-label="Content">
+  <header class="header">
+    <h1 class="header-title center typewriter">{{ .Title }}</h1>
+  </header>
+  <main class="page-content e-content typewriter" aria-label="Content">
 
-      {{.Content}}
-        {{/* create a list of posts for each month, with month as heading */}}
+    {{.Content}}
+    {{/* create a list of posts for each month, with month as heading */}}
 
-        {{ range $index, $element := .Pages.ByDate.Reverse   }}
+    {{ range $index, $element := .Pages.ByDate.Reverse }}
 
+    {{ if (eq $index 0) }}
+    {{ $element.Content}}
+    <hr class="p-4">
 
-        {{ if (eq $index 0) }}
-          {{ $element.Content}}
-        {{else}}
-        {{ partial "postCard" $element }}
-        {{ end }}
+    {{else}}
+    {{ partial "postCard" $element }}
+    {{ end }}
 
-        {{ end }} {{/* end range .Pages.ByDate */}}
-    </main>
-    {{- partial "syndication.html" . -}}
-    {{- partial "comments.html" . -}}
+    {{ end }} {{/* end range .Pages.ByDate */}}
+  </main>
+  {{- partial "syndication.html" . -}}
+  {{- partial "comments.html" . -}}
 </div>
 
 {{- end -}}
