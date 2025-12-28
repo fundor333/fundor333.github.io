@@ -11,6 +11,8 @@ draft: False
 
 - And I am tinkering with an old Typewriter
 
+## New post from my blog
+- [Week Note Nº 52/2025](https://fundor333.com/weeknotes/2025/52/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
