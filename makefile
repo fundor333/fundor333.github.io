@@ -27,7 +27,7 @@ gomodule: ## Update Go Module
 
 update: clean ## Update the site requirements
 	@npm update
-	@uv lock
+	@uv lock --upgrade
 	@uv sync
 	@uv run pre-commit autoupdate
 	@uv export --no-dev --no-hashes --format requirements-txt > requirements.txt
