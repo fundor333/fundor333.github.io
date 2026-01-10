@@ -121,3 +121,9 @@ notebook_editor: ## Run notebook editor
 
 meet: ## Run meet script
 	@uv run python3 micro_meetup.py --memory True
+
+event: ## Run event script
+	@echo "Script per i nuovi eventi, usa meet per gli eventi in memoria"
+	@uv run python3 micro_meetup.py
+
+eventi: event ## Run eventi script
