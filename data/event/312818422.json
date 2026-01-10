@@ -1,0 +1,35 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2026-03-26T19:00:00+01:00",
+            "description": "Carissimi, proseguiamo il nostro viaggio per parlare di **#AWS** !\n\nCi troviamo in **#presenza gioved\u00ec 26 marzo alle ore 19:00**.\nL'incontro si terr\u00e0 presso il[ Coworking Mestre](https://www.google.com/maps/search/?api=1&query=45.480717%2C%2012.250518), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su YouTube.\n\nLa scaletta non \u00e8 ancora stata definita.\n\nSe volete partecipare attivamete, proponete[vi per] argomenti e/o location con il [Form Google](https://forms.gle/1JdE6YWPbo6phuLe8) o direttamente nel canale Telegram !",
+            "endTime": "2026-03-26T21:00:00+01:00",
+            "eventType": "HYBRID",
+            "eventUrl": "https://www.meetup.com/aws-user-group-venezia/events/312818422/",
+            "group": {
+                "name": "AWS User Group Venezia"
+            },
+            "howToFindUs": null,
+            "title": "AWS User Group Venezia #14",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Via Torino, 135",
+                    "city": "Venezia",
+                    "country": "it",
+                    "name": "Via Torino, 135"
+                },
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "312818422",
+    "now": "1926-02-04T23:37:12"
+}

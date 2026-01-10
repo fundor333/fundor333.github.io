@@ -139,9 +139,13 @@ def fetch_event_from_json(event_id):
     filename = f"data/event/{event_id}.json"
     if not os.path.exists(filename):
         print(
-            f"No JSON file found for event ID {event_id}. Please fetch the event first."
+            f"No JSON file found for event ID {event_id}. Now Fetching from Meetup..."
         )
-        return None
+        add_to_memory(event_id)
+        data = fetch_event(event_id)
+        convert_dict_to_json(data)
+        data = fetch_event_from_json(event_id)
+        convert_dict_to_post(data)
     with open(filename) as f:
         data = json.load(f)
     return data
