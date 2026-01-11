@@ -10,5 +10,3 @@ Sometime you can find me in a GDG, a DataBeers, a Pycon, a Comicon or other simi
 Huge Open Source fan and user I am allways searching something new to do or to study.
 Huge fan of automation, autodeploy, data sharing and bots.
 A lot of my personal stuff are here in my blog and some in my Github.
-
-

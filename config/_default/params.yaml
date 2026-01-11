@@ -12,7 +12,7 @@ defaultColor:
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-mainSections: ["post", "photos", "weeknote", "now", "micro"]
+mainSections: ["post", "photos", "now", "micro"]
 secondarysections: []
 feedSections: ["post", "photos", "micro", "weeknote"]
 commentSections: ["post", "photos", "micro", "weeknote", "series"]
