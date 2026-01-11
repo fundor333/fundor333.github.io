@@ -1,5 +1,5 @@
 ---
-title: "Agout"
+title: "About"
 type: page
 specialpost: true
 allpage: true

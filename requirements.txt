@@ -56,13 +56,13 @@ shellingham==1.5.4
     # via typer
 soupsieve==2.8.1
     # via beautifulsoup4
-typer==0.21.0
+typer==0.21.1
     # via fundor333-github-io
 typing-extensions==4.15.0
     # via
     #   beautifulsoup4
     #   typer
-urllib3==2.6.2
+urllib3==2.6.3
     # via requests
 webencodings==0.5.1
     # via bleach

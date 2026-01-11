@@ -1,0 +1,28 @@
+<details>
+  <summary>Reference this post</summary>
+  <p id="cite">Please reference this post with a link to this page. I prefer to be called <i>Fundor333</i> (he/him) or <i>Fundor333' Blog</i>.
+  </p>
+  <p>
+    <a href="https://fundor333.com/cite">Learn more</a>
+  </p>
+  <label>URL for this post: <input disabled style="cursor: text;" type="text" value="{{ .Page.Permalink }}" id="citeInput">
+    <button onclick="myFunction()">Copy text</button>
+  </label>
+</details>
+
+<script>
+  function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("citeInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the text!" );
+}
+</script>
