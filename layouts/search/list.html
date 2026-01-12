@@ -3,8 +3,9 @@
 {{ define "main"}}
 <div class="wrapper list-page">
   <header class="header">
-      <h1 class="header-title center">{{ .Title }}</h1>
+    <h1 class="header-title center">{{ .Title }}</h1>
   </header>
+  {{ partial "search-form.html" . }}
 
   <main class="page-content" aria-label="Content">
 
@@ -12,12 +13,12 @@
 
       <div class="main-inner">
 
-
         <script src="/js/lunr.min.js"></script>
       </div>
 
     </div>
-  {{ partial "search-index.html" . }}
+
+    {{ partial "search-index.html" . }}
   </main>
 </div>
 {{ end }}

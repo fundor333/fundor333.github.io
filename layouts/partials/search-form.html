@@ -1,6 +1,32 @@
 <form id="search"
-    action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
-    <label hidden for="search-input">Search site</label>
-    <input type="text" id="search-input" name="q"
-    placeholder="">
+  action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
+  <label hidden for="search-input">Search site</label>
+  <input type="text" id="search-input" name="q"
+    placeholder>
 </form>
+
+<script>
+
+function popolaInputDaUrl(nomeParametro, idInput) {
+    // 1. Recupera la stringa dei parametri dall'URL corrente
+    const params = new URLSearchParams(window.location.search);
+
+    // 2. Estrae il valore associato alla chiave specificata
+    const valore = params.get(nomeParametro);
+
+    // 3. Se il valore esiste, popola l'elemento input
+    if (valore) {
+        const inputElement = document.getElementById(idInput);
+        if (inputElement) {
+            inputElement.value = valore;
+        }
+    }
+}
+
+// Esempio di utilizzo all'avvio della pagina:
+window.onload = () => {
+    popolaInputDaUrl('q', 'search-input');
+};
+
+
+</script>
