@@ -1,39 +1,40 @@
 {{ define "main" }}
 <div class="wrapper post">
-    <main class="page-content" aria-label="Content">
-        <article class="h-entry">
-            <header class="header">
-                <h1 class="header-title p-name">{{ .Title }}</h1>
+  <main class="page-content" aria-label="Content">
+    <article class="h-entry">
+      <header class="header">
+        <h1 class="header-title p-name">{{ .Title }}</h1>
 
-                <div class="post-meta">
-                  <div style="display: none;" class="p-summary	">{{ .Description }}</div>
+        <div class="post-meta">
+          <div style="display: none;" class="p-summary	">{{ .Description }}</div>
 
-                  <i class="fa-regular fa-typewriter"></i> {{.Site.Params.Author.name }} |
-                  {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
-                  {{ with .Date }}
-                  {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
-                  <i class="fa-regular fa-calendar-range"></i>
-                  <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished">
-                    {{ . | time.Format $configDateFormat }}
-                  </time>
-                  {{ end }}
-                  {{- partial "tags.html" . -}}
+          <i class="fa-regular fa-typewriter"></i> {{.Site.Params.Author.name }} |
+          {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+          {{ with .Date }}
+          {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
+          <i class="fa-regular fa-calendar-range"></i>
+          <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished">
+            {{ . | time.Format $configDateFormat }}
+          </time>
+          {{ end }}
+          {{- partial "tags.html" . -}}
 
-                </div>
-            </header>
-            {{ partial "toc.html" .}}
-            <hr>
+        </div>
+      </header>
+      {{ partial "toc.html" .}}
+      <hr>
 
-            <div class="page-content e-content">
-              {{ partial "micro.html" . }}
-              {{- partial "bridgy.html" . -}}
-                {{ .Content }}
-            </div>
-
-            {{ partial "series.html" . }}
-            {{- partial "syndication.html" . -}}
-        </article>
-        {{- partial "comments.html" . -}}
-    </main>
+      <div class="page-content e-content">
+        {{ partial "micro.html" . }}
+        {{- partial "bridgy.html" . -}}
+        {{ .Content }}
+      </div>
+      {{ partial "share-buttons" . }}
+      {{ partial "cite" . }}
+      {{ partial "series.html" . }}
+      {{- partial "syndication.html" . -}}
+    </article>
+    {{- partial "comments.html" . -}}
+  </main>
 </div>
 {{ end }}

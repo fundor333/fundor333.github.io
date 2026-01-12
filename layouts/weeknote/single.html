@@ -27,6 +27,8 @@
         <div class="page-content e-content weeknote">
           {{ .Content }}
         </div>
+        {{ partial "share-buttons" . }}
+        {{ partial "cite" . }}
         {{- partial "syndication.html" . -}}
         {{- partial "comments.html" . -}}
       </article>

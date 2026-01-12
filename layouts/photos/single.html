@@ -2,163 +2,163 @@
 <!--Implementation from https://billglover.me/2023/11/07/creating-a-photography-gallery-with-hugo/ -->
 
 <div class="wrapper post">
-    <main class="page-content" aria-label="Content">
-        <article class="h-entry">
-                        {{- partial "bridgy.html" . -}}
-            <header class="header">
-                <h1 class="header-title p-name">{{ .Title }}</h1>
+  <main class="page-content" aria-label="Content">
+    <article class="h-entry">
+      {{- partial "bridgy.html" . -}}
+      <header class="header">
+        <h1 class="header-title p-name">{{ .Title }}</h1>
 
-                <i class="fa-regular fa-typewriter"></i> {{.Site.Params.Author.name }} |
-                {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
-                {{ with .Date }}
-                {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
-                <i class="fa-regular fa-calendar-range"></i>
-                <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished">
-                  {{ . | time.Format $configDateFormat }}
-                </time>
-                {{ end }}
-                {{ partial "tags.html" . }}
+        <i class="fa-regular fa-typewriter"></i> {{.Site.Params.Author.name }} |
+        {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+        {{ with .Date }}
+        {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
+        <i class="fa-regular fa-calendar-range"></i>
+        <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="datePublished">
+          {{ . | time.Format $configDateFormat }}
+        </time>
+        {{ end }}
+        {{ partial "tags.html" . }}
 
-            {{ partial "toc.html" .}}
-            <div class="page-content e-content">
-              {{ with .Resources.ByType "image" }}
+        {{ partial "toc.html" .}}
+        <div class="page-content e-content">
+          {{ with .Resources.ByType "image" }}
 
-                {{ range . }}
-                    {{ $image := . }}
-                    {{ if  $image }}
-                    <div class="container-fluid  text-justify">
-                      {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
+          {{ range . }}
+          {{ $image := . }}
+          {{ if $image }}
+          <div class="container-fluid  text-justify">
+            {{ $resource := imageConfig (add "/content/" $image.RelPermalink) }}
 
-                      <div class="flex flex-col items-stretch">
-                        <figure class="figure hmedia">
-                          <img loading="lazy" class="u-photo rounded-lg figure-img img-fluid" src="{{ $image.Permalink }}"alt="{{ $.Description }}">
-                      {{if .Params.feature_link}}
-                          <figcaption class="figure-caption">{{ $.Description }}</figcaption>
-                        </figure>
-                      <a class="self-center" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
-                      {{end}}
-                    </div>
-                    {{end}}
+            <div class="flex flex-col items-stretch">
+              <figure class="figure hmedia">
+                <img loading="lazy" class="u-photo rounded-lg figure-img img-fluid" src="{{ $image.Permalink }}" alt="{{ $.Description }}">
+                {{if .Params.feature_link}}
+                <figcaption class="figure-caption">{{ $.Description }}</figcaption>
+              </figure>
+              <a class="self-center" href="{{ .Params.feature_link}}">{{.Params.feature_text}}</a>
+              {{end}}
+            </div>
+            {{end}}
 
-                    {{ with .Exif }}
-                    <table>
-                      {{ with $image.Title }}
-                      <tr>
-                        <th scope="col">Title</th>
-                        <td>{{ . }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ with .Date }}
-                      <tr>
-                        <th scope="col">Date</th>
-                        <td>{{ . }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "Model" }}
-                      <tr>
-                        <th>Camera</th>
-                        <td>{{ .Tags.Model }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "LensModel" }}
-                      <tr>
-                        <th>Lens</th>
-                        <td>{{ .Tags.LensModel }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "ExposureTime" }}
-                      <tr>
-                        <th>Exposure Time</th>
-                        <td>{{ .Tags.ExposureTime }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "FNumber" }}
-                      <tr>
-                        <th>F Number</th>
-                        <td>{{ .Tags.FNumber }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "ISOSpeedRatings" }}
-                      <tr>
-                        <th>ISO</th>
-                        <td>{{ .Tags.ISOSpeedRatings }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "FocalLength" }}
-                      <tr>
-                        <th>Focal Length</th>
-                        <td>{{ .Tags.FocalLength }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "ExposureMode" }}
-                      <tr>
-                        <th>Exposure Mode</th>
-                        <td>
-                         {{ with (eq .Tags.ExposureMode 1) }}Manual{{ end }}
-                         {{ with (eq .Tags.ExposureMode 0) }}Auto{{ end }}
-                        </td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "ExposureProgram" }}
-                      <tr>
-                        <th>Exposure Program</th>
-                        <td>
-                          {{ with (eq .Tags.WhiteBalance 1) }}Manual{{ end }}
-                          {{ with (eq .Tags.WhiteBalance 0) }}Auto{{ end }}
-                        </td>
-                      </tr>
-                      {{ end }}
-                      {{ with .Tags.ExposureBiasValue }}
-                      <tr>
-                        <th>Exposure Compensation</th>
-                        <td>{{ . }}</td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "WhiteBalance" }}
-                      <tr>
-                        <th>White Balance</th>
-                        <td>
-                          {{ with (eq .Tags.WhiteBalance 1) }}Manual{{ end }}
-                          {{ with (eq .Tags.WhiteBalance 0) }}Auto{{ end }}
-                        </td>
-                      </tr>
-                      {{ end }}
-                      {{ if isset .Tags "MeteringMode" }}
-                      <tr>
-                        <th>Metering Mode</th>
-                        <td>
-                          {{ with (eq .Tags.MeteringMode 0) }}Unknown{{ end }}
-                          {{ with (eq .Tags.MeteringMode 1) }}Average{{ end }}
-                          {{ with (eq .Tags.MeteringMode 2) }}Center Weighted Average{{ end }}
-                          {{ with (eq .Tags.MeteringMode 3) }}Spot{{ end }}
-                          {{ with (eq .Tags.MeteringMode 4) }}MultiSpot{{ end }}
-                          {{ with (eq .Tags.MeteringMode 5) }}Pattern{{ end }}
-                          {{ with (eq .Tags.MeteringMode 6) }}Partial{{ end }}
-                          {{ with (eq .Tags.MeteringMode 255) }}other{{ end }}
-                        </td>
-                      </tr>
-                      {{ end }}
-                    </table>
-                    <hr>
-                    <br>
-                    {{ end }}
-                  {{ end }}
+            {{ with .Exif }}
+            <table>
+              {{ with $image.Title }}
+              <tr>
+                <th scope="col">Title</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with .Date }}
+              <tr>
+                <th scope="col">Date</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "Model" }}
+              <tr>
+                <th>Camera</th>
+                <td>{{ .Tags.Model }}</td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "LensModel" }}
+              <tr>
+                <th>Lens</th>
+                <td>{{ .Tags.LensModel }}</td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "ExposureTime" }}
+              <tr>
+                <th>Exposure Time</th>
+                <td>{{ .Tags.ExposureTime }}</td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "FNumber" }}
+              <tr>
+                <th>F Number</th>
+                <td>{{ .Tags.FNumber }}</td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "ISOSpeedRatings" }}
+              <tr>
+                <th>ISO</th>
+                <td>{{ .Tags.ISOSpeedRatings }}</td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "FocalLength" }}
+              <tr>
+                <th>Focal Length</th>
+                <td>{{ .Tags.FocalLength }}</td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "ExposureMode" }}
+              <tr>
+                <th>Exposure Mode</th>
+                <td>
+                  {{ with (eq .Tags.ExposureMode 1) }}Manual{{ end }}
+                  {{ with (eq .Tags.ExposureMode 0) }}Auto{{ end }}
+                </td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "ExposureProgram" }}
+              <tr>
+                <th>Exposure Program</th>
+                <td>
+                  {{ with (eq .Tags.WhiteBalance 1) }}Manual{{ end }}
+                  {{ with (eq .Tags.WhiteBalance 0) }}Auto{{ end }}
+                </td>
+              </tr>
+              {{ end }}
+              {{ with .Tags.ExposureBiasValue }}
+              <tr>
+                <th>Exposure Compensation</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "WhiteBalance" }}
+              <tr>
+                <th>White Balance</th>
+                <td>
+                  {{ with (eq .Tags.WhiteBalance 1) }}Manual{{ end }}
+                  {{ with (eq .Tags.WhiteBalance 0) }}Auto{{ end }}
+                </td>
+              </tr>
+              {{ end }}
+              {{ if isset .Tags "MeteringMode" }}
+              <tr>
+                <th>Metering Mode</th>
+                <td>
+                  {{ with (eq .Tags.MeteringMode 0) }}Unknown{{ end }}
+                  {{ with (eq .Tags.MeteringMode 1) }}Average{{ end }}
+                  {{ with (eq .Tags.MeteringMode 2) }}Center Weighted Average{{ end }}
+                  {{ with (eq .Tags.MeteringMode 3) }}Spot{{ end }}
+                  {{ with (eq .Tags.MeteringMode 4) }}MultiSpot{{ end }}
+                  {{ with (eq .Tags.MeteringMode 5) }}Pattern{{ end }}
+                  {{ with (eq .Tags.MeteringMode 6) }}Partial{{ end }}
+                  {{ with (eq .Tags.MeteringMode 255) }}other{{ end }}
+                </td>
+              </tr>
+              {{ end }}
+            </table>
+            <hr>
+            <br>
+            {{ end }}
+            {{ end }}
 
-                {{ end }}
+            {{ end }}
 
-                <div class="grid grid-cols-1 justify-items-start">
-                  {{- partial "bridgy.html" . -}}
-                  {{- .Content }}
-                </div>
+            <div class="grid grid-cols-1 justify-items-start">
+              {{- partial "bridgy.html" . -}}
+              {{- .Content }}
+            </div>
 
-
-              </div>
+          </div>
         </article>
-
+        {{ partial "share-buttons" . }}
+        {{ partial "cite" . }}
         {{ partial "series.html" . }}
         {{- partial "syndication.html" . -}}
 
         {{- partial "comments.html" . -}}
-    </main>
-</div>
-{{ end }}
+      </main>
+    </div>
+    {{ end }}

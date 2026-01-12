@@ -13,6 +13,8 @@
       <div class="page-content e-content typewriter">
         {{ .Content }}
       </div>
+      {{ partial "share-buttons" . }}
+      {{ partial "cite" . }}
       {{- partial "syndication.html" . -}}
       {{- partial "comments.html" . -}}
     </article>
