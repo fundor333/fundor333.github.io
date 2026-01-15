@@ -1,0 +1,51 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2026-01-29T19:00:00+01:00",
+            "description": "Carissimi, ricominciamo l\u2019anno parlando di **#Networking** e **#Serverless** !\n\nCi troviamo in **#presenza GIOVED\u00ec 29 gennaio alle ore 19:00**.\nL'incontro si terr\u00e0 presso il[ Coworking Mestre](https://www.coworkingmestre.it/), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su YouTube.\n\nLa scaletta prevede due speech seguiti da discussione ciascuno.\n\ud83d\udde3 [Sebastiano Caccaro](https://www.linkedin.com/in/sebacaccaro/), ci parler\u00e0 di come hanno modernizzato la loro **#VPC** senza **#downtime** ! A seguire \ud83d\udde3 [Marco Falcier](https://www.linkedin.com/in/marcofalcier/), ci racconter\u00e0 che strumenti usare per accedere a database relazionali e a grafo, evitando di saturare le connessioni !\n\n\ud83d\udc65 Poi ci sposteremo per \\( \ud83c\udf78 \\| \ud83c\udf7a \\) & \\( \ud83c\udf55 \\| \ud83c\udf54 \\) e **#networking** !\n\nE come sempre, proponete[vi per] argomenti e/o location con il [Form Google](https://forms.gle/1JdE6YWPbo6phuLe8) o direttamente nel canale Telegram !",
+            "endTime": "2026-01-29T21:00:00+01:00",
+            "eventType": "HYBRID",
+            "eventUrl": "https://www.meetup.com/aws-user-group-venezia/events/312351692/",
+            "group": {
+                "name": "AWS User Group Venezia"
+            },
+            "howToFindUs": null,
+            "title": "AWS User Group Venezia #12 - Networking e Serverless",
+            "topics": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "661712"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "15167"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "19297"
+                        }
+                    }
+                ]
+            },
+            "venues": [
+                {
+                    "address": "Via Torino, 135",
+                    "city": "Venezia",
+                    "country": "it",
+                    "name": "Via Torino, 135"
+                },
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "312351692",
+    "now": "1926-02-06T18:13:37"
+}
