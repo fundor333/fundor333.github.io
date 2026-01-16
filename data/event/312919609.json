@@ -1,0 +1,33 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2026-04-16T19:00:00+02:00",
+            "description": "Carissimi, continuiamo il nostro viaggio itinerante per il **#Veneto** !\n\nCi troviamo in **#presenza gioved\u00ec 16 aprile alle ore 19:00**.\nLa location sar\u00e0 comunicata appena definita. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su YouTube.\n\n\ud83d\udde3 La scaletta non \u00e8 ancora stata definita.\n\nE dopo\\, per chi vuole\\, resteremo l\u00ec per \\( \ud83c\udf78 \\| \ud83c\udf7a \\) e \\( \ud83c\udf55 \\| \ud83c\udf54 \\)\ne **#networking** ad oltranza \u203c\ufe0f\n\n\ud83d\udcfd E se avete piacere di condividere idee, progetti, argomenti, o proporvi come prossimi speaker, lascio un [form Google](https://forms.gle/Fag86BkXfmaUzs67A) e la pagina [Sessionize](https://sessionize.com/pyvenice/) !",
+            "endTime": "2026-04-16T21:00:00+02:00",
+            "eventType": "PHYSICAL",
+            "eventUrl": "https://www.meetup.com/pyvenice/events/312919609/",
+            "group": {
+                "name": "PyVenice"
+            },
+            "howToFindUs": "",
+            "title": "PyVenice #4",
+            "topics": {
+                "edges": [
+                    {
+                        "node": {
+                            "id": "1064"
+                        }
+                    },
+                    {
+                        "node": {
+                            "id": "8192"
+                        }
+                    }
+                ]
+            },
+            "venues": []
+        }
+    },
+    "id": "312919609",
+    "now": "1926-02-10T23:39:28"
+}
