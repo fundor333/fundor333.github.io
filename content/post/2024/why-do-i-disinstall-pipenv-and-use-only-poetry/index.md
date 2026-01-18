@@ -23,6 +23,10 @@ series:
 - Python's Reptile Env
 ---
 
+> ⚠️ This post is obsolete. ⚠️
+> 
+> I suggest to go to the newest post from the [Python's Reptile Env series](/series/pythons-reptile-env/)
+
 Some time ago I wrote about my preference to write Terminal Commands for what I need [^1] and thant was not the end of it.
 [^1]: [Why I Stop Making Script and Start to Make Bash Terminal Commands]({{< ref "/post/2023/why-i-stop-making-script-and-start-to-make-bash-terminal-commands" >}} "Why I Stop Making Script and Start to Make Bash Terminal Commands")
 

@@ -18,6 +18,10 @@ series:
 - Python's Reptile Env
 ---
 
+> ⚠️ This post is obsolete. ⚠️
+> 
+> I suggest to go to the newest post from the [Python's Reptile Env series](/series/pythons-reptile-env/)
+
 I am a big fan of podcasts. I enjoy listening to them while I'm commuting or at the gym. One of my favorites is by [Kenneth Reitz](https://www.kennethreitz.org/), the author of several Python modules, including *Requests*, which every Pythonista knows and uses.
 His latest project that caught my interest is PipEnv, the *"sacred marriage of pipfile, pip, and virtualenv."*
 
