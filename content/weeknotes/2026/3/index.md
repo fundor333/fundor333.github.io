@@ -12,6 +12,8 @@ draft: False
 
 ## Suggested Reading Links/Posts
 - [Visit to Zenrindo Shintoshin in Okinawa, Japan – Inkcredible Colours](https://inkcrediblecolours.com/2026/01/14/zenrindo-shintoshin-okinawa-japan-2025/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 3/2026](https://fundor333.com/weeknotes/2026/3/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
