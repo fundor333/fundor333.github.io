@@ -8,6 +8,7 @@ ignoreLogs:
   - "warning-goldmark-raw-html"
 goToTop: true
 disableHugoGeneratorInject: true
+enableGitInfo: true
 
 module:
   imports:

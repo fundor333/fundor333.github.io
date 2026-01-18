@@ -1,74 +1,103 @@
 ---
-title: Pipenv e come tutto è in uno
+title: Pipenv and all in one tool
 slug: pipenv-e-come-tutto-e-in-uno
 date: 2017-07-01 00:00:00 +0000
+lastmod: 2025-01-18T23:10:15+01:00
 categories:
 - dev
 tags:
 - python
 - dev
+- pipenv
 aliases:
 - "/dev/pipenv-e-come-tutto-e-in-uno/"
-description: Assistiamo al matrimonio di Pipfile, Pip e PipEnv
+description: Witnessing the marriage of Pipfile, Pip, and Pipenv.
 feature_link: "https://unsplash.com/photos/vYFcHzLYpmU"
 feature_text: "Photo by Max Letek on Unsplash"
+series:
+- Python's Reptile Env
 ---
-Io sono un appassionato di podcast. Mi piace ascoltarli quando vado in giro e quando vado in palestra. E uno di questi è quello di [Kenneth Reitz](https://www.kennethreitz.org/), autore di svariati moduli python tra cui _Requests_ che tutti i pythonisti conoscono e usano.
-L'ultimo progetto suo di mio interesse è PipEnv, _sacro matrimonio di pipfile, pip e virtualenv_.
 
-Partiamo dalla base: per fare un progetto python solitamente si passano 3 fasi obligatorie
+I am a big fan of podcasts. I enjoy listening to them while I'm commuting or at the gym. One of my favorites is by [Kenneth Reitz](https://www.kennethreitz.org/), the author of several Python modules, including *Requests*, which every Pythonista knows and uses.
+His latest project that caught my interest is PipEnv, the *"sacred marriage of pipfile, pip, and virtualenv."*
 
-* Si crea un _virtualenv_ su cui lavorare, in cui i pacchetti installati non vanno in conflitto con quelli nel sistema ottenendo così un ambiente pulito su cui lavorare
-* Si fa una selezione dei moduli necessari per il progetto e li si installa nel _virtualenv_ attraverso _pip_
-* Si produce dal _virtualenv_ un file di _requirements.txt_ che indica cosa è installato
+Let’s start with the basics: to create a Python project, you usually go through 3 mandatory phases:
 
-Questo porta a dover tenere sempre aggiornato e pulito il _virtualenv_, sempre aggiornato il file _requirements.txt_ e fissare le versioni minime richieste (o addirittura la versione stessa) del modulo nel _requirements.txt_.
+* You create a *virtualenv* to work in, so that installed packages don't conflict with those in the system, providing a clean environment.
+* You select the modules needed for the project and install them in the *virtualenv* using *pip*.
+* You generate a *requirements.txt* file from the *virtualenv* that indicates what is installed.
 
-PipEnv di conseguenza fa tutto questo per te con pochi e semplici comandi.
+This requires you to constantly keep the *virtualenv* updated and clean, keep the *requirements.txt* file synchronized, and pin the minimum versions (or the exact version) of the modules in the *requirements.txt*.
 
-## Ad esempio?
-Mettiamo caso che io debba creare uno script in python che mi recuperi dei feed rss e me li salvi in locale.
+PipEnv does all of this for you with a few simple commands.
 
-* Creo una cartella per il progetto, in modo da metterci tutto quello di cui ho bisogno
+## For example?
 
-        mkdir progetto_python
+Let’s say I need to create a Python script that fetches RSS feeds and saves them locally.
 
-* Scelgo che versione di python usare, se quella corrente o quella _legacy_
+* I create a folder for the project to keep everything I need organized:
 
-        pipenv --three #versione corrente di python 3.x
-        # alternativamente
-        pipenv --two #legacy 2.7.x
+``` bash
+  mkdir python_project
+```
 
-* Inizio a scrivere codice e a installare pacchetti necessari per il progetto
 
-        pipenv install request
-        pipenv install flask
+* I choose which Python version to use, whether the current one or the *legacy* version:
+``` bash
+  pipenv --three # current Python 3.x version
+  # alternatively
+  pipenv --two # legacy 2.7.x
 
-Questi comandi assieme a quello iniziale, mi permette di creare un _pipfile_ che descrive i moduli da me installati. La cosa più bella di questo _pipfile_ è che permette di avere più "ambienti" indicati nello stesso file. Questo significa che posso avere "testing", "travis", "dev" e "prod" tutti descritti in un unico file e gestiti in modo automatico.
+```
 
-Quindi mi accordo che  _flask_ non mi serve più perchè ho riscritto tutto in modo da non usarlo e rendere in codice più leggibile... Quindi cosa faccio?
 
-        pipenv uninstall flask
+* I start writing code and installing the necessary packages for the project:
 
-Questo comando elimina dal _pipfile_ flask rendendolo così "pulito" e sempre aggiornato.
+``` bash
+  pipenv install requests
+  pipenv install flask
 
-Una volta definito il _pipfile_ bisogna creare il _pipfile.lock_, ovvero una versione automatica, generata dall' "installazione corrente" in modo da riprodurre perfettamente l'ambiente.
+```
 
-        pipenv lock
 
-Questo fissa i moduli installati con versione, hash e altri dati sia per i pacchetti indicati sia che con le loro dipendenze, in modo da ottenere tutte le indicazioni per riprodurre quel esatto ambiente.
 
-# Tutto qui?
-No, il sistema crea all'inizio un _virtualenv_ per il progetto e lo popola secondo le indicazioni passate dal terminale.
-Questo ambiente virtuale è accessibile attraverso il comando
+These commands, along with the initial setup, allow me to create a *Pipfile* that describes the modules I've installed. The best thing about this *Pipfile* is that it allows for multiple "environments" within the same file. This means I can have "testing", "travis", "dev", and "prod" all described in a single file and managed automatically.
 
-        pipenv shell
+Now, suppose I realize I no longer need *flask* because I’ve rewritten everything to make the code more readable without it... What do I do?
 
-che apre una shell nel _virtualenv_ del progetto e permette di eseguire comandi nella stessa _virtualenv_.
+``` bash
+    pipenv uninstall flask
 
-In oltre _PipEnv_ permette di convertire, se non presenti, i _requirements.txt_ in _pipfile_ e di aggiornare tutti i pacchetti attraverso
+```
 
-        pipenv update
+This command removes flask from the *Pipfile*, keeping it "clean" and always up to date.
 
-## Conclusione
-Personalmente spero che questo sistema, o per lo meno _pipfile_, diventi lo standard per lo sviluppo di applicazioni python e soppianti i file _requirements.txt_ che trovo particolarmente poco pratici e troppo sintetici anche se fanno esattamente quello per cui sono stati pensati
+Once the *Pipfile* is defined, you need to create the *Pipfile.lock*—an automatically generated version based on the "current installation" to perfectly reproduce the environment.
+
+``` bash
+    pipenv lock
+
+```
+
+This pins the installed modules with their version, hash, and other data for both the specified packages and their dependencies, providing all the information needed to reproduce that exact environment.
+
+## Is that all?
+
+No, the system initially creates a *virtualenv* for the project and populates it according to the terminal commands.
+This virtual environment is accessible via the command:
+
+``` bash
+    pipenv shell
+```
+
+This opens a shell within the project's *virtualenv* and allows you to execute commands inside that specific environment.
+
+Furthermore, *PipEnv* allows you to convert existing *requirements.txt* files into a *Pipfile* if they are not already present, and to update all packages using:
+
+``` bash
+    pipenv update
+```
+
+## Conclusion
+
+Personally, I hope this system—or at least the *Pipfile*—becomes the standard for Python application development and replaces *requirements.txt* files, which I find particularly impractical and too sparse, even if they do exactly what they were designed for.

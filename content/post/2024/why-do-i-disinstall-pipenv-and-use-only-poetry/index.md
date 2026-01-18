@@ -19,6 +19,8 @@ mp-syndicate-to:
 - https://brid.gy/publish/mastodon
 images:
 keywords:
+series:
+- Python's Reptile Env
 ---
 
 Some time ago I wrote about my preference to write Terminal Commands for what I need [^1] and thant was not the end of it.

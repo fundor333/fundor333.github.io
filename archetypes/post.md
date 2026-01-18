@@ -24,6 +24,7 @@ series:
 - Indiweb, webmentions and friends
 - Horror stories
 - Data and Data Tools
+- Python's Reptile Env
 reply:
 repost:
 like:

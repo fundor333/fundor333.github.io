@@ -20,11 +20,24 @@
               {{ . | time.Format $configDateFormat }}
             </time> |
             {{ end -}}
+            {{ $published := .PublishDate | time.Format ":date_medium" }}
+            {{ $modified := .Lastmod | time.Format ":date_medium" }}
+            {{ if ne $published $modified }}
+              {{- with .Lastmod }}
+              {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
+              <i class="fa-regular fa-calendar-lines-pen"></i>
+              <time datetime="{{ $ISO_time }}" class="dt-published" itemprop="lastModified">
+                {{ . | time.Format $configDateFormat }}
+              </time> |
+              {{ end -}}
+            {{ end -}}
             <i class="fa-regular fa-mug-tea"></i></i> Reading time {{.ReadingTime}} minutes |
             <i class="fa-regular fa-pen-nib"></i></i> Word count {{.WordCount}}
             {{ end }}
 
             {{- partial "tags.html" . -}}
+            {{ partial "series.html" . }}
+
 
           </div>
           <br>
@@ -47,7 +60,7 @@
               {{- partial "bridgy.html" . -}}
                 {{ .Content }}
             </div>
-
+            {{ partial "series.html" . }}
             {{ partial "share-buttons" . }}
             {{ partial "cite" . }}
             {{- partial "syndication.html" . -}}
