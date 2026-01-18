@@ -7,6 +7,7 @@ fediverseAccount: "@fundor333@mastodon.social"
 ignoreLogs:
   - "warning-goldmark-raw-html"
 goToTop: true
+disableHugoGeneratorInject: true
 
 module:
   imports:

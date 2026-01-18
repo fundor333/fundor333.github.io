@@ -1,6 +1,6 @@
 <h{{ .Level }} id="{{ .Anchor }}" class="no-underline ">
   <a href="#{{ .Anchor }}">
-    {{ range seq (add .Level -1)  }}<i class="fa-whiteboard fa-semibold fa-angle-right"></i>{{ end }}
+    {{ range seq (add .Level -1) }}<i class="fa-whiteboard fa-semibold fa-angle-right"></i>{{ end }}
     {{ .Text | safeHTML }}
   </a>
-</h{{ .Level }}>
+  </h{{ .Level }}>
