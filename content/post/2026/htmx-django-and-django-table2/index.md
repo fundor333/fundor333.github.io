@@ -1,9 +1,10 @@
 ---
-title: "Htmx Django and Django Table2"
-date: 2026-01-19T12:33:09+01:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: How I use Htmx for showing in a Django project a django-table2 filled with data from a MonthArchiveView
+title: Htmx Django and Django Table2
+date: 2026-01-19 12:33:09+01:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: How I use Htmx for showing in a Django project a django-table2 filled
+  with data from a MonthArchiveView
 isStarred: false
 tags:
 - django
@@ -13,10 +14,16 @@ tags:
 categories:
 - rant
 - dev
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Django tricks
+syndication:
+- https://mastodon.social/@fundor333/115921577107907407
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115921577107907407'
 ---
 
 For some time I am developing my personal Django server. It keeps some data for me and it is my automation server. And I want to test a Htmx code on Django so I make a little thing in my personal django project.
