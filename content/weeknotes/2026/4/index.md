@@ -15,6 +15,7 @@ draft: False
 - [Loopwerk: Django 6.0 Tasks: a framework without a worker](https://www.loopwerk.io/articles/2026/django-tasks-review/?utm_source=fundor333.com)
 - [New Book: Vibe Coding Video Games with Python - Mouse Vs Python](https://www.blog.pythonlibrary.org/2026/01/19/new-book-vibe-coding-video-games-with-python/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 4/2026](https://fundor333.com/weeknotes/2026/4/?utm_source=fundor333.com)
 - [Htmx Django and Django Table2](https://fundor333.com/post/2026/htmx-django-and-django-table2/?utm_source=fundor333.com)
 
 ## My Links
