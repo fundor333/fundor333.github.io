@@ -1,28 +1,32 @@
 ---
-title: "Why Do I Disinstall Poetry and Use Only Uv "
-date: 2026-01-26T21:58:02+01:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description:
+title: 'Why Do I Disinstall Poetry and Use Only Uv '
+date: 2026-01-26 21:58:02+01:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: null
 isStarred: false
 tags:
 - poetry
--  pipenv
--  pyproject
--  pyenv
--  uv
--  makefile
--  make
--  precommit
-
+- pipenv
+- pyproject
+- pyenv
+- uv
+- makefile
+- make
+- precommit
 categories:
 - dev
 - fingerfood
-
-images:
-keywords:
+images: null
+keywords: null
 series:
 - Python's Reptile Env
+syndication:
+- https://mastodon.social/@fundor333/115963459189684445
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '115963459189684445'
 ---
 
 558 days ago (yes I count them), I wrote a follow-up article called [Why Do I Disinstall Pipenv and Use Only Poetry?](/post/2024/why-do-i-disinstall-pipenv-and-use-only-poetry/) and now I remake mine dev space, for building python project.
