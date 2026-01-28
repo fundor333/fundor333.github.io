@@ -1,6 +1,6 @@
 import requests
 
-url_api = "http://localhost:8000/pantalone/genera-spese"
+url_api = "http://fundor333.com/pantalone/genera-spese"
 
 # Call the API to generate expenses
 response = requests.get(url_api)
