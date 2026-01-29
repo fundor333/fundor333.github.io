@@ -10,7 +10,6 @@ tags: []
 event_url: https://www.meetup.com/pydata-venice/events/264720799/
 how_to_find_us: 
 ---
-
 Cari pythonisti e non solo... ci siamo! Il primo Pydata Venice sta per iniziare! Grazie agli amici dell'EndSummerCamp, nel pomeriggio di sabato 21 settembre avremo la possibilità di presentare il nostro gruppo e solleticare l'attenzione con qualche bel talk pieno zeppo di dati!
 
 Ecco il programma!

@@ -10,7 +10,6 @@ tags: []
 event_url: https://www.meetup.com/pydata-venice/events/310339068/
 how_to_find_us: None
 ---
-
 Carissimi, continuiamo con i meetup PyData, incentrati come sempre sulla condivisione di best practice, metodologie, analisi, sistemi di machine learning, .., con i progetti open source del programma di [NumFOCUS](https://numfocus.org/sponsored-projects) ma non solo !
 
 Ci troviamo in **#presenza giovedì 28 agosto alle ore 19:00**.

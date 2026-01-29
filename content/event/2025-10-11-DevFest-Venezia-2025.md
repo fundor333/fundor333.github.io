@@ -10,7 +10,6 @@ tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/310753901/
 how_to_find_us: 
 ---
-
 🌟 DevFest Venezia 2025 🌟
 
 We're thrilled to announce the return of DevFest to Venice, the extraordinary event where enthusiasts and experts meet to share their passion for all-around development.

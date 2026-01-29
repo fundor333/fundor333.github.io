@@ -10,7 +10,6 @@ tags: []
 event_url: https://www.meetup.com/pydata-venice/events/271940122/
 how_to_find_us: None
 ---
-
 PyData Global is the very first fully-online PyData conference. Join our global community for five days packed with talks, tutorials, posters, open-source sprints and a digital hallway track.
 
 For more information, check out global.pydata.org

@@ -10,7 +10,6 @@ tags: []
 event_url: https://www.meetup.com/aws-user-group-venezia/events/310538528/
 how_to_find_us: None
 ---
-
 Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
 
 Ci troviamo in **#presenza MARTEDì 16 settembre alle ore 19:00**.

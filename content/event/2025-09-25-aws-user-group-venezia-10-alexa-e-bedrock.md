@@ -10,7 +10,6 @@ tags: [meetup-661712, meetup-15167, meetup-19297]
 event_url: https://www.meetup.com/aws-user-group-venezia/events/305666752/
 how_to_find_us: None
 ---
-
 Carissimi, riprendiamo con gli speech su **#Alexa** e **#Bedrock** con due ospiti speciali !
 
 Ci troviamo in **#presenza GIOVEDì 25 settembre alle ore 19:00**.

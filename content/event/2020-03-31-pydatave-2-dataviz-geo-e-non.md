@@ -10,7 +10,6 @@ tags: []
 event_url: https://www.meetup.com/pydata-venice/events/269622193/
 how_to_find_us: None
 ---
-
 EVENTO ONLINE SU ZOOM
 Riproponiamo l'evento in modalità videoconferenza.
 

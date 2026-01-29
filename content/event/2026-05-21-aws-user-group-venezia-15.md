@@ -10,7 +10,6 @@ tags: []
 event_url: https://www.meetup.com/aws-user-group-venezia/events/312818434/
 how_to_find_us: None
 ---
-
 Carissimi, proseguiamo il nostro viaggio per parlare di **#AWS** !
 
 Ci troviamo in **#presenza giovedì 21 maggio alle ore 19:00**.

@@ -10,7 +10,6 @@ tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/273576878/
 how_to_find_us: 
 ---
-
 THIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW
 
 https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-italia-2020/

@@ -10,7 +10,6 @@ tags: [meetup-661712, meetup-15167, meetup-19297]
 event_url: https://www.meetup.com/aws-user-group-venezia/events/312351692/
 how_to_find_us: None
 ---
-
 Carissimi, ricominciamo l’anno parlando di **#Networking** e **#Serverless** !
 
 Ci troviamo in **#presenza GIOVEDì 29 gennaio alle ore 19:00**.
