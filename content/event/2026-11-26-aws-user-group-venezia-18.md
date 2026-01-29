@@ -10,7 +10,8 @@ tags: []
 event_url: https://www.meetup.com/aws-user-group-venezia/events/312818506/
 how_to_find_us: None
 ---
-    Carissimi, proseguiamo il nostro viaggio per parlare di **#AWS** !
+
+Carissimi, proseguiamo il nostro viaggio per parlare di **#AWS** !
 
 Ci troviamo in **#presenza giovedì 26 novembre alle ore 19:00**.
 L'incontro si terrà presso il[ Coworking Mestre](https://www.google.com/maps/search/?api=1&query=45.480717%2C%2012.250518), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terrà anche in **#streaming** su YouTube.

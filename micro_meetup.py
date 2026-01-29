@@ -105,8 +105,7 @@ group:
 tags: [{tags_str}]
 event_url: {event_url}
 how_to_find_us: {how_to_find_us}
----
-    """
+---\n"""
     post += f"{description}\n"
     # create the content/event directory if it doesn't exist
     os.makedirs("content/event", exist_ok=True)

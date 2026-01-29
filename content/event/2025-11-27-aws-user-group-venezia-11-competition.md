@@ -10,7 +10,8 @@ tags: []
 event_url: https://www.meetup.com/aws-user-group-venezia/events/310538495/
 how_to_find_us: None
 ---
-    Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
+
+Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
 
 Ci troviamo in **#presenza GIOVEDì 27 novembre alle ore 19:00**.
 Saremo ospitati da [Anda Venice Hostel](https://www.andavenice.com/) nella sala Medusa e, per chi non potesse raggiungerci, si terrà anche su YouTube in **#streaming**.

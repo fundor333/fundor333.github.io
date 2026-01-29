@@ -10,7 +10,8 @@ tags: []
 event_url: https://www.meetup.com/aws-user-group-venezia/events/310538528/
 how_to_find_us: None
 ---
-    Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
+
+Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
 
 Ci troviamo in **#presenza MARTEDì 16 settembre alle ore 19:00**.
 L'incontro si terrà presso il[ Coworking Mestre](https://www.coworkingmestre.it/), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terrà anche in **#streaming** su [YouTube](https://www.youtube.com/watch?v=GB4eUm1p5b8).

@@ -10,7 +10,8 @@ tags: [meetup-584902, meetup-917262, meetup-34455]
 event_url: https://www.meetup.com/pyvenice/events/311033533/
 how_to_find_us: 
 ---
-    **#PyVenice #1 - #Ai #Astrophysics #AgentAi #Coding #OpenSource**
+
+**#PyVenice #1 - #Ai #Astrophysics #AgentAi #Coding #OpenSource**
 
 Continuiamo il nostro viaggio per il **#Veneto** da Vicenza alle **#stelle**, ospitati dall’Elevator Innovation Hub.
 

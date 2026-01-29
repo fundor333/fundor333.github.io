@@ -10,7 +10,8 @@ tags: [meetup-661712, meetup-15167, meetup-19297]
 event_url: https://www.meetup.com/aws-user-group-venezia/events/312351692/
 how_to_find_us: None
 ---
-    Carissimi, ricominciamo l’anno parlando di **#Networking** e **#Serverless** !
+
+Carissimi, ricominciamo l’anno parlando di **#Networking** e **#Serverless** !
 
 Ci troviamo in **#presenza GIOVEDì 29 gennaio alle ore 19:00**.
 L'incontro si terrà presso il[ Coworking Mestre](https://www.coworkingmestre.it/), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terrà anche in **#streaming** su YouTube.

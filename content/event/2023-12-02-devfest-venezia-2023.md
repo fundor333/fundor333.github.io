@@ -10,7 +10,8 @@ tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/296579530/
 how_to_find_us: 
 ---
-    🌟 DevFest Venezia 2023 🌟
+
+🌟 DevFest Venezia 2023 🌟
 
 Siamo entusiasti di annunciare il ritorno della DevFest a Venezia, l'evento straordinario dove appassionati ed esperti si incontrano per condividere la loro passione per lo sviluppo a tutto tondo.
 Quest'anno, stiamo alzando l'asticella con tre tracce contemporanee, due in inglese e una in italiano, aprendo le porte a un pubblico più vasto e diversificato!

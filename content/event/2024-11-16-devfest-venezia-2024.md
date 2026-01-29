@@ -10,7 +10,8 @@ tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/304005128/
 how_to_find_us: 
 ---
-    🌟 DevFest Venezia 2024 🌟
+
+🌟 DevFest Venezia 2024 🌟
 
 Siamo entusiasti di annunciare il ritorno della DevFest a Venezia, l'evento straordinario dove appassionati ed esperti si incontrano per condividere la loro passione per lo sviluppo a tutto tondo.
 
