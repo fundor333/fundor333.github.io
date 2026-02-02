@@ -4,6 +4,16 @@ import re
 import typer
 from typing import Annotated
 from PIL import Image, ImageDraw, ImageFont
+import glob
+
+
+def get_latest_now_file():
+    # Cerca ricorsivamente tutti i file .md nella cartella now
+    files = glob.glob("content/now/**/*.md", recursive=True)
+    if not files:
+        return None
+    # Escludiamo eventuali file temporanei o cartelle, prendiamo il più recente
+    return max(files, key=os.path.getmtime)
 
 
 def generate_img(message: str, path: str, image_name: str = "cover.jpg"):
@@ -61,12 +71,9 @@ def notebook_fc():
     os.system(f"hugo_nbnew ./content/post/{year}/{title}")
     generate_img(name, f"post/{year}/{title}", "alternative_cover.jpg")
     with open(f"notescript/{title}.sh", "w") as rsh:
-        rsh.write(
-            """\
+        rsh.write("""\
     #! /bin/bash
-    uv run hugo_nbconvert content/post/"""
-            + f"{year}/{title}/index.ipynb"
-        )
+    uv run hugo_nbconvert content/post/""" + f"{year}/{title}/index.ipynb")
     os.system(f"chmod +x  notescript/{title}.sh")
 
 
@@ -93,13 +100,63 @@ def weeklycover():
 
 def now_fc():
     print("Make a now")
-    year = str(datetime.datetime.now().year).rjust(4, "0")
-    month = str(datetime.datetime.now().month).rjust(2, "0")
-    day = str(datetime.datetime.now().day).rjust(2, "0")
+    now = datetime.datetime.now()
+    year = str(now.year).rjust(4, "0")
+    month = str(now.month).rjust(2, "0")
+    day = str(now.day).rjust(2, "0")
 
-    generated = f"{year}/{month}/{day}"
-    os.system(f"hugo new now/{generated}/{year}-{month}-{day}.md")
-    print(f"Generated {generated}/index.md")
+    last_file = get_latest_now_file()
+    new_relative_path = f"now/{year}/{month}/{day}/{year}-{month}-{day}.md"
+    os.system(f"hugo new {new_relative_path}")
+
+    full_new_path = f"content/{new_relative_path}"
+
+    if last_file and os.path.exists(full_new_path):
+        with open(last_file, encoding="utf-8") as f:
+            full_text = f.read()
+
+        # Dividiamo il file usando i delimitatori ---
+        # parts[1] sarà il frontmatter, parts[2] sarà il contenuto (body)
+        parts = full_text.split("---", 2)
+
+        if len(parts) >= 3:
+            frontmatter = parts[1]
+            body = parts[2]
+
+            # 1. Rimuove blocchi lista per 'comments' e 'syndication'
+            frontmatter = re.sub(
+                r"^(comments|syndication):(\s*\n(\s+|-).+)*\n?",
+                "",
+                frontmatter,
+                flags=re.MULTILINE,
+            )
+
+            # 2. Aggiorna Data
+            frontmatter = re.sub(
+                r"^date:.*",
+                f'date: {now.strftime("%Y-%m-%d")}',
+                frontmatter,
+                flags=re.MULTILINE,
+            )
+
+            # 3. Aggiorna Titolo
+            frontmatter = re.sub(
+                r"^title:.*",
+                f'title: "Now {now.strftime("%d/%m/%Y")}"',
+                frontmatter,
+                flags=re.MULTILINE,
+            )
+
+            # 4. Pulizia righe vuote nel frontmatter
+            frontmatter = frontmatter.strip()
+
+            # Ricostruiamo il file mantenendo i delimitatori ---
+            new_content = f"---\n{frontmatter}\n---{body}"
+
+            with open(full_new_path, "w", encoding="utf-8") as f:
+                f.write(new_content)
+
+    print(f"Generato con successo: {full_new_path}")
 
 
 ANSWER = {
