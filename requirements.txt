@@ -66,5 +66,5 @@ urllib3==2.6.3
     # via requests
 webencodings==0.5.1
     # via bleach
-weeknotebot==1.9.0
+weeknotebot==1.10.0
     # via fundor333-github-io
