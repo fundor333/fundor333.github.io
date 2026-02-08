@@ -13,6 +13,8 @@ draft: False
 ## Suggested Reading Links/Posts
 - [The Complete Guide to pyproject.toml · devsjc blogs //](https://devsjc.github.io/blog/20240627-the-complete-guide-to-pyproject-toml/?utm_source=fundor333.com)
 - [How uv Helps Me to Not Hate Python · devsjc blogs //](https://devsjc.github.io/blog/20250411-uv-helped-me-not-hate-python/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 6/2026](https://fundor333.com/weeknotes/2026/6/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
