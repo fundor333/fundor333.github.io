@@ -2,15 +2,15 @@
     "data": {
         "event": {
             "dateTime": "2026-04-16T19:00:00+02:00",
-            "description": "Carissimi, continuiamo il nostro viaggio itinerante per il **#Veneto** !\n\nCi troviamo in **#presenza gioved\u00ec 16 aprile alle ore 19:00**.\nLa location sar\u00e0 comunicata appena definita. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su YouTube.\n\n\ud83d\udde3 La scaletta non \u00e8 ancora stata definita.\n\nE dopo\\, per chi vuole\\, resteremo l\u00ec per \\( \ud83c\udf78 \\| \ud83c\udf7a \\) e \\( \ud83c\udf55 \\| \ud83c\udf54 \\)\ne **#networking** ad oltranza \u203c\ufe0f\n\n\ud83d\udcfd E se avete piacere di condividere idee, progetti, argomenti, o proporvi come prossimi speaker, lascio un [form Google](https://forms.gle/Fag86BkXfmaUzs67A) e la pagina [Sessionize](https://sessionize.com/pyvenice/) !",
+            "description": "Carissimi, continuiamo il nostro viaggio itinerante per il **#Veneto** !\n\nCi troviamo in **#presenza gioved\u00ec 16 aprile alle ore 19:00**.\nSaremo ospitati da [Anda Venice Hostel](https://maps.app.goo.gl/XEf4i3UYwpLAmGoT8) a Mestre. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su YouTube.\n\n\ud83d\udde3 La scaletta non \u00e8 ancora stata definita.\n\nE dopo\\, per chi vuole\\, resteremo l\u00ec per \\( \ud83c\udf78 \\| \ud83c\udf7a \\) e \\( \ud83c\udf55 \\| \ud83c\udf54 \\)\ne **#networking** ad oltranza \u203c\ufe0f\n\n\ud83d\udcfd E se avete piacere di condividere idee, progetti, argomenti, o proporvi come prossimi speaker, lascio un [form Google](https://forms.gle/Fag86BkXfmaUzs67A) e la pagina [Sessionize](https://sessionize.com/pyvenice/) !",
             "endTime": "2026-04-16T21:00:00+02:00",
             "eventType": "PHYSICAL",
             "eventUrl": "https://www.meetup.com/pyvenice/events/312919609/",
             "group": {
                 "name": "PyVenice"
             },
-            "howToFindUs": "",
-            "title": "PyVenice #4",
+            "howToFindUs": "a 250m dalla stazione di Mestre; il parcheggio meno costoso \u00e8 Star Parking a 2\u20ac/h; senn\u00f2 in via Montello con il parchimetro che funziona a monete e non con la carta !",
+            "title": "PyVenice #4 - #n8n #workshop",
             "topics": {
                 "edges": [
                     {
@@ -25,9 +25,16 @@
                     }
                 ]
             },
-            "venues": []
+            "venues": [
+                {
+                    "address": "Via Ortigara, 10, 30171 Mestre VE",
+                    "city": "Venice",
+                    "country": "it",
+                    "name": "Anda Venice Hostel"
+                }
+            ]
         }
     },
     "id": "312919609",
-    "now": "1926-02-10T23:39:28"
+    "now": "1926-03-10T17:57:29"
 }

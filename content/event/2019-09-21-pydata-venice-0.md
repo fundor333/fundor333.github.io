@@ -1,6 +1,6 @@
 ---
 title: 'PyData Venice #0'
-date: 1925-10-25T00:06:35
+date: 1926-03-10T17:57:26
 start: 2019-09-21 17:00:00+02:00
 end: 2019-09-21 19:00:00+02:00
 location: Online

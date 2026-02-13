@@ -1,6 +1,6 @@
 ---
 title: 'DevFest Italia 2020'
-date: 1925-10-25T00:06:29
+date: 1926-03-10T17:57:22
 start: 2020-10-17 10:00:00+02:00
 end: 2020-10-18 17:00:00+02:00
 location: Online

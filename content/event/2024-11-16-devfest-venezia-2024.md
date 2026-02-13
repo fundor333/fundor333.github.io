@@ -1,6 +1,6 @@
 ---
 title: 'DevFest Venezia 2024'
-date: 1925-10-25T00:06:27
+date: 1926-03-10T17:57:21
 start: 2024-11-16 09:00:00+01:00
 end: 2024-11-16 18:30:00+01:00
 location: Online

@@ -1,6 +1,6 @@
 ---
 title: 'PyDataVE #22 - #DataAnalysis #Workshop'
-date: 1925-10-25T00:06:32
+date: 1926-03-10T17:57:24
 start: 2025-08-28 19:00:00+02:00
 end: 2025-08-28 21:00:00+02:00
 location: Anda Venice Hostel, Venice, it

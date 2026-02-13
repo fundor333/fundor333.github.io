@@ -2,7 +2,7 @@
     "data": {
         "event": {
             "dateTime": "2025-12-18T19:00:00+01:00",
-            "description": "Dear all, we\u2019re back with the [PyData meetups](https://www.meetup.com/pydata-venice/), focused as always on sharing best practice, methodologies, analysis, machine learning systems, .., with the [open-source projects](https://numfocus.org/sponsored-projects) of the [NumFOCUS program](https://numfocus.org/programs/pydata) \u2014 but not only!\n\nWe\u2019ll meet **#InPresence** on **Thursday, December 18 at 7:00 PM**.\nWe\u2019ll be hosted by [Anda Venice Hostel](https://www.andavenice.com/) in the Medusa Room and, for those who cannot join us, it will also be on [YouTube](https://www.youtube.com/@PyDataVenice/streams) in **#streaming**.\n\n\ud83d\udc65 We\u2019ll have two interesting sessions, in Italian \ud83c\uddee\ud83c\uddf9 or in English \ud83c\uddec\ud83c\udde7 or one and one:\n\ud83d\udde3 Here there will be the description of the speakers\n\nAnd afterwards\\, for those who want\\, we\u2019ll stay there for \\( \ud83c\udf78 \\| \ud83c\udf7a \\) & \\( \ud83c\udf55 \\| \ud83c\udf54 \\) and \\#networking until late \u203c\ufe0f\n\n\ud83d\udcfd And if you\u2019d like to share ideas, projects, topics, or propose yourself as the next speaker, here\u2019s the usual [Google form](https://forms.gle/rVMWxFnodHaNb9ab9) or [Sessionize](https://sessionize.com/pydata-venice-2025-12-18) !",
+            "description": "Dear all, we\u2019re back with the [PyData meetups](https://numfocus.org/programs/pydata), focused as always on sharing best practice, methodologies, analysis, machine learning systems, .., with the open-source projects of the [NumFOCUS](https://numfocus.org/sponsored-projects) program \u2014 but not only!\n\nWe\u2019ll meet **#InPresence** on **Thursday, December 18 at 7:00 PM**.\nWe\u2019ll be hosted by [Anda Venice Hostel](https://www.andavenice.com/) in the Medusa Room and, for those who cannot join us, it will also be on [YouTube](https://www.youtube.com/watch?v=oK_1RjKro_g) in **#streaming**.\n\n\ud83d\udc65 We\u2019ll have two interesting sessions in English \ud83c\uddec\ud83c\udde7:\n\ud83d\udde3 [\u00c1rp\u00e1d Goretity](https://www.linkedin.com/in/h2co3/) and [Oliver Kocsis](https://www.linkedin.com/in/okocsis/) will talk to us about **#NLP** solutions and their optimizations in a local environment: **#OnPremise** is the New Promise \u2013 Small, Smart, **#LocalAI** in the age of LLMs\n\ud83d\udde3 [Sara Ferro](https://www.linkedin.com/in/sara-ferro-ba1aa8139/) will present a blend of theory on classical networks and more recent ones together with more recent ones: **#ImageSegmentation** through **#DeepLearning** Models\n\nAnd afterwards\\, for those who want\\, we\u2019ll stay there for \\( \ud83c\udf78 \\| \ud83c\udf7a \\) & \\( \ud83c\udf55 \\| \ud83c\udf54 \\) and **#networking** until late \u203c\ufe0f\n\n\ud83d\udcfd And if you\u2019d like to share ideas, projects, topics, or propose yourself as the next speaker, here\u2019s the usual [Google form](https://forms.gle/rVMWxFnodHaNb9ab9) or [Sessionize](https://sessionize.com/pydata-venice/) !",
             "endTime": "2025-12-18T21:00:00+01:00",
             "eventType": "HYBRID",
             "eventUrl": "https://www.meetup.com/pydata-venice/events/310565375/",
@@ -10,7 +10,7 @@
                 "name": "PyData Venice"
             },
             "howToFindUs": null,
-            "title": "PyDataVE #24",
+            "title": "PyDataVE #24 - #MachineLearning edition",
             "topics": {
                 "edges": []
             },
@@ -31,5 +31,5 @@
         }
     },
     "id": "310565375",
-    "now": "1925-12-11T18:01:48"
+    "now": "1926-03-10T17:57:23"
 }

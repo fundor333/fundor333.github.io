@@ -1,6 +1,6 @@
 ---
 title: 'PyDataVE #6 - CERN Edition'
-date: 1925-10-25T00:06:33
+date: 1926-03-10T17:57:24
 start: 2020-11-27 18:30:00+01:00
 end: 2020-11-27 19:30:00+01:00
 location: Online

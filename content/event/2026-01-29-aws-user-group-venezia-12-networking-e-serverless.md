@@ -1,6 +1,6 @@
 ---
 title: 'AWS User Group Venezia #12 - Networking e Serverless'
-date: 1926-02-06T18:13:37
+date: 1926-03-10T17:57:28
 start: 2026-01-29 19:00:00+01:00
 end: 2026-01-29 21:00:00+01:00
 location: Via Torino, 135, Venezia, it

@@ -1,6 +1,6 @@
 ---
 title: 'AWS User Group Venezia #11 Competition'
-date: 1925-12-11T18:01:27
+date: 1926-03-10T17:57:26
 start: 2025-11-27 19:00:00+01:00
 end: 2025-11-27 21:00:00+01:00
 location: Anda Venice Hostel, Venice, it
@@ -13,7 +13,7 @@ how_to_find_us: None
 Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
 
 Ci troviamo in **#presenza GIOVEDì 27 novembre alle ore 19:00**.
-Saremo ospitati da [Anda Venice Hostel](https://www.andavenice.com/) nella sala Medusa e, per chi non potesse raggiungerci, si terrà anche su YouTube in **#streaming**.
+Saremo ospitati da [Anda Venice Hostel](https://www.andavenice.com/) nella sala Medusa e, per chi non potesse raggiungerci, si terrà anche su [YouTube](https://www.youtube.com/watch?v=5RIfxG-fM1Q) in **#streaming**.
 
 La scaletta prevede:
 🏆 la spiegazione del torneo, basato su [AWS Jam](https://aws.amazon.com/it/training/digital/aws-jam/), una competizione per team che si vogliono mettere alla prova con scenari reali

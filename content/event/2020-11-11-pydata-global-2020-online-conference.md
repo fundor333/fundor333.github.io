@@ -1,6 +1,6 @@
 ---
 title: 'PyData Global 2020 Online Conference '
-date: 1925-10-25T00:06:33
+date: 1926-03-10T17:57:25
 start: 2020-11-11 09:00:00+01:00
 end: 2020-11-11 23:00:00+01:00
 location: Online

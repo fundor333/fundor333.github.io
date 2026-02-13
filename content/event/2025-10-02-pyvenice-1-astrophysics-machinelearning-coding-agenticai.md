@@ -1,6 +1,6 @@
 ---
 title: 'PyVenice #1 - #Astrophysics #MachineLearning #Coding #AgenticAi'
-date: 1925-10-25T00:06:30
+date: 1926-03-10T17:57:23
 start: 2025-10-02 19:00:00+02:00
 end: 2025-10-02 21:00:00+02:00
 location: Online
@@ -16,7 +16,7 @@ Continuiamo il nostro viaggio per il **#Veneto** da Vicenza alle **#stelle**, os
 
 Una serata dedicata all’Intelligenza Artificiale declinata sull’**#Astrofisica** e il **#MachineLearning**, e al **#Coding** assistito dagli #**AgentiAi** in salsa **#OpenSource**.
 
-Ci troviamo in **#presenza** giovedì 2 ottobre presso l’[Elevator Innovation Hub](https://www.elevatorhub.it/) di Vicenza in 📍Viale Fusinato 8, per chi non potesse raggiungerci, si terrà anche in **#streaming**.
+Ci troviamo in **#presenza** giovedì 2 ottobre presso l’[Elevator Innovation Hub](https://www.elevatorhub.it/) di Vicenza in 📍Viale Fusinato 8, per chi non potesse raggiungerci, si terrà anche in **#streaming** su [YouTube](https://www.youtube.com/watch?v=bztnHcROoHM).
 
 🕕 ore 19:00, 🗣 Marco DallAmico: ci parlerà di “*AI oltre le stelle: quando l’intelligenza artificiale incontra l’astrofisica*”.
 🕡 ore 19:30, 🗣 Alessandra Bilardi: ci introduce al “*Coding assistants Open Source with custom Agents A*I”

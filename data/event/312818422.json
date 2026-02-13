@@ -2,7 +2,7 @@
     "data": {
         "event": {
             "dateTime": "2026-03-26T19:00:00+01:00",
-            "description": "Carissimi, proseguiamo il nostro viaggio per parlare di **#AWS** !\n\nCi troviamo in **#presenza gioved\u00ec 26 marzo alle ore 19:00**.\nL'incontro si terr\u00e0 presso il[ Coworking Mestre](https://www.google.com/maps/search/?api=1&query=45.480717%2C%2012.250518), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su YouTube.\n\nLa scaletta non \u00e8 ancora stata definita.\n\nSe volete partecipare attivamete, proponete[vi per] argomenti e/o location con il [Form Google](https://forms.gle/1JdE6YWPbo6phuLe8) o direttamente nel canale Telegram !",
+            "description": "Carissimi, proseguiamo il nostro viaggio per parlare di **#AWS** !\n\nCi troviamo in **#presenza gioved\u00ec 26 marzo alle ore 19:00**.\nL'incontro si terr\u00e0 presso il[ Coworking Mestre](https://www.google.com/maps/search/?api=1&query=45.480717%2C%2012.250518), in via Torino 135, di fronte al NH Laguna Palace Hotel. E per chi non potesse raggiungerci, si terr\u00e0 anche in **#streaming** su YouTube.\n\nLa scaletta prevede due speech seguiti da discussione ciascuno.\n\ud83d\udde3 [Federico Parezzan](https://www.linkedin.com/in/federico-parezzan/), ci parler\u00e0 di come sia semplice fare app in **#Flutter**, con un approccio **#CodeFirst**, sfruttando **#AWSAmplify** e **#CloudSandbox** per uno sviluppo **#Fullstack** in tempi record ! A seguire \ud83d\udde3 [Salvatore Caputi](https://www.linkedin.com/in/salvatorecaputi/), ci racconter\u00e0 di come gestire processi lunghi con **#AWSBatch** nel mondo del **#CloudComputing** !\n\n\ud83d\udc65 Poi ci sposteremo per \\( \ud83c\udf78 \\| \ud83c\udf7a \\) & \\( \ud83c\udf55 \\| \ud83c\udf54 \\) e **#networking** !\n\nE come sempre, proponete[vi per] argomenti e/o location con il [Form Google](https://forms.gle/1JdE6YWPbo6phuLe8) o direttamente nel canale Telegram !",
             "endTime": "2026-03-26T21:00:00+01:00",
             "eventType": "HYBRID",
             "eventUrl": "https://www.meetup.com/aws-user-group-venezia/events/312818422/",
@@ -10,7 +10,7 @@
                 "name": "AWS User Group Venezia"
             },
             "howToFindUs": null,
-            "title": "AWS User Group Venezia #14",
+            "title": "AWS User Group Venezia #14 - FullStack e CloudComputing",
             "topics": {
                 "edges": []
             },
@@ -31,5 +31,5 @@
         }
     },
     "id": "312818422",
-    "now": "1926-02-04T23:37:12"
+    "now": "1926-03-10T17:57:28"
 }

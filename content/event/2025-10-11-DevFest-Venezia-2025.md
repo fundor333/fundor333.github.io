@@ -1,6 +1,6 @@
 ---
 title: 'DevFest Venezia 2025'
-date: 1925-10-25T00:06:27
+date: 1926-03-10T17:57:21
 start: 2025-10-11 09:00:00+02:00
 end: 2025-10-11 18:30:00+02:00
 location: Online
@@ -70,6 +70,8 @@ In his spare time, he writes and maintains open-source code, he shares his dev e
 
 Andrea Maglie, Organizer
 
+Fabio Catinella, Android Engineer
+
 Simone Formica, Organizer
 
 Android & AOSP Dev
@@ -77,6 +79,8 @@ Linux lovers,
 IoT and Photo lover
 
 Co-organizer of GdG Venezia - Mentor at Coderdojo ZeroBranco (TV)
+
+Jessica Marini, Social Media Manager
 
 Omar Al Bukhari, Organizer
 
@@ -86,8 +90,6 @@ Experienced Mobile Developer with a track record of optimizing development lifec
 -Successfully reduced time-to-market by 30% through optimised development practices.
 -Lead co-organizer at GDG Venice and GDG Italy, fostering collaboration within the tech community.
 -Avid learner with a passion for exploring new technologies and contributing to the growth of the Google Developer Group community.
-
-Fabio Catinella, Android Engineer
 
 Giuseppe Sorce, Senior Mobile Developer
 

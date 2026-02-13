@@ -1,6 +1,6 @@
 ---
 title: 'AWS User Group Venezia #18'
-date: 1926-02-04T23:37:11
+date: 1926-03-10T17:57:27
 start: 2026-11-26 19:00:00+01:00
 end: 2026-11-26 21:00:00+01:00
 location: Via Torino, 135, Venezia, it
