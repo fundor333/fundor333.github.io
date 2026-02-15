@@ -14,6 +14,8 @@ draft: False
 ## Suggested Reading Links/Posts
 - [Thursday Drops: 2026 Lamy AL-Stars in Pine and Flamingo, Tom's Studio Inks, and More!  — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2026/2/12/thursday-drops-2026-lamy-al-stars-in-pine-and-flamingo-toms-studio-inks-and-more?utm_source=fundor333.com)
 - [Tè verdi giapponesi: scopri tutte le qualità e le caratteristiche - Blog Peter's Tea House](https://blog.peters-teahouse.it/uncategorized/te-verdi-giapponesi-scopri-tutte-le-qualita-e-le-caratteristiche/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 7/2026](https://fundor333.com/weeknotes/2026/7/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
