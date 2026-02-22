@@ -10,6 +10,11 @@ draft: False
 ---
 
 
+## Suggested Reading Links/Posts
+- [Just a moment...](https://blog.devgenius.io/building-a-secure-user-activation-system-in-django-d379e4157f78?gi=a19bceca4ebc&utm_source=fundor333.com)
+- [The bare minimum for syncing Git repos – alexwlchan](https://alexwlchan.net/2026/bare-git/?ref=rss&utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 8/2026](https://fundor333.com/weeknotes/2026/8/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
