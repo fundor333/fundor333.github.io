@@ -17,6 +17,8 @@ draft: False
 - [The world is still so full of dinosaurs • Robin Rendle](https://robinrendle.com/notes/the-world-is-still-so-full-of-dinosaurs/?utm_source=fundor333.com)
 - [Journaling a Trip – The Well-Appointed Desk](https://www.wellappointeddesk.com/2026/02/journaling-a-trip/?utm_source=fundor333.com)
 - [New Arrivals: More Index Cards, and Introducing Notsu Dot Grid Sticky Notes!  — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2026/2/24/new-arrivals-more-index-cards-and-introducing-notsu-dot-grid-sticky-notes?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 9/2026](https://fundor333.com/weeknotes/2026/9/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
