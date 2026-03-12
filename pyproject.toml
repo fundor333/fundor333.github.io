@@ -17,6 +17,7 @@ dependencies = [
     "typer",
     "python-frontmatter",
     "bleach",
+    "matplotlib>=3.10.8",
 ]
 
 [project.entry-points.dotenv]
