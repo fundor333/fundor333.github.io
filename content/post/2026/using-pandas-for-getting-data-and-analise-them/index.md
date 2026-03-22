@@ -18,13 +18,14 @@ series:
 ## The idea
 
 I want to test some of the pandas functionality so I try the import from HTML table for make some data analisys.
-So I choose a web page with data in a table (or two in this case)
+So I choose a web page with data in a table (or two in this case) about manga.
 
 
 ```python
 import matplotlib
 import pandas as pd
-
+import matplotlib.pyplot as plt
+import numpy as np
 ```
 
 Here we have the basic import for the needed package for the project.
@@ -61,8 +62,8 @@ Starting with the scrape of the page with Pandas. In this case it returnes 2 tab
 
 ```python
 if len(tables) >= 2:
-    table_series = tables[0]
-    table_volumes = tables[1]
+    table_series = tables[1]
+    table_volumes = tables[0]
 
 else:
     print("Error: The page does not contain enough tables.")
@@ -85,7 +86,7 @@ print(table_volumes.isnull().sum())
     -*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
     Missing value stats for Series:
     Ranking    0
-    Title      0
+    Volume     0
     Sales      0
     Year       0
     dtype: int64
@@ -93,13 +94,11 @@ print(table_volumes.isnull().sum())
     -*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
     Missing value stats for Volumes:
     Ranking    0
-    Volume     0
+    Title      0
     Sales      0
     Year       0
     dtype: int64
 
-
-## Start the analysis
 
 So we know the data is consistant so we need to know some generic data about this two dataset.
 
@@ -107,28 +106,12 @@ So we know the data is consistant so we need to know some generic data about thi
 ```python
 print("-*-")
 print(table_series.head())
-print(table_series.info(verbose=False))
 print()
 print("-*-")
 print(table_volumes.head())
-print(table_volumes.info(verbose=False))
 
 ```
 
-    -*-
-       Ranking          Title    Sales  Year
-    0        1  One Piece #50  1678208  2008
-    1        2  One Piece #51  1646978  2008
-    2        3       Nana #19  1645128  2008
-    3        4  One Piece #49  1544000  2008
-    4        5       Nana #20  1431335  2008
-    <class 'pandas.DataFrame'>
-    RangeIndex: 3413 entries, 0 to 3412
-    Columns: 4 entries, Ranking to Year
-    dtypes: int64(3), str(1)
-    memory usage: 106.8 KB
-    None
-    
     -*-
        Ranking             Volume    Sales  Year
     0        1          One Piece  5956540  2008
@@ -136,33 +119,128 @@ print(table_volumes.info(verbose=False))
     2        3  20th Century Boys  3710054  2008
     3        4     Hitman Reborn!  3371618  2008
     4        5             Bleach  3161825  2008
-    <class 'pandas.DataFrame'>
-    RangeIndex: 860 entries, 0 to 859
-    Columns: 4 entries, Ranking to Year
-    dtypes: int64(3), str(1)
-    memory usage: 27.0 KB
-    None
+    
+    -*-
+       Ranking          Title    Sales  Year
+    0        1  One Piece #50  1678208  2008
+    1        2  One Piece #51  1646978  2008
+    2        3       Nana #19  1645128  2008
+    3        4  One Piece #49  1544000  2008
+    4        5       Nana #20  1431335  2008
 
+
+Ok now I need to reformat data from table_volumes and check the output
 
 
 ```python
-table_series[["Title","Sales","Year"]].plot(title="Manga Series")
+table_volumes[['Volume', 'Volume_Number']] = table_volumes['Title'].str.split(' #', expand=True)
+
+print()
+print("-*-")
+print(table_volumes.head())
 ```
 
-
-
-
-    <Axes: title={'center': 'Manga Series'}>
-
-
-
-
     
-![png](index_files/output_15_1.png)
-    
+    -*-
+       Ranking          Title    Sales  Year     Volume Volume_Number
+    0        1  One Piece #50  1678208  2008  One Piece            50
+    1        2  One Piece #51  1646978  2008  One Piece            51
+    2        3       Nana #19  1645128  2008       Nana            19
+    3        4  One Piece #49  1544000  2008  One Piece            49
+    4        5       Nana #20  1431335  2008       Nana            20
 
+
+## Start the analysis
+
+We start with all the selling data for year.
 
 
 ```python
+df_pivot = table_series.pivot(index='Year', columns='Volume', values='Sales')
 
+ax = df_pivot.plot()
+plt.title('Serie Selling data for Year')
+plt.show()
 ```
+
+
+    
+![png](index_files/output_18_0.png)
+    
+
+
+Ok we need to clean some of this caos of a plot.
+
+* Remove the HUGE legend
+* Having a plot type which is readable and usefull (an area plot?)
+* Fix the X increment ( I want full year, not halfs)
+
+
+```python
+df_pivot = table_series.pivot(index='Year', columns='Volume', values='Sales')
+
+# Remove the legend
+ax = df_pivot.plot(kind='area', alpha=0.5, figsize=(10, 6), legend=False)
+
+# Fix the year thinks
+years = df_pivot.index.unique()
+plt.xticks(np.arange(min(years), max(years) + 1, 1))
+
+# Add some labels
+plt.title('Serie Selling data for Year')
+plt.xlabel('Year')
+plt.ylabel('Sells')
+
+plt.grid(True)
+plt.show()
+```
+
+
+    
+![png](index_files/output_20_0.png)
+    
+
+
+Ok now can we put some time reference for Japan?
+
+
+```python
+df_pivot = table_series.pivot(index='Year', columns='Volume', values='Sales')
+
+ax = df_pivot.plot(kind='area', alpha=0.5, figsize=(10, 6), legend=False)
+years = df_pivot.index.unique()
+plt.xticks(np.arange(min(years), max(years) + 1, 1))
+
+plt.title('Serie Selling data for Year')
+plt.xlabel('Year')
+plt.ylabel('Sells')
+plt.axvline(x=2014, color='red', linestyle='--', linewidth=2)
+
+
+# Marker for Shonen Jump+
+plt.axvline(x=2014, color='red', linestyle='--', linewidth=2)
+plt.text(2014, ax.get_ylim()[1]*0.9, 'Shonen Jump+ launched', color='red', fontweight='bold')
+
+# Marker for Demon Slayer: Kimetsu no Yaiba
+plt.axvline(x=2019, color='red', linestyle='--', linewidth=2)
+plt.text(2019, ax.get_ylim()[1]*0.7, 'Unprecedented success of Demon Slayer', color='blue', fontweight='bold')
+
+# Marker for digital manga sales have surpassed physical manga  source: https://hon.jp/news/1.0/0/30684
+plt.axvline(x=2019, color='red', linestyle='--', linewidth=2)
+plt.text(2019, ax.get_ylim()[1]*0.5, 'Digital sales surpassed physical', color='black', fontweight='bold')
+
+# Gray area for the COVID-19 years with label
+plt.axvspan(2020, 2022, color='gray', alpha=0.3)
+plt.text(2021, ax.get_ylim()[1]*0.85, 'COVID-19', color='black', fontweight='bold', ha='center')
+
+plt.grid(True)
+plt.show()
+```
+
+
+    
+![png](index_files/output_22_0.png)
+    
+
+
+Ok now we select some of the manga for having a better view.
