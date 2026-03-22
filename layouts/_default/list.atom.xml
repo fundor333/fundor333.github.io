@@ -18,7 +18,7 @@
 {{ print "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 {{- printf "<?xml-stylesheet href=\"/atom.xsl\" type=\"text/xsl\"?>" | safeHTML }}
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
-{{ with .Site.Author.name }}
+{{ with .Site.Params.author.name }}
   <author>
     <name>{{ . }}</name>
     <uri>{{ $.Site.BaseURL }}</uri>
