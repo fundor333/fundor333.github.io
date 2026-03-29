@@ -25,6 +25,7 @@ series:
 - Horror stories
 - Data and Data Tools
 - Python's Reptile Env
+- My Home Automation Lab
 reply:
 repost:
 like:

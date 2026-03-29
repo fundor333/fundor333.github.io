@@ -189,3 +189,6 @@ build
 log_syndication.csv
 
 log_feed.csv
+
+assets/sass/*.css
+assets/sass/*.css.map
