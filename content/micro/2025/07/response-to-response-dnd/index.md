@@ -12,7 +12,7 @@ repost: null
 rsvp: null
 tags:
 - dnd
-- selfhosting
+- self-hosting
 title: Response to Response Dnd
 ---
 

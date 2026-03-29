@@ -19,7 +19,7 @@ After my [other post]({{< relref "post/2020/ssl-check-with-a-script/index.md" >}
 
 We need to check when the domain expire (DNS Lookup), we need to check if the server are up and the SSL certificate. This is a problem because we need to launch the same commands every day for multiple server every day and some time we forgot a domain or a url and we don't check it for days. And if something boom we need to fix it with *zero down time* so we need to do some sysadmin work.
 
-![Sysadmin Devotion](https://imgs.xkcd.com/comics/devotion_to_duty.png)
+{{< xkcd 705 >}}
 
 So, for our task, we need :
 

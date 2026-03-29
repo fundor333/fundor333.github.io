@@ -1,0 +1,17 @@
+{{ $id := string (.Get 0) }}
+{{ $url := printf "https://xkcd.com/%s/info.0.json" $id }}
+
+{{ with resources.GetRemote $url }}
+{{ $data := . | transform.Unmarshal }}
+<div class="xkcd-container">
+  <h4 class="xkcd-title">Xkcd - {{ $data.title }}</h4>
+  <a href="https://xkcd.com/{{ $id }}/" target="_blank" rel="noopener">
+    <img src="{{ $data.img }}" alt="{{ $data.alt }}" title="{{ $data.alt }}" class="xkcd-image u-photo">
+  </a>
+  <p class="xkcd-subtitle">
+    <em>{{ $data.alt }}</em>
+  </p>
+</div>
+{{ else }}
+<p>Impossibile recuperare il fumetto xkcd #{{ $id }}.</p>
+{{ end }}
