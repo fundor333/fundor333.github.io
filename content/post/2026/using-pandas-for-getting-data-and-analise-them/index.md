@@ -13,6 +13,7 @@ images:
 keywords:
 series:
 - Data and Data Tools
+draft: true
 ---
 
 ## The idea
@@ -89,7 +90,7 @@ print(table_volumes.isnull().sum())
     Sales      0
     Year       0
     dtype: int64
-    
+
     -*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*-
     Missing value stats for Volumes:
     Ranking    0
@@ -128,7 +129,7 @@ print(table_volumes.info(verbose=False))
     dtypes: int64(3), str(1)
     memory usage: 106.8 KB
     None
-    
+
     -*-
        Ranking             Volume    Sales  Year
     0        1          One Piece  5956540  2008
@@ -157,9 +158,9 @@ table_series[["Title","Sales","Year"]].plot(title="Manga Series")
 
 
 
-    
+
 ![png](index_files/output_15_1.png)
-    
+
 
 
 
