@@ -1,9 +1,9 @@
 ---
-title: "Starting My Home Automation Experiment"
-date: 2026-03-30T08:46:01+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: "I am starting a Home Automation in my home and this is how I start it"
+title: Starting My Home Automation Experiment
+date: 2026-03-30 08:46:01+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: I am starting a Home Automation in my home and this is how I start it
 tags:
 - home-automation
 - hacking
@@ -14,6 +14,12 @@ categories:
 - tinkering
 series:
 - My Home Automation Lab
+syndication:
+- https://mastodon.social/@fundor333/116318298830055707
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '116318298830055707'
 ---
 
 And some time ago I installed the __*FIBER*__[^1] in my home and I want to use in the best way, so I start to rework all my local network and I think about adding some home automation.
