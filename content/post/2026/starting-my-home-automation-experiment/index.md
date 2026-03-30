@@ -1,6 +1,6 @@
 ---
 title: "Starting My Home Automation Experiment"
-date: 2026-03-31T08:46:01+02:00
+date: 2026-03-30T08:46:01+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: "I am starting a Home Automation in my home and this is how I start it"
