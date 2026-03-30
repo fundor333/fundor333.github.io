@@ -16,7 +16,7 @@ series:
 - My Home Automation Lab
 ---
 
-And some time ago I installed the Fiber[^1] in my home and I want to use in the best way, so I start to rework all my local network and I think about adding some home automation.
+And some time ago I installed the __*FIBER*__[^1] in my home and I want to use in the best way, so I start to rework all my local network and I think about adding some home automation.
 
 [^1]: I pay a company to install it and I clean after.
 
