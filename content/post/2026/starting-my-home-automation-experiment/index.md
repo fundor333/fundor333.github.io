@@ -1,7 +1,6 @@
 ---
 title: "Starting My Home Automation Experiment"
-date: 2026-03-29T20:46:01+02:00
-draft: true
+date: 2026-03-31T08:46:01+02:00
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
 description: "I am starting a Home Automation in my home and this is how I start it"
@@ -9,6 +8,8 @@ tags:
 - home-automation
 - hacking
 - self-hosting
+- raspberry-pi
+- home-assistant
 categories:
 - tinkering
 series:
@@ -130,17 +131,46 @@ This antenna is a little special: you can flash it for changing it form Zigbee t
 
 #### Setup the Antenna
 
+First I flash the antenna. I need to port from Zigbee to Thread[^flash_firmware] and with the online tool it was so easy I thought I did something wrong.
+
+[^flash_firmware]: [Sonoff dongle flasher/](https://dongle.sonoff.tech/sonoff-dongle-flasher/)
+
+After this I connect the dongle and start to config the Home Assistant.
+
+First I need to have installed Thread  from "Add Integration" and it showed an empty list of device. This is correct because I didn't have a Thread router installed.
+
+So we add a OpenRouter. How? Installing from the officials app of mine Home Assistant.
+
+![Open Thread on a menu](Thread.png)
+
+After this I edit the config in this way (the device was auto-finded) and I set this for my device. [^note]
+
+[^note]: This config work for me, it can not work for you
+
+![Open Thread config](openThread.png)
+
+For checking if all was ok I went and seach in the log for the OpenThread for a specific line.
+
+![Log Antenna](log-antenna.png)
+
+After this I went to check if the Thread integration showed the Ikea sensor and it didn't show... Why? Because I am STUPID.
+
+#### Setup the last little things
+
+Alpstuga (my air sensor) is not Thread, is Matter over Thread, so I need to add the thing with the Matter integration. And with this last integration the system worked!
 
 ![Its alive](its-alive.gif)
 
+I am happy of this system? No. Why? I have the wrong time on the Alpstuga.
 
+This thing I don't understand so I search online for understand how can I fix the time on the device.
 
-
-
-
-
-[^flash_firmware]: [Sonoff dongle flasher/](https://dongle.sonoff.tech/sonoff-dongle-flasher/)
+I find this is a common problem with the Alpstuga device and someone made a Hacs[^hacs] plugin[^matter-time-synk] wich add a cron and a button for sync the Home Assistant's clock. I also add the plugin for integrate my Playstation Network in my Home Assistant[^psnetwork].
 
 [^hacs]: [Home Assistant Hacs](https://www.hacs.xyz/)
 [^matter-time-synk]: [Matter time synk](https://github.com/Loweack/Matter-Time-Sync/)
 [^psnetwork]: [PlayStation Network Home Assistant](https://www.home-assistant.io/integrations/playstation_network/)
+
+## Conclusion
+
+For now this is what I had done but I want to have automation (for now I don't have any) and some stuff for lower the gas bill so there will be more post about my smart home.
