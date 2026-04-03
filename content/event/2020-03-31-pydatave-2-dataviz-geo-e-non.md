@@ -12,6 +12,7 @@ how_to_find_us: None
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3pothkr2b
 ---
+
 EVENTO ONLINE SU ZOOM
 Riproponiamo l'evento in modalità videoconferenza.
 

@@ -12,6 +12,7 @@ how_to_find_us: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3oqbwvr2k
 ---
+
 THIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW
 
 https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-italia-2020/
@@ -60,3 +61,26 @@ https://www.devfest.it/speakers/
 
 Agenda
 
+---
+
+Hosted By
+
+Andrea Maglie, GDG Organizer
+
+Marco Gomiero, GDG Organizer
+
+I’m working as Uniwhere Tech Lead, where I manage the end-to-end development of a platform with half a million users.
+
+I’m a Kotlin lover with a Computer Engineering degree, I have experience with native Android and native iOS development, as well as cross-platform development with React Native, Flutter and Kotlin Multiplatform.
+
+In my spare time I write and maintain open source code, I share my dev experience by speaking at confs and organizing events with the Google Developer Group Venezia and I play basketball.
+
+Simone Formica, GDG Organizer
+
+Omar Al Bukhari, GDG Organizer
+
+---
+
+THIS IS A PAID EVENT - PURCHASE YOUR TICKET IN THE LINK BELOW
+
+https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-italia-2020/

@@ -15,6 +15,7 @@ how_to_find_us: None
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3ow62fe2a
 ---
+
 Carissimi, riprendiamo con gli speech su **#Alexa** e **#Bedrock** con due ospiti speciali !
 
 Ci troviamo in **#presenza GIOVEDì 25 settembre alle ore 19:00**.

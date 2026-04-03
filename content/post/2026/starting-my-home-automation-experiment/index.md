@@ -1,6 +1,6 @@
 ---
 title: Starting My Home Automation Experiment
-date: 2026-03-30 08:46:01+02:00
+date: 2026-03-31 08:46:01+02:00
 feature_link: https://www.midjourney.com/home/
 feature_text: by IA Midjourney
 description: I am starting a Home Automation in my home and this is how I start it
@@ -23,7 +23,8 @@ comments:
   id: '116318298830055707'
 ---
 
-And some time ago I installed the __*FIBER*__[^1] in my home and I want to use in the best way, so I start to rework all my local network and I think about adding some home automation.
+
+And some time ago I installed the Fiber[^1] in my home and I want to use in the best way, so I start to rework all my local network and I think about adding some home automation.
 
 [^1]: I pay a company to install it and I clean after.
 

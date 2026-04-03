@@ -15,6 +15,7 @@ how_to_find_us: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3onv2sz23
 ---
+
 **#PyVenice #1 - #Ai #Astrophysics #AgentAi #Coding #OpenSource**
 
 Continuiamo il nostro viaggio per il **#Veneto** da Vicenza alle **#stelle**, ospitati dall’Elevator Innovation Hub.

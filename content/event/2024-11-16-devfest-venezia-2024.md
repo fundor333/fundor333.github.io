@@ -12,6 +12,7 @@ how_to_find_us: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3o4a7mr23
 ---
+
 🌟 DevFest Venezia 2024 🌟
 
 Siamo entusiasti di annunciare il ritorno della DevFest a Venezia, l'evento straordinario dove appassionati ed esperti si incontrano per condividere la loro passione per lo sviluppo a tutto tondo.
@@ -38,3 +39,37 @@ https://devfest24.gdgvenezia.it/
 
 Agenda
 
+---
+
+Hosted By
+
+Marco Gomiero, Android Engineer
+
+Marco is an Android engineer, currently working at Airalo. He is a Google Developer Expert for Kotlin, he loves Kotlin and he has experience with native Android and native iOS development, as well as cross-platform development with Flutter and Kotlin Multiplatform.
+
+In his spare time, he writes and maintains open-source code, he shares his dev experience by writing on his blog, speaking at confs and organizing events with the Google Developer Group Venezia and he plays basketball.
+
+Andrea Maglie, Organizer
+
+Simone Formica, Organizer
+
+Android & AOSP Dev
+Linux lovers,
+IoT and Photo lover
+
+Co-organizer of GdG Venezia - Mentor at Coderdojo ZeroBranco (TV)
+
+Omar Al Bukhari, Organizer
+
+Experienced Mobile Developer with a track record of optimizing development lifecycles and enhancing client satisfaction.Key highlights include:
+
+-Proven expertise in Android, Outsystems development, and ongoing learning in Kotlin Multiplatform.
+-Successfully reduced time-to-market by 30% through optimised development practices.
+-Lead co-organizer at GDG Venice and GDG Italy, fostering collaboration within the tech community.
+-Avid learner with a passion for exploring new technologies and contributing to the growth of the Google Developer Group community.
+
+Fabio Catinella, Android Engineer
+
+Pietro Ferrara, Co-organizer
+
+Complete your event RSVP here: https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-venezia-2024/.

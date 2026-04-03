@@ -25,6 +25,7 @@ syndication:
 - https://news.ycombinator.com/item?id=42826624
 ---
 
+
 A lot of time ago I implement the Webmention in my site following a lot of blogpost.
 
 One of them was a bigger ispiration for my implementation[^indiewebify] and I have some chat with the author of the post over Mastodon for the implementation of the syndications link in a static site[^synd] and how to implement it.

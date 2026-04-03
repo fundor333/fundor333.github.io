@@ -23,4 +23,5 @@ comments:
   id: '115154343496488056'
 ---
 
+
 And now with the stuff from Esc Summer Camp and PyVenice I am making more testing and trying of LLM and understand what is a Stochastic parrot

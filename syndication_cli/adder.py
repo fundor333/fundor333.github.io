@@ -1,6 +1,7 @@
 import csv
 import json
 import logging
+import re
 from pathlib import Path
 
 import requests
@@ -24,12 +25,15 @@ def _add_syndication_to_post(filepath: str, new_links: list[str], dry_run: bool 
         logger.error(f"Unknown frontmatter format: {filepath}")
         return []
 
-    parts = content.split("---")
-    if len(parts) < 3:
+    match = re.match(r"^---\n(.+?)\n---", content, re.DOTALL)
+    if not match:
         logger.error(f"Invalid frontmatter in {filepath}")
         return []
 
-    frontmatter = yaml.safe_load(parts[1])
+    frontmatter_raw = match.group(1)
+    body = content[match.end() :]
+
+    frontmatter = yaml.safe_load(frontmatter_raw)
     existing = frontmatter.get("syndication", [])
 
     if isinstance(existing, str):
@@ -53,7 +57,7 @@ def _add_syndication_to_post(filepath: str, new_links: list[str], dry_run: bool 
 
     if not dry_run:
         new_frontmatter = yaml.dump(frontmatter, sort_keys=False, allow_unicode=True)
-        new_content = f"---\n{new_frontmatter}---{parts[2]}"
+        new_content = f"---\n{new_frontmatter}---\n{body}"
         with Path(filepath).open("w", encoding="utf-8") as f:
             f.write(new_content)
 

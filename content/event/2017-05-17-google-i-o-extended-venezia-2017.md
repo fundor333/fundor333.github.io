@@ -12,6 +12,7 @@ how_to_find_us: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3pw3okv2l
 ---
+
 https://secure.meetupstatic.com/photos/event/8/5/8/8/600_460234184.jpeg
 
 Anche quest'anno il GDG Venezia è lieto di organizzare il Google I/O Extended, per scoprire insieme tutte le novità che Google ha in serbo per sviluppatori e non.

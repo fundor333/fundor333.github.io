@@ -12,6 +12,7 @@ how_to_find_us: None
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3p7tpdu2b
 ---
+
 Carissimi, continuiamo con i meetup PyData, incentrati come sempre sulla condivisione di best practice, metodologie, analisi, sistemi di machine learning, .., con i progetti open source del programma di [NumFOCUS](https://numfocus.org/sponsored-projects) ma non solo !
 
 Ci troviamo in **#presenza giovedì 28 agosto alle ore 19:00**.

@@ -21,6 +21,7 @@ comments:
   id: '115176214643942903'
 ---
 
+
 Oggi é venuto a mancare uno dei miei autori preferiti Stefano Benni. Io vorrei ricordarlo cosi, con una delle piú belle descrizioni di sempre del __*lecchino*__
 
 > “Ero pronto a tutto, quando entrammo nel sotterraneo dove era custodito l'Archivio Zero.

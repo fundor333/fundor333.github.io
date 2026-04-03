@@ -18,4 +18,5 @@ comments:
   id: '115103172456566016'
 ---
 
+
 I hate JS. We can develop a better web scripting language for work with the DOM?

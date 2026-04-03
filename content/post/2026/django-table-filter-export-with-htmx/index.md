@@ -26,6 +26,7 @@ comments:
   id: '116339412777044941'
 ---
 
+
 Some time ago I wrote a [blog post](<{{< relref "post/2026/htmx-django-and-django-table2.md" >}}>) about Htmx and Django-table2 and all went well...
 
 ![So So](soso.gif)

@@ -12,6 +12,7 @@ how_to_find_us: None
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3ozougt23
 ---
+
 Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
 
 Ci troviamo in **#presenza MARTEDì 16 settembre alle ore 19:00**.

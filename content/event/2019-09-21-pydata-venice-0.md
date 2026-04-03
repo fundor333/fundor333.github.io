@@ -12,6 +12,7 @@ how_to_find_us: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3prybhu2b
 ---
+
 Cari pythonisti e non solo... ci siamo! Il primo Pydata Venice sta per iniziare! Grazie agli amici dell'EndSummerCamp, nel pomeriggio di sabato 21 settembre avremo la possibilità di presentare il nostro gruppo e solleticare l'attenzione con qualche bel talk pieno zeppo di dati!
 
 Ecco il programma!

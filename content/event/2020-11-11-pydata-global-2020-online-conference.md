@@ -12,6 +12,7 @@ how_to_find_us: None
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lzz3pgjejr2k
 ---
+
 PyData Global is the very first fully-online PyData conference. Join our global community for five days packed with talks, tutorials, posters, open-source sprints and a digital hallway track.
 
 For more information, check out global.pydata.org

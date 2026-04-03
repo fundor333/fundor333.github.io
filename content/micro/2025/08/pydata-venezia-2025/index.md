@@ -24,6 +24,7 @@ comments:
   id: '115101286930871373'
 ---
 
+
 Waiting for tomorrow when I am going to the PyData Event in Venice 🐍👨🏻‍💻🐍
 
 https://www.meetup.com/pydata-venice/events/310339068/?eventOrigin=home_page_upcoming_events%24all

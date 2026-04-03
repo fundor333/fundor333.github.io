@@ -14,4 +14,5 @@ comments:
   id: '115969377077180224'
 ---
 
+
 I am developing more and more with Htmx in my Django project and I love it. I have a lot less code and more clean code with Htmx than the traditional Jinja2 stuff.

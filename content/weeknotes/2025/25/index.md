@@ -16,6 +16,7 @@ comments:
   id: '114726003982488236'
 ---
 
+
 - Talking with a friend for a new blog (not mine)
 - Thinking about creating a new hugo theme for my site
 - Add more code for syndication adn mastodon support into my blog

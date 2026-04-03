@@ -20,5 +20,6 @@ comments:
   id: '114740379555772066'
 ---
 
+
 It is me or it is too hot for doing anything?
 Like I have less feed news to read, like half of the amount of the Winter's months

@@ -22,4 +22,5 @@ comments:
   id: '115142947739450950'
 ---
 
+
 And now I am studing Ollama with Python for implementing LLM in some of mine tools
