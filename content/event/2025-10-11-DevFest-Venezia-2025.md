@@ -1,6 +1,6 @@
 ---
-title: 'DevFest Venezia 2025'
-date: 1926-03-10T17:57:21
+title: DevFest Venezia 2025
+date: 1926-03-10 17:57:21
 start: 2025-10-11 09:00:00+02:00
 end: 2025-10-11 18:30:00+02:00
 location: Online
@@ -8,8 +8,11 @@ group:
 - GDG Venezia
 tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/310753901/
-how_to_find_us: 
+how_to_find_us: null
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3o36o6u2t
 ---
+
 🌟 DevFest Venezia 2025 🌟
 
 We're thrilled to announce the return of DevFest to Venice, the extraordinary event where enthusiasts and experts meet to share their passion for all-around development.

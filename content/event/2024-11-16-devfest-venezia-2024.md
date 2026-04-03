@@ -1,6 +1,6 @@
 ---
-title: 'DevFest Venezia 2024'
-date: 1926-03-10T17:57:21
+title: DevFest Venezia 2024
+date: 1926-03-10 17:57:21
 start: 2024-11-16 09:00:00+01:00
 end: 2024-11-16 18:30:00+01:00
 location: Online
@@ -8,8 +8,11 @@ group:
 - GDG Venezia
 tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/304005128/
-how_to_find_us: 
+how_to_find_us: null
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3o4a7mr23
 ---
+
 🌟 DevFest Venezia 2024 🌟
 
 Siamo entusiasti di annunciare il ritorno della DevFest a Venezia, l'evento straordinario dove appassionati ed esperti si incontrano per condividere la loro passione per lo sviluppo a tutto tondo.

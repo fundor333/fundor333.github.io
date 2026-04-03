@@ -13,12 +13,14 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lygkikvgbl2g
 - https://mastodon.social/@fundor333/115176214643942903
 comments:
   host: mastodon.social
   username: fundor333
   id: '115176214643942903'
 ---
+
 
 Oggi é venuto a mancare uno dei miei autori preferiti Stefano Benni. Io vorrei ricordarlo cosi, con una delle piú belle descrizioni di sempre del __*lecchino*__
 

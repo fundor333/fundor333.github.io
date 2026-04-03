@@ -7,12 +7,14 @@ tags:
 - silksong
 - gaming
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lxzks6kdrw2y
 - https://mastodon.social/@fundor333/115146962477562884
 comments:
   host: mastodon.social
   username: fundor333
   id: '115146962477562884'
 ---
+
 
 And now I will hide from the world for some day...
 

@@ -14,11 +14,13 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lxhyedafgt2c
 - https://mastodon.social/@fundor333/115107384713745917
 comments:
   host: mastodon.social
   username: fundor333
   id: '115107384713745917'
 ---
+
 
 Going to PyDataVe. I am curiosus of the tech we will see and try

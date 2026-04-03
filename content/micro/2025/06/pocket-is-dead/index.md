@@ -15,12 +15,14 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lrw2jwy2td2y
 - https://mastodon.social/@fundor333/114706717381042758
 comments:
   host: mastodon.social
   username: fundor333
   id: '114706717381042758'
 ---
+
 
 Pocket is dead and in the next few days they will be delete forever. So I wrote my Django app for this (my personal Pocket) but if you are note a coder or you don't want to support this code you can use other software.
 

@@ -12,12 +12,14 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3ltc4pczak52a
 - https://mastodon.social/@fundor333/114805949243259101
 comments:
   host: mastodon.social
   username: fundor333
   id: '114805949243259101'
 ---
+
 
 So now we have haunted domain? Thanks for the info and waiting for the book from Stephen King about it
 

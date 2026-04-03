@@ -12,11 +12,13 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3ls3du5lmin2s
 - https://mastodon.social/@fundor333/114718632267251853
 comments:
   host: mastodon.social
   username: fundor333
   id: '114718632267251853'
 ---
+
 
 And today I find that I blog from 2012... I am feeling old... And my blog is from 2016... Next year is 10 years of fundor333.com ...
