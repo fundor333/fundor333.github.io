@@ -17,6 +17,7 @@ resources:
 - title: Minature on a Shelf
   src: _D0A7928-2.jpg
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lvfnac6hrd2b
 - https://mastodon.social/@fundor333/114957983322758594
 comments:
   host: mastodon.social

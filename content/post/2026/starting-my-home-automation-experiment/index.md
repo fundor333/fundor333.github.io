@@ -16,6 +16,7 @@ series:
 - My Home Automation Lab
 syndication:
 - https://mastodon.social/@fundor333/116318298830055707
+- https://news.ycombinator.com/item?id=47573957
 comments:
   host: mastodon.social
   username: fundor333

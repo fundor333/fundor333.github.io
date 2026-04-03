@@ -30,7 +30,7 @@ def clean_slug(slug: str):
 
 
 class HackerNewsFinder:
-    def __init__(self, hacker_news_usernam, output):
+    def __init__(self, hacker_news_username, output):
         self.hacker_news_username = hacker_news_username
         self.path_folder = os.path.join("data", "syndication", "hacker_news")
         Path(self.path_folder).mkdir(parents=True, exist_ok=True)
@@ -39,32 +39,48 @@ class HackerNewsFinder:
             with open(self.path_file + ".json", "w") as fp:
                 json.dump({"readed": []}, fp)
         self.output = output
+        self.base_url = "https://hn.algolia.com/api/v1/search"
 
-    def get_articles_id(self):
-        url = f"https://hacker-news.firebaseio.com/v0/user/{self.hacker_news_username}.json"
-        data = requests.get(url).json()
-        return data.get("submitted", [])
+    def get_articles(self):
+        page = 0
+        all_articles = []
+        while True:
+            url = f"{self.base_url}?tags=author_{self.hacker_news_username}&hitsPerPage=100&page={page}"
+            response = requests.get(url).json()
+            hits = response.get("hits", [])
+            if not hits:
+                break
+            all_articles.extend(hits)
+            if page >= response.get("nbPages", 1) - 1:
+                break
+            page += 1
+        return all_articles
 
-    def get_article(self, article_id):
-        url = f"https://hacker-news.firebaseio.com/v0/item/{article_id}.json"
-        data = requests.get(url).json()
-        if data.get("type", False) == "story" and not data.get("dead", False):
-            return (f"https://news.ycombinator.com/item?id={article_id}", data["url"])
-        return False
+    def get_article(self, article):
+        if "story" not in article.get("_tags", []):
+            return False
+        if article.get("dead", False):
+            return False
+        url = article.get("url")
+        if not url:
+            return False
+        hn_link = f"https://news.ycombinator.com/item?id={article.get('objectID')}"
+        return (hn_link, url)
 
     def run(self):
         with open(self.path_file + ".json") as fp:
             data = json.load(fp)
-            for link in self.get_articles_id():
-                if link not in data["readed"]:
-                    info = self.get_article(link)
+            for article in self.get_articles():
+                article_id = article.get("objectID")
+                if article_id not in data["readed"]:
+                    info = self.get_article(article)
                     if info:
                         hashed = clean_slug(info[1])
                         if self.output.get(hashed, False):
                             self.output[hashed].append(info[0])
                         else:
                             self.output[hashed] = [info[0]]
-                    data["readed"].append(link)
+                    data["readed"].append(article_id)
             data["readed"] = sorted(set(data["readed"]))
         with open(self.path_file + ".json", "w") as fp:
             json.dump(data, fp)
@@ -146,8 +162,8 @@ class WriterSyndication:
         hacker_news_username: str,
         domain: str,
     ):
-        self.output = {}
-        self.data = {}
+        self.output: dict[str, list[str]] = {}
+        self.data: dict[str, str] = {}
         self.rss = rss
         self.indiweb = indiweb
         self.domain = domain
@@ -167,7 +183,6 @@ class WriterSyndication:
 
     def write(self):
         for key in self.output.keys():
-
             path_folder = os.path.join("data", "syndication")
             Path(path_folder).mkdir(parents=True, exist_ok=True)
             path_file = os.path.join(path_folder, key)

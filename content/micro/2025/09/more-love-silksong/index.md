@@ -7,6 +7,7 @@ tags:
 - silksong
 - videogame
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lybsyawasc24
 - https://mastodon.social/@fundor333/115165553342779913
 comments:
   host: mastodon.social

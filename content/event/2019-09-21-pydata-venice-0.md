@@ -1,6 +1,6 @@
 ---
 title: 'PyData Venice #0'
-date: 1926-03-10T17:57:26
+date: 1926-03-10 17:57:26
 start: 2019-09-21 17:00:00+02:00
 end: 2019-09-21 19:00:00+02:00
 location: Online
@@ -8,7 +8,9 @@ group:
 - PyData Venice
 tags: []
 event_url: https://www.meetup.com/pydata-venice/events/264720799/
-how_to_find_us: 
+how_to_find_us: null
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3prybhu2b
 ---
 Cari pythonisti e non solo... ci siamo! Il primo Pydata Venice sta per iniziare! Grazie agli amici dell'EndSummerCamp, nel pomeriggio di sabato 21 settembre avremo la possibilità di presentare il nostro gruppo e solleticare l'attenzione con qualche bel talk pieno zeppo di dati!
 

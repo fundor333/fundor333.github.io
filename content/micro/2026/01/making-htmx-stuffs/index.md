@@ -6,6 +6,7 @@ tags:
 - dev
 - htmx
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mdgrz4agzg23
 - https://mastodon.social/@fundor333/115969377077180224
 comments:
   host: mastodon.social

@@ -1,9 +1,10 @@
 ---
-title: "Django Table, Filter and Export With Htmx"
-date: 2026-04-03T8:21:34+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: A little code fragment for show how to use in the same project Htmx, Django-table2 e Django-filters
+title: Django Table, Filter and Export With Htmx
+date: 2026-04-03 08:21:34+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: A little code fragment for show how to use in the same project Htmx,
+  Django-table2 e Django-filters
 tags:
 - django
 - export
@@ -16,6 +17,13 @@ categories:
 - fingerfood
 series:
 - Django tricks
+syndication:
+- https://mastodon.social/@fundor333/116339412777044941
+- https://news.ycombinator.com/item?id=47624069
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '116339412777044941'
 ---
 
 Some time ago I wrote a [blog post](<{{< relref "post/2026/htmx-django-and-django-table2.md" >}}>) about Htmx and Django-table2 and all went well...

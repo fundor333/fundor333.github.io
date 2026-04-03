@@ -1,6 +1,6 @@
 ---
 title: 'AWS User Group Venezia #9 Competition'
-date: 1926-03-10T17:57:23
+date: 1926-03-10 17:57:23
 start: 2025-09-16 19:00:00+02:00
 end: 2025-09-16 21:00:00+02:00
 location: Via Torino, 135, Venezia, it
@@ -9,6 +9,8 @@ group:
 tags: []
 event_url: https://www.meetup.com/aws-user-group-venezia/events/310538528/
 how_to_find_us: None
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3ozougt23
 ---
 Carissimi, proseguiamo il nostro viaggio con una **#Competition** !
 

@@ -1,14 +1,19 @@
 ---
 title: 'PyVenice #1 - #Astrophysics #MachineLearning #Coding #AgenticAi'
-date: 1926-03-10T17:57:23
+date: 1926-03-10 17:57:23
 start: 2025-10-02 19:00:00+02:00
 end: 2025-10-02 21:00:00+02:00
 location: Online
 group:
 - PyVenice
-tags: [meetup-584902, meetup-917262, meetup-34455]
+tags:
+- meetup-584902
+- meetup-917262
+- meetup-34455
 event_url: https://www.meetup.com/pyvenice/events/311033533/
-how_to_find_us: 
+how_to_find_us: null
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3onv2sz23
 ---
 **#PyVenice #1 - #Ai #Astrophysics #AgentAi #Coding #OpenSource**
 

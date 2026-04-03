@@ -6,6 +6,7 @@ tags:
 - java
 categories: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mihm7b6gr727
 - https://mastodon.social/@fundor333/116331508259536576
 comments:
   host: mastodon.social

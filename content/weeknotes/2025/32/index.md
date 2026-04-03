@@ -9,10 +9,11 @@ description: Random notes for week 32 of 2025
 draft: false
 syndication:
 - https://mastodon.social/@fundor333/115003457605843632
+- https://mastodon.social/@fundor333/115003472500696060
 comments:
   host: mastodon.social
   username: fundor333
-  id: '115003457605843632'
+  id: '115003472500696060'
 ---
 
 - Studing more slashpages for my blog

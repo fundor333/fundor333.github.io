@@ -1,6 +1,6 @@
 ---
 title: 'PyDataVE #2 - DataViz (geo e non)'
-date: 1926-03-10T17:57:25
+date: 1926-03-10 17:57:25
 start: 2020-03-31 18:00:00+02:00
 end: 2020-03-31 19:00:00+02:00
 location: Online
@@ -9,6 +9,8 @@ group:
 tags: []
 event_url: https://www.meetup.com/pydata-venice/events/269622193/
 how_to_find_us: None
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3pothkr2b
 ---
 EVENTO ONLINE SU ZOOM
 Riproponiamo l'evento in modalità videoconferenza.

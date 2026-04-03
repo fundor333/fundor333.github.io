@@ -9,10 +9,11 @@ description: Random notes for week 33 of 2025
 draft: false
 syndication:
 - https://mastodon.social/@fundor333/115043094483598557
+- https://mastodon.social/@fundor333/115043122432365942
 comments:
   host: mastodon.social
   username: fundor333
-  id: '115043094483598557'
+  id: '115043122432365942'
 ---
 
 

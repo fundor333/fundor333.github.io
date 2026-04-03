@@ -1,6 +1,6 @@
 ---
 title: 'PyData Global 2020 Online Conference '
-date: 1926-03-10T17:57:25
+date: 1926-03-10 17:57:25
 start: 2020-11-11 09:00:00+01:00
 end: 2020-11-11 23:00:00+01:00
 location: Online
@@ -9,6 +9,8 @@ group:
 tags: []
 event_url: https://www.meetup.com/pydata-venice/events/271940122/
 how_to_find_us: None
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3pgjejr2k
 ---
 PyData Global is the very first fully-online PyData conference. Join our global community for five days packed with talks, tutorials, posters, open-source sprints and a digital hallway track.
 

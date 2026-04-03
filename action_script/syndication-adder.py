@@ -4,9 +4,11 @@ import os
 import re
 import yaml
 import csv
+import json
 
 CARTELLA_POST = "content"
 CSV_LOG = "log_feed.csv"
+SYNDICATION_DIR = "data/syndication"
 MASTODON_FEED = "https://mastodon.social/users/fundor333.rss"
 BSKY_FEED = "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/rss"  # facoltativo, se disponibile
 MEDIUM_FEED = None  # "https://medium.com/feed/@fundor333"
@@ -183,8 +185,57 @@ def process_feed(feed_url, fonte):
     return aggiornamenti
 
 
+def process_json_files():
+    aggiornamenti = []
+
+    if not os.path.isdir(SYNDICATION_DIR):
+        print(f"[=] Cartella {SYNDICATION_DIR} non trovata")
+        return aggiornamenti
+
+    for filename in os.listdir(SYNDICATION_DIR):
+        if not filename.endswith(".json"):
+            continue
+
+        filepath = os.path.join(SYNDICATION_DIR, filename)
+        try:
+            with open(filepath, encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"[!] Errore lettura {filename}: {e}")
+            continue
+
+        syndication = data.get("syndication", [])
+        if isinstance(syndication, str):
+            syndication = [syndication]
+
+        source = data.get("source")
+        if not source or not syndication:
+            continue
+
+        post_path = trova_file_post_da_source(source)
+        if not post_path:
+            continue
+
+        nuovi = aggiungi_syndication_a_post(post_path, syndication)
+        if nuovi:
+            print(f"[✓] Aggiornato {post_path} da JSON {filename}")
+            aggiornamenti.append(
+                {
+                    "file": post_path,
+                    "source": source,
+                    "syndication": " | ".join(nuovi),
+                    "feed": "json",
+                }
+            )
+
+    return aggiornamenti
+
+
 def main():
     log = []
+
+    print(">> Processando file JSON")
+    log += process_json_files()
 
     print(">> Processando Mastodon")
     log += process_feed(MASTODON_FEED, "mastodon")
