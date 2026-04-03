@@ -18,6 +18,7 @@ dependencies = [
     "python-frontmatter",
     "bleach",
     "matplotlib>=3.10.8",
+    "rich>=13.9.4",
 ]
 
 [project.entry-points.dotenv]
@@ -33,3 +34,43 @@ dev = [
     "pandas>=2.3.2",
     "pre-commit>=4.1.0,<5",
 ]
+
+
+[tool.ruff]
+indent-width = 4
+exclude = [".git", "*migrations*", ".tox", ".venv"]
+ignore = ["B904", "C901", "E501", "F403", "B008"]
+line-length = 119
+select = ["B", "B9", "C", "E", "F", "W"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
+
+[tool.ruff.lint]
+select = [
+    "F",   # Regole di Pyflakes
+    "W",   # Avvisi di PyCodeStyle
+    "E",   # Errori di PyCodeStyle
+    "I",   # Ordina correttamente gli import
+    "UP",  # Avvisa se alcune cose possono essere modificate a causa di versioni Python più recenti
+    "C4",  # Intercetta l'uso scorretto di comprensioni, dizionari, liste, ecc.
+    "FA",  # Applica from __future__ import annotations
+    "ISC", # Buon uso della concatenazione di stringhe
+    "ICN", # Usa le convenzioni di importazione comuni
+    "RET", # Buone pratiche di ritorno
+    "SIM", # Regole di semplificazione comuni
+    "TID", # Alcune buone pratiche di importazione
+    "PTH", # Usa pathlib invece di os.path
+    "TD",  # Sii diligente con i commenti TODO
+    "NPY", # Alcune cose specifiche di numpy
+]
+ignore = ["ANN101", "ANN002", "ANN003", "RUF012", "PTH120", "B008"]
+fixable = ["ALL"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.mccabe]
+max-complexity = 18

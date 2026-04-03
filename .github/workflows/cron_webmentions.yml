@@ -27,7 +27,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch Syndication
-        run: python ./action_script/syndication-adder.py
+        run: python -m syndication_cli all-cmd
 
       - name: Fetch webmentions
         env:

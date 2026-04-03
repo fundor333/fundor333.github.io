@@ -5,11 +5,16 @@ repos:
     hooks:
       - id: djade
         args: [--target-version, "4.2"] # Replace with Django version
-  - repo: https://github.com/psf/black
-    rev: 26.3.1
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.15.9
     hooks:
-      - id: black
-        language_version: python3.12
+      # Run the linter.
+      - id: ruff-check
+        args: [--fix]
+        # Run the formatter.
+      - id: ruff-format
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
@@ -32,22 +37,17 @@ repos:
     hooks:
       - id: pyupgrade
         args: [--py312-plus]
-  - repo: https://github.com/PyCQA/flake8
-    rev: 7.3.0
-    hooks:
-      - id: flake8
-        additional_dependencies:
-          [
-            "flake8-blind-except",
-            "flake8-docstrings",
-            "flake8-bugbear",
-            "flake8-comprehensions",
-            "flake8-docstrings",
-            "flake8-implicit-str-concat",
-            "pydocstyle>=5.0.0",
-          ]
   - repo: https://github.com/oxipng/oxipng
     rev: v10.1.0
     hooks:
       - id: oxipng
         args: ["-o", "4", "--alpha"]
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.15.9
+    hooks:
+      # Run the linter.
+      - id: ruff-check
+        args: [--fix]
+        # Run the formatter.
+      - id: ruff-format
