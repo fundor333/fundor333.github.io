@@ -1,6 +1,6 @@
 ---
-title: 'Google I/O Extended Venezia 2017'
-date: 1926-03-10T17:57:26
+title: Google I/O Extended Venezia 2017
+date: 1926-03-10 17:57:26
 start: 2017-05-17 17:45:00+02:00
 end: 2017-05-17 20:45:00+02:00
 location: Online
@@ -8,8 +8,11 @@ group:
 - GDG Venezia
 tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/239405910/
-how_to_find_us: 
+how_to_find_us: null
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3pw3okv2l
 ---
+
 https://secure.meetupstatic.com/photos/event/8/5/8/8/600_460234184.jpeg
 
 Anche quest'anno il GDG Venezia è lieto di organizzare il Google I/O Extended, per scoprire insieme tutte le novità che Google ha in serbo per sviluppatori e non.

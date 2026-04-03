@@ -1,0 +1,27 @@
+# Syndication Configuration
+# Centralized configuration for syndication CLI
+
+site:
+  domain: "https://fundor333.com"
+  content_dir: "content"
+
+feeds:
+  mastodon: "https://mastodon.social/users/fundor333.rss"
+  bluesky: "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/rss"
+  medium: null
+  indieweb:
+    - url: "https://granary.io/url?input=html&output=atom&url=https://news.indieweb.org/en"
+      site: "https://news.indieweb.org/en"
+
+external:
+  hacker_news:
+    username: "fundor333"
+    enabled: true
+
+paths:
+  syndication_dir: "data/syndication"
+  log_file: "log_feed.csv"
+
+options:
+  dry_run: false
+  verbose: false

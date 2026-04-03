@@ -8,12 +8,14 @@ type: weeknote
 description: Random notes for week 25 of 2025
 draft: false
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3ls6mmfbpao2o
 - https://mastodon.social/@fundor333/114726003982488236
 comments:
   host: mastodon.social
   username: fundor333
   id: '114726003982488236'
 ---
+
 
 - Talking with a friend for a new blog (not mine)
 - Thinking about creating a new hugo theme for my site

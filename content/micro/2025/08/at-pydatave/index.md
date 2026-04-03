@@ -8,12 +8,14 @@ tags:
 - python
 categories: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lxi342nrdu22
 - https://mastodon.social/@fundor333/115107577546429660
 comments:
   host: mastodon.social
   username: fundor333
   id: '115107577546429660'
 ---
+
 
 And now I m at the PyDataVe
 

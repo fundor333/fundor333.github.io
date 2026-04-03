@@ -12,12 +12,14 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lswncdnhaq2g
 - https://mastodon.social/@fundor333/114780095389921904
 comments:
   host: mastodon.social
   username: fundor333
   id: '114780095389921904'
 ---
+
 
 Trying cooking new food.
 

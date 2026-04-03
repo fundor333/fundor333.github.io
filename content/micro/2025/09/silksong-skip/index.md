@@ -13,12 +13,14 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lyizcpvlqn2s
 - https://mastodon.social/@fundor333/115181761041118507
 comments:
   host: mastodon.social
   username: fundor333
   id: '115181761041118507'
 ---
+
 
 And I skip a boss without knowing
 

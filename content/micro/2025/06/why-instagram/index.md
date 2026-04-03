@@ -11,12 +11,14 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lsk377cdff2c
 - https://mastodon.social/@fundor333/114751800161413134
 comments:
   host: mastodon.social
   username: fundor333
   id: '114751800161413134'
 ---
+
 
 E questa é la dimostrazione che Instagram da piú peso ai real che alle immagini
 

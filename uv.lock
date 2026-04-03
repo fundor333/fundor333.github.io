@@ -406,6 +406,7 @@ dependencies = [
     { name = "python-frontmatter" },
     { name = "pyyaml" },
     { name = "requests" },
+    { name = "rich" },
     { name = "typer" },
     { name = "weeknotebot" },
 ]
@@ -432,6 +433,7 @@ requires-dist = [
     { name = "python-frontmatter" },
     { name = "pyyaml" },
     { name = "requests" },
+    { name = "rich", specifier = ">=13.9.4" },
     { name = "typer" },
     { name = "weeknotebot" },
 ]

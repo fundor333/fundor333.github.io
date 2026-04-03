@@ -6,11 +6,13 @@ tags:
 - dev
 - htmx
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mdgrz4agzg23
 - https://mastodon.social/@fundor333/115969377077180224
 comments:
   host: mastodon.social
   username: fundor333
   id: '115969377077180224'
 ---
+
 
 I am developing more and more with Htmx in my Django project and I love it. I have a lot less code and more clean code with Htmx than the traditional Jinja2 stuff.
