@@ -1,19 +1,14 @@
 ---
 title: 'AWS User Group Venezia #10 - #Alexa e #Bedrock'
-date: 1926-03-10 17:57:23
+date: 1926-03-10T17:57:23
 start: 2025-09-25 19:00:00+02:00
 end: 2025-09-25 21:00:00+02:00
 location: Via Torino, 135, Venezia, it
 group:
 - AWS User Group Venezia
-tags:
-- meetup-661712
-- meetup-15167
-- meetup-19297
+tags: [meetup-661712, meetup-15167, meetup-19297]
 event_url: https://www.meetup.com/aws-user-group-venezia/events/305666752/
 how_to_find_us: None
-syndication:
-- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3ow62fe2a
 ---
 Carissimi, riprendiamo con gli speech su **#Alexa** e **#Bedrock** con due ospiti speciali !
 

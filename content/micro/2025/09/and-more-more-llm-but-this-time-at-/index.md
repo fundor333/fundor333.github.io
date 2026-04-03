@@ -15,7 +15,6 @@ like: null
 rsvp: null
 bookmark: null
 syndication:
-- https://bsky.app/profile/fundor333.bsky.social/post/3ly4topvzil2n
 - https://mastodon.social/@fundor333/115154343496488056
 comments:
   host: mastodon.social
