@@ -9,6 +9,7 @@ feeds:
   mastodon: "https://mastodon.social/users/fundor333.rss"
   bluesky: "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/rss"
   medium: null
+  reddit: fundor333
   indieweb:
     - url: "https://granary.io/url?input=html&output=atom&url=https://news.indieweb.org/en"
       site: "https://news.indieweb.org/en"

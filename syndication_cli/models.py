@@ -12,6 +12,7 @@ class FeedConfig:
     mastodon: str | None
     bluesky: str | None
     medium: str | None
+    reddit: str | None
     indieweb: list = field(default_factory=list)
 
 

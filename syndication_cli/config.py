@@ -38,10 +38,13 @@ def load_config(config_path: str = "config/syndication.yaml") -> SyndicationConf
     for item in feeds_data.get("indieweb", []):
         indieweb_list.append({"url": item.get("url", ""), "site": item.get("site", "")})
 
+    reddit_username = feeds_data.get("reddit_username") or feeds_data.get("reddit")
+
     feeds = FeedConfig(
         mastodon=feeds_data.get("mastodon"),
         bluesky=feeds_data.get("bluesky"),
         medium=feeds_data.get("medium"),
+        reddit=reddit_username,
         indieweb=indieweb_list,
     )
 
