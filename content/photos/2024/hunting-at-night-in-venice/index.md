@@ -1,16 +1,30 @@
 ---
-title: "Hunting at Night in Venice"
-date: 2024-09-01T12:54:03+02:00
+title: Hunting at Night in Venice
+date: 2024-09-01 12:54:03+02:00
 phototags:
 - venice
 - night
 - sign
 - hunting
-description: "In Venice there is a vegetable shop on a boat. One of the 'briccole' which keep the boat in place has this sign."
-images: ['IMG_0663.jpg']
+description: In Venice there is a vegetable shop on a boat. One of the 'briccole'
+  which keep the boat in place has this sign.
+images:
+- IMG_0663.jpg
 resources:
-- title: "Hunting at Night in Venice"
-  src: '_D0A7928-2.jpg'
+- title: Hunting at Night in Venice
+  src: _D0A7928-2.jpg
+keywords:
+- night photography
+- light painting
+- photography experiment
+- black and white
+- colorful
+- nighttime photography
+- creative photography
+- photography techniques
+- art of photography
+- photography tips
+- experimental photography
 ---
 
 This is one of my experiments with light in the night.

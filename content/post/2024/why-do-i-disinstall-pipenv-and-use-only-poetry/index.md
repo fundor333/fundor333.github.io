@@ -1,24 +1,34 @@
 ---
-title: "Why Do I Disinstall Pipenv and Use Only Poetry?"
-date: 2024-07-10T11:34:15+01:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Why Do I Disinstall Pipenv and Use Only Poetry?
+date: 2024-07-10 11:34:15+01:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 tags:
 - poetry
 - pipenv
 - pyproject
 - pyenv
-slug: "why-do-i-disinstall-pipenv-and-use-only-poetry"
+slug: why-do-i-disinstall-pipenv-and-use-only-poetry
 categories:
 - dev
 - fingerfood
-description: "I choose to don't use pipenv and move to poetry and pyproject and other stuff for dev with python"
-
+description: I choose to don't use pipenv and move to poetry and pyproject and other
+  stuff for dev with python
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
-images:
+images: null
 keywords:
+- python
+- terminal commands
+- makefile
+- git
+- pyproject
+- poetry
+- virtual env
+- pipfile
+- bash
+- automation
 series:
 - Python's Reptile Env
 ---

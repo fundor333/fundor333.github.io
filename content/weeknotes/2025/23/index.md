@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114647222339157952'
+keywords:
+- referendum
+- nintendo switch
+- dnd
+- latex
+- rss feeds
+- anime
+- manga
+- taxidermy
+- ps4
+- xbox
 ---
 
 - And I went to vote for the Referendum

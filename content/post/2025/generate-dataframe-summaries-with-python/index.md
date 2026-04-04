@@ -16,7 +16,17 @@ tags:
 categories:
 - dev
 images: null
-keywords: null
+keywords:
+- natural language processing
+- data analysis
+- dataset summary
+- medical data
+- PyDataVe
+- Mistral model
+- langchain
+- ollama
+- pandas
+- machine learning
 series:
 - Data and Data Tools
 syndication:

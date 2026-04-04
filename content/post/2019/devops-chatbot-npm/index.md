@@ -1,15 +1,35 @@
 ---
-title: 'DevOps, ChatBot e NPM'
-date: 2019-02-05T10:11:07.668Z
+title: DevOps, ChatBot e NPM
+date: 2019-02-05 10:11:07.668000+00:00
 draft: false
 tags:
-  - devops
-  - bot
-  - coding
+- devops
+- bot
+- coding
 categories:
-  - dev
+- dev
 slug: devops-chatbot-npm
-description: Aggiornamento su cosa mi sta succedendo e perché ho iniziato a fare il DevOps
+description: Aggiornamento su cosa mi sta succedendo e perché ho iniziato a fare il
+  DevOps
+keywords:
+- sviluppo
+- team di sviluppo
+- Kubernetes
+- Docker
+- immagine Docker
+- pipeline di rilascio
+- automazione
+- scripting
+- Python
+- Bash
+- logging
+- notifica degli errori
+- bot
+- automatismi
+- Git
+- GitHub
+- Hubot
+- Coffeescript
 ---
 
 Attualmente al lavoro il team di sviluppo é "giusto per le esigenze aziendali". Questo significa due persone. Questo comporta anche che non esiste un _backendista_ e un _frontendista_ full time ma tutti fanno tutto.

@@ -9,6 +9,10 @@ description: Random notes for week 18 of 2025
 draft: false
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3loeusjasog2d
+keywords:
+- DnD; Dungeons and Dragons; VeneziaComics; Comicon; Italy; Stationery; Japan; Takayama;
+  Nagoya; Typewriter; Letter-Writing; Anime; Manga; Fantasy; Adventure; Action; Supernatural;
+  Drama; Comedy
 ---
 
 - I made with my friend a site with all the data and people of our DnD campain because we want to do it XD

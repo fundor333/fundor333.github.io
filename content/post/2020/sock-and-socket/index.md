@@ -1,17 +1,32 @@
 ---
-title: "Sock and socket"
-date: 2020-04-15T14:33:00+00:00
-
-feature_link: "https://unsplash.com/photos/kBGVM2mVgcI"
-feature_text: "Photo by Tai's Captures on Unsplash"
+title: Sock and socket
+date: 2020-04-15 14:33:00+00:00
+feature_link: https://unsplash.com/photos/kBGVM2mVgcI
+feature_text: Photo by Tai's Captures on Unsplash
 tags:
 - socket
 - python
-slug: "sock-and-socket"
+slug: sock-and-socket
 categories:
 - rant
 - fingerfood
-description: "A little thing about socket in python"
+description: A little thing about socket in python
+keywords:
+- python
+- socket programming
+- python socket
+- network programming
+- how to make a socket
+- create a socket
+- socket in python
+- python networking
+- network communication
+- computer networks
+- socket programming tutorial
+- python tutorials
+- programming in python
+- python coding
+- socket programming examples
 ---
 
 Sometime the life has a distorted sens of humor and make a hole in your sock wen you are going to work.

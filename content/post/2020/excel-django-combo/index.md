@@ -1,19 +1,30 @@
 ---
-title: "Make a Excel Django combo"
-date: 2020-05-20T00:00:00+00:00
-
-feature_link: "https://unsplash.com/photos/l090uFWoPaI"
-feature_text: "Photo by John Barkiple on Unsplash"
+title: Make a Excel Django combo
+date: 2020-05-20 00:00:00+00:00
+feature_link: https://unsplash.com/photos/l090uFWoPaI
+feature_text: Photo by John Barkiple on Unsplash
 tags:
-    - django
-    - coding
-slug: "excel-django-combo"
+- django
+- coding
+slug: excel-django-combo
 categories:
-    - dev
-    - fingerfood
-description: "Import excel to django with easy and usefull form"
+- dev
+- fingerfood
+description: Import excel to django with easy and usefull form
 series:
 - Django tricks
+keywords:
+- django
+- pyexcel
+- pyexcel-xls
+- excel
+- file upload
+- django forms
+- formview
+- csv
+- xls
+- xlsx
+- data import
 ---
 
 Sometime you need to import "old data" or other type of stuff from an Excel file into your Django and save it in the correct models. This an impossible task without the correct plugin and you need the correct one.

@@ -13,6 +13,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114805963010753124'
+keywords:
+- KPop
+- Demon Hunters
+- Chocolate
+- Katsudon
+- Domain name
+- InCoWriMo
+- Hacktoberfest
+- Python
+- Cloudflare
+- Mastodon
 ---
 
 - OK why is KPop Demon Hunters so good?

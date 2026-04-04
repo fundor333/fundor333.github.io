@@ -15,6 +15,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115637621307576652'
+keywords:
+- Django
+- HTTP bearer authentication
+- programming skills
+- Advent of Code
+- blog
+- newsletter
+- support
+- anime
+- manga
+- fantasy
 ---
 
 

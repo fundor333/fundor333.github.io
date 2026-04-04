@@ -20,6 +20,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114931676410061975'
+keywords:
+- Technology
+- Stack
+- Programming
+- Tools
+- Software
+- Development
+- Coding
+- Ghostty
+- Catppucino
+- Integration
 ---
 
 And this is how I use Ghostty and Catppucino in my stack

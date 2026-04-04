@@ -14,6 +14,18 @@ bookmark: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lmqafe7xfo2h
 - https://mastodon.social/@fundor333/114333138088843024
+keywords:
+- Netflix
+- Serie TV
+- Devil May Cry
+- Buona Serie
+- Binge Watching
+- Streaming
+- Serie di Fantascienza
+- Anime
+- Action & Adventure
+- Fantasy
+- Thriller
 ---
 
 Sometime Netflix make a good serie. The Devil May Cry is a very good one

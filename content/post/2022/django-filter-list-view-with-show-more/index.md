@@ -1,21 +1,35 @@
 ---
-title: "Django List View With Show More"
-date: 2022-04-23T11:17:15+02:00
-feature_link: "https://unsplash.com/photos/iqLnrFnGjGA"
-feature_text: "Photo by Luc Bercoth on Unsplash"
+title: Django List View With Show More
+date: 2022-04-23 11:17:15+02:00
+feature_link: https://unsplash.com/photos/iqLnrFnGjGA
+feature_text: Photo by Luc Bercoth on Unsplash
 tags:
 - django
 - coding
 - python
 - django filter
-slug: "django-filter-list-view-with-show-more"
+slug: django-filter-list-view-with-show-more
 categories:
 - dev
 - fingerfood
-description: "How to have infinite scrolling in Django FilterView"
-meta:
+description: How to have infinite scrolling in Django FilterView
+meta: null
 series:
 - Django tricks
+keywords:
+- 'Here are 10 relevant SEO tags:
+
+
+  Django'
+- infinite scrolling
+- Django ListView
+- filter module
+- pagination
+- Waypoints
+- django models
+- class views
+- template tags
+- Django templating.
 ---
 
 Sometime you want to have infinite scrolling in a Django ListView.

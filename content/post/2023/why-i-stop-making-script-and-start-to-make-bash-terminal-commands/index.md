@@ -1,25 +1,33 @@
 ---
-title: "Why I Stop Making Script and Start to Make Bash Terminal Commands"
-date: 2023-05-19T13:32:33+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Why I Stop Making Script and Start to Make Bash Terminal Commands
+date: 2023-05-19 13:32:33+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 tags:
 - script
 - bash
 - command line
-slug: "why-i-stop-making-script-and-start-to-make-bash-terminal-commands"
+slug: why-i-stop-making-script-and-start-to-make-bash-terminal-commands
 categories:
 - dev
 - fingerfood
-description: ""
-
+description: ''
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
-images:
+images: null
 keywords:
-- pythons
+- python
+- scripting
+- doom
+- script
+- cli
 - terminal
+- bash
+- perl
+- typer
+- click
+- rich text
 ---
 
 ## The script folder of DOOM

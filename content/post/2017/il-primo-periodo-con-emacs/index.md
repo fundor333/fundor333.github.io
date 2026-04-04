@@ -8,9 +8,24 @@ categories:
 - dev
 description: Diario del mio primo periodo di utilizzo di Emacs
 aliases:
-- "/dev/il-primo-periodo-con-emacs/"
-feature_link: "https://unsplash.com/photos/xf6_UOfnwLw"
-feature_text: "Photo by Joshua Oluwagbemiga on Unsplash"
+- /dev/il-primo-periodo-con-emacs/
+feature_link: https://unsplash.com/photos/xf6_UOfnwLw
+feature_text: Photo by Joshua Oluwagbemiga on Unsplash
+keywords:
+- 'Ecco l''elenco di 10 tag SEO (parole chiave) rilevate nel testo:
+
+
+  Emacs'
+- configurazione
+- personalizzazione
+- tutorial
+- buffer
+- windows
+- init.el
+- _.emacs.d_
+- tema
+- pacchetti
+- package-archives.
 ---
 Ho iniziato a utilizzare Emacs in modo sempre più completo, dai piccoli file a quelli sempre più grossi fino  usarlo come editor unico.
 La parte più difficile è stata la parte iniziale dove sono dovuto entrare nella mentalità di Emacs ovvero quando ho dovuto imparare a lavorare su buffer e windows.

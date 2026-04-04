@@ -18,6 +18,13 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114805949243259101'
+keywords:
+- Domain name
+- haunted domain
+- Stephen King
+- Bryan Braun
+- buy a domain name
+- before you buy
 ---
 
 

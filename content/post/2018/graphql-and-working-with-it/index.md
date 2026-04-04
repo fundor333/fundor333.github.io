@@ -9,14 +9,26 @@ slug: graphql-and-working-with-it
 categories:
 - dev
 aliases:
-- "/dev/graphql-and-working-with-it/"
+- /dev/graphql-and-working-with-it/
 description: 'This is an article about the future of the api: GraphQL. This is the
   natural evolution from the REST API and it''s the best thing for request only part
   of the data in the API'
+feature_link: https://unsplash.com/photos/MWXKz_o1Ls0
+feature_text: Photo by Bryan Trogdon on Unsplash
+keywords:
+- 'Here are 10 SEO tags (keywords) separated by commas:
 
 
-feature_link: "https://unsplash.com/photos/MWXKz_o1Ls0"
-feature_text: "Photo by Bryan Trogdon on Unsplash"
+  REST API'
+- Representational state transfer
+- RESTful web services
+- GraphQL
+- data query language
+- schema
+- multi-db support
+- API administration
+- SQL query
+- lightweight app
 ---
 What is a REST API? REST stand for **Representational state transfer** (**REST**) or **RESTful** web services and it's the most used tipe of API you find online.
 

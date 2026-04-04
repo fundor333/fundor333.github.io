@@ -14,6 +14,24 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115439462309618304'
+keywords:
+- Fountain pen
+- ink journal
+- zettelkasten
+- programmers
+- pen show
+- London
+- autumn
+- Romanesque blue
+- Kuretake Art Nouveau
+- Teranishi Guitar Night Time Soda
+- anime
+- manga
+- stats
+- blogging
+- writing
+- journaling
+- notebook.
 ---
 
 

@@ -1,11 +1,25 @@
 ---
-title: "Week Note Nº 3/2026"
-date: "2026-01-18T09:00:00+01:00"
-lastmod: "2026-01-18T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Random notes for week 3 of 2026"
-draft: False
+title: Week Note Nº 3/2026
+date: '2026-01-18T09:00:00+01:00'
+lastmod: '2026-01-18T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Random notes for week 3 of 2026
+draft: false
+keywords:
+- Django
+- Table2
+- Django-table2
+- Okinawa
+- Japan
+- Zenrindo Shintoshin
+- blog
+- newsletter
+- anime
+- manga
+- fantasy
+- adventure
 ---
 
 - Making some test with Django-Table2 and love it

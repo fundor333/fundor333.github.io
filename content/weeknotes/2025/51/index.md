@@ -1,12 +1,24 @@
 ---
-title: "Week Note Nº 51/2025"
-date: "2025-12-21T09:00:00+01:00"
-lastmod: "2025-12-21T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 51 of 2025"
-description: "Personal notes for week 51 of 2025"
-draft: False
+title: Week Note Nº 51/2025
+date: '2025-12-21T09:00:00+01:00'
+lastmod: '2025-12-21T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 51 of 2025
+description: Personal notes for week 51 of 2025
+draft: false
+keywords:
+- db cleaning
+- personal server
+- creative journaling
+- take a note planner
+- accessibility
+- pydata
+- week notes
+- anime
+- manga
+- database management
 ---
 
 - Make some db cleaning of my personal server

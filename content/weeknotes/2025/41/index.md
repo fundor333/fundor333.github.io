@@ -14,6 +14,20 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115360183491385508'
+keywords:
+- 'Here are the 10 SEO tags (relevant keywords) separated by commas:
+
+
+  cosplay'
+- San Dona Fumetto
+- Con
+- comic con
+- photography
+- anime
+- manga
+- fantasy
+- adventure
+- drama
 ---
 
 - And today i was taking photo at cosplayers at San Dona Fumetto, a Con near my city

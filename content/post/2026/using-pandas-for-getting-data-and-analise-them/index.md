@@ -1,16 +1,26 @@
 ---
 date: '2026-03-12T20:00:07+08:00'
-title: 'Using Pandas For Getting Data And Analise Them'
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: 'Using Pandas For Getting Data And Analise Them'
+title: Using Pandas For Getting Data And Analise Them
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: Using Pandas For Getting Data And Analise Them
 isStarred: false
 tags:
 - pandas
 categories:
 - dev
-images:
+images: null
 keywords:
+- pandas
+- data analysis
+- data scraping
+- HTML table
+- web scraping
+- data import
+- data frame
+- missing values
+- data stats
+- data visualization
 series:
 - Data and Data Tools
 draft: true

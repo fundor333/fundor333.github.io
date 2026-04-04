@@ -20,6 +20,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115214437249024327'
+keywords:
+- Backend Developer
+- Python
+- Django
+- Flask
+- FastAPI
+- Tornado
+- Postgresql
+- Rest API
+- Soap API
+- GraphQL API
 ---
 
 

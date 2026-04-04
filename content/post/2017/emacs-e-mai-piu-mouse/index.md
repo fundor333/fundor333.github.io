@@ -9,9 +9,20 @@ description: Cos'è Emacs e perchè ho iniziato a usarlo e rimosso il mouse dal 
   set per il pc
 categories:
 - rant
-feature_link: "https://unsplash.com/photos/oZMUrWFHOB4"
-feature_text: "Photo by Paul Esch-Laurent on Unsplash"
-
+feature_link: https://unsplash.com/photos/oZMUrWFHOB4
+feature_text: Photo by Paul Esch-Laurent on Unsplash
+keywords:
+- editor di testo
+- open source
+- software personalizzabile
+- multipiattaforma
+- configurazione editor
+- plugins
+- linguaggi
+- sistema operativo
+- Node.js
+- Lisp
+- Emacs
 ---
 E ho iniziato a scrivere con Emacs questo blog. Questo mi porta a essere orgoglioso di dire che questo blog è _mouse free_!
 

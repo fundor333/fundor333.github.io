@@ -19,6 +19,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115165721311629589'
+keywords:
+- SilkSong
+- gaming
+- video games
+- pogo mechanic
+- red flowers
+- game mechanics
+- indie games
+- single-player games
+- action-adventure games
+- player experience
+- game design
 ---
 
 

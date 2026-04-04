@@ -1,18 +1,31 @@
 ---
-title: "SSL Check With a Script"
-date: 2020-08-20T14:13:40+02:00
-
-feature_link: "https://unsplash.com/photos/OVEWbIgffDk"
-feature_text: "Photo by Denisse Leon on Unsplash"
+title: SSL Check With a Script
+date: 2020-08-20 14:13:40+02:00
+feature_link: https://unsplash.com/photos/OVEWbIgffDk
+feature_text: Photo by Denisse Leon on Unsplash
 tags:
 - coding
 - devops
-slug: "ssl-check-with-a-script"
+slug: ssl-check-with-a-script
 categories:
 - dev
 - fingerfood
-description: "You need to check a lot of SSL certificate, some domain and others things"
+description: You need to check a lot of SSL certificate, some domain and others things
+keywords:
+- Here are 10 relevant SEO tags
+- 'separated by commas:
 
+
+  Python programming'
+- Let's Encrypt
+- SSL certificate
+- HTTPS
+- CertBot
+- backend development
+- domain registration
+- web application
+- PyOpenssl
+- scriptwriting
 ---
 
 As a backend developer I made a lot of web application, site and other stuffs which have one or more domains. Because I don't have money I use [Let's Encrypt](https://letsencrypt.org/) for make the SSL certificate for the HTTPS and, because it is free, it is only 3 month worty certificate so you need to renovate it.

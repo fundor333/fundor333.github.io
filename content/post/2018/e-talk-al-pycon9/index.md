@@ -10,10 +10,21 @@ description: E vado a parlare al Pycon9 per colpa di questo blog, della mia picc
   passione per i generatori di siti statici e di un certo informatico
 categories:
 - rant
-feature_link: "https://unsplash.com/photos/C4G18Paw0d4"
-feature_text: "Photo by Daniil Kuželev on Unsplash"
+feature_link: https://unsplash.com/photos/C4G18Paw0d4
+feature_text: Photo by Daniil Kuželev on Unsplash
 series:
 - Pelican for my site
+keywords:
+- Pycon
+- Pelican
+- Hugo
+- LaTeX
+- GitHub
+- static generator
+- speaking
+- conference
+- Python
+- Pycon9
 ---
 E per caso mi ritrovo a dover parlare al Pycon... E ovviamente voglio complicarmi la vita perchè se non faccio le cose in modo facile non mi diverto a sufficienza.
 

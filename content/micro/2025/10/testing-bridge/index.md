@@ -12,6 +12,17 @@ bookmark: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lgiivfc6a42u
 - https://mastodon.social/@fundor333/113883613574193722
+keywords:
+- communication
+- language
+- bridge
+- understanding
+- connect
+- relationship
+- conversation
+- dialogue
+- talk
+- communication
 ---
 
 Talk brid.gy to me

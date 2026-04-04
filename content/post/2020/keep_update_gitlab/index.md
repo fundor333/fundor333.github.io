@@ -1,18 +1,31 @@
 ---
-title: "Keep update Gitlab"
-date: 2020-11-16T20:30:00+01:00
-
-feature_link: "https://unsplash.com/photos/8rTwokBwz1w"
-feature_text: "Photo by hue12 photography on Unsplash"
+title: Keep update Gitlab
+date: 2020-11-16 20:30:00+01:00
+feature_link: https://unsplash.com/photos/8rTwokBwz1w
+feature_text: Photo by hue12 photography on Unsplash
 tags:
 - devops
 - hacking
-slug: "keep_update_gitlab"
+slug: keep_update_gitlab
 categories:
 - fingerfood
 - dev
-description: "How to check if your GitLab is update automaticaly"
+description: How to check if your GitLab is update automaticaly
+keywords:
+- Here are 10 SEO tags (keywords) that I extracted from the text
+- 'separated by commas:
 
+
+  GitLab self-hosted'
+- security update
+- version check
+- hack
+- python
+- requests
+- token access
+- GitLab help page
+- notification
+- Slack Telegram integration
 ---
 
 Some time ago I had a problem with a selfhosted Gitlab instances. I had a new user, johnyj12345, which create a repo and an issiue and log off.

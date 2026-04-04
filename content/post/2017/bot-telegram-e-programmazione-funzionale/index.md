@@ -12,9 +12,26 @@ categories:
 description: Come un mio tentativo di imparare a usare i decoratori in python è sfociata
   in un bot in Python
 aliases:
-- "/dev/bot-telegram-e-programmazione-funzionale/"
-feature_link: "https://unsplash.com/photos/3WLcQWnHB_Q"
-feature_text: "Photo by Mae Mu on Unsplash"
+- /dev/bot-telegram-e-programmazione-funzionale/
+feature_link: https://unsplash.com/photos/3WLcQWnHB_Q
+feature_text: Photo by Mae Mu on Unsplash
+keywords:
+- decoratori
+- python-telegram-bot
+- telegram bot
+- bot telegram
+- codice funzionale
+- libreria Python
+- sviluppo di bot
+- gestione di comandi
+- comando handler
+- Flask
+- listener
+- decorator
+- command_handler
+- generatore di funzioni
+- botan
+- parse_mode
 ---
 Ho voluto provare a imparare a usare i decoratori e mi sono ritrovato a fare un intero bot telegram basato su codice funzionale e decoratori.
 

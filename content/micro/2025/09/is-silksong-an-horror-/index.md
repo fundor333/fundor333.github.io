@@ -19,6 +19,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115209465403302922'
+keywords:
+- Games
+- Horror Games
+- Survival Horror
+- Action-Adventure Games
+- PC Gaming
+- PlayStation 4
+- Xbox One
+- Video Games
+- Indie Games
+- Gaming News
 ---
 
 

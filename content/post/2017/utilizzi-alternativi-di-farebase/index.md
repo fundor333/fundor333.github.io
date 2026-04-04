@@ -9,9 +9,25 @@ description: Utilizzare le funzionalità di Firebase in modo non 'standard'
 categories:
 - rant
 aliases:
-- "/blog/utilizzi-alternativi-di-farebase/"
-feature_link: "https://unsplash.com/photos/pKeF6Tt3c08"
-feature_text: "Photo by Brendan Church on Unsplash"
+- /blog/utilizzi-alternativi-di-farebase/
+feature_link: https://unsplash.com/photos/pKeF6Tt3c08
+feature_text: Photo by Brendan Church on Unsplash
+keywords:
+- 'tag SEO: tecnologia'
+- asincrono
+- processi remoti
+- log
+- dashboard
+- console
+- robastoria
+- Firebase
+- database in tempo reale
+- scripting
+- programmazione
+- gestionale
+- visualizzazione
+- HTML
+- JS
 ---
 Uno dei problemi che avevamo al lavoro era quello di controllare un insieme di processi remoti. Quando hai un applicativo gestionale che deve visualizzare in breve tempo i dati all'utente senza rallentare mai la visualizzazione, devi avere alcune componenti/operazioni che lavorano in asincrono rispetto alla parte di I/O dell'utente.
 

@@ -19,6 +19,16 @@ comments:
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lroqna6rpn2o
 - https://mastodon.social/@fundor333/114627452417111937
+keywords:
+- Tablet
+- Dungeons
+- Dragons
+- Note
+- ColorCoding
+- Middle
+- Night
+- Fun
+- Time
 ---
 
 ![cover](cover.png)

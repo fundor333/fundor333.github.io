@@ -18,6 +18,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114695391406251569'
+keywords:
+- blog views
+- webmentions
+- decreasing engagement
+- online presence
+- blogging community
+- reader interaction
+- website analytics
+- traffic insights
+- engagement metrics
+- blog performance
+- digital communication
 ---
 
 

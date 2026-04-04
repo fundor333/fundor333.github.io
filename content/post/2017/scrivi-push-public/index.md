@@ -10,11 +10,22 @@ categories:
 description: Come scrivere un blog interamente in pelican, gestito in github e travis
   con autopubblicazioni
 aliases:
-- "/dev/scrivi-push-public/"
+- /dev/scrivi-push-public/
 series:
 - Pelican for my site
-feature_link: "https://unsplash.com/photos/ICW6QYOcdlg"
-feature_text: "Photo by Galymzhan Abdugalimov on Unsplash"
+feature_link: https://unsplash.com/photos/ICW6QYOcdlg
+feature_text: Photo by Galymzhan Abdugalimov on Unsplash
+keywords:
+- python
+- web development
+- pelican
+- static site generator
+- html5
+- css3
+- bootstrap
+- wordpress
+- jinja2
+- gitflow
 ---
 Ho riscritto interamente il blog. Ora gira tutto in Python... Anche se nel server è tutto in HTML5.
 

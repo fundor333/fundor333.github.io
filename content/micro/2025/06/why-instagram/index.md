@@ -17,6 +17,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114751800161413134'
+keywords:
+- Instagram
+- SEO
+- Social Media
+- Real Estate
+- Image Optimization
+- Online Presence
+- Digital Marketing
+- Visual Content
+- User Engagement
+- Brand Awareness
 ---
 
 

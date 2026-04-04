@@ -17,6 +17,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115009714482545107'
+keywords:
+- temperature
+- heatwave
+- summer
+- hot weather
+- autumn
+- seasonal changes
+- climate
+- weather forecast
+- stay cool
+- air conditioning
+- refrigerator
 ---
 
 

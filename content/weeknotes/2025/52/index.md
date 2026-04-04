@@ -1,12 +1,24 @@
 ---
-title: "Week Note Nº 52/2025"
-date: "2025-12-28T09:00:00+01:00"
-lastmod: "2025-12-28T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 52 of 2025"
-description: "Personal notes for week 52 of 2025"
-draft: False
+title: Week Note Nº 52/2025
+date: '2025-12-28T09:00:00+01:00'
+lastmod: '2025-12-28T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 52 of 2025
+description: Personal notes for week 52 of 2025
+draft: false
+keywords:
+- Anime
+- manga
+- typewriter
+- old typewriter
+- week note
+- blog post
+- anime stats
+- manga stats
+- fantasy
+- adventure
 ---
 
 - And I am tinkering with an old Typewriter

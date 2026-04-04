@@ -17,6 +17,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115065743161114876'
+keywords:
+- mobile photography
+- smartphone camera
+- portable camera
+- everyday photography
+- street photography
+- urban photography
+- natural light
+- outdoor photography
+- mobile photography tips
+- photography on the go
 ---
 
 Little shot take with my phone. I hate not having my camera and I need to start having my camera every where I go.

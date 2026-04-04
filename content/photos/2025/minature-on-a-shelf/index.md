@@ -23,6 +23,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114957983322758594'
+keywords:
+- Warhammer
+- Warhammer 40k
+- Warhammer Fantasy
+- Miniature Painting
+- Prop Making
+- Clubbing
+- Nightlife
+- Undead Theme
+- Dark Fantasy
+- Sci-Fi
+- Tabletop Gaming
 ---
 
 

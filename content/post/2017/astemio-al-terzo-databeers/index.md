@@ -9,11 +9,20 @@ description: La mia terza esperienza al DataBeers di Venezia, mio quarto Databee
 categories:
 - rant
 aliases:
-- "/blog/astemio-al-terzo-databeers/"
-
-
-feature_link: "https://unsplash.com/photos/6ZZh8kOyW-4"
-feature_text: "Photo by Adam Wilson on Unsplash"
+- /blog/astemio-al-terzo-databeers/
+feature_link: https://unsplash.com/photos/6ZZh8kOyW-4
+feature_text: Photo by Adam Wilson on Unsplash
+keywords:
+- DataBeers
+- data science
+- Venezia
+- Data Driven Design
+- FabLab
+- Neo4J
+- Paradise Papers
+- Disinformazione
+- bufale online
+- dati
 ---
 Personalmente io adoro i raduni informatici e di data scienze, sono strani nel senso bello. Uno di quelli a cui riesco a partecipare di più in assoluto è il _*[DataBeers di Venezia](https://databeersvce.tumblr.com)*_.
 

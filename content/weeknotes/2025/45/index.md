@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115518755885444048'
+keywords:
+- Arcane
+- anime
+- manga
+- fantasy
+- adventure
+- drama
+- action
+- supernatural
+- comics
+- nerd
 ---
 
 - And I watch in one day all Arcane and love it... Fuck the world I was nerding out

@@ -1,15 +1,29 @@
 ---
-title: "Waiting for Ramen in a Restaurant"
-date: 2024-08-20T13:54:21+02:00
+title: Waiting for Ramen in a Restaurant
+date: 2024-08-20 13:54:21+02:00
 themes:
 - restaurant
 - ramen
 - japan
-description: "Sometime a Ramen Shop try the Japanese aesthetic but this look like a real Japan's Ramen"
-images: ['_D0A7824.jpg']
+description: Sometime a Ramen Shop try the Japanese aesthetic but this look like a
+  real Japan's Ramen
+images:
+- _D0A7824.jpg
 resources:
-- title: "Waiting for Ramen in a Restaurant"
-  src: '_D0A7824.jpg'
+- title: Waiting for Ramen in a Restaurant
+  src: _D0A7824.jpg
+keywords:
+- Milan
+- Japan
+- Ramen
+- Street Shop
+- Food
+- Light
+- Photography
+- Travel
+- Italy
+- Japanese Cuisine
+- Restaurant
 ---
 
 This photo come out from a photo set at Milan.

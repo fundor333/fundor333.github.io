@@ -20,6 +20,9 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115107384713745917'
+keywords:
+- Machine learning; Python; Data Science; Big Data; Conference; Technology; Innovation;
+  Artificial Intelligence; Analytics; Ve; Data Analysis
 ---
 
 

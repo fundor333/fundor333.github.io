@@ -18,6 +18,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115107935701051886'
+keywords:
+- data science
+- pydataves
+- alchool
+- machine learning
+- data analysis
+- ves
+- python
+- analytics
+- big data
+- data visualization
 ---
 
 And now we have alchool at PyDataVes

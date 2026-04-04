@@ -1,8 +1,8 @@
 ---
-title: 'Beards, mugs and men'
+title: Beards, mugs and men
 date: 2019-07-15 00:00:00 +0000
-feature_link: "https://unsplash.com/photos/NEc3YEN1FFw"
-feature_text: "Photo by Chris Scott on Unsplash"
+feature_link: https://unsplash.com/photos/NEc3YEN1FFw
+feature_text: Photo by Chris Scott on Unsplash
 tags:
 - rant
 categories:
@@ -12,6 +12,20 @@ slug: beards-mugs-men
 description: A response about mugs to a rant about beards
 series:
 - Horror stories
+keywords:
+- 'Here are 10 SEO tags (keywords) relevant to the text:
+
+
+  developer'
+- rant
+- devrant
+- helpdesk
+- beard
+- frontend
+- backend
+- Linux
+- sysadmin
+- programming
 ---
 
 I use DevRant, a social for rant by developer. One day I find [this](https://devrant.com/rants/1684566/some-empty-headed-helpdesk-girl-skipped-into-our-office-yesterday-afternoon-desp) rant.

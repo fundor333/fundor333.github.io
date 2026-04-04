@@ -1,16 +1,31 @@
 ---
-title: "Dotfiles, bot and yaml files"
-date: 2020-05-01T16:00:00+00:00
-
-feature_link: "https://unsplash.com/photos/y7T1lYkfg0c"
-feature_text: "Photo by Amith Nair on Unsplash"
+title: Dotfiles, bot and yaml files
+date: 2020-05-01 16:00:00+00:00
+feature_link: https://unsplash.com/photos/y7T1lYkfg0c
+feature_text: Photo by Amith Nair on Unsplash
 tags:
 - dotfiles
 - coding
-slug: "dotfiles-bot-yaml"
+slug: dotfiles-bot-yaml
 categories:
 - dev
-description: "Using the same dotfiles on multiple computer in the easy way"
+description: Using the same dotfiles on multiple computer in the easy way
+keywords:
+- 'Here are 10 relevant SEO tags:
+
+
+  Linux'
+- Unix
+- Dotfiles
+- dotbot
+- Config files
+- SSH
+- Git
+- Bash
+- Shell scripting
+- Linux machine
+- Apple Machine
+- Windows Machine
 ---
 
 If you ever use _Unix_ based system you are familiar with _dotfiles_ for configuration.

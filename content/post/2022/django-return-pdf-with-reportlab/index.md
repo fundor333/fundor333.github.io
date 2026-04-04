@@ -1,26 +1,36 @@
 ---
-title: "Django Return Pdf With Reportlab"
-date: 2022-02-28T11:13:30+01:00
-feature_link: "https://unsplash.com/photos/n2ILm0aTCYo"
-feature_text: "Photo by Hannes Wolf on Unsplash"
+title: Django Return Pdf With Reportlab
+date: 2022-02-28 11:13:30+01:00
+feature_link: https://unsplash.com/photos/n2ILm0aTCYo
+feature_text: Photo by Hannes Wolf on Unsplash
 tags:
 - coding
 - django
 - reportlab
-slug: "django-return-pdf-with-reportlab"
+slug: django-return-pdf-with-reportlab
 categories:
 - dev
 - fingerfood
-description: "How to print a pdf with Django and return it from url"
-
+description: How to print a pdf with Django and return it from url
 meta:
 - pdf
 - python
-Focus_Keyword: "django pdf reportlab"
+Focus_Keyword: django pdf reportlab
 series:
 - Django tricks
 - Printing With ReportLab
-
+keywords:
+- python
+- pdf
+- reportlab
+- django
+- classview
+- pdf printing
+- pdf generation
+- dynamic data
+- static data
+- web app
+- python library
 ---
 
 Sometime you need to print a pdf from your site or your web app with some custom data.

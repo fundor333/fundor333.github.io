@@ -1,17 +1,26 @@
 ---
-title: "Create a custon Git message with GitConfig"
-date: 2020-08-15T15:15:00+02:00
-
-feature_link: "https://unsplash.com/photos/xDjGxM8N4sY"
-feature_text: "Photo by Victoria Zakharchuk on Unsplash"
+title: Create a custon Git message with GitConfig
+date: 2020-08-15 15:15:00+02:00
+feature_link: https://unsplash.com/photos/xDjGxM8N4sY
+feature_text: Photo by Victoria Zakharchuk on Unsplash
 tags:
 - git
 - dotfiles
-slug: "gitmessage-advance-config"
+slug: gitmessage-advance-config
 categories:
 - dev
 - fingerfood
-description: "Sometime you need to configure your git or have a template for the commit for your work"
+description: Sometime you need to configure your git or have a template for the commit
+  for your work
+keywords:
+- Git
+- commit message
+- template
+- commit.template
+- global
+- Gitmessage
+- CI
+- GitHub
 ---
 
 Sometime you will need to have a template for the commit message.

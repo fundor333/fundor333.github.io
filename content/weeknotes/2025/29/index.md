@@ -13,6 +13,20 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114884549300366620'
+keywords:
+- 'Here are the 10 SEO tags (keywords) separated by commas:
+
+
+  Hugo query'
+- python markdown editor
+- retext
+- indie web
+- mastodon
+- blogger
+- fountain pen ink colors
+- traveler's notebook
+- chronodex
+- anime
 ---
 
 - Testing some of the hugo query for stuff

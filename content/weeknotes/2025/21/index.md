@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114690259884567597'
+keywords:
+- Django
+- Brid.Gy
+- Finite-state machine
+- DnD
+- Teapot
+- Git
+- Symlinks
+- Webring
+- Reportlab
+- Barcode
 ---
 
 - Changing some metadata for better control of what brid.gy publish from my site

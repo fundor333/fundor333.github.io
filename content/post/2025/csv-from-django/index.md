@@ -12,7 +12,17 @@ categories:
 - dev
 - fingerfood
 images: null
-keywords: null
+keywords:
+- csv
+- export file
+- specific format
+- upload system
+- classview
+- python programming
+- csv dialect
+- excel csv
+- unix csv
+- data conversion
 series:
 - Django tricks
 reply: null

@@ -16,6 +16,18 @@ resources:
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lo6thariho2p
 - https://mastodon.social/@fundor333/114439034044618493
+keywords:
+- pub
+- photography
+- returning home
+- night photography
+- sunset
+- evening light
+- pallet colors
+- photography tips
+- travel photography
+- pub closing hours
+- outdoor photography
 ---
 
 Returning home I find this pub closing, and I take this photo before they close the pub.

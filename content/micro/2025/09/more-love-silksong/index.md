@@ -13,6 +13,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115165553342779913'
+keywords:
+- Elder_Elixir
+- Silksong
+- Games
+- Indie_Games
+- Hip_Hop_Music
+- Love
+- Papyrus
+- Baba_La_Na
+- PC_Games
+- Xbox_Game_Pass
+- Gamepass
 ---
 
 

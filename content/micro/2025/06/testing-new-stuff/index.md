@@ -18,6 +18,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114695240414793189'
+keywords:
+- Automation
+- Syndication
+- Stuff
+- Having
+- More
+- Trying
+- Things
+- To Do
+- Automation Software
+- Optimization
 ---
 
 

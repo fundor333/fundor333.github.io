@@ -19,6 +19,18 @@ syndication:
 tags:
 - dnd
 title: Dnd Response
+keywords:
+- Roll20
+- online tabletop
+- virtual tabletop
+- self-hosting
+- tabletop gaming
+- automation
+- game hosting
+- digital games
+- fantasy gaming
+- tabletop RPG
+- free games
 ---
 
 Thanks for the answer. Now we are using the free tear of Roll20 but we don't have the automation or a self hosting option.

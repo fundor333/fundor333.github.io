@@ -14,7 +14,20 @@ categories:
 - rant
 - dev
 images: null
-keywords: null
+keywords:
+- 'Here are 10 SEO tags (keywords) relevant to the text:
+
+
+  Webmention'
+- ActivityPub
+- Feedverse
+- personal identity
+- federated
+- fragmented
+- brid
+- Mastodon
+- social media
+- blogging
 series:
 - Tech News
 - Indiweb, webmentions and friends

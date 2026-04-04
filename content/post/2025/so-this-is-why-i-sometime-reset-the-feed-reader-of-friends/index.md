@@ -13,7 +13,17 @@ tags:
 categories:
 - rant
 images: null
-keywords: null
+keywords:
+- Atom
+- Rss
+- Feed reader
+- Kev
+- Robb Knight
+- XML
+- Validation
+- Feed format
+- RSS bugs
+- Atom id
 series: null
 reply: null
 repost: null

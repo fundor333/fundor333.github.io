@@ -14,6 +14,32 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115003472500696060'
+keywords:
+- 'tags SEO:
+
+
+  blogging'
+- slashpages
+- personal life
+- fountain pen
+- supershow
+- ink swatch
+- paper review
+- web browser
+- dotfiles
+- custom toolkit
+- REPL sessions
+- USPS
+- Pantone
+- naming devices
+- card catalog
+- synthesizer plugins
+- Jekyll
+- now page
+- Week Note
+- anime
+- manga
+- fantasy
 ---
 
 

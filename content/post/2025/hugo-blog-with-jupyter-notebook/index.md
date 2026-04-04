@@ -14,7 +14,20 @@ tags:
 categories:
 - dev
 images: null
-keywords: null
+keywords:
+- 'Here are 10 SEO tags (relevant keywords) separated by commas:
+
+
+  Jupyter Notebook'
+- Pelican
+- Hugo
+- static site generator
+- Markdown file
+- Python module
+- metadata
+- CSS editing
+- deep anchor links
+- Mastodon
 series:
 - Hugo tricks
 - Data and Data Tools

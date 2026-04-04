@@ -1,11 +1,26 @@
 ---
-title: "Week Note Nº 16/2025"
-date: "2025-04-20T09:00:00+01:00"
-lastmod: "2025-04-20T09:00:00+01:00"
-tags: ["week note"]
-type : "weeknote"
-summary: "Random notes for week 16 of 2025"
-draft: False
+title: Week Note Nº 16/2025
+date: '2025-04-20T09:00:00+01:00'
+lastmod: '2025-04-20T09:00:00+01:00'
+tags:
+- week note
+type: weeknote
+summary: Random notes for week 16 of 2025
+draft: false
+keywords:
+- 'Here are the 10 SEO tags (separated by commas):
+
+
+  blogging'
+- lunr search
+- hugo static sites
+- csv files
+- json files
+- github actions
+- personal api
+- indieweb
+- website optimization
+- blog customization
 ---
 
 - Add a Series page in my blog where I list all the posts interconnected. I will make a post about it and pot some Series into the photos posts, for sorting and collect them.

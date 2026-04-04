@@ -1,11 +1,23 @@
 ---
-title: "Week Note Nº 5/2026"
-date: "2026-02-01T09:00:00+01:00"
-lastmod: "2026-02-01T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Random notes for week 5 of 2026"
-draft: False
+title: Week Note Nº 5/2026
+date: '2026-02-01T09:00:00+01:00'
+lastmod: '2026-02-01T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Random notes for week 5 of 2026
+draft: false
+keywords:
+- Anime
+- Manga
+- Blogging
+- Association
+- Site
+- Blogging Tips
+- Content Creation
+- Writing
+- Online Communities
+- Personal Development
 ---
 
 - Working on the site of the association

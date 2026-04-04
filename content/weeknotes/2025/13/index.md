@@ -1,11 +1,22 @@
 ---
-title: "Week Note Nº 13/2025"
-date: "2025-03-30T09:00:00+01:00"
-lastmod: "2025-03-30T09:00:00+01:00"
-
-tags: ["week note"]
-type : "weeknote"
-summary: "Random notes for week 13 of 2025"
+title: Week Note Nº 13/2025
+date: '2025-03-30T09:00:00+01:00'
+lastmod: '2025-03-30T09:00:00+01:00'
+tags:
+- week note
+type: weeknote
+summary: Random notes for week 13 of 2025
+keywords:
+- Rust-GTK
+- Python
+- desktop app
+- to-do list
+- automation
+- feeds
+- rss
+- deploy
+- Brew
+- Flatpack
 ---
 
 Strange slow week

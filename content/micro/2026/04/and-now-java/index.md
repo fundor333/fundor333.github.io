@@ -12,6 +12,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '116331508259536576'
+keywords:
+- Java programming
+- coding
+- programming language
+- software development
+- computer programming
+- coding skills
+- programming basics
+- coding tutorials
+- learn to code
+- coding community
 ---
 
 And now I start some Java gramming... Wish me luck

@@ -12,6 +12,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115969377077180224'
+keywords:
+- Django
+- Htmx
+- HTML5
+- Web Development
+- Frontend
+- Backend
+- Python
+- JavaScript
+- Template Engine
+- Full Stack Development
 ---
 
 

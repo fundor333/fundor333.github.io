@@ -1,11 +1,23 @@
 ---
-title: "Week Note Nº 2/2026"
-date: "2026-01-11T09:00:00+01:00"
-lastmod: "2026-01-11T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Random notes for week 2 of 2026"
-draft: False
+title: Week Note Nº 2/2026
+date: '2026-01-11T09:00:00+01:00'
+lastmod: '2026-01-11T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Random notes for week 2 of 2026
+draft: false
+keywords:
+- Anime
+- manga
+- Python
+- Mermaid charts
+- Type Hints
+- Goodreads alternative
+- Hardcover Book API
+- personal server
+- citation preferences
+- blog posts
 ---
 
 - Adding more stuff on my personal server

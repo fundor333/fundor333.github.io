@@ -21,6 +21,18 @@ syndication:
 - https://mastodon.social/@fundor333/114615017065338141
 tags: null
 title: Taxidermy
+keywords:
+- Taxidermy
+- weird
+- unusual
+- animals
+- art
+- culture
+- strange
+- hobby
+- collection
+- fascination
+- curiosity
 ---
 
 Why not share the taxidermy??? Why not?

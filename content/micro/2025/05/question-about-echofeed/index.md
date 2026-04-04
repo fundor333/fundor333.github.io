@@ -20,6 +20,18 @@ comments:
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lroqnpvein2o
 - https://mastodon.social/@fundor333/114587857806058272
+keywords:
+- echofeed
+- social media
+- hashtags
+- content variable
+- tag feed
+- social
+- media analytics
+- variable tags
+- content optimization
+- search engine optimization
+- SEO
 ---
 
 @robb@social.lol I trying echofeed but I don't understand one thing in the content - variables: hashtags???

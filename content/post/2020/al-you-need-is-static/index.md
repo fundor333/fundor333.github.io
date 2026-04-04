@@ -1,16 +1,30 @@
 ---
-title: "Al You Need Is Static"
-date: 2020-06-03T14:00:00+00:00
-
-feature_link: "https://unsplash.com/photos/3xNn1zGvBwY"
-feature_text: "Photo by Hello I'm Nik 🎞 on Unsplash"
+title: Al You Need Is Static
+date: 2020-06-03 14:00:00+00:00
+feature_link: https://unsplash.com/photos/3xNn1zGvBwY
+feature_text: Photo by Hello I'm Nik 🎞 on Unsplash
 tags:
 - rant
 - coding
-slug: "al-you-need-is-static"
+slug: al-you-need-is-static
 categories:
 - dev
-description: "Why you need to move to static site generator and where they come from"
+description: Why you need to move to static site generator and where they come from
+keywords:
+- 'Here are 10 relevant SEO tags separated by commas:
+
+
+  static site generator'
+- hypertext
+- HTML
+- web development
+- blogging
+- content creation
+- website optimization
+- scalability
+- security
+- speed
+- simplicity
 ---
 
 You don't need a dinamic site for your company or your blog. You are paing for query when you don't need them.

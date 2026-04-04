@@ -17,6 +17,17 @@ tags:
 - djangowebring
 - flask
 title: Django Webring
+keywords:
+- Python
+- Django
+- Flask
+- April Fool's Day
+- Web Development
+- Programming Languages
+- Python Frameworks
+- Software Development
+- Technology News
+- Programming Jokes
 ---
 
 And now I am into the #djangowebring ... It is a April Fool's Day joke ? Maybe but Flask was also a April Fool's Day joke...

@@ -13,6 +13,9 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114963821453547039'
+keywords:
+- Furoshiki; Learning; Tutorial; Gift Wrapping; Bandana; Wrap Gifts; Japanese Art;
+  SEO Optimization; Django; Python
 ---
 
 - Learning to use the FuroshikI

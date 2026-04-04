@@ -13,6 +13,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114844912241288485'
+keywords:
+- Bullet Journal
+- Wagtail
+- Final Fantasy
+- Switch
+- Git
+- Python
+- Hugo
+- Open Graph
+- Terminal-notifier
+- Django
 ---
 
 - Buy and start a new Bullet Journal (Leuchtturm1917 A5 - Dotted - Sagge color)

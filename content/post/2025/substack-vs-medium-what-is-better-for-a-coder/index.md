@@ -18,6 +18,20 @@ syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lgpspspw6525
 - https://mastodon.social/@fundor333/113900165230585466
 - https://news.ycombinator.com/item?id=42840293
+keywords:
+- 'Here are 10 SEO tags (relevant keywords) separated by commas:
+
+
+  Developer'
+- Coder
+- Software development
+- Blogging
+- Sharing knowledge
+- StackOverflow
+- Medium
+- SubStack
+- WordPress
+- GoHugo
 ---
 
 I am first and most a Developer and a Coder and I think that coding and developing software (site, app, AI, etc...) need to be a share experience.

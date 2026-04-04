@@ -1,17 +1,26 @@
 ---
-title: "Backup Your Crontab"
-date: 2020-08-30T13:49:30+02:00
-
-feature_link: "https://unsplash.com/photos/eMzR8FW4N9M"
-feature_text: "Photo by Jonathan Pielmayer on Unsplash"
+title: Backup Your Crontab
+date: 2020-08-30 13:49:30+02:00
+feature_link: https://unsplash.com/photos/eMzR8FW4N9M
+feature_text: Photo by Jonathan Pielmayer on Unsplash
 tags:
 - dotfiles
 - coding
-slug: "backup-your-crontab"
+slug: backup-your-crontab
 categories:
 - dev
-description: "Using DotBot for backup and sync crontab job"
-
+description: Using DotBot for backup and sync crontab job
+keywords:
+- cronjob
+- dotbot
+- crontab
+- dotfile
+- machine specific
+- sync cronjob
+- cron jobs
+- dot files management
+- home office
+- work from anywhere
 ---
 
 With covid I work sometime at home, sometime at office, allwayse with different computer.

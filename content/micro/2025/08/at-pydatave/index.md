@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115107577546429660'
+keywords:
+- Python
+- Data Science
+- Machine Learning
+- Big Data
+- Data Analysis
+- Data Visualization
+- Python Framework
+- Scientific Computing
+- Analytics Tools
+- Programming Languages
 ---
 
 

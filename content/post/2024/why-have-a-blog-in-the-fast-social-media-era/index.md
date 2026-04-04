@@ -1,26 +1,34 @@
 ---
-title: "Why Have a Blog in the Fast Social Media Era"
-date: 2024-07-16T11:28:21+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Why Have a Blog in the Fast Social Media Era
+date: 2024-07-16 11:28:21+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 tags:
 - dev
 - rant
 - blogging
-slug: "why-have-a-blog-in-the-fast-social-media-era"
+slug: why-have-a-blog-in-the-fast-social-media-era
 categories:
 - rant
-description: ""
+description: ''
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
-images:
+images: null
 keywords:
-- blogging
-- site
+- personal website
 - social media
+- RSS reader
+- mastodon
+- Instagram
+- TikTok
+- YouTube Short
+- AI generated content
+- algorithm
+- social media control
+- social media changes
 series:
-- "A dev need a blog"
+- A dev need a blog
 ---
 
 I am a HUGE RSS reader so sometime I find something interesting and I want to read the full post.

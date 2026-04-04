@@ -9,6 +9,9 @@ description: Random notes for week 14 of 2025
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lmpybqjdi22h
 - https://mastodon.social/@fundor333/114332942225423786
+keywords:
+- Django; static pages; blog post; Appletune; API automation; Feedbin; Postlight Parser;
+  JavaScript; web development; technology; programming
 ---
 
 - Updating the site with some new static pages and update the content of the old ones. I also wrote a blog post about the statics pages I edited and how much they can be usefull.

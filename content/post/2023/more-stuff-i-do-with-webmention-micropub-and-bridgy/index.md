@@ -24,6 +24,20 @@ series:
 - Indiweb, webmentions and friends
 syndication:
 - https://news.indieweb.org/en
+keywords:
+- 'Here are 10 SEO tags (keywords) separated by commas:
+
+
+  Webmention'
+- Microformat
+- Micropub
+- POSSE
+- Brid.gy
+- Django
+- Hugo
+- Bootstrap5
+- WebMention.io
+- Syndication
 ---
 
 After my first work on Micropub, Microformat and WebMention (you can find more [here]({{< ref "/post/2022/indieweb-webmention-and-h-entry-in-my-blog" >}} "How I implement Indieweb, Webmention and H Entry in My Blog")) I change some things here and there.

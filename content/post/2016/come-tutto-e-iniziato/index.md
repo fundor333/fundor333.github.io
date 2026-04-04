@@ -8,6 +8,17 @@ Tags:
 - rant
 series:
 - Horror stories
+keywords:
+- IT technician
+- computer viruses
+- AVG antivirus
+- IT support
+- horror stories
+- Lovecraftian
+- technical issues
+- computer problems
+- on-call tech support
+- virus removal
 ---
 
 I’ve decided to start sharing some episodes that happened to me as an IT technician.

@@ -14,5 +14,11 @@ resources:
   src: DSCF0070.jpg
 syndication:
 - https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6?source=rss-48447ba4c2e
-- https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6?source=rss-48447ba4c2e------2
+- https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6?source=rss-48447ba4c2e
+keywords:
+- I couldn't analyze the text because it seems to be blank. Please provide a valid
+  text for me to work with. I'll be happy to help you with extracting 10 relevant
+  SEO tags (keywords) from the text
+- separated by commas.
+------2
 ---

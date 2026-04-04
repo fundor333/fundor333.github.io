@@ -8,9 +8,21 @@ description: Gource, cos'è e come usarlo al meglio
 categories:
 - rant
 aliases:
-- "/blog/gource-visualizzare-git-repository/"
-feature_link: "https://unsplash.com/photos/TYUS-cXzy50"
-feature_text: "Photo by Mark Tegethoff on Unsplash"
+- /blog/gource-visualizzare-git-repository/
+feature_link: https://unsplash.com/photos/TYUS-cXzy50
+feature_text: Photo by Mark Tegethoff on Unsplash
+keywords:
+- git
+- gource
+- version control
+- software engineering
+- project management
+- log analysis
+- visualisation
+- software development
+- code review
+- sql injection
+- ddos attack
 ---
 Quando hai un progetto Git, normalmente lo usi per fare controllo delle
 versioni.\

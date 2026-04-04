@@ -13,6 +13,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115146962477562884'
+keywords:
+- hiding
+- self-isolation
+- mental health
+- emotional well-being
+- anxiety
+- depression
+- solitude
+- retreat
+- mindfulness
+- introspection
+- silence
 ---
 
 

@@ -17,6 +17,18 @@ rsvp: null
 tags:
 - django
 title: Django Response
+keywords:
+- _querystring_
+- thanks
+- new
+- tag
+- seo
+- optimization
+- search
+- engine
+- keywords
+- relevance
+- optimization
 ---
 
 Thanks and i like the new _querystring_  tag

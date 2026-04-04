@@ -20,6 +20,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114744840744075613'
+keywords:
+- blogging
+- ghost
+- wordpress
+- hugo
+- activitypub
+- blogging platform
+- content management system
+- website creation
+- publishing
+- online writing
 ---
 
 

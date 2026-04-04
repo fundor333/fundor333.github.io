@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115201639067257164'
+keywords:
+- blogging
+- journaling
+- typewriter
+- hobonichi
+- plannerizing
+- anime
+- manga
+- event planning
+- code optimization
+- digital publishing
 ---
 
 - Working on a new section of the blog: event section

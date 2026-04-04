@@ -11,6 +11,17 @@ rsvp: null
 bookmark: null
 syndication:
 - https://mastodon.social/@fundor333/113846762520205233
+keywords:
+- Testing
+- blogging
+- microblogging
+- social
+- new
+- way
+- posting
+- content
+- strategy
+- optimization
 ---
 
 Testing new way of posting

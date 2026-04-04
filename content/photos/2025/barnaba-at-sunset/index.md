@@ -18,6 +18,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114938752690189891'
+keywords:
+- Street photography
+- nighttime photography
+- urban exploration
+- city walks
+- photography tips
+- color photography
+- night shots
+- cityscape photography
+- urban landscape
+- photography inspiration
 ---
 
 

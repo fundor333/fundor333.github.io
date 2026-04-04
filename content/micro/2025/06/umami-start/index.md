@@ -19,6 +19,18 @@ comments:
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lrkt66xamq2s
 - https://mastodon.social/@fundor333/114681429148697486
+keywords:
+- Google Analytics
+- data ownership
+- analytics platform
+- Umami
+- self-hosted analytics
+- web analytics
+- data sovereignty
+- online tracking
+- digital privacy
+- personalized insights
+- website metrics
 ---
 
 Staarting moving to Umami for analytics because I don't want to not having control of my data

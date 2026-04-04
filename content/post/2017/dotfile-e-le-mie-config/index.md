@@ -9,8 +9,19 @@ description: DotFile e la mia configurazione di tutto
 categories:
 - rant
 - dev
-feature_link: "https://unsplash.com/photos/rvbd2namR7U"
-feature_text: "Photo by Muhammad Haikal Sjukri on Unsplash"
+feature_link: https://unsplash.com/photos/rvbd2namR7U
+feature_text: Photo by Muhammad Haikal Sjukri on Unsplash
+keywords:
+- Linux
+- Unix
+- Git
+- DotFiles
+- DotBot
+- Python
+- install.conf.yaml
+- backup
+- configuration files
+- GitHub
 ---
 Da quasi 10 anni io utilizzo _Linux_ o sistemi _Unix_ su tutti i pc che utilizzo. Questo mi ha portato a creare svariate configurazioni personalizzate legate a i vari servizi/programmi/script che utilizzo tutti i giorni, perdendo un tempo notevole in caso di ripristino a risettare tutto com'era.
 

@@ -14,7 +14,22 @@ categories:
 description: If you have a static site you can also have forms
 syndication:
 - https://fundor333.medium.com/static-with-a-form-in-python-0a11c50a04cd?source=rss-48447ba4c2e
-- https://fundor333.medium.com/static-with-a-form-in-python-0a11c50a04cd?source=rss-48447ba4c2e------2
+- https://fundor333.medium.com/static-with-a-form-in-python-0a11c50a04cd?source=rss-48447ba4c2e
+keywords:
+- 'Here are 10 SEO tags (relevant keywords) separated by commas:
+
+
+  static site'
+- contact form
+- backend solution
+- microservice
+- REST API
+- Captcha
+- Python Flask
+- MailGun
+- serveless
+- universal
+------2
 ---
 
 Sometime you need to make a contact form or something similar but you have a static site. So what do you do?

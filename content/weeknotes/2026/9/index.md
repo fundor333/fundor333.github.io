@@ -1,12 +1,24 @@
 ---
-title: "Week Note Nº 9/2026"
-date: "2026-03-01T09:00:00+01:00"
-lastmod: "2026-03-01T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 9 of 2026"
-description: "Personal notes for week 9 of 2026"
-draft: False
+title: Week Note Nº 9/2026
+date: '2026-03-01T09:00:00+01:00'
+lastmod: '2026-03-01T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 9 of 2026
+description: Personal notes for week 9 of 2026
+draft: false
+keywords:
+- Anime
+- manga
+- journaling
+- fountain pen ink
+- field notes notebooks
+- sticky notes
+- index cards
+- note taking
+- anime statistics
+- manga statistics
 ---
 
 

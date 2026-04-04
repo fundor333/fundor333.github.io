@@ -13,6 +13,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114768707120138492'
+keywords:
+- Writing
+- LaTeX
+- Age Verification
+- Porn
+- Esterbrook
+- Forgotten Iced Coffee
+- ty
+- Python type checker
+- Dracula
+- Ghost Blogging
+- Instagram
 ---
 
 - Less feed to read. Is it too hot to write?

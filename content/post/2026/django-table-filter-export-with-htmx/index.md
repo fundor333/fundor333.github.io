@@ -27,6 +27,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '116339412777044941'
+keywords:
+- django-table2
+- Htmx
+- Django-filter
+- tablib
+- bootstrap
+- Django
+- template
+- view
+- filter
+- export
 ---
 
 Some time ago I wrote a [blog post](<{{< relref "post/2026/htmx-django-and-django-table2.md" >}}>) about Htmx and Django-table2 and all went well...

@@ -18,6 +18,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115259827424909859'
+keywords:
+- Lucca Comics and Games
+- comic book
+- games
+- convention
+- festival
+- comics
+- games event
+- Italia
+- Europe
+- Comic Con
+- Fan Festival
 ---
 
 E anche quest'anno vedo al Lucca Comics and Games. E faccio foto in TF.

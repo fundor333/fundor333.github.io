@@ -9,9 +9,22 @@ description: Docker, cos'è e come funziona
 slug: docker-la-balena-con-i-container
 categories:
 - rant
-feature_link: "https://unsplash.com/photos/hHntcuiLbOg"
-feature_text: "Photo by Antoine Petitteville on Unsplash"
+feature_link: https://unsplash.com/photos/hHntcuiLbOg
+feature_text: Photo by Antoine Petitteville on Unsplash
+keywords:
+- 'qui sono i 10 tag SEO:
 
+
+  Virtual Machine'
+- Docker
+- Macchina Virtuale
+- Container
+- Virtualization
+- Software Development
+- Testing Environment
+- Production Environment
+- PHP
+- MySQL
 ---
 Oggi parliamo di balene e di Virtual Machine, ovvero parliamo di
 Docker.

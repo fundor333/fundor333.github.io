@@ -1,26 +1,39 @@
 ---
-title: "New Render Image For Hugo"
-date: 2024-07-28T11:37:47+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: New Render Image For Hugo
+date: 2024-07-28 11:37:47+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 tags:
 - blogging
 - devops
 - hugo
 - module
-slug: "new-render-image-for-hugo"
+slug: new-render-image-for-hugo
 categories:
 - dev
 - fingerfood
-description: "The new way to elaborate image for the site generation of the site with Hugo Module"
-
+description: The new way to elaborate image for the site generation of the site with
+  Hugo Module
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
-images:
+images: null
 keywords:
+- 'Here are the 10 SEO tags separated by commas:
+
+
+  Hugo'
+- lazy loading
+- WebP
+- image optimization
+- static site
+- img
+- SVG
+- AVIF
+- picture tag
+- src set
 aliases:
-- "/post/2024/new-render-image-fot-hugo/"
+- /post/2024/new-render-image-fot-hugo/
 series:
 - Hugo tricks
 ---

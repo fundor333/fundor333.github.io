@@ -10,9 +10,23 @@ categories:
 - rant
 series:
 - Pelican for my site
-feature_link: "https://unsplash.com/photos/gy08FXeM2L4"
-feature_text: "Photo by Oskar Yildiz on Unsplash"
+feature_link: https://unsplash.com/photos/gy08FXeM2L4
+feature_text: Photo by Oskar Yildiz on Unsplash
+keywords:
+- 'Here are the 10 SEO tags:
 
+
+  SEO keywords: Pelican'
+- Hugo
+- GoLang
+- static site generator
+- blog
+- website
+- conversion
+- theme
+- Markdown
+- Toml
+- Let's Encrypt
 ---
 E sono passato a Hugo da Pelican perchè Pelican non mi soddisfa.
 Dopo un po' di utilizzo di Pelican ho deciso di prendere e fare due cose a modo mio perchè non mi piacciono o non supportate: una risistema al tema che è vermente una mostrosità di codice e la gestione delle categorie

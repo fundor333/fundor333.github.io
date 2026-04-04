@@ -1,18 +1,28 @@
 ---
-title: "The Team Makefile"
-date: 2021-01-15T12:27:21+01:00
+title: The Team Makefile
+date: 2021-01-15 12:27:21+01:00
 cover: cover.jpg
-feature_link: "https://unsplash.com/photos/MNbOMvT1cUU"
-feature_text: "Photo by Mahmoud Fawzy on Unsplash"
+feature_link: https://unsplash.com/photos/MNbOMvT1cUU
+feature_text: Photo by Mahmoud Fawzy on Unsplash
 tags:
 - devops
 - coding
 - hacking
-slug: "The-team-makefile"
+slug: The-team-makefile
 categories:
 - dev
-description: "You need to make a makefile if you are working on a team project"
-
+description: You need to make a makefile if you are working on a team project
+keywords:
+- team
+- collaboration
+- project management
+- software development
+- makefile
+- git
+- documentation
+- testing
+- continuous integration
+- linting
 ---
 
 Working on a project with a team is a difficult task. If the project is not simple, you need to build it, test it and publish it and you can have multiple project with similar command but different parameters or path for build/test/stuff-making.

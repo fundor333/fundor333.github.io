@@ -7,11 +7,23 @@ slug: jupyter-notebook-pelican-combo
 categories:
 - dev
 description: Come ho combinato Jupyter con questo blog in Pelican
-feature_link: "https://unsplash.com/photos/VSNoQdimlQQ"
-feature_text: "Photo by Zahrin Lukman on Unsplash"
+feature_link: https://unsplash.com/photos/VSNoQdimlQQ
+feature_text: Photo by Zahrin Lukman on Unsplash
 series:
 - Pelican for my site
 - Data and Data Tools
+keywords:
+- Pycon 8
+- Python
+- Pelican
+- Jupyter
+- Markdown
+- Notebook
+- Plugin
+- pelican-ipynb
+- Metadata
+- Markup
+- IPython
 ---
 
 Si sta avvicinando il **Pycon 8** e io ci parteciperò. Questo vuol dire che ho raccolto i soldi e sto preparando la strumentazione necessaria per quest' anno.
