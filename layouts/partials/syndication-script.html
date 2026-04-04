@@ -32,4 +32,20 @@ mastodonLinks.forEach(link => {
   }
 );
 
+const blskLinks = document.querySelectorAll('a.u-syndication[href*="bsky.app"]');
+
+blskLinks.forEach(link => {
+  const url = link.href;
+
+  // Usa una Regex per catturare la parte /@username/
+const match = url.match(/(?<=\/profile\/)[^\/]+/);
+
+// Ora puoi tranquillamente usare match[0]
+const socialTag = match ? match[0] : null;
+
+    // Aggiorna il testo del link
+  link.textContent = `@${socialTag}`;
+  }
+);
+
 </script>
