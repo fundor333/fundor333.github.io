@@ -14,16 +14,16 @@ resources:
 - title: Only Light in the Street
   src: DSCF0083-Enhanced-NR.jpg
 keywords:
-- Walking
-- photography
-- night
-- city
-- streets
-- empty
-- nighttime
-- darkness
-- silence
-- solitude
+- Nightlife
+- Photography
+- Late Night Walks
+- Empty Streets
+- Urban Exploration
+- Bar Scene
+- City Life
+- Solo Travel
+- Low Light Photography
+- Street Photography
 ---
 
 Walking after midnight near my favorite bar.

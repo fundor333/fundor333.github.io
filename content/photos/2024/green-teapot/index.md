@@ -12,16 +12,16 @@ resources:
 - title: Green Teapot
   src: DSCF0134.jpg
 keywords:
-- tea
-- teapot
+- tea cup
+- challenge
+- photography
 - smoke
 - steam
-- photography
-- challenge
 - test
 - photo
+- challenge
+- teapot
 - warm
-- steam
 ---
 
 ## Challenge

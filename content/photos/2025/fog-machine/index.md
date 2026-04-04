@@ -14,16 +14,15 @@ resources:
   src: _D0A2939.jpg
 keywords:
 - Experimental
-- fog machine
-- sword
-- special effects
-- DIY
-- creative
-- photography
-- prop
-- lighting
-- smoke
-- atmospheric
+- Fog Machine
+- Sword Fighting
+- Special Effects
+- Fantasy
+- Battle Scene
+- Visual Effects
+- Cinematography
+- Makeup Effects
+- Theater Performance
 ---
 
 ## Experimental

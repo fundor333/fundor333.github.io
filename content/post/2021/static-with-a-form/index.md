@@ -30,7 +30,22 @@ keywords:
 - serveless
 - universal
 ------2
+keywords:
+- 'Here are 10 SEO tags (relevant keywords) separated by commas:
+
+
+  static site'
+- contact form
+- backend solution
+- microservice
+- REST API
+- Captcha
+- Python Flask
+- MailGun
+- serveless
+- universal
 ---
+
 
 Sometime you need to make a contact form or something similar but you have a static site. So what do you do?
 If you have a static site you don't have a way to save data or send email with the data how do you save/elaborate the form? You need an other software.

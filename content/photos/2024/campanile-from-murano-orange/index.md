@@ -14,16 +14,16 @@ resources:
   src: DSCF0196.jpg
 keywords:
 - Venice
+- building
 - architecture
-- building design
 - Italy
-- straight lines
-- geometry
-- art
-- design
-- photography
+- straight
+- gay
 - orange
-- gay culture
+- photography
+- art
+- culture
+- travel
 ---
 
 You can't have a building in Venice straight. It always be a little not straight? A little gay ? XD

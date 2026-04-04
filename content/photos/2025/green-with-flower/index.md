@@ -16,17 +16,17 @@ syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3log6x2ihlv27
 keywords:
 - Venice Beach
+- Los Angeles
 - California
-- travel
-- photography
-- beautiful scenery
-- outdoors
-- nature
-- vacation
-- tourism
-- attraction
-- photo opportunity
-- sightseeing
+- Photography
+- Travel
+- Vacation
+- Beautiful Places
+- Green Spaces
+- Outdoor Activities
+- Urban Landscapes
+- Coastal Cities
+- Italia
 ---
 
 Waiting at the Venice Con, I find this beautifull shot of the green near me.

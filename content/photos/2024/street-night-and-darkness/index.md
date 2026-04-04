@@ -14,16 +14,17 @@ resources:
 - title: Street Night and Darkness
   src: DSCF0096.jpg
 keywords:
-- night photography
-- photography tips
-- summer night photography
-- nighttime photography
-- outdoor photography
-- evening photography
-- dark photography
-- low light photography
+- night photos
+- photography
+- summer nights
+- warm tones
 - orange tone
-- warm lighting
+- nighttime photography
+- evening photography
+- outdoor photography
+- photography techniques
+- dark skies
+- street photography
 ---
 
 More night photo because I love them and it isn't hot in the summer night.

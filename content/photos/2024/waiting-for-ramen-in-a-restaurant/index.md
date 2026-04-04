@@ -13,17 +13,16 @@ resources:
 - title: Waiting for Ramen in a Restaurant
   src: _D0A7824.jpg
 keywords:
-- Milan
-- Japan
-- Ramen
-- Street Shop
-- Food
-- Light
-- Photography
-- Travel
-- Italy
-- Japanese Cuisine
-- Restaurant
+- Ramen shops in Milan
+- Italian-Japanese cuisine
+- Japanese street shop atmosphere
+- Food lover
+- Street food
+- Milan restaurants
+- Ramen photography
+- Light sensitivity
+- Photo set
+- Italy travel
 ---
 
 This photo come out from a photo set at Milan.

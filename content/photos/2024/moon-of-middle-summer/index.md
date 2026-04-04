@@ -15,15 +15,14 @@ resources:
 keywords:
 - astronomical photography
 - night photography
-- moon photography
+- astrophotography
 - star photography
+- moon photography
+- dark sky photography
 - photography challenge
 - learn photography
 - improve photography skills
-- dark photography
-- lunar photography
-- celestial photography
-- astrophotography
+- take better photos
 ---
 
 I LOVE to walk after dark but I am not very good with the astronomical photo

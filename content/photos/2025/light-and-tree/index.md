@@ -13,16 +13,17 @@ resources:
 - title: Light and Tree
   src: DSCF0399.jpg
 keywords:
-- night photography
 - photography
-- midnights
-- landscape photography
-- light games
-- night walks
-- street photography
-- dark photography
+- night photography
 - late night photography
-- low light photography
+- midnight walk
+- photography at night
+- night time photography
+- photography in the dark
+- camera settings for nighttime photography
+- walking at night
+- nighttime landscape photography
+- night photography tips
 ---
 
 Another photo made walking around after midnight.

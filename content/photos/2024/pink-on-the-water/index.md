@@ -13,15 +13,15 @@ resources:
   src: DSCF0204.jpg
 keywords:
 - Venice
-- photography
-- beauty
+- beautiful
 - colors
 - pink
+- too much
+- sometime
 - Italy
 - travel
-- landscape
+- photography
 - cityscape
-- architecture
 ---
 
 Sometime Venice had some beautifull colors... In this one there are too much pink

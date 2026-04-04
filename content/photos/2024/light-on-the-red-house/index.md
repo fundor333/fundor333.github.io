@@ -13,17 +13,16 @@ resources:
 - title: Light on the Red House
   src: IMG_5733.jpg
 keywords:
-- night walks
-- street art
-- urban exploration
-- light installations
-- cityscape
-- nighttime photography
-- weird art
-- public spaces
-- unusual finds
-- urban discovery
-- night photography
+- Street art
+- Night photography
+- Urban exploration
+- City lights
+- Artistic installations
+- Illuminated murals
+- Weird architecture
+- Public installations
+- Contemporary art
+- Unusual landmarks
 ---
 
 A do a lot of walk at night and I love to find some strange "light works" around the city like this

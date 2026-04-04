@@ -30,7 +30,7 @@ series:
 - Hugo tricks
 syndication:
 - https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6?source=rss-48447ba4c2e
-------2
+- https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6?source=rss-48447ba4c2e------2
 ---
 
 

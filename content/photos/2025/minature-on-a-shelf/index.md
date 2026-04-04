@@ -17,7 +17,6 @@ resources:
 - title: Minature on a Shelf
   src: _D0A7928-2.jpg
 syndication:
-- https://bsky.app/profile/fundor333.bsky.social/post/3lvfnac6hrd2b
 - https://mastodon.social/@fundor333/114957983322758594
 comments:
   host: mastodon.social
@@ -25,18 +24,17 @@ comments:
   id: '114957983322758594'
 keywords:
 - Warhammer
-- Warhammer 40k
-- Warhammer Fantasy
-- Miniature Painting
-- Prop Making
-- Clubbing
-- Nightlife
-- Undead Theme
-- Dark Fantasy
-- Sci-Fi
-- Tabletop Gaming
+- fantasy
+- miniatures
+- painting
+- hobby
+- tabletop
+- gaming
+- undead
+- horror
+- theme
+- prop
 ---
-
 
 Some experiment with a natural light at a club I go with some friends.
 I love some paint work on this props and love the undead theme...

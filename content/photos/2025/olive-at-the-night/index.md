@@ -12,16 +12,17 @@ resources:
 - title: Olive at the Night
   src: IMG_5830.jpg
 keywords:
-- Olive
-- Venice
 - lap dancing
-- briccola
+- Venice
 - Italy
 - travel
 - tourism
-- Venetian culture
 - nightlife
-- adult entertainment
+- entertainment
+- culture
+- singles
+- adventure
+- exploration
 ---
 
 A single Olive find lap dancing over a "briccola" at Venice. I am sorry that in this moment I hadn't my proper camera, only my phone.

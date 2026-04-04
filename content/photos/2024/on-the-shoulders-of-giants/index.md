@@ -11,17 +11,17 @@ resources:
 - title: On the Shoulders of Giants
   src: DSCF0194.jpg
 keywords:
-- church
+- churches
+- high school
 - statues
 - architecture
-- art
-- school
-- near
-- location
-- landmark
+- weight
+- faith
+- religion
 - community
-- spirituality
-- Christianity
+- local landmark
+- nearby attraction
+- sacred space
 ---
 
 Near my highschool you can find this church.

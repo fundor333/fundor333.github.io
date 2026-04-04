@@ -14,15 +14,15 @@ syndication:
 - https://mastodon.social/@fundor333/113805974087196300
 keywords:
 - airport
+- ceiling
 - travel
-- ceilings
+- aviation
 - architecture
 - design
-- aviation
-- transport
-- terminals
-- air travel
-- airport experiences
+- art
+- inspiration
+- beauty
+- space
 ---
 
 At the airport I find this ceiling and I love it

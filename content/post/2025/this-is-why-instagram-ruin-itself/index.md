@@ -31,9 +31,9 @@ series:
 - Tech News
 syndication:
 - https://fundor333.medium.com/this-is-why-instagram-ruin-itself-5e939a3bd4c6?source=rss-48447ba4c2e
-- https://fundor333.medium.com/this-is-why-instagram-ruin-itself-5e939a3bd4c6?source=rss-48447ba4c2e
-------2
+- https://fundor333.medium.com/this-is-why-instagram-ruin-itself-5e939a3bd4c6?source=rss-48447ba4c2e------2
 ---
+
 
 Instagram is a social network based on images and more recently on short format video (TikTok style) called stories.
 But the base concept of Instagram was allways the images first and from the start Instagram' photos were squared.

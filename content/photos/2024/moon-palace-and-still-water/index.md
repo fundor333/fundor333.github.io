@@ -14,16 +14,16 @@ resources:
 - title: featured
   src: DSCF0200.jpg
 keywords:
-- city
-- night photography
-- urban exploration
-- street photography
-- night walk
-- photography tips
-- city life
-- nighttime
-- urban adventures
-- wanderlust
+- City life
+- Night photography
+- Urban exploration
+- City at night
+- Walking at night
+- Photography tips
+- Nighttime urban
+- Best way to explore
+- Explore your city
+- City walking tour
 ---
 
 Walking in your city at night is one of the best way to _fell_ your city without thinking or hurry.

@@ -21,7 +21,8 @@ syndication:
 - https://fundor333.medium.com/github-action-for-syndication-links-33d3d2703708?source=rss-48447ba4c2e
 keywords:
 - I'm happy to help! However
-- I don't see any text provided. Please paste the text you'd like me to analyze
-- and I'll be happy to provide a list of 10 relevant SEO tags for you.
+- I don't see any text provided. Could you please paste the text you'd like me to
+  analyze and generate SEO tags for? I'll be happy to assist you once I receive the
+  text.
 ------2
 ---

@@ -15,14 +15,14 @@ keywords:
 - Venice
 - Murano
 - Orange Church
-- Photography
-- Travel
-- Italy
-- Cityscape
-- Architecture
-- Church
-- Venice Tourism
-- Murano Glass
+- Orange Photo
+- Church Photo
+- Italy Tourism
+- Travel Photography
+- Venetian Landmarks
+- Murano Islands
+- Orange Color Scheme
+- Italian Architecture
 ---
 
 Another orange photo, this time about an orange church in Venice Murano.

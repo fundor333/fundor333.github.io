@@ -33,6 +33,7 @@ series:
 - Data and Data Tools
 syndication:
 - https://mastodon.social/@fundor333/115127694046646073
+- https://www.reddit.com/r/gohugo/comments/1scek11/hugo_blog_with_jupyter_notebook
 comments:
   host: mastodon.social
   username: fundor333

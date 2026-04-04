@@ -14,17 +14,16 @@ resources:
 - title: Hunting at Night in Venice
   src: _D0A7928-2.jpg
 keywords:
+- photography
 - night photography
+- experiment
 - light painting
-- photography experiment
-- black and white
-- colorful
+- artistic photography
 - nighttime photography
-- creative photography
-- photography techniques
-- art of photography
-- photography tips
+- dark photography
 - experimental photography
+- creative photography
+- black and white photography
 ---
 
 This is one of my experiments with light in the night.

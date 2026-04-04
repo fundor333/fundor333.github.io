@@ -12,16 +12,16 @@ resources:
 - title: Square of Textures
   src: IMG_6973.jpg
 keywords:
-- Ramen shops
+- Ramen
 - texture
 - wall
 - camera
-- photography
 - everywhere
-- go
-- again
-- some
-- lovely
+- shop
+- photography
+- travel
+- foodie
+- Japan
 ---
 
 Some texture on the wall of one of the ramen shop I went. A lovely wall and  I hate not having my camera and I need to start having my camera every where I go. Again.
