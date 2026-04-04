@@ -1,0 +1,35 @@
+<script>
+  // Seleziona tutti i link con classe 'u-syndication' che contengono 'reddit.com'
+const redditLinks = document.querySelectorAll('a.u-syndication[href*="reddit.com"]');
+
+redditLinks.forEach(link => {
+  const url = link.href;
+
+  // Usa una Regex per catturare la parte /r/nome_community/
+  const match = url.match(/\/r\/([^/]+)/);
+
+  if (match && match[0]) {
+    // Rimuove il primo slash se preferisci "r/community" invece di "/r/community"
+    const communityPath = match[0].substring(1);
+
+    // Aggiorna il testo del link
+    link.textContent = `${communityPath}`;
+  }
+});
+
+const mastodonLinks = document.querySelectorAll('a.u-syndication[href*="mastodon.social"]');
+
+mastodonLinks.forEach(link => {
+  const url = link.href;
+
+  // Usa una Regex per catturare la parte /@username/
+  const match = url.match(/([^\/]+\/@[^\/]+)/);
+
+  const username = match ? match[0] : null;
+
+    // Aggiorna il testo del link
+  link.textContent = `${username}`;
+  }
+);
+
+</script>

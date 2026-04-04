@@ -33,6 +33,8 @@ def _add_syndication_to_post(filepath: str, new_links: list[str], dry_run: bool 
     frontmatter_raw = match.group(1)
     body = content[match.end() :]
 
+    body = "\n" + body.lstrip("\n")
+
     frontmatter = yaml.safe_load(frontmatter_raw)
     existing = frontmatter.get("syndication", [])
 
