@@ -1,4 +1,40 @@
 <script>
+
+function formatMastodonLinks(domain) {
+  // Seleziona i link dinamicamente usando il parametro domain
+  const links = document.querySelectorAll(`a.u-syndication[href*="${domain}"]`);
+
+  links.forEach(link => {
+    const url = link.href;
+
+    // Usa una Regex per catturare la parte dominio/@username
+    const match = url.match(/([^\/]+\/@[^\/]+)/);
+
+    const username = match ? match[0] : null;
+
+    // Aggiorna il testo del link solo se è stato trovato uno username valido
+    if (username) {
+      link.textContent = username;
+    }
+  });
+}
+
+mastodon_domains = [
+  'mastodon.social',
+  'fosstodon.org',
+  'mastodon.xyz',
+  'glitch.social',
+  'framapiaf.org',
+  'eldritch.cafe',
+  'infosec.exchange',
+  'infosec.space'
+];
+
+mastodon_domains.forEach(domain => {
+  formatMastodonLinks(domain);
+});
+
+
   // Seleziona tutti i link con classe 'u-syndication' che contengono 'reddit.com'
 const redditLinks = document.querySelectorAll('a.u-syndication[href*="reddit.com"]');
 
@@ -16,21 +52,6 @@ redditLinks.forEach(link => {
     link.textContent = `${communityPath}`;
   }
 });
-
-const mastodonLinks = document.querySelectorAll('a.u-syndication[href*="mastodon.social"]');
-
-mastodonLinks.forEach(link => {
-  const url = link.href;
-
-  // Usa una Regex per catturare la parte /@username/
-  const match = url.match(/([^\/]+\/@[^\/]+)/);
-
-  const username = match ? match[0] : null;
-
-    // Aggiorna il testo del link
-  link.textContent = `${username}`;
-  }
-);
 
 const blskLinks = document.querySelectorAll('a.u-syndication[href*="bsky.app"]');
 
