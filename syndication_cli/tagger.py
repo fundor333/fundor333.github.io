@@ -4,9 +4,10 @@ from pathlib import Path
 
 import yaml
 
-sys.path.insert(0, str(Path(__file__).parent.parent / "action_script"))
+from .tag_utility import extract_clean_text, genera_tag_seo
 
-from generate_tags import extract_clean_text, genera_tag_seo
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
 
 logger = logging.getLogger(__name__)
 
@@ -51,7 +52,7 @@ def update_frontmatter_keywords(filepath: str, keywords: list[str], dry_run: boo
     return True
 
 
-def tagger(config, filepath: str | None = None, dry_run: bool = False) -> None:
+def tagger(config, filepath: str | None = None, dry_run: bool = False, force: bool = False) -> None:
     content_dir = config.site.content_dir
 
     target_files = [Path(filepath)] if filepath else list(Path(content_dir).rglob("*.md"))
@@ -59,6 +60,17 @@ def tagger(config, filepath: str | None = None, dry_run: bool = False) -> None:
     for file_path in target_files:
         if not file_path.name.startswith("index"):
             continue
+
+        if not force:
+            with Path(file_path).open("r", encoding="utf-8") as f:
+                content_check = f.read()
+            if content_check.startswith("---"):
+                parts = content_check.split("---", 2)
+                if len(parts) >= 2:
+                    frontmatter_check = yaml.safe_load(parts[1]) or {}
+                    if frontmatter_check.get("keywords"):
+                        logger.info(f"Skipping {file_path}: already has keywords")
+                        continue
 
         logger.info(f"Processing: {file_path}")
 

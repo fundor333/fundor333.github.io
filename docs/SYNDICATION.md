@@ -177,11 +177,15 @@ python -m syndication_cli tag-cmd [OPTIONS]
 - `-c, --config PATH` - Percorso file configurazione
 - `--dry-run` - Modalità simulazione
 - `-v, --verbose` - Output dettagliato
+- `-f, --force` - Processa tutti i file anche se hanno già keywords
 
 **Esempi:**
 ```bash
-# Processa tutti i post
+# Processa tutti i post (solo quelli senza keywords)
 python -m syndication_cli tag-cmd --verbose
+
+# Processa tutti i post forzando il ricalcolo delle keywords
+python -m syndication_cli tag-cmd --force --verbose
 
 # Modalità dry-run per testare
 python -m syndication_cli tag-cmd --dry-run

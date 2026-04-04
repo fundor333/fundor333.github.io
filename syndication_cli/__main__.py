@@ -151,6 +151,7 @@ def tag_cmd(
     config_path: str = typer.Option(DEFAULT_CONFIG_PATH, "--config", "-c", help="Path to config file"),
     dry_run: bool = typer.Option(DEFAULT_DRY_RUN, "--dry-run", help="Dry run mode"),
     verbose: bool = typer.Option(DEFAULT_VERBOSE, "--verbose", "-v", help="Verbose output"),
+    force: bool = typer.Option(False, "--force", "-f", help="Process all files even if they already have keywords"),
 ):
     """
     Generate SEO keywords for posts using AI and add them to frontmatter.
@@ -159,7 +160,7 @@ def tag_cmd(
     e le aggiunge al frontmatter Hugo nella sezione keywords.
     """
     config = get_config(config_path, dry_run, verbose)
-    tagger(config, filepath, config.options.dry_run)
+    tagger(config, filepath, config.options.dry_run, force)
 
 
 if __name__ == "__main__":
