@@ -7,18 +7,6 @@ comments:
   username: fundor333
 date: 2025-07-26 21:20:00+02:00
 description: Response to a response about DnD Hosting
-like: null
-preview_text_from_reply: Hi, fundor333, I’m a little late to the party, but can I
-  suggest Roll20? There’s a free version and paid options; either way, only the users
-  you allow into the party can see the content. I use it for maps and NPC sheets.
-reply: https://node.lordmatt.co.uk/2025/07/26/posts/replies/dnd-hosting/
-repost: null
-rsvp: null
-syndication:
-- https://mastodon.social/@fundor333/114921177652110791
-tags:
-- dnd
-title: Dnd Response
 keywords:
 - Roll20
 - online tabletop
@@ -31,6 +19,15 @@ keywords:
 - fantasy gaming
 - tabletop RPG
 - free games
+like: null
+reply: https://node.lordmatt.co.uk/2025/07/26/posts/replies/dnd-hosting/
+repost: null
+rsvp: null
+syndication:
+- https://mastodon.social/@fundor333/114921177652110791
+tags:
+- dnd
+title: Dnd Response
 ---
 
 Thanks for the answer. Now we are using the free tear of Roll20 but we don't have the automation or a self hosting option.

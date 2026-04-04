@@ -13,8 +13,7 @@ resources:
 - title: Near Indiana Johns Library
   src: DSCF0070.jpg
 syndication:
-- https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6?source=rss-48447ba4c2e
-- https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6?source=rss-48447ba4c2e------2
+- https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6
 keywords:
 - Indiana
 - library
@@ -29,7 +28,7 @@ keywords:
 - learning
 ---
 
----2
+
 ---
 
 Night near the Indiana Johns Library
