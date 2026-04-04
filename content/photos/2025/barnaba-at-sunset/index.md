@@ -12,6 +12,7 @@ resources:
 - title: Barnaba at Sunset
   src: DSCF0358.jpg
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lv53xcolpb2g
 - https://mastodon.social/@fundor333/114938752690189891
 comments:
   host: mastodon.social
