@@ -401,6 +401,8 @@ dependencies = [
     { name = "feedparser" },
     { name = "lxml" },
     { name = "matplotlib" },
+    { name = "ollama" },
+    { name = "pandas" },
     { name = "pillow" },
     { name = "python-dotenv" },
     { name = "python-frontmatter" },
@@ -417,7 +419,6 @@ dev = [
     { name = "jupyterlab" },
     { name = "langchain" },
     { name = "langchain-ollama" },
-    { name = "pandas" },
     { name = "pre-commit" },
 ]
 
@@ -428,13 +429,15 @@ requires-dist = [
     { name = "feedparser" },
     { name = "lxml" },
     { name = "matplotlib", specifier = ">=3.10.8" },
+    { name = "ollama", specifier = ">=0.3.0" },
+    { name = "pandas", specifier = ">=2.3.2" },
     { name = "pillow" },
     { name = "python-dotenv" },
     { name = "python-frontmatter" },
     { name = "pyyaml" },
     { name = "requests" },
     { name = "rich", specifier = ">=13.9.4" },
-    { name = "typer" },
+    { name = "typer", extras = ["all"], specifier = ">=0.15.0" },
     { name = "weeknotebot" },
 ]
 
@@ -444,7 +447,6 @@ dev = [
     { name = "jupyterlab", specifier = ">=4.4.6" },
     { name = "langchain", specifier = ">=0.3.27" },
     { name = "langchain-ollama", specifier = ">=0.3.7" },
-    { name = "pandas", specifier = ">=2.3.2" },
     { name = "pre-commit", specifier = ">=4.1.0,<5" },
 ]
 
