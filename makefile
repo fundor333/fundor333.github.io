@@ -117,3 +117,6 @@ event: ## Run event script
 	@uv run python3 micro_meetup.py
 
 eventi: event ## Run eventi script
+
+autotag: ## Run autotag script
+	@uv run python -m syndication_cli tag-cmd
