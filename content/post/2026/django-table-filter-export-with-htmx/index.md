@@ -22,13 +22,12 @@ syndication:
 - https://news.ycombinator.com/item?id=47624069
 - https://www.reddit.com/r/django/comments/1sbggko/django_table_filter_and_export_with_htmx
 - https://www.reddit.com/r/u_fundor333/comments/1sbggqb/django_table_filter_and_export_with_htmx
+- https://www.reddit.com/r/webdev/comments/1sc86ep/how_i_combine_django_table_filter_and_export_with
 comments:
   host: mastodon.social
   username: fundor333
   id: '116339412777044941'
 ---
-
-
 
 Some time ago I wrote a [blog post](<{{< relref "post/2026/htmx-django-and-django-table2.md" >}}>) about Htmx and Django-table2 and all went well...
 

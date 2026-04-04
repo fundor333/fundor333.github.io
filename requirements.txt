@@ -8,9 +8,9 @@ bleach==6.3.0
     # via fundor333-github-io
 certifi==2026.2.25
     # via requests
-charset-normalizer==3.4.6
+charset-normalizer==3.4.7
     # via requests
-click==8.3.1
+click==8.3.2
     # via
     #   typer
     #   weeknotebot
@@ -48,7 +48,7 @@ packaging==26.0
     # via
     #   marshmallow
     #   matplotlib
-pillow==12.1.1
+pillow==12.2.0
     # via
     #   fundor333-github-io
     #   matplotlib
@@ -66,12 +66,13 @@ pyyaml==6.0.3
     # via
     #   fundor333-github-io
     #   python-frontmatter
-requests==2.33.0
+requests==2.33.1
     # via
     #   fundor333-github-io
     #   weeknotebot
 rich==13.9.4
     # via
+    #   fundor333-github-io
     #   typer
     #   weeknotebot
 sgmllib3k==1.0.0

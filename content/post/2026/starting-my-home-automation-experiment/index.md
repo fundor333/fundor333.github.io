@@ -17,12 +17,13 @@ series:
 syndication:
 - https://mastodon.social/@fundor333/116318298830055707
 - https://news.ycombinator.com/item?id=47573957
+- https://www.reddit.com/r/homeassistant/comments/1sbq39k/starting_my_home_assistant_experiment
+- https://www.reddit.com/r/u_fundor333/comments/1sbq3ja/starting_my_home_assistant_experiment
 comments:
   host: mastodon.social
   username: fundor333
   id: '116318298830055707'
 ---
-
 
 And some time ago I installed the Fiber[^1] in my home and I want to use in the best way, so I start to rework all my local network and I think about adding some home automation.
 
