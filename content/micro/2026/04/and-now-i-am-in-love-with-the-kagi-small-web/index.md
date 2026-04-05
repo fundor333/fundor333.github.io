@@ -8,6 +8,7 @@ tags:
 - indieweb
 categories: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3miqn3f34472p
 - https://mastodon.social/@fundor333/116351836042493029
 comments:
   host: mastodon.social
