@@ -11,6 +11,7 @@ draft: False
 
 
 ## Suggested Reading Links/Posts
+- [Tom’s Studio #60 Pigment Black — Inkdependence](https://www.inkdependence.com/blog/toms-studio-60-pigment-black?utm_source=fundor333.com)
 - [Unpacking the Inaugual San Francisco Stationery Fest (Literally and Figuratively), Plus Save the Date for On The Paper Trail Live in Nashville! — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2026/4/4/unpacking-the-inaugual-san-francisco-stationery-fest-literally-and-figuratively?utm_source=fundor333.com)
 - [A couple of music devices — baty.net](https://baty.net/posts/2026/04/a-couple-of-music-devices/?utm_source=fundor333.com)
 - [Welcome to RSS Club! – Terence Eden’s Blog](https://shkspr.mobi/blog/2026/04/welcome-to-rss-club/?utm_source=fundor333.com)
@@ -39,10 +40,11 @@ draft: False
 - [Rubenerd: Trans Day of Visibility 2026 🏳️‍⚧️](https://rubenerd.com/trans-day-of-visibility-2026/?utm_source=fundor333.com)
 - [Rubenerd: Initial thoughts about the ThinkPad E14: wow!](https://rubenerd.com/initial-thoughts-about-the-thinkpad-e14-wow/?utm_source=fundor333.com)
 ## New post from my blog
+- [And Now I Am in Love With the Kagi Small Web](https://fundor333.com/micro/2026/04/and-now-i-am-in-love-with-the-kagi-small-web/?utm_source=fundor333.com)
+- [Week Note Nº 14/2026](https://fundor333.com/weeknotes/2026/14/?utm_source=fundor333.com)
 - [Django Table, Filter and Export With Htmx](https://fundor333.com/post/2026/django-table-filter-export-with-htmx/?utm_source=fundor333.com)
 - [And Now Java](https://fundor333.com/micro/2026/04/and-now-java/?utm_source=fundor333.com)
 - [Starting My Home Automation Experiment](https://fundor333.com/post/2026/starting-my-home-automation-experiment/?utm_source=fundor333.com)
-- [Week Note Nº 14/2026](https://fundor333.com/weeknotes/2026/14/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
