@@ -1,11 +1,27 @@
 ---
-title: "Week Note Nº 20/2025"
-date: "2025-05-18T09:00:00+01:00"
-lastmod: "2025-05-18T09:00:00+01:00"
-tags: ["week note"]
-type : "weeknote"
-summary: "Random notes for week 20 of 2025"
-draft: False
+title: Week Note Nº 20/2025
+date: '2025-05-18T09:00:00+01:00'
+lastmod: '2025-05-18T09:00:00+01:00'
+tags:
+- week note
+type: weeknote
+summary: Random notes for week 20 of 2025
+draft: false
+keywords:
+- Instagram SEO tags
+- video-social
+- ActivityPub
+- WebMention
+- syndication
+- Mastodon
+- static blog
+- Python
+- shell scripts
+- Ghost
+- home server
+- passion
+- anime
+- manga
 ---
 
 - More and more I work on my Instagram profile and more I understand that Instagram is becoming a video-social first

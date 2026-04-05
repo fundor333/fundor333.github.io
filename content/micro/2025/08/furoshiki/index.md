@@ -18,6 +18,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114955503301427085'
+keywords:
+- Furoshiki
+- Japanese food
+- bentobox
+- meal prep
+- lunch box
+- snack ideas
+- DIY wrapping
+- gift wrapping
+- creative cooking
+- bento inspiration
+- Asian cuisine
 ---
 
 

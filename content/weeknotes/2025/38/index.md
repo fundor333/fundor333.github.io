@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115241273968618461'
+keywords:
+- AWS
+- learning
+- personal project
+- reading links
+- blog posts
+- Git
+- stashes
+- anime
+- manga
+- fantasy
 ---
 
 - Learning AWS for personal project

@@ -1,17 +1,30 @@
 ---
-title: "Building My Backend"
-date: 2020-06-26T09:44:10+02:00
-
-feature_link: "https://unsplash.com/photos/fpmV3dQPUvU"
-feature_text: "Photo by Caleb Woods on Unsplash"
+title: Building My Backend
+date: 2020-06-26 09:44:10+02:00
+feature_link: https://unsplash.com/photos/fpmV3dQPUvU
+feature_text: Photo by Caleb Woods on Unsplash
 tags:
-    - django
-    - coding
-    - api
-slug: "building-my-backend"
+- django
+- coding
+- api
+slug: building-my-backend
 categories:
 - dev
-description: "Why someone need a server and how I build mine"
+description: Why someone need a server and how I build mine
+keywords:
+- 'Here are 10 relevant SEO tags:
+
+
+  Web development'
+- backend
+- server
+- cronjob
+- Feedly
+- RSS
+- Atom
+- Django
+- Nginx
+- Redis
 ---
 
 More time pass more time I need a server for my cronjob and other process.

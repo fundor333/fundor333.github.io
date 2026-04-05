@@ -19,6 +19,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115176214643942903'
+keywords:
+- Stefano Benni
+- satire
+- satira
+- politica
+- regime
+- corruzione
+- potere
+- critica sociale
+- letteratura italiana
+- autori italiani
+- Italia
 ---
 
 

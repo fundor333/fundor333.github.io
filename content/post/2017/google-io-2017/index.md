@@ -9,7 +9,21 @@ description: Sono nell'evento del GDG di Venezia a vedermi il Google IO 2017 in 
 categories:
 - rant
 aliases:
-- "/blog/google-io-2017/"
+- /blog/google-io-2017/
+keywords:
+- 'Ecco i 10 tag SEO più rilevanti estratti dal testo:
+
+
+  Google'
+- Google IO 2017
+- GDG
+- Android
+- AI
+- Cloud TPU
+- Machine Learning
+- TensorFlow
+- Google Photos
+- VR/AR
 ---
 Sono nell&rsquo;evento del GDG di Venezia a vedermi il <span class="underline">**Google IO 2017**</span> in compagnia di altri informatici e interessati.
 Questo è il resoconto dell&rsquo;evento.

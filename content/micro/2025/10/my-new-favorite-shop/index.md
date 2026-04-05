@@ -1,15 +1,25 @@
 ---
-title: "My New Favorite Shop"
-date: 2025-01-18T18:27:38+01:00
-description:
-tags:
-categories:
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+title: My New Favorite Shop
+date: 2025-01-18 18:27:38+01:00
+description: null
+tags: null
+categories: null
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
+keywords:
+- Nerd
+- Tearoom
+- Teashop
+- Manga
+- Comics
+- Nerdshop
+- Tabletop Game
+- Japanese Comics
+- Comic Book Store
+- Geeky Haven
 ---
 
 And today I find a new shop near my home.

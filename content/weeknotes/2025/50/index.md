@@ -15,6 +15,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115716898377508823'
+keywords:
+- Anime
+- Manga
+- RSS
+- Typography
+- IndieWeb
+- Terminal Emulator
+- Font
+- Guardian
+- Blogging
+- Reading
 ---
 
 

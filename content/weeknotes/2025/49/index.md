@@ -15,6 +15,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115677261356262675'
+keywords:
+- Advent of Code
+- Django
+- RSS generator
+- Techo Kaigi
+- Python
+- Anime
+- Manga
+- Fantasy
+- Action
+- Adventure
 ---
 
 - And second day... No problem for this

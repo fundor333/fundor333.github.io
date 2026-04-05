@@ -18,6 +18,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114780095389921904'
+keywords:
+- trying cooking
+- new food recipes
+- katsudon recipe
+- japanese cuisine
+- foodie adventures
+- home cooking
+- cook at home
+- culinary journey
+- cooking inspiration
+- recipe ideas
+- food discovery
 ---
 
 

@@ -14,6 +14,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115320547562309167'
+keywords:
+- Anime
+- manga
+- anime statistics
+- manga statistics
+- streaming wars
+- book review
+- game pass
+- meetup
+- hobonichi weeks
+- health tracking
+- open data.
 ---
 
 - Searcing open data for Pollin of my city

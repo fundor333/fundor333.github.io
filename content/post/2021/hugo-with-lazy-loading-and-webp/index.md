@@ -1,23 +1,34 @@
 ---
-title: "Hugo With Lazy Loading and Webp"
-date: 2021-07-27T10:00:00+02:00
-feature_link: "https://unsplash.com/photos/9Gz5bMWdGYE"
-feature_text: "Photo by Sara Julie on Unsplash"
+title: Hugo With Lazy Loading and Webp
+date: 2021-07-27 10:00:00+02:00
+feature_link: https://unsplash.com/photos/9Gz5bMWdGYE
+feature_text: Photo by Sara Julie on Unsplash
 tags:
 - blogging
 - devops
 - hugo
-slug: "Hugo-with-lazy-loading-and-webp"
+slug: Hugo-with-lazy-loading-and-webp
 categories:
 - dev
 - fingerfood
-description: "Adding Lazy load, WebP and AVIF to your Hugo"
+description: Adding Lazy load, WebP and AVIF to your Hugo
 meta:
 - webp
 - avif
 - lazy load
 series:
 - Hugo tricks
+keywords:
+- Here is the list of 10 relevant SEO tags
+- image lazy loading
+- static site generation
+- WebP images
+- AVIF images
+- Hugo page bundles
+- image rendering
+- markdown to HTML
+- image compression
+- Hugo theme customization
 ---
 
 New work and new knowledge. For having a better site/blog performance you can use _loadding="static"_ in the resources you need last and, if there are img, you can use avif and webp for faster render page time.

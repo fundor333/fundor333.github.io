@@ -10,7 +10,18 @@ tags:
 categories:
 - rant
 images: null
-keywords: null
+keywords:
+- imitation
+- sincerest
+- form
+- flattery
+- mediocrity
+- greatness
+- Oscar Wilde
+- quote
+- IndieWeb
+- microformat
+- response
 reply: https://rubenerd.com/using-re-in-blog-titles/
 repost: null
 like: null

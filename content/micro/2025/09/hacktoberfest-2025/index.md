@@ -19,6 +19,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115282383453516503'
+keywords:
+- open-source
+- hacktoberfest
+- '#hacktoberfest'
+- software development
+- coding
+- programming
+- developers
+- maintainers
+- contributions
+- community
+- collaborative
 ---
 
 

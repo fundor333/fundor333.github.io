@@ -22,6 +22,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115101286930871373'
+keywords:
+- Python
+- Data Science
+- Machine Learning
+- Big Data
+- PyData
+- Event
+- Conference
+- Venice
+- Meetup
+- Analytics
 ---
 
 

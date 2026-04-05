@@ -1,11 +1,23 @@
 ---
-title: "Week Note Nº 4/2026"
-date: "2026-01-25T09:00:00+01:00"
-lastmod: "2026-01-25T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Random notes for week 4 of 2026"
-draft: False
+title: Week Note Nº 4/2026
+date: '2026-01-25T09:00:00+01:00'
+lastmod: '2026-01-25T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Random notes for week 4 of 2026
+draft: false
+keywords:
+- Anime
+- Python
+- Django
+- Vibe Coding
+- Video Games
+- Manga
+- Reading Links
+- Posts
+- News
+- Subscriptions
 ---
 
 

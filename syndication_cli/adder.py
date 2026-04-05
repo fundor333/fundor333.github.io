@@ -33,6 +33,8 @@ def _add_syndication_to_post(filepath: str, new_links: list[str], dry_run: bool 
     frontmatter_raw = match.group(1)
     body = content[match.end() :]
 
+    body = "\n" + body.lstrip("\n")
+
     frontmatter = yaml.safe_load(frontmatter_raw)
     existing = frontmatter.get("syndication", [])
 
@@ -104,6 +106,58 @@ def _process_feed(feed_url: str, feed_name: str, config: SyndicationConfig) -> l
                     "source": source_url,
                     "syndication": " | ".join(added),
                     "feed": feed_name,
+                }
+            )
+
+    return updates
+
+
+def _process_reddit_feed(reddit_username: str, config: SyndicationConfig) -> list[dict]:
+    updates = []
+    domain = config.site.domain
+    content_dir = config.site.content_dir
+
+    logger.debug(f"Processing Reddit user: {reddit_username}")
+    url = f"https://www.reddit.com/user/{reddit_username}/.json"
+    headers = {"User-Agent": "syndication-cli/1.0"}
+    resp = requests.get(url, headers=headers, timeout=10)
+    if resp.status_code != 200:
+        logger.error(f"Failed to fetch Reddit user {reddit_username}: status {resp.status_code}")
+        return updates
+
+    try:
+        data = resp.json()
+    except json.JSONDecodeError:
+        logger.error(f"Failed to parse Reddit response for {reddit_username}")
+        return updates
+
+    children = data.get("data", {}).get("children", [])
+    if not children:
+        children = data[0].get("data", {}).get("children", []) if data else []
+
+    for child in children:
+        post = child.get("data", {})
+        post_url = post.get("url", "")
+        permalink = post.get("permalink", "")
+        reddit_link = f"https://www.reddit.com{permalink}" if permalink else ""
+
+        if not post_url or domain not in post_url:
+            continue
+
+        post_path = find_post_from_source(post_url, content_dir)
+        if not post_path:
+            logger.debug(f"Post not found for source: {post_url}")
+            continue
+
+        added = _add_syndication_to_post(post_path, [reddit_link], config.options.dry_run)
+        if added:
+            logger.info(f"Updated {post_path} from reddit")
+            updates.append(
+                {
+                    "file": post_path,
+                    "source": post_url,
+                    "syndication": " | ".join(added),
+                    "feed": "reddit",
                 }
             )
 
@@ -228,6 +282,10 @@ def add(config: SyndicationConfig) -> None:
     if feeds.medium:
         logger.info(">> Processing Medium")
         log += _process_medium_feed(feeds.medium, "medium", config)
+
+    if feeds.reddit:
+        logger.info(">> Processing Reddit")
+        log += _process_reddit_feed(feeds.reddit, config)
 
     if log:
         log_file = config.paths.log_file

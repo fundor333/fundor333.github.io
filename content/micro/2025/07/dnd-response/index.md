@@ -7,6 +7,18 @@ comments:
   username: fundor333
 date: 2025-07-26 21:20:00+02:00
 description: Response to a response about DnD Hosting
+keywords:
+- Roll20
+- online tabletop
+- virtual tabletop
+- self-hosting
+- tabletop gaming
+- automation
+- game hosting
+- digital games
+- fantasy gaming
+- tabletop RPG
+- free games
 like: null
 preview_text_from_reply: Hi, fundor333, I’m a little late to the party, but can I
   suggest Roll20? There’s a free version and paid options; either way, only the users

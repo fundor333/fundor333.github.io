@@ -8,7 +8,20 @@ tags:
 slug: tanti-auguri-nintendo
 description: Esattamente un anno fa veniva rilasciata la Nintendo Switch. Oggi, un
   anno dopo, vediamo che tipo di mercato ha coperto.
+keywords:
+- 'qui sono i 10 tag SEO:
 
+
+  Nintendo Switch'
+- Nintendo
+- console ibrida
+- videogiochi
+- indie
+- GDR
+- giochi portatili
+- schermo touch
+- batteria
+- Nintendo exclusive
 ---
 Esattamente un anno fa, il 3 Marzo 2017, usciva la _Nintendo Switch_, la prima console sia fissa che portatile che la _Nintendo_ abbia mai fatto. In quella stessa data mi è stata regalata una _Nintendo Switch_ con _Zelda Breath of the Wild_, il gioco di lancio della console, per il mio compleanno, sempre il 3 Marzo.[^1]
 

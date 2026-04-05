@@ -23,8 +23,19 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114957983322758594'
+keywords:
+- Warhammer
+- fantasy
+- miniatures
+- painting
+- hobby
+- tabletop
+- gaming
+- undead
+- horror
+- theme
+- prop
 ---
-
 
 Some experiment with a natural light at a club I go with some friends.
 I love some paint work on this props and love the undead theme...

@@ -20,6 +20,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115142947739450950'
+keywords:
+- natural language processing
+- python programming
+- llm implementation
+- machine learning models
+- ollama ai
+- natural language understanding
+- deep learning algorithms
+- artificial intelligence applications
+- text analysis techniques
+- language modeling
 ---
 
 

@@ -1,15 +1,27 @@
 ---
-title: "Green Teapot"
-date: 2024-08-22T12:57:16+02:00
+title: Green Teapot
+date: 2024-08-22 12:57:16+02:00
 phototags:
 - tea
 - teapot
 - green
-description: "Green tea pot for my black tea"
-images: ['DSCF0134.jpg']
+description: Green tea pot for my black tea
+images:
+- DSCF0134.jpg
 resources:
-- title: "Green Teapot"
-  src: 'DSCF0134.jpg'
+- title: Green Teapot
+  src: DSCF0134.jpg
+keywords:
+- tea cup
+- challenge
+- photography
+- smoke
+- steam
+- test
+- photo
+- challenge
+- teapot
+- warm
 ---
 
 ## Challenge

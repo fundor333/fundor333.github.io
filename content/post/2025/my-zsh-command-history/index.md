@@ -11,9 +11,16 @@ categories:
 - fingerfood
 images: null
 keywords:
-- bash
 - terminal
 - zsh
+- git
+- open
+- poetry
+- make
+- hugo
+- brew
+- cd
+- npm
 feature_link: https://www.midjourney.com/home/
 feature_text: by IA Midjourney
 syndication:

@@ -1,15 +1,27 @@
 ---
-title: "Uses"
+title: Uses
 type: page
 specialpost: true
 aliases:
 - /stack
 - /kit
-date: 2000-08-20T12:00:00+02:00
+date: 2000-08-20 12:00:00+02:00
 outputs:
-- 'html'
+- html
 allpage: true
 summary: My tech stuffs, from every day to work tech
+keywords:
+- hardware
+- software
+- equipment
+- photography
+- canon
+- fuji
+- vs code
+- pc setup
+- gadget
+- photo setup
+- camera
 ---
 
 Specifics about the hardware and software equipment I use for work and for my personal life.

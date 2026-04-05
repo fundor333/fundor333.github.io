@@ -2,7 +2,7 @@
 title: Pipenv and all in one tool
 slug: pipenv-e-come-tutto-e-in-uno
 date: 2017-07-01 00:00:00 +0000
-lastmod: 2025-01-18T23:10:15+01:00
+lastmod: 2025-01-18 23:10:15+01:00
 categories:
 - dev
 tags:
@@ -10,12 +10,25 @@ tags:
 - dev
 - pipenv
 aliases:
-- "/dev/pipenv-e-come-tutto-e-in-uno/"
+- /dev/pipenv-e-come-tutto-e-in-uno/
 description: Witnessing the marriage of Pipfile, Pip, and Pipenv.
-feature_link: "https://unsplash.com/photos/vYFcHzLYpmU"
-feature_text: "Photo by Max Letek on Unsplash"
+feature_link: https://unsplash.com/photos/vYFcHzLYpmU
+feature_text: Photo by Max Letek on Unsplash
 series:
 - Python's Reptile Env
+keywords:
+- Python Reptile Env
+- PipEnv
+- virtualenv
+- pip
+- requirements.txt
+- Python modules
+- Kenneth Reitz
+- Requests
+- pipfile
+- pipfile.lock
+- Python application development
+- standard for Python
 ---
 
 > ⚠️ This post is obsolete. ⚠️

@@ -13,6 +13,35 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114924184280999333'
+keywords:
+- 'SEO tags:
+
+
+  Terminal'
+- Ghostty
+- dotfile
+- notebook
+- photo
+- errors
+- HTML
+- Jekyll
+- website
+- font
+- fallbacks
+- Django
+- URL patterns
+- GitHub
+- pull request
+- fountain pen
+- ink
+- review
+- anime
+- manga
+- stats
+- fantasy
+- action
+- adventure
+- drama
 ---
 
 - Testing Ghosttly as my main terminal

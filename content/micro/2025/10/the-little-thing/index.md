@@ -11,6 +11,17 @@ rsvp: null
 bookmark: null
 syndication:
 - https://mastodon.social/@fundor333/113849100063105825
+keywords:
+- photography
+- little things
+- microblogging
+- comments
+- social media
+- online presence
+- photography hobby
+- personal experiences
+- life moments
+- free time
 ---
 
 ![little things](little_things.png)

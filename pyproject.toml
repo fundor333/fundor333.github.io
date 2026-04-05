@@ -14,11 +14,14 @@ dependencies = [
     "beautifulsoup4",
     "pyyaml",
     "lxml",
-    "typer",
+    "typer[all]>=0.15.0",
     "python-frontmatter",
     "bleach",
+    "pandas>=2.3.2",
+
     "matplotlib>=3.10.8",
     "rich>=13.9.4",
+    "ollama>=0.3.0",
 ]
 
 [project.entry-points.dotenv]
@@ -31,7 +34,6 @@ dev = [
     "jupyterlab>=4.4.6",
     "langchain>=0.3.27",
     "langchain-ollama>=0.3.7",
-    "pandas>=2.3.2",
     "pre-commit>=4.1.0,<5",
 ]
 

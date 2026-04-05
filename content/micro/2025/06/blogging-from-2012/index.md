@@ -18,6 +18,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114718632267251853'
+keywords:
+- blogging
+- blogger
+- blogging tips
+- online journal
+- personal blog
+- blog anniversary
+- decade mark
+- milestone birthday
+- retro blog
+- vintage blog
+- digital age
 ---
 
 

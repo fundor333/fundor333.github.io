@@ -13,7 +13,20 @@ categories:
 - dev
 - fingerfood
 images: null
-keywords: null
+keywords:
+- 'Here are 10 relevant SEO tags separated by commas:
+
+
+  Hugo'
+- WordPress
+- Open Graph Meta Tags
+- Blogging
+- Python
+- PIL
+- Makefile
+- Font
+- Futura Book
+- Command Line
 series:
 - Hugo tricks
 reply: null

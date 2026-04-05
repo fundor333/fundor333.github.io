@@ -12,7 +12,17 @@ tags:
 categories:
 - dev
 images: null
-keywords: null
+keywords:
+- django
+- barcode
+- qrcode
+- reportlab
+- pdf generator
+- label maker
+- inventory management
+- sticker printing
+- barcode labeling
+- qr code generator
 series:
 - Printing With ReportLab
 - Django tricks

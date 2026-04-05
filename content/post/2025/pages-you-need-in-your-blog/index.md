@@ -10,7 +10,17 @@ tags:
 categories:
 - rant
 images: null
-keywords: null
+keywords:
+- blogroll
+- blog
+- blogger
+- contacts
+- about us
+- feeds
+- rss
+- personal blog
+- dev blog
+- blogging tips
 series:
 - Indiweb, webmentions and friends
 syndication:

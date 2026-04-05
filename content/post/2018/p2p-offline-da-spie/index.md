@@ -8,7 +8,23 @@ description: Esistono altri sistemi per la condivisione p2p e quelli offline son
   particolarmente interessanti. Eccone alcuni dei più interessanti
 categories:
 - rant
-
+keywords:
+- P2P
+- Peer-to-Peer
+- Dead Drops
+- PirateBox
+- OpenSource
+- FLOSS
+- wireless
+- spionaggio
+- comunicazione offline
+- hack urbano
+- tecnologia
+- arte
+- condivisione di contenuti
+- file sharing
+- open street map
+- calibre e-book server.
 ---
 Da poco ho scoperto che nel 2006 l'agenzia Russa FSB ha accusato gli inglesi di spionaggio attraverso una roccia "_wirless_"[^1] e questo mi ha ricordato di alcuni progetti P2P che seguivo.
 

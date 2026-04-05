@@ -21,6 +21,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115154343496488056'
+keywords:
+- LLM
+- Stochastic
+- Artificial Intelligence
+- Natural Language Processing
+- Machine Learning
+- Parrot
+- Testing
+- Summer Camp
+- Venice
+- Python
+- Esc
 ---
 
 

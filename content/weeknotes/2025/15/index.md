@@ -8,6 +8,17 @@ type: weeknote
 description: Random notes for week 15 of 2025
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lnaab7fwza2t
+keywords:
+- blog post
+- feed reader
+- blogroll
+- rss feeds
+- anime
+- manga
+- fantasy
+- adventure
+- drama
+- silica gel
 ---
 
 - I read too many old blog post from my archive so this week the link section is HUGE!

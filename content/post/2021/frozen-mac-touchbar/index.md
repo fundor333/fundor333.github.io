@@ -1,21 +1,31 @@
 ---
-title: "Frozen Mac Touchbar"
-date: 2021-12-10T21:28:14+01:00
-feature_link: "https://unsplash.com/photos/4mX4kRRubIw"
-feature_text: "Photo by Sumudu Mohottige on Unsplash"
+title: Frozen Mac Touchbar
+date: 2021-12-10 21:28:14+01:00
+feature_link: https://unsplash.com/photos/4mX4kRRubIw
+feature_text: Photo by Sumudu Mohottige on Unsplash
 tags:
 - hacking
 - rant
-slug: "frozen-mac-touchbar"
+slug: frozen-mac-touchbar
 categories:
 - fingerfood
 - dev
-description: "Sometime you need to fix your frozen Mac TouchBar"
-
+description: Sometime you need to fix your frozen Mac TouchBar
 meta:
 - mac
 - repair
 - touchbar
+keywords:
+- MacBook Pro
+- touchbar not working
+- touchbar freezes
+- mac touch bar not working
+- mac touch bar freezes
+- Murphy's law
+- Spotify
+- user logout
+- restart
+- Bash command.
 ---
 
 ## The touchbar

@@ -1,17 +1,27 @@
 ---
-title: "Advance Git Config and Ssh Config"
-date: 2021-03-11T10:00:25+01:00
+title: Advance Git Config and Ssh Config
+date: 2021-03-11 10:00:25+01:00
 categories:
 - dev
-feature_link: "https://unsplash.com/photos/9PRQ44avKik"
-feature_text: "Photo by Tomáš Stanislavský on Unsplash"
+feature_link: https://unsplash.com/photos/9PRQ44avKik
+feature_text: Photo by Tomáš Stanislavský on Unsplash
 tags:
 - dotfiles
 - devops
 - git
-slug: "Advance-git-config-and-ssh-config"
-description: "My advance config for git e ssh"
-
+slug: Advance-git-config-and-ssh-config
+description: My advance config for git e ssh
+keywords:
+- dotfiles
+- ssh config
+- multiple SSH config
+- include command
+- gitconfig
+- multiple config
+- git identities
+- personal config
+- job config
+- yaml files
 ---
 
 Many and many times I update my dotfiles[^1] and rewrite part of them for keep my work config and personal config in a same repo with all the config split for usage.

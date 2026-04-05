@@ -13,18 +13,23 @@ categories:
 - dev
 images: null
 keywords:
-- gohugo
+- indieweb
 - webmention
-- blogging
-- hacking
+- syndication
+- Hugo
+- GoHugo
+- Github Actions
+- Mastodon
+- Twitter
+- Facebook
+- Medium
 series:
 - Hugo tricks
 - Indiweb, webmentions and friends
 syndication:
-- https://fundor333.medium.com/github-action-for-syndication-links-33d3d2703708?source=rss-48447ba4c2e------2
+- https://fundor333.medium.com/github-action-for-syndication-links-33d3d2703708
 - https://news.ycombinator.com/item?id=42826624
 ---
-
 
 A lot of time ago I implement the Webmention in my site following a lot of blogpost.
 

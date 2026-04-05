@@ -14,6 +14,20 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115043122432365942'
+keywords:
+- 'Here are the 10 SEO tags:
+
+
+  stationery'
+- penaddict
+- theg GentlemanStationer
+- LamySafari
+- ALStarPens
+- inkreview
+- TeranishiGuitarTaishoRomanHaikaraInnocentMauve
+- paper test
+- notebooks
+- blogging
 ---
 
 

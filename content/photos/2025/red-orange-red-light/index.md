@@ -17,6 +17,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115065743161114876'
+keywords:
+- Camera
+- photography
+- smartphone
+- mobile photography
+- camera accessories
+- phone photography
+- photography everywhere
+- photography tips
+- camera equipment
+- photography inspiration
 ---
 
 Little shot take with my phone. I hate not having my camera and I need to start having my camera every where I go.

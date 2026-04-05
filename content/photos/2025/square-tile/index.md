@@ -12,6 +12,17 @@ resources:
   src: DSCF0285.jpg
 syndication:
 - https://mastodon.social/@fundor333/113805974087196300
+keywords:
+- airport
+- ceiling
+- travel
+- aviation
+- architecture
+- design
+- art
+- inspiration
+- beauty
+- space
 ---
 
 At the airport I find this ceiling and I love it

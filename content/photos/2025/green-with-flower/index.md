@@ -14,6 +14,19 @@ resources:
   src: _D0A1901.jpg
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3log6x2ihlv27
+keywords:
+- Venice Beach
+- Los Angeles
+- California
+- Photography
+- Travel
+- Vacation
+- Beautiful Places
+- Green Spaces
+- Outdoor Activities
+- Urban Landscapes
+- Coastal Cities
+- Italia
 ---
 
 Waiting at the Venice Con, I find this beautifull shot of the green near me.

@@ -1,22 +1,32 @@
 ---
-title: "My Mirror Kernel Panicking Now"
-date: 2021-10-09T21:56:59+02:00
+title: My Mirror Kernel Panicking Now
+date: 2021-10-09 21:56:59+02:00
 draft: true
-feature_link: "https://unsplash.com/photos/MceA9kSze0U"
-feature_text: "Photo by Jorge Ramirez on Unsplash"
+feature_link: https://unsplash.com/photos/MceA9kSze0U
+feature_text: Photo by Jorge Ramirez on Unsplash
 tags:
 - rant
 - hacking
-slug: "My-mirror-kernel-panicking-now"
+slug: My-mirror-kernel-panicking-now
 categories:
 - dev
-description: "More IoT is more Kernel Panic and other errors"
-
+description: More IoT is more Kernel Panic and other errors
 meta:
 - sex toy
 - hacking
 - hacker
 - mirror
+keywords:
+- Internet of Things
+- IoT
+- hacking
+- vulnerabilities
+- connected devices
+- cybersecurity
+- security risks
+- data protection
+- smart home
+- technology news
 ---
 ## What are happening with the IoT
 

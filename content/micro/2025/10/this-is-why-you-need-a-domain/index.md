@@ -17,6 +17,17 @@ syndication:
 tags:
 - blogging
 title: This Is Why You Need a Domain
+keywords:
+- digital sovereignty
+- tiktok ban
+- musk twitter takeover
+- facebook moderation policy
+- online speech control
+- domain ownership
+- blogging platform
+- social media regulation
+- internet freedom
+- online presence management
 ---
 
 >The TikTok ban, the Musk Twitter takeover, the Facebook moderation policy changes, the Republicans’ rapidly intensifying crackdowns on speech... let these be the proof you needed to move anything you care about online to a space you control.

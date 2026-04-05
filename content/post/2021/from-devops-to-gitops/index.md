@@ -1,17 +1,16 @@
 ---
-title: "From DevOps to GitOps"
-date: 2021-10-08T12:46:23+02:00
-feature_link: "https://unsplash.com/photos/I7A_pHLcQK8"
-feature_text: "Photo by Mae Mu on Unsplash"
+title: From DevOps to GitOps
+date: 2021-10-08 12:46:23+02:00
+feature_link: https://unsplash.com/photos/I7A_pHLcQK8
+feature_text: Photo by Mae Mu on Unsplash
 tags:
 - dotfiles
 - devops
 - gitops
-slug: "From-DevOps-to-GitOps"
+slug: From-DevOps-to-GitOps
 categories:
 - dev
-description: "Why am I moving from DevOps to GitOps"
-
+description: Why am I moving from DevOps to GitOps
 meta:
 - google
 - kubernetes
@@ -20,6 +19,20 @@ meta:
 - github action
 - hacking
 - ansible
+keywords:
+- 'Here are 10 SEO tags (keywords) that can be extracted from the text:
+
+
+  Automation'
+- DevOps
+- GitOps
+- Infrastructure as Code
+- Kubernetes
+- Ansible
+- GitHub
+- GitLab
+- TravisCI
+- Continuous Delivery
 ---
 
 ## Introduction

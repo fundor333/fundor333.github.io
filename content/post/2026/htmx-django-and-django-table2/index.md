@@ -15,7 +15,20 @@ categories:
 - rant
 - dev
 images: null
-keywords: null
+keywords:
+- 'Here are 10 SEO tags (keywords) that can be relevant to this text:
+
+
+  django'
+- python
+- web development
+- automation server
+- Htmx
+- Django Table2
+- Tablib
+- MonthArchiveView
+- SingleTableMixin
+- export formats
 series:
 - Django tricks
 syndication:

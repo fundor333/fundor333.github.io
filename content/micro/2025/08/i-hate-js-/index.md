@@ -16,6 +16,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115103172456566016'
+keywords:
+- JavaScript
+- Web Scripting Language
+- DOM
+- Front-end Development
+- Better Programming Language
+- HTML
+- CSS
+- Web Development
+- Client-side Scripting
+- Scripting Technology
+- Programming Language Design
 ---
 
 

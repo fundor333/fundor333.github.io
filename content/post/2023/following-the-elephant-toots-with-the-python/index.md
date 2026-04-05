@@ -1,25 +1,34 @@
 ---
-title: "Following the Elephant's Toots With the Python"
-date: 2023-05-26T16:48:25+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Following the Elephant's Toots With the Python
+date: 2023-05-26 16:48:25+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 tags:
 - pyhton
 - mastodon
 - pyconit
-slug: "following-the-elephant-toots-with-the-python"
+slug: following-the-elephant-toots-with-the-python
 categories:
 - dev
 - fingerfood
-description: "How I follow all who Toots about PyconIt2023"
-
+description: How I follow all who Toots about PyconIt2023
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
-images:
+images: null
 keywords:
-- pyconit2023
-- pyconit
+- python
+- pycon
+- mastodon
+- toot
+- hashtag
+- twitter api
+- api pricing
+- command line
+- programming
+- coding
+- software development
+- technology
 ---
 
 At the time of the writing I am at the PyconIt 2023[^1], in Florence, and I have a problem.

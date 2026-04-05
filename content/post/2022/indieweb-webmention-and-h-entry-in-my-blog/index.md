@@ -1,21 +1,35 @@
 ---
-title: "How I implement Indieweb, Webmention and H Entry in My Blog"
-date: 2022-06-16T13:02:46+02:00
-feature_link: "https://unsplash.com/photos/en4qp-aK1h4"
-feature_text: "Photo by Mae Mu on Unsplash"
+title: How I implement Indieweb, Webmention and H Entry in My Blog
+date: 2022-06-16 13:02:46+02:00
+feature_link: https://unsplash.com/photos/en4qp-aK1h4
+feature_text: Photo by Mae Mu on Unsplash
 tags:
 - indiweb
 - webmention
 - h-entry
 - hugo
 - twtxt
-slug: "indieweb-webmention-and-h-entry-in-my-blog"
+slug: indieweb-webmention-and-h-entry-in-my-blog
 categories:
 - dev
-description: "Adding Indieweb and Webmention in my blog"
+description: Adding Indieweb and Webmention in my blog
 series:
 - Indiweb, webmentions and friends
 - Hugo tricks
+keywords:
+- 'Here are the 10 SEO tags (keywords) separated by commas:
+
+
+  blog'
+- WordPress
+- Pelican
+- Hugo
+- IndieWeb
+- Twtxt
+- Webmention
+- decentralized timeline
+- microblogging
+- POSSE
 ---
 
 ## Some history of this blog

@@ -12,9 +12,21 @@ description: Spesso e volentieri uno dei problemi dello sviluppo di software è 
 categories:
 - rant
 aliases:
-- "/blog/git-lalbero-delle-versioni/"
-feature_link: "https://unsplash.com/photos/EwKXn5CapA4"
-feature_text: "Photo by Jeremy Bishop on Unsplash"
+- /blog/git-lalbero-delle-versioni/
+feature_link: https://unsplash.com/photos/EwKXn5CapA4
+feature_text: Photo by Jeremy Bishop on Unsplash
+keywords:
+- software version control
+- Git
+- software development
+- distributed version control
+- Open Source
+- Linux Kernel
+- version controlling
+- collaborative development
+- branching
+- repository management
+- SVN
 ---
 
 Spesso e volentieri uno dei problemi dello sviluppo di software è avere

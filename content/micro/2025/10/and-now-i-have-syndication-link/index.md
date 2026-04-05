@@ -12,6 +12,17 @@ bookmark: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lgiievnrsg2t
 - https://mastodon.social/@fundor333/113883526606568559
+keywords:
+- Microblogging
+- syndication link
+- webmention
+- blogging
+- automatic syndication
+- static blog
+- blogging platform
+- content sharing
+- online publishing
+- social media integration
 ---
 
 And now I have automatic Syndication link for my static blog... This is a little success I love it

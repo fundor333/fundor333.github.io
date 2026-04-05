@@ -1,12 +1,24 @@
 ---
-title: "Week Note Nº 7/2026"
-date: "2026-02-15T09:00:00+01:00"
-lastmod: "2026-02-15T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 7 of 2026"
-description: "Personal notes for week 7 of 2026"
-draft: False
+title: Week Note Nº 7/2026
+date: '2026-02-15T09:00:00+01:00'
+lastmod: '2026-02-15T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 7 of 2026
+description: Personal notes for week 7 of 2026
+draft: false
+keywords:
+- Anime
+- manga
+- Japanese green tea
+- Lamy AL-Stars
+- Thursday Drops
+- The Gentleman Stationer
+- Peter's Tea House
+- Week Note
+- anime genres
+- manga genres
 ---
 
 - I am a new work and I love some of the work but not all

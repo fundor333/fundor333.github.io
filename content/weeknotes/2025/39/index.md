@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115280910167990587'
+keywords:
+- Anime
+- manga
+- fantasy
+- adventure
+- drama
+- action
+- comics
+- reading
+- links
+- posts
 ---
 
 

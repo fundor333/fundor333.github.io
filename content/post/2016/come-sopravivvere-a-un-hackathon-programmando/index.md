@@ -9,7 +9,19 @@ description: Sommario della mia avventura all'Hackathon eodappathon
 categories:
 - rant
 aliases:
-- "/blog/sopravivvere-un-hackathon-programmando/"
+- /blog/sopravivvere-un-hackathon-programmando/
+keywords:
+- hackathon
+- Veneto
+- programmazione
+- sviluppo software
+- team lavoro
+- tecnologia
+- riposo
+- notte
+- sonno
+- miglioramento
+- esperienza
 ---
 Esco in questi giorni da un Hackathon organizzato dalla regione Veneto
 ([qui](http://www.energic-od.eu/) info), portando a casa con la mia

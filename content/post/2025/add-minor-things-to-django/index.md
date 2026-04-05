@@ -12,7 +12,17 @@ categories:
 - dev
 - fingerfood
 images: null
-keywords: null
+keywords:
+- template
+- django
+- form
+- date field
+- input type
+- get parameters
+- link
+- pagination
+- search filter
+- activity pub
 series:
 - Django tricks
 reply: null

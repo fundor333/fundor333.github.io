@@ -19,6 +19,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115028405777753845'
+keywords:
+- AI
+- GitHub
+- Microsoft
+- open source
+- code hosting
+- Gitea
+- Mastodon
+- Federation
+- Software development
+- Collaboration
+- Programming languages
 ---
 
 And now Github will be develop by Microsoft AI Team so... Exist a software for hosting code (like Gitea) with a federation implementation (like mastodon) for users?

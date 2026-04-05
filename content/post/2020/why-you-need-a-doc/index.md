@@ -1,17 +1,29 @@
 ---
-title: "Why you need a doc"
-date: 2020-11-09T11:00:50+01:00
-
-feature_link: "https://unsplash.com/photos/8OVDzMGB_kw"
-feature_text: "Photo by Matt Ragland on Unsplash"
+title: Why you need a doc
+date: 2020-11-09 11:00:50+01:00
+feature_link: https://unsplash.com/photos/8OVDzMGB_kw
+feature_text: Photo by Matt Ragland on Unsplash
 tags:
 - coding
 - devops
-slug: "why-you-need-a-doc"
+slug: why-you-need-a-doc
 categories:
 - dev
-description: "Every project you make you understand new things so you need to write down some thing. Something like a doc"
-
+description: Every project you make you understand new things so you need to write
+  down some thing. Something like a doc
+keywords:
+- software documentation
+- documentation tools
+- paperless documentation
+- digital document
+- online pdf
+- wiki
+- software development
+- code writing
+- task management
+- markdown
+- github
+- gitlab
 ---
 
 Where you write code, an app, a mockup or a procedure you remember what you do but after 10,20,100 time you will forget one or more point. So you need to write down all.

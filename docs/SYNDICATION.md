@@ -158,6 +158,54 @@ python -m syndication_cli all-cmd [OPTIONS]
 python -m syndication_cli all-cmd --verbose
 ```
 
+### tag-cmd
+
+Genera parole chiave SEO per i post utilizzando un modello AI (llama3) e le aggiunge al frontmatter Hugo nella sezione `keywords`.
+
+```bash
+python -m syndication_cli tag-cmd [OPTIONS]
+```
+
+**Funzionalità:**
+- Elabora tutti i file `.md` nella directory `content` configurata
+- Estrae testo pulito (rimuove frontmatter, codice, link markdown, immagini)
+- Genera keyword SEO usando llama3 via Ollama
+- Aggiorna il campo `keywords` nel frontmatter Hugo
+
+**Opzioni:**
+- `filepath` - Percorso opzionale a un singolo file da processare
+- `-c, --config PATH` - Percorso file configurazione
+- `--dry-run` - Modalità simulazione
+- `-v, --verbose` - Output dettagliato
+- `-f, --force` - Processa tutti i file anche se hanno già keywords
+
+**Esempi:**
+```bash
+# Processa tutti i post (solo quelli senza keywords)
+python -m syndication_cli tag-cmd --verbose
+
+# Processa tutti i post forzando il ricalcolo delle keywords
+python -m syndication_cli tag-cmd --force --verbose
+
+# Modalità dry-run per testare
+python -m syndication_cli tag-cmd --dry-run
+
+# Processa un singolo file
+python -m syndication_cli tag-cmd content/posts/my-post/index.md --verbose
+```
+
+**Requisiti:**
+- Ollama installato locally con modello `llama3` disponibile
+- Dipendenza `ollama` installata nel progetto
+
+**Nota:** Il campo `keywords` nel frontmatter Hugo deve essere definito nell'archetipo:
+
+```yaml
+---
+keywords:
+---
+```
+
 ## Workflow GitHub Actions
 
 ### cron_webmentions.yml

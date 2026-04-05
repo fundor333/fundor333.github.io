@@ -18,7 +18,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114938752690189891'
+keywords:
+- City
+- photography
+- nighttime
+- street photography
+- urban exploration
+- color photography
+- landscape
+- adventure travel
+- cityscape
+- photo opportunities
 ---
-
 
 Sometime I walk around my city at strange hours and I catch some lovly picture with lovly colors

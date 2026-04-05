@@ -1,17 +1,28 @@
 ---
-title: "Update Brid Gy"
-date: 2025-05-20T17:29:28+02:00
-description:
+title: Update Brid Gy
+date: 2025-05-20 17:29:28+02:00
+description: null
 tags:
 - webmention
 - bridgy
-categories:
-
-reply:
-repost:
-like:
-rsvp:
-bookmark:
+categories: null
+reply: null
+repost: null
+like: null
+rsvp: null
+bookmark: null
+keywords:
+- code
+- software development
+- programming
+- new technology
+- control systems
+- post management
+- micro content
+- testing
+- innovation
+- web development
+- IT solutions
 ---
 
 Adding new code for better control [Brid.gy](https://brid.gy/) for post and micro stuffs.

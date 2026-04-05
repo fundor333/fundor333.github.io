@@ -10,15 +10,27 @@ tags:
 categories:
 - dev
 images: null
-keywords: null
+keywords:
+- 'Here are 10 SEO tags (relevant and optimized keywords) separated by commas:
+
+
+  Hugo'
+- GoHugo
+- photography
+- photo gallery
+- metadata
+- EXIF data
+- DeviantArt
+- Instagram
+- theme
+- photography blog.
 feature_link: https://www.midjourney.com/home/
 feature_text: by IA Midjourney
 series:
 - Hugo tricks
 syndication:
-- https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6?source=rss-48447ba4c2e------2
+- https://fundor333.medium.com/add-photo-page-in-your-hugo-site-6f3fbc3865e6
 ---
-
 
 A lot of time ago I was an active user of DevianArt[^1] where I share my photos.
 [^1]: A social media site for artists.  [Here](https://fundor333.deviantart.com) is my old profile

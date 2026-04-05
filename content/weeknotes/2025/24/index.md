@@ -14,6 +14,20 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114690257976586167'
+keywords:
+- 'Here are the 10 SEO tags (keywords) separated by commas:
+
+
+  Umami'
+- personal websites
+- open source software
+- pdf editing
+- robots.txt
+- IDEs
+- GitHub engineers
+- platform problems
+- web analytics
+- AI testing
 ---
 
 - Setup Umami for my personals' sites

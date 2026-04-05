@@ -12,6 +12,17 @@ repost: null
 rsvp: null
 tags: null
 title: Hugo Optimization
+keywords:
+- Whitespace Trimming
+- Html Minify
+- Optimize Code
+- Coding Practices
+- Web Development
+- Best Practices
+- Code Optimization
+- Minification
+- Compression
+- Production Ready
 ---
 
 I use a lot of them but I don't use the Whitespace Trimming because in production I have a Minify option active for the Html

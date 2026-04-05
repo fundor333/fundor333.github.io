@@ -1,16 +1,29 @@
 ---
-title: "Moon Palace and Still Water"
-date: 2024-08-19T11:56:25+02:00
+title: Moon Palace and Still Water
+date: 2024-08-19 11:56:25+02:00
 phototags:
 - venice
 - moon
 - night
 - water
-description: 'While walking sometime the moon hide behind the shadows and this is one of the photo of this type of moment'
-images: ['DSCF0200.jpg']
+description: While walking sometime the moon hide behind the shadows and this is one
+  of the photo of this type of moment
+images:
+- DSCF0200.jpg
 resources:
 - title: featured
-  src: 'DSCF0200.jpg'
+  src: DSCF0200.jpg
+keywords:
+- City life
+- Night photography
+- Urban exploration
+- City at night
+- Walking at night
+- Photography tips
+- Nighttime urban
+- Best way to explore
+- Explore your city
+- City walking tour
 ---
 
 Walking in your city at night is one of the best way to _fell_ your city without thinking or hurry.

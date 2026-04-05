@@ -1,20 +1,32 @@
 ---
-title: "Microsoft and GitHub After Some Time"
-date: 2021-08-07T14:03:16+02:00
-feature_link: "https://unsplash.com/photos/cVMaxt672ss"
-feature_text: "Photo by Liam Tucker on Unsplash"
+title: Microsoft and GitHub After Some Time
+date: 2021-08-07 14:03:16+02:00
+feature_link: https://unsplash.com/photos/cVMaxt672ss
+feature_text: Photo by Liam Tucker on Unsplash
 tags:
 - rant
-slug: "Microsoft-and-GitHub-after-some-time"
+slug: Microsoft-and-GitHub-after-some-time
 categories:
 - rant
-description: "Three years later I talk about Microsoft buying Github"
-
+description: Three years later I talk about Microsoft buying Github
 meta:
 - github
 - microsoft
 series:
 - Tech News
+keywords:
+- Microsoft
+- GitHub
+- Atom
+- Electron
+- Open Source
+- Software as a Service
+- Cloud
+- VSCode
+- Azure
+- Codespaces
+- GitServer App Federated
+- Mastodon
 ---
 
 This post is a follow up to one of my old post: [Microsoft buy Atom, Electron and Open Source]({{< ref "/post/2018/microsoft-buy-atom-electron-and-open-source" >}}).

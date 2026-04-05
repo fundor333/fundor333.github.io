@@ -13,6 +13,17 @@ syndication_urls: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lgbdrqmupm27
 - https://mastodon.social/@fundor333/113867466883978943
+keywords:
+- Winter
+- Winter weather
+- Dark days
+- Shop openings
+- Seasonal activities
+- Cold season
+- Cozy atmosphere
+- Snowy landscapes
+- Frosty mornings
+- Holiday seasons
 ---
 
 Dark Early and all the shop open with light all over. I LOVE winter

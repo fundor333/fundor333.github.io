@@ -18,7 +18,17 @@ categories:
 - dev
 - fingerfood
 images: null
-keywords: null
+keywords:
+- python
+- virtualenv
+- poetry
+- pipenv
+- uv
+- rust
+- python project
+- dev space
+- makefile
+- pre-commit
 series:
 - Python's Reptile Env
 syndication:

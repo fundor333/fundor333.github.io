@@ -14,6 +14,20 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114726003982488236'
+keywords:
+- 'Here are the 10 SEO tags (keywords) extracted from the text:
+
+
+  blogging'
+- hugo theme
+- mastodon support
+- syndication
+- adn
+- django
+- fediverse
+- ai coding
+- markdown presentation
+- webmention
 ---
 
 

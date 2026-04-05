@@ -14,6 +14,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114690258752401420'
+keywords:
+- Videoediting
+- Atom feed
+- RSS feed
+- Jsonfeed
+- Ghost Blog
+- Hugo instance
+- UUID
+- Raspberry Pi
+- Kobo eReader
+- Obsidian
+- SSH
 ---
 
 - Making some videoediting for a friend

@@ -18,6 +18,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114732925015070222'
+keywords:
+- LaTeX
+- TeX
+- Document Preparation System
+- Typesetting Software
+- Digital Typography
+- Computer-Aided Layout
+- Text Processing
+- Page Description Language
+- Markup Language
+- Formatting Tools.
 ---
 
 

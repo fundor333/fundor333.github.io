@@ -1,18 +1,38 @@
 ---
-title: "Adding Progress Bar in Python"
-date: 2020-11-30T13:24:20+01:00
-
-feature_link: "https://unsplash.com/photos/BKfsCuFQ5R8"
-feature_text: "Photo by Najib Kalil on Unsplash"
+title: Adding Progress Bar in Python
+date: 2020-11-30 13:24:20+01:00
+feature_link: https://unsplash.com/photos/BKfsCuFQ5R8
+feature_text: Photo by Najib Kalil on Unsplash
 tags:
 - python
 - coding
 - devops
-slug: "Adding Progress Bar in Python"
+slug: Adding Progress Bar in Python
 categories:
 - dev
-description: "Sometime you need to add a Progress Bar to your script and this is how"
-
+description: Sometime you need to add a Progress Bar to your script and this is how
+keywords:
+- python
+- progress bar
+- progress reporting
+- python packages
+- programming
+- script
+- task
+- output
+- configuration
+- package
+- example code
+- iterator
+- custom widgets
+- timer
+- ETA
+- documentation
+- installation
+- customization
+- iteration display
+- fancy progress bar
+- animation
 ---
 
 Sometime you need to make a script or a program with some task and show to the user you are doing something so you need to write something as output: a Progress Bar.

@@ -1,15 +1,30 @@
 ---
-title: "Mew and programming"
+title: Mew and programming
 date: 2019-12-28 15:00:00 +0000
-feature_link: "https://unsplash.com/photos/Sb2FkPFiadg"
-feature_text: "Photo by Ryan Quintal on Unsplash"
+feature_link: https://unsplash.com/photos/Sb2FkPFiadg
+feature_text: Photo by Ryan Quintal on Unsplash
 tags:
-    - rant
-    - coding
+- rant
+- coding
 categories:
-    - dev
+- dev
 slug: mew-and-programming
 description: Why you can find a Mew under a truck on Pokemon Blue, Red and Green
+keywords:
+- 'Here are 10 relevant SEO tags (keywords) separated by commas:
+
+
+  Mew'
+- Pokémon Red/Blue
+- GameShark
+- Nintendo event
+- glitch
+- memory slot
+- loading
+- address
+- editing
+- Pokémon with Surf and Strength
+- HM01 Cut
 ---
 
 This is a story about a myth about how to find Mew[^1].

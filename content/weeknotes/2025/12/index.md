@@ -8,6 +8,17 @@ type: weeknote
 description: Random notes for week 12 of 2025
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lllfaqwwiy2t
+keywords:
+- Weekly Notes
+- blogging
+- Flatpak
+- Linux
+- Monster Hunter Wild
+- videogames
+- tecnology
+- dystopia
+- calligraph coffee
+- Python
 ---
 
 And I start doing the Weekly Note.

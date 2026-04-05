@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115558370501229047'
+keywords:
+- Anime
+- reading
+- manga
+- steam machine
+- Jeff Tweedy
+- brain baking
+- blog
+- newsletter
+- support
+- currently reading
 ---
 
 

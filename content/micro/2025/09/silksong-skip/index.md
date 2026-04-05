@@ -19,6 +19,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115181761041118507'
+keywords:
+- Game Development
+- Boss Fight
+- Level Skip
+- Walkthrough Guide
+- Video Games
+- Gaming Tips
+- Online Multiplayer
+- Game Mechanics
+- Player Strategy
+- Challenge Mode
 ---
 
 

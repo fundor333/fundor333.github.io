@@ -9,11 +9,22 @@ description: How to use parentesies in coding
 categories:
 - rant
 aliases:
-- "/blog/orrori-delle-parentesi/"
-feature_link: "https://unsplash.com/photos/XMpXzzWrJ6g"
-feature_text: "Photo by Annie Spratt on Unsplash"
+- /blog/orrori-delle-parentesi/
+feature_link: https://unsplash.com/photos/XMpXzzWrJ6g
+feature_text: Photo by Annie Spratt on Unsplash
 series:
 - Horror stories
+keywords:
+- Coding
+- coding conventions
+- coding best practices
+- bracket styles
+- programming
+- software development
+- coding standards
+- code readability
+- maintainable code
+- coder karma
 ---
 (°,,,°)
 

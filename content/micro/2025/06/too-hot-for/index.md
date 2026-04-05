@@ -18,6 +18,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114740379555772066'
+keywords:
+- temperatura alta
+- tempo caldo
+- estati
+- notizie
+- inverno
+- temperatura ambiente
+- clima caldo
+- stagioni
+- calore
+- meteo
 ---
 
 

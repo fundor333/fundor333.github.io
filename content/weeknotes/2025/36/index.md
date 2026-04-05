@@ -14,6 +14,23 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115162002739971282'
+keywords:
+- AI
+- LLM
+- Ollama
+- Python
+- Jupyter Notebook
+- Hugo Blog
+- dataset summary
+- Silksong
+- Esc Summer Camp
+- anime
+- manga
+- data analysis
+- machine learning
+- optimization
+- coding
+- programming.
 ---
 
 - Some fix for the code of my blog for some optimization and a lower generating time

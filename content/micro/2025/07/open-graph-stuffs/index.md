@@ -13,6 +13,17 @@ rsvp: null
 tags:
 - Open graph
 title: Open Graph Stuffs
+keywords:
+- Featured images
+- WordPress
+- customization
+- post types
+- content creation
+- blogging
+- website development
+- coding
+- script optimization
+- search engine optimization.
 ---
 
 For some post type I generate the featured image with a script, so If I don't have a specific image for the post I have something custom for this specific type of post

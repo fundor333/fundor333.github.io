@@ -14,6 +14,17 @@ tags:
 - dnd
 - self-hosting
 title: Response to Response Dnd
+keywords:
+- Dungeons Dragons
+- online tools
+- tabletop gaming
+- game testing
+- DnD community
+- roleplaying games
+- tabletop RPGs
+- digital tools
+- game design
+- fantasy gaming
 ---
 
 Thanks, I will testing it and I will share something if is a good thing for my dnd group

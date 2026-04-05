@@ -1,18 +1,29 @@
 ---
-title: "Good Developer Must Be Blogger"
-date: 2020-08-01T15:15:00+02:00
-
-feature_link: "https://unsplash.com/photos/-94oJK3PDQw"
-feature_text: "Photo by David Klein on Unsplash"
+title: Good Developer Must Be Blogger
+date: 2020-08-01 15:15:00+02:00
+feature_link: https://unsplash.com/photos/-94oJK3PDQw
+feature_text: Photo by David Klein on Unsplash
 tags:
 - rant
-slug: "good-developer-must-be-blogger"
+slug: good-developer-must-be-blogger
 categories:
 - dev
 - rant
-description: "For be a good programmer you need to be a blogger and write regulary"
+description: For be a good programmer you need to be a blogger and write regulary
 series:
-- "A dev need a blog"
+- A dev need a blog
+keywords:
+- Programming
+- Good programmer
+- Blogging
+- Software development
+- Personal documentation
+- Knowledge sharing
+- Learning
+- Self-improvement
+- Research
+- Programming skills
+- Career growth
 ---
 
 I find the way to become a good programmer:

@@ -14,12 +14,26 @@ tags:
 categories:
 - dev
 images: null
-keywords: null
+keywords:
+- 'Here are 10 SEO tags (relevant keywords) separated by commas:
+
+
+  Jupyter Notebook'
+- Pelican
+- Hugo
+- static site generator
+- Markdown file
+- Python module
+- metadata
+- CSS editing
+- deep anchor links
+- Mastodon
 series:
 - Hugo tricks
 - Data and Data Tools
 syndication:
 - https://mastodon.social/@fundor333/115127694046646073
+- https://www.reddit.com/r/gohugo/comments/1scek11/hugo_blog_with_jupyter_notebook
 comments:
   host: mastodon.social
   username: fundor333

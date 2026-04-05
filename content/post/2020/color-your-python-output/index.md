@@ -1,18 +1,31 @@
 ---
-title: "Color Your Python Output"
-date: 2020-09-10T21:06:21+02:00
-
-feature_link: "https://unsplash.com/photos/GQD3Av_9A88"
-feature_text: "Photo by Scott Webb on Unsplash"
+title: Color Your Python Output
+date: 2020-09-10 21:06:21+02:00
+feature_link: https://unsplash.com/photos/GQD3Av_9A88
+feature_text: Photo by Scott Webb on Unsplash
 tags:
 - coding
 - devops
-slug: "color-your-python-output"
+slug: color-your-python-output
 categories:
 - fingerfood
 - dev
-description: "Sometime you need to make your output more readible adding color to the terminal"
-
+description: Sometime you need to make your output more readible adding color to the
+  terminal
+keywords:
+- terminale
+- escape code
+- ANSI character set
+- cursor location
+- color
+- text style
+- terminal emulators
+- console support
+- ASCI escape code
+- colored printer
+- logger
+- python default logger
+- wikipedia page
 ---
 
 Sometime you need to output error and other stuff in the same terminal.

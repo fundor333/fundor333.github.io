@@ -1,24 +1,36 @@
 ---
-title: "Message and Allert With Django and Boostrap"
-date: 2022-05-02T12:21:50+02:00
-feature_link: "https://unsplash.com/photos/M7NajHCqZDM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
-feature_text: "Photo by Anita Jankovic on Unsplash"
+title: Message and Allert With Django and Boostrap
+date: 2022-05-02 12:21:50+02:00
+feature_link: https://unsplash.com/photos/M7NajHCqZDM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+feature_text: Photo by Anita Jankovic on Unsplash
 tags:
 - django
 - coding
 - boostrap
-slug: "message-and-allert-with-django-and-boostrap"
+slug: message-and-allert-with-django-and-boostrap
 categories:
 - dev
 - fingerfood
-description: "How to use Django messages with Boostrap5"
-
+description: How to use Django messages with Boostrap5
 meta:
 - message
 - allert
 series:
 - Django tricks
+keywords:
+- 'Here are the 10 SEO tags:
 
+
+  Django'
+- messages
+- Bootstrap
+- alert
+- popup
+- GUI message
+- user interaction
+- Django project
+- settings.py
+- template
 ---
 
 Sometime you need to send an allert/message from your Django project to the user, like a popup or a gui message for an user interaction ("Sent the mail", "Done the task", ...) and you want to make it with style (Boostrap in this case).

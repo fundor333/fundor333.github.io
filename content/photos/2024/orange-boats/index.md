@@ -1,15 +1,27 @@
 ---
-title: "Orange Boats"
-date: 2024-08-18T13:25:25+02:00
+title: Orange Boats
+date: 2024-08-18 13:25:25+02:00
 phototags:
 - venice
 - boat
 - orange
-description: "Sun set on orange boats and orange houses"
-images: ['DSCF0154.jpg']
+description: Sun set on orange boats and orange houses
+images:
+- DSCF0154.jpg
 resources:
 - title: featured
-  src: 'DSCF0154.jpg'
+  src: DSCF0154.jpg
+keywords:
+- City
+- walking
+- photography
+- strange
+- urban
+- landscape
+- composition
+- orange
+- streets
+- everyday
 ---
 
 Walking in my city sometime I find something "strange" like this all orange composion

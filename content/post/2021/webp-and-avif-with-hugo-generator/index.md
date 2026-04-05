@@ -1,16 +1,16 @@
 ---
-title: "WebP and Avif With Hugo's Static Site Generator"
-date: 2021-11-04T09:02:45+01:00
-feature_link: "https://unsplash.com/photos/eO11kAf7G7U"
-feature_text: "Photo by ikhsana baihaqi on Unsplash"
+title: WebP and Avif With Hugo's Static Site Generator
+date: 2021-11-04 09:02:45+01:00
+feature_link: https://unsplash.com/photos/eO11kAf7G7U
+feature_text: Photo by ikhsana baihaqi on Unsplash
 tags:
 - hugo
 - devops
-slug: "WebP-and-Avif-with-Hugo-generator"
+slug: WebP-and-Avif-with-Hugo-generator
 categories:
 - fingerfood
 - dev
-description: "Generate WebP and AVIF with Hugo"
+description: Generate WebP and AVIF with Hugo
 meta:
 - webp
 - avif
@@ -18,6 +18,20 @@ meta:
 - microformat
 series:
 - Hugo tricks
+keywords:
+- 'Here are 10 SEO tags (relevant keywords) separated by commas:
+
+
+  Hugo'
+- WebP
+- AVIF
+- lazy loading
+- image optimization
+- responsive images
+- markdown render hook
+- image processing
+- img tag
+- picture tag
 ---
 
 ## In the last episode

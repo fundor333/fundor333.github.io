@@ -1,8 +1,8 @@
 ---
-title: "Buzzwords buzzwords"
+title: Buzzwords buzzwords
 date: 2019-06-17 10:00:00 +0000
-feature_link: "https://unsplash.com/photos/GkinCd2enIY"
-feature_text: "Photo by Raphael Schaller on Unsplash"
+feature_link: https://unsplash.com/photos/GkinCd2enIY
+feature_text: Photo by Raphael Schaller on Unsplash
 tags:
 - coding
 - rant
@@ -13,6 +13,17 @@ slug: buzzwords-buzzwords
 description: Un rant sulle buzzwords
 series:
 - Horror stories
+keywords:
+- buzzword
+- tecnologia
+- progetti
+- IT
+- programmazione
+- sviluppo software
+- implementazione
+- gestione dei progetti
+- tecnici
+- comunicazione efficace
 ---
 
 Questo non è un post normale. E non tratto di programmazione ma di un problema molto grosso che affligge me e altri tecnici: le _buzzword_. Questo articolo, se letto nel mio blog con i JavaScript attivi farà in modo di mostrare alcune _buzzword_ sotto forma di termini tipo {{< buzzword >}}.

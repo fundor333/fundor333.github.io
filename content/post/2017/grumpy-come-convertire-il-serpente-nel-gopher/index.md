@@ -8,8 +8,22 @@ slug: grumpy-come-convertire-il-serpente-nel-gopher
 description: Cos'è Grumpy e come la penso su questo progetto di Google e le sue conseguenze
 categories:
 - rant
-feature_link: "https://unsplash.com/photos/ICW6QYOcdlg"
-feature_text: "Photo by Marius Masalar on Unsplash"
+feature_link: https://unsplash.com/photos/ICW6QYOcdlg
+feature_text: Photo by Marius Masalar on Unsplash
+keywords:
+- 'Here are the 10 SEO tags (relevant keywords) separated by commas:
+
+
+  Python'
+- GoLang
+- Grumpy
+- source-to-source compiler
+- Python 2.7.x
+- legacy code
+- Google
+- YouTube
+- Talk Python podcast
+- software optimization
 ---
 Io sono un pythonista che cerca di rimanere informato di quello che succede nel mondo di Python e quello che fanno alcune aziende particolarmente grosse o di mio interesse.
 

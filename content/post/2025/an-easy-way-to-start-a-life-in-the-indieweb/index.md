@@ -10,7 +10,18 @@ tags:
 categories:
 - dev
 images: null
-keywords: null
+keywords:
+- IndieWeb
+- Indieweb tutorial
+- Indieweb definition
+- personal websites
+- open standards
+- online identity
+- content ownership
+- domain ownership
+- web of interconnected people
+- social internet
+- peer-to-peer networking
 series:
 - Indiweb, webmentions and friends
 mp-syndicate-to:

@@ -15,6 +15,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115597988076114199'
+keywords:
+- Anime
+- manga
+- reading
+- suggested links
+- stationery
+- pen show
+- Tokyo
+- blog
+- newsletter
+- support
 ---
 
 

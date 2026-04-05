@@ -1,18 +1,29 @@
 ---
-title: "Make a Tea Not Big Data"
-date: 2020-01-20T00:00:00+00:00
-
-feature_link: "https://unsplash.com/photos/SSj5qtnrpj0"
-feature_text: "Photo by 五玄土 ORIENTO on Unsplash"
+title: Make a Tea Not Big Data
+date: 2020-01-20 00:00:00+00:00
+feature_link: https://unsplash.com/photos/SSj5qtnrpj0
+feature_text: Photo by 五玄土 ORIENTO on Unsplash
 tags:
-    - data
-    - rant
-slug: "make-tea-not-big-data"
+- data
+- rant
+slug: make-tea-not-big-data
 categories:
-    - rant
-description: "A rant about workspace and data managment with tea"
+- rant
+description: A rant about workspace and data managment with tea
 series:
 - Horror stories
+keywords:
+- big data
+- data analysis
+- excel file
+- industrial tea
+- tea review
+- data management
+- software development
+- custom app
+- generic db
+- web application
+- database management
 ---
 
 # The story

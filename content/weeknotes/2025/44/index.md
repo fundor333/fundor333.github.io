@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115479120966431831'
+keywords:
+- Anime
+- manga
+- weekly note
+- blog post
+- anime stats
+- manga stats
+- anime genres
+- manga genres
+- fantasy
+- drama
 ---
 
 

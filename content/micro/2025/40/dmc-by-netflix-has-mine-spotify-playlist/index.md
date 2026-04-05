@@ -14,6 +14,17 @@ bookmark: null
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lmqd6ps3262g
 - https://mastodon.social/@fundor333/114333414700932047
+keywords:
+- Devil May Cry soundtrack
+- Netflix series
+- TV show music
+- soundtrack playlist
+- Spotify
+- lo-fi hip hop
+- video game music
+- anime inspired
+- Japanese influence
+- relaxing beats
 ---
 
 I finish Devil May Cry (the tv serie by Netflix) and I find the soundtrack lovely before find I have all the song in my day to day playlist on Spotify... All the songs...

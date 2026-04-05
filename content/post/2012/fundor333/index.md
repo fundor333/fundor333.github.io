@@ -1,15 +1,25 @@
 ---
-title: "Fundor333"
-date: 2012-08-20T12:00:00+02:00
-feature_link: ""
-feature_text: ""
-tags:
-slug: "Fundor333"
+title: Fundor333
+date: 2012-08-20 12:00:00+02:00
+feature_link: ''
+feature_text: ''
+tags: null
+slug: Fundor333
 categories:
 - rant
-description: "Primo post"
-
-meta:
+description: Primo post
+meta: null
+keywords:
+- Informatica
+- nerd
+- studente
+- informazione
+- computer
+- tecnologia
+- indie games
+- cryptography
+- programming
+- gatto
 ---
 
 Studente di informatica, nerd e maschio. Non del tutto convinto di quello che faccio scrivo per essere ascoltato e parlo per scrivere.

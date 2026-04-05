@@ -13,6 +13,20 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115082729781062174'
+keywords:
+- 'Here are the 10 SEO tags (relevant keywords) separated by commas:
+
+
+  Fountain pens'
+- new users
+- link sharing
+- rel="share-url"
+- pen collection
+- pen addict
+- blogging with hugo
+- multi pen versatility
+- anime stats
+- manga stats
 ---
 
 - To hot for doing anything and after that to much storm here

@@ -14,6 +14,18 @@ syndication_urls:
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lg77j4tamc2t
 - https://mastodon.social/@fundor333/113862648242036521
+keywords:
+- microblogging
+- gohugo
+- mastodon
+- microformat
+- syndication links
+- search engine optimization
+- SEO
+- blogging
+- online publishing
+- web syndication
+- social media
 ---
 
 And now I searching a way to take my toots and find all my syndication link for my blog

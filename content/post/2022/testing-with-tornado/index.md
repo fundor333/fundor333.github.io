@@ -1,22 +1,34 @@
 ---
-title: "Testing With Tornado"
-date: 2022-09-18T13:00:16+02:00
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+title: Testing With Tornado
+date: 2022-09-18 13:00:16+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
 tags:
 - python
 - tornado
 - testing
 - tox
-slug: "testing-with-tornado"
+slug: testing-with-tornado
 categories:
 - dev
 - fingerfood
-description: "How to test a Tornado application"
-
+description: How to test a Tornado application
 mp-syndicate-to:
 - https://brid.gy/publish/twitter
 - https://brid.gy/publish/mastodon
+keywords:
+- python
+- tornado
+- web development
+- testing
+- unittest
+- pytest
+- pyproject.toml
+- Tornado application
+- HTTP requests
+- async testing
+- framework testing
+- development tools
 ---
 
 It is some time I start working with Tornado, and I have to say that I really like it. It is a very powerful framework, and it is very easy to use. But, as any other framework, it has its own way to do things, and it is not always easy to find the right way to do things. One of the things that I found difficult to find was how to test a Tornado application. I found a lot of examples, but they were not very clear, and I had to do a lot of research to find the right way to do it. In this post, I will try to explain how to test a Tornado application.

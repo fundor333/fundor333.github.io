@@ -11,7 +11,20 @@ tags:
 categories:
 - rant
 images: null
-keywords: null
+keywords:
+- 'Here are the 10 SEO tags:
+
+
+  webring'
+- web ring
+- online communities
+- search engine optimization
+- internet history
+- social media
+- link sharing
+- website promotion
+- human-generated content
+- AI-free posts
 series:
 - Tech News
 - Indiweb, webmentions and friends

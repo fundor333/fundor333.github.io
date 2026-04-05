@@ -13,6 +13,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '115122360761125987'
+keywords:
+- Jupyter Notebook
+- PyDataVe
+- data analysis
+- Klib
+- Hexploration Kit
+- Django views
+- Obsidian
+- Typepad
+- Pagecord
+- Grindification
+- Hobbies
 ---
 
 - New post on my blog because I am restart playing with Jupyter Notebook

@@ -18,6 +18,21 @@ series:
 - Django tricks
 syndication:
 - https://mastodon.social/@fundor333/114523473282741682
+keywords:
+- Here are 10 relevant SEO tags
+- 'separated by commas:
+
+
+  Django'
+- QRcode
+- Barcode
+- HTML5-QRcode
+- JavaScript
+- Python
+- Perl
+- AI-powered BarCode reader
+- mobile scanning
+- client-side coding
 ---
 For work I need to implement a strange usercase: I need to have a form with QRCode and BarCode input.
 

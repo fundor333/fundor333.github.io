@@ -16,6 +16,17 @@ repost: null
 rsvp: null
 tags: null
 title: Too Many Rss Items
+keywords:
+- blog mistakes
+- feed errors
+- blogging blunders
+- optimization issues
+- search engine problems
+- SEO mistakes
+- website errors
+- online blunders
+- digital mistakes
+- feed management
 ---
 
 I am not the only one who fuck up the feed of a blog

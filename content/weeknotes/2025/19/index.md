@@ -1,11 +1,31 @@
 ---
-title: "Week Note Nº 19/2025"
-date: "2025-05-11T09:00:00+01:00"
-lastmod: "2025-05-11T09:00:00+01:00"
-tags: ["week note"]
-type : "weeknote"
-summary: "Random notes for week 19 of 2025"
-draft: False
+title: Week Note Nº 19/2025
+date: '2025-05-11T09:00:00+01:00'
+lastmod: '2025-05-11T09:00:00+01:00'
+tags:
+- week note
+type: weeknote
+summary: Random notes for week 19 of 2025
+draft: false
+keywords:
+- venezia
+- comics
+- photo editing
+- personal server
+- barcode
+- csv
+- laber
+- japan
+- '2025'
+- ikebukuro
+- akiba
+- kinshicho
+- fosstodon
+- activitypub
+- python
+- django
+- github
+- action
 ---
 
 - And after taking a lot of photo at VeneziaComics, I start editing them. I love some of this take

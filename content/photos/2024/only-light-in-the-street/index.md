@@ -1,16 +1,29 @@
 ---
-title: "Only Light in the Street"
-date: 2024-08-25T12:42:25+02:00
+title: Only Light in the Street
+date: 2024-08-25 12:42:25+02:00
 phototags:
 - light
 - night
 - city
 - venice
-description: "Street of Venice by Night (and by Light) with only light and no one to be seen"
-images: ['DSCF0083-Enhanced-NR.jpg']
+description: Street of Venice by Night (and by Light) with only light and no one to
+  be seen
+images:
+- DSCF0083-Enhanced-NR.jpg
 resources:
-- title: "Only Light in the Street"
-  src: 'DSCF0083-Enhanced-NR.jpg'
+- title: Only Light in the Street
+  src: DSCF0083-Enhanced-NR.jpg
+keywords:
+- Nightlife
+- Photography
+- Late Night Walks
+- Empty Streets
+- Urban Exploration
+- Bar Scene
+- City Life
+- Solo Travel
+- Low Light Photography
+- Street Photography
 ---
 
 Walking after midnight near my favorite bar.

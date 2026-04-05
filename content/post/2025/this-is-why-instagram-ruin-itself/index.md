@@ -10,16 +10,27 @@ categories:
 - rant
 images: null
 keywords:
-- meta
-- photo
-- social network
+- 'Here are 10 SEO tags (relevant keywords) separated by commas:
+
+
+  Instagram'
+- social media
+- image sharing
+- video format
+- TikTok
+- profile grid
+- square images
+- photo editing
+- community notes
+- fact checking
+- social networking
+- online presence.
 feature_link: https://www.midjourney.com/home/
 feature_text: by IA Midjourney
 series:
 - Tech News
 syndication:
-- https://fundor333.medium.com/this-is-why-instagram-ruin-itself-5e939a3bd4c6?source=rss-48447ba4c2e
-- https://fundor333.medium.com/this-is-why-instagram-ruin-itself-5e939a3bd4c6?source=rss-48447ba4c2e------2
+- https://fundor333.medium.com/this-is-why-instagram-ruin-itself-5e939a3bd4c6
 ---
 
 Instagram is a social network based on images and more recently on short format video (TikTok style) called stories.

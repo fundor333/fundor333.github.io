@@ -21,6 +21,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114706717381042758'
+keywords:
+- Pocket
+- Django app
+- personal Pocket
+- Shiori
+- PikaPods
+- software
+- coding
+- developer
+- alternative
+- bookmarking
 ---
 
 

@@ -9,6 +9,27 @@ description: Random notes for week 17 of 2025
 draft: false
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3lns5ipgum22g
+keywords:
+- 'SEO tags:
+
+
+  DnD'
+- Markdown
+- CSS
+- Lamy
+- Petroil
+- Pen
+- Feedreader
+- Anilist
+- Japan2025
+- Nagoya
+- Castle
+- Palace
+- iOS
+- MacRumors
+- Blogroll
+- SEO
+- Google
 ---
 
 - Now I save content of the post I saved into Markdown. The way I do it is some of the worsted spaghetti code I done

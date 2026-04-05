@@ -10,10 +10,28 @@ categories:
 - dev
 slug: django-rest-framework-multiple-post
 description: How to make a massive put with Django Rest Framework
-feature_link: "https://unsplash.com/photos/8QYjpgFdiLU"
-feature_text: "Photo by Kevin Canlas on Unsplash"
+feature_link: https://unsplash.com/photos/8QYjpgFdiLU
+feature_text: Photo by Kevin Canlas on Unsplash
 series:
 - Django tricks
+keywords:
+- django rest framework
+- massive put
+- django rest framework tutorial
+- standard django rest framework
+- rest endpoint
+- python
+- django
+- rest
+- model serializer
+- api view
+- get and post request
+- data processing
+- unique id
+- instance creation
+- error handling
+- response status code
+- 200 ok
 ---
 I need to have a massive **put** in my rest endpoint and Django Rest Framework doesn't do it. So I make my personal method for mycase.
 

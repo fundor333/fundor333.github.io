@@ -20,6 +20,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '114930692633336698'
+keywords:
+- web development
+- coding
+- ghost
+- catppuccin
+- matcha
+- color palette
+- design
+- technology
+- programming
+- software
+- development tools
 ---
 
 
