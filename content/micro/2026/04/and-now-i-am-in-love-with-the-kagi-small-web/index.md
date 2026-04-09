@@ -14,6 +14,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '116351836042493029'
+keywords:
+- blog
+- selection
+- kagi
+- small
+- web
+- ago
+- sometime
+- love
+- discover
+- optimize
 ---
 
 And some day ago I find that I am in the [Kagi Small Web](https://kagi.com/smallweb) and I love the blog selection
