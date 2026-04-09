@@ -16,10 +16,6 @@ categories:
 - dev
 images: null
 keywords:
-- 'Here are 10 SEO tags (keywords) that can be relevant to this text:
-
-
-  django'
 - python
 - web development
 - automation server
@@ -70,7 +66,7 @@ For this project I used:
 So I start with the code for the model. It need to have a DateTimeField or a DateField (this becose I want to have an MonthArchiveView view).
 
 
-~~~ python >
+~~~ python
 # blog/model.py
 
 class Post(models.Model):
