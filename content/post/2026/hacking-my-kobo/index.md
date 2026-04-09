@@ -59,14 +59,33 @@ Searching for the wiki page for starting/installing I found some tread about the
 
 If you have doubt, here is a screenshot of what the terminal look like in step 6 if you did all in the right way.
 
-![teminal code](terminal.jpg)
+![teminal code](terminal.png)
 
-[Customisable Sleep Screen](https://github.com/pxlflux/customisablesleepscreen.koplugin)
+After the reboot of the device I start to add the plugins for some customization
 
-[Hardcover.app for KOReader](https://github.com/Billiam/hardcoverapp.koplugin)
+## Adding stuff
 
-[ProjectTitle KOReader](https://github.com/joshuacant/ProjectTitle)
+I add some KoReader Plugin, which you need to install.
 
+All the plugin are installed in the same way:
+
+1. You need to download the plugin
+2. You need to extract the *plugin_name*.koplugin
+3. Edit any config file for the plugin (only some plugin required this)
+4. Put the koplugin folder in the path for the device (in Kobo case is **.adds/koreader/plugins**)
+5. Restart KOReader
+
+- [ProjectTitle KOReader](https://github.com/joshuacant/ProjectTitle) for a better looking homepage for KOReader (needed)
+- [Customisable Sleep Screen](https://github.com/pxlflux/customisablesleepscreen.koplugin) for having a customisable sleep screen (as the name of the plugin say)
+- [Hardcover.app for KOReader](https://github.com/Billiam/hardcoverapp.koplugin) for sync the data with my [HardCover](https://hardcover.app/) account
+
+![Kobo Clara Colour](kobo-complete.jpg)
+
+I also create some image with trasparent background for having this type of cover, where you can see under the sleep-screen what are you reading.
+
+## And I did more
+
+I did a lot of configuration inside of KOReader for this or that component and I don't want to lose all. So, after asking Reddit [How can I make a backup?](https://www.reddit.com/r/koreader/comments/1sgk3zc/comment/of5k8qe/) and make this script.
 
 ~~~ python
 #!/usr/bin/env python3
@@ -155,3 +174,12 @@ if __name__ == "__main__":
     main()
 
 ~~~
+
+This Python script is run every time I connect to my computer with the Kobo and copy the **.adds** in a specific path with a new folder tagged with the timestamp.
+
+So if I break my KOReader config, I can reset all and copy the **.adds** for restore the KOReader.
+
+
+## Conclusion
+
+For now this is what I did with my Kobo but I am thinking new stuff so if I will do something new I will write about it.
