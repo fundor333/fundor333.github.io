@@ -26,6 +26,7 @@ series:
 - Data and Data Tools
 - Python's Reptile Env
 - My Home Automation Lab
+- Hacking stuffs
 reply:
 repost:
 like:
