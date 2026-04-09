@@ -9,7 +9,7 @@ def genera_tag_seo(testo_input, numero=10):
     prompt = f"""
     Analizza il seguente testo e restituisci un elenco di {numero} tag SEO (parole chiave).
     I tag devono essere rilevanti, ottimizzati per la ricerca e separati da virgole.
-    Restituisci solo i tag, senza introduzioni o spiegazioni.
+    Restituisci solo i tag, senza introduzioni o spiegazioni di alcun tipo.
 
     Testo: {testo_input}
     """

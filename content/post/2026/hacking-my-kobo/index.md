@@ -1,20 +1,29 @@
 ---
-title: "Hacking My Kobo with KOReader"
-date: 2026-04-13T12:10:12+02:00
-draft: true
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
-description: "A little diary about my expirience "
+title: Hacking My Kobo with KOReader
+date: 2026-04-13 12:10:12+02:00
+feature_link: https://www.midjourney.com/home/
+feature_text: by IA Midjourney
+description: 'A little diary about my expirience '
 tags:
 - kobo
 - koreader
 - ebook
 - ereader
 - kindle
-
 categories:
 - tinkering
 - Hacking stuffs
+keywords:
+- 'EBook Reader'
+- 'Kindle PaperWhite'
+- 'Kobo Clara Colour'
+- Customization
+- Calibre
+- GoodRead
+- Hardcover
+- OpenSource 
+- KoReader
+- EReader plugins
 ---
 
 A long long time ago I start using a EBook Reader, the first Kindle PaperWhite (2012) and I never stop using EReader.
