@@ -15,6 +15,7 @@ categories:
 series:
 - My Home Automation Lab
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mitg2ahyue2a
 - https://mastodon.social/@fundor333/116318298830055707
 - https://news.ycombinator.com/item?id=47573957
 - https://www.reddit.com/r/homeassistant/comments/1sbq39k/starting_my_home_assistant_experiment
