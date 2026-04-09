@@ -1,6 +1,6 @@
 ---
 title: "Hacking My Kobo with KOReader"
-date: 2026-04-09T12:10:12+02:00
+date: 2026-04-13T12:10:12+02:00
 draft: true
 feature_link: "https://www.midjourney.com/home/"
 feature_text: "by IA Midjourney"
@@ -10,6 +10,7 @@ tags:
 - koreader
 - ebook
 - ereader
+- kindle
 
 categories:
 - tinkering
@@ -22,11 +23,43 @@ The last one I own is a Kobo Clara Colour, this one.
 
 ![Kobo Clara Colour](kobo.jpg)
 
-[Install Tread part1](https://www.mobileread.com/forums/showpost.php?p=3797095&postcount=1)
+I love it and the fact I can read in color comics, manga, web comics and graphic novel everywhere is a plus.
 
-[Install Tread part2](https://www.mobileread.com/forums/showpost.php?p=3797096&postcount=2)
+But more and more I use Ebook Readers more and more I want to customize it. Like I have in the pic.
 
-[KOReader](https://github.com/koreader/koreader)
+## What can I do? What do I want to do with my Kobo?
+
+I have some task and prerequisite for my Ebook Reader so I check an Hack which resolve all:
+
+- _I need to sync with Calibre_: I have an huge Calibre Library and I want to keep it
+- _Change the default cover_: I want my cover, not the default covers
+- _Integration with GoodRead or Hardcover_: I want to sync with GoodRead or Hardover the data from my ebook reader.
+- _Open Source software_: I want to use an Open Source project because I can code so if i need something I can code it.
+
+So I did some research on the web and find KoReader[^KoReader].
+
+[^KoReader]: [KoReader](https://github.com/koreader/koreader) Github official page
+
+It is a software which, after installing on the ereader, it add support for plugins and custom covers... So I start with it.
+
+## How to install it?
+
+Searching for the wiki page for starting/installing I found some tread about the installation[^installation] and I follow them. Here I rewrite all the steps with newer link for the stuff needed and rewrote some step because the two treads aren't clear enough for me.
+
+[^installation]: [Install Tread part1](https://www.mobileread.com/forums/showpost.php?p=3797095&postcount=1) and [Install Tread part2](https://www.mobileread.com/forums/showpost.php?p=3797096&postcount=2)
+
+0. Check if your device support the software
+1. Download the last version of what you want to install. In this case [Last version of KoReader](https://github.com/koreader/koreader/releases) is what I want and support on my device
+2. Put all the zip/archive you download in a new directory without unarchive anything
+3. Download the installer script ([Windows version](https://raw.githubusercontent.com/NiLuJe/kfmon/refs/heads/master/tools/install.ps1), [Mac version](https://raw.githubusercontent.com/NiLuJe/kfmon/refs/heads/master/tools/install.sh), [Linux version](https://raw.githubusercontent.com/NiLuJe/kfmon/refs/heads/master/tools/install.sh)) and put in the same directory as all the other stuff downloaded in 2
+4. Plug in the Kobo and check if you can read and write file inside it
+5. If needed fix the permission for execute the installer download at step 3
+6. Follow the on-screen instruction and close the terminal when done
+7. Safely eject your Kobo, watch it process (it look like in some way a glitching and crashing device but it need to look like that) and waite for the end of the reboot.
+
+If you have doubt, here is a screenshot of what the terminal look like in step 6 if you did all in the right way.
+
+![teminal code](terminal.jpg)
 
 [Customisable Sleep Screen](https://github.com/pxlflux/customisablesleepscreen.koplugin)
 
