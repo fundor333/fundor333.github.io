@@ -14,16 +14,22 @@ categories:
 - tinkering
 - Hacking stuffs
 keywords:
-- 'EBook Reader'
-- 'Kindle PaperWhite'
-- 'Kobo Clara Colour'
+- EBook Reader
+- Kindle PaperWhite
+- Kobo Clara Colour
 - Customization
 - Calibre
 - GoodRead
 - Hardcover
-- OpenSource 
+- OpenSource
 - KoReader
 - EReader plugins
+syndication:
+- https://mastodon.social/@fundor333/116396978679420331
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '116396978679420331'
 ---
 
 A long long time ago I start using a EBook Reader, the first Kindle PaperWhite (2012) and I never stop using EReader.
