@@ -26,6 +26,7 @@ keywords:
 - EReader plugins
 syndication:
 - https://mastodon.social/@fundor333/116396978679420331
+- https://news.ycombinator.com/item?id=47755236
 comments:
   host: mastodon.social
   username: fundor333
