@@ -11,12 +11,15 @@ draft: False
 
 
 ## Suggested Reading Links/Posts
+- [Choose a camera that fits your needs — aows](https://aows.co/blog/2026/4/17/choose-a-camera-that-fits-your-needs?utm_source=fundor333.com)
+- [I bought a new printer for printing pictures | Clint McMahon](https://clintmcmahon.com/Blog/i-bought-a-new-printer-for-printing-pictures?utm_source=fundor333.com)
 - [Belzebubs - The dot](https://belzebubsofficial.tumblr.com/post/814143380674215936?utm_source=fundor333.com)
 - [I May Have Killed My Framework 13 - Kev Quirk](https://kevquirk.com/i-may-have-killed-my-framework-13?utm_source=fundor333.com)
 - [Pentel Graph 1000 for Pro Drafting Pencil Review — The Pen Addict](https://www.penaddict.com/blog/2026/4/15/pentel-graph-1000-for-pro-drafting-pencil-review?utm_source=fundor333.com)
 - [Davinci Resolve for RAW photo editing — baty.net](https://baty.net/notes/2026/04/davinci-resolve-for-raw-photo-editing/?utm_source=fundor333.com)
 - [The disappearance of old Tokyo businesses — Tokyo Times](https://www.tokyotimes.org/the-disappearance-of-old-tokyo-businesses/?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 16/2026](https://fundor333.com/weeknotes/2026/16/?utm_source=fundor333.com)
 - [Hacking My Kobo with KOReader](https://fundor333.com/post/2026/hacking-my-kobo/?utm_source=fundor333.com)
 
 ## My Links
