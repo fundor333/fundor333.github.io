@@ -11,12 +11,14 @@ draft: False
 
 
 ## Suggested Reading Links/Posts
+- [Misfill, Scripted Edition — The Pen Addict](https://www.penaddict.com/blog/2026/4/26/misfill-scripted-edition?utm_source=fundor333.com)
 - [[RSS Club] How do you preserve an RSS feed? – Terence Eden’s Blog](https://shkspr.mobi/blog/2026/04/rss-club-how-do-you-preserve-an-rss-feed/?utm_source=fundor333.com)
 - [Pairings Party: Kakimori Frost Violet Fountain Pen, Taccia Aomurasaki — The Pen Addict](https://www.penaddict.com/blog/2026/4/20/pairings-party-kakimori-frost-violet-fountain-pen-taccia-aomurasaki?utm_source=fundor333.com)
 - [More Tokyo people and places — Tokyo Times](https://www.tokyotimes.org/more-tokyo-people-and-places/?utm_source=fundor333.com)
 - [| Chris Aldrich](https://boffosocko.com/2026/04/20/midcentury-oak-modular-library-card-catalog-acquisition/?utm_source=fundor333.com)
 - [No. 16: Making Memories at SF Stationery Fest](https://wordsinthemargins.substack.com/p/no-16-making-memories-at-sf-stationery-fest?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 17/2026](https://fundor333.com/weeknotes/2026/17/?utm_source=fundor333.com)
 - [Issn for a Blog](https://fundor333.com/micro/2026/04/issn-for-a-blog-/?utm_source=fundor333.com)
 
 ## My Links
