@@ -16,6 +16,8 @@ draft: False
 - [Recommended Spots: The Bread Room– Omoi Life Goods](https://omoionline.com/blogs/news/recommended-spots-the-bread-room?utm_source=fundor333.com)
 - [How to use headless browsers with scrapy? - Scrapfly Blog](https://scrapfly.io/blog/answers/how-to-use-headless-browsers-with-scrapy?utm_source=fundor333.com)
 - [LAMY noto Teal Ballpoint Pen Review — The Pen Addict](https://www.penaddict.com/blog/2026/4/27/lamy-noto-teal-ballpoint-pen-review?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 18/2026](https://fundor333.com/weeknotes/2026/18/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
