@@ -1,16 +1,39 @@
-{{ $url := "https://appletune.fundor333.com/api/podrollgroup/?format=json" }}
+<script>
+const url = "https://appletune.fundor333.com/api/podrollgroup/?format=json";
 
-{{ with resources.GetRemote $url }}
-{{- $content := .Content | transform.Unmarshal -}}
-
-{{- range $content -}}
-<h2>{{ .name }}</h2>
-<ul class="h-entry">
-  {{- range .rows }}
-  <li><a class="u-bookmark-of" href='{{.url}}'>{{.name}}</a> {{ with .feed_url }} (<a href='{{ . }}'>feed</a>)</li> {{ end }}
-
-  {{ end}}
-</ul>
-{{ end }}
-
-{{ end }}
+fetch(url)
+  .then(r => {
+    if (!r.ok) return;
+    return r.json();
+  })
+  .then(data => {
+    if (!data) return;
+    const container = document.querySelector('[data-opmlpodroll]');
+    if (!container) return;
+    data.forEach(group => {
+      const h2 = document.createElement('h2');
+      h2.textContent = group.name;
+      container.appendChild(h2);
+      const ul = document.createElement('ul');
+      ul.className = 'h-entry';
+      group.rows.forEach(row => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.className = 'u-bookmark-of';
+        a.href = row.url;
+        a.textContent = row.name;
+        li.appendChild(a);
+        if (row.feed_url) {
+          const feedA = document.createElement('a');
+          feedA.href = row.feed_url;
+          feedA.textContent = 'feed';
+          li.appendChild(document.createTextNode(' '));
+          li.appendChild(feedA);
+        }
+        ul.appendChild(li);
+      });
+      container.appendChild(ul);
+    });
+  })
+  .catch(() => {});
+</script>
