@@ -16,6 +16,8 @@ draft: False
 - [Intermezzo bag - macwright.com](https://macwright.com/2026/05/05/intermezzo-bag.html?utm_source=fundor333.com)
 - [Micro app 16: Quick Reads Backstage](https://birchtree.me/blog/micro-app-16-quick-reads-backstage/?utm_source=fundor333.com)
 - [Scenes of older Tokyo in the rain — Tokyo Times](https://www.tokyotimes.org/scenes-of-older-tokyo-in-the-rain/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 19/2026](https://fundor333.com/weeknotes/2026/19/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
