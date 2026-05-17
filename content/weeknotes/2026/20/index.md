@@ -11,9 +11,13 @@ draft: False
 
 
 ## Suggested Reading Links/Posts
+- [No. 18: Tending to My Creative Self - by Chelsea Park](https://wordsinthemargins.substack.com/p/no-18-tending-to-my-creative-self?utm_source=fundor333.com)
+- [Platinum Classic Lavender Black Ink Review — The Pen Addict](https://www.penaddict.com/blog/2026/5/14/platinum-classic-lavender-black-ink-review?utm_source=fundor333.com)
 - [An old Tokyo wander with added urban greenery — Tokyo Times](https://www.tokyotimes.org/an-old-tokyo-wander-with-added-urban-greenery/?utm_source=fundor333.com)
 - [Colorverse Erebus Crater Ink Review — The Pen Addict](https://www.penaddict.com/blog/2026/5/11/colorverse-erebus-crater-ink-review?utm_source=fundor333.com)
 - [Watching for file changes on macOS – alexwlchan](https://alexwlchan.net/2026/watch-files-on-macos/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 20/2026](https://fundor333.com/weeknotes/2026/20/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
