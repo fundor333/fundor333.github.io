@@ -1,7 +1,6 @@
 ---
 title: "Who Knows That I Blog "
 date: 2026-05-23T12:50:49+02:00
-draft: true
 feature_link: "https://fundor333.com/photos/"
 feature_text: "by me - Fundor333"
 description: A response to the question "Who knows that you blog?"
