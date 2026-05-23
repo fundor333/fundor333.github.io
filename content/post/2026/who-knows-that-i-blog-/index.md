@@ -23,6 +23,7 @@ It is not a thing I talk about my blog in my every day life. And I have more tha
 Yes I tell but not unprompted. I told people while talking about the argument of my blog, like if I have a post about what we are talking or if the topic of the blog can be usefull for the discussion.
 
 ## Am I anonymous when blogging?
+
 > I appreciate some people like to be anonymous when blogging. That's their choice. I am an open book. You can ask me anything and I will reply honestly, as long as it conforms to my town-square rule.
 
 In my case is not so black and white. This blog url and title is Fundor333. This is my online alias. If you find somewhere fundor333 you find one of my account. So I am well know as Fundor333. So I am "anonymous" when I blog (as I don't use my real name) but I don't hide my alias.
