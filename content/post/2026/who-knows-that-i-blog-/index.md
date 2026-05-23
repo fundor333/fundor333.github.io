@@ -1,8 +1,8 @@
 ---
-title: "Who Knows That I Blog "
-date: 2026-05-23T12:50:49+02:00
-feature_link: "https://fundor333.com/photos/"
-feature_text: "by me - Fundor333"
+title: 'Who Knows That I Blog '
+date: 2026-05-23 12:50:49+02:00
+feature_link: https://fundor333.com/photos/
+feature_text: by me - Fundor333
 description: A response to the question "Who knows that you blog?"
 isStarred: false
 tags:
@@ -11,6 +11,12 @@ tags:
 categories:
 - rant
 reply: https://forkingmad.blog/who-knows-that-you-blog/
+syndication:
+- https://mastodon.social/@fundor333/116624416355859040
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '116624416355859040'
 ---
 
 > Question for the audience: Do you tell people you blog?
