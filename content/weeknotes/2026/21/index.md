@@ -13,7 +13,9 @@ draft: False
 ## Suggested Reading Links/Posts
 - [Announcing logbasset 0.5.0](https://www.andreagrandi.it/posts/announcing-logbasset-0-5-0/?utm_source=fundor333.com)
 - [Who knows that you blog? | Forking Mad+](https://forkingmad.blog/who-knows-that-you-blog/?utm_source=fundor333.com)
+- [In Japan, the Stationery Finds You. - by Daniela](https://journalingdan.substack.com/p/in-japan-the-stationery-finds-you?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 21/2026](https://fundor333.com/weeknotes/2026/21/?utm_source=fundor333.com)
 - [Who Knows That I Blog](https://fundor333.com/post/2026/who-knows-that-i-blog-/?utm_source=fundor333.com)
 
 ## My Links
