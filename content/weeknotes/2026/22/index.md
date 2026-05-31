@@ -16,6 +16,7 @@ draft: False
 - [Holiday Weekend Reading, May 25, 2026 (Japan Edition!) — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2026/5/25/holiday-weekend-reading-may-25-2026-japan-edition?utm_source=fundor333.com)
 - [Misfill, Mini Printer Edition — The Pen Addict](https://www.penaddict.com/blog/2026/5/24/misfill-mini-printer-edition?utm_source=fundor333.com)
 ## New post from my blog
+- [Week Note Nº 22/2026](https://fundor333.com/weeknotes/2026/22/?utm_source=fundor333.com)
 - [Wellcome to Monsignor Abat Jour](https://fundor333.com/micro/2026/05/wellcome-to-monsignor-abat-jour/?utm_source=fundor333.com)
 
 ## My Links
