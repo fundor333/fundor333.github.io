@@ -40,13 +40,90 @@
             </div>
             {{end}}
 
-            {{/* Load exif.json from page bundle as fallback */}}
+            {{/* Prefer exif.json when present, fall back to native image EXIF */}}
             {{ $jsonExif := dict }}
             {{ with $.Resources.GetMatch "exif.json" }}
               {{ $jsonExif = . | transform.Unmarshal }}
             {{ end }}
 
-            {{ if .Exif }}
+            {{ if $jsonExif }}
+            <table>
+              {{ with $jsonExif.datetimeoriginal }}
+              <tr>
+                <th scope="col">Date</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.model }}
+              <tr>
+                <th>Camera</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.lensmodel }}
+              <tr>
+                <th>Lens</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.shutter_speed }}
+              <tr>
+                <th>Exposure Time</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.aperture }}
+              <tr>
+                <th>F Number</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.iso }}
+              <tr>
+                <th>ISO</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.focal_length }}
+              <tr>
+                <th>Focal Length</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.exposure_mode }}
+              <tr>
+                <th>Exposure Mode</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.exposure_program }}
+              <tr>
+                <th>Exposure Program</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.exposure_bias }}
+              <tr>
+                <th>Exposure Compensation</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.white_balance }}
+              <tr>
+                <th>White Balance</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+              {{ with $jsonExif.metering_mode }}
+              <tr>
+                <th>Metering Mode</th>
+                <td>{{ . }}</td>
+              </tr>
+              {{ end }}
+            </table>
+            <hr>
+            <br>
+            {{ else if .Exif }}
             {{ with .Exif }}
             <table>
               {{ with $image.Title }}
@@ -149,83 +226,6 @@
             <hr>
             <br>
             {{ end }}
-            {{ else if $jsonExif }}
-            <table>
-              {{ with $jsonExif.datetimeoriginal }}
-              <tr>
-                <th scope="col">Date</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.model }}
-              <tr>
-                <th>Camera</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.lensmodel }}
-              <tr>
-                <th>Lens</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.shutter_speed }}
-              <tr>
-                <th>Exposure Time</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.aperture }}
-              <tr>
-                <th>F Number</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.iso }}
-              <tr>
-                <th>ISO</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.focal_length }}
-              <tr>
-                <th>Focal Length</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.exposure_mode }}
-              <tr>
-                <th>Exposure Mode</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.exposure_program }}
-              <tr>
-                <th>Exposure Program</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.exposure_bias }}
-              <tr>
-                <th>Exposure Compensation</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.white_balance }}
-              <tr>
-                <th>White Balance</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-              {{ with $jsonExif.metering_mode }}
-              <tr>
-                <th>Metering Mode</th>
-                <td>{{ . }}</td>
-              </tr>
-              {{ end }}
-            </table>
-            <hr>
-            <br>
             {{ end }}
             {{ end }}
 
