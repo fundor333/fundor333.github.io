@@ -65,7 +65,11 @@ build: clean ## Build for dev
 anime: ## Anime script
 	@uv run python action_script/aniist_run.py
 
-automation: anime ## Run all the automation script
+.PHONY: photo_exif
+photo_exif: ## Extract EXIF data from all photo posts and save exif.json
+	@uv run python action_script/photo_exif.py
+
+automation: anime photo_exif ## Run all the automation script
 	@uv run python -m syndication_cli all-cmd
 
 
