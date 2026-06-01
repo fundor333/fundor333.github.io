@@ -79,6 +79,7 @@ jobs:
         with:
           timezoneLinux: Europe/Rome
           timezoneMacos: Europe/Rome
+          timezoneWindows: Europe/Rome
 
       - name: Cache built website
         uses: actions/cache@v5.0.5
