@@ -1,23 +1,24 @@
 {
-  "model": "iPhone 14",
-  "make": "Apple",
-  "datetimeoriginal": "2025:01:05 00:35:13",
-  "exposure_bias": "+0.0 EV",
-  "metering_mode": "Pattern",
-  "flash": "Did not fire",
-  "focal_length": "6mm",
-  "exposure_mode": "Auto",
-  "white_balance": "Auto",
-  "focal_length_35mm": "26mm",
-  "shutter_speed": "1/17s",
-  "aperture": "f/1.5",
-  "exposure_program": "Normal Program",
-  "iso": 1600,
-  "lensmake": "Apple",
-  "lensmodel": "iPhone 14 back dual wide camera 5.7mm f/1.5",
-  "gps": {
-    "latitude": 45.429936,
-    "longitude": 12.325892
-  },
-  "image_file": "IMG_5830.jpg"
+  "IMG_5830.jpg": {
+    "make": "Apple",
+    "model": "iPhone 14",
+    "datetimeoriginal": "2025:01:05 00:35:13",
+    "exposure_bias": "+0.0 EV",
+    "metering_mode": "Pattern",
+    "flash": "Did not fire",
+    "focal_length": "6mm",
+    "exposure_mode": "Auto",
+    "white_balance": "Auto",
+    "focal_length_35mm": "26mm",
+    "shutter_speed": "1/17s",
+    "aperture": "f/1.5",
+    "exposure_program": "Normal Program",
+    "iso": 1600,
+    "lensmake": "Apple",
+    "lensmodel": "iPhone 14 back dual wide camera 5.7mm f/1.5",
+    "gps": {
+      "latitude": 45.429936,
+      "longitude": 12.325892
+    }
+  }
 }

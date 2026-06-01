@@ -43,7 +43,7 @@
             {{/* Prefer exif.json when present, fall back to native image EXIF */}}
             {{ $jsonExif := dict }}
             {{ with $.Resources.GetMatch "exif.json" }}
-              {{ $jsonExif = . | transform.Unmarshal }}
+              {{ $jsonExif = index (. | transform.Unmarshal) $image.Name }}
             {{ end }}
 
             {{ if $jsonExif }}

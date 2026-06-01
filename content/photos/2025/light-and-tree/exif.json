@@ -1,19 +1,20 @@
 {
-  "model": "X-T30 II",
-  "make": "FUJIFILM",
-  "datetimeoriginal": "2025:02:23 00:05:09",
-  "exposure_bias": "+0.0 EV",
-  "metering_mode": "Pattern",
-  "flash": "Did not fire",
-  "focal_length": "46mm",
-  "focal_length_35mm": "69mm",
-  "shutter_speed": "1/13s",
-  "aperture": "f/4.0",
-  "exposure_program": "Normal Program",
-  "iso": 6400,
-  "exposure_mode": "Auto",
-  "white_balance": "Auto",
-  "lensmake": "FUJIFILM",
-  "lensmodel": "XF18-55mmF2.8-4 R LM OIS",
-  "image_file": "DSCF0399.jpg"
+  "DSCF0399.jpg": {
+    "make": "FUJIFILM",
+    "model": "X-T30 II",
+    "datetimeoriginal": "2025:02:23 00:05:09",
+    "exposure_bias": "+0.0 EV",
+    "metering_mode": "Pattern",
+    "flash": "Did not fire",
+    "focal_length": "46mm",
+    "focal_length_35mm": "69mm",
+    "shutter_speed": "1/13s",
+    "aperture": "f/4.0",
+    "exposure_program": "Normal Program",
+    "iso": 6400,
+    "exposure_mode": "Auto",
+    "white_balance": "Auto",
+    "lensmake": "FUJIFILM",
+    "lensmodel": "XF18-55mmF2.8-4 R LM OIS"
+  }
 }

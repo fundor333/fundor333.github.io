@@ -1,19 +1,20 @@
 {
-  "model": "X-T30 II",
-  "make": "FUJIFILM",
-  "datetimeoriginal": "2024:06:30 01:31:49",
-  "exposure_bias": "+0.0 EV",
-  "metering_mode": "Pattern",
-  "flash": "Did not fire",
-  "focal_length": "27mm",
-  "focal_length_35mm": "41mm",
-  "shutter_speed": "1/125s",
-  "aperture": "f/2.8",
-  "exposure_program": "Manual",
-  "iso": 12800,
-  "exposure_mode": "Manual",
-  "white_balance": "Auto",
-  "lensmake": "FUJIFILM",
-  "lensmodel": "XF27mmF2.8 R WR",
-  "image_file": "DSCF0070.jpg"
+  "DSCF0070.jpg": {
+    "make": "FUJIFILM",
+    "model": "X-T30 II",
+    "datetimeoriginal": "2024:06:30 01:31:49",
+    "exposure_bias": "+0.0 EV",
+    "metering_mode": "Pattern",
+    "flash": "Did not fire",
+    "focal_length": "27mm",
+    "focal_length_35mm": "41mm",
+    "shutter_speed": "1/125s",
+    "aperture": "f/2.8",
+    "exposure_program": "Manual",
+    "iso": 12800,
+    "exposure_mode": "Manual",
+    "white_balance": "Auto",
+    "lensmake": "FUJIFILM",
+    "lensmodel": "XF27mmF2.8 R WR"
+  }
 }

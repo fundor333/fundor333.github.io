@@ -171,11 +171,8 @@ def extract_exif(image_path: Path) -> dict:
     return result
 
 
-def find_primary_image(post_dir: Path) -> Path | None:
-    for f in sorted(post_dir.iterdir()):
-        if f.suffix.lower() in IMAGE_EXTENSIONS:
-            return f
-    return None
+def find_images(post_dir: Path) -> list[Path]:
+    return sorted(f for f in post_dir.iterdir() if f.suffix.lower() in IMAGE_EXTENSIONS)
 
 
 def process_photos(dry_run: bool = False) -> None:
@@ -185,22 +182,21 @@ def process_photos(dry_run: bool = False) -> None:
     updated = skipped = 0
     for index_path in index_files:
         post_dir = index_path.parent
-        image_path = find_primary_image(post_dir)
-        if image_path is None:
-            print(f"  [skip] {post_dir.name}: no image file")
+        images = find_images(post_dir)
+        if not images:
+            print(f"  [skip] {post_dir.name}: no image files")
             skipped += 1
             continue
 
-        exif = extract_exif(image_path)
-        exif["image_file"] = image_path.name
+        all_exif = {img.name: extract_exif(img) for img in images}
 
         output_path = post_dir / "exif.json"
         rel = output_path.relative_to(CONTENT_PHOTOS_DIR)
         if dry_run:
-            print(f"  [dry-run] would write {rel}")
+            print(f"  [dry-run] would write {rel} ({len(images)} image(s))")
         else:
-            output_path.write_text(json.dumps(exif, indent=2, ensure_ascii=False) + "\n")
-            print(f"  [ok] {rel}")
+            output_path.write_text(json.dumps(all_exif, indent=2, ensure_ascii=False) + "\n")
+            print(f"  [ok] {rel} ({len(images)} image(s))")
         updated += 1
 
     print(f"\nDone: {updated} written, {skipped} skipped")
