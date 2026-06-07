@@ -49,7 +49,7 @@ jobs:
           submodules: recursive
 
       - name: Cache node modules
-        uses: actions/cache@v5.0.4
+        uses: actions/cache@v5.0.5
         env:
           cache-name: cache-node-modules-v1
         with:
@@ -67,7 +67,7 @@ jobs:
         uses: actions/configure-pages@v6.0.0
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6.3.0
+        uses: actions/setup-node@v6.4.0
         with:
           node-version: 16
 
@@ -79,9 +79,10 @@ jobs:
         with:
           timezoneLinux: Europe/Rome
           timezoneMacos: Europe/Rome
+          timezoneWindows: Europe/Rome
 
       - name: Cache built website
-        uses: actions/cache@v5.0.4
+        uses: actions/cache@v5.0.5
         env:
           cache-name: cache-website-v1
         with:
@@ -102,7 +103,7 @@ jobs:
         run: make deploy_prod
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4.0.0
+        uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: ./public
 

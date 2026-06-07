@@ -1,6 +1,8 @@
 {{- range . }}
 <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me"
-    title="{{ (.title | default .name) | title }}">
-    {{ partial "svgs/svgs.html" . }}
+  title="{{ (.title | default .name) | title }}"
+  data-umami-event="Social Button Click"
+  data-umami-event-social="{{ (.title | default .name) | title }}">
+  {{ partial "svgs/svgs.html" . }}
 </a>
 {{- end }}

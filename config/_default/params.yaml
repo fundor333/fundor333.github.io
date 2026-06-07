@@ -47,6 +47,8 @@ socialIcons:
     url: "https://www.instagram.com/fundor333/"
   - name: "kofi"
     url: "https://ko-fi.com/fundor333"
+  - name: "codeberg"
+    url: "https://codeberg.org/fundor333"
 
 author:
   avatar: "img/logo.png" # put the file in assets folder; also ensure that image has same height and width
