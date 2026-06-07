@@ -2,19 +2,12 @@
 #    uv export --no-dev --no-hashes --format requirements-txt
 annotated-doc==0.0.4
     # via typer
-annotated-types==0.7.0
-    # via pydantic
-anyio==4.13.0
-    # via httpx
 beautifulsoup4==4.15.0
     # via fundor333-github-io
 bleach==6.4.0
     # via fundor333-github-io
 certifi==2026.5.20
-    # via
-    #   httpcore
-    #   httpx
-    #   requests
+    # via requests
 charset-normalizer==3.4.7
     # via requests
 click==8.4.1
@@ -33,17 +26,8 @@ feedparser==6.0.12
     #   weeknotebot
 fonttools==4.63.0
     # via matplotlib
-h11==0.16.0
-    # via httpcore
-httpcore==1.0.9
-    # via httpx
-httpx==0.28.1
-    # via ollama
 idna==3.18
-    # via
-    #   anyio
-    #   httpx
-    #   requests
+    # via requests
 kiwisolver==1.5.0
     # via matplotlib
 lxml==6.1.1
@@ -61,8 +45,6 @@ numpy==2.4.6
     #   contourpy
     #   matplotlib
     #   pandas
-ollama==0.6.2
-    # via fundor333-github-io
 packaging==26.2
     # via
     #   marshmallow
@@ -73,10 +55,6 @@ pillow==12.2.0
     # via
     #   fundor333-github-io
     #   matplotlib
-pydantic==2.13.4
-    # via ollama
-pydantic-core==2.46.4
-    # via pydantic
 pygments==2.20.0
     # via rich
 pyparsing==3.3.2
@@ -113,14 +91,7 @@ soupsieve==2.8.4
 typer==0.26.7
     # via fundor333-github-io
 typing-extensions==4.15.0
-    # via
-    #   anyio
-    #   beautifulsoup4
-    #   pydantic
-    #   pydantic-core
-    #   typing-inspection
-typing-inspection==0.4.2
-    # via pydantic
+    # via beautifulsoup4
 tzdata==2026.2 ; sys_platform == 'emscripten' or sys_platform == 'win32'
     # via pandas
 urllib3==2.7.0

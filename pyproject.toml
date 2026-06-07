@@ -3,7 +3,7 @@ name = "fundor333-github-io"
 version = "1.0.0"
 description = ""
 authors = [{ name = "Fundor333", email = "fundor333@fundor333.com" }]
-requires-python = "~=3.12.0"
+requires-python = "~=3.13.0"
 readme = "README.md"
 dependencies = [
     "feedparser",
@@ -14,14 +14,13 @@ dependencies = [
     "beautifulsoup4",
     "pyyaml",
     "lxml",
-    "typer[all]>=0.15.0",
+    "typer[all]",
     "python-frontmatter",
     "bleach",
-    "pandas>=2.3.2",
+    "pandas",
 
-    "matplotlib>=3.10.8",
-    "rich>=13.9.4",
-    "ollama>=0.3.0",
+    "matplotlib",
+    "rich",
 ]
 
 [project.entry-points.dotenv]
@@ -41,9 +40,7 @@ dev = [
 [tool.ruff]
 indent-width = 4
 exclude = [".git", "*migrations*", ".tox", ".venv"]
-ignore = ["B904", "C901", "E501", "F403", "B008"]
 line-length = 119
-select = ["B", "B9", "C", "E", "F", "W"]
 
 [tool.ruff.format]
 quote-style = "double"
@@ -68,11 +65,11 @@ select = [
     "TD",  # Sii diligente con i commenti TODO
     "NPY", # Alcune cose specifiche di numpy
 ]
-ignore = ["ANN101", "ANN002", "ANN003", "RUF012", "PTH120", "B008"]
+ignore = ["ANN002", "ANN003", "RUF012", "PTH120", "B008"]
 fixable = ["ALL"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
 
-[tool.ruff.mccabe]
+[tool.ruff.lint.mccabe]
 max-complexity = 18
