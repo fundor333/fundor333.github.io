@@ -85,6 +85,8 @@ broadcast: clean ## broadcast the site
 
 deploy_prod: ## Ready to deploy
 	@npm update
+	@uv sync
+	@uv lock --upgrade
 	@hugo mod get -u
 	@hugo --minify
 

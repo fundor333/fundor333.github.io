@@ -1,6 +1,6 @@
 baseURL: "https://fundor333.com"
 DefaultContentLanguage: en
-languageCode: en
+locale: en
 title: Fundor333
 enableRobotsTXT: false
 fediverseAccount: "@fundor333@mastodon.social"
