@@ -34,7 +34,7 @@ lxml==6.1.1
     # via fundor333-github-io
 markdown-it-py==4.2.0
     # via rich
-marshmallow==3.26.2
+marshmallow==4.3.0
     # via weeknotebot
 matplotlib==3.10.9
     # via fundor333-github-io
