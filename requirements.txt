@@ -75,7 +75,7 @@ requests==2.34.2
     # via
     #   fundor333-github-io
     #   weeknotebot
-rich==13.9.4
+rich==15.0.0
     # via
     #   fundor333-github-io
     #   typer
