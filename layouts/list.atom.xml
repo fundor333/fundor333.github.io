@@ -27,10 +27,10 @@
   <generator uri="https://gohugo.io">Hugo {{ .Site.Hugo.Version }}</generator>
   <id>{{ if .Site.Params.feedUUID }}urn:uuid:{{.Site.Params.feedUUID }}{{ else }}{{ .Permalink }}{{ end }}</id>
   {{ with .OutputFormats.Get "atom" }}
-  {{ printf `<link rel="self" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $.Site.LanguageCode | safeHTML }}
+  {{ printf `<link rel="self" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $.Site.Language.Locale | safeHTML }}
   {{ end }}
   {{ range .AlternativeOutputFormats }}
-  {{ printf `<link rel="alternate" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $.Site.LanguageCode | safeHTML }}
+  {{ printf `<link rel="alternate" type="%s" href="%s" hreflang="%s"/>` .MediaType.Type .Permalink $.Site.Language.Locale | safeHTML }}
   {{ end }}
   {{ with .Site.Params.icon }}<icon>{{ . | absURL }}</icon>{{ end }}
   {{ with .Site.Params.logo }}<logo>{{ . | absURL }}</logo>{{ end }}
