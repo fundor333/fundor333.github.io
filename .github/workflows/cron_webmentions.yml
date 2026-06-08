@@ -17,22 +17,21 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@master
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.14"
-          cache: "pip" # caching pip dependencies
 
-      - name: Install Pip dependencies
-        run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: uv sync
 
       - name: Fetch Syndication
-        run: python -m syndication_cli all-cmd
+        run: uv run python -m syndication_cli all-cmd
 
       - name: Fetch webmentions
         env:
           WEBMENTIONS_TOKEN: ${{ secrets.WEBMENTIONS_TOKEN }}
-        run: python ./action_script/webmention.py
+        run: uv run python ./action_script/webmention.py
 
       - name: Commit to repository
         env:

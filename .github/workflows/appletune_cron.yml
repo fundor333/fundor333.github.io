@@ -17,14 +17,13 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@master
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
         with:
           python-version: "3.14"
-          cache: "pip" # caching pip dependencies
 
-      - name: Install Pip dependencies
-        run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: uv sync
 
       - name: Run Anylist
-        run: python ./action_script/appletune_run.py
+        run: uv run python ./action_script/appletune_run.py
