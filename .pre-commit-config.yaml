@@ -23,7 +23,6 @@ repos:
       - id: check-symlinks
       - id: check-toml
       - id: check-yaml
-      - id: forbid-new-submodules
       - id: mixed-line-ending
         language: python
   - repo: https://github.com/pre-commit/pygrep-hooks
