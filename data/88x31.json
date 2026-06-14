@@ -1,0 +1,50 @@
+{
+	"badges": [
+		{
+			"img": "/icons/88x31/fundor333.gif",
+			"url": "/",
+			"alt": "Me - Fundor333"
+		},
+		{
+			"img": "https://kagifeedback.org/assets/files/2025-11-27/1764250973-708369-88x31-2.gif",
+			"url": "https://kagi.com/smallweb",
+			"alt": "Small Web Seal"
+		},
+		{
+			"img": "/icons/88x31/badge_he_him.png",
+			"alt": "He/Him"
+		},
+		{
+			"img": "/icons/88x31/bisex.gif",
+			"alt": "Bisexual pride"
+		},
+		{
+			"img": "/icons/88x31/catppuccin-animated.gif",
+			"url": "https://catppuccin.com",
+			"alt": "Catppuccin"
+		},
+		{
+			"img": "/icons/88x31/cssdif.gif",
+			"url": "https://news.ycombinator.com/item?id=38655377",
+			"alt": "CSS is dif"
+		},
+		{
+			"img": "/icons/88x31/fascist.png",
+			"alt": "Anti-fascist"
+		},
+		{
+			"img": "/icons/88x31/feed.gif",
+			"url": "/feeds",
+			"alt": "RSS Feed"
+		},
+		{
+			"img": "/icons/88x31/nintendo_switch.png",
+			"alt": "Nintendo Switch"
+		},
+		{
+			"img": "/icons/88x31/sh.tangled.git.temp.gif",
+			"url": "https://ko-fi.com/fundor333",
+			"alt": "Tangled git"
+		}
+	]
+}
