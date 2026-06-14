@@ -1,0 +1,19 @@
+[build]
+  command = "npm install && hugo mod get -u && hugo --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.162.1"
+  HUGO_ENVIRONMENT = "production"
+  HUGO_ENV = "production"
+  NODE_VERSION = "24"
+  TZ = "Europe/Rome"
+
+[context.production]
+  command = "npm install && hugo mod get -u && hugo --minify"
+
+[context.deploy-preview]
+  command = "npm install && hugo mod get -u && hugo --minify --buildFuture"
+
+[context.branch-deploy]
+  command = "npm install && hugo mod get -u && hugo --minify"
