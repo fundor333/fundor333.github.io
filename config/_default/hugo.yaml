@@ -42,6 +42,10 @@ outputFormats:
   Atom:
     mediaType: "application/atom+xml"
     baseName: atom
+  humanstxt:
+    baseName: humans
+    isPlainText: true
+    mediaType: text/plain
 
 outputs:
   home:
@@ -50,6 +54,7 @@ outputs:
     - SearchIndex
     - json
     - Atom
+    - humanstxt
   section:
     - html
     - rss

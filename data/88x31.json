@@ -11,14 +11,6 @@
 			"alt": "Small Web Seal"
 		},
 		{
-			"img": "/icons/88x31/badge_he_him.png",
-			"alt": "He/Him"
-		},
-		{
-			"img": "/icons/88x31/bisex.gif",
-			"alt": "Bisexual pride"
-		},
-		{
 			"img": "/icons/88x31/catppuccin-animated.gif",
 			"url": "https://catppuccin.com",
 			"alt": "Catppuccin"
@@ -29,17 +21,9 @@
 			"alt": "CSS is dif"
 		},
 		{
-			"img": "/icons/88x31/fascist.png",
-			"alt": "Anti-fascist"
-		},
-		{
 			"img": "/icons/88x31/feed.gif",
 			"url": "/feeds",
 			"alt": "RSS Feed"
-		},
-		{
-			"img": "/icons/88x31/nintendo_switch.png",
-			"alt": "Nintendo Switch"
 		},
 		{
 			"img": "/icons/88x31/sh.tangled.git.temp.gif",
@@ -55,6 +39,11 @@
 			"img": "https://brainmade.org/88x31-dark.png",
 			"url": "https://brainmade.org/",
 			"alt": "BrainMade"
+		},
+		{
+			"img": "/icons/88x31/bacarotech.gif",
+			"url": "https://bacarotech.github.io/",
+			"alt": "BacaroTech"
 		}
 	]
 }
