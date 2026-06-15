@@ -54,6 +54,31 @@
 			"img": "/icons/88x31/bisex.gif",
 			"url": "https://fundor333.com/guy/",
 			"alt": "Bisexual"
+		},
+		{
+			"img": "https://hideout.ink/images/squid-export.gif",
+			"url": "https://hideout.ink/",
+			"alt": "Hideout"
+		},
+		{
+			"img": "https://zhcet.net/static/images/banner.gif",
+			"url": "https://zhcet.net/",
+			"alt": "ZHCET"
+		},
+		{
+			"img": "https://angelwood.xyz/images/boop.png",
+			"url": "https://angelwood.xyz/",
+			"alt": "Angelwood"
+		},
+		{
+			"img": "https://kokorobot.ca/media/interface/button.gif",
+			"url": "https://kokorobot.ca/",
+			"alt": "Kokorobot"
+		},
+		{
+			"img": "https://gosha.net/assets/images/88x31.svg",
+			"url": "https://gosha.net/",
+			"alt": "Gosha"
 		}
 	]
 }

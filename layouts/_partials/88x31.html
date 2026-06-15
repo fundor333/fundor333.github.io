@@ -6,39 +6,41 @@
 {{- $withoutUrl := slice -}}
 {{/* Local images from folder */}}
 {{- range readDir "static/icons/88x31" -}}
-  {{- if not .IsDir -}}
-    {{- $ext := strings.ToLower (path.Ext .Name) -}}
-    {{- if in $imageExts $ext -}}
-      {{- $imgPath := printf "/icons/88x31/%s" .Name -}}
-      {{- $entry := index (where $badges "img" $imgPath) 0 -}}
-      {{- $alt := cond (and $entry $entry.alt) $entry.alt .Name -}}
-      {{- $url := cond (and $entry $entry.url) $entry.url "" -}}
-      {{- $item := dict "img" $imgPath "alt" $alt "url" $url -}}
-      {{- if $url -}}
-        {{- $withUrl = append $item $withUrl -}}
-      {{- else -}}
-        {{- $withoutUrl = append $item $withoutUrl -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
+{{- if not .IsDir -}}
+{{- $ext := strings.ToLower (path.Ext .Name) -}}
+{{- if in $imageExts $ext -}}
+{{- $imgPath := printf "/icons/88x31/%s" .Name -}}
+{{- $entry := index (where $badges "img" $imgPath) 0 -}}
+{{- $alt := cond (and $entry $entry.alt) $entry.alt .Name -}}
+{{- $url := cond (and $entry $entry.url) $entry.url "" -}}
+{{- $item := dict "img" $imgPath "alt" $alt "url" $url -}}
+{{- if $url -}}
+{{- $withUrl = append $item $withUrl -}}
+{{- else -}}
+{{- $withoutUrl = append $item $withoutUrl -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}
 {{- end -}}
 {{/* External images from JSON (img not in local folder) */}}
 {{- range $badges -}}
-  {{- if not (strings.HasPrefix .img "/icons/88x31/") -}}
-    {{- if .url -}}
-      {{- $withUrl = append . $withUrl -}}
-    {{- else -}}
-      {{- $withoutUrl = append . $withoutUrl -}}
-    {{- end -}}
-  {{- end -}}
+{{- if not (strings.HasPrefix .img "/icons/88x31/") -}}
+{{- if .url -}}
+{{- $withUrl = append . $withUrl -}}
+{{- else -}}
+{{- $withoutUrl = append . $withoutUrl -}}
 {{- end -}}
+{{- end -}}
+{{- end -}}
+{{- $all := shuffle (append $withoutUrl $withUrl) -}}
 <p class="badges-88x31">
-  {{- range $withUrl }}
+  {{- range $all }}
+  {{- if .url }}
   <a href="{{ .url }}" class="badges-88x31-link" target="_blank" rel="noopener">
     <img loading="lazy" width="88" height="31" src="{{ .img }}" alt="{{ .alt }}">
   </a>
-  {{- end }}
-  {{- range $withoutUrl }}
+  {{- else }}
   <img loading="lazy" width="88" height="31" src="{{ .img }}" alt="{{ .alt }}">
+  {{- end }}
   {{- end }}
 </p>
