@@ -117,9 +117,9 @@ notebook_editor: ## Run notebook editor
 meet: ## Run meet script
 	@uv run python3 micro_meetup.py --memory True
 
-event: ## Run event script
+event: ## Run event script (passa URL con: make event URL="https://meetup.com/...")
 	@echo "Script per i nuovi eventi, usa meet per gli eventi in memoria"
-	@uv run python3 micro_meetup.py
+	@uv run python3 micro_meetup.py $(URL)
 
 eventi: event ## Run eventi script
 

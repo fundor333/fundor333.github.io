@@ -168,7 +168,7 @@ def main(
         add_to_memory(text)
         data = fetch_event(text)
         convert_dict_to_json(data)
-        data = fetch_event_from_json(item)
+        data = fetch_event_from_json(text)
         convert_dict_to_post(data)
 
 

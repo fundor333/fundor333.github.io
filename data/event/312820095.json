@@ -1,0 +1,35 @@
+{
+    "data": {
+        "event": {
+            "dateTime": "2026-06-18T19:00:00+02:00",
+            "description": "Dear all, we\u2019re back with the PyData meetups, focused as always on sharing best practice, methodologies, analysis, machine learning systems, .., with the open-source projects of the [NumFOCUS](https://numfocus.org/sponsored-projects) program \u2014 but not only!\n\nWe\u2019ll meet **#InPresence on Thursday, June 18 at 7:00 PM**.\nWe\u2019ll be hosted by [Anda Venice Hostel](https://www.andavenice.com/) in the Medusa Room and, for those who cannot join us, it will also be on YouTube in **#streaming**.\n\n\ud83d\udc65 We\u2019ll have two interesting sessions one in Italian \ud83c\uddee\ud83c\uddf9 and one in English \ud83c\uddec\ud83c\udde7:\n\ud83d\udde3 [Fabio Lamanna](www.fabiolamanna.it), one of *PyData Venice* founders, will present an analysis of the real impact of \"Bologna **#City30**\", the 30 km/h limit, using **#FloatingCarData** (**#FCD**) with **#QGIS** and #Python to compare pre/post driving speeds and measure how much the city respects the new limit.\n\ud83d\udde3 [Claudio Giancaterino](https://www.linkedin.com/in/claudiods/) will show a **#MultiAgent** system that turns car damage photos into an insurance claim assessment in minutes, where an Orchestrator coordinates a Vision Agent (**#GPT-5.2**), OEM/Aftermarket Cost Estimation Agents (**#Perplexity**), and a Shop Finder Agent, each running a transparent **#ReAct** reasoning loop to return damage severity, comparative repair costs, and recommended shops.\n\nAnd afterwards\\, for those who want\\, we\u2019ll stay there for \\( \ud83c\udf78 \\| \ud83c\udf7a \\) & \\( \ud83c\udf55 \\| \ud83c\udf54 \\) and **#networking** until late \u203c\ufe0f\n\n\ud83d\udcfd And if you\u2019d like to share ideas, projects, topics, or propose yourself as the next speaker, here\u2019s the usual [Google form](https://forms.gle/rVMWxFnodHaNb9ab9) or [Sessionize](https://sessionize.com/pydata-venice-2025-12-18) !",
+            "endTime": "2026-06-18T21:00:00+02:00",
+            "eventType": "HYBRID",
+            "eventUrl": "https://www.meetup.com/pydata-venice/events/312820095/",
+            "group": {
+                "name": "PyData Venice"
+            },
+            "howToFindUs": null,
+            "title": "PyDataVE #27 - #UrbanMobility & #AgenticAI",
+            "topics": {
+                "edges": []
+            },
+            "venues": [
+                {
+                    "address": "Via Ortigara, 10, 30171 Mestre VE",
+                    "city": "Venice",
+                    "country": "it",
+                    "name": "Anda Venice Hostel"
+                },
+                {
+                    "address": "",
+                    "city": "",
+                    "country": "",
+                    "name": "Online event"
+                }
+            ]
+        }
+    },
+    "id": "312820095",
+    "now": "1926-07-10T20:07:47"
+}
