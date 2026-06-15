@@ -1,7 +1,19 @@
 {
   "permissions": {
     "allow": [
-      "Bash(hugo)"
+      "Bash(hugo)",
+      "Bash(grep -n \"partial.*cite\\\\|partial.*bridgy\\\\|templates.Exists\" /tmp/hugo-test-build/blog/2024/books-of-2023/index.html 2>/dev/null | head -5; ls /tmp/hugo-test-build/blog/2024/books-of-2023/ 2>/dev/null)",
+      "Read(//tmp/hugo-test-build/blog/2024/books-of-2023/**)",
+      "Read(//tmp/hugo-test-build/blog/2024/**)",
+      "Bash(hugo --destination /tmp/hugo-test-build2)",
+      "Read(//tmp/hugo-test-build2/**)",
+      "Bash(hugo --destination /tmp/hugo-test-build3 --ignoreCache)",
+      "Bash(grep -n \"link rel.*stylesheet\" /tmp/hugo-test-build3/index.html | head -10)",
+      "Read(//private/tmp/hugo-test-build3/**)",
+      "Bash(rm -rf /tmp/hugo-test-build4)",
+      "Bash(hugo --destination /tmp/hugo-test-build4)",
+      "Bash(grep -n \"stylesheet\\\\|fediverse\\\\|jquery\\\\|add\\\\.\" /tmp/hugo-test-build4/index.html | head -10)",
+      "Read(//private/tmp/hugo-test-build4/**)"
     ]
   }
 }
