@@ -3,20 +3,20 @@
 {{- $withUrl := slice -}}
 {{- $withoutUrl := slice -}}
 {{- range .badges -}}
-  {{- if .url -}}
-    {{- $withUrl = append . $withUrl -}}
-  {{- else -}}
-    {{- $withoutUrl = append . $withoutUrl -}}
-  {{- end -}}
+{{- if .url -}}
+{{- $withUrl = append . $withUrl -}}
+{{- else -}}
+{{- $withoutUrl = append . $withoutUrl -}}
 {{- end -}}
-<p>
+{{- end -}}
+<p class="badges-88x31">
   {{- range $withUrl }}
-  <a href="{{ .url }}" target="_blank" rel="noopener" style="display:inline-block;padding:1px">
+  <a href="{{ .url }}" class="badges-88x31-link" target="_blank" rel="noopener">
     <img loading="lazy" width="88" height="31" src="{{ .img }}" alt="{{ .alt }}">
   </a>
   {{- end }}
   {{- range $withoutUrl }}
-  <img loading="lazy" width="88" height="31" src="{{ .img }}" alt="{{ .alt }}" style="padding:1px">
+  <img loading="lazy" width="88" height="31" src="{{ .img }}" alt="{{ .alt }}">
   {{- end }}
 </p>
 {{- end }}

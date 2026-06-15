@@ -45,6 +45,16 @@
 			"img": "/icons/88x31/sh.tangled.git.temp.gif",
 			"url": "https://ko-fi.com/fundor333",
 			"alt": "Tangled git"
+		},
+		{
+			"img": "https://wiki.xxiivv.com/media/services/button.gif",
+			"url": "https://wiki.xxiivv.com/site/home.html",
+			"alt": "XXIIVV"
+		},
+		{
+			"img": "https://brainmade.org/88x31-dark.png",
+			"url": "https://brainmade.org/",
+			"alt": "BrainMade"
 		}
 	]
 }
