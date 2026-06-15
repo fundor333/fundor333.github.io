@@ -1,6 +1,6 @@
 ---
-title: 'DevFest Venezia - 2023'
-date: 1926-03-10T17:57:22
+title: DevFest Venezia - 2023
+date: 1926-03-10 17:57:22
 start: 2023-12-02 09:00:00+01:00
 end: 2023-12-02 18:30:00+01:00
 location: Online
@@ -8,8 +8,11 @@ group:
 - GDG Venezia
 tags: []
 event_url: https://www.meetup.com/gdg-venezia/events/296579530/
-how_to_find_us: 
+how_to_find_us: null
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3lzz3ol4hpl2b
 ---
+
 🌟 DevFest Venezia 2023 🌟
 
 Siamo entusiasti di annunciare il ritorno della DevFest a Venezia, l'evento straordinario dove appassionati ed esperti si incontrano per condividere la loro passione per lo sviluppo a tutto tondo.
