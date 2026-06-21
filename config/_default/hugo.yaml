@@ -10,7 +10,7 @@ goToTop: true
 disableHugoGeneratorInject: true
 enableGitInfo: true
 
-theme: ["hugo-redirect", "hugo-blog-awesome"]
+theme: ["teapot"]
 
 related:
   includeNewer: true
@@ -34,6 +34,9 @@ mediaTypes:
   application/atom+xml:
     suffixes:
       - xml
+  text/redirects:
+    suffixes:
+      - ""
 
 outputFormats:
   SearchIndex:
@@ -46,6 +49,12 @@ outputFormats:
     baseName: humans
     isPlainText: true
     mediaType: text/plain
+  Redirects:
+    name: "redirects"
+    baseName: ""
+    isPlainText: true
+    mediaType: "text/redirects"
+    permalinkable: false
 
 outputs:
   home:

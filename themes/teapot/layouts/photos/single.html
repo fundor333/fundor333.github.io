@@ -1,0 +1,104 @@
+{{ define "main" }}
+{{/* Based on https://billglover.me/2023/11/07/creating-a-photography-gallery-with-hugo/ */}}
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <article class="h-entry">
+        {{- partial "bridgy.html" . -}}
+        <header class="mb-4">
+          <h1 class="p-name">{{ .Title }}</h1>
+          <p class="post-meta">
+            <i class="fa-regular fa-typewriter"></i> {{ .Site.Params.Author.name }}
+            {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+            {{ with .Date }}
+            &middot; <i class="fa-regular fa-calendar-range"></i>
+            <time datetime="{{ dateFormat "2006-01-02T15:04:05-07:00" . }}" class="dt-published" itemprop="datePublished">
+              {{ . | time.Format $configDateFormat }}
+            </time>
+            {{ end }}
+          </p>
+          {{ partial "tags.html" . }}
+          {{ partial "toc.html" . }}
+        </header>
+
+        <div class="page-content e-content">
+          {{ with .Resources.ByType "image" }}
+          {{ range . }}
+          {{ $image := . }}
+          {{ if $image }}
+
+          <div class="mb-4">
+            <figure class="figure w-100">
+              <img loading="lazy" class="img-fluid rounded u-photo figure-img" src="{{ $image.Permalink }}" alt="{{ $.Description }}">
+              {{ if $.Params.feature_link }}
+              <figcaption class="figure-caption text-center">{{ $.Description }}</figcaption>
+              {{ end }}
+            </figure>
+            {{ if $.Params.feature_link }}
+            <p class="text-center"><a href="{{ $.Params.feature_link }}">{{ $.Params.feature_text }}</a></p>
+            {{ end }}
+          </div>
+
+          {{/* EXIF data */}}
+          {{ $jsonExif := dict }}
+          {{ with $.Resources.GetMatch "exif.json" }}
+            {{ $jsonExif = index (. | transform.Unmarshal) $image.Name }}
+          {{ end }}
+
+          {{ if $jsonExif }}
+          <div class="table-responsive mb-4">
+            <table class="table table-sm table-bordered">
+              {{ with $jsonExif.datetimeoriginal }}<tr><th scope="row">Date</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.model }}<tr><th scope="row">Camera</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.lensmodel }}<tr><th scope="row">Lens</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.shutter_speed }}<tr><th scope="row">Exposure Time</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.aperture }}<tr><th scope="row">F Number</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.iso }}<tr><th scope="row">ISO</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.focal_length }}<tr><th scope="row">Focal Length</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.exposure_mode }}<tr><th scope="row">Exposure Mode</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.exposure_program }}<tr><th scope="row">Exposure Program</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.exposure_bias }}<tr><th scope="row">Exposure Compensation</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.white_balance }}<tr><th scope="row">White Balance</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with $jsonExif.metering_mode }}<tr><th scope="row">Metering Mode</th><td>{{ . }}</td></tr>{{ end }}
+            </table>
+          </div>
+          {{ else if .Exif }}
+          {{ with .Exif }}
+          <div class="table-responsive mb-4">
+            <table class="table table-sm table-bordered">
+              {{ with $image.Title }}<tr><th scope="row">Title</th><td>{{ . }}</td></tr>{{ end }}
+              {{ with .Date }}<tr><th scope="row">Date</th><td>{{ . }}</td></tr>{{ end }}
+              {{ if isset .Tags "Model" }}<tr><th scope="row">Camera</th><td>{{ .Tags.Model }}</td></tr>{{ end }}
+              {{ if isset .Tags "LensModel" }}<tr><th scope="row">Lens</th><td>{{ .Tags.LensModel }}</td></tr>{{ end }}
+              {{ if isset .Tags "ExposureTime" }}<tr><th scope="row">Exposure Time</th><td>{{ .Tags.ExposureTime }}</td></tr>{{ end }}
+              {{ if isset .Tags "FNumber" }}<tr><th scope="row">F Number</th><td>{{ .Tags.FNumber }}</td></tr>{{ end }}
+              {{ if isset .Tags "ISOSpeedRatings" }}<tr><th scope="row">ISO</th><td>{{ .Tags.ISOSpeedRatings }}</td></tr>{{ end }}
+              {{ if isset .Tags "FocalLength" }}<tr><th scope="row">Focal Length</th><td>{{ .Tags.FocalLength }}</td></tr>{{ end }}
+              {{ if isset .Tags "ExposureMode" }}<tr><th scope="row">Exposure Mode</th><td>{{ if eq .Tags.ExposureMode 1 }}Manual{{ else }}Auto{{ end }}</td></tr>{{ end }}
+              {{ if isset .Tags "WhiteBalance" }}<tr><th scope="row">White Balance</th><td>{{ if eq .Tags.WhiteBalance 1 }}Manual{{ else }}Auto{{ end }}</td></tr>{{ end }}
+              {{ with .Tags.ExposureBiasValue }}<tr><th scope="row">Exposure Compensation</th><td>{{ . }}</td></tr>{{ end }}
+            </table>
+          </div>
+          {{ end }}
+          {{ end }}
+
+          {{ end }}
+          {{ end }}
+          {{ end }}
+
+          <div>
+            {{- partial "bridgy.html" . -}}
+            {{- .Content }}
+          </div>
+        </div>
+
+        {{ partial "share-buttons" . }}
+        {{ partial "cite" . }}
+        {{ partial "series.html" . }}
+        {{- partial "syndication.html" . -}}
+        {{- partial "comments.html" . -}}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

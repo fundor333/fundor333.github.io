@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <header class="mb-4 text-center">
+        <h1>{{ .Title }}</h1>
+      </header>
+      <main aria-label="Content">
+        {{ .Content }}
+        {{ range .Pages }}
+        {{ partial "postCard" . }}
+        {{ end }}
+      </main>
+    </div>
+  </div>
+</div>
+{{ end }}

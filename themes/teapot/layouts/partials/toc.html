@@ -1,0 +1,22 @@
+{{- $toc := .Site.Params.toc -}}
+{{- if isset .Params "toc" -}}{{ $toc = .Params.toc }}{{- end -}}
+
+{{- if $toc -}}
+{{ $tocOpen := .Site.Params.tocOpen | default false }}
+{{ if isset .Params "tocOpen" }}{{ $tocOpen = .Params.tocOpen }}{{ end }}
+<div class="accordion mb-3" id="toc-accordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button{{ if not $tocOpen }} collapsed{{ end }} py-2" type="button"
+        data-bs-toggle="collapse" data-bs-target="#toc-collapse" aria-expanded="{{ $tocOpen }}" aria-controls="toc-collapse">
+        <strong>{{ T "single.table_of_contents" }}</strong>
+      </button>
+    </h2>
+    <div id="toc-collapse" class="accordion-collapse collapse{{ if $tocOpen }} show{{ end }}">
+      <div class="accordion-body py-2">
+        {{ .TableOfContents }}
+      </div>
+    </div>
+  </div>
+</div>
+{{- end -}}

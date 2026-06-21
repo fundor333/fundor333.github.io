@@ -1,0 +1,79 @@
+<footer class="border-top py-5 mt-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        {{ partial "hcard" . }}
+      </div>
+      <div class="col-md-6 text-md-end">
+        <div class="mb-3">
+          {{- partial "socialIcons.html" site.Params.socialIcons -}}
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-12">
+        {{- partial "88x31.html" -}}
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-12 text-center">
+        <p class="mb-1">
+          <a href="https://webring.xxiivv.com/#86" target="_blank" rel="noopener">
+            <img loading="lazy" width="30" height="30" src="https://webring.xxiivv.com/icon.white.svg" alt="XXIIVV webring">
+          </a>
+        </p>
+        <p class="mb-1">
+          <a href="https://xn--sr8hvo.ws/previous">←</a>
+          <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a>
+          <a href="https://xn--sr8hvo.ws/next">→</a>
+        </p>
+        <div>
+          <webring-css site="https://fundor333.com"></webring-css>
+          <script src="https://djangowebring.com/static/webring.js"></script>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-3">
+      <div class="col-12 text-center">
+        <small class="footer-copyright text-muted">
+          © 2012 - {{ now.Format "2006" }} {{ .Site.Params.author.name }}.
+          {{ T "footer.disclaimer" | safeHTML }}
+        </small>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{{- if .Site.Params.goToTop -}}
+<a href="#" id="totop" aria-label="{{ T "footer.go_to_top" }}" title="{{ T "footer.go_to_top" }}">
+  <i class="fa-solid fa-chevron-up"></i>
+</a>
+{{- end -}}
+
+{{- $flag := resources.Get "js/codecorner.js" -}}
+<script type="text/javascript" src="{{ $flag.RelPermalink }}"></script>
+
+<script defer
+  src="https://stats.fundor333.com/script.js"
+  data-domains="fundor333.com,www.fundor333.com,fundor333.dev,www.fundor333.dev,matteoscarpa.it,www.matteoscarpa.it"
+  data-website-id="b8ad3dd1-2f32-4e1a-9e85-2d254aa59fb2">
+</script>
+
+<script>
+anchors.options = { placement: 'left', icon: '❡' };
+anchors.add('.e-content > p');
+</script>
+
+<script>
+$(window).on('load', function() {
+  $('img.u-photo').each(function() {
+    $(this).attr('height', $(this).height());
+  });
+});
+</script>
+
+{{ partial "ko-fi.html" . }}
+{{ partial "syndication-script.html" . }}

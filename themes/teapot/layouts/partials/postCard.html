@@ -1,0 +1,33 @@
+<article class="d-flex justify-content-between align-items-start py-2 border-bottom">
+  <div>
+    <h5 class="mb-1">
+      <a href="{{ .RelPermalink }}" class="text-decoration-none">
+        {{- if eq .Type "post" }}<i class="fa-regular fa-newspaper me-1"></i>
+        {{- else if eq .Type "micro" }}<i class="fa-regular fa-thumbtack me-1" style="transform:rotate(-45deg)"></i>
+        {{- else if eq .Type "photos" }}<i class="fa-regular fa-camera me-1"></i>
+        {{- else if eq .Type "weeknote" }}<i class="fa-kit fa-regular-bowl-chopsticks-noodles-at me-1"></i>
+        {{- else if eq .Type "event" }}<i class="fa-regular fa-calendar me-1"></i>
+        {{- else if eq .Type "now" }}<i class="fa-regular fa-skull me-1"></i>
+        {{- else if eq .Type "series" }}<i class="fa-regular fa-list-ul me-1"></i>
+        {{- else }}<i class="fa-regular fa-ghost me-1"></i>
+        {{- end -}}
+        {{ .Title }}
+      </a>
+    </h5>
+  </div>
+  <div class="text-nowrap ms-3">
+    {{ if .Params.isStarred }}<i class="fa-solid fa-star text-warning me-1"></i>{{ end }}
+    {{ if .Params.speaker }}<i class="fa-solid fa-microphone me-1"></i>{{ end }}
+    {{ $configDateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+    {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
+    {{- if eq .Type "event" }}
+    <time class="text-muted small" datetime="{{ dateFormat $ISO_date .Params.start }}">
+      {{ time.Format $configDateFormat .Params.start }}
+    </time>
+    {{- else if not (eq .Type "series") }}
+    <time class="text-muted small" datetime="{{ dateFormat $ISO_date .Date }}">
+      {{ time.Format $configDateFormat .Date }}
+    </time>
+    {{- end }}
+  </div>
+</article>

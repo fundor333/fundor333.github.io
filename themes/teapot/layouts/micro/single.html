@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <article class="h-entry">
+        <header class="mb-3">
+          <h1 class="p-name">{{ .Title }}</h1>
+          <div class="p-summary" style="display:none">{{ .Description }}</div>
+
+          <p class="post-meta">
+            <i class="fa-regular fa-typewriter"></i> {{ .Site.Params.Author.name }}
+            {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+            {{ with .Date }}
+            &middot; <i class="fa-regular fa-calendar-range"></i>
+            <time datetime="{{ dateFormat "2006-01-02T15:04:05-07:00" . }}" class="dt-published" itemprop="datePublished">
+              {{ . | time.Format $configDateFormat }}
+            </time>
+            {{ end }}
+          </p>
+          {{- partial "tags.html" . -}}
+        </header>
+
+        <hr>
+        <div class="page-content e-content">
+          {{ partial "micro.html" . }}
+          {{- partial "bridgy.html" . -}}
+          {{ .Content }}
+        </div>
+
+        {{ partial "share-buttons" . }}
+        {{ partial "cite" . }}
+        {{ partial "series.html" . }}
+        {{- partial "syndication.html" . -}}
+        {{- partial "comments.html" . -}}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}

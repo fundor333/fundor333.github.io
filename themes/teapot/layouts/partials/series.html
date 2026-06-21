@@ -1,0 +1,33 @@
+{{- if .Params.series -}}
+  {{- with (.GetTerms "series") -}}
+    {{- range . -}}
+      {{- $series := .Pages.ByDate -}}
+      <div class="accordion my-3">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed py-2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#series-{{ .Title | urlize }}"
+              aria-expanded="false">
+              This post is part of the <strong class="ms-1">{{ .Title }}</strong> series
+            </button>
+          </h2>
+          <div id="series-{{ .Title | urlize }}" class="accordion-collapse collapse">
+            <div class="accordion-body py-2">
+              <ol class="mb-0">
+                {{- range $series -}}
+                <li>
+                  {{- if eq .File.UniqueID $.File.UniqueID -}}
+                    <strong>{{ .Title }}</strong>
+                  {{- else -}}
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                  {{- end -}}
+                </li>
+                {{- end -}}
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,71 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom" role="navigation" aria-label="Main Navigation">
+  <div class="container">
+    <a class="navbar-brand" href="{{ .Site.Home.Permalink }}">
+      <i class="fa-solid fa-code"></i>
+    </a>
+
+    <div class="d-flex align-items-center gap-2 order-lg-last">
+      {{/* Dark mode toggle */}}
+      <button class="btn btn-link px-1 text-body" onclick="teapotToggleTheme()" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <i class="fa-regular fa-sun" data-theme-icon-sun></i>
+        <i class="fa-regular fa-moon" data-theme-icon-moon></i>
+      </button>
+
+      {{/* Mobile toggler */}}
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-regular fa-bars"></i>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-nav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item{{ if .HasChildren }} dropdown{{ end }}">
+          {{ if .HasChildren }}
+          <a class="nav-link dropdown-toggle{{ if $currentPage.HasMenuCurrent "main" . }} active{{ end }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{ .Name }}
+          </a>
+          <ul class="dropdown-menu">
+            {{ range .Children }}
+            <li>
+              <a class="dropdown-item{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+          {{ else }}
+          <a class="nav-link{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}" href="{{ .URL }}">
+            {{ .Name }}
+          </a>
+          {{ end }}
+        </li>
+        {{ end }}
+        <li class="nav-item">
+          <a class="nav-link" href="/search" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+        </li>
+      </ul>
+
+      {{/* Language selector */}}
+      {{ if .IsTranslated }}
+      <select class="form-select form-select-sm w-auto ms-2" aria-label="Select Language" onchange="location = this.value;">
+        {{ $siteLanguages := .Site.Languages }}
+        {{ $pageLang := .Page.Lang }}
+        {{ range .Page.AllTranslations }}
+        {{ $translation := . }}
+        {{ range $siteLanguages }}
+        {{ if eq $translation.Lang .Lang }}
+        {{ if eq $pageLang .Lang }}
+        <option value="{{ $translation.Permalink }}" selected>{{ .Locale | upper }}</option>
+        {{ else }}
+        <option value="{{ $translation.Permalink }}">{{ .Locale | upper }}</option>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </select>
+      {{ end }}
+    </div>
+  </div>
+</nav>

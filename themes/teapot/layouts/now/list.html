@@ -1,0 +1,24 @@
+{{- define "main" -}}
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <header class="mb-4">
+        <h1 class="typewriter">{{ .Title }}</h1>
+      </header>
+      <main class="page-content e-content typewriter" aria-label="Content">
+        {{.Content}}
+        {{ range $index, $element := .Pages.ByDate.Reverse }}
+        {{ if (eq $index 0) }}
+        {{ $element.Content }}
+        <hr class="my-4">
+        {{ else }}
+        {{ partial "postCard" $element }}
+        {{ end }}
+        {{ end }}
+      </main>
+      {{- partial "syndication.html" . -}}
+      {{- partial "comments.html" . -}}
+    </div>
+  </div>
+</div>
+{{- end -}}

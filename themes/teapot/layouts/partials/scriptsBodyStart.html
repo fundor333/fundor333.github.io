@@ -1,0 +1,16 @@
+{{/* Dark mode init — runs before body renders to prevent flash */}}
+<script>
+(function () {
+  var saved = localStorage.getItem('teapot-theme');
+  var defaultColor = '{{ .Site.Params.defaultColor | default "auto" }}';
+  var theme;
+  if (saved) {
+    theme = saved;
+  } else if (defaultColor === 'auto') {
+    theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  } else {
+    theme = defaultColor;
+  }
+  document.documentElement.setAttribute('data-bs-theme', theme);
+})();
+</script>

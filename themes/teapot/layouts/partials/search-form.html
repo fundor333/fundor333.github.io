@@ -1,0 +1,20 @@
+<form id="search" action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get" class="mb-4">
+  <div class="input-group">
+    <label class="visually-hidden" for="search-input">Search site</label>
+    <input type="text" id="search-input" name="q" class="form-control form-control-lg" placeholder="Search…" autocomplete="off">
+    <button class="btn btn-outline-secondary" type="submit" aria-label="Search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </div>
+</form>
+
+<script>
+window.addEventListener('DOMContentLoaded', function() {
+  var params = new URLSearchParams(window.location.search);
+  var q = params.get('q');
+  if (q) {
+    var el = document.getElementById('search-input');
+    if (el) el.value = q;
+  }
+});
+</script>

@@ -1,0 +1,21 @@
+{{- define "main" -}}
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <header class="mb-4 text-center">
+        <h1>{{ .Title }}</h1>
+      </header>
+      <main aria-label="Content">
+        {{ range .Data.Terms.Alphabetical }}
+        <h2 class="post-year-heading">
+          <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+        </h2>
+        {{ range .Pages }}
+        {{ partial "postCard" . }}
+        {{ end }}
+        {{ end }}
+      </main>
+    </div>
+  </div>
+</div>
+{{- end -}}

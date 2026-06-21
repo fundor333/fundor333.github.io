@@ -1,0 +1,14 @@
+{{with .Params.syndication}}
+<hr>
+<div class="syndication mb-3">
+  <p class="mb-1">
+    <i class="fa-solid fa-link me-1"></i>
+    <strong>Also posted on:</strong>
+    {{ range $index, $url := . }}
+    {{- $parsed_url := urls.Parse $url -}}
+    {{- if $index }}, {{- end }}
+    <a target="_blank" class="u-syndication nowrap" href="{{ $url }}" rel="syndication">{{ $parsed_url.Host }}</a>
+    {{ end }}
+  </p>
+</div>
+{{ end }}

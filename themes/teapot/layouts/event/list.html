@@ -1,0 +1,26 @@
+{{- define "main" -}}
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <header class="mb-4">
+        <h1>{{ .Title }}</h1>
+        {{- .Content }}
+      </header>
+      <main aria-label="Content">
+        {{ $year := 30000 }}
+        {{ $dataYear := "" }}
+        {{ range (site.Pages.GroupByParam "start").Reverse }}
+        {{ $dataYear = (dateFormat "2006" .Key) }}
+        {{ if lt $dataYear $year }}
+        {{ $year = $dataYear }}
+        <h2 class="post-year-heading">{{ $year }}</h2>
+        {{ end }}
+        {{ range .Pages }}
+        {{ partial "postCard" . }}
+        {{ end }}
+        {{ end }}
+      </main>
+    </div>
+  </div>
+</div>
+{{- end -}}

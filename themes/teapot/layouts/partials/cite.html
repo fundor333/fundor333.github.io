@@ -1,0 +1,23 @@
+<div class="accordion my-3">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed py-2" type="button"
+        data-bs-toggle="collapse" data-bs-target="#cite-collapse" aria-expanded="false">
+        Reference this post
+      </button>
+    </h2>
+    <div id="cite-collapse" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <p>Please reference this post with a link to this page. I prefer to be called <em>Fundor333</em> (he/him) or <em>Fundor333's Blog</em>.</p>
+        <p><a href="https://fundor333.com/cite">Learn more</a></p>
+        <div class="input-group">
+          <label class="input-group-text" for="citeInput">URL</label>
+          <input type="text" id="citeInput" class="form-control" value="{{ .Page.Permalink }}" readonly onclick="this.select(); navigator.clipboard.writeText(this.value); this.setCustomValidity('Copied!'); setTimeout(() => this.setCustomValidity(''), 2000);">
+          <button class="btn btn-outline-secondary" type="button" onclick="var el=document.getElementById('citeInput'); el.select(); navigator.clipboard.writeText(el.value);" aria-label="Copy URL">
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

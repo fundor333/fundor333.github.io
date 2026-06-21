@@ -1,0 +1,36 @@
+name = "teapot"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "Personal site theme with IndieWeb, Mastodon, webmentions, Bridgy syndication, 88x31 badges. Named after HTTP 418 I'm a Teapot — because coding and tea belong together."
+
+tags = [
+  "blog",
+  "indieweb",
+  "mastodon",
+  "webmentions",
+  "responsive",
+  "dark",
+  "photos",
+  "micro",
+  "bridgy",
+  "search",
+]
+
+features = [
+  "blog",
+  "sass",
+  "dark",
+  "indieweb",
+  "webmentions",
+  "bridgy",
+  "search",
+  "shortcodes",
+  "feeds",
+  "redirect",
+]
+
+min_version = "0.120.0"
+
+[author]
+  name = "Matteo Scarpa"
+  homepage = "https://fundor333.com"

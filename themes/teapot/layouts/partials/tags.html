@@ -1,0 +1,22 @@
+<div class="d-flex flex-wrap gap-1 my-2" id="tags">
+  {{ range .Params.tags }}
+  <a data-umami-event="Tag Click" data-umami-event-tag="{{ . }}"
+     class="badge text-bg-secondary text-decoration-none p-category tag-link" rel="tag"
+     href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+  {{ end }}
+  {{ range .Params.categories }}
+  <a data-umami-event="Category Click" data-umami-event-category="{{ . }}"
+     class="badge text-bg-primary text-decoration-none p-category tag-link" rel="tag"
+     href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+  {{ end }}
+  {{ range .Params.themes }}
+  <a data-umami-event="Theme Click" data-umami-event-theme="{{ . }}"
+     class="badge text-bg-info text-decoration-none p-category tag-link" rel="tag"
+     href="{{ "/themes/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+  {{ end }}
+  {{ range .Params.group }}
+  <a data-umami-event="Group Click" data-umami-event-group="{{ . }}"
+     class="badge text-bg-dark text-decoration-none p-category tag-link" rel="tag"
+     href="{{ "/group/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+  {{ end }}
+</div>

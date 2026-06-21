@@ -1,0 +1,26 @@
+{{if in site.Params.commentSections .Type}}
+<hr>
+<h3>Comments</h3>
+<p>To reply to this post, send a <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener">Webmention</a> or toot me at <a href="https://mastodon.social/@fundor333" target="_blank" rel="noopener me">fundor333@mastodon.social</a></p>
+
+{{ partial "webmention" . }}
+
+{{ $params := .Params.comments }}
+{{ with .Params.comments }}
+  {{ partial "mastodon" $params }}
+{{ end }}
+
+<a href="https://brid.gy/publish/bluesky" style="display:none"></a>
+<a href="https://brid.gy/publish/mastodon" style="display:none"></a>
+{{end}}
+
+{{if in site.Params.suggestionSections .Type}}
+<br>
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<h4 class="mt-4">See Also</h4>
+{{ range . }}
+{{ partial "postCard" . }}
+{{ end }}
+{{ end }}
+{{end}}

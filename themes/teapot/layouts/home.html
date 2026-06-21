@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{{- $defaultColor := .Site.Params.defaultColor | default "auto" -}}
+<html lang="{{ .Site.Language.Locale }}" data-bs-theme="{{ $defaultColor }}">
+  {{- partial "head.html" . -}}
+  <body>
+    {{- partial "scriptsBodyStart.html" . -}}
+    {{- partial "header.html" . -}}
+
+    <main class="container py-4" aria-label="Content">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+          {{ partial "bio" . }}
+
+          {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+          {{ $posts := $pagesToShow.ByDate.Reverse }}
+          {{ if $posts }}
+          <h3 class="mt-4 mb-3">{{ T "home.recent_posts" }}</h3>
+          {{ range first 20 $posts }}
+          {{ partial "postCard" . }}
+          {{ end }}
+          {{ if gt (len $posts) 5 }}
+          <p class="text-center mt-3">
+            {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
+            <a href="{{ $firstSection.Permalink }}" class="btn btn-outline-secondary btn-sm">{{ T "home.see_all_posts" }}</a>
+            {{ end }}
+          </p>
+          {{ end }}
+          {{ end }}
+
+          {{ $secondaryPosts := where .Site.RegularPages "Type" "in" site.Params.secondarysections }}
+          {{ $secondary := $secondaryPosts.ByDate.Reverse }}
+          {{ if $secondary }}
+          <h3 class="mt-5 mb-3">{{ T "home.recent_posts" }}</h3>
+          {{ range first 20 $secondary }}
+          {{ partial "postCard" . }}
+          {{ end }}
+          {{ if gt (len $secondary) 5 }}
+          <p class="text-center mt-3">
+            {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.secondarysections))) }}
+            <a href="{{ $firstSection.Permalink }}" class="btn btn-outline-secondary btn-sm">{{ T "home.see_all_posts" }}</a>
+            {{ end }}
+          </p>
+          {{ end }}
+          {{ end }}
+
+        </div>
+      </div>
+    </main>
+
+    {{- partial "footer.html" . -}}
+    {{- partial "scriptsBodyEnd.html" . -}}
+  </body>
+</html>

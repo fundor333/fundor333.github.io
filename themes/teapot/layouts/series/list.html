@@ -1,0 +1,20 @@
+{{- define "main" -}}
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <header class="mb-4">
+        <h1>{{ .Title }}</h1>
+      </header>
+      <main aria-label="Content">
+        {{ range .Pages.GroupByDate "2006" }}
+        {{ range .Pages.ByDate }}
+        {{ partial "postCard" . }}
+        {{ end }}
+        {{ end }}
+      </main>
+      {{- partial "syndication.html" . -}}
+      {{- partial "comments.html" . -}}
+    </div>
+  </div>
+</div>
+{{- end -}}

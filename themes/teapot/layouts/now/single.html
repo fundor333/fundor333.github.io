@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <article class="h-entry typewriter">
+        <header class="mb-4">
+          <h1 class="p-name typewriter">
+            {{ .Title }}
+            <a href="/now/" class="ms-2 text-muted fs-5" aria-label="Back to Now archive">
+              <i class="fa-solid fa-backward-step"></i>
+            </a>
+          </h1>
+          <a class="u-url" href="{{ .Permalink }}" style="display:none"><div class="p-summary">{{ .Description }}</div></a>
+          <a rel="author" class="p-author h-card" href="{{ .Site.BaseURL }}" style="display:none">{{ .Site.Params.Author.name }}</a>
+        </header>
+
+        <div class="page-content e-content typewriter">
+          {{ .Content }}
+        </div>
+
+        {{ partial "share-buttons" . }}
+        {{ partial "cite" . }}
+        {{- partial "syndication.html" . -}}
+        {{- partial "comments.html" . -}}
+      </article>
+    </div>
+  </div>
+</div>
+{{ end }}
