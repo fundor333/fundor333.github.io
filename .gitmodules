@@ -1,7 +1,0 @@
-[submodule "themes/hugo-redirect"]
-	path = themes/hugo-redirect
-	url = https://github.com/gcc42/hugo-redirect.git
-
-[submodule "themes/hugo-blog-awesome"]
-	path = themes/hugo-blog-awesome
-	url = https://github.com/hugo-sid/hugo-blog-awesome.git
