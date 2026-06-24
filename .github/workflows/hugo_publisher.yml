@@ -44,7 +44,7 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Checkout
-        uses: actions/checkout@v6.0.3
+        uses: actions/checkout@v7.0.0
         with:
           submodules: recursive
 
@@ -54,7 +54,7 @@ jobs:
           python-version: "3.14"
 
       - name: Cache node modules
-        uses: actions/cache@v5.0.5
+        uses: actions/cache@v6.0.0
         env:
           cache-name: cache-node-modules-v1
         with:
@@ -87,7 +87,7 @@ jobs:
           timezoneWindows: Europe/Rome
 
       - name: Cache built website
-        uses: actions/cache@v5.0.5
+        uses: actions/cache@v6.0.0
         env:
           cache-name: cache-website-v1
         with:
