@@ -13,7 +13,7 @@
 	"description": "The source code for fundor333.com",
 	"engines": {
 		"node": "24.x",
-		"npm": "11.x"
+		"npm": "12.x"
 	},
 	"keywords": [],
 	"name": "fundor333.com",
