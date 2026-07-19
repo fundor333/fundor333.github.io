@@ -21,6 +21,8 @@ draft: False
 - [What’s Up with Sailor Studio Inks? – The Well-Appointed Desk](https://www.wellappointeddesk.com/2026/07/whats-up-with-sailor-studio-inks/?utm_source=fundor333.com)
 - [Tokyo rainy season scenery  — Tokyo Times](https://www.tokyotimes.org/tokyo-rainy-season-scenery/?utm_source=fundor333.com)
 - [A Git hook to prevent committing directly to main – alexwlchan](https://alexwlchan.net/2026/no-main-hook/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 29/2026](https://fundor333.com/weeknotes/2026/29/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
