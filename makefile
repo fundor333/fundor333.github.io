@@ -96,8 +96,8 @@ submodule: ## Get submodule for this repo
 
 .PHONY: weekly
 weekly: ## Weekly script
-	@weeknote -config weeknote-config.json
-	@python3 make-post.py weekly_cover
+	@uv run weeknote -config weeknote-config.json
+	@uv run python3 make-post.py weekly_cover
 
 precommit: ## Run pre-commit hooks
 	@git add . & uv run pre-commit run
