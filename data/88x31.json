@@ -1,84 +1,104 @@
 {
 	"badges": [
 		{
+			"alt": "Me - Fundor333",
 			"img": "/icons/88x31/fundor333.gif",
-			"url": "/",
-			"alt": "Me - Fundor333"
+			"url": "/"
 		},
 		{
+			"alt": "Small Web Seal",
 			"img": "https://kagifeedback.org/assets/files/2025-11-27/1764250973-708369-88x31-2.gif",
-			"url": "https://kagi.com/smallweb",
-			"alt": "Small Web Seal"
+			"url": "https://kagi.com/smallweb"
 		},
 		{
+			"alt": "Catppuccin",
 			"img": "/icons/88x31/catppuccin-animated.gif",
-			"url": "https://catppuccin.com",
-			"alt": "Catppuccin"
+			"url": "https://catppuccin.com"
 		},
 		{
+			"alt": "CSS is dif",
 			"img": "/icons/88x31/cssdif.gif",
-			"url": "https://news.ycombinator.com/item?id=38655377",
-			"alt": "CSS is dif"
+			"url": "https://news.ycombinator.com/item?id=38655377"
 		},
 		{
+			"alt": "RSS Feed",
 			"img": "/icons/88x31/feed.gif",
-			"url": "/feeds",
-			"alt": "RSS Feed"
+			"url": "/feeds"
 		},
 		{
+			"alt": "Tangled git",
 			"img": "/icons/88x31/sh.tangled.git.temp.gif",
-			"url": "https://ko-fi.com/fundor333",
-			"alt": "Tangled git"
+			"url": "https://ko-fi.com/fundor333"
 		},
 		{
+			"alt": "XXIIVV",
 			"img": "https://wiki.xxiivv.com/media/services/button.gif",
-			"url": "https://wiki.xxiivv.com/site/home.html",
-			"alt": "XXIIVV"
+			"url": "https://wiki.xxiivv.com/site/home.html"
 		},
 		{
+			"alt": "BrainMade",
 			"img": "https://brainmade.org/88x31-dark.png",
-			"url": "https://brainmade.org/",
-			"alt": "BrainMade"
+			"url": "https://brainmade.org/"
 		},
 		{
+			"alt": "BacaroTech",
 			"img": "/icons/88x31/bacarotech.gif",
-			"url": "https://bacarotech.github.io/",
-			"alt": "BacaroTech"
+			"url": "https://bacarotech.github.io/"
 		},
 		{
+			"alt": "He/Him Pronouns",
 			"img": "/icons/88x31/badge_he_him.png",
-			"url": "https://fundor333.com/guy/",
-			"alt": "He/Him Pronouns"
+			"url": "https://fundor333.com/guy/"
 		},
 		{
+			"alt": "Bisexual",
 			"img": "/icons/88x31/bisex.gif",
-			"url": "https://fundor333.com/guy/",
-			"alt": "Bisexual"
+			"url": "https://fundor333.com/guy/"
 		},
 		{
+			"alt": "Hideout",
 			"img": "https://hideout.ink/images/squid-export.gif",
-			"url": "https://hideout.ink/",
-			"alt": "Hideout"
+			"url": "https://hideout.ink/"
 		},
 		{
+			"alt": "ZHCET",
 			"img": "https://zhcet.net/static/images/banner.gif",
-			"url": "https://zhcet.net/",
-			"alt": "ZHCET"
+			"url": "https://zhcet.net/"
 		},
 		{
+			"alt": "Angelwood",
 			"img": "https://angelwood.xyz/images/boop.png",
-			"url": "https://angelwood.xyz/",
-			"alt": "Angelwood"
+			"url": "https://angelwood.xyz/"
 		},
 		{
+			"alt": "Kokorobot",
 			"img": "https://kokorobot.ca/media/interface/button.gif",
-			"url": "https://kokorobot.ca/",
-			"alt": "Kokorobot"
+			"url": "https://kokorobot.ca/"
 		},
 		{
+			"alt": "Gosha",
 			"img": "https://gosha.net/assets/images/88x31.svg",
-			"url": "https://gosha.net/",
-			"alt": "Gosha"
+			"url": "https://gosha.net/"
+		},
+		{
+			"alt": "Mastodon",
+			"img": "/icons/88x31/mastodon.gif",
+			"url": "https://mastodon.social/@fundor333"
+		},
+		{
+			"alt": "Bluesky",
+			"img": "/icons/88x31/bluesky.gif",
+			"url": "https://bsky.app/profile/fundor333.bsky.social"
+		},
+		{
+			"alt": "Calibre",
+			"img": "/icons/88x31/calibre.png",
+			"url": "https://calibreapp.com/"
+		},
+		{
+			"alt": "Ubuntu",
+			"img": "/icons/88x31/ubuntu.png",
+			"url": "https://ubuntu.com/"
 		}
 	]
 }
