@@ -1,6 +1,6 @@
 ---
 title: "Standing Up Alone - In Piedi da Solo"
-date: 2026-07-19T23:20:22+02:00
+date: 2026-07-20T23:08:22+02:00
 description:
 tags:
 - photography
