@@ -99,6 +99,14 @@ weekly: ## Weekly script
 	@uv run weeknote -config weeknote-config.json
 	@uv run python3 make-post.py weekly_cover
 
+.PHONY: weeknote_webmentions
+weeknote_webmentions: ## Send webmentions for the latest weeknote post
+	@uv run python action_script/send_weeknote_webmentions.py
+
+.PHONY: weeknote_webmentions_year
+weeknote_webmentions_year: ## Send webmentions for all weeknote posts of the current year
+	@uv run python action_script/send_weeknote_webmentions.py $$(date +%Y)
+
 precommit: ## Run pre-commit hooks
 	@git add . & uv run pre-commit run
 
