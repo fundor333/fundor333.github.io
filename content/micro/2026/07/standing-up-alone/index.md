@@ -10,6 +10,6 @@ categories:
 
 And the next month I will have a little photographic exhibition in Venice, Italy.
 
-Here the flyer for the exhibition
+Here the flyer for the exhibition and [here](https://matteoscarpa.it/in-piedi-da-solo/) is the link at the webpage
 
 ![poster.png](poster.png)
