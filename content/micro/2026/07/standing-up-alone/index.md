@@ -1,11 +1,17 @@
 ---
-title: "Standing Up Alone - In Piedi da Solo"
-date: 2026-07-20T12:08:22+02:00
-description:
+title: Standing Up Alone - In Piedi da Solo
+date: 2026-07-20 12:08:22+02:00
+description: null
 tags:
 - photography
 - urban
-categories:
+categories: null
+syndication:
+- https://mastodon.social/@fundor333/116951787862146685
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '116951787862146685'
 ---
 
 And the next month I will have a little photographic exhibition in Venice, Italy.
