@@ -7,6 +7,7 @@ tags:
 - urban
 categories: null
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mr32vrl4lk2r
 - https://mastodon.social/@fundor333/116951787862146685
 comments:
   host: mastodon.social
