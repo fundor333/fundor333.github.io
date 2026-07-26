@@ -14,11 +14,10 @@
 # Requires a Hugo Project (https://www.gohugo.io)
 # Requires Python 3.7 or higher
 
-import os
 import sys
-from urllib.request import urlretrieve
+from pathlib import Path
 from urllib.error import URLError
-
+from urllib.request import urlretrieve
 
 # Let's try to fetch the Mastodon account
 # from the command line argument
@@ -56,28 +55,28 @@ url += f"?resource=acct:{account[1:]}"
 # Let's prepare some variables with the paths to
 # the static and .well-known directories, as well
 # as the path to the webfinger file
-current_dir = os.getcwd()
-static_dir = os.path.join(current_dir, "static")
-well_known_dir = os.path.join(static_dir, ".well-known")
-webfinger_file = os.path.join(well_known_dir, "webfinger")
+current_dir = Path.cwd()
+static_dir = current_dir / "static"
+well_known_dir = static_dir / ".well-known"
+webfinger_file = well_known_dir / "webfinger"
 
 # Let's check if a 'static' directory already exists
-if not os.path.exists(static_dir):
+if not static_dir.exists():
     # Nope. We need to create it
     print(f"Creating static directory at {static_dir!r}")
-    os.makedirs(static_dir)
+    static_dir.mkdir(parents=True)
 
 # Let's check if a '.well-known' sub-directory
 # already exists inside of the 'static' directory
-if not os.path.exists(well_known_dir):
+if not well_known_dir.exists():
     # Nope. We need to create it
     print(f"Creating static/.well-known directory at {well_known_dir!r}")
-    os.makedirs(well_known_dir)
+    well_known_dir.mkdir(parents=True)
 
 # Let's download the Mastodon account's webfinger file
 # and place it in the static/.well-known directory
 try:
-    urlretrieve(url, webfinger_file)
+    urlretrieve(url, str(webfinger_file))
 except URLError:
     # Uh Oh, something went wrong
     print(f"Couldn't connect to {url!r}")

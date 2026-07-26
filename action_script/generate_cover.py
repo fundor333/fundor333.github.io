@@ -1,5 +1,5 @@
-from PIL import Image, ImageDraw, ImageFont  # 👉️ Import modules from PIL
 import typer
+from PIL import Image, ImageDraw, ImageFont  # 👉️ Import modules from PIL
 
 
 def generate_img(message: str, path: str):

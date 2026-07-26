@@ -2,7 +2,6 @@ import datetime
 import subprocess
 
 import typer
-
 from generate_cover import generate_img
 
 

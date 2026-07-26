@@ -32,7 +32,7 @@ update: clean ## Update the site requirements
 	@uv run pre-commit autoupdate
 
 send_webmention: ## Send webmention from feed
-	@uv run python send_webmention.py
+	@uv run python action_script/send_webmention.py
 
 develop: ## Run the site local
 	@hugo server --disableFastRender --renderToMemory
@@ -50,10 +50,10 @@ hydra: ## Check links
 
 .PHONY: new
 new: ## Make new object for the blog
-	@uv run python3 make-post.py
+	@uv run python3 action_script/make_post
 
 characters: ## Sorting characters
-	@python3 sorting_characters.py
+	@python3 action_script/sorting_characters.py
 
 .PHONY: build
 build: clean ## Build for dev
@@ -74,7 +74,7 @@ automation: anime photo_exif ## Run all the automation script
 
 deploy: update characters meet automation## Ready to deploy
 	@hugo --minify
-	@python mastodon2hugo.py @fundor333@mastodon.social
+	@python action_script/mastodon2hugo.py @fundor333@mastodon.social
 	@git add .
 	@uv run pre-commit run
 	@git add .
@@ -97,7 +97,7 @@ submodule: ## Get submodule for this repo
 .PHONY: weekly
 weekly: ## Weekly script
 	@uv run weeknote -config weeknote-config.json
-	@uv run python3 make-post.py weekly_cover
+	@uv run python3 action_script/make_post weekly_cover
 
 .PHONY: weeknote_webmentions
 weeknote_webmentions: ## Send webmentions for the latest weeknote post
@@ -111,23 +111,23 @@ precommit: ## Run pre-commit hooks
 	@git add . & uv run pre-commit run
 
 micro: ## Run microblog script
-	@uv run python3 make-post.py micro
+	@uv run python3 action_script/make_post micro
 
 now: ## Run now script
-	@uv run python3 make-post.py now
+	@uv run python3 action_script/make_post now
 
 notebook: ## Run notebook script
-	@uv run python3 make-post.py notebook
+	@uv run python3 action_script/make_post notebook
 
 notebook_editor: ## Run notebook editor
 	@uv run jupyter lab .
 
 meet: ## Run meet script
-	@uv run python3 micro_meetup.py --memory True
+	@uv run python3 action_script/micro_meetup.py --memory True
 
 event: ## Run event script (passa URL con: make event URL="https://meetup.com/...")
 	@echo "Script per i nuovi eventi, usa meet per gli eventi in memoria"
-	@uv run python3 micro_meetup.py $(URL)
+	@uv run python3 action_script/micro_meetup.py $(URL)
 
 eventi: event ## Run eventi script
 

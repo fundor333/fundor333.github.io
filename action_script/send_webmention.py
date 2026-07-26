@@ -1,5 +1,5 @@
-import requests
 import feedparser
+import requests
 from rich.console import Console
 from rich.text import Text
 
@@ -10,14 +10,9 @@ feed_url = [
 
 def send_webmention(url: str):
     # send post request to webmention
-    r = requests.post(
-        f"https://webmention.app/check?token=d6ecd337-f1c5-4b3f-8e82-5dc280d727fa&url={url}"
-    )
+    r = requests.post(f"https://webmention.app/check?token=d6ecd337-f1c5-4b3f-8e82-5dc280d727fa&url={url}")
     console = Console()
-    if 200 <= r.status_code < 400:
-        color = "green"
-    else:
-        color = "red"
+    color = "green" if 200 <= r.status_code < 400 else "red"
     text = Text.assemble((str(r.status_code), color), f" {url}")
     console.print(text)
 
