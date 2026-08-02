@@ -1,7 +1,7 @@
 ---
 title: "Week Note Nº 31/2026"
-date: "2026-07-27T09:00:00+01:00"
-lastmod: "2026-07-27T09:00:00+01:00"
+date: "2026-08-02T09:00:00+01:00"
+lastmod: "2026-08-02T09:00:00+01:00"
 tags: ["weeknote"]
 type : "weeknote"
 summary: "Personal notes for week 31 of 2026"
@@ -11,12 +11,11 @@ draft: False
 
 
 ## Suggested Reading Links/Posts
-- [Jeff Triplett](https://jefftriplett.com/posts/moving-my-website-from-jekyll-to-django/?utm_source=fundor333.com)
-- [What's the Best Everyday Stationery Bag? My Own Considerations and 5 Options for Pen Show Season — The Gentleman Stationer](https://www.gentlemanstationer.com/blog/2026/7/25/whats-the-best-everyday-stationery-bag-my-own-considerations-and-5-options?utm_source=fundor333.com)
-- [Example Domain](http://example.com/posts/moving-my-website-from-jekyll-to-django/?utm_source=fundor333.com)
+- [Why Book Corners won't sync contributions back to OpenStreetMap](https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/?utm_source=fundor333.com)
+- [Micro app 21: ghosthunter CLI](https://birchtree.me/blog/micro-app-21-ghosthunter-cli/?utm_source=fundor333.com)
+- [Tokyo people and their homes — Tokyo Times](https://www.tokyotimes.org/tokyo-people-and-their-homes/?utm_source=fundor333.com)
 ## New post from my blog
-- [Week Note Nº 30/2026](https://fundor333.com/weeknotes/2026/30/?utm_source=fundor333.com)
-- [Now 2026/07/26](https://fundor333.com/now/2026/07/26/2026-07-26/?utm_source=fundor333.com)
+- [Week Note Nº 31/2026](https://fundor333.com/weeknotes/2026/31/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
