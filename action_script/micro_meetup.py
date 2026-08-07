@@ -76,8 +76,6 @@ def convert_dict_to_post(data):
     event_url = event["eventUrl"]
     # event_type = event["eventType"]
     how_to_find_us = event.get("howToFindUs", "")
-    if any([how_to_find_us == "None", how_to_find_us is None, how_to_find_us == "null"]):
-        how_to_find_us = ""
     venues = event["venues"]
     group_name = event["group"]["name"]
     topics = [edge["node"]["id"] for edge in event["topics"]["edges"]]
@@ -93,8 +91,6 @@ def convert_dict_to_post(data):
     else:
         venue_str = "Online"
 
-    how_to_find_us_str = f" {how_to_find_us}" if how_to_find_us else ""
-
     post = f"""---
 title: {title!r}
 date: {now}
@@ -105,7 +101,7 @@ group:
 - {group_name}
 tags: [{tags_str}]
 event_url: {event_url}
-how_to_find_us:{how_to_find_us_str}
+how_to_find_us:{how_to_find_us}
 ---\n"""
     post += f"{description}\n"
     # create the content/event directory if it doesn't exist

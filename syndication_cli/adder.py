@@ -60,6 +60,7 @@ def _add_syndication_to_post(filepath: str, new_links: list[str], dry_run: bool 
     if not dry_run:
         new_frontmatter = yaml.dump(frontmatter, sort_keys=False, allow_unicode=True)
         new_content = f"---\n{new_frontmatter}---\n{body}"
+        new_content = new_content.replace(": null", ":")
         with Path(filepath).open("w", encoding="utf-8") as f:
             f.write(new_content)
 
