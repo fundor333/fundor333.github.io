@@ -75,7 +75,9 @@ def convert_dict_to_post(data):
     end_time = datetime.datetime.fromisoformat(event["endTime"].replace("Z", ""))
     event_url = event["eventUrl"]
     # event_type = event["eventType"]
-    how_to_find_us = event["howToFindUs"]
+    how_to_find_us = event.get("howToFindUs", "")
+    if any([how_to_find_us == "None", how_to_find_us is None, how_to_find_us == "null"]):
+        how_to_find_us = ""
     venues = event["venues"]
     group_name = event["group"]["name"]
     topics = [edge["node"]["id"] for edge in event["topics"]["edges"]]
@@ -91,6 +93,8 @@ def convert_dict_to_post(data):
     else:
         venue_str = "Online"
 
+    how_to_find_us_str = f" {how_to_find_us}" if how_to_find_us else ""
+
     post = f"""---
 title: {title!r}
 date: {now}
@@ -101,7 +105,7 @@ group:
 - {group_name}
 tags: [{tags_str}]
 event_url: {event_url}
-how_to_find_us: {how_to_find_us}
+how_to_find_us:{how_to_find_us_str}
 ---\n"""
     post += f"{description}\n"
     # create the content/event directory if it doesn't exist
@@ -153,9 +157,10 @@ def main(
             with Path("action_script/data/memory_meetup.txt").open() as f:
                 memory = f.read().splitlines()
             for item in memory:
-                print(f"Fetching event {item} from memory...")
-                data = fetch_event_from_json(item)
-                convert_dict_to_post(data)
+                if item:
+                    print(f"Fetching event {item} from memory...")
+                    data = fetch_event_from_json(item)
+                    convert_dict_to_post(data)
 
         else:
             print("No memory file found.")
