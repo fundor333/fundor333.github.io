@@ -1,7 +1,7 @@
 ---
 title: "Week Note Nº 33/2026"
-date: "2026-08-10T09:00:00+01:00"
-lastmod: "2026-08-10T09:00:00+01:00"
+date: "2026-08-16T09:00:00+01:00"
+lastmod: "2026-08-16T09:00:00+01:00"
 tags: ["weeknote"]
 type : "weeknote"
 summary: "Personal notes for week 33 of 2026"
@@ -10,10 +10,8 @@ draft: False
 ---
 
 
-## Suggested Reading Links/Posts
-- [Using GoToSocial as the Social Layer for Your Apps](https://maho.dev/2026/08/using-gotosocial-as-the-social-layer-for-your-apps/?utm_source=fundor333.com)
 ## New post from my blog
-- [Week Note Nº 32/2026](https://fundor333.com/weeknotes/2026/32/?utm_source=fundor333.com)
+- [Week Note Nº 33/2026](https://fundor333.com/weeknotes/2026/33/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
