@@ -264,6 +264,28 @@ def _process_json_files(config: SyndicationConfig) -> list[dict]:
     return updates
 
 
+def add_mention(source_url: str, destination_url: str, config: SyndicationConfig) -> dict | None:
+    content_dir = config.site.content_dir
+
+    post_path = find_post_from_source(source_url, content_dir)
+    if not post_path:
+        logger.error(f"Post not found for source: {source_url}")
+        return None
+
+    added = _add_syndication_to_post(post_path, [destination_url], config.options.dry_run)
+    if not added:
+        logger.info(f"No new mention added to {post_path} (already present?)")
+        return None
+
+    logger.info(f"Added mention {destination_url} to {post_path}")
+    return {
+        "file": post_path,
+        "source": source_url,
+        "syndication": " | ".join(added),
+        "feed": "manual",
+    }
+
+
 def add(config: SyndicationConfig) -> None:
     logger.info("Starting add operation...")
     log = []

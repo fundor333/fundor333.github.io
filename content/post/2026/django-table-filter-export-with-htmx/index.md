@@ -18,8 +18,10 @@ categories:
 series:
 - Django tricks
 syndication:
+- https://django-news.com/archive/issue-333-django-news-30-off-pycharm-pro-100-for
 - https://mastodon.social/@fundor333/116339412777044941
 - https://news.ycombinator.com/item?id=47624069
+- https://www.pythonweekly.com/p/python-weekly-issue-740-april-9-2026
 - https://www.reddit.com/r/django/comments/1sbggko/django_table_filter_and_export_with_htmx
 - https://www.reddit.com/r/u_fundor333/comments/1sbggqb/django_table_filter_and_export_with_htmx
 - https://www.reddit.com/r/webdev/comments/1sc86ep/how_i_combine_django_table_filter_and_export_with

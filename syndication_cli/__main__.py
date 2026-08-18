@@ -1,6 +1,6 @@
 import typer
 
-from syndication_cli.adder import add
+from syndication_cli.adder import add, add_mention
 from syndication_cli.collector import collect
 from syndication_cli.config import load_config, setup_logging
 from syndication_cli.corrector import correct
@@ -77,6 +77,37 @@ def add_cmd(
     """
     config = get_config(config_path, dry_run, verbose)
     add(config)
+
+
+@app.command("add-mention")
+def add_mention_cmd(
+    source: str = typer.Option(
+        ..., "--source", "-s", prompt="Link di origine (post del blog)", help="URL of the original blog post"
+    ),
+    destination: str = typer.Option(
+        ...,
+        "--destination",
+        "-d",
+        prompt="Link di destinazione (post sindacato)",
+        help="URL of the mention (syndicated post)",
+    ),
+    config_path: str = typer.Option(DEFAULT_CONFIG_PATH, "--config", "-c", help="Path to config file"),
+    dry_run: bool = typer.Option(DEFAULT_DRY_RUN, "--dry-run", help="Dry run mode"),
+    verbose: bool = typer.Option(DEFAULT_VERBOSE, "--verbose", "-v", help="Verbose output"),
+):
+    """
+    Manually add a mention linking a blog post to its syndicated copy.
+
+    Aggiunge manualmente una menzione collegando un post del blog (origine)
+    al relativo post sindacato su un altro servizio (destinazione), senza
+    passare dai feed RSS.
+    """
+    config = get_config(config_path, dry_run, verbose)
+    result = add_mention(source, destination, config)
+    if result:
+        typer.secho(f"Mention added to {result['file']}", fg=typer.colors.GREEN)
+    else:
+        typer.secho("No mention added", fg=typer.colors.YELLOW)
 
 
 @app.command()
