@@ -27,6 +27,7 @@ keywords:
 syndication:
 - https://mastodon.social/@fundor333/116396978679420331
 - https://news.ycombinator.com/item?id=47755236
+- https://www.reddit.com/r/koreader/comments/1skds92/how_i_hacked_my_kobo_with_koreader
 comments:
   host: mastodon.social
   username: fundor333

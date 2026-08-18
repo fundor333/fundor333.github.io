@@ -19,6 +19,7 @@ syndication:
 - https://mastodon.social/@fundor333/116318298830055707
 - https://news.ycombinator.com/item?id=47573957
 - https://www.reddit.com/r/homeassistant/comments/1sbq39k/starting_my_home_assistant_experiment
+- https://www.reddit.com/r/homeautomation/comments/1sc7kkx/starting_my_home_automation_experiment
 - https://www.reddit.com/r/u_fundor333/comments/1sbq3ja/starting_my_home_assistant_experiment
 comments:
   host: mastodon.social
