@@ -14,6 +14,7 @@ categories:
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3mtjz7oan6s2o
 - https://mastodon.social/@fundor333/117129561150418748
+- https://www.reddit.com/r/Python/comments/1vtuoyp/i_need_to_frame_my_photos_so_i_frame_all_with
 comments:
   host: mastodon.social
   username: fundor333
