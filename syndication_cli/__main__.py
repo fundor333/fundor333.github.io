@@ -156,6 +156,9 @@ def all_cmd(
     typer.echo("Running replay...")
     replay(config)
 
+    typer.echo("Running tagger...")
+    tagger(config, None, config.options.dry_run, force=False)
+
     typer.secho("All commands completed!", fg=typer.colors.GREEN)
 
 
