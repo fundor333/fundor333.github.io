@@ -1,12 +1,28 @@
 ---
-title: "Week Note Nº 25/2026"
-date: "2026-06-21T09:00:00+01:00"
-lastmod: "2026-06-21T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 25 of 2026"
-description: "Personal notes for week 25 of 2026"
-draft: False
+title: Week Note Nº 25/2026
+date: '2026-06-21T09:00:00+01:00'
+lastmod: '2026-06-21T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 25 of 2026
+description: Personal notes for week 25 of 2026
+draft: false
+keywords:
+- 'SEO tags:
+
+  blogging'
+- cyberdeck
+- font
+- fonts
+- ink
+- japanese culture
+- rss
+- sendai
+- shinjuku
+- tech
+- tokyo
+- typography
 ---
 
 

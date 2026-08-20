@@ -1,12 +1,24 @@
 ---
-title: "Week Note Nº 20/2026"
-date: "2026-05-17T09:00:00+01:00"
-lastmod: "2026-05-17T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 20 of 2026"
-description: "Personal notes for week 20 of 2026"
-draft: False
+title: Week Note Nº 20/2026
+date: '2026-05-17T09:00:00+01:00'
+lastmod: '2026-05-17T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 20 of 2026
+description: Personal notes for week 20 of 2026
+draft: false
+keywords:
+- Suggested Reading
+- Creative Self
+- Pen Addict
+- Tokyo Times
+- Lavender Black Ink
+- Colorverse Erebus Crater
+- File Changes macOS
+- Week Note Nº 20/2026
+- Anime Stats
+- Manga Stats
 ---
 
 

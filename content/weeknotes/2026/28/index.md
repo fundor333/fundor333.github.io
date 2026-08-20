@@ -1,12 +1,25 @@
 ---
-title: "Week Note Nº 28/2026"
-date: "2026-07-12T09:00:00+01:00"
-lastmod: "2026-07-12T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 28 of 2026"
-description: "Personal notes for week 28 of 2026"
-draft: False
+title: Week Note Nº 28/2026
+date: '2026-07-12T09:00:00+01:00'
+lastmod: '2026-07-12T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 28 of 2026
+description: Personal notes for week 28 of 2026
+draft: false
+keywords:
+- Anime
+- manga
+- suggested reading
+- reading links
+- cyberdeck
+- rov ops deck
+- shinjuku festival
+- techo kaigi
+- ph portfolio
+- blog
+- newsletter
 ---
 
 

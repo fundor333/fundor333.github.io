@@ -1,12 +1,27 @@
 ---
-title: "Week Note Nº 22/2026"
-date: "2026-05-31T09:00:00+01:00"
-lastmod: "2026-05-31T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 22 of 2026"
-description: "Personal notes for week 22 of 2026"
-draft: False
+title: Week Note Nº 22/2026
+date: '2026-05-31T09:00:00+01:00'
+lastmod: '2026-05-31T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 22 of 2026
+description: Personal notes for week 22 of 2026
+draft: false
+keywords:
+- 'Here are the 10 SEO tags:
+
+
+  Suggested Reading'
+- Google AI
+- Optimization
+- Ricerca Google
+- Anime Stats
+- Manga Stats
+- Fantasy
+- Action
+- Adventure
+- Drama
 ---
 
 

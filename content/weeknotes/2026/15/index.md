@@ -1,12 +1,26 @@
 ---
-title: "Week Note Nº 15/2026"
-date: "2026-04-12T09:00:00+01:00"
-lastmod: "2026-04-12T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 15 of 2026"
-description: "Personal notes for week 15 of 2026"
-draft: False
+title: Week Note Nº 15/2026
+date: '2026-04-12T09:00:00+01:00'
+lastmod: '2026-04-12T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 15 of 2026
+description: Personal notes for week 15 of 2026
+draft: false
+keywords:
+- tech writing
+- AI
+- fantasy
+- mapping
+- planner
+- bujo
+- desk
+- study
+- teletext
+- Japan
+- anime
+- manga
 ---
 
 

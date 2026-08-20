@@ -1,12 +1,25 @@
 ---
-title: "Week Note Nº 29/2026"
-date: "2026-07-19T09:00:00+01:00"
-lastmod: "2026-07-19T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 29 of 2026"
-description: "Personal notes for week 29 of 2026"
-draft: False
+title: Week Note Nº 29/2026
+date: '2026-07-19T09:00:00+01:00'
+lastmod: '2026-07-19T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 29 of 2026
+description: Personal notes for week 29 of 2026
+draft: false
+keywords:
+- text editors
+- GitHub
+- GitLab
+- Sailor Studio Inks
+- Tokyo rainy season
+- anime
+- manga
+- fantasy
+- action
+- adventure
+- drama
 ---
 
 

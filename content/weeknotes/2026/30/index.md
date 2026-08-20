@@ -1,12 +1,24 @@
 ---
-title: "Week Note Nº 30/2026"
-date: "2026-07-26T09:00:00+01:00"
-lastmod: "2026-07-26T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 30 of 2026"
-description: "Personal notes for week 30 of 2026"
-draft: False
+title: Week Note Nº 30/2026
+date: '2026-07-26T09:00:00+01:00'
+lastmod: '2026-07-26T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 30 of 2026
+description: Personal notes for week 30 of 2026
+draft: false
+keywords:
+- Anime
+- Manga
+- Stationery Bag
+- Pen Show
+- Everyday Carry
+- Gentleman Stationer
+- Blogging
+- Newsletter
+- Portfolio
+- Personal Development
 ---
 
 
