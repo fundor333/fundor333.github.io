@@ -12,6 +12,7 @@ categories:
 - fingerfood
 - tinkering
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mtjz7oan6s2o
 - https://mastodon.social/@fundor333/117129561150418748
 comments:
   host: mastodon.social
