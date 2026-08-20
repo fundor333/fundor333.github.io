@@ -19,6 +19,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '116450516050196091'
+keywords:
+- ISSN
+- metadata
+- web page
+- blog registration
+- metadata optimization
+- search engine ranking
+- improve visibility
+- online presence
+- digital publishing
+- publication registration
+- metadata adding
 ---
 
 [How to add ISSN metadata to a web page](https://shkspr.mobi/blog/2021/09/how-to-add-issn-metadata-to-a-web-page/) is a good idea. Why not register your blog in the ISSN ? I am looking to do it

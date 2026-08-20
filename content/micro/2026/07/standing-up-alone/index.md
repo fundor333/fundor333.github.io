@@ -13,6 +13,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '116951787862146685'
+keywords:
+- Venice photography
+- Italy exhibition
+- photographic exhibition
+- Venice Italy
+- travel photography
+- photo exhibition
+- artistic photography
+- Italian art
+- visual arts
+- photography show
+- art events
 ---
 
 And the next month I will have a little photographic exhibition in Venice, Italy.

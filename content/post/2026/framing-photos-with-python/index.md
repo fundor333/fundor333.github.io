@@ -18,6 +18,18 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '117129561150418748'
+keywords:
+- photo exhibition
+- photo framing
+- image editing
+- camera settings
+- lens information
+- exif data
+- image metadata
+- photography tools
+- online image processing
+- batch processing
+- professional looking images
 ---
 
 Some time ago I decide to make a photo exhibition in my city and, before doing it, I make some research of what I need to do.

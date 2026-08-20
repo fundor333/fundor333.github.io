@@ -11,6 +11,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '116637744820868774'
+keywords:
+- cosplay
+- costume
+- ph
+- costume design
+- event
+- party
+- convention
+- photoshoot
+- costume play
+- photography
 ---
 
 A little pic from a cosplay event I went as ph

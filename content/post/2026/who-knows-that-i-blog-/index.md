@@ -17,6 +17,17 @@ comments:
   host: mastodon.social
   username: fundor333
   id: '116624416355859040'
+keywords:
+- blog
+- blogging
+- anonymous
+- online alias
+- fundor333
+- personal blogs
+- internet presence
+- social media
+- blogging anonymously
+- transparency in blogging
 ---
 
 > Question for the audience: Do you tell people you blog?
