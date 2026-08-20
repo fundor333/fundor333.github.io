@@ -1,8 +1,8 @@
 ---
-title: "Framing Photos With Python"
-date: 2026-08-20T21:00:09+02:00
-feature_link: "https://matteoscarpa.it/in-piedi-da-solo/"
-feature_text: "by Fundor333/Matteo Scarpa/Me"
+title: Framing Photos With Python
+date: 2026-08-20 21:00:09+02:00
+feature_link: https://matteoscarpa.it/in-piedi-da-solo/
+feature_text: by Fundor333/Matteo Scarpa/Me
 description: How to frame your photos with python with all the data you want
 isStarred: false
 tags:
@@ -11,7 +11,14 @@ tags:
 categories:
 - fingerfood
 - tinkering
+syndication:
+- https://mastodon.social/@fundor333/117129561150418748
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '117129561150418748'
 ---
+
 Some time ago I decide to make a photo exhibition in my city and, before doing it, I make some research of what I need to do.
 So I made the photo exhibition with some errors here and there but I love it.[^1]
 [^1]: If you want to see it you can find the info at [this site](https://matteoscarpa.it/in-piedi-da-solo/).
