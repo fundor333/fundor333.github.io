@@ -132,4 +132,6 @@ event: ## Run event script (passa URL con: make event URL="https://meetup.com/..
 eventi: event ## Run eventi script
 
 autotag: ## Run autotag script
-	@uv run python -m syndication_cli tag-cmdß
+	@uv run python -m syndication_cli tag-cmd
+
+	
