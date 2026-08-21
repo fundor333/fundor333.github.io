@@ -17,40 +17,89 @@
 	--table-border-color: #dadada;
 	--tr-even-background-color: #efefee;
 
-	@media (prefers-color-scheme: dark) {
-		--code-background-color: #272822;
-		--code-text-color: rgba(255, 255, 255, 0.9);
+	--card-padding: 1rem;
+	--accent-color: #003fff;
+	--accent-color-text: #ffffff;
+	--neutral: #6b7886;
 
-		--table-border-color: #717171;
-		--tr-even-background-color: #545454;
+	--ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-		--blockquote-background-color: rgb(75 75 75);
+// Dark values for the custom properties above, applied both as a no-JS
+// fallback (OS preference) and as the JS-driven override (`html.dark`), so
+// they track the manual theme toggle instead of only `prefers-color-scheme`.
+@mixin root-dark-mode {
+	--code-background-color: #272822;
+	--code-text-color: rgba(255, 255, 255, 0.9);
+
+	--table-border-color: #717171;
+	--tr-even-background-color: #545454;
+
+	--blockquote-background-color: rgb(75 75 75);
+
+	--accent-color: #77a8fd;
+	--accent-color-text: #0d122b;
+	--neutral: #767f87;
+}
+
+@media (prefers-color-scheme: dark) {
+	html:not(.light) {
+		@include root-dark-mode;
 	}
 }
 
-a {
+html.dark {
+	@include root-dark-mode;
+}
+
+// Selector specificity (not stylesheet load order) is what makes these win
+// over the theme's Roboto — so the override still holds even if the link
+// order in <head> ever changes.
+html a {
 	font-family: "Audiowide", sans-serif;
 }
 
-body {
+html body {
 	font-family: "Rajdhani", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
 	font-family: "Audiowide", sans-serif;
 }
 
-strong {
+html strong {
 	font-family: "Audiowide", sans-serif;
 	font-weight: 400;
 	font-size: 14px;
+}
+
+// Audiowide is a wide display face: large headings need negative tracking
+// so letters don't read as spaced out, while smaller ones stay near neutral.
+.page-content {
+	h1 {
+		letter-spacing: -0.015em;
+	}
+
+	h2 {
+		letter-spacing: -0.01em;
+	}
+
+	h3,
+	h4 {
+		letter-spacing: -0.005em;
+	}
+
+	h5,
+	h6 {
+		letter-spacing: 0;
+	}
 }
 
 .footnotes {

@@ -1,0 +1,60 @@
+// Translucent chrome for floating UI ("materials" — light passing through a
+// layer — instead of a flat color block). Every surface keeps its existing
+// palette color, just with alpha + blur added, so nothing here changes the
+// site's colors, only how the floating pieces read against the content
+// scrolling beneath them.
+
+// Mobile menu overlay
+@media screen and (max-width: 768px) {
+	.menu input[type="checkbox"]:checked ~ .trigger {
+		backdrop-filter: blur(20px) saturate(160%);
+		-webkit-backdrop-filter: blur(20px) saturate(160%);
+		background-color: rgba(255, 255, 255, 0.78);
+	}
+}
+
+@media screen and (max-width: 768px) and (prefers-color-scheme: dark) {
+	html:not(.light) .menu input[type="checkbox"]:checked ~ .trigger {
+		background-color: rgba(19, 20, 24, 0.78);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	html.dark .menu input[type="checkbox"]:checked ~ .trigger {
+		background-color: rgba(19, 20, 24, 0.78);
+	}
+}
+
+// Go-to-top button
+#totop {
+	backdrop-filter: blur(16px) saturate(160%);
+	-webkit-backdrop-filter: blur(16px) saturate(160%);
+	background-color: rgba(223, 224, 227, 0.7);
+}
+
+@media (prefers-color-scheme: dark) {
+	html:not(.light) #totop {
+		background-color: rgba(103, 103, 103, 0.55);
+	}
+}
+
+html.dark #totop {
+	background-color: rgba(103, 103, 103, 0.55);
+}
+
+// Table of contents
+.toc {
+	backdrop-filter: blur(14px) saturate(160%);
+	-webkit-backdrop-filter: blur(14px) saturate(160%);
+	background-color: rgba(237, 236, 236, 0.72);
+}
+
+@media (prefers-color-scheme: dark) {
+	html:not(.light) .toc {
+		background-color: rgba(50, 50, 50, 0.72);
+	}
+}
+
+html.dark .toc {
+	background-color: rgba(50, 50, 50, 0.72);
+}

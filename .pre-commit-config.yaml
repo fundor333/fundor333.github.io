@@ -8,7 +8,7 @@ repos:
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
-    rev: v0.16.2
+    rev: v0.16.4
     hooks:
       # Run the linter.
       - id: ruff-check
@@ -37,13 +37,13 @@ repos:
       - id: pyupgrade
         args: [--py312-plus]
   - repo: https://github.com/oxipng/oxipng
-    rev: v10.1.1
+    rev: v10.2.0
     hooks:
       - id: oxipng
         args: ["-o", "4", "--alpha"]
   - repo: https://github.com/astral-sh/ruff-pre-commit
     # Ruff version.
-    rev: v0.16.2
+    rev: v0.16.4
     hooks:
       # Run the linter.
       - id: ruff-check

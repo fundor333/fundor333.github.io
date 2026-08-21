@@ -1,0 +1,23 @@
+// Universal reduced-motion / reduced-transparency handling. Nothing in the
+// theme or the rest of this site layer respects these preferences on its
+// own, so this file is the single place that guarantees every
+// transition/animation/blur degrades to something calmer when asked to.
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+@media (prefers-reduced-transparency: reduce) {
+	.menu input[type="checkbox"]:checked ~ .trigger,
+	#totop,
+	.toc {
+		backdrop-filter: none !important;
+		-webkit-backdrop-filter: none !important;
+	}
+}

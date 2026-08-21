@@ -32,7 +32,7 @@
               {{ end }}
             </p>
             {{ end }}
-            <h3 class="posts-item-note" aria-label="Recent status/toots/micropost">{{ T "home.recent_posts" }}</h3>
+            <h3 class="posts-item-note" aria-label="Recent status/toots/micropost">Recent Updates</h3>
             {{/* Show last 20 posts in reverse date order */}}
             {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.secondarysections }}
             {{ $posts := $pagesToShow.ByDate.Reverse }}

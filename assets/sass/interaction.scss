@@ -1,0 +1,62 @@
+// Press feedback (Apple: respond on pointer-down, not just hover — hover
+// alone is invisible on touch). Kept small and only on elements that don't
+// already have their own :active state (the theme's #mode toggle already
+// scales on press, so it's left alone).
+.menu-link:active,
+.tag:active,
+.post-item-title a:active {
+	opacity: 0.55;
+	transform: scale(0.97);
+	transition: transform 100ms var(--ease-standard), opacity 100ms var(--ease-standard);
+}
+
+.post-item-title a {
+	transition: color 150ms var(--ease-standard);
+}
+
+#totop {
+	transition: visibility 0.3s var(--ease-standard), opacity 0.3s var(--ease-standard),
+		transform 100ms var(--ease-standard);
+}
+
+#totop:active {
+	transform: scale(0.92);
+}
+
+// Mobile menu: a short rise from where the hamburger sits, instead of a flat
+// opacity fade, so the panel reads as coming from what opened it.
+@keyframes menu-in {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.menu input[type="checkbox"]:checked ~ .trigger {
+		animation: 0.22s var(--ease-standard) forwards menu-in;
+	}
+}
+
+// Table of contents: <details> can't animate its own open/close, but the
+// revealed content can ease in instead of snapping into place.
+@keyframes toc-reveal {
+	from {
+		opacity: 0;
+		transform: translateY(-4px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.toc[open] > *:not(summary) {
+	animation: 0.18s var(--ease-standard) both toc-reveal;
+}
