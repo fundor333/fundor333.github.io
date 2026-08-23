@@ -1,5 +1,5 @@
 from . import bluesky, json_files, mastodon, medium, reddit
-from .common import add_syndication_to_post
+from .common import add_syndication_to_post, save_syndication_cache
 
 __all__ = [
     "add_syndication_to_post",
@@ -8,4 +8,5 @@ __all__ = [
     "mastodon",
     "medium",
     "reddit",
+    "save_syndication_cache",
 ]

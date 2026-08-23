@@ -1,1 +1,87 @@
-{"source": [{"type": "entry", "author": {"type": "card", "name": "Tom Casavant", "photo": "https://avatars.webmention.io/files.mastodon.social/96e6f33aca9c9d847e9069fce6096d3430ac48893309a3b73a61da3733cbe24c.jpg", "url": "https://tomkahe.com/@tom"}, "url": "https://mastodon.social/@fundor333/117129561150418748#favorited-by-111586177807327871", "published": null, "wm-received": "2026-08-20T20:03:39Z", "wm-id": 2024942, "wm-source": "https://brid.gy/like/mastodon/@fundor333@mastodon.social/117129561150418748/111586177807327871", "wm-target": "https://fundor333.com/post/2026/framing-photos-with-python/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/post/2026/framing-photos-with-python/", "wm-property": "like-of", "wm-private": false}, {"type": "entry", "author": {"type": "card", "name": "Awk & sha", "photo": "https://avatars.webmention.io/files.mastodon.social/34845f7de90385621c5c0fe8a0399d8d1a9136cfcfaea04bd45298f6a76fc7e5.jpg", "url": "https://hachyderm.io/@mmcknett"}, "url": "https://mastodon.social/@fundor333/117129561150418748#favorited-by-109329245310381195", "published": null, "wm-received": "2026-08-20T20:03:40Z", "wm-id": 2024943, "wm-source": "https://brid.gy/like/mastodon/@fundor333@mastodon.social/117129561150418748/109329245310381195", "wm-target": "https://fundor333.com/post/2026/framing-photos-with-python/", "wm-protocol": "webmention", "like-of": "https://fundor333.com/post/2026/framing-photos-with-python/", "wm-property": "like-of", "wm-private": false}, {"type": "entry", "author": {"type": "card", "name": "fundor333", "photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "url": "https://bsky.app/profile/fundor333.bsky.social"}, "url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3mtjz7oan6s2o", "published": "2026-08-20T19:00:09+00:00", "wm-received": "2026-08-20T19:47:52Z", "wm-id": 2024939, "wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3mtjz7oan6s2o%23bridgy-fed-create-2026-08-20T19:47:47.701341+00:00", "wm-target": "https://fundor333.com/post/2026/framing-photos-with-python/", "wm-protocol": "webmention", "photo": ["https://shiitake.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:u7piwonv4s27ysugjaa6im2q&cid=bafkreihngjzxuh6jvaiburjkpud3kpqol2qznnsrqneyhod6rxcaxoafcy", "https://shiitake.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:u7piwonv4s27ysugjaa6im2q&cid=bafkreielzmfqqcwi3y52raxlqbu5c5lwjegwm73uol74nnycacyevwy5oy", "https://shiitake.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:u7piwonv4s27ysugjaa6im2q&cid=bafkreigjtraycf3xzwznzdh3f4q4kqoeo3y4kgksza7bbl5g6kppc3pvh4", "https://shiitake.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:u7piwonv4s27ysugjaa6im2q&cid=bafkreibd3mxe65i2z6xs653mf5fclyn3pmullgtezuyjm7pspipmoupmea"], "content": {"html": "How to frame your photos with python with all the data you want <a href=\"https://fundor333.com/post/2026/framing-photos-with-python/\">https://fundor333.com/post/2026/framing-photos-with-python/</a>\n\n<a href=\"https://bsky.app/search?q=%23python\">#python</a> <a href=\"https://bsky.app/search?q=%23automation\">#automation</a> <a href=\"https://bsky.app/search?q=%23fingerfood\">#fingerfood</a> <a href=\"https://bsky.app/search?q=%23tinkering\">#tinkering</a>\n<a href=\"https://fundor333.com/post/2026/framing-photos-with-python/\">https://fundor333.com/post/2026/framing-photos-with-python/</a>", "text": "How to frame your photos with python with all the data you want https://fundor333.com/post/2026/framing-photos-with-python/\n\n#python #automation #fingerfood #tinkering\nhttps://fundor333.com/post/2026/framing-photos-with-python/"}, "mention-of": "https://fundor333.com/post/2026/framing-photos-with-python/", "wm-property": "mention-of", "wm-private": false}], "stats": {"like-of": 2, "bookmark-of": 0, "mention-of": 1, "repost-of": 0, "in-reply-to": 0, "comments": [{"content": "How to frame your photos with python with all the data you want https://fundor333.com/post/2026/framing-photos-with-python/\n\n#python #automation #fingerfood #tinkering\nhttps://fundor333.com/post/2026/framing-photos-with-python/", "link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3mtjz7oan6s2o%23bridgy-fed-create-2026-08-20T19:47:47.701341+00:00", "author_name": "fundor333", "author_photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg", "author_url": "https://bsky.app/profile/fundor333.bsky.social"}]}}
+{
+	"source": [
+		{
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Tom Casavant",
+				"photo": "https://avatars.webmention.io/files.mastodon.social/96e6f33aca9c9d847e9069fce6096d3430ac48893309a3b73a61da3733cbe24c.jpg",
+				"url": "https://tomkahe.com/@tom"
+			},
+			"url": "https://mastodon.social/@fundor333/117129561150418748#favorited-by-111586177807327871",
+			"published": null,
+			"wm-received": "2026-08-20T20:03:39Z",
+			"wm-id": 2024942,
+			"wm-source": "https://brid.gy/like/mastodon/@fundor333@mastodon.social/117129561150418748/111586177807327871",
+			"wm-target": "https://fundor333.com/post/2026/framing-photos-with-python/",
+			"wm-protocol": "webmention",
+			"like-of": "https://fundor333.com/post/2026/framing-photos-with-python/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		{
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Awk & sha",
+				"photo": "https://avatars.webmention.io/files.mastodon.social/34845f7de90385621c5c0fe8a0399d8d1a9136cfcfaea04bd45298f6a76fc7e5.jpg",
+				"url": "https://hachyderm.io/@mmcknett"
+			},
+			"url": "https://mastodon.social/@fundor333/117129561150418748#favorited-by-109329245310381195",
+			"published": null,
+			"wm-received": "2026-08-20T20:03:40Z",
+			"wm-id": 2024943,
+			"wm-source": "https://brid.gy/like/mastodon/@fundor333@mastodon.social/117129561150418748/109329245310381195",
+			"wm-target": "https://fundor333.com/post/2026/framing-photos-with-python/",
+			"wm-protocol": "webmention",
+			"like-of": "https://fundor333.com/post/2026/framing-photos-with-python/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		{
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "fundor333",
+				"photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"url": "https://bsky.app/profile/fundor333.bsky.social"
+			},
+			"url": "https://bsky.app/profile/did:plc:u7piwonv4s27ysugjaa6im2q/post/3mtjz7oan6s2o",
+			"published": "2026-08-20T19:00:09+00:00",
+			"wm-received": "2026-08-20T19:47:52Z",
+			"wm-id": 2024939,
+			"wm-source": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3mtjz7oan6s2o%23bridgy-fed-create-2026-08-20T19:47:47.701341+00:00",
+			"wm-target": "https://fundor333.com/post/2026/framing-photos-with-python/",
+			"wm-protocol": "webmention",
+			"photo": [
+				"https://shiitake.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:u7piwonv4s27ysugjaa6im2q&cid=bafkreihngjzxuh6jvaiburjkpud3kpqol2qznnsrqneyhod6rxcaxoafcy",
+				"https://shiitake.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:u7piwonv4s27ysugjaa6im2q&cid=bafkreielzmfqqcwi3y52raxlqbu5c5lwjegwm73uol74nnycacyevwy5oy",
+				"https://shiitake.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:u7piwonv4s27ysugjaa6im2q&cid=bafkreigjtraycf3xzwznzdh3f4q4kqoeo3y4kgksza7bbl5g6kppc3pvh4",
+				"https://shiitake.us-east.host.bsky.network/xrpc/com.atproto.sync.getBlob?did=did:plc:u7piwonv4s27ysugjaa6im2q&cid=bafkreibd3mxe65i2z6xs653mf5fclyn3pmullgtezuyjm7pspipmoupmea"
+			],
+			"content": {
+				"html": "How to frame your photos with python with all the data you want <a href=\"https://fundor333.com/post/2026/framing-photos-with-python/\">https://fundor333.com/post/2026/framing-photos-with-python/</a>\n\n<a href=\"https://bsky.app/search?q=%23python\">#python</a> <a href=\"https://bsky.app/search?q=%23automation\">#automation</a> <a href=\"https://bsky.app/search?q=%23fingerfood\">#fingerfood</a> <a href=\"https://bsky.app/search?q=%23tinkering\">#tinkering</a>\n<a href=\"https://fundor333.com/post/2026/framing-photos-with-python/\">https://fundor333.com/post/2026/framing-photos-with-python/</a>",
+				"text": "How to frame your photos with python with all the data you want https://fundor333.com/post/2026/framing-photos-with-python/\n\n#python #automation #fingerfood #tinkering\nhttps://fundor333.com/post/2026/framing-photos-with-python/"
+			},
+			"mention-of": "https://fundor333.com/post/2026/framing-photos-with-python/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		}
+	],
+	"stats": {
+		"like-of": 2,
+		"bookmark-of": 0,
+		"mention-of": 1,
+		"repost-of": 0,
+		"in-reply-to": 0,
+		"comments": [
+			{
+				"content": "How to frame your photos with python with all the data you want https://fundor333.com/post/2026/framing-photos-with-python/\n\n#python #automation #fingerfood #tinkering\nhttps://fundor333.com/post/2026/framing-photos-with-python/",
+				"link": "https://bsky.brid.gy/convert/web/at://did:plc:u7piwonv4s27ysugjaa6im2q/app.bsky.feed.post/3mtjz7oan6s2o%23bridgy-fed-create-2026-08-20T19:47:47.701341+00:00",
+				"author_name": "fundor333",
+				"author_photo": "https://avatars.webmention.io/shiitake.us-east.host.bsky.network/745ae7c92d33ea40ee0a0cc07825d49dcf5f0375c9b77cf4404889a238e66f93.jpg",
+				"author_url": "https://bsky.app/profile/fundor333.bsky.social"
+			}
+		]
+	}
+}

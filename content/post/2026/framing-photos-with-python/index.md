@@ -11,14 +11,6 @@ tags:
 categories:
 - fingerfood
 - tinkering
-syndication:
-- https://bsky.app/profile/fundor333.bsky.social/post/3mtjz7oan6s2o
-- https://mastodon.social/@fundor333/117129561150418748
-- https://www.reddit.com/r/Python/comments/1vtuoyp/i_need_to_frame_my_photos_so_i_frame_all_with
-comments:
-  host: mastodon.social
-  username: fundor333
-  id: '117129561150418748'
 keywords:
 - photo exhibition
 - photo framing
@@ -31,6 +23,13 @@ keywords:
 - online image processing
 - batch processing
 - professional looking images
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '117129561150418748'
+syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mtjz7oan6s2o
+- https://mastodon.social/@fundor333/117129561150418748
 ---
 
 Some time ago I decide to make a photo exhibition in my city and, before doing it, I make some research of what I need to do.

@@ -1,6 +1,7 @@
 {
   "syndication": [
-    "https://mastodon.social/@fundor333/115127694046646073"
+    "https://mastodon.social/@fundor333/115127694046646073",
+    "https://www.reddit.com/r/gohugo/comments/1scek11/hugo_blog_with_jupyter_notebook/"
   ],
   "source": "https://fundor333.com/post/2025/hugo-blog-with-jupyter-notebook/"
 }

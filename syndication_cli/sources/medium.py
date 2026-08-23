@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from syndication_cli.models import SyndicationConfig
 from syndication_cli.utils import find_post_from_source
 
-from .common import add_syndication_to_post
+from .common import add_syndication_to_post, save_syndication_cache
 
 logger = logging.getLogger(__name__)
 
@@ -47,6 +47,10 @@ def process(config: SyndicationConfig) -> list[dict]:
             continue
 
         source_url = source_links[0]
+
+        if not config.options.dry_run:
+            save_syndication_cache(source_url, [link_medium], config.paths.syndication_dir)
+
         post_path = find_post_from_source(source_url, content_dir)
         if not post_path:
             logger.debug(f"Post not found for source: {source_url}")

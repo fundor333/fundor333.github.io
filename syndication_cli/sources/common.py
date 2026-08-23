@@ -1,3 +1,4 @@
+import json
 import logging
 import re
 import warnings
@@ -8,11 +9,36 @@ import yaml
 from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 
 from syndication_cli.models import SyndicationConfig
-from syndication_cli.utils import find_post_from_source, normalize_url, parse_fediverse_url
+from syndication_cli.utils import (
+    clean_slug,
+    ensure_directory,
+    find_post_from_source,
+    normalize_url,
+    parse_fediverse_url,
+)
 
 logger = logging.getLogger(__name__)
 
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
+
+
+def save_syndication_cache(source_url: str, links: list[str], syndication_dir: str) -> None:
+    ensure_directory(syndication_dir)
+    filepath = Path(syndication_dir) / f"{clean_slug(source_url)}.json"
+
+    if filepath.exists():
+        with filepath.open(encoding="utf-8") as f:
+            data = json.load(f)
+    else:
+        data = {}
+
+    data["source"] = source_url
+    data["syndication"] = sorted(set(data.get("syndication") or []) | set(links))
+
+    with filepath.open("w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    logger.debug(f"Cached syndication data for {source_url} in {filepath}")
 
 
 def add_syndication_to_post(filepath: str, new_links: list[str], dry_run: bool = False) -> list[str]:
@@ -94,6 +120,10 @@ def process_rss_feed(feed_url: str, feed_name: str, config: SyndicationConfig) -
             continue
 
         source_url = source_links[0]
+
+        if not config.options.dry_run:
+            save_syndication_cache(source_url, [guid], config.paths.syndication_dir)
+
         post_path = find_post_from_source(source_url, content_dir)
         if not post_path:
             logger.debug(f"Post not found for source: {source_url}")

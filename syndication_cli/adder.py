@@ -3,7 +3,7 @@ import logging
 from pathlib import Path
 
 from .models import SyndicationConfig
-from .sources import add_syndication_to_post, bluesky, json_files, mastodon, medium, reddit
+from .sources import add_syndication_to_post, bluesky, json_files, mastodon, medium, reddit, save_syndication_cache
 from .utils import find_post_from_source
 
 logger = logging.getLogger(__name__)
@@ -21,6 +21,9 @@ def add_mention(source_url: str, destination_url: str, config: SyndicationConfig
     if not added:
         logger.info(f"No new mention added to {post_path} (already present?)")
         return None
+
+    if not config.options.dry_run:
+        save_syndication_cache(source_url, added, config.paths.syndication_dir)
 
     logger.info(f"Added mention {destination_url} to {post_path}")
     return {
