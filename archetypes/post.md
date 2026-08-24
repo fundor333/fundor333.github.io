@@ -2,8 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-feature_link: "https://www.midjourney.com/home/"
-feature_text: "by IA Midjourney"
+feature_link: https://matteoscarpa.it/
+feature_text: by Fundor333/Matteo Scarpa/Me
 description:
 isStarred: false
 tags:

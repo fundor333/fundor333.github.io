@@ -2,7 +2,7 @@ name: Cron Webmentions
 
 on:
   schedule:
-    - cron: "0 */10 * * *"
+    - cron: "0 2 * * *"
   push:
     branches:
       - main
