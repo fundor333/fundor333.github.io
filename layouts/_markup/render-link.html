@@ -1,4 +1,15 @@
-<a class="a-post interlink-script" href="{{ .Destination | safeURL }}" {{ with .Title}} title="{{ . }}"{{ end }} {{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>
+{{ $destination := .Destination }}
+{{ if strings.HasPrefix $destination "http" }}
+  {{ $u := urls.Parse $destination }}
+  {{ if not (in $u.RawQuery "utm_source=") }}
+    {{ $utmSource := urls.Parse site.Params.author.url }}
+    {{ $utm := printf "utm_source=%s&utm_medium=referral" $utmSource.Host }}
+    {{ $query := cond (eq $u.RawQuery "") $utm (printf "%s&%s" $u.RawQuery $utm) }}
+    {{ $destination = printf "%s://%s%s?%s" $u.Scheme $u.Host $u.Path $query }}
+    {{ if $u.Fragment }}{{ $destination = printf "%s#%s" $destination $u.Fragment }}{{ end }}
+  {{ end }}
+{{ end }}
+<a class="a-post interlink-script" href="{{ $destination | safeURL }}" {{ with .Title}} title="{{ . }}"{{ end }} {{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>
   {{- .Text | safeHTML -}}
   {{- if strings.HasPrefix .Destination "https" -}}
   &nbsp;&nbsp;<i class="fa-whiteboard fa-semibold fa-link"></i>
