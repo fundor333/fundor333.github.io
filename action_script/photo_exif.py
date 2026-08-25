@@ -189,6 +189,7 @@ def process_photos(dry_run: bool = False) -> None:
             continue
 
         all_exif = {img.name: extract_exif(img) for img in images}
+        all_exif = dict(sorted(all_exif.items()))
 
         output_path = post_dir / "exif.json"
         rel = output_path.relative_to(CONTENT_PHOTOS_DIR)

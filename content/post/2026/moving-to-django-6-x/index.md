@@ -10,6 +10,28 @@ tags:
 - python
 categories:
 - dev
+syndication:
+- https://mastodon.social/@fundor333/117153152669648998
+- https://www.reddit.com/r/django/comments/1vxjtro/why_i_move_to_django_6x_and_why_i_am_more_happy
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '117153152669648998'
+keywords:
+- Django
+- Django tasks
+- Django 6.1
+- Django 6.0
+- async tasks
+- task framework
+- Redis integration
+- model field fetch modes
+- template partials
+- Htmx
+- PostgreSQL 14
+- database migration
+- dependency updates
+- query optimization.
 ---
 
 A long time ago I start my personal server in Django (a lot of the stuff from [Django tricks](/series/django-tricks/) were coded for my personal Django stuff) and some days ago I decide to upgrade to 6.1 or more. Why?
