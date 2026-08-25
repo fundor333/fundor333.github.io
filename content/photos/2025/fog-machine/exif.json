@@ -1,11 +1,6 @@
 {
   "_D0A2939.jpg": {
-<<<<<<< HEAD
-    "model": "Canon EOS R5",
-    "make": "Canon",
-=======
     "aperture": "f/4.0",
->>>>>>> 2ae8abf3 (Update EXIF data for multiple photos, including adjustments to aperture, exposure mode, and shutter speed settings across various images. Ensure consistency in metadata formatting and correct any discrepancies in camera model and lens information.)
     "datetimeoriginal": "2025:09:27 19:17:08",
     "exposure_bias": "+0.0 EV",
     "exposure_mode": "Auto",
@@ -21,12 +16,7 @@
     "white_balance": "Manual"
   },
   "_D0A2940.jpg": {
-<<<<<<< HEAD
-    "model": "Canon EOS R5",
-    "make": "Canon",
-=======
     "aperture": "f/4.5",
->>>>>>> 2ae8abf3 (Update EXIF data for multiple photos, including adjustments to aperture, exposure mode, and shutter speed settings across various images. Ensure consistency in metadata formatting and correct any discrepancies in camera model and lens information.)
     "datetimeoriginal": "2025:09:27 19:17:27",
     "exposure_bias": "+0.0 EV",
     "exposure_mode": "Auto",
@@ -42,12 +32,7 @@
     "white_balance": "Manual"
   },
   "_D0A2941.jpg": {
-<<<<<<< HEAD
-    "model": "Canon EOS R5",
-    "make": "Canon",
-=======
     "aperture": "f/4.0",
->>>>>>> 2ae8abf3 (Update EXIF data for multiple photos, including adjustments to aperture, exposure mode, and shutter speed settings across various images. Ensure consistency in metadata formatting and correct any discrepancies in camera model and lens information.)
     "datetimeoriginal": "2025:09:27 19:17:29",
     "exposure_bias": "+0.0 EV",
     "exposure_mode": "Auto",
