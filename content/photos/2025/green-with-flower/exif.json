@@ -1,18 +1,23 @@
 {
   "_D0A1901.jpg": {
+<<<<<<< HEAD
     "model": "Canon EOS R5",
     "make": "Canon",
+=======
+    "aperture": "f/4.0",
+>>>>>>> 2ae8abf3 (Update EXIF data for multiple photos, including adjustments to aperture, exposure mode, and shutter speed settings across various images. Ensure consistency in metadata formatting and correct any discrepancies in camera model and lens information.)
     "datetimeoriginal": "2025:05:03 12:21:15",
     "exposure_bias": "+0.0 EV",
-    "metering_mode": "Pattern",
+    "exposure_mode": "Manual",
+    "exposure_program": "Manual",
     "flash": "Did not fire",
     "focal_length": "70mm",
-    "exposure_mode": "Manual",
-    "white_balance": "Manual",
-    "shutter_speed": "1/200s",
-    "aperture": "f/4.0",
-    "exposure_program": "Manual",
     "iso": 125,
-    "lensmodel": "RF70-200mm F4 L IS USM"
+    "lensmodel": "RF70-200mm F4 L IS USM",
+    "make": "Canon",
+    "metering_mode": "Pattern",
+    "model": "Canon EOS R5",
+    "shutter_speed": "1/200s",
+    "white_balance": "Manual"
   }
 }

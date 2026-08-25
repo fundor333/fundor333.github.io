@@ -1,20 +1,25 @@
 {
   "DSCF0196.jpg": {
+<<<<<<< HEAD
     "model": "X-T30 II",
     "make": "FUJIFILM",
+=======
+    "aperture": "f/5.6",
+>>>>>>> 2ae8abf3 (Update EXIF data for multiple photos, including adjustments to aperture, exposure mode, and shutter speed settings across various images. Ensure consistency in metadata formatting and correct any discrepancies in camera model and lens information.)
     "datetimeoriginal": "2024:08:03 18:13:41",
     "exposure_bias": "-0.3 EV",
-    "metering_mode": "Pattern",
+    "exposure_mode": "Auto",
+    "exposure_program": "Landscape",
     "flash": "Did not fire",
     "focal_length": "27mm",
     "focal_length_35mm": "41mm",
-    "shutter_speed": "1/950s",
-    "aperture": "f/5.6",
-    "exposure_program": "Landscape",
     "iso": 320,
-    "exposure_mode": "Auto",
-    "white_balance": "Auto",
     "lensmake": "FUJIFILM",
-    "lensmodel": "XF27mmF2.8 R WR"
+    "lensmodel": "XF27mmF2.8 R WR",
+    "make": "FUJIFILM",
+    "metering_mode": "Pattern",
+    "model": "X-T30 II",
+    "shutter_speed": "1/950s",
+    "white_balance": "Auto"
   }
 }

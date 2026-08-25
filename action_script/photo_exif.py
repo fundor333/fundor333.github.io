@@ -189,14 +189,13 @@ def process_photos(dry_run: bool = False) -> None:
             continue
 
         all_exif = {img.name: extract_exif(img) for img in images}
-        all_exif = dict(sorted(all_exif.items()))
 
         output_path = post_dir / "exif.json"
         rel = output_path.relative_to(CONTENT_PHOTOS_DIR)
         if dry_run:
             print(f"  [dry-run] would write {rel} ({len(images)} image(s))")
         else:
-            output_path.write_text(json.dumps(all_exif, indent=2, ensure_ascii=False) + "\n")
+            output_path.write_text(json.dumps(all_exif, indent=2, ensure_ascii=False, sort_keys=True) + "\n")
             print(f"  [ok] {rel} ({len(images)} image(s))")
         updated += 1
 

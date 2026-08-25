@@ -1,20 +1,25 @@
 {
   "IMG_0663.jpg": {
+<<<<<<< HEAD
     "model": "X-T30 II",
     "make": "FUJIFILM",
+=======
+    "aperture": "f/2.8",
+>>>>>>> 2ae8abf3 (Update EXIF data for multiple photos, including adjustments to aperture, exposure mode, and shutter speed settings across various images. Ensure consistency in metadata formatting and correct any discrepancies in camera model and lens information.)
     "datetimeoriginal": "2024:06:30 01:34:05",
     "exposure_bias": "+0.0 EV",
-    "metering_mode": "Pattern",
+    "exposure_mode": "Manual",
+    "exposure_program": "Manual",
     "flash": "Did not fire",
     "focal_length": "27mm",
     "focal_length_35mm": "41mm",
-    "shutter_speed": "1/30s",
-    "aperture": "f/2.8",
-    "exposure_program": "Manual",
     "iso": 12800,
-    "exposure_mode": "Manual",
-    "white_balance": "Auto",
     "lensmake": "FUJIFILM",
-    "lensmodel": "XF27mmF2.8 R WR"
+    "lensmodel": "XF27mmF2.8 R WR",
+    "make": "FUJIFILM",
+    "metering_mode": "Pattern",
+    "model": "X-T30 II",
+    "shutter_speed": "1/30s",
+    "white_balance": "Auto"
   }
 }
