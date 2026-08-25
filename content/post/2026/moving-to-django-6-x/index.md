@@ -53,7 +53,7 @@ The last thing I was waiting in Django are the [Template Partials](https://docs.
 
 I also know that the template partials are usefull BUT aren't Htmx[^1] so you can mixit with the Template Partials to make easyer manage your frontend and backend.
 
-[^1]: Another blog post about Django and Htmx [Django Table, Filter and Export With Htmx](http://localhost:1313/post/2026/django-table-filter-export-with-htmx/)
+[^1]: Another blog post about Django and Htmx [Django Table, Filter and Export With Htmx](/post/2026/django-table-filter-export-with-htmx/)
 
 
 I also thing that the deprecation of PostgreSQL 14 is needed and can fix some vulnerability of my Django project.
