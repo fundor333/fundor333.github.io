@@ -41,7 +41,7 @@ A long time ago I start my personal server in Django (a lot of the stuff from [D
 The main thing in Django 6.0 is the [Django Tasks Frameworks](https://docs.djangoproject.com/en/6.1/topics/tasks/).
 Having a unique framework for the async task is a beautifull thing and made me clean a lot of code and make it more pythonic in multiple way.
 
-I update my code for the Task Framework because I need it (I was using a Redis integration) but I want to change the backend without edit all my code so this is the best way to do it because the Django integration for multiple backend are easy to implement and update if needed.
+I update my code for the Task Framework because I need it (I was using a Redis integration) but I want to change the backend without edit all my code so this is the best way to do it because the Django integration for multiple backend are easy to implement and update if needed.[^2]
 
 ![Modern Time Gif](Charlie_Chaplin_GIF_by_Coolidge_Corner_Theatre.gif)
 
@@ -65,3 +65,6 @@ Yes, I haven't got any problem with the upgrade and the migration (PostgreSql14 
 In the end I am happy of the upgrade. I have less query in the db (I did a lot of not well optimize query) and the cleaner task code is a god sent for update or debugging. Ok I need to debug an async code (same problem of all the async code) but now I have a larger community for answer (yes, I can ask to an AI but I find a lot of the answer inside other blog or StackOverflow so, I can not use an AI, I don't uset it) than than the old module I was using.
 
 Do you upgrade or do you wait more time for the upgrade?
+
+
+[^2]: I am using [django-tasks-redis](https://github.com/tokibito/django-tasks-redis) as the backend
