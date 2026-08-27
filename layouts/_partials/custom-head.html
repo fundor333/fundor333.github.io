@@ -1,5 +1,13 @@
+  {{ with.Site.Params.author }}
+    <meta property="og:article:author" content="{{ .name }}" />
+    <meta property="article:author" content="{{ .name }}" />
+    <meta name="author" content="{{ .name }}" />
+    {{ with.fediverseAccount }}
+      <meta name="fediverse:creator" content="{{ . }}" />
+    {{ end }}
+  {{ end }}
+
 <script src="/js/jquery-3.7.1.min.js"></script>
-<meta name="fediverse:creator" content="@fundor333@mastodon.social">
 
 <link rel="webmention" href="https://webmention.io/fundor333.com/webmention" />
 <link rel="pingback" href="https://webmention.io/fundor333.com/xmlrpc" />

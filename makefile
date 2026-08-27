@@ -87,7 +87,7 @@ deploy_prod: ## Ready to deploy
 	@uv sync
 	@uv lock --upgrade
 	@hugo mod get -u
-	@hugo --minify
+	@hugo
 
 
 .PHONY: submodule
@@ -134,4 +134,3 @@ eventi: event ## Run eventi script
 autotag: ## Run autotag script
 	@uv run python -m syndication_cli tag-cmd
 
-	
