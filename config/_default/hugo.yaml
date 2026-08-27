@@ -71,3 +71,9 @@ taxonomies:
   tag: tags
   theme: themes
   group: group
+
+minify:
+  tdewolff:
+    html:
+      keepDocumentTags: true
+      keepQuotes: true

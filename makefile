@@ -87,7 +87,7 @@ deploy_prod: ## Ready to deploy
 	@uv sync
 	@uv lock --upgrade
 	@hugo mod get -u
-	@hugo
+	@hugo --minify
 
 
 .PHONY: submodule
