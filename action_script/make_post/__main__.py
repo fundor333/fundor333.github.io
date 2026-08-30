@@ -7,6 +7,7 @@ from now import now_fc
 from photo import post_photo
 from post import post_fc
 from redirect import post_redirect
+from series import update_archetype_series
 from weekly import weeklycover
 
 ANSWER = {
@@ -17,12 +18,15 @@ ANSWER = {
     "weekly_cover": weeklycover,
     "now": now_fc,
     "notebook": notebook_fc,
+    "series": update_archetype_series,
 }
 
 
 def main(text: Annotated[str, typer.Argument()] = None):
     if text is None:
-        text = input("You need a new [post], a new [photo], a new [micro], a [weekly_cover] or [now]\n")
+        text = input(
+            "You need a new [post], a new [photo], a new [micro], a [weekly_cover], [now] or to sync [series]\n"
+        )
     ANSWER.get(text, main)()
 
 
