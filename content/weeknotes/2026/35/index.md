@@ -1,12 +1,24 @@
 ---
-title: "Week Note Nº 35/2026"
-date: "2026-08-30T09:00:00+01:00"
-lastmod: "2026-08-30T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 35 of 2026"
-description: "Personal notes for week 35 of 2026"
-draft: False
+title: Week Note Nº 35/2026
+date: '2026-08-30T09:00:00+01:00'
+lastmod: '2026-08-30T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 35 of 2026
+description: Personal notes for week 35 of 2026
+draft: false
+keywords:
+- Python
+- Django
+- Terminal
+- Anime
+- Manga
+- Organizing
+- Categories
+- Ph Portfolio
+- Support Me
+- Blog Newsletter
 ---
 
 

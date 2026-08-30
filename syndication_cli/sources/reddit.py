@@ -1,7 +1,7 @@
 import logging
 
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Error, sync_playwright
 
 from syndication_cli.models import SyndicationConfig
 from syndication_cli.utils import find_post_from_source
@@ -17,19 +17,31 @@ USER_AGENT = (
 
 
 def _fetch_via_browser(url: str) -> str | None:
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        try:
-            page = browser.new_context(user_agent=USER_AGENT).new_page()
-            response = page.goto(url, wait_until="domcontentloaded", timeout=15000)
-            logger.info(f"Fetched {url} via browser: status {response.status if response else 'unknown'}")
-            if response is None or not response.ok:
-                status = response.status if response else "unknown"
-                logger.error(f"Failed to fetch {url} via browser: status {status}")
-                return None
-            return response.text()
-        finally:
-            browser.close()
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            try:
+                page = browser.new_context(user_agent=USER_AGENT).new_page()
+                response = page.goto(url, wait_until="domcontentloaded", timeout=15000)
+                logger.info(f"Fetched {url} via browser: status {response.status if response else 'unknown'}")
+                if response is None or not response.ok:
+                    status = response.status if response else "unknown"
+                    logger.error(f"Failed to fetch {url} via browser: status {status}")
+                    return None
+                return response.text()
+            finally:
+                browser.close()
+
+    except Error as e:
+        # Controlla se il messaggio di errore riguarda l'eseguibile mancante
+        if "Executable doesn't exist" in str(e):
+            print("Errore: I binari del browser non sono installati!")
+            print("Risolvi eseguendo nel terminale: playwright install")
+        else:
+            print(f"Si è verificato un altro errore di Playwright: {e}")
+
+    except Exception as e:
+        print(f"Errore generico non legato a Playwright: {e}")
 
 
 def process(config: SyndicationConfig) -> list[dict]:
