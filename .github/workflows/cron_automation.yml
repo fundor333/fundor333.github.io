@@ -89,7 +89,7 @@ jobs:
 
       - name: Carica il patch
         if: steps.collect.outputs.changed == 'true'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: patch-${{ matrix.id }}
           path: changes.patch
@@ -108,7 +108,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Scarica i patch
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         continue-on-error: true
         with:
           path: patches
