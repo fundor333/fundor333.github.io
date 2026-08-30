@@ -1,4 +1,4 @@
-name: Cron Anilist
+name: Cron Photo
 
 concurrency:
   group: cron-pipeline
@@ -39,7 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           COMMIT_MSG: |
-            👾Fetch webmentions
+            👾Fix Photo Exif
             skip-checks: true
         run: |
           git config user.email "git@fundor333.com"
