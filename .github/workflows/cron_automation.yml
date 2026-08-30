@@ -1,4 +1,4 @@
-name: Cron Webmentions
+name: Cron Automation
 
 on:
   schedule:
@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Fetch Github Issiue
+        run: uv run python ./action_script/github_issue.py
+
       - name: Fetch Syndication
         run: uv run python -m syndication_cli all-cmd
 
@@ -32,6 +35,9 @@ jobs:
         env:
           WEBMENTIONS_TOKEN: ${{ secrets.WEBMENTIONS_TOKEN }}
         run: uv run python ./action_script/webmention.py
+
+      - name: Run Anylist
+        run: uv run python ./action_script/aniist_run.py
 
       - name: Commit to repository
         env:

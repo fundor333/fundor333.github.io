@@ -69,7 +69,7 @@ def process(config: SyndicationConfig) -> list[dict]:
         link_elem = entry.find("link")
         if not link_elem or not link_elem.get("href"):
             continue
-        reddit_link = link_elem["href"].strip()
+        reddit_link = str(link_elem["href"]).strip()
 
         content_elem = entry.find("content")
         content_html = content_elem.text if content_elem is not None and content_elem.text else ""
@@ -80,7 +80,7 @@ def process(config: SyndicationConfig) -> list[dict]:
         if not source_links:
             continue
 
-        source_url = source_links[0]
+        source_url = str(source_links[0])
 
         if not config.options.dry_run:
             save_syndication_cache(source_url, [reddit_link], syndication_dir)
