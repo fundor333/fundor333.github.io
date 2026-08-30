@@ -1,7 +1,7 @@
 name: Build and deploy
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: cron-pipeline
+  cancel-in-progress: false
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -21,10 +21,10 @@ on:
     - cron: "*/15 * * * *"
   workflow_dispatch:
 
-  # Run when webmentions are fetched
+  # Run at the end of the cron pipeline: Automation -> Weekly -> Anilist -> here
   workflow_run:
     workflows:
-      - Fetch webmentions
+      - Cron Anilist
     branches:
       - main
     types:
@@ -35,6 +35,10 @@ jobs:
   build:
     name: Install dependencies
     runs-on: ubuntu-latest
+    # Se innescato dalla catena, procedi solo se Cron Anilist è andato a buon fine
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     env:
       HUGO_VERSION: 0.162.1
     steps:

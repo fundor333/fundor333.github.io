@@ -1,9 +1,16 @@
 name: Cron Weekly
 
+concurrency:
+  group: cron-pipeline
+  cancel-in-progress: false
+
 on:
+  # Testa della catena: la domenica il weekly parte per primo e tutti gli altri
+  # workflow del gruppo "cron-pipeline" restano in attesa che finisca.
+  # Orari in Europe/Rome, convertiti in UTC (ora solare, +1h in ora legale).
   schedule:
-    - cron: "15 6 * * 0"
-    - cron: "30 23 * * 0"
+    - cron: "15 5 * * 0" # 06:15 Europe/Rome, domenica
+    - cron: "30 22 * * 0" # 23:30 Europe/Rome, domenica
   workflow_dispatch:
 jobs:
   weekly:

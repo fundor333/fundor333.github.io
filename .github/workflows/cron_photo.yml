@@ -1,16 +1,25 @@
 name: Cron Anilist
 
+concurrency:
+  group: cron-pipeline
+  cancel-in-progress: false
+
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Cron Automation
+    branches:
+      - main
+    types:
+      - completed
 jobs:
   Anilist:
     runs-on: ubuntu-latest
+    # Aspetta Cron Automation (che la domenica a sua volta aspetta Cron Weekly)
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Check out repository
         uses: actions/checkout@master

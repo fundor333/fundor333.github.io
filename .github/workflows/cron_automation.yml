@@ -1,8 +1,16 @@
 name: Cron Automation
 
+concurrency:
+  group: cron-pipeline
+  cancel-in-progress: false
+
 on:
   schedule:
-    - cron: "0 2 * * *"
+    # Da lunedì a sabato parte da sola alle 02:00 Europe/Rome (01:00 UTC in ora
+    # solare / 03:00 Europe/Rome in ora legale: GitHub usa sempre UTC, niente DST).
+    # La domenica NON parte da sola: la innesca "Cron Weekly" a fine esecuzione.
+    - cron: "0 */6 * * 1-6"
+    - cron: "30 */6 * * 0"
   push:
     branches:
       - main
@@ -10,9 +18,21 @@ on:
     branches:
       - main
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Cron Weekly
+    branches:
+      - main
+    types:
+      - completed
 jobs:
   webmentions:
     runs-on: ubuntu-latest
+    # Se innescato dalla catena (domenica, dopo il weekly), procedi solo se il
+    # weekly è andato a buon fine
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Check out repository
         uses: actions/checkout@master
