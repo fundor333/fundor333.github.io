@@ -1,7 +1,10 @@
 name: Build and deploy
 concurrency:
+  # Un solo run per volta in tutta la catena. cancel-in-progress: true => un run
+  # più recente del gruppo ha sempre la precedenza: annulla sia quello in coda
+  # sia quello eventualmente già in esecuzione.
   group: cron-pipeline
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -18,13 +21,13 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "44 0 * * *"
   workflow_dispatch:
 
-  # Run at the end of the cron pipeline: Automation -> Weekly -> Anilist -> here
+  # Run at the end of the cron pipeline: Weekly -> Automation -> Photo -> here
   workflow_run:
     workflows:
-      - Cron Anilist
+      - Cron Photo
     branches:
       - main
     types:

@@ -1,8 +1,11 @@
 name: Cron Weekly
 
 concurrency:
+  # Un solo run per volta in tutta la catena. cancel-in-progress: true => un run
+  # più recente del gruppo ha sempre la precedenza: annulla sia quello in coda
+  # sia quello eventualmente già in esecuzione.
   group: cron-pipeline
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 on:
   # Testa della catena: la domenica il weekly parte per primo e tutti gli altri
@@ -13,7 +16,10 @@ on:
     - cron: "30 22 * * 0" # 23:30 Europe/Rome, domenica
   workflow_dispatch:
 jobs:
-  weekly:
+  # Task di generazione: nel grafo delle Actions è un nodo a sé, con i suoi log
+  # e il suo esito, separato dal commit.
+  generate:
+    name: generate weekly
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -23,12 +29,70 @@ jobs:
         uses: astral-sh/setup-uv@v10.0.1
         with:
           python-version: "3.14"
+          enable-cache: true
 
       - name: Install dependencies
         run: uv sync
 
       - name: Generate Weekly
         run: make weekly
+
+      - name: Riepilogo esito
+        if: always()
+        run: |
+          echo "- Generate Weekly: ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Raccogli le modifiche
+        id: collect
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git diff --cached --binary > changes.patch
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Carica il patch
+        if: steps.collect.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: patch-weekly
+          path: changes.patch
+          if-no-files-found: ignore
+          retention-days: 1
+
+  # Applica il patch del task e fa un unico commit.
+  # if: always() => gira anche se la generazione è fallita; salta solo se
+  # "generate" è stato skippato.
+  commit:
+    needs: generate
+    if: always() && needs.generate.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@master
+
+      - name: Scarica il patch
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          path: patches
+          pattern: patch-*
+
+      - name: Applica il patch
+        run: |
+          shopt -s nullglob
+          applied=0
+          for p in patches/*/changes.patch; do
+            echo "Applico $p"
+            if git apply --3way --whitespace=nowarn "$p"; then
+              applied=$((applied + 1))
+            else
+              echo "::error::Patch non applicabile: $p"
+            fi
+          done
+          echo "Patch applicati: $applied"
 
       - name: Commit to repository
         env:
@@ -41,5 +105,5 @@ jobs:
           git config user.name "fundor333"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/fundor333/fundor333.github.io.git
           git checkout main
-          git add .
+          git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "${COMMIT_MSG}"; git push origin main)

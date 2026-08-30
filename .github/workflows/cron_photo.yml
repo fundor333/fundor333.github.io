@@ -1,8 +1,11 @@
 name: Cron Photo
 
 concurrency:
+  # Un solo run per volta in tutta la catena. cancel-in-progress: true => un run
+  # più recente del gruppo ha sempre la precedenza: annulla sia quello in coda
+  # sia quello eventualmente già in esecuzione.
   group: cron-pipeline
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 on:
   workflow_dispatch:
@@ -14,7 +17,10 @@ on:
     types:
       - completed
 jobs:
-  Anilist:
+  # Task di elaborazione: nel grafo delle Actions è un nodo a sé, con i suoi log
+  # e il suo esito, separato dal commit.
+  photo-exif:
+    name: photo exif
     runs-on: ubuntu-latest
     # Aspetta Cron Automation (che la domenica a sua volta aspetta Cron Weekly)
     if: >-
@@ -28,12 +34,70 @@ jobs:
         uses: astral-sh/setup-uv@v10.0.1
         with:
           python-version: "3.14"
+          enable-cache: true
 
       - name: Install dependencies
         run: uv sync
 
-      - name: Run Anylist
+      - name: Fix EXIF foto
         run: uv run python ./action_script/photo_exif.py
+
+      - name: Riepilogo esito
+        if: always()
+        run: |
+          echo "- Photo EXIF: ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Raccogli le modifiche
+        id: collect
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git diff --cached --binary > changes.patch
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Carica il patch
+        if: steps.collect.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: patch-photo-exif
+          path: changes.patch
+          if-no-files-found: ignore
+          retention-days: 1
+
+  # Applica il patch del task e fa un unico commit.
+  # if: always() => gira anche se il task è fallito; salta solo se "photo-exif"
+  # è stato skippato (guard workflow_run non superato).
+  commit:
+    needs: photo-exif
+    if: always() && needs.photo-exif.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@master
+
+      - name: Scarica il patch
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          path: patches
+          pattern: patch-*
+
+      - name: Applica il patch
+        run: |
+          shopt -s nullglob
+          applied=0
+          for p in patches/*/changes.patch; do
+            echo "Applico $p"
+            if git apply --3way --whitespace=nowarn "$p"; then
+              applied=$((applied + 1))
+            else
+              echo "::error::Patch non applicabile: $p"
+            fi
+          done
+          echo "Patch applicati: $applied"
 
       - name: Commit to repository
         env:
@@ -46,5 +110,5 @@ jobs:
           git config user.name "fundor333"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/fundor333/fundor333.github.io.git
           git checkout main
-          git add .
+          git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "${COMMIT_MSG}"; git push origin main)

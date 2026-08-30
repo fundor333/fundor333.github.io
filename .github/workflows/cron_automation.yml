@@ -1,8 +1,11 @@
 name: Cron Automation
 
 concurrency:
+  # Un solo run per volta in tutta la catena. cancel-in-progress: true => un run
+  # più recente del gruppo ha sempre la precedenza: annulla sia quello in coda
+  # sia quello eventualmente già in esecuzione.
   group: cron-pipeline
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 on:
   schedule:
