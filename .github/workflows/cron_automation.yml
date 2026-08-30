@@ -26,13 +26,33 @@ on:
     types:
       - completed
 jobs:
-  webmentions:
+  # Un task separato per ogni script: nel grafo delle Actions compaiono come
+  # "fetch (Github issue)", "fetch (Syndication)", ... ognuno con i suoi log e il
+  # suo esito. fail-fast: false => se uno fallisce gli altri proseguono.
+  fetch:
+    name: fetch (${{ matrix.name }})
     runs-on: ubuntu-latest
     # Se innescato dalla catena (domenica, dopo il weekly), procedi solo se il
     # weekly è andato a buon fine
     if: >-
       github.event_name != 'workflow_run' ||
       github.event.workflow_run.conclusion == 'success'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Github issue
+            id: github-issue
+            run: uv run python ./action_script/github_issue.py
+          - name: Syndication
+            id: syndication
+            run: uv run python -m syndication_cli all-cmd
+          - name: Webmentions
+            id: webmentions
+            run: uv run python ./action_script/webmention.py
+          - name: Anilist
+            id: anilist
+            run: uv run python ./action_script/aniist_run.py
     steps:
       - name: Check out repository
         uses: actions/checkout@master
@@ -41,34 +61,83 @@ jobs:
         uses: astral-sh/setup-uv@v10.0.1
         with:
           python-version: "3.14"
+          enable-cache: true
 
       - name: Install dependencies
         run: uv sync
 
-      - name: Fetch Github Issiue
-        run: uv run python ./action_script/github_issue.py
-
-      - name: Fetch Syndication
-        run: uv run python -m syndication_cli all-cmd
-
-      - name: Fetch webmentions
+      - name: ${{ matrix.name }}
         env:
           WEBMENTIONS_TOKEN: ${{ secrets.WEBMENTIONS_TOKEN }}
-        run: uv run python ./action_script/webmention.py
+        run: ${{ matrix.run }}
 
-      - name: Run Anylist
-        run: uv run python ./action_script/aniist_run.py
+      - name: Riepilogo esito
+        if: always()
+        run: |
+          echo "- ${{ matrix.name }}: ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Raccogli le modifiche
+        id: collect
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git diff --cached --binary > changes.patch
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Carica il patch
+        if: steps.collect.outputs.changed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: patch-${{ matrix.id }}
+          path: changes.patch
+          if-no-files-found: ignore
+          retention-days: 1
+
+  # Raccoglie i patch di tutti i task e fa un unico commit.
+  # if: always() => committa anche i risultati parziali se qualche task è fallito;
+  # salta solo se "fetch" è stato skippato (guard workflow_run non superato).
+  commit:
+    needs: fetch
+    if: always() && needs.fetch.result != 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@master
+
+      - name: Scarica i patch
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          path: patches
+          pattern: patch-*
+
+      - name: Applica i patch
+        run: |
+          shopt -s nullglob
+          applied=0
+          for p in patches/*/changes.patch; do
+            echo "Applico $p"
+            if git apply --3way --whitespace=nowarn "$p"; then
+              applied=$((applied + 1))
+            else
+              echo "::error::Patch non applicabile: $p"
+            fi
+          done
+          echo "Patch applicati: $applied"
 
       - name: Commit to repository
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           COMMIT_MSG: |
-            👾Fetch webmentions
+            👾Run Automations
             skip-checks: true
         run: |
           git config user.email "git@fundor333.com"
           git config user.name "fundor333"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/fundor333/fundor333.github.io.git
           git checkout main
-          git add .
+          git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "${COMMIT_MSG}"; git push origin main)
