@@ -134,3 +134,8 @@ eventi: event ## Run eventi script
 autotag: ## Run autotag script
 	@uv run python -m syndication_cli tag-cmd
 
+.PHONY: changelog ## update CHANGELOG.md and amend it on the commit
+changelog:
+	git-cliff --config pyproject.toml --output CHANGELOG.md
+	git add CHANGELOG.md
+	git commit --amend --no-edit
