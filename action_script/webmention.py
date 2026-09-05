@@ -1,10 +1,10 @@
-import requests
-import os
 import datetime
-import json
-from pathlib import Path
 import hashlib
+import json
+import os
+from pathlib import Path
 
+import requests
 
 http_domain = "https://fundor333.com"
 domain = "fundor333.com"
@@ -22,21 +22,20 @@ class WebmentionFinder:
         self.token = token
         self.url = (
             f"https://webmention.io/api/mentions.jf2?domain={self.domain}"
-            + f"&token={self.token}&since={self.since_data.isoformat()}&per-page=999"
+            f"&token={self.token}&since={self.since_data.isoformat()}&per-page=999"
         )
 
     def __clean_slug(self, slug: str):
-        return hashlib.md5(
-            (slug.split("?")[0]).encode("utf-8"), usedforsecurity=False
-        ).hexdigest()
+        return hashlib.md5((slug.split("?")[0]).encode("utf-8"), usedforsecurity=False).hexdigest()
 
     def __get_data(self):
         r = requests.get(self.url)
+        if r.status_code > 399:
+            raise Exception(f"Error fetching data from {self.url}: {r.status_code}")
         data = r.json()
         self.output = {}
 
         for webmention in data.get("children", []):
-
             label = self.__clean_slug(webmention["wm-target"])
             self.all_hash.append(label)
             label += "/" + str(webmention["wm-id"])
@@ -48,7 +47,7 @@ class WebmentionFinder:
 
     def __generate_files(self):
 
-        for key in self.output.keys():
+        for key in self.output:
             original_path = key
             path_list = original_path.split("/")
 
@@ -56,20 +55,20 @@ class WebmentionFinder:
             if path_list != []:
                 filename = path_list.pop()
 
-                path_folder = os.path.join("data", "webmentions", *path_list)
+                path_folder = Path("data") / "webmentions" / Path(*path_list)
 
-                Path(path_folder).mkdir(parents=True, exist_ok=True)
-                path_file = os.path.join(path_folder, filename + ".json")
+                path_folder.mkdir(parents=True, exist_ok=True)
+                path_file = path_folder / f"{filename}.json"
 
-                with open(path_file, "w") as fp:
+                with path_file.open("w") as fp:
                     json.dump(self.output[key], fp)
 
     def __clean_files(self):
 
         for folder in self.all_hash:
-            path_f = os.path.join("data", "webmentions", folder)
+            path_f = Path("data") / "webmentions" / folder
 
-            files = os.listdir(path_f)
+            files = sorted(path_f.iterdir())
 
             out_dict = {
                 "source": [],
@@ -83,8 +82,10 @@ class WebmentionFinder:
                 },
             }
             source = []
-            for e in files:
-                with open(os.path.join(path_f, e)) as file:
+            for file_path in files:
+                if not file_path.is_file():
+                    continue
+                with file_path.open() as file:
                     for element in json.load(file):
                         source.append(element)
 
@@ -96,29 +97,30 @@ class WebmentionFinder:
                 wm_property = e["wm-property"]
                 out_dict["stats"][wm_property] += 1
                 link = e["wm-source"]
-                if e.get("content", False):
-                    if not (link in links):
-                        single_data = {
-                            "content": e["content"]["text"],
-                            "link": e["wm-source"],
-                            "author_name": e["author"]["name"],
-                            "author_photo": e["author"]["photo"],
-                            "author_url": e["author"]["url"],
-                        }
-                        comments.append(single_data)
-                        links.append(link)
+                if e.get("content", False) and link not in links:
+                    single_data = {
+                        "content": e["content"]["text"],
+                        "link": e["wm-source"],
+                        "author_name": e["author"]["name"],
+                        "author_photo": e["author"]["photo"],
+                        "author_url": e["author"]["url"],
+                    }
+                    comments.append(single_data)
+                    links.append(link)
             out_dict["stats"]["comments"] = comments
 
-            with open(os.path.join("data", "webmentions", folder + ".json"), "w") as fp:
+            output_path = Path("data") / "webmentions" / f"{folder}.json"
+            with output_path.open("w") as fp:
                 json.dump(out_dict, fp)
 
     def run(self):
-        self.__get_data()
-        self.__generate_files()
-        self.__clean_files()
+        try:
+            self.__get_data()
+            self.__generate_files()
+            self.__clean_files()
+        except Exception as e:
+            print(f"An error occurred: {e}")
 
 
-wb = WebmentionFinder(
-    http_domain=http_domain, token=token, since_days=since_days, domain=domain
-)
+wb = WebmentionFinder(http_domain=http_domain, token=token, since_days=since_days, domain=domain)
 wb.run()
