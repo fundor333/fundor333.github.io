@@ -190,5 +190,9 @@ log_syndication.csv
 
 log_feed.csv
 
+# Staging dei patch generati dalle GitHub Actions: mai committare
+/patches/
+/changes.patch
+
 assets/sass/*.css
 assets/sass/*.css.map

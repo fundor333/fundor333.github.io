@@ -115,9 +115,12 @@ jobs:
 
       - name: Applica i patch
         run: |
-          shopt -s nullglob
+          shopt -s nullglob globstar
           applied=0
-          for p in patches/*/changes.patch; do
+          # download-artifact puo' estrarre i patch sia in patches/<nome>/changes.patch
+          # sia direttamente in patches/changes.patch: gestiamo entrambi i casi.
+          for p in patches/**/changes.patch; do
+            [ -f "$p" ] || continue
             echo "Applico $p"
             if git apply --3way --whitespace=nowarn "$p"; then
               applied=$((applied + 1))
@@ -138,5 +141,7 @@ jobs:
           git config user.name "fundor333"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/fundor333/fundor333.github.io.git
           git checkout main
+          # La cartella patches/ e' solo staging degli artifact: non va committata.
+          rm -rf patches changes.patch
           git add -A
           git diff --quiet && git diff --staged --quiet || (git commit -m "${COMMIT_MSG}"; git push origin main)
