@@ -1,0 +1,39 @@
+{{- /* Favicons, driven by config.
+   site.Params:
+     favicon        main icon (.ico / .png / .svg)
+     faviconSvg     optional SVG icon
+     appleTouchIcon apple-touch-icon
+     icon96         96x96 PNG icon
+     maskIcon       Safari pinned-tab SVG (mono)
+     maskIconColor  colour for the mask icon (default themeColor / primary)
+     webmanifest    web app manifest
+   Values are used as URLs (relURL): "favicon.ico" -> "/favicon.ico",
+   "/icons/x.png" and "https://…" are left as-is.
+   Nothing configured -> the theme's bundled /favicon.svg only. */ -}}
+
+{{- $favicon := site.Params.favicon -}}
+{{- $svg := site.Params.faviconSvg -}}
+{{- if and (not $svg) $favicon (strings.HasSuffix $favicon ".svg") -}}
+  {{- $svg = $favicon -}}{{- $favicon = "" -}}
+{{- end -}}
+
+{{- with $favicon }}
+<link rel="icon" href="{{ . | relURL }}" sizes="any">
+{{- end }}
+{{- if $svg }}
+<link rel="icon" type="image/svg+xml" href="{{ $svg | relURL }}">
+{{- else if not $favicon }}
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
+{{- end }}
+{{- with site.Params.icon96 }}
+<link rel="icon" type="image/png" sizes="96x96" href="{{ . | relURL }}">
+{{- end }}
+{{- with site.Params.appleTouchIcon }}
+<link rel="apple-touch-icon" href="{{ . | relURL }}">
+{{- end }}
+{{- with site.Params.maskIcon }}
+<link rel="mask-icon" href="{{ . | relURL }}" color="{{ site.Params.maskIconColor | default (site.Params.themeColor | default "#9b8cf8") }}">
+{{- end }}
+{{- with site.Params.webmanifest }}
+<link rel="manifest" href="{{ . | relURL }}">
+{{- end }}

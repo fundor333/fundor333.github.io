@@ -170,7 +170,8 @@ Fonts are loaded from Google Fonts in `_partials/head.html` from `params.fonts`
 | Search: `SearchIndex` output → `/search.json`, `/search` section, `?q=` form, **Lunr** index, `<template>` rendering | `layouts/index.searchindex.json`, `layouts/search/list.html`, `_partials/search-*.html`, `assets/js/search.js` |
 | Content types: `micro`, `photos` (EXIF from `exif.json` or `.Exif`), `weeknote`, `event` (`start`/`end`/`location`), `now`, `series` | `layouts/<type>/…` |
 | Microformats2: `h-entry` / `e-content` / `u-photo` / `p-category` / `dt-published`; response types reply/repost/like/bookmark/rsvp | `layouts/single.html`, `_partials/micro.html` |
-| **Webmention** (send + render via webmention.io) | `_partials/webmention.html`, `_partials/custom-head.html` |
+| Favicons entirely from config (`favicon`, `faviconSvg`, `appleTouchIcon`, `icon96`, `webmanifest`, `maskIcon`) | `_partials/favicons.html` |
+| **Webmention**: `rel=webmention`/`pingback` + the webmention.io client rendering a reactions facepile and inline comments into `#webmentions` (styled) | `_partials/webmention.html`, `_partials/custom-head.html`, `assets/css/main.css` |
 | **Mastodon comments** (fetch `/context` + DOMPurify) + build-time toot embed | `_partials/mastodon.html`, `_partials/toot.html` |
 | **Brid.gy Publish** with configurable targets + UTM | `_partials/bridgy.html` |
 | **Syndication** ("also posted on") | `_partials/syndication.html` |
@@ -210,6 +211,16 @@ KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
   images = ["/img/og.png"]          # fallback og:image
   prideCorner = false               # pride.codes corner top-right (opt-in)
 
+  # Favicons — used verbatim as URLs (relURL). Nothing set -> the theme's
+  # bundled /favicon.svg only.
+  favicon        = "/favicon.ico"
+  faviconSvg     = "/favicon.svg"
+  appleTouchIcon = "/apple-touch-icon.png"
+  icon96         = "/favicon-96x96.png"
+  webmanifest    = "/site.webmanifest"
+  maskIcon       = ""               # Safari pinned-tab mono SVG (optional)
+  icon           = "/favicon-196x196.png"   # generic icon, also used by the feeds
+
   [params.fontawesome]              # content-type icons
     kit = ""                         # a Kit URL (Pro too); empty = free CDN
     version = "6.7.2"                # free CDN version
@@ -241,8 +252,12 @@ KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
       nominative = "" ; oblique = "" ; possessive = ""
 
   [params.webmention]
-    targetDomain = "example.com"     # canonical domain for webmention.io
-    # endpoint / pingback / script optional
+    targetDomain = "example.com"     # canonical domain (host swap, scheme kept)
+    script       = ""                # client script (default: webmention.io hosted)
+    wordcount    = 40                # data-wordcount for inline comments
+    # endpoint / pingback also read by _partials/custom-head.html
+    # Renders the reactions facepile + comments into #webmentions, and emits
+    # <link rel="webmention"> / <link rel="pingback">.
 
   bridgy = ["mastodon", "bluesky"]
 

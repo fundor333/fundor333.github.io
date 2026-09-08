@@ -71,6 +71,11 @@ enableGitInfo = false
   themeColor = "#1e1e24"
   prideCorner = true            # LGBTQ+ corner (theme default: false)
   # Font Awesome: with no kit set, the free cdnjs CSS is used (content-type icons).
+  # Favicons: with none configured the theme falls back to its bundled favicon.svg.
+
+  [params.webmention]
+    targetDomain = "example.org"
+    wordcount = 40
 
   [params.author]
     name = "Dev Person"

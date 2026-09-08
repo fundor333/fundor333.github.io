@@ -29,5 +29,11 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 - Footer: 88×31 badges, webring partial (icon / prev-next / web component),
   "cite this post", "written by a human", backlinks, related posts.
 - Opt-in LGBTQ+ corner (pride.codes), `params.prideCorner` (default `false`).
+- Favicons rendered entirely from config (`_partials/favicons.html`):
+  `favicon`, `faviconSvg`, `appleTouchIcon`, `icon96`, `webmanifest`,
+  `maskIcon`; falls back to the theme's bundled `favicon.svg`.
+- Webmention rendering: `#webmentions` facepile + inline comments are now
+  styled in `main.css`; `_partials/webmention.html` keeps the URL scheme when
+  swapping the host and takes `script` / `wordcount` params.
 - i18n: `en` and `it`.
 - `exampleSite` that builds cleanly on Hugo 0.146+.

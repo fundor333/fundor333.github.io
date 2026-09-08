@@ -1,9 +1,19 @@
+{{- /* Webmention display (webmention.io client).
+   site.Params.webmention:
+     targetDomain  canonical domain, e.g. "example.com" (swaps the host of the
+                   current URL, keeping the scheme) so dev builds still resolve
+     script        client script URL (default: webmention.io hosted copy)
+     wordcount     data-wordcount for inline comments (default 40)
+   Populates #webmentions with a reactions facepile + a comments list. */ -}}
 {{- with site.Params.webmention -}}
-{{- $page := replace (absURL $.RelPermalink) (printf "%s://%s" (urls.Parse site.BaseURL).Scheme (urls.Parse site.BaseURL).Host) .targetDomain -}}
-<div id="webmentions" data-page-url="{{ or .targetDomain $page }}"></div>
+{{- $url := $.Permalink -}}
+{{- with .targetDomain -}}
+  {{- $url = replace $.Permalink (urls.Parse site.BaseURL).Hostname . -}}
+{{- end -}}
+<div id="webmentions"></div>
 <script src="{{ .script | default "https://webmention.io/js/webmention.min.js" }}"
+  data-page-url="{{ $url }}"
   data-wordcount="{{ .wordcount | default 40 }}"
-  data-page-url="{{ $page }}"
-  {{ with $.Aliases }}data-alternative-url="{{ range . }}{{ absURL . }} {{ end }}"{{ end }}
+  {{- with $.Aliases }} data-alternative-url="{{ range $i, $a := . }}{{ if $i }} {{ end }}{{ absURL $a }}{{ end }}"{{ end }}
   async></script>
 {{- end -}}

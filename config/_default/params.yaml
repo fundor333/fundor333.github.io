@@ -4,9 +4,13 @@ image: /img/pilogo.jpg
 logo: /img/logo.png
 images:
   - /img/Opengraph.png
-favicon: "apple-touch-icon.png"
-icon: "apple-touch-icon.png"
-icon96: "favicon-96x96.png"
+# Favicons — point at files that exist under static/ (CyberLavandaTea theme).
+favicon: "/favicon.ico"
+faviconSvg: "/icons/favicon.svg"
+appleTouchIcon: "/icons/apple-touch-icon.png"
+icon96: "/favicon-96x96.png"
+webmanifest: "/icons/site.webmanifest"
+icon: "/favicon-196x196.png" # generic site icon, also used by the feeds
 defaultColor:
   "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
@@ -83,6 +87,13 @@ fontawesome:
 
 # Angolo LGBT+ (pride.codes) in alto a destra. Default del tema: false.
 prideCorner: true
+
+# Webmention (webmention.io). Il tema rende la facepile + i commenti in
+# #webmentions e mette <link rel="webmention"> / <link rel="pingback">.
+webmention:
+  targetDomain: "fundor333.com"
+  script: "/js/webmention.min.js" # copia self-hosted (static/js/)
+  wordcount: 50
 
 # Webring nel footer (tema CyberLavandaTea). Erano hardcoded nel vecchio
 # layouts/_partials/footer.html; ora sono dati.
