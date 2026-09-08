@@ -88,6 +88,16 @@ enableGitInfo = false
     name = "mastodon"
     url = "https://mastodon.social/"
 
+  [[params.webrings]]
+    name = "XXIIVV webring"
+    url = "https://webring.xxiivv.com/"
+    icon = "https://webring.xxiivv.com/icon.white.svg"
+  [[params.webrings]]
+    name = "IndieWeb Webring"
+    url = "https://xn--sr8hvo.ws"
+    prev = "https://xn--sr8hvo.ws/previous"
+    next = "https://xn--sr8hvo.ws/next"
+
 # --- Markup -----------------------------------------------------------------
 [markup]
   [markup.highlight]

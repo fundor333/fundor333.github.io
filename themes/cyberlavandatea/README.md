@@ -220,9 +220,21 @@ I font sono caricati da Google Fonts in `_partials/head.html` a partire da
   [[params.socialIcons]]
     name = "github" ; url = "https://github.com/utente"
 
+  # Webring nel footer (partial webring.html). Ogni voce:
+  #   name, url            link semplice
+  #   + icon               link icona (img 30x30)
+  #   + prev / next        rende  ← name →
+  #   + html [+ script]    markup grezzo (web component) e script defer
+  [[params.webrings]]
+    name = "XXIIVV webring" ; url = "https://webring.xxiivv.com/#86"
+    icon = "https://webring.xxiivv.com/icon.white.svg"
   [[params.webrings]]
     name = "IndieWeb Webring" ; url = "https://xn--sr8hvo.ws"
     prev = "https://xn--sr8hvo.ws/previous" ; next = "https://xn--sr8hvo.ws/next"
+  [[params.webrings]]
+    name = "djangowebring"
+    html = '<webring-css site="https://example.org"></webring-css>'
+    script = "https://djangowebring.com/static/webring.js"
 ```
 
 ### Front matter riconosciuto

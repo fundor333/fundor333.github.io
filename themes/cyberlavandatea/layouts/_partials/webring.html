@@ -1,0 +1,32 @@
+{{- /* Webring del sito, da site.Params.webrings (lista).
+   Ogni voce supporta:
+     name    etichetta (obbligatoria per i tipi link/prevnext)
+     url     link principale
+     icon    URL di un'icona → rende un link icona
+     prev    URL "precedente"  ┐ rende  ← name →
+     next    URL "successivo"  ┘
+     html    markup grezzo (es. web component) — reso con safeHTML
+     script  URL di uno script da caricare (defer) dopo il markup
+*/ -}}
+{{- with site.Params.webrings -}}
+<nav class="webrings" aria-label="Webring">
+  {{- range . }}
+  <div class="webring-item">
+    {{- if .icon -}}
+      <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .name }}">
+        <img loading="lazy" width="30" height="30" src="{{ .icon }}" alt="{{ .name }}">
+      </a>
+    {{- else if or .prev .next -}}
+      {{ with .prev }}<a href="{{ . }}" rel="prev">&larr;</a>{{ end }}
+      <a href="{{ .url | default "#" }}" target="_blank" rel="noopener">{{ .name }}</a>
+      {{ with .next }}<a href="{{ . }}" rel="next">&rarr;</a>{{ end }}
+    {{- else if .html -}}
+      {{ .html | safeHTML }}
+    {{- else if .url -}}
+      <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name | default .url }}</a>
+    {{- end -}}
+    {{- with .script }}<script defer src="{{ . }}"></script>{{ end -}}
+  </div>
+  {{- end }}
+</nav>
+{{- end -}}

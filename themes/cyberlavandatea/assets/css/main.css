@@ -245,6 +245,9 @@
   .social-icon { color: var(--color-inactive); }
   .social-icon:hover { color: var(--color-primary); }
   .badges-88x31 { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .webrings { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; margin: 1rem 0; font-size: 0.9rem; color: var(--color-inactive); }
+  .webring-item { display: flex; align-items: center; gap: 0.6rem; }
+  .webring-item img { display: block; }
 
   /* Torna su */
   #totop {

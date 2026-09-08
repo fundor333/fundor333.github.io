@@ -76,6 +76,20 @@ bridgy:
   - "mastodon"
   - "bluesky"
 
+# Webring nel footer (tema CyberLavandaTea). Erano hardcoded nel vecchio
+# layouts/_partials/footer.html; ora sono dati.
+webrings:
+  - name: "XXIIVV webring"
+    url: "https://webring.xxiivv.com/#86"
+    icon: "https://webring.xxiivv.com/icon.white.svg"
+  - name: "IndieWeb Webring"
+    url: "https://xn--sr8hvo.ws"
+    prev: "https://xn--sr8hvo.ws/previous"
+    next: "https://xn--sr8hvo.ws/next"
+  - name: "djangowebring"
+    html: '<webring-css site="https://fundor333.com"></webring-css>'
+    script: "https://djangowebring.com/static/webring.js"
+
 dateFormatAtomFeed: "2006-01-02T15:04:05-07:00"
 dateFormatTag: "2006"
 feedUUID: "43c22089-5c06-4cc4-8fd2-5b3563d5d257"

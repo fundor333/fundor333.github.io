@@ -7,17 +7,7 @@
 
   {{ if site.Params.badges88x31 | default true }}{{ partial "88x31.html" . }}{{ end }}
 
-  {{ with site.Params.webrings }}
-  <nav class="webrings my-4 flex flex-col items-center gap-1 text-sm text-inactive" aria-label="Webring">
-    {{ range . }}
-    <span>
-      {{ with .prev }}<a href="{{ . }}">←</a>{{ end }}
-      <a href="{{ .url }}">{{ .name }}</a>
-      {{ with .next }}<a href="{{ . }}">→</a>{{ end }}
-    </span>
-    {{ end }}
-  </nav>
-  {{ end }}
+  {{ partial "webring.html" . }}
 
   <small class="footer_copyright block text-sm">
     © {{ with site.Params.sinceYear }}{{ . }} – {{ end }}{{ now.Format "2006" }}
