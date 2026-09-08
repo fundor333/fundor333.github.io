@@ -1,4 +1,7 @@
-<form id="search" role="search" method="get" action="{{ with site.GetPage "/search" }}{{ .Permalink }}{{ end }}"
+{{- $action := "" -}}
+{{- with site.GetPage "/search" }}{{ $action = .RelPermalink }}{{ end -}}
+{{- if not $action }}{{ $action = "/search/" | relLangURL }}{{ end -}}
+<form id="search" role="search" method="get" action="{{ $action }}"
   class="my-6 flex gap-2">
   <label for="search-input" class="sr-only">{{ T "search.label" }}</label>
   <input type="search" id="search-input" name="q" autocomplete="off"
