@@ -6,6 +6,11 @@ tags = ["hugo", "search", "javascript"]
 categories = ["dev"]
 toc = true
 isStarred = true
+syndication = [
+  "https://mastodon.social/@Gargron/1",
+  "https://www.reddit.com/r/hugo/comments/xxxxxx/build_a_lunr_index/",
+  "https://bsky.app/profile/example.com/post/abc",
+]
 # Mastodon comments: replies to this toot are shown under the post.
 [comments]
   host = "mastodon.social"

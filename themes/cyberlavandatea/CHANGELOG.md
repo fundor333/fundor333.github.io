@@ -20,6 +20,9 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
   Lunr.
 - IndieWeb / POSSE: Microformats2 markup, Webmention (send + render), Mastodon
   comments, build-time toot embed, Brid.gy Publish markup, syndication list.
+- "Also posted on" syndication labels are prettified per platform at build
+  time: `reddit.com/r/django/…` shows **r/django**, `bsky.app/profile/x` shows
+  **@x**, `…/@user/…` shows **host/@user**; other links show the host.
 - Render hooks: link (UTM + new tab + marker), image (`<figure>` + caption),
   heading (anchor), codeblock (`HighlightCodeBlock`).
 - Shortcodes: `toc`, `embed`, `toot`, `xkcd`, `allpages`, `88x31`, `buzzword`,

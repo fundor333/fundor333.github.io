@@ -1,6 +1,26 @@
+{{- /* "Also posted on:" — links from .Params.syndication (list of URLs).
+   The visible label is prettified per platform:
+     reddit.com      -> r/<subreddit>
+     bsky.app        -> @<handle>
+     .../@user/...    -> <host>/@<user>   (Mastodon & friends)
+     otherwise       -> <host> (without "www.")
+   The href and the u-syndication / rel="syndication" markup are unchanged. */ -}}
 {{- with .Params.syndication -}}
 <div class="syndication mt-6 border-t border-border pt-4 text-sm">
   <strong>{{ T "syndication.also_on" }}</strong>
-  {{ range $i, $u := . }}{{ if $i }}, {{ end }}<a class="u-syndication" rel="syndication" href="{{ $u }}" target="_blank" rel="noopener">{{ (urls.Parse $u).Host }}</a>{{ end }}
+  {{- range $i, $url := . -}}
+    {{- $u := urls.Parse $url -}}
+    {{- $host := strings.TrimPrefix "www." $u.Host -}}
+    {{- $label := $host -}}
+    {{- if strings.Contains $host "reddit.com" -}}
+      {{- with (index (findRE `/r/[^/?#]+` $u.Path) 0) }}{{ $label = strings.TrimPrefix "/" . }}{{ end -}}
+    {{- else if eq $host "bsky.app" -}}
+      {{- with (index (findRE `/profile/[^/?#]+` $u.Path) 0) }}{{ $label = printf "@%s" (strings.TrimPrefix "/profile/" .) }}{{ end -}}
+    {{- else if hasPrefix $u.Path "/@" -}}
+      {{- with (index (findRE `/@[^/?#]+` $u.Path) 0) }}{{ $label = printf "%s%s" $host . }}{{ end -}}
+    {{- end -}}
+    {{- if $i }}, {{ end -}}
+    <a class="u-syndication nowrap" rel="syndication noopener" target="_blank" href="{{ $url }}">{{ $label }}</a>
+  {{- end -}}
 </div>
 {{- end -}}
