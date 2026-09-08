@@ -17,7 +17,7 @@
   translation: "Go to top"
 
 - id: "footer.disclaimer"
-  translation: "Powered by <a href=\"https://github.com/hugo-sid/hugo-blog-awesome\" target=\"_blank\" rel=\"noopener\">Hugo blog awesome</a>."
+  translation: "Built with <a href=\"https://github.com/fundor333/cyberlavandatea\" target=\"_blank\" rel=\"noopener\">CyberLavandaTea</a>."
 
 ## ERRORS ##
 - id: "errors.404"

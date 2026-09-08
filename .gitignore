@@ -196,3 +196,6 @@ log_feed.csv
 
 assets/sass/*.css
 assets/sass/*.css.map
+
+# Tailwind (tema CyberLavandaTea)
+hugo_stats.json

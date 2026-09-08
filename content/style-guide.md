@@ -1,12 +1,13 @@
 ---
 title: "Style Guide"
 type: page
-specialpost: true
 allpage: true
 summary: A listing of all the styles and elements used on this site
 ---
 
 Inspired by [json.blog's style guide](https://json.blog/style-guide/) and, in turn, [The Frugal Gamer](https://www.thefrugalgamer.net/styleGuide.php), a (not so[^notso]) comprehensive listing of all possible styles and elements on this site.
+
+The site runs the **CyberLavandaTea** theme: dark only, two accent hues (a violet and a green), headings in *Audiowide*, body text in *Rajdhani*.
 
 [^notso]: Actually, this is also not comprehensive. If you find I forgot something ping me and I will fix it
 
@@ -17,6 +18,8 @@ Inspired by [json.blog's style guide](https://json.blog/style-guide/) and, in tu
 ### Heading 3
 
 #### Heading 4
+
+Headings get an `id` and, on hover, a `¶` anchor link to that section.
 
 And now, for the text content, which is the most important part of the blog.
 
@@ -46,27 +49,27 @@ This is a [link](https://en.wikipedia.org/wiki/The_Hobbit).
 
 You can also write some `inline code` when you need it.
 
+### Links
+
+Links are green. A [visited link](https://en.wikipedia.org/wiki/The_Hobbit) turns lavender, and on hover every link goes violet. External links open in a new tab, get a `↗` marker, and pick up a `utm_source` parameter.
+
+### Images
+
+A block image is centered inside a `<figure>`; the title, if present, becomes the caption.
+
+![A cup of tea](/img/logo.png "This title line renders as the caption")
+
 ### Block Styles
 
 #### Quote
 
 > "I wish it need not have happened in my time," said Frodo. "So do I," said Gandalf, "and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us."
 
-#### Alert Boxes
-
-> **Note** — Notes are for supplementary information the reader might find useful but can skip without losing the main point.
-
-> **Tip** — Tips suggest a better way to do something or a shortcut worth knowing.
-
-> **Important** — Important alerts highlight information that is critical to the reader's understanding or success.
-
-> **Warning** — Warnings flag something that could cause problems if ignored — proceed carefully.
-
-> **Caution** — Caution signals a potentially irreversible or destructive action.
+Blockquotes have a violet left border on a slightly lifted surface. There are no separate "note / warning / caution" callout boxes — a quote is a quote.
 
 #### Tables
 
-I don't really use tables much, but here's one anyway.
+I don't really use tables much, but here's one anyway. Rows alternate with a faint tint and the whole thing sits inside a scroll container when it's too wide.
 
 | Column 1  |  Column 2  | Column Blue |
 | :-------- | :--------: | ----------: |
@@ -74,7 +77,7 @@ I don't really use tables much, but here's one anyway.
 
 #### Code
 
-Code is also rare on the blog, though it's a big part of my "day life". Here's a bit of Python.
+Code is also rare on the blog, though it's a big part of my "day life". Here's a bit of Python. Syntax highlighting stays inside the two accent hues: keywords are violet, strings green, function names a lighter green, numbers a lighter violet, comments grey.
 
 ```python
 from pathlib import Path
@@ -100,11 +103,35 @@ def sum_lines(lines: list[str]) -> int:
 
 ### Color Guide
 
-These are the colors featured on this site's theme.
+The theme is dark only. Six semantic roles, plus two surfaces derived by opacity — nothing else in the site chrome.
 
-| Role       | Light     | Dark      |
-| :--------- | :-------- | :-------- |
-| Accent     | `#003fff` | `#77a8fd` |
-| Code text  | `#f8f8f2` | `#f8f8f2` |
-| Code back  | `#272822` | `#272822` |
-| Table rule | `#dadada` | `#717171` |
+| Role                | Token                 | Hex       |
+| :------------------ | :-------------------- | :-------- |
+| Primary (violet)    | `--color-primary`     | `#9B8CF8` |
+| Content             | `--color-content`     | `#DCDCE4` |
+| Links (green)       | `--color-link`        | `#74D18C` |
+| Visited (lavender)  | `--color-visited`     | `#9E8FBE` |
+| Background          | `--color-background`  | `#1E1E24` |
+| Inactive            | `--color-inactive`    | `#8C8C99` |
+| Surface (derived)   | `--color-surface`     | `#2D2D33` |
+| Border (derived)    | `--color-border`      | `#39393F` |
+
+Syntax highlighting palette:
+
+| Token                     | Hex       |
+| :------------------------ | :-------- |
+| keyword / operator        | `#9B8CF8` |
+| string                    | `#74D18C` |
+| function / class          | `#A6E0B4` |
+| number / constant         | `#C3B8F5` |
+| comment                   | `#8C8C99` |
+| error / removed line      | `#E1808F` |
+
+Type:
+
+| Use                              | Family      |
+| :------------------------------- | :---------- |
+| Headings, links, bold, footer    | Audiowide   |
+| Body text                        | Rajdhani    |
+| "Written by a human" signature   | Ocean Trace |
+| Code                             | system mono |

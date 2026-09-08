@@ -10,7 +10,10 @@ goToTop: true
 disableHugoGeneratorInject: true
 enableGitInfo: true
 
-theme: ["hugo-redirect", "hugo-blog-awesome"]
+# PROVA (branch feat/cyberlavandatea-theme): tema CyberLavandaTea.
+# Per tornare al precedente: theme: ["hugo-redirect", "hugo-blog-awesome"]
+# e `git mv layouts.hugo-blog-awesome layouts`.
+theme: ["hugo-redirect", "cyberlavandatea"]
 
 related:
   includeNewer: true
@@ -77,3 +80,26 @@ minify:
     html:
       keepDocumentTags: true
       keepQuotes: true
+
+# Richiesto dal tema CyberLavandaTea (non ereditabile dai temi).
+markup:
+  highlight:
+    noClasses: false # highlight con classi .chroma → palette del tema
+  goldmark:
+    parser:
+      # immagine "da sola" → <figure> + <figcaption> (render-image.html)
+      wrapStandAloneImageWithinParagraph: false
+
+# Necessario a css.TailwindCSS del tema CyberLavandaTea (prova).
+# Il layout del tema è CSS puro con fallback delle utility: non serve
+# buildStats/hugo_stats.json per renderizzare correttamente.
+security:
+  exec:
+    allow:
+      - '^(dart-)?sass$'
+      - '^git$'
+      - '^go$'
+      - '^node$'
+      - '^npx$'
+      - '^postcss$'
+      - '^tailwindcss$'

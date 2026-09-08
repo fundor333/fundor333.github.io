@@ -4,9 +4,13 @@ image: /img/pilogo.jpg
 logo: /img/logo.png
 images:
   - /img/Opengraph.png
-favicon: "apple-touch-icon.png"
-icon: "apple-touch-icon.png"
-icon96: "favicon-96x96.png"
+# Favicons — point at files that exist under static/ (CyberLavandaTea theme).
+favicon: "/favicon.ico"
+faviconSvg: "/icons/favicon.svg"
+appleTouchIcon: "/icons/apple-touch-icon.png"
+icon96: "/favicon-96x96.png"
+webmanifest: "/icons/site.webmanifest"
+icon: "/favicon-196x196.png" # generic site icon, also used by the feeds
 defaultColor:
   "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
@@ -75,6 +79,48 @@ Hcard:
 bridgy:
   - "mastodon"
   - "bluesky"
+
+# Font Awesome (icone per tipo di contenuto nel tema CyberLavandaTea).
+# Kit Pro già usato in precedenza dal sito.
+fontawesome:
+  kit: "https://kit.fontawesome.com/2f3b6e2e4c.js"
+
+# Angolo LGBT+ (pride.codes) in alto a destra. Default del tema: false.
+prideCorner: true
+
+# Box "Cita questo post". `pronouns` è dedotto da Hcard.pronouns se omesso.
+cite:
+  enable: true
+  body: "Please reference this post with a link to this page."
+  name: "Fundor333"
+  nameAlt: "Fundor333' Blog"
+  learnMoreUrl: "https://fundor333.com/cite"
+
+# Webmention (webmention.io). Il tema rende la facepile + i commenti in
+# #webmentions e mette <link rel="webmention"> / <link rel="pingback">.
+# `script` omesso -> il tema serve la sua copia bundlata di webmention.js.
+webmention:
+  targetDomain: "fundor333.com"
+  wordcount: 50
+
+# Font della firma "Written by a human" (Ocean Trace, personale — sta in
+# static/fonts/). Il tema emette l'@font-face come "Sig Font".
+fonts:
+  signature: "/fonts/OceanTrace-Personal.ttf"
+
+# Webring nel footer (tema CyberLavandaTea). Erano hardcoded nel vecchio
+# layouts/_partials/footer.html; ora sono dati.
+webrings:
+  - name: "XXIIVV webring"
+    url: "https://webring.xxiivv.com/#86"
+    icon: "https://webring.xxiivv.com/icon.white.svg"
+  - name: "IndieWeb Webring"
+    url: "https://xn--sr8hvo.ws"
+    prev: "https://xn--sr8hvo.ws/previous"
+    next: "https://xn--sr8hvo.ws/next"
+  - name: "djangowebring"
+    html: '<webring-css site="https://fundor333.com"></webring-css>'
+    script: "https://djangowebring.com/static/webring.js"
 
 dateFormatAtomFeed: "2006-01-02T15:04:05-07:00"
 dateFormatTag: "2006"
