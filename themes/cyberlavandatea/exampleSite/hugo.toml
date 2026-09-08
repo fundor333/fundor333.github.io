@@ -107,6 +107,8 @@ enableGitInfo = false
     lineNos = false
   [markup.goldmark.renderer]
     unsafe = true
+  [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
 
 # --- Sicurezza: necessaria per css.TailwindCSS (non ereditata dal tema) -----
 [security]

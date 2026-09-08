@@ -81,6 +81,15 @@ minify:
       keepDocumentTags: true
       keepQuotes: true
 
+# Richiesto dal tema CyberLavandaTea (non ereditabile dai temi).
+markup:
+  highlight:
+    noClasses: false # highlight con classi .chroma → palette del tema
+  goldmark:
+    parser:
+      # immagine "da sola" → <figure> + <figcaption> (render-image.html)
+      wrapStandAloneImageWithinParagraph: false
+
 # Necessario a css.TailwindCSS del tema CyberLavandaTea (prova).
 # Il layout del tema è CSS puro con fallback delle utility: non serve
 # buildStats/hugo_stats.json per renderizzare correttamente.

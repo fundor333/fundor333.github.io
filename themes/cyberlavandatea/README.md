@@ -82,6 +82,14 @@ Copia questo blocco nel tuo `hugo.toml` (identico a
 [security]
   [security.exec]
     allow = ['^(dart-)?sass$', '^git$', '^go$', '^node$', '^npx$', '^postcss$', '^tailwindcss$']
+
+# Highlight con classi .chroma (→ palette del tema) e immagini "da sole"
+# rese come <figure> + <figcaption>.
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
 ```
 
 ### Tailwind — rilevamento delle classi (opzionale)

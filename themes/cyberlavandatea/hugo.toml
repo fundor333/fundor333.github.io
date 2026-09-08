@@ -42,6 +42,16 @@
 [services.rss]
   limit = 20
 
+# --- Markup ---------------------------------------------------------------
+# Hugo NON eredita [markup] dal tema: va nel config del sito.
+#   markup.highlight.noClasses = false
+#     → l'highlight usa le classi .chroma, colorate dalla palette del tema
+#       (assets/css/main.css §4.4). Con true, Chroma emette stili inline
+#       Monokai e viola/verde NON si applicano.
+#   markup.goldmark.parser.wrapStandAloneImageWithinParagraph = false
+#     → un'immagine da sola diventa <figure> con <figcaption> dal title.
+# Vedi README → "Configurazione minima del sito".
+
 # --- Parametri di default del tema ------------------------------------------
 [params]
   colorScheme = 'dark'          # tema SEMPRE scuro (docs/THEME.md §4)
