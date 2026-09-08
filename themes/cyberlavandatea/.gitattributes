@@ -11,6 +11,9 @@
 *.woff2 binary
 *.ttf binary
 
+# Vendored minified libraries: treat as generated, don't diff or linguist them
+assets/js/vendor/*.js -diff linguist-vendored
+
 # Keep exampleSite and images out of the module archive downloaded by consumers
 exampleSite/** export-ignore
 images/** export-ignore

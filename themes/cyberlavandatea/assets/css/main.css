@@ -40,7 +40,7 @@
   /* --- type --- */
   --font-display: "Audiowide", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Rajdhani", ui-sans-serif, system-ui, sans-serif;
-  --font-signature: "Ocean Trace", "Segoe Script", cursive;
+  --font-signature: "Sig Font", "Ocean Trace", "Segoe Script", ui-rounded, cursive;
   --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
 
   /* --- misc --- */
@@ -64,13 +64,12 @@
 }
 
 /* ---------------------------------------------------------------------------
-   3. Optional local font (the "written by a human" signature)
+   3. Signature font ("written by a human")
+   The theme only sets --font-signature with a cursive fallback stack. To use
+   a real face, set params.fonts.signature (a font-file URL) — head.html then
+   emits the matching @font-face for "Sig Font". Or ship your own @font-face
+   via a custom stylesheet / custom-head.
    --------------------------------------------------------------------------- */
-@font-face {
-  font-family: "Ocean Trace";
-  src: url("/fonts/OceanTrace-Personal.ttf");
-  font-display: swap;
-}
 
 /* ---------------------------------------------------------------------------
    4. Base layer — HTML elements / prose (.e-content)

@@ -17,7 +17,10 @@
       <a href="https://{{ $host }}/@{{ $user }}/{{ $id }}">{{ T "comments.original_post" }}</a>.</p></noscript>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
+  {{- with resources.Get "js/vendor/purify.min.js" -}}
+  {{- $p := cond hugo.IsProduction (. | fingerprint) . -}}
+  <script src="{{ $p.RelPermalink }}"{{ if hugo.IsProduction }} integrity="{{ $p.Data.Integrity }}"{{ end }} defer></script>
+  {{- end }}
   <script>
   (function () {
     var HOST = "{{ $host }}";

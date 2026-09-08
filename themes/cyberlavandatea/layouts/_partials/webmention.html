@@ -1,8 +1,8 @@
-{{- /* Webmention display (webmention.io client).
+{{- /* Webmention display (webmention.js client, vendored in the theme).
    site.Params.webmention:
      targetDomain  canonical domain, e.g. "example.com" (swaps the host of the
                    current URL, keeping the scheme) so dev builds still resolve
-     script        client script URL (default: webmention.io hosted copy)
+     script        override the client script URL (default: bundled copy)
      wordcount     data-wordcount for inline comments (default 40)
    Populates #webmentions with a reactions facepile + a comments list. */ -}}
 {{- with site.Params.webmention -}}
@@ -10,8 +10,16 @@
 {{- with .targetDomain -}}
   {{- $url = replace $.Permalink (urls.Parse site.BaseURL).Hostname . -}}
 {{- end -}}
+{{- $src := .script -}}
+{{- if not $src -}}
+  {{- with resources.Get "js/vendor/webmention.min.js" -}}
+    {{- $src = (cond hugo.IsProduction (. | fingerprint) .).RelPermalink -}}
+  {{- else -}}
+    {{- $src = "https://webmention.io/js/webmention.min.js" -}}
+  {{- end -}}
+{{- end -}}
 <div id="webmentions"></div>
-<script src="{{ .script | default "https://webmention.io/js/webmention.min.js" }}"
+<script src="{{ $src }}"
   data-page-url="{{ $url }}"
   data-wordcount="{{ .wordcount | default 40 }}"
   {{- with $.Aliases }} data-alternative-url="{{ range $i, $a := . }}{{ if $i }} {{ end }}{{ absURL $a }}{{ end }}"{{ end }}

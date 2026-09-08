@@ -42,5 +42,12 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
   from `<host>/api/v1/statuses/<id>/context` — avatars, instance badges,
   localised dates, favourites count, OP marker, custom emoji, DOMPurify — from
   `comments = { host, username, id }` front matter. Styled by `section#comments`.
+- Vendored the runtime libraries into `assets/js/vendor/` (served locally,
+  fingerprinted): **Lunr**, **DOMPurify**, **webmention.js** — the theme no
+  longer needs a CDN for search, comment sanitising or webmention rendering.
+  Font Awesome and KaTeX stay external (optional / conditional).
+- The signature `@font-face` is no longer hardcoded to a site path: set
+  `params.fonts.signature` (a font-file URL) and `head.html` emits it as
+  "Sig Font"; otherwise a cursive fallback stack is used.
 - i18n: `en` and `it`.
 - `exampleSite` that builds cleanly on Hugo 0.146+.

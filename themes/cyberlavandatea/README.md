@@ -153,7 +153,18 @@ Chroma syntax highlighting stays within violet + green plus two tints
 for errors (`--color-code-err` `#E1808F`), inside `<pre>` only.
 
 Fonts are loaded from Google Fonts in `_partials/head.html` from `params.fonts`
-(`display` = Audiowide, `body` = Rajdhani).
+(`display` = Audiowide, `body` = Rajdhani; optional `signature` font-file URL for
+the "written by a human" line). A site can self-host them instead.
+
+## Runtime dependencies
+
+**Vendored in the theme** (`assets/js/vendor/`, served locally, fingerprinted —
+see `LICENSES.md` there): **Lunr** (search), **DOMPurify** (Mastodon comments),
+**webmention.js** (the webmention.io client).
+
+**External, and optional:** **Font Awesome** (content-type icons — a Kit or the
+free CDN, or `disable`), **KaTeX** (only when `math` is set), **Google Fonts**
+(configurable via `params.fonts`). Nothing else phones home at runtime.
 
 ## Features
 
@@ -240,6 +251,7 @@ KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
   [params.fonts]
     display = "Audiowide"
     body = "Rajdhani:wght@400;500;600;700"
+    signature = ""                   # optional font-file URL for .written-by-human
 
   [params.author]
     name = "" ; intro = "" ; description = "" ; url = "" ; email = ""
@@ -253,7 +265,7 @@ KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
 
   [params.webmention]
     targetDomain = "example.com"     # canonical domain (host swap, scheme kept)
-    script       = ""                # client script (default: webmention.io hosted)
+    script       = ""                # override client URL (default: bundled webmention.js)
     wordcount    = 40                # data-wordcount for inline comments
     # endpoint / pingback also read by _partials/custom-head.html
     # Renders the reactions facepile + comments into #webmentions, and emits
@@ -304,6 +316,7 @@ themes/cyberlavandatea/
 │   ├── css/main.css       Tailwind v4 + @theme (palette) + base + .chroma
 │   │   safelist.txt
 │   └── js/                theme.js · main.js · goToTop.js · search.js
+│       vendor/            lunr · DOMPurify · webmention.js (+ LICENSES.md)
 ├── data/cyberlavandatea/palette.yaml   palette reference
 ├── i18n/                  en.yaml · it.yaml
 ├── exampleSite/           minimal demo (its own hugo.toml + go.mod)

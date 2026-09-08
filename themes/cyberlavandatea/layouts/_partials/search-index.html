@@ -7,12 +7,13 @@
 </template>
 <div class="search-results"></div>
 
-{{ $lunr := resources.GetRemote "https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" }}
-{{ with $lunr }}
-  {{ $lunr = . | fingerprint }}
-  <script src="{{ $lunr.RelPermalink }}" integrity="{{ $lunr.Data.Integrity }}"></script>
-{{ else }}
-  <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+{{/* Lunr — vendored in the theme (assets/js/vendor/lunr.min.js). */}}
+{{ with resources.Get "js/vendor/lunr.min.js" }}
+  {{ if hugo.IsProduction }}
+    {{ with . | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>{{ end }}
+  {{ else }}
+    <script src="{{ .RelPermalink }}"></script>
+  {{ end }}
 {{ end }}
 
 {{ with resources.Get "js/search.js" }}

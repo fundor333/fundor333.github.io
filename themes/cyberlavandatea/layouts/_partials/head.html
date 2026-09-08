@@ -12,11 +12,16 @@
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }} — {{ .Name }}">
   {{- end }}
 
-  {{/* --- Font (Google Fonts) --- */}}
+  {{/* --- Fonts (Google Fonts + optional signature face) --- */}}
   {{ with site.Params.fonts }}
+  {{ if or .display .body }}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={{ .display }}&family={{ .body }}&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?{{ with .display }}family={{ . }}&{{ end }}{{ with .body }}family={{ . }}&{{ end }}display=swap">
+  {{ end }}
+  {{ with .signature }}
+  <style>@font-face{font-family:"Sig Font";src:url("{{ . | relURL }}");font-display:swap}</style>
+  {{ end }}
   {{ end }}
 
   {{/* --- CSS: Tailwind v4 via css.TailwindCSS --- */}}

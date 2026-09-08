@@ -90,10 +90,15 @@ prideCorner: true
 
 # Webmention (webmention.io). Il tema rende la facepile + i commenti in
 # #webmentions e mette <link rel="webmention"> / <link rel="pingback">.
+# `script` omesso -> il tema serve la sua copia bundlata di webmention.js.
 webmention:
   targetDomain: "fundor333.com"
-  script: "/js/webmention.min.js" # copia self-hosted (static/js/)
   wordcount: 50
+
+# Font della firma "Written by a human" (Ocean Trace, personale — sta in
+# static/fonts/). Il tema emette l'@font-face come "Sig Font".
+fonts:
+  signature: "/fonts/OceanTrace-Personal.ttf"
 
 # Webring nel footer (tema CyberLavandaTea). Erano hardcoded nel vecchio
 # layouts/_partials/footer.html; ora sono dati.
