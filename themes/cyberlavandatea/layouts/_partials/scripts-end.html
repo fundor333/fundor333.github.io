@@ -1,10 +1,10 @@
-{{/* Script a fine body: main.js + goToTop + eventuali additionalScripts. */}}
+{{/* End-of-body scripts: main.js + goToTop + any additionalScripts. */}}
 {{ $scripts := slice (resources.Get "js/main.js") }}
 {{ if site.Params.goToTop }}
   {{ $scripts = $scripts | append (resources.Get "js/goToTop.js") }}
 {{ end }}
 {{ range site.Params.additionalScripts }}
-  {{ with resources.Get . }}{{ $scripts = $scripts | append . }}{{ else }}{{ errorf "additionalScripts: file non trovato %q" . }}{{ end }}
+  {{ with resources.Get . }}{{ $scripts = $scripts | append . }}{{ else }}{{ errorf "additionalScripts: file not found %q" . }}{{ end }}
 {{ end }}
 
 {{ $bundle := $scripts | resources.Concat "js/bundle.js" | js.Build (dict "minify" hugo.IsProduction) }}
@@ -14,5 +14,5 @@
   <script defer src="{{ $bundle.RelPermalink }}"></script>
 {{ end }}
 
-{{/* Hook di estensione del sito (analytics self-hosted, webring, ecc.) */}}
+{{/* Site extension hook (self-hosted analytics, extra widgets, etc.) */}}
 {{ if templates.Exists "_partials/custom-scripts.html" }}{{ partial "custom-scripts.html" . }}{{ end }}

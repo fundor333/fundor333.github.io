@@ -1,5 +1,5 @@
-{{- /* Icona social generica: usa un <use> verso una sprite opzionale del sito,
-       altrimenti un fallback testuale con la prima lettera. */ -}}
+{{- /* Generic social icon: <use> against an optional site sprite at
+       /icons/social.svg, with a screen-reader label as fallback. */ -}}
 {{- $name := (.name | default "link") | lower -}}
 {{- $sprite := "/icons/social.svg" -}}
 <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor">

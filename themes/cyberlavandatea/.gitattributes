@@ -1,0 +1,17 @@
+# Normalise line endings
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+
+# Keep exampleSite and images out of the module archive downloaded by consumers
+exampleSite/** export-ignore
+images/** export-ignore
+.github/** export-ignore

@@ -4,7 +4,7 @@ date = {{ .Date }}
 draft = true
 description = ""
 tags = []
-# Semantica IndieWeb (compilare solo quella che serve):
+# IndieWeb response semantics (fill in only what you need):
 # reply = ""
 # repost = ""
 # like = ""

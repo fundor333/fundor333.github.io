@@ -1,4 +1,4 @@
-{{- /* Thread di risposte da un post Mastodon. ctx: .Params.comments {host, user, id} */ -}}
+{{- /* Reply thread from a Mastodon post. ctx: .Params.comments {host, user, id} */ -}}
 <div id="mastodon-comments" data-host="{{ .host }}" data-id="{{ .id }}" data-user="{{ .user }}">
   <p><button id="load-mastodon-comments" class="btn">{{ T "comments.load" }}</button></p>
   <div id="mastodon-comments-list"></div>

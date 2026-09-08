@@ -1,8 +1,8 @@
-/* CyberLavandaTea — comportamenti di base, senza dipendenze. */
+/* CyberLavandaTea — baseline behaviour, no dependencies. */
 (function () {
   "use strict";
 
-  // --- Menu mobile: chiudi al click su una voce -----------------------------
+  // --- Mobile menu: close it when a link is tapped -------------------------
   var trigger = document.getElementById("menu-trigger");
   if (trigger) {
     document.querySelectorAll(".trigger-container a").forEach(function (a) {
@@ -12,14 +12,14 @@
     });
   }
 
-  // --- Anchor sui heading della prosa (link permanente) --------------------
+  // --- Permalink anchor on prose headings --------------------------------
   document.querySelectorAll(".e-content h2[id], .e-content h3[id], .e-content h4[id]").forEach(function (h) {
     if (h.querySelector(".heading-anchor")) return;
     var a = document.createElement("a");
     a.className = "heading-anchor";
     a.href = "#" + h.id;
-    a.setAttribute("aria-label", "Link a questa sezione");
-    a.textContent = "¶"; // ¶
+    a.setAttribute("aria-label", "Link to this section");
+    a.textContent = "¶"; // pilcrow
     a.style.marginLeft = "0.4em";
     a.style.opacity = "0";
     a.style.textDecoration = "none";
@@ -29,7 +29,7 @@
     h.appendChild(a);
   });
 
-  // --- Copia permalink ("cita questo post") --------------------------------
+  // --- "Cite this post": copy the permalink ------------------------------
   var citeBtn = document.getElementById("cite-copy");
   if (citeBtn) {
     citeBtn.addEventListener("click", function () {
@@ -37,7 +37,7 @@
       if (!input) return;
       navigator.clipboard.writeText(input.value).then(function () {
         var old = citeBtn.textContent;
-        citeBtn.textContent = "Copiato ✓";
+        citeBtn.textContent = "Copied ✓";
         setTimeout(function () { citeBtn.textContent = old; }, 1600);
       });
     });

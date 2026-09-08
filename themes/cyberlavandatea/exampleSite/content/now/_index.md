@@ -2,4 +2,4 @@
 title = "Now"
 +++
 
-Cosa sto facendo in questo periodo.
+What I'm up to these days.

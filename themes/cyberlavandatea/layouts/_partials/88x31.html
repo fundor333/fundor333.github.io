@@ -1,4 +1,4 @@
-{{- /* Badge 88x31: data/88x31.json (badges[]) + scansione static/icons/88x31/, mescolati. */ -}}
+{{- /* 88x31 badges: data/88x31.json (badges[]) + a scan of static/icons/88x31/, shuffled. */ -}}
 {{- $badges := slice -}}
 {{- with (index hugo.Data "88x31") }}{{ with .badges }}{{ $badges = . }}{{ end }}{{ end -}}
 {{- $exts := slice ".gif" ".png" ".jpg" ".jpeg" ".webp" ".svg" -}}

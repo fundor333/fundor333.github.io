@@ -1,7 +1,7 @@
-/* CyberLavandaTea — ricerca client-side con Lunr.
-   Richiede lunr.js caricato prima (vedi layouts/search/list.html).
-   L'indice è /search.json (output format SearchIndex).
-   Form: #search  ·  input: #search-input  ·  target risultati: .search-results
+/* CyberLavandaTea — client-side search with Lunr.
+   Requires lunr.js loaded first (see layouts/search/list.html).
+   The index is /search.json (the SearchIndex output format).
+   Form: #search  ·  input: #search-input  ·  results target: .search-results
 */
 (function () {
   "use strict";
@@ -47,8 +47,8 @@
     var h = document.createElement("h2");
     h.className = "search-results-title";
     h.textContent = results.length === 0
-      ? "Nessun risultato per «" + term + "»"
-      : results.length + " risultati per «" + term + "»";
+      ? "No results for “" + term + "”"
+      : results.length + " results for “" + term + "”";
     target.appendChild(h);
     document.title = h.textContent;
 

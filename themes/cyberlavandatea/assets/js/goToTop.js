@@ -1,4 +1,4 @@
-/* CyberLavandaTea — bottone "torna su" (#totop). */
+/* CyberLavandaTea — "back to top" button (#totop). */
 (function () {
   var btn = document.getElementById("totop");
   if (!btn) return;

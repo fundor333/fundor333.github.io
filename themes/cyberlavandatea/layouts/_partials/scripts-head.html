@@ -1,4 +1,4 @@
-{{/* Script in testa al body: fissa lo schema scuro prima del paint. */}}
+{{/* Head-of-body script: lock the dark scheme before first paint. */}}
 {{ with resources.Get "js/theme.js" }}
   {{ $js := . | js.Build (dict "minify" hugo.IsProduction) }}
   {{ if hugo.IsProduction }}

@@ -1,10 +1,10 @@
 name = "CyberLavandaTea"
 license = "MIT"
 licenselink = "https://github.com/fundor333/cyberlavandatea/blob/main/LICENSE"
-description = "Tema Hugo dark-only per blog di sviluppo/codice — Tailwind v4, palette a 6 ruoli (viola + verde), IndieWeb / POSSE, feed multipli, ricerca client-side."
+description = "Dark-only Hugo theme for dev/code blogs — Tailwind v4, a 6-role palette (one violet, one green), IndieWeb / POSSE, multiple feeds, client-side search."
 
 homepage = "https://github.com/fundor333/cyberlavandatea/"
-demosite = "https://fundor333.com/"
+demosite = "https://cyberlavandatea.netlify.app/"
 
 tags = ["blog", "dark", "developer", "tailwind", "indieweb", "posse", "responsive", "multilingual"]
 features = ["blog", "tailwindcss", "dark", "indieweb", "search", "feeds"]
@@ -14,7 +14,3 @@ min_version = "0.146.0"
 [author]
     name = "Fundor333"
     homepage = "https://fundor333.com"
-
-# Origine del design:
-#   docs/THEME.md            — elenco funzioni + Parte 4 (palette a 6 ruoli)
-#   docs/palette-preview.html — mockup di riferimento (font Audiowide/Rajdhani)

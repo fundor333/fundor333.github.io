@@ -1,12 +1,12 @@
-{{- /* Webring del sito, da site.Params.webrings (lista).
-   Ogni voce supporta:
-     name    etichetta (obbligatoria per i tipi link/prevnext)
-     url     link principale
-     icon    URL di un'icona → rende un link icona
-     prev    URL "precedente"  ┐ rende  ← name →
-     next    URL "successivo"  ┘
-     html    markup grezzo (es. web component) — reso con safeHTML
-     script  URL di uno script da caricare (defer) dopo il markup
+{{- /* Site webring(s), from site.Params.webrings (a list).
+   Each entry supports:
+     name    label (required for the link / prev-next forms)
+     url     main link
+     icon    icon URL  -> renders an icon link
+     prev    "previous" URL  |  renders  <- name ->
+     next    "next" URL      |
+     html    raw markup (e.g. a web component) -- output with safeHTML
+     script  URL of a script to load (defer) after the markup
 */ -}}
 {{- with site.Params.webrings -}}
 <nav class="webrings" aria-label="Webring">

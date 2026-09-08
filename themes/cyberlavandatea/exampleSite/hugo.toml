@@ -1,5 +1,5 @@
 baseURL = "https://example.org/"
-locale = "it-it"
+languageCode = "en-us"
 title = "CyberLavandaTea — demo"
 theme = "cyberlavandatea"
 enableGitInfo = false
@@ -7,9 +7,10 @@ enableGitInfo = false
 [pagination]
   pagerSize = 10
 
-# --- Config che NON si eredita dal tema: va replicata nel sito ---------------
-# (outputs, outputFormats, mediaTypes, taxonomies). Copia questo blocco nel
-# tuo config quando usi il tema. Vedi README → "Configurazione minima".
+# --- Config NOT inherited from the theme: replicate it in your site ---------
+# (outputs, outputFormats, mediaTypes, taxonomies, markup, security).
+# Copy this block into your own config when you use the theme.
+# See README, "Minimal site configuration".
 [taxonomies]
   series = "series"
   category = "categories"
@@ -39,7 +40,7 @@ enableGitInfo = false
 [services.rss]
   limit = 20
 
-# --- Menu -----------------------------------------------------------------
+# --- Menu ---------------------------------------------------------------
 [menu]
   [[menu.main]]
     name = "Home"
@@ -58,29 +59,29 @@ enableGitInfo = false
     url = "/now/"
     weight = 40
   [[menu.main]]
-    name = "Cerca"
+    name = "Search"
     url = "/search/"
     weight = 90
 
-# --- Parametri ----------------------------------------------------------------
+# --- Params -----------------------------------------------------------------
 [params]
-  description = "Demo del tema CyberLavandaTea — dark, viola + verde, per blog di sviluppo."
+  description = "CyberLavandaTea demo — a dark, violet + green Hugo theme for dev blogs."
   dateFormat = "2 January 2006"
   linkUTM = false
   themeColor = "#1e1e24"
-  prideCorner = true            # angolo LGBT+ (default del tema: false)
-  # Font Awesome: senza kit usa il CDN free (icone per tipo di contenuto).
+  prideCorner = true            # LGBTQ+ corner (theme default: false)
+  # Font Awesome: with no kit set, the free cdnjs CSS is used (content-type icons).
 
   [params.author]
     name = "Dev Person"
-    intro = "Backend, Hugo, tè."
-    description = "Blog di sviluppo di esempio per CyberLavandaTea."
+    intro = "Backend, Hugo, tea."
+    description = "An example dev blog for CyberLavandaTea."
     url = "https://example.org/"
 
   [params.hcard]
     fullName = "Dev Person"
     showLocation = true
-    city = "Venezia"
+    city = "Venice"
     country = "IT"
 
   [[params.socialIcons]]
@@ -100,7 +101,7 @@ enableGitInfo = false
     prev = "https://xn--sr8hvo.ws/previous"
     next = "https://xn--sr8hvo.ws/next"
 
-# --- Markup -----------------------------------------------------------------
+# --- Markup ---------------------------------------------------------------
 [markup]
   [markup.highlight]
     noClasses = false
@@ -110,7 +111,7 @@ enableGitInfo = false
   [markup.goldmark.parser]
     wrapStandAloneImageWithinParagraph = false
 
-# --- Sicurezza: necessaria per css.TailwindCSS (non ereditata dal tema) -----
+# --- Security: required for css.TailwindCSS (not inherited from the theme) --
 [security]
   [security.exec]
     allow = ['^(dart-)?sass$', '^git$', '^go$', '^node$', '^npx$', '^postcss$', '^tailwindcss$']

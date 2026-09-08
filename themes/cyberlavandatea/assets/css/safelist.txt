@@ -1,5 +1,5 @@
-Utility Tailwind da generare sempre, anche senza content-detection.
-Aggiungi qui le classi che usi nei tuoi contenuti/shortcode.
+Tailwind utilities to always generate, even without content detection.
+Add here any classes you use in your own content / shortcodes.
 
 flex grid hidden block inline-block
 items-center items-baseline justify-between justify-center

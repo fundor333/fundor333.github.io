@@ -1,4 +1,4 @@
-{{- /* Semantica di risposta IndieWeb dal front matter. */ -}}
+{{- /* IndieWeb response semantics from front matter. */ -}}
 {{- with .Params.reply }}<p class="response"><a class="u-in-reply-to" href="{{ . }}">↩ {{ T "micro.in_reply_to" }} <span class="url">{{ . }}</span></a></p>{{ end -}}
 {{- with .Params.repost }}<p class="response"><a class="u-repost-of" href="{{ . }}">🔁 {{ T "micro.repost_of" }} <span class="url">{{ . }}</span></a></p>{{ end -}}
 {{- with .Params.like }}<p class="response"><a class="u-like-of" href="{{ . }}">♥ {{ T "micro.like_of" }} <span class="url">{{ . }}</span></a></p>{{ end -}}

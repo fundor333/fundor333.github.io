@@ -41,17 +41,17 @@
   <meta name="theme-color" content="{{ site.Params.themeColor | default "#1e1e24" }}">
   <meta name="color-scheme" content="dark">
 
-  {{/* --- Font Awesome (icone per tipo di contenuto) --- */}}
+  {{/* --- Font Awesome (content-type icons) --- */}}
   {{ partial "fontawesome.html" . }}
 
-  {{/* --- KaTeX condizionale --- */}}
+  {{/* --- KaTeX (conditional) --- */}}
   {{ if or .Params.math site.Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 
-  {{/* --- Analytics (solo produzione) --- */}}
+  {{/* --- Analytics (production only) --- */}}
   {{ with site.Config.Services.GoogleAnalytics.ID }}
   {{ if hugo.IsProduction }}{{ template "_internal/google_analytics.html" $ }}{{ end }}
   {{ end }}
 
-  {{/* --- Hook di estensione del sito --- */}}
+  {{/* --- Site extension hook --- */}}
   {{ if templates.Exists "_partials/custom-head.html" }}{{ partial "custom-head.html" . }}{{ end }}
 </head>

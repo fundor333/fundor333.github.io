@@ -1,43 +1,43 @@
 /* ===========================================================================
-   CyberLavandaTea — foglio di stile principale (Tailwind v4)
-   Palette e regole: docs/THEME.md Parte 4 + docs/palette-preview.html
-   Dark-only. 6 ruoli semantici + 1 viola + 1 verde. Nessun'altra tinta nel
-   chrome; superfici e bordi = miscele di Content/Primary su Background.
+   CyberLavandaTea — main stylesheet (Tailwind v4)
+   Palette and rules: see docs in the repo. Dark-only. 6 semantic roles + one
+   violet + one green. No other hue in the chrome; surfaces and borders are
+   mixes of Content/Primary over Background.
    =========================================================================== */
 
 @import "tailwindcss";
 
-/* Rilevamento delle classi utility.
-   Metodo consigliato: il SITO abilita build.buildStats e monta hugo_stats.json
-   in assets/ (vedi README → "Tailwind"); l'@source qui sotto lo legge.
-   In fallback, scansione statica di questo file. L'@source di un file assente
-   è ignorato senza errore. */
+/* Utility-class detection.
+   Recommended: the SITE enables build.buildStats and mounts hugo_stats.json
+   under assets/ (see README, "Tailwind"); the @source below reads it.
+   Fallback: a static scan of safelist.txt. An @source pointing at a missing
+   file is ignored without error. */
 @source "hugo_stats.json";
 @source "./safelist.txt";
 
 /* ---------------------------------------------------------------------------
-   1. Token di design  (esposti come utility Tailwind: text-content, bg-surface…)
+   1. Design tokens  (exposed as Tailwind utilities: text-content, bg-surface…)
    --------------------------------------------------------------------------- */
 @theme {
-  /* --- i 6 ruoli --- */
-  --color-primary: #9b8cf8;      /* viola  — accento/brand, hover, focus, keyword */
-  --color-content: #dcdce4;      /* testo, heading, strong, testo codice          */
+  /* --- the 6 roles --- */
+  --color-primary: #9b8cf8;      /* violet — accent/brand, hover, focus, keyword  */
+  --color-content: #dcdce4;      /* body text, headings, strong, code text        */
   --color-background: #1e1e24;   /* body, navbar, footer                          */
-  --color-link: #74d18c;         /* verde  — link non visitati, stringhe          */
-  --color-visited: #9e8fbe;      /* lavanda — link visitati                       */
-  --color-inactive: #8c8c99;     /* meta, date, bordi, placeholder, commenti      */
+  --color-link: #74d18c;         /* green  — unvisited links, strings             */
+  --color-visited: #9e8fbe;      /* lavender — visited links                      */
+  --color-inactive: #8c8c99;     /* meta, dates, borders, placeholders, comments  */
 
-  /* --- superfici derivate (Content su Background, opache) --- */
+  /* --- derived surfaces (Content over Background, opaque) --- */
   --color-surface: #2d2d33;      /* Content @ 8%  — code/pre/toc/blockquote/tr    */
-  --color-border: #39393f;       /* Content @ 14% — hr, separatori, bordi         */
-  --color-surface-2: #34343b;    /* Content @ 12% — hover di superficie           */
+  --color-border: #39393f;       /* Content @ 14% — hr, separators, borders       */
+  --color-surface-2: #34343b;    /* Content @ 12% — surface hover                 */
 
-  /* --- tint per la sintassi (restano viola/verde) --- */
-  --color-code-fn: #a6e0b4;      /* funzioni/classi — tint chiaro di Links        */
-  --color-code-num: #c3b8f5;     /* numeri/costanti — tint chiaro di Primary      */
-  --color-code-err: #e1808f;     /* errori/diff-rimossa — unica utility, solo pre */
+  /* --- syntax tints (stay within violet/green) --- */
+  --color-code-fn: #a6e0b4;      /* functions/classes — light tint of Links       */
+  --color-code-num: #c3b8f5;     /* numbers/constants — light tint of Primary     */
+  --color-code-err: #e1808f;     /* errors/removed diff — the only extra, pre only*/
 
-  /* --- tipografia --- */
+  /* --- type --- */
   --font-display: "Audiowide", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Rajdhani", ui-sans-serif, system-ui, sans-serif;
   --font-signature: "Ocean Trace", "Segoe Script", cursive;
@@ -49,7 +49,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   2. Custom properties runtime  (per i partial che usano color-mix / opacità)
+   2. Runtime custom properties  (for partials that use color-mix / opacity)
    --------------------------------------------------------------------------- */
 :root {
   --c-primary: var(--color-primary);
@@ -64,7 +64,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   3. Font locale opzionale (firma "scritto da umano")
+   3. Optional local font (the "written by a human" signature)
    --------------------------------------------------------------------------- */
 @font-face {
   font-family: "Ocean Trace";
@@ -73,7 +73,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   4. Base layer — elementi HTML / prosa (.e-content)
+   4. Base layer — HTML elements / prose (.e-content)
    --------------------------------------------------------------------------- */
 @layer base {
   html {
@@ -166,9 +166,9 @@
 }
 
 /* ---------------------------------------------------------------------------
-   5. Componenti di tema — layout completo in CSS puro, così il tema NON
-      dipende dal content-detection di Tailwind per funzionare (le utility
-      restano disponibili per chi personalizza).
+   5. Theme components — the full layout in plain CSS, so the theme does NOT
+      depend on Tailwind's content detection to render (utilities stay
+      available for customisation).
    --------------------------------------------------------------------------- */
 @layer components {
   .wrapper { max-width: 46rem; margin-inline: auto; padding-inline: 1.25rem; }
@@ -201,7 +201,7 @@
     .navbar .menu-trigger:not(:checked) ~ .trigger { display: none; }
   }
 
-  /* Meta / liste */
+  /* Meta / lists */
   .post-meta, .post-item-meta, .footer_copyright, time.meta { color: var(--color-inactive); font-size: 0.9rem; }
   .post-list { margin-top: 0.5rem; }
   .post-item { padding: 0.85rem 0; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
@@ -229,7 +229,7 @@
   .author-name { font-family: var(--font-display); margin: 0; }
   .author-bio { color: var(--color-inactive); margin: 0; font-size: 0.95rem; }
 
-  /* Bottoni */
+  /* Buttons */
   .btn {
     display: inline-block; background: var(--color-primary); color: var(--color-background);
     font-family: var(--font-display); font-size: 0.8rem; letter-spacing: 0.04em;
@@ -250,7 +250,7 @@
   .webring-item { display: flex; align-items: center; gap: 0.6rem; }
   .webring-item img { display: block; }
 
-  /* Torna su */
+  /* Back to top */
   #totop {
     position: fixed; right: 1rem; bottom: 1rem;
     display: grid; place-items: center; width: 2.75rem; height: 2.75rem;
@@ -262,13 +262,13 @@
   #totop.is-visible { opacity: 1; pointer-events: auto; }
   #totop:hover { background: var(--color-primary); color: var(--color-background); }
 
-  /* Firma */
+  /* Signature */
   .written-by-human {
     font-family: var(--font-signature); font-style: italic; font-size: 2rem;
     opacity: 0.8; text-align: center; margin-top: 2.5rem;
   }
 
-  /* Sezioni articolo */
+  /* Article sections */
   .comments, .see-also, .backlinks, .syndication { margin-top: 2rem; border-top: 1px solid var(--color-border); padding-top: 1.5rem; }
   .cite { margin-top: 1.5rem; font-size: 0.9rem; }
   .cite input { margin-top: 0.25rem; width: 100%; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-content); border-radius: 4px; padding: 0.25rem 0.5rem; }
@@ -276,7 +276,7 @@
   .comment { border-top: 1px solid var(--color-border); padding: 0.75rem 0; }
   .comment.op { border-left: 3px solid var(--color-primary); padding-left: 0.75rem; }
 
-  /* Ricerca */
+  /* Search */
   #search { display: flex; gap: 0.5rem; margin: 1.5rem 0; }
   #search input { flex: 1; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-content); border-radius: 6px; padding: 0.5rem 0.75rem; }
   .search-results-title { font-size: 1.1rem; }
@@ -284,8 +284,8 @@
   .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
   .main-404 { text-align: center; padding: 4rem 0; }
 
-  /* Fallback delle utility usate nei template, così il tema è corretto anche
-     se il content-detection di Tailwind non gira (vedi @source in testa). */
+  /* Fallbacks for the utilities used in templates, so the theme is correct
+     even when Tailwind's content detection does not run (see @source above). */
   .text-sm { font-size: 0.9rem; }
   .text-lg { font-size: 1.15rem; }
   .text-xl { font-size: 1.35rem; }
@@ -308,7 +308,7 @@
 }
 
 /* ---------------------------------------------------------------------------
-   6. Prosa (.e-content) — spaziatura verticale
+   6. Prose (.e-content) — vertical rhythm
    --------------------------------------------------------------------------- */
 .e-content > * + * { margin-top: 1.1rem; }
 .e-content ul, .e-content ol { padding-left: 1.4rem; }
@@ -320,8 +320,7 @@
 .a-post[target="_blank"]::after { content: ""; }
 
 /* ---------------------------------------------------------------------------
-   7. Evidenziazione sintassi (Chroma) — solo viola + verde + 2 tint (+ 1 err)
-   docs/THEME.md §4.4
+   7. Syntax highlighting (Chroma) — violet + green + 2 tints (+ 1 error)
    --------------------------------------------------------------------------- */
 .highlight { margin: 1.4rem 0; }
 .chroma { background: var(--color-surface); color: var(--color-content); border-radius: var(--radius-panel); }
@@ -342,7 +341,7 @@
 .chroma .hl { background: color-mix(in srgb, var(--color-primary) 16%, transparent); }
 
 /* ---------------------------------------------------------------------------
-   8. Angolo LGBT+ (pride.codes) — opt-in via params.prideCorner
+   8. LGBTQ+ corner (pride.codes) — opt-in via params.prideCorner
    --------------------------------------------------------------------------- */
 .pridecodes-code-corner { position: fixed; top: 0; right: 0; z-index: 9999; line-height: 0; }
 #pridecodes-code-corner-svg { width: 96px; height: auto; animation: pride-enter 1.6s ease both; transition: transform 0.2s ease-in-out; }

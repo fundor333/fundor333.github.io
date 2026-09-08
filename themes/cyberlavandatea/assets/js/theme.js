@@ -1,6 +1,6 @@
-/* CyberLavandaTea — tema dark-only.
-   Nessun toggle: fissiamo lo schema scuro il prima possibile per evitare
-   il flash e per coerenza con eventuali componenti che leggono data-theme. */
+/* CyberLavandaTea is a dark-only theme.
+   No toggle: lock the dark scheme as early as possible to avoid a flash and
+   to keep any component that reads data-theme consistent. */
 (function () {
   var el = document.documentElement;
   el.classList.add("dark");

@@ -1,7 +1,7 @@
-{{- /* Icona Font Awesome per tipo di contenuto ("categoria").
-   ctx: la stringa del tipo (es. "post", "micro", …).
-   Override lato sito: site.Params.postIcons = { post = "fa-solid fa-rocket", … }
-   Ritorna il markup <i>. Classi FA6 Free per il default. */ -}}
+{{- /* Font Awesome icon for a content type ("category").
+   ctx: the type string (e.g. "post", "micro", ...).
+   Site override: site.Params.postIcons = { post = "fa-solid fa-rocket", ... }
+   Returns the <i> markup. Defaults use FA6 Free classes. */ -}}
 {{- $type := . -}}
 {{- $default := dict
   "post"     "fa-solid fa-newspaper"

@@ -1,4 +1,4 @@
-{{- /* Backlink: cerca l'href di questa pagina nel .Content degli altri post. */ -}}
+{{- /* Backlinks: find this page's URL inside the .Content of other posts. */ -}}
 {{- $cur := . -}}
 {{- $backlinks := slice -}}
 {{- range where site.RegularPages "Type" "in" (site.Params.mainSections | default (slice "post")) -}}

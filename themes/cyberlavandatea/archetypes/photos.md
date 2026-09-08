@@ -4,6 +4,6 @@ date = {{ .Date }}
 draft = true
 description = ""
 tags = ["photos"]
-# Metti le immagini come page bundle. exif.json opzionale accanto ad esse:
+# Add the images as a page bundle. An optional exif.json can sit next to them:
 #   { "IMG_0001.jpg": { "model": "…", "lensmodel": "…", "aperture": "f/2.8", … } }
 +++

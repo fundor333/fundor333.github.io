@@ -1,11 +1,15 @@
-# Configurazione propria del tema CyberLavandaTea.
+# CyberLavandaTea — theme configuration.
 #
-# ATTENZIONE: Hugo eredita dal tema SOLO alcune chiavi (params, related,
-# services, mediaTypes, build, markup…). NON eredita `outputs`,
-# `outputFormats`, `taxonomies`, `security`: quelle vanno messe nel config del
-# SITO — vedi README → "Configurazione minima del sito" (blocco copia-incolla,
-# identico a themes/cyberlavandatea/exampleSite/hugo.toml).
+# NOTE: Hugo merges only SOME keys from a theme's config (params, related,
+# services, mediaTypes, build). It does NOT merge `outputs`, `outputFormats`,
+# `taxonomies`, `security`, `markup`: put those in the SITE config — see
+# README, "Minimal site configuration" (a copy-paste block, identical to
+# themes/cyberlavandatea/exampleSite/hugo.toml).
 # ---------------------------------------------------------------------------
+
+[module]
+  [module.hugoVersion]
+    min = "0.146.0"
 
 # --- Tailwind v4 via css.TailwindCSS ---------------------------------------
 [build]
@@ -18,7 +22,7 @@
     source = 'assets/css/.*\.css'
     target = 'css'
 
-# --- Related (blocco "See Also") -----------------------------------------
+# --- Related ("See Also" block) -----------------------------------------
 [related]
   includeNewer = true
   threshold = 70
@@ -42,19 +46,19 @@
 [services.rss]
   limit = 20
 
-# --- Markup ---------------------------------------------------------------
-# Hugo NON eredita [markup] dal tema: va nel config del sito.
+# --- Markup -------------------------------------------------------------------
+# Hugo does NOT merge [markup] from a theme: set this in the SITE config.
 #   markup.highlight.noClasses = false
-#     → l'highlight usa le classi .chroma, colorate dalla palette del tema
-#       (assets/css/main.css §4.4). Con true, Chroma emette stili inline
-#       Monokai e viola/verde NON si applicano.
+#     -> highlighting uses .chroma classes, coloured by the theme palette
+#        (assets/css/main.css). With true, Chroma emits inline Monokai styles
+#        and the violet/green palette is NOT applied.
 #   markup.goldmark.parser.wrapStandAloneImageWithinParagraph = false
-#     → un'immagine da sola diventa <figure> con <figcaption> dal title.
-# Vedi README → "Configurazione minima del sito".
+#     -> a lone image becomes <figure> with a <figcaption> from its title.
+# See README, "Minimal site configuration".
 
-# --- Parametri di default del tema ------------------------------------------
+# --- Theme default params ------------------------------------------------
 [params]
-  colorScheme = 'dark'          # tema SEMPRE scuro (docs/THEME.md §4)
+  colorScheme = 'dark'          # the theme is ALWAYS dark
   mainSections = ['post']
   secondarysections = ['micro']
   feedSections = ['post', 'micro', 'photos', 'weeknote']
@@ -71,16 +75,16 @@
   shareButtons = true
   cite = true
   badges88x31 = true
-  prideCorner = false          # angolo LGBT+ (pride.codes) — opt-in
+  prideCorner = false          # LGBTQ+ corner (pride.codes) — opt-in
 
-  # Font Awesome per le icone di tipo/categoria (postCard, header dei single).
-  # Con `kit` si carica un Kit (anche Pro); altrimenti CDN free cdnjs.
+  # Font Awesome for the content-type icons (postCard, single-page headers).
+  # With `kit` a Kit is loaded (Pro too); otherwise the free cdnjs CSS.
   [params.fontawesome]
     # kit = "https://kit.fontawesome.com/xxxxxxxxxx.js"
     version = "6.7.2"
     disable = false
 
-  # Override icone per tipo: postIcons.<type> = "<classi FA>"
+  # Per-type icon override: postIcons.<type> = "<FA classes>"
   # [params.postIcons]
   #   post = "fa-solid fa-newspaper"
 

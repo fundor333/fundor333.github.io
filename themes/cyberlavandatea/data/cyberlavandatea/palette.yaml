@@ -1,20 +1,20 @@
-# Palette CyberLavandaTea — riferimento (la fonte reale è assets/css/main.css @theme).
-# Dark-only, 6 ruoli + 1 viola + 1 verde. Contrasti su Background #1E1E24.
+# CyberLavandaTea palette — reference (the source of truth is assets/css/main.css @theme).
+# Dark-only, 6 roles + one violet + one green. Contrast ratios are against Background #1E1E24.
 roles:
-  primary:    { hex: "#9B8CF8", role: "viola — accento, hover, focus, keyword", contrast: "5.9:1" }
-  content:    { hex: "#DCDCE4", role: "testo, heading, strong, testo codice",     contrast: "12.2:1 (AAA)" }
-  link:       { hex: "#74D18C", role: "verde — link non visitati, stringhe",      contrast: "8.9:1 (AAA)" }
-  visited:    { hex: "#9E8FBE", role: "lavanda — link visitati",                  contrast: "5.6:1" }
+  primary:    { hex: "#9B8CF8", role: "violet — accent, hover, focus, keyword",     contrast: "5.9:1" }
+  content:    { hex: "#DCDCE4", role: "text, headings, strong, code text",           contrast: "12.2:1 (AAA)" }
+  link:       { hex: "#74D18C", role: "green — unvisited links, strings",            contrast: "8.9:1 (AAA)" }
+  visited:    { hex: "#9E8FBE", role: "lavender — visited links",                    contrast: "5.6:1" }
   background: { hex: "#1E1E24", role: "body, navbar, footer" }
-  inactive:   { hex: "#8C8C99", role: "meta, date, bordi, placeholder, commenti", contrast: "5.0:1 (AA)" }
+  inactive:   { hex: "#8C8C99", role: "meta, dates, borders, placeholders, comments", contrast: "5.0:1 (AA)" }
 derived:
-  surface:  "#2D2D33"  # Content @ 8% su Background — code/pre/toc/blockquote
-  border:   "#39393F"  # Content @ 14% su Background — hr, separatori
+  surface:  "#2D2D33"  # Content @ 8% over Background — code/pre/toc/blockquote
+  border:   "#39393F"  # Content @ 14% over Background — hr, separators
 syntax:
-  fn:  "#A6E0B4"  # tint di link
-  num: "#C3B8F5"  # tint di primary
-  err: "#E1808F"  # rosso, unica utility, solo dentro <pre>
+  fn:  "#A6E0B4"  # light tint of link
+  num: "#C3B8F5"  # light tint of primary
+  err: "#E1808F"  # red, the only extra hue, inside <pre> only
 fonts:
-  display: "Audiowide"        # heading, link, strong, footer
-  body: "Rajdhani"            # corpo
+  display: "Audiowide"        # headings, links, strong, footer
+  body: "Rajdhani"            # body text
   signature: "Ocean Trace"    # .written-by-human

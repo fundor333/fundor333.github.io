@@ -1,55 +1,63 @@
 # CyberLavandaTea
 
-Tema **Hugo** dark-only per blog di sviluppo/codice.
-**Tailwind CSS v4**, palette a **6 ruoli** (un viola + un verde), impianto
-**IndieWeb / POSSE**, feed multipli, ricerca client-side.
+A **dark-only Hugo theme** for dev / code blogs.
+**Tailwind CSS v4**, a **6-role palette** (one violet, one green), an
+**IndieWeb / POSSE** stack, multiple feeds, client-side search.
 
-Deriva da:
+- Dark only, by design — there is no light toggle. `assets/js/theme.js` locks
+  `class="dark"` before first paint.
+- The full layout is written in plain CSS, so the theme renders correctly even
+  without Tailwind's content detection; utilities stay available for
+  customisation.
 
-- [`docs/THEME.md`](../../docs/THEME.md) — elenco funzioni (Parti 1–3) + **Parte 4**
-  (palette a 6 ruoli, verifica WCAG, mapping Chroma);
-- [`docs/palette-preview.html`](../../docs/palette-preview.html) — mockup di
-  riferimento con i font reali (Audiowide / Rajdhani).
-
-> **Dark-only per scelta.** Nessun toggle chiaro: `docs/THEME.md` §4 definisce una
-> palette esclusivamente scura. `assets/js/theme.js` fissa `class="dark"` prima
-> del paint.
-
----
-
-## Requisiti
+## Requirements
 
 | | |
 |---|---|
-| Hugo | **≥ 0.146** *extended* (nuovo sistema di template: `_partials/`, `_shortcodes/`, `_markup/`) |
-| Node | per `@tailwindcss/cli` (usato da `css.TailwindCSS`) |
+| Hugo | **≥ 0.146** *extended* (new template system: `_partials/`, `_shortcodes/`, `_markup/`) |
+| Node | for `@tailwindcss/cli`, used by `css.TailwindCSS` |
 
 ```bash
-# nella root del sito
-npm install -D @tailwindcss/cli   # oppure: npm install (usa themes/cyberlavandatea/package.json)
+# in your site root
+npm install -D @tailwindcss/cli
 ```
 
-## Attivazione
+## Install
 
-### Come submodule / cartella
+### As a Hugo Module (recommended)
+
+```bash
+hugo mod init github.com/you/your-site      # if you don't have a module yet
+```
+
+```toml
+# hugo.toml
+[module]
+  [[module.imports]]
+    path = "github.com/fundor333/cyberlavandatea"
+```
+
+```bash
+hugo mod get -u github.com/fundor333/cyberlavandatea
+```
+
+### As a Git submodule
 
 ```bash
 git submodule add https://github.com/fundor333/cyberlavandatea themes/cyberlavandatea
 ```
 
 ```toml
-# hugo.toml del sito
+# hugo.toml
 theme = "cyberlavandatea"
 ```
 
-Hugo eredita dal tema `params`, `related`, `services`, `mediaTypes`, `build`,
-`markup`. **NON** eredita `outputs`, `outputFormats`, `taxonomies`, `security`:
-quel pezzo va nel config del sito.
+## Minimal site configuration
 
-### Configurazione minima del sito
-
-Copia questo blocco nel tuo `hugo.toml` (identico a
-`exampleSite/hugo.toml`):
+Hugo merges `params`, `related`, `services`, `mediaTypes`, `build` from a theme
+config. It does **not** merge `outputs`, `outputFormats`, `taxonomies`,
+`security`, `markup` — copy this block into your own site config (it is
+identical to `exampleSite/hugo.toml`):
 
 ```toml
 [taxonomies]
@@ -78,13 +86,12 @@ Copia questo blocco nel tuo `hugo.toml` (identico a
   home = ["html", "rss", "json", "SearchIndex", "Atom", "humanstxt"]
   section = ["html", "rss", "json", "Atom"]
 
-# Necessario per css.TailwindCSS (policy di sicurezza di Hugo).
+# Required for css.TailwindCSS (Hugo's exec security policy).
 [security]
   [security.exec]
     allow = ['^(dart-)?sass$', '^git$', '^go$', '^node$', '^npx$', '^postcss$', '^tailwindcss$']
 
-# Highlight con classi .chroma (→ palette del tema) e immagini "da sole"
-# rese come <figure> + <figcaption>.
+# Class-based highlighting (theme palette) and lone images as <figure> + caption.
 [markup]
   [markup.highlight]
     noClasses = false
@@ -92,12 +99,12 @@ Copia questo blocco nel tuo `hugo.toml` (identico a
     wrapStandAloneImageWithinParagraph = false
 ```
 
-### Tailwind — rilevamento delle classi (opzionale)
+### Tailwind — class detection (optional)
 
-Il layout del tema è scritto in CSS puro: **funziona senza configurazione**. Le
-utility Tailwind usate nei template hanno un fallback in `main.css`. Se vuoi che
-Tailwind generi *tutte* le utility che usi nei tuoi contenuti/shortcode, abilita
-`hugo_stats.json`:
+The theme's layout is plain CSS: **it works with no extra setup**. The Tailwind
+utilities used in the templates have a fallback in `main.css`. If you want
+Tailwind to generate *every* utility you use in your own content / shortcodes,
+enable `hugo_stats.json`:
 
 ```toml
 [build.buildStats]
@@ -111,110 +118,105 @@ Tailwind generi *tutte* le utility che usi nei tuoi contenuti/shortcode, abilita
   disableWatch = true
 ```
 
-(`main.css` fa già `@source "hugo_stats.json"`.) In alternativa, aggiungi le
-classi extra a `assets/css/safelist.txt` del tema o in un tuo
-`assets/css/*.css` che importa `main.css` con un tuo `@source`.
+(`main.css` already does `@source "hugo_stats.json"`.) Otherwise add the extra
+classes to `assets/css/safelist.txt`, or to an `assets/css/*.css` of your own
+that imports `main.css` with your own `@source`.
 
-### Provare la demo
+## Run the demo
 
 ```bash
-cd themes/cyberlavandatea
+cd themes/cyberlavandatea      # or wherever the theme lives
 npm install
+npm --prefix exampleSite install
 hugo server -s exampleSite --themesDir ../..
 ```
 
----
+## Palette
 
-## Palette (docs/THEME.md §4)
+Defined once in [`assets/css/main.css`](assets/css/main.css) inside the Tailwind
+`@theme` block, so it is available as utilities (`text-content`, `bg-surface`,
+`border-border`, …) **and** as `--color-*` for the partials.
 
-Definita una sola volta in [`assets/css/main.css`](assets/css/main.css) dentro il
-blocco Tailwind `@theme` → disponibile come utility (`text-content`, `bg-surface`,
-`border-border`, …) **e** come `--color-*` per i partial.
-
-| Ruolo | Token Tailwind | Hex | Uso |
+| Role | Tailwind token | Hex | Use |
 |---|---|---|---|
-| Primary *(viola)* | `--color-primary` | `#9B8CF8` | accento, `:hover`/`:focus`, nav attiva, focus ring, bordo `blockquote`, keyword |
-| Content | `--color-content` | `#DCDCE4` | testo, heading, `strong`, testo codice |
-| Links *(verde)* | `--color-link` | `#74D18C` | link non visitati, stringhe, diff aggiunta |
+| Primary *(violet)* | `--color-primary` | `#9B8CF8` | accent, `:hover`/`:focus`, active nav, focus ring, `blockquote` border, keyword |
+| Content | `--color-content` | `#DCDCE4` | body text, headings, `strong`, code text |
+| Links *(green)* | `--color-link` | `#74D18C` | unvisited links, strings, added diff |
 | Visited | `--color-visited` | `#9E8FBE` | `a:visited` |
 | Background | `--color-background` | `#1E1E24` | `body`, navbar, footer |
-| Inactive | `--color-inactive` | `#8C8C99` | meta, date, bordi, placeholder, commenti |
-| *(derivato)* Surface | `--color-surface` | `#2D2D33` | `code`/`pre`/`.toc`/`blockquote`/`tr:nth-child(even)` |
-| *(derivato)* Border | `--color-border` | `#39393F` | `hr`, separatori, bordi |
+| Inactive | `--color-inactive` | `#8C8C99` | meta, dates, borders, placeholders, comments |
+| *(derived)* Surface | `--color-surface` | `#2D2D33` | `code`/`pre`/`.toc`/`blockquote`/`tr:nth-child(even)` |
+| *(derived)* Border | `--color-border` | `#39393F` | `hr`, separators, borders |
 
-Sintassi Chroma (`.chroma`): solo viola + verde + 2 tint (`--color-code-fn`
-`#A6E0B4`, `--color-code-num` `#C3B8F5`) + 1 rosso opzionale per gli errori
-(`--color-code-err` `#E1808F`), confinato al `<pre>`.
+Chroma syntax highlighting stays within violet + green plus two tints
+(`--color-code-fn` `#A6E0B4`, `--color-code-num` `#C3B8F5`) plus one optional red
+for errors (`--color-code-err` `#E1808F`), inside `<pre>` only.
 
-I font sono caricati da Google Fonts in `_partials/head.html` a partire da
-`params.fonts` (`display` = Audiowide, `body` = Rajdhani).
+Fonts are loaded from Google Fonts in `_partials/head.html` from `params.fonts`
+(`display` = Audiowide, `body` = Rajdhani).
 
----
+## Features
 
-## Funzioni implementate (mappa verso docs/THEME.md)
-
-| docs/THEME.md | Dove |
+| Area | Where |
 |---|---|
-| Fondamenta: `baseof` + blocco `main`, `home`, `list` (per anno), `single`, `404`, `taxonomy`, `term` | `layouts/*.html` |
-| `<head>` + SEO: meta, OG, Twitter, JSON-LD `BlogPosting`, `canonical`, `hreflang`, `rel=first/last/prev/next` | `_partials/head.html`, `_partials/meta/*` |
-| Asset pipeline: **Tailwind v4** → `minify` → `fingerprint`+`integrity`; `theme.js` in testa, `main.js`+`goToTop` in coda, `additionalScripts` | `_partials/head.html`, `_partials/scripts-*.html` |
-| Navigazione: menu `Site.Menus.main` con figli e stato `active`, hamburger CSS-only, selettore lingua, bottone "torna su" | `_partials/header.html`, `_partials/footer.html`, `assets/js/goToTop.js` |
-| `postCard` con icona per tipo, starred, speaker, `<time datetime>` | `_partials/postCard.html` |
-| Bio + **h-card** (pronomi, nickname, località) | `_partials/bio.html`, `_partials/hcard.html` |
+| `baseof` + `main` block, `home`, `list` (by year), `single`, `404`, `taxonomy`, `term` | `layouts/*.html` |
+| `<head>`: meta, OG, Twitter, JSON-LD `BlogPosting`, `canonical`, `hreflang`, `rel=first/last/prev/next` | `_partials/head.html`, `_partials/meta/*` |
+| Asset pipeline: **Tailwind v4** → `minify` → `fingerprint`+`integrity`; `theme.js` in the head, `main.js`+`goToTop` at the end, `additionalScripts` | `_partials/head.html`, `_partials/scripts-*.html` |
+| Nav: `Site.Menus.main` with children and `active` state, CSS-only hamburger, language switcher, "back to top" | `_partials/header.html`, `_partials/footer.html`, `assets/js/goToTop.js` |
+| `postCard` with a per-type icon, starred, speaker, `<time datetime>` | `_partials/postCard.html`, `_partials/type-icon.html` |
+| Bio + **h-card** (pronouns, nickname, location) | `_partials/bio.html`, `_partials/hcard.html` |
 | i18n | `i18n/en.yaml`, `i18n/it.yaml` |
-| Feed: RSS (`exclude_from_rss`, `summary`/`full`, namespace `media`), **Atom** (`feedUUID`, `webfeeds`), **JSON Feed 1.1**, **humans.txt**, **robots.txt** dinamico | `layouts/rss.xml`, `list.atom.xml`, `list.json.json`, `index.humanstxt.txt`, `robots.txt` |
-| Ricerca: output `SearchIndex` → `/search.json`, sezione `/search`, form `?q=`, indice **Lunr**, rendering da `<template>` | `layouts/index.searchindex.json`, `layouts/search/list.html`, `_partials/search-*.html`, `assets/js/search.js` |
-| Tipi di contenuto: `micro`, `photos` (EXIF da `exif.json` o `.Exif`), `weeknote`, `event` (`start`/`end`/`location`), `now`, `series` | `layouts/<tipo>/…` |
-| Microformats2: `h-entry` / `e-content` / `u-photo` / `p-category` / `dt-published`; tipi di risposta reply/repost/like/bookmark/rsvp | `layouts/single.html`, `_partials/micro.html` |
-| **Webmention** (invio + rendering webmention.io) | `_partials/webmention.html`, `_partials/custom-head.html` |
-| **Commenti Mastodon** (fetch `/context` + DOMPurify) + embed toot a build time | `_partials/mastodon.html`, `_partials/toot.html` |
-| **Brid.gy Publish** con target configurabili + UTM | `_partials/bridgy.html` |
+| Feeds: RSS (`exclude_from_rss`, `summary`/`full`, `media` namespace), **Atom** (`feedUUID`, `webfeeds`), **JSON Feed 1.1**, **humans.txt**, dynamic **robots.txt** | `layouts/rss.xml`, `list.atom.xml`, `list.json.json`, `index.humanstxt.txt`, `robots.txt` |
+| Search: `SearchIndex` output → `/search.json`, `/search` section, `?q=` form, **Lunr** index, `<template>` rendering | `layouts/index.searchindex.json`, `layouts/search/list.html`, `_partials/search-*.html`, `assets/js/search.js` |
+| Content types: `micro`, `photos` (EXIF from `exif.json` or `.Exif`), `weeknote`, `event` (`start`/`end`/`location`), `now`, `series` | `layouts/<type>/…` |
+| Microformats2: `h-entry` / `e-content` / `u-photo` / `p-category` / `dt-published`; response types reply/repost/like/bookmark/rsvp | `layouts/single.html`, `_partials/micro.html` |
+| **Webmention** (send + render via webmention.io) | `_partials/webmention.html`, `_partials/custom-head.html` |
+| **Mastodon comments** (fetch `/context` + DOMPurify) + build-time toot embed | `_partials/mastodon.html`, `_partials/toot.html` |
+| **Brid.gy Publish** with configurable targets + UTM | `_partials/bridgy.html` |
 | **Syndication** ("also posted on") | `_partials/syndication.html` |
-| Render hooks: link (UTM+`target=_blank`+icona), immagini (`figure`+`u-photo`), heading (anchor), codeblock (`HighlightCodeBlock`) | `layouts/_markup/render-*.html` |
-| Shortcode: `toc`, `embed`, `toot`, `xkcd`, `allpages`, `88x31`, `buzzword`, `heart` | `layouts/_shortcodes/*` |
-| Icone per **tipo di contenuto** ("categoria") con Font Awesome (Kit o CDN free), override `params.postIcons` | `_partials/fontawesome.html`, `_partials/type-icon.html`, `_partials/postCard.html` |
-| **Angolo LGBT+** (pride.codes, in alto a dx) opt-in `params.prideCorner` (default `false`) | `_partials/pride-corner.html` |
-| Extra small-web: badge **88×31** (cartella + JSON, shuffle), **webring** (`webring.html`: icona / prev-next / web component), "cita questo post" (copia URL), "scritto da umano", **backlink** (`findRE`), **related** ("See Also") | `_partials/88x31.html`, `_partials/webring.html`, `_partials/cite.html`, `_partials/inbound-links.html`, `_partials/comments.html`, `footer.html` |
-| Palette / theming: 6 ruoli + superfici per opacità, Chroma solo viola/verde | `assets/css/main.css` |
+| Render hooks: link (UTM + `target=_blank` + `↗`), image (`figure` + `u-photo`), heading (anchor), codeblock (`HighlightCodeBlock`) | `layouts/_markup/render-*.html` |
+| Shortcodes: `toc`, `embed`, `toot`, `xkcd`, `allpages`, `88x31`, `buzzword`, `heart` | `layouts/_shortcodes/*` |
+| Content-type icons ("category") with Font Awesome (Kit or free CDN), `params.postIcons` override | `_partials/fontawesome.html`, `_partials/type-icon.html`, `_partials/postCard.html` |
+| **LGBTQ+ corner** (pride.codes, top-right), opt-in `params.prideCorner` (default `false`) | `_partials/pride-corner.html` |
+| Small-web extras: **88×31** badges (folder + JSON, shuffled), **webring** (`webring.html`: icon / prev-next / web component), "cite this post" (copy URL), "written by a human", **backlinks** (`findRE`), **related** ("See Also") | `_partials/88x31.html`, `_partials/webring.html`, `_partials/cite.html`, `_partials/inbound-links.html`, `_partials/comments.html`, `footer.html` |
+| Palette / theming: 6 roles + surfaces derived by opacity, Chroma within violet/green | `assets/css/main.css` |
 
-> KaTeX condizionale (`_partials/helpers/katex.html`) e Google Analytics
-> (`hugo.IsProduction` + `site.GoogleAnalytics`) sono inclusi come da checklist.
+KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
+(`hugo.IsProduction` + `site.GoogleAnalytics`) are wired up too.
 
----
-
-## Parametri principali (`params`)
+## Params
 
 ```toml
 [params]
-  description       = "…"           # meta description di fallback
+  description       = "…"           # fallback meta description
   dateFormat        = "2 January 2006"
-  homeRecentCount   = 20             # post in home
+  homeRecentCount   = 20            # posts on the home page
   mainSections      = ["post"]
-  secondarysections = ["micro"]      # lista "Recent updates" in home
+  secondarysections = ["micro"]     # "Recent updates" list on the home page
   feedSections      = ["post", "micro", "photos", "weeknote"]
   commentSections   = ["post", "micro", "photos", "weeknote"]
-  suggestionSections= ["post"]       # blocco "See Also" (Related)
+  suggestionSections= ["post"]      # "See Also" block (Related)
   toc = true
   tocOpen = false
   goToTop = true
-  linkUTM = false                    # UTM sui link esterni (render hook)
+  linkUTM = false                   # UTM on external links (render hook)
   writtenByHuman = true
   shareButtons = true
   cite = true
   badges88x31 = true
-  additionalScripts = []             # asset JS extra, bundle+minify
+  additionalScripts = []            # extra JS assets, bundled + minified
   themeColor = "#1e1e24"
-  feedUUID = ""                      # urn:uuid per l'Atom
-  images = ["/img/og.png"]           # og:image di fallback
-  prideCorner = false               # angolo LGBT+ pride.codes in alto a dx (opt-in)
+  feedUUID = ""                     # urn:uuid for the Atom feed
+  images = ["/img/og.png"]          # fallback og:image
+  prideCorner = false               # pride.codes corner top-right (opt-in)
 
-  [params.fontawesome]              # icone per tipo di contenuto
-    kit = ""                         # URL di un Kit (anche Pro); vuoto = CDN free
-    version = "6.7.2"                # versione del CDN free
-    disable = false                  # true = niente Font Awesome
+  [params.fontawesome]              # content-type icons
+    kit = ""                         # a Kit URL (Pro too); empty = free CDN
+    version = "6.7.2"                # free CDN version
+    disable = false                  # true = no Font Awesome
 
-  # Icona FA per "categoria" (= tipo di sezione). Default sensati inclusi;
-  # override solo le voci che vuoi cambiare.
+  # FA icon per "category" (= section type). Sensible defaults included;
+  # override only the entries you want to change.
   [params.postIcons]
     post     = "fa-solid fa-newspaper"
     micro    = "fa-solid fa-thumbtack"
@@ -230,7 +232,7 @@ I font sono caricati da Google Fonts in `_partials/head.html` a partire da
 
   [params.author]
     name = "" ; intro = "" ; description = "" ; url = "" ; email = ""
-    fediverseAccount = "@utente@istanza"
+    fediverseAccount = "@user@instance"
 
   [params.hcard]
     fullName = "" ; nickname = "" ; avatar = "img/logo.png"
@@ -239,63 +241,57 @@ I font sono caricati da Google Fonts in `_partials/head.html` a partire da
       nominative = "" ; oblique = "" ; possessive = ""
 
   [params.webmention]
-    targetDomain = "example.com"     # dominio canonico per webmention.io
-    # endpoint / pingback / script opzionali
+    targetDomain = "example.com"     # canonical domain for webmention.io
+    # endpoint / pingback / script optional
 
   bridgy = ["mastodon", "bluesky"]
 
   [[params.socialIcons]]
-    name = "github" ; url = "https://github.com/utente"
+    name = "github" ; url = "https://github.com/user"
 
-  # Webring nel footer (partial webring.html). Ogni voce:
-  #   name, url            link semplice
-  #   + icon               link icona (img 30x30)
-  #   + prev / next        rende  ← name →
-  #   + html [+ script]    markup grezzo (web component) e script defer
+  # Footer webring(s) (partial webring.html). Each entry:
+  #   name, url            plain link
+  #   + icon               icon link (30x30 img)
+  #   + prev / next        renders  <- name ->
+  #   + html [+ script]    raw markup (web component) and a defer script
   [[params.webrings]]
     name = "XXIIVV webring" ; url = "https://webring.xxiivv.com/#86"
     icon = "https://webring.xxiivv.com/icon.white.svg"
-  [[params.webrings]]
-    name = "IndieWeb Webring" ; url = "https://xn--sr8hvo.ws"
-    prev = "https://xn--sr8hvo.ws/previous" ; next = "https://xn--sr8hvo.ws/next"
-  [[params.webrings]]
-    name = "djangowebring"
-    html = '<webring-css site="https://example.org"></webring-css>'
-    script = "https://djangowebring.com/static/webring.js"
 ```
 
-### Front matter riconosciuto
+### Recognised front matter
 
 `description`, `image`, `tags`, `categories`, `series`, `themes`, `group`,
 `isStarred`, `speaker`, `math`, `toc`, `tocOpen`, `exclude_from_rss`,
 `exclude_from_search`, `robotsdisallow`, `allpage`, `feature_link`/`feature_text`,
-`syndication` (lista URL), `comments` (`{host, user, id}` per i commenti
-Mastodon), `reply`/`repost`/`like`/`bookmark`/`rsvp`/`preview_text_from_reply`,
+`syndication` (list of URLs), `comments` (`{host, user, id}` for Mastodon
+comments), `reply`/`repost`/`like`/`bookmark`/`rsvp`/`preview_text_from_reply`,
 `mastodon_instance`+`mastodon_id`, `start`/`end`/`location` (event).
 
-### Estensione lato sito
+### Site-side extension
 
-Crea nel tuo `layouts/_partials/`:
+Create these in your own `layouts/_partials/`:
 
-- `custom-head.html` — aggiunge roba in `<head>` (il tema ne fornisce già una che
-  emette `rel=webmention`/`pingback`; sovrascrivila per estendere);
-- `custom-scripts.html` — script a fine `<body>` (analytics self-hosted, webring
-  JS, ecc.).
+- `custom-head.html` — adds to `<head>` (the theme ships one that emits
+  `rel=webmention`/`pingback`; override to extend);
+- `custom-scripts.html` — end-of-`<body>` scripts (self-hosted analytics, extra
+  widgets, …).
 
----
-
-## Struttura
+## Structure
 
 ```
 themes/cyberlavandatea/
 ├── theme.toml · go.mod · package.json · hugo.toml · LICENSE · README.md
+│   CHANGELOG.md · CONTRIBUTING.md · .editorconfig · .gitattributes · netlify.toml
+├── .github/workflows/ci.yml
 ├── archetypes/            default, post, micro, now, photos, event, weeknote
 ├── assets/
 │   ├── css/main.css       Tailwind v4 + @theme (palette) + base + .chroma
+│   │   safelist.txt
 │   └── js/                theme.js · main.js · goToTop.js · search.js
-├── data/cyberlavandatea/palette.yaml   riferimento palette
+├── data/cyberlavandatea/palette.yaml   palette reference
 ├── i18n/                  en.yaml · it.yaml
-├── exampleSite/           demo minima
+├── exampleSite/           minimal demo (its own hugo.toml + go.mod)
 └── layouts/
     ├── baseof · home · list · single · 404 · taxonomy · term
     ├── rss.xml · list.atom.xml · list.json.json
@@ -304,13 +300,19 @@ themes/cyberlavandatea/
     ├── _markup/            render-link · render-image · render-heading · render-codeblock
     ├── _shortcodes/        toc · embed · toot · xkcd · allpages · 88x31 · buzzword · heart
     └── _partials/          head · header · footer · scripts-* · meta/* · svgs/*
-                            postCard · bio · toc · tags · series · micro · comments
-                            mastodon · toot · webmention · syndication · bridgy
-                            hcard · socialIcons · search-form · search-index
-                            cite · share-buttons · inbound-links · 88x31
-                            custom-head · helpers/katex
+                            postCard · type-icon · fontawesome · bio · toc · tags
+                            series · micro · comments · mastodon · toot · webmention
+                            syndication · bridgy · hcard · socialIcons · webring
+                            search-form · search-index · cite · share-buttons
+                            inbound-links · 88x31 · pride-corner · custom-head
+                            helpers/katex
 ```
 
-## Licenza
+## Contributing
 
-MIT — vedi [`LICENSE`](LICENSE).
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). Changes are tracked in
+[`CHANGELOG.md`](CHANGELOG.md).
+
+## License
+
+MIT — see [`LICENSE`](LICENSE).

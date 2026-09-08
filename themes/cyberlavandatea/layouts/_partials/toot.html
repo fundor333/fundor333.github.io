@@ -1,4 +1,4 @@
-{{- /* Embed di uno status Mastodon a build time. ctx: {instance, id} */ -}}
+{{- /* Embed a Mastodon status at build time. ctx: {instance, id} */ -}}
 {{- $inst := .instance -}}{{- $id := .id -}}
 {{- $url := printf "https://%s/api/v1/statuses/%s" $inst $id -}}
 {{- with try (resources.GetRemote $url) -}}
