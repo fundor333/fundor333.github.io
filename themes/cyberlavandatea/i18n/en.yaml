@@ -34,6 +34,7 @@ comments:
   needs_js: "Comments need JavaScript. See the"
   original_post: "original post"
   see_also: "See also"
+  mastodon_intro: "With an account on the Fediverse or Mastodon you can reply to the"
 
 search:
   label: "Search the site"

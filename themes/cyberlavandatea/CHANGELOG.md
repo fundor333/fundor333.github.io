@@ -35,5 +35,9 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 - Webmention rendering: `#webmentions` facepile + inline comments are now
   styled in `main.css`; `_partials/webmention.html` keeps the URL scheme when
   swapping the host and takes `script` / `wordcount` params.
+- Mastodon comments (`_partials/mastodon.html`): full auto-loading reply thread
+  from `<host>/api/v1/statuses/<id>/context` — avatars, instance badges,
+  localised dates, favourites count, OP marker, custom emoji, DOMPurify — from
+  `comments = { host, username, id }` front matter. Styled by `section#comments`.
 - i18n: `en` and `it`.
 - `exampleSite` that builds cleanly on Hugo 0.146+.

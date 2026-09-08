@@ -385,14 +385,60 @@
 #webmentions time, #webmentions .date { color: var(--color-inactive); font-size: 0.85em; }
 
 /* Mastodon comment thread (partials/mastodon.html) */
-#mastodon-comments { margin-top: 1rem; }
-#mastodon-comments-list .comment { border-top: 1px solid var(--color-border); padding: 0.75rem 0; }
-#mastodon-comments-list .comment header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem; }
-#mastodon-comments-list .comment img { width: 2rem; height: 2rem; border-radius: 20%; flex: none; }
-#mastodon-comments-list .comment .comment-body { color: var(--color-content); }
-#mastodon-comments-list .comment .comment-body p:first-child { margin-top: 0; }
-#mastodon-comments-list .comment.op { border-left: 3px solid var(--color-primary); padding-left: 0.75rem; }
-#mastodon-comments-list .comment .emoji { display: inline; width: 1.15em; height: 1.15em; vertical-align: middle; }
+section#comments { margin-top: 1.5rem; }
+section#comments > p { margin: 0 0 1rem; }
+#comments-wrapper { display: flex; flex-direction: column; gap: 0.25rem; }
+
+section#comments .comment {
+  display: grid;
+  column-gap: 0.9rem;
+  grid-template-columns: 3rem 1fr;
+  grid-template-areas:
+    "avatar author"
+    "avatar time"
+    "body   body"
+    "foot   foot";
+  align-items: start;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--color-border);
+}
+section#comments .comment.comment-reply { margin-left: 1.25rem; }
+section#comments .comment.op { border-left: 3px solid var(--color-primary); padding-left: 0.75rem; }
+
+section#comments .avatar-link { grid-area: avatar; width: 3rem; height: 3rem; position: relative; }
+section#comments .avatar-link .avatar { width: 100%; height: 100%; border-radius: 20%; object-fit: cover; background: var(--color-surface); }
+section#comments .avatar-link.op::after {
+  content: "✓"; position: absolute; right: -0.25rem; bottom: -0.25rem;
+  width: 1.25rem; height: 1.25rem; line-height: 1.25rem; text-align: center;
+  font-size: 0.85rem; font-weight: 700; border-radius: 999px;
+  background: var(--color-primary); color: var(--color-background);
+}
+
+section#comments .comment .author {
+  grid-area: author; display: flex; align-items: center; gap: 0.5rem;
+  font-weight: 700; color: var(--color-content);
+}
+section#comments .comment .author .instance {
+  font-weight: 400; font-size: 0.8rem; color: var(--color-inactive);
+  background: var(--color-surface); border-radius: 999px; padding: 0.1rem 0.6rem;
+  text-decoration: none;
+}
+section#comments .comment .author .instance.op::before { content: "✓ "; }
+
+section#comments .comment > time { grid-area: time; }
+section#comments .comment > time a { color: var(--color-inactive); font-size: 0.85rem; text-decoration: none; }
+
+section#comments .comment > main { grid-area: body; color: var(--color-content); margin-top: 0.4rem; }
+section#comments .comment > main p:first-child { margin-top: 0; }
+section#comments .comment > main p:last-child { margin-bottom: 0; }
+
+section#comments .comment > footer { grid-area: foot; }
+section#comments .comment .faves { color: var(--color-inactive); text-decoration: none; font-size: 0.85rem; }
+section#comments .comment .faves::before { content: "♥ "; color: var(--color-code-err); }
+
+section#comments .comment .emoji { display: inline; width: 1.2em; height: 1.2em; vertical-align: middle; }
+section#comments .comment .invisible { display: none; }
+section#comments .comment .ellipsis::after { content: "…"; }
 
 /* ---------------------------------------------------------------------------
    10. Reduced motion

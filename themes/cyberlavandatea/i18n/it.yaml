@@ -34,6 +34,7 @@ comments:
   needs_js: "I commenti richiedono JavaScript. Vedi il"
   original_post: "post originale"
   see_also: "Vedi anche"
+  mastodon_intro: "Con un account sul Fediverso o su Mastodon puoi rispondere al"
 
 search:
   label: "Cerca nel sito"
