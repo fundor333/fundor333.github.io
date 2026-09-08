@@ -45,8 +45,11 @@ syndication:
   also_on: "Also posted on:"
 
 cite:
-  summary: "Cite this post"
-  body: "Please link to this page when referencing it."
+  summary: "Reference this post"
+  body: "Please reference this post with a link to this page."
+  prefer: "I prefer to be called"
+  or: "or"
+  learn_more: "Learn more"
   url_label: "URL for this post:"
   copy: "Copy"
 

@@ -88,6 +88,14 @@ fontawesome:
 # Angolo LGBT+ (pride.codes) in alto a destra. Default del tema: false.
 prideCorner: true
 
+# Box "Cita questo post". `pronouns` è dedotto da Hcard.pronouns se omesso.
+cite:
+  enable: true
+  body: "Please reference this post with a link to this page."
+  name: "Fundor333"
+  nameAlt: "Fundor333' Blog"
+  learnMoreUrl: "https://fundor333.com/cite"
+
 # Webmention (webmention.io). Il tema rende la facepile + i commenti in
 # #webmentions e mette <link rel="webmention"> / <link rel="pingback">.
 # `script` omesso -> il tema serve la sua copia bundlata di webmention.js.

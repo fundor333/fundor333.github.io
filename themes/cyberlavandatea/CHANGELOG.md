@@ -49,5 +49,8 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 - The signature `@font-face` is no longer hardcoded to a site path: set
   `params.fonts.signature` (a font-file URL) and `head.html` emits it as
   "Sig Font"; otherwise a cursive fallback stack is used.
+- The "Reference this post" box (`_partials/cite.html`) is configurable via
+  `params.cite` (a bool, or a table with `body`, `name`, `pronouns`, `nameAlt`,
+  `learnMoreUrl`); pronouns fall back to `params.hcard.pronouns`.
 - i18n: `en` and `it`.
 - `exampleSite` that builds cleanly on Hugo 0.146+.

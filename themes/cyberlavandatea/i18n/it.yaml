@@ -46,7 +46,10 @@ syndication:
 
 cite:
   summary: "Cita questo post"
-  body: "Per favore linka questa pagina quando la citi."
+  body: "Per favore cita questo post con un link a questa pagina."
+  prefer: "Preferisco essere chiamato"
+  or: "oppure"
+  learn_more: "Scopri di più"
   url_label: "URL di questo post:"
   copy: "Copia"
 

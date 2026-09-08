@@ -190,7 +190,7 @@ free CDN, or `disable`), **KaTeX** (only when `math` is set), **Google Fonts**
 | Shortcodes: `toc`, `embed`, `toot`, `xkcd`, `allpages`, `88x31`, `buzzword`, `heart` | `layouts/_shortcodes/*` |
 | Content-type icons ("category") with Font Awesome (Kit or free CDN), `params.postIcons` override | `_partials/fontawesome.html`, `_partials/type-icon.html`, `_partials/postCard.html` |
 | **LGBTQ+ corner** (pride.codes, top-right), opt-in `params.prideCorner` (default `false`) | `_partials/pride-corner.html` |
-| Small-web extras: **88×31** badges (folder + JSON, shuffled), **webring** (`webring.html`: icon / prev-next / web component), "cite this post" (copy URL), "written by a human", **backlinks** (`findRE`), **related** ("See Also") | `_partials/88x31.html`, `_partials/webring.html`, `_partials/cite.html`, `_partials/inbound-links.html`, `_partials/comments.html`, `footer.html` |
+| Small-web extras: **88×31** badges (folder + JSON, shuffled), **webring** (`webring.html`: icon / prev-next / web component), **"reference this post"** box (configurable preferred name / pronouns / "learn more" link + copy-URL), "written by a human", **backlinks** (`findRE`), **related** ("See Also") | `_partials/88x31.html`, `_partials/webring.html`, `_partials/cite.html`, `_partials/inbound-links.html`, `_partials/comments.html`, `footer.html` |
 | Palette / theming: 6 roles + surfaces derived by opacity, Chroma within violet/green | `assets/css/main.css` |
 
 KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
@@ -214,7 +214,7 @@ KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
   linkUTM = false                   # UTM on external links (render hook)
   writtenByHuman = true
   shareButtons = true
-  cite = true
+  cite = true                       # bool, or a [params.cite] table (below)
   badges88x31 = true
   additionalScripts = []            # extra JS assets, bundled + minified
   themeColor = "#1e1e24"
@@ -252,6 +252,14 @@ KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
     display = "Audiowide"
     body = "Rajdhani:wght@400;500;600;700"
     signature = ""                   # optional font-file URL for .written-by-human
+
+  [params.cite]                     # "Reference this post" box
+    enable       = true
+    body         = ""               # intro sentence (default: i18n cite.body)
+    name         = ""               # -> "I prefer to be called <name>"
+    pronouns     = ""               # e.g. "he/him" (default: from params.hcard.pronouns)
+    nameAlt      = ""               # -> "… or <nameAlt>"
+    learnMoreUrl = ""               # adds a "Learn more" line
 
   [params.author]
     name = "" ; intro = "" ; description = "" ; url = "" ; email = ""

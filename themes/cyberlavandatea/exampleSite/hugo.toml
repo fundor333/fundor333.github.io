@@ -77,6 +77,13 @@ enableGitInfo = false
     targetDomain = "example.org"
     wordcount = 40
 
+  [params.cite]                    # "Reference this post" box (bool also accepted)
+    enable = true
+    name = "Dev Person"
+    nameAlt = "the CyberLavandaTea demo"
+    learnMoreUrl = "https://example.org/about/"
+    # pronouns derived from params.hcard.pronouns when omitted
+
   [params.author]
     name = "Dev Person"
     intro = "Backend, Hugo, tea."
