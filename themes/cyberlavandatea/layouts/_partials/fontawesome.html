@@ -1,0 +1,14 @@
+{{- /* Font Awesome.
+   - site.Params.fontawesome.kit   → carica un Kit (anche Pro/custom)
+   - altrimenti CDN free (cdnjs), disattivabile con fontawesome.disable = true
+   - site.Params.fontawesome.version  (default 6.7.2)
+*/ -}}
+{{- $fa := site.Params.fontawesome -}}
+{{- with $fa.kit -}}
+<script src="{{ . }}" crossorigin="anonymous" defer></script>
+{{- else -}}
+{{- if not $fa.disable -}}
+{{- $v := $fa.version | default "6.7.2" -}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ $v }}/css/all.min.css" referrerpolicy="no-referrer">
+{{- end -}}
+{{- end -}}

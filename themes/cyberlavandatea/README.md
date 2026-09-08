@@ -164,7 +164,9 @@ I font sono caricati da Google Fonts in `_partials/head.html` a partire da
 | **Syndication** ("also posted on") | `_partials/syndication.html` |
 | Render hooks: link (UTM+`target=_blank`+icona), immagini (`figure`+`u-photo`), heading (anchor), codeblock (`HighlightCodeBlock`) | `layouts/_markup/render-*.html` |
 | Shortcode: `toc`, `embed`, `toot`, `xkcd`, `allpages`, `88x31`, `buzzword`, `heart` | `layouts/_shortcodes/*` |
-| Extra small-web: badge **88×31** (cartella + JSON, shuffle), webring, "cita questo post" (copia URL), "scritto da umano", **backlink** (`findRE`), **related** ("See Also") | `_partials/88x31.html`, `_partials/cite.html`, `_partials/inbound-links.html`, `_partials/comments.html`, `footer.html` |
+| Icone per **tipo di contenuto** ("categoria") con Font Awesome (Kit o CDN free), override `params.postIcons` | `_partials/fontawesome.html`, `_partials/type-icon.html`, `_partials/postCard.html` |
+| **Angolo LGBT+** (pride.codes, in alto a dx) opt-in `params.prideCorner` (default `false`) | `_partials/pride-corner.html` |
+| Extra small-web: badge **88×31** (cartella + JSON, shuffle), **webring** (`webring.html`: icona / prev-next / web component), "cita questo post" (copia URL), "scritto da umano", **backlink** (`findRE`), **related** ("See Also") | `_partials/88x31.html`, `_partials/webring.html`, `_partials/cite.html`, `_partials/inbound-links.html`, `_partials/comments.html`, `footer.html` |
 | Palette / theming: 6 ruoli + superfici per opacità, Chroma solo viola/verde | `assets/css/main.css` |
 
 > KaTeX condizionale (`_partials/helpers/katex.html`) e Google Analytics
@@ -196,6 +198,23 @@ I font sono caricati da Google Fonts in `_partials/head.html` a partire da
   themeColor = "#1e1e24"
   feedUUID = ""                      # urn:uuid per l'Atom
   images = ["/img/og.png"]           # og:image di fallback
+  prideCorner = false               # angolo LGBT+ pride.codes in alto a dx (opt-in)
+
+  [params.fontawesome]              # icone per tipo di contenuto
+    kit = ""                         # URL di un Kit (anche Pro); vuoto = CDN free
+    version = "6.7.2"                # versione del CDN free
+    disable = false                  # true = niente Font Awesome
+
+  # Icona FA per "categoria" (= tipo di sezione). Default sensati inclusi;
+  # override solo le voci che vuoi cambiare.
+  [params.postIcons]
+    post     = "fa-solid fa-newspaper"
+    micro    = "fa-solid fa-thumbtack"
+    photos   = "fa-solid fa-camera"
+    weeknote = "fa-solid fa-mug-hot"
+    event    = "fa-solid fa-calendar-days"
+    now      = "fa-solid fa-hourglass-half"
+    series   = "fa-solid fa-layer-group"
 
   [params.fonts]
     display = "Audiowide"

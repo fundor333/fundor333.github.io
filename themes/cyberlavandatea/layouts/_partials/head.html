@@ -41,6 +41,9 @@
   <meta name="theme-color" content="{{ site.Params.themeColor | default "#1e1e24" }}">
   <meta name="color-scheme" content="dark">
 
+  {{/* --- Font Awesome (icone per tipo di contenuto) --- */}}
+  {{ partial "fontawesome.html" . }}
+
   {{/* --- KaTeX condizionale --- */}}
   {{ if or .Params.math site.Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 

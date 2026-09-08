@@ -61,6 +61,18 @@
   shareButtons = true
   cite = true
   badges88x31 = true
+  prideCorner = false          # angolo LGBT+ (pride.codes) — opt-in
+
+  # Font Awesome per le icone di tipo/categoria (postCard, header dei single).
+  # Con `kit` si carica un Kit (anche Pro); altrimenti CDN free cdnjs.
+  [params.fontawesome]
+    # kit = "https://kit.fontawesome.com/xxxxxxxxxx.js"
+    version = "6.7.2"
+    disable = false
+
+  # Override icone per tipo: postIcons.<type> = "<classi FA>"
+  # [params.postIcons]
+  #   post = "fa-solid fa-newspaper"
 
   [params.fonts]
     display = 'Audiowide'

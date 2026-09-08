@@ -68,6 +68,8 @@ enableGitInfo = false
   dateFormat = "2 January 2006"
   linkUTM = false
   themeColor = "#1e1e24"
+  prideCorner = true            # angolo LGBT+ (default del tema: false)
+  # Font Awesome: senza kit usa il CDN free (icone per tipo di contenuto).
 
   [params.author]
     name = "Dev Person"

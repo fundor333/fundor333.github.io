@@ -76,6 +76,14 @@ bridgy:
   - "mastodon"
   - "bluesky"
 
+# Font Awesome (icone per tipo di contenuto nel tema CyberLavandaTea).
+# Kit Pro già usato in precedenza dal sito.
+fontawesome:
+  kit: "https://kit.fontawesome.com/2f3b6e2e4c.js"
+
+# Angolo LGBT+ (pride.codes) in alto a destra. Default del tema: false.
+prideCorner: true
+
 # Webring nel footer (tema CyberLavandaTea). Erano hardcoded nel vecchio
 # layouts/_partials/footer.html; ora sono dati.
 webrings:

@@ -208,7 +208,8 @@
   .post-item + .post-item { border-top: 1px solid var(--color-border); }
   .post-item-title { margin: 0; font-size: 1rem; font-weight: 400; }
   .post-item-title a { font-family: var(--font-display); text-decoration: none; }
-  .post-item-icon { color: var(--color-primary); margin-right: 0.35rem; }
+  .post-item-icon { color: var(--color-primary); margin-right: 0.4rem; display: inline-block; width: 1.15em; text-align: center; }
+  h1 .post-item-icon { width: auto; margin-right: 0.5rem; }
   .post-year, .post-list-heading { color: var(--color-inactive); font-size: 1.1rem; margin-top: 2rem; }
   .header-title, .center { text-align: center; }
 
@@ -341,7 +342,17 @@
 .chroma .hl { background: color-mix(in srgb, var(--color-primary) 16%, transparent); }
 
 /* ---------------------------------------------------------------------------
-   8. Reduced motion
+   8. Angolo LGBT+ (pride.codes) — opt-in via params.prideCorner
+   --------------------------------------------------------------------------- */
+.pridecodes-code-corner { position: fixed; top: 0; right: 0; z-index: 9999; line-height: 0; }
+#pridecodes-code-corner-svg { width: 96px; height: auto; animation: pride-enter 1.6s ease both; transition: transform 0.2s ease-in-out; }
+#pridecodes-code-corner-svg:hover { transform: scale(1.08); transform-origin: right top; }
+@keyframes pride-enter { from { opacity: 0; } to { opacity: 1; } }
+@media (min-width: 768px) { #pridecodes-code-corner-svg { width: 130px; } }
+@media (prefers-reduced-motion: reduce) { #pridecodes-code-corner-svg { animation: none; } }
+
+/* ---------------------------------------------------------------------------
+   9. Reduced motion
    --------------------------------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0.001ms !important; animation-duration: 0.001ms !important; }
