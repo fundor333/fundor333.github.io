@@ -36,12 +36,16 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
   `favicon`, `faviconSvg`, `appleTouchIcon`, `icon96`, `webmanifest`,
   `maskIcon`; falls back to the theme's bundled `favicon.svg`.
 - Webmention rendering: `#webmentions` facepile + inline comments are now
-  styled in `main.css`; `_partials/webmention.html` keeps the URL scheme when
-  swapping the host and takes `script` / `wordcount` params. The client is
-  loaded with `defer` (an `async` script could lose the race for the window
-  `load` event and render nothing); `data-add-urls` is passed with the `|`
-  separator the client expects. The **Responses** (`in-reply-to` / mentions)
-  and **Reactions** (likes / reposts) blocks are both styled.
+  styled in `main.css`. `_partials/webmention.html` rebuilds `data-page-url`
+  as `<scheme>://<targetDomain><path>` (default `https`) so `hugo server`
+  on `localhost:1313` still queries the real registered URL — the previous
+  host-substring swap left `http://…:1313` and matched nothing. The client
+  is loaded with `defer` (an `async` script could lose the race for the
+  window `load` event and render nothing); aliases are passed via
+  `data-add-urls` with the `|` separator the client expects. Both the
+  **Responses** (`in-reply-to` / mentions) and **Reactions** (likes /
+  reposts) blocks are styled. New params: `scheme`, `maxWebmentions`,
+  `preventSpoofing`.
 - Mastodon comments (`_partials/mastodon.html`): full auto-loading reply thread
   from `<host>/api/v1/statuses/<id>/context` — avatars, instance badges,
   localised dates, favourites count, OP marker, custom emoji, DOMPurify — from

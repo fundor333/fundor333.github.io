@@ -1,7 +1,10 @@
 {{- /* Webmention display (webmention.js by @fluffy, vendored in the theme).
    site.Params.webmention:
-     targetDomain  canonical domain, e.g. "example.com" (swaps the host of the
-                   current URL, keeping the scheme) so dev builds still resolve
+     targetDomain  canonical domain of the PRODUCTION site, e.g. "example.com".
+                   When set, data-page-url is rebuilt as
+                   "<scheme>://<targetDomain><path>" so `hugo server`
+                   (localhost:1313) still queries the real, registered URL.
+     scheme        "https" (default) or "http" for that canonical URL
      script        override the client script URL (default: bundled copy)
      wordcount     data-wordcount for inline replies (default 40)
      maxWebmentions, preventSpoofing (bool)  — passed through if set
@@ -9,10 +12,11 @@
    <h2>Reactions</h2> (likes / reposts / bookmarks) into #webmentions.
    Loaded with `defer` so the client's window "load" handler is always
    registered before the event fires (an `async` script can lose that race). */ -}}
-{{- with site.Params.webmention -}}
+{{- $wm := site.Params.webmention -}}
+{{- with $wm -}}
 {{- $url := $.Permalink -}}
 {{- with .targetDomain -}}
-  {{- $url = replace $.Permalink (urls.Parse site.BaseURL).Hostname . -}}
+  {{- $url = printf "%s://%s%s" ($wm.scheme | default "https") . (urls.Parse $.Permalink).Path -}}
 {{- end -}}
 {{- $src := .script -}}
 {{- if not $src -}}

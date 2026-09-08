@@ -272,11 +272,15 @@ KaTeX (conditional, `_partials/helpers/katex.html`) and Google Analytics
       nominative = "" ; oblique = "" ; possessive = ""
 
   [params.webmention]
-    targetDomain = "example.com"     # canonical domain (host swap, scheme kept)
-    script       = ""                # override client URL (default: bundled webmention.js)
-    wordcount    = 40                # data-wordcount for inline comments
+    targetDomain    = "example.com"  # canonical prod domain: data-page-url becomes
+                                     # https://<targetDomain><path> (works on `hugo server`)
+    scheme          = "https"        # scheme for that canonical URL
+    script          = ""             # override client URL (default: bundled webmention.js)
+    wordcount       = 40             # data-wordcount for inline replies
+    maxWebmentions  = 30
+    preventSpoofing = false
     # endpoint / pingback also read by _partials/custom-head.html
-    # Renders the reactions facepile + comments into #webmentions, and emits
+    # Renders <h2>Responses</h2> + <h2>Reactions</h2> into #webmentions, and emits
     # <link rel="webmention"> / <link rel="pingback">.
 
   bridgy = ["mastodon", "bluesky"]
