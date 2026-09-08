@@ -1,0 +1,20 @@
+# Palette CyberLavandaTea — riferimento (la fonte reale è assets/css/main.css @theme).
+# Dark-only, 6 ruoli + 1 viola + 1 verde. Contrasti su Background #1E1E24.
+roles:
+  primary:    { hex: "#9B8CF8", role: "viola — accento, hover, focus, keyword", contrast: "5.9:1" }
+  content:    { hex: "#DCDCE4", role: "testo, heading, strong, testo codice",     contrast: "12.2:1 (AAA)" }
+  link:       { hex: "#74D18C", role: "verde — link non visitati, stringhe",      contrast: "8.9:1 (AAA)" }
+  visited:    { hex: "#9E8FBE", role: "lavanda — link visitati",                  contrast: "5.6:1" }
+  background: { hex: "#1E1E24", role: "body, navbar, footer" }
+  inactive:   { hex: "#8C8C99", role: "meta, date, bordi, placeholder, commenti", contrast: "5.0:1 (AA)" }
+derived:
+  surface:  "#2D2D33"  # Content @ 8% su Background — code/pre/toc/blockquote
+  border:   "#39393F"  # Content @ 14% su Background — hr, separatori
+syntax:
+  fn:  "#A6E0B4"  # tint di link
+  num: "#C3B8F5"  # tint di primary
+  err: "#E1808F"  # rosso, unica utility, solo dentro <pre>
+fonts:
+  display: "Audiowide"        # heading, link, strong, footer
+  body: "Rajdhani"            # corpo
+  signature: "Ocean Trace"    # .written-by-human

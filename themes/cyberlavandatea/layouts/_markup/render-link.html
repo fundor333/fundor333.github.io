@@ -1,0 +1,13 @@
+{{- $dest := .Destination -}}
+{{- $external := strings.HasPrefix $dest "http" -}}
+{{- if and $external site.Params.linkUTM -}}
+  {{- $u := urls.Parse $dest -}}
+  {{- if not (strings.Contains $u.RawQuery "utm_source=") -}}
+    {{- $src := (urls.Parse (site.Params.author.url | default site.BaseURL)).Host -}}
+    {{- $utm := printf "utm_source=%s&utm_medium=referral" $src -}}
+    {{- $q := cond (eq $u.RawQuery "") $utm (printf "%s&%s" $u.RawQuery $utm) -}}
+    {{- $dest = printf "%s://%s%s?%s" $u.Scheme $u.Host $u.Path $q -}}
+    {{- with $u.Fragment }}{{ $dest = printf "%s#%s" $dest . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank" rel="noopener"{{ end }} class="a-post">{{ .Text | safeHTML }}{{ if $external }} <span aria-hidden="true">↗</span>{{ end }}</a>

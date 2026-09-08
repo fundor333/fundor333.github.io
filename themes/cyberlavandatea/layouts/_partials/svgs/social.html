@@ -1,0 +1,8 @@
+{{- /* Icona social generica: usa un <use> verso una sprite opzionale del sito,
+       altrimenti un fallback testuale con la prima lettera. */ -}}
+{{- $name := (.name | default "link") | lower -}}
+{{- $sprite := "/icons/social.svg" -}}
+<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor">
+  <use href="{{ $sprite }}#{{ $name }}"></use>
+</svg>
+<span class="sr-only">{{ .name | default "link" }}</span>

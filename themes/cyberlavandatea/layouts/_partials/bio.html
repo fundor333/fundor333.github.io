@@ -1,0 +1,17 @@
+{{ $a := site.Params.author }}
+<div class="author flex items-center gap-4">
+  {{ with $a.avatar }}
+    {{ with resources.Get . }}
+      {{ if eq .MediaType.SubType "svg" }}
+      <img class="author-avatar h-16 w-16 rounded-full" src="{{ .RelPermalink }}" alt="{{ $a.name }}" width="64" height="64">
+      {{ else }}
+      {{ $x1 := .Fill "64x64 center webp" }}{{ $x2 := .Fill "128x128 center webp" }}
+      <img class="author-avatar h-16 w-16 rounded-full" src="{{ $x1.RelPermalink }}" srcset="{{ $x2.RelPermalink }} 2x" alt="{{ $a.name }}" width="64" height="64" loading="lazy">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  <div>
+    {{ with $a.intro }}<p class="author-name m-0 font-display text-content">{{ . }}</p>{{ end }}
+    {{ with $a.description }}<p class="author-bio m-0 text-inactive text-sm">{{ . }}</p>{{ end }}
+  </div>
+</div>

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main class="wrapper py-8" aria-label="{{ T "content" }}">
+  <header class="mb-6"><h1 class="text-center">{{ .Title }}</h1></header>
+  <ul class="taxonomy-terms list-none p-0">
+    {{ range .Data.Terms.Alphabetical }}
+    <li class="border-b border-border py-2">
+      <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+      <span class="text-inactive text-sm"> · {{ .Count }}</span>
+    </li>
+    {{ end }}
+  </ul>
+</main>
+{{ end }}

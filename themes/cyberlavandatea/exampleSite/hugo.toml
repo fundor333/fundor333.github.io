@@ -1,0 +1,102 @@
+baseURL = "https://example.org/"
+locale = "it-it"
+title = "CyberLavandaTea — demo"
+theme = "cyberlavandatea"
+enableGitInfo = false
+
+[pagination]
+  pagerSize = 10
+
+# --- Config che NON si eredita dal tema: va replicata nel sito ---------------
+# (outputs, outputFormats, mediaTypes, taxonomies). Copia questo blocco nel
+# tuo config quando usi il tema. Vedi README → "Configurazione minima".
+[taxonomies]
+  series = "series"
+  category = "categories"
+  tag = "tags"
+  theme = "themes"
+  group = "group"
+
+[mediaTypes."application/atom+xml"]
+  suffixes = ["xml"]
+
+[outputFormats.SearchIndex]
+  baseName = "search"
+  mediaType = "application/json"
+  isPlainText = true
+[outputFormats.Atom]
+  baseName = "atom"
+  mediaType = "application/atom+xml"
+[outputFormats.humanstxt]
+  baseName = "humans"
+  mediaType = "text/plain"
+  isPlainText = true
+
+[outputs]
+  home = ["html", "rss", "json", "SearchIndex", "Atom", "humanstxt"]
+  section = ["html", "rss", "json", "Atom"]
+
+[services.rss]
+  limit = 20
+
+# --- Menu -----------------------------------------------------------------
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Blog"
+    url = "/post/"
+    weight = 20
+  [[menu.main]]
+    name = "Micro"
+    url = "/micro/"
+    weight = 30
+  [[menu.main]]
+    name = "Now"
+    url = "/now/"
+    weight = 40
+  [[menu.main]]
+    name = "Cerca"
+    url = "/search/"
+    weight = 90
+
+# --- Parametri ----------------------------------------------------------------
+[params]
+  description = "Demo del tema CyberLavandaTea — dark, viola + verde, per blog di sviluppo."
+  dateFormat = "2 January 2006"
+  linkUTM = false
+  themeColor = "#1e1e24"
+
+  [params.author]
+    name = "Dev Person"
+    intro = "Backend, Hugo, tè."
+    description = "Blog di sviluppo di esempio per CyberLavandaTea."
+    url = "https://example.org/"
+
+  [params.hcard]
+    fullName = "Dev Person"
+    showLocation = true
+    city = "Venezia"
+    country = "IT"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/"
+  [[params.socialIcons]]
+    name = "mastodon"
+    url = "https://mastodon.social/"
+
+# --- Markup -----------------------------------------------------------------
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+# --- Sicurezza: necessaria per css.TailwindCSS (non ereditata dal tema) -----
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass$', '^git$', '^go$', '^node$', '^npx$', '^postcss$', '^tailwindcss$']

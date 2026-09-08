@@ -1,0 +1,26 @@
+{{- /* Embed di uno status Mastodon a build time. ctx: {instance, id} */ -}}
+{{- $inst := .instance -}}{{- $id := .id -}}
+{{- $url := printf "https://%s/api/v1/statuses/%s" $inst $id -}}
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Err -}}
+  <div class="toot border border-border rounded-lg p-3 text-inactive text-sm">{{ T "toot.unavailable" }}</div>
+  {{- else with .Value -}}
+    {{- $j := .Content | transform.Unmarshal -}}
+    {{- if isset $j "content" -}}
+    <figure class="toot border border-border rounded-lg p-4 my-4 bg-surface">
+      <figcaption class="flex items-center gap-3">
+        <img class="h-10 w-10 rounded-full" src="{{ $j.account.avatar }}" alt="" loading="lazy">
+        <span>
+          <a href="https://{{ $inst }}/@{{ $j.account.acct }}" rel="noopener" class="font-display">{{ $j.account.display_name }}</a><br>
+          <span class="text-inactive text-sm">@{{ $j.account.acct }}@{{ $inst }}</span>
+        </span>
+      </figcaption>
+      <div class="toot-content mt-3">{{ $j.content | safeHTML }}</div>
+      {{ with $j.media_attachments }}<div class="toot-media mt-3 grid gap-2 grid-cols-2">
+        {{ range . }}{{ if eq .type "image" }}<img src="{{ .url }}" alt="{{ .description }}" loading="lazy" class="rounded">{{ end }}{{ end }}
+      </div>{{ end }}
+      <a class="toot-date mt-3 block text-inactive text-sm" href="{{ $j.url }}" rel="noopener">{{ dateFormat "3:04 PM · 2 Jan 2006" $j.created_at }}</a>
+    </figure>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

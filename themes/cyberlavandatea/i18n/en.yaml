@@ -1,0 +1,88 @@
+content: "Content"
+
+nav:
+  main: "Main navigation"
+  toggle: "Toggle menu"
+  search: "Search"
+  language: "Language"
+
+home:
+  recent_posts: "Recent posts"
+  recent_updates: "Recent updates"
+  see_all_posts: "See all posts"
+
+single:
+  table_of_contents: "Table of contents"
+  updated: "updated"
+  min_read: "min read"
+  words: "words"
+  written_by_human: "Written by a human"
+
+post:
+  starred: "Featured"
+  talk: "Talk / slides"
+
+series:
+  part_of: "Part of the series:"
+
+comments:
+  title: "Comments"
+  how_to: 'Reply with a <a href="https://indieweb.org/Webmention">Webmention</a> or a reply on the Fediverse.'
+  load: "Load comments"
+  load_error: "Could not load comments"
+  none: "No replies yet."
+  needs_js: "Comments need JavaScript. See the"
+  original_post: "original post"
+  see_also: "See also"
+
+search:
+  label: "Search the site"
+  placeholder: "Search…"
+  submit: "Go"
+
+syndication:
+  also_on: "Also posted on:"
+
+cite:
+  summary: "Cite this post"
+  body: "Please link to this page when referencing it."
+  url_label: "URL for this post:"
+  copy: "Copy"
+
+share:
+  mastodon: "Share on Mastodon"
+  bluesky: "Share on Bluesky"
+
+backlinks:
+  title: "Mentioned in"
+
+micro:
+  in_reply_to: "In reply to"
+  repost_of: "Repost of"
+  like_of: "Like of"
+  bookmark_of: "Bookmark of"
+  rsvp: "RSVP to"
+
+now:
+  updated: "Updated"
+  previously: "Previously"
+
+photos:
+  date: "Date"
+  camera: "Camera"
+  lens: "Lens"
+  shutter: "Shutter"
+  aperture: "Aperture"
+  focal: "Focal length"
+
+toot:
+  unavailable: "[Source not reachable at build time.]"
+
+footer:
+  go_to_top: "Go to top"
+  disclaimer: 'Built with <a href="https://github.com/fundor333/cyberlavandatea">CyberLavandaTea</a>.'
+
+errors:
+  "404": "Not found"
+  404_description: "This page does not exist (or has moved)."
+  404_back: "Back to the home page"

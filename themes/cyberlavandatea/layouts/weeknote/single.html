@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main class="wrapper py-8" aria-label="{{ T "content" }}">
+  <article class="h-entry">
+    <header class="mb-4">
+      <h1 class="p-name">❋ {{ .Title }}</h1>
+      <div class="post-meta text-sm">
+        <a class="u-url" href="{{ .Permalink }}" hidden></a>
+        {{ with .Date }}<time class="dt-published" datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ $.Date | time.Format (site.Params.dateFormat | default "2 Jan 2006") }}</time>{{ end }}
+      </div>
+      {{ $cover := .Resources.GetMatch "{cover,feature}.{webp,jpg,jpeg,png}" }}
+      {{ with $cover }}<img class="u-photo mt-3 rounded-lg" loading="lazy" src="{{ .Permalink }}" alt="{{ $.Title }}">{{ end }}
+    </header>
+    {{ partial "toc.html" . }}
+    <div class="e-content">{{ .Content }}</div>
+    {{ partial "share-buttons.html" . }}
+    {{ partial "cite.html" . }}
+    {{ partial "syndication.html" . }}
+    {{ partial "comments.html" . }}
+  </article>
+</main>
+{{ end }}

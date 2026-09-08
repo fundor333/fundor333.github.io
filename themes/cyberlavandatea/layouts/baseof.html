@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ site.Language.Lang }}" class="dark" data-theme="dark">
+{{- partial "head.html" . -}}
+<body class="min-h-screen bg-background text-content antialiased">
+  {{- partial "scripts-head.html" . -}}
+  {{- partial "header.html" . -}}
+  <div id="content" role="main">
+    {{- block "main" . }}{{ end -}}
+  </div>
+  {{- partial "footer.html" . -}}
+  {{- partial "scripts-end.html" . -}}
+</body>
+</html>

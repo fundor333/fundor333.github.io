@@ -1,0 +1,21 @@
+{{ define "main" }}
+<main class="wrapper py-8" aria-label="{{ T "content" }}">
+  <header class="mb-6"><h1 class="text-center">{{ .Title }}</h1></header>
+  {{ with .Content }}<div class="e-content">{{ . }}</div>{{ end }}
+  <hr>
+  {{ range $i, $p := .Pages.ByDate.Reverse }}
+    {{ if eq $i 0 }}
+    <div class="e-content now-current">{{ $p.Content }}</div>
+    <p class="text-inactive text-sm">{{ T "now.updated" }} {{ $p.Date | time.Format (site.Params.dateFormat | default "2 Jan 2006") }}</p>
+    <hr>
+    <h2 class="text-lg">{{ T "now.previously" }}</h2>
+    <div class="post-list">
+    {{ else }}
+    {{ partial "postCard.html" $p }}
+    {{ end }}
+  {{ end }}
+  {{ if gt (len .Pages) 1 }}</div>{{ end }}
+  {{ partial "syndication.html" . }}
+  {{ partial "comments.html" . }}
+</main>
+{{ end }}

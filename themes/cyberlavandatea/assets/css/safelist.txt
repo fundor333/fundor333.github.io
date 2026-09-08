@@ -1,0 +1,14 @@
+Utility Tailwind da generare sempre, anche senza content-detection.
+Aggiungi qui le classi che usi nei tuoi contenuti/shortcode.
+
+flex grid hidden block inline-block
+items-center items-baseline justify-between justify-center
+gap-2 gap-3 gap-4 gap-6
+mt-2 mt-4 mt-6 mt-8 mt-10 mt-12 my-4 my-6
+py-8 pt-6 mb-2 mb-4 mb-6
+w-full max-w-2xl mx-auto
+text-sm text-lg text-center
+text-primary text-content text-inactive text-link text-visited
+bg-background bg-surface
+border border-border rounded rounded-lg
+flex-wrap flex-col shrink-0

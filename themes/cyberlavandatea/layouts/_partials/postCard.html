@@ -1,0 +1,14 @@
+{{- $icons := dict "post" "▚" "micro" "▪" "photos" "◈" "weeknote" "❋" "event" "▣" "now" "◍" "series" "≣" -}}
+{{- $icon := index $icons .Type | default "•" -}}
+{{- $df := site.Params.dateFormat | default "2 Jan 2006" -}}
+<article class="post-item flex items-baseline justify-between gap-4">
+  <h3 class="post-item-title m-0 text-base font-normal">
+    <a href="{{ .RelPermalink }}">
+      <span class="post-item-icon mr-1 text-primary" aria-hidden="true">{{ $icon }}</span>{{ .Title }}
+    </a>
+    {{ if .Params.isStarred }}<span class="ml-1 text-primary" title="{{ T "post.starred" }}">★</span>{{ end }}
+    {{ if .Params.speaker }}<span class="ml-1 text-inactive" title="{{ T "post.talk" }}">🎤</span>{{ end }}
+  </h3>
+  {{ $d := cond (eq .Type "event") (.Params.start | default .Date) .Date }}
+  {{ with $d }}<time class="post-item-meta shrink-0 text-sm" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" . }}">{{ time.Format $df . }}</time>{{ end }}
+</article>

@@ -1,0 +1,33 @@
+<footer class="footer wrapper mt-16 border-t border-border py-8 text-center">
+  {{ partial "hcard.html" . }}
+
+  <div class="footer_social-icons my-4 flex flex-wrap justify-center gap-3">
+    {{ partial "socialIcons.html" site.Params.socialIcons }}
+  </div>
+
+  {{ if site.Params.badges88x31 | default true }}{{ partial "88x31.html" . }}{{ end }}
+
+  {{ with site.Params.webrings }}
+  <nav class="webrings my-4 flex flex-col items-center gap-1 text-sm text-inactive" aria-label="Webring">
+    {{ range . }}
+    <span>
+      {{ with .prev }}<a href="{{ . }}">←</a>{{ end }}
+      <a href="{{ .url }}">{{ .name }}</a>
+      {{ with .next }}<a href="{{ . }}">→</a>{{ end }}
+    </span>
+    {{ end }}
+  </nav>
+  {{ end }}
+
+  <small class="footer_copyright block text-sm">
+    © {{ with site.Params.sinceYear }}{{ . }} – {{ end }}{{ now.Format "2006" }}
+    {{ site.Params.author.name | default site.Title }}.
+    {{ T "footer.disclaimer" | safeHTML }}
+  </small>
+</footer>
+
+{{ if site.Params.goToTop }}
+<a href="#" id="totop" title="{{ T "footer.go_to_top" }}" aria-label="{{ T "footer.go_to_top" }}">
+  {{ partial "svgs/arrowUp.svg" (dict "size" 22) }}
+</a>
+{{ end }}

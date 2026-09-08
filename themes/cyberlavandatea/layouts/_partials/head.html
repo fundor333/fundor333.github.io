@@ -1,0 +1,54 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ hugo.Generator }}
+
+  {{/* --- Meta, OG, Twitter, JSON-LD --- */}}
+  {{ partial "meta/main.html" . }}
+
+  {{/* --- Canonical + feed --- */}}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- range .AlternativeOutputFormats }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }} — {{ .Name }}">
+  {{- end }}
+
+  {{/* --- Font (Google Fonts) --- */}}
+  {{ with site.Params.fonts }}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family={{ .display }}&family={{ .body }}&display=swap">
+  {{ end }}
+
+  {{/* --- CSS: Tailwind v4 via css.TailwindCSS --- */}}
+  {{ with resources.Get "css/main.css" }}
+    {{ $opts := dict "minify" hugo.IsProduction "inlineImports" true }}
+    {{ with . | css.TailwindCSS $opts }}
+      {{ if hugo.IsProduction }}
+        {{ with . | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+        {{ end }}
+      {{ else }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{/* --- Favicon (static/) --- */}}
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="{{ site.Params.themeColor | default "#1e1e24" }}">
+  <meta name="color-scheme" content="dark">
+
+  {{/* --- KaTeX condizionale --- */}}
+  {{ if or .Params.math site.Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
+
+  {{/* --- Analytics (solo produzione) --- */}}
+  {{ with site.Config.Services.GoogleAnalytics.ID }}
+  {{ if hugo.IsProduction }}{{ template "_internal/google_analytics.html" $ }}{{ end }}
+  {{ end }}
+
+  {{/* --- Hook di estensione del sito --- */}}
+  {{ if templates.Exists "_partials/custom-head.html" }}{{ partial "custom-head.html" . }}{{ end }}
+</head>

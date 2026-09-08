@@ -1,0 +1,8 @@
+{{- if .IsBlock -}}
+<figure>
+  <img class="center-img u-photo rounded-lg" src="{{ .Destination | safeURL }}" loading="lazy"{{ with .PlainText }} alt="{{ . }}"{{ end }}>
+  {{- with .Title }}<figcaption>{{ . }}</figcaption>{{ end -}}
+</figure>
+{{- else -}}
+<img class="center-img u-photo" src="{{ .Destination | safeURL }}" loading="lazy"{{ with .PlainText }} alt="{{ . }}"{{ end }}{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- end -}}

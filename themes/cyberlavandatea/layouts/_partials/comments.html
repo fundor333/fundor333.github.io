@@ -1,0 +1,23 @@
+{{- $sections := site.Params.commentSections | default slice -}}
+{{- if in $sections .Type -}}
+<section class="comments mt-10 border-t border-border pt-6">
+  <h2 class="text-lg">{{ T "comments.title" }}</h2>
+  <p class="text-inactive text-sm">{{ T "comments.how_to" | safeHTML }}</p>
+
+  {{ partial "webmention.html" . }}
+
+  {{ with .Params.comments }}
+    {{ if and .host .id }}{{ partial "mastodon.html" . }}{{ end }}
+  {{ end }}
+</section>
+{{- end -}}
+
+{{- if in (site.Params.suggestionSections | default slice) .Type -}}
+{{ $related := site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<section class="see-also mt-8">
+  <h2 class="text-lg">{{ T "comments.see_also" }}</h2>
+  <div class="post-list">{{ range . }}{{ partial "postCard.html" . }}{{ end }}</div>
+</section>
+{{ end }}
+{{- end -}}

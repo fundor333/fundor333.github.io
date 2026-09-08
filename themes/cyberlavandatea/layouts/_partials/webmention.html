@@ -1,0 +1,9 @@
+{{- with site.Params.webmention -}}
+{{- $page := replace (absURL $.RelPermalink) (printf "%s://%s" (urls.Parse site.BaseURL).Scheme (urls.Parse site.BaseURL).Host) .targetDomain -}}
+<div id="webmentions" data-page-url="{{ or .targetDomain $page }}"></div>
+<script src="{{ .script | default "https://webmention.io/js/webmention.min.js" }}"
+  data-wordcount="{{ .wordcount | default 40 }}"
+  data-page-url="{{ $page }}"
+  {{ with $.Aliases }}data-alternative-url="{{ range . }}{{ absURL . }} {{ end }}"{{ end }}
+  async></script>
+{{- end -}}

@@ -1,0 +1,23 @@
+{{- /* Badge 88x31: data/88x31.json (badges[]) + scansione static/icons/88x31/, mescolati. */ -}}
+{{- $badges := slice -}}
+{{- with (index hugo.Data "88x31") }}{{ with .badges }}{{ $badges = . }}{{ end }}{{ end -}}
+{{- $exts := slice ".gif" ".png" ".jpg" ".jpeg" ".webp" ".svg" -}}
+{{- $items := slice -}}
+{{- range (readDir "static/icons/88x31") -}}
+  {{- if not .IsDir -}}
+    {{- if in $exts (path.Ext .Name | lower) -}}
+      {{- $img := printf "/icons/88x31/%s" .Name -}}
+      {{- $meta := index (where $badges "img" $img) 0 -}}
+      {{- $items = $items | append (dict "img" $img "alt" (or (and $meta $meta.alt) .Name) "url" (and $meta $meta.url)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- range $badges -}}{{ if not (hasPrefix .img "/icons/88x31/") }}{{ $items = $items | append . }}{{ end }}{{- end -}}
+{{- with (shuffle $items) -}}
+<p class="badges-88x31 my-4">
+  {{- range . -}}
+    {{- if .url -}}<a href="{{ .url }}" target="_blank" rel="noopener"><img loading="lazy" width="88" height="31" src="{{ .img }}" alt="{{ .alt }}"></a>
+    {{- else -}}<img loading="lazy" width="88" height="31" src="{{ .img }}" alt="{{ .alt }}">{{- end -}}
+  {{- end -}}
+</p>
+{{- end -}}

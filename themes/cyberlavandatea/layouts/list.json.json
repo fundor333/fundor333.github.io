@@ -1,0 +1,39 @@
+{{- /* JSON Feed 1.1 */ -}}
+{{- $pages := .RegularPages -}}
+{{- if .IsHome }}{{ $pages = where site.RegularPages "Type" "in" (site.Params.feedSections | default (slice "post")) }}{{ end -}}
+{{- $pages = where $pages "Params.exclude_from_rss" "!=" true -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 }}{{ $pages = $pages | first $limit }}{{ end -}}
+{{- $feedURL := "" -}}{{ with .OutputFormats.Get "json" }}{{ $feedURL = .Permalink }}{{ end -}}
+{{- $icon := "" -}}{{ with site.Params.icon }}{{ $icon = . | absURL }}{{ end -}}
+{{- $items := slice -}}
+{{- range $pages -}}
+  {{- $img := "" -}}
+  {{- with .Resources.GetMatch "{cover,feature}.{png,jpg,jpeg,webp}" }}{{ $img = .Permalink }}{{ end -}}
+  {{- $item := dict
+      "id" .Permalink
+      "url" .Permalink
+      "title" .Title
+      "content_html" .Content
+      "content_text" (.Content | plainify)
+      "summary" (.Description | default (.Summary | plainify))
+      "date_published" (.Date.Format "2006-01-02T15:04:05Z07:00")
+      "date_modified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+      "tags" (append (.Params.tags | default slice) (.Params.categories | default slice))
+      "authors" (slice (dict "name" (.Params.author | default site.Params.author.name)))
+  -}}
+  {{- with $img }}{{ $item = merge $item (dict "image" . "banner_image" .) }}{{ end -}}
+  {{- $items = $items | append $item -}}
+{{- end -}}
+{{- $feed := dict
+    "version" "https://jsonfeed.org/version/1.1"
+    "title" (cond .IsHome site.Title (printf "%s on %s" .Title site.Title))
+    "home_page_url" site.BaseURL
+    "description" site.Params.description
+    "language" (site.Language.Lang)
+    "authors" (slice (dict "name" (site.Params.author.name | default site.Title) "url" (site.Params.author.url | default site.BaseURL)))
+    "items" $items
+-}}
+{{- with $feedURL }}{{ $feed = merge $feed (dict "feed_url" .) }}{{ end -}}
+{{- with $icon }}{{ $feed = merge $feed (dict "icon" .) }}{{ end -}}
+{{- $feed | jsonify (dict "indent" "  ") -}}

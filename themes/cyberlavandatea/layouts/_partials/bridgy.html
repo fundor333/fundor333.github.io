@@ -1,0 +1,10 @@
+{{- with site.Params.bridgy -}}
+{{- $base := index (split $.Permalink "?") 0 -}}
+{{ range . }}<a href="https://brid.gy/publish/{{ . }}"></a>{{ end }}
+<div hidden class="p-summary {{ range . }}e-bridgy-{{ . }}-content {{ end }}">
+  <data class="p-bridgy-omit-link" value="maybe"></data>
+  {{ if eq $.Type "micro" }}{{ $.Content }}{{ else }}{{ $.Description }}{{ end }}
+  <a class="u-url" href="{{ $base }}?utm_source=bridgy&utm_medium=social">{{ $base }}</a>
+  <div>{{ range $.Params.tags }}<span class="p-category">#{{ . }}</span> {{ end }}</div>
+</div>
+{{- end -}}

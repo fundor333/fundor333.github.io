@@ -1,0 +1,33 @@
+{{- $pages := .RegularPages -}}
+{{- if .IsHome }}{{ $pages = where site.RegularPages "Type" "in" (site.Params.feedSections | default (slice "post")) }}{{ end -}}
+{{- $pages = where $pages "Params.exclude_from_rss" "!=" true -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 }}{{ $pages = $pages | first $limit }}{{ end -}}
+{{- $desc := site.Params.rssFeedDescription | default "summary" -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ .Title }} on {{ site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ with site.Params.description }}{{ . }}{{ else }}Recent content on {{ site.Title }}{{ end }}</description>
+    <generator>Hugo</generator>
+    <language>{{ site.Language.Lang }}</language>
+    {{ with site.Params.author.email }}<managingEditor>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}
+    {{ with site.Copyright }}<copyright>{{ . }}</copyright>{{ end }}
+    {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}{{ end }}
+    {{ range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{ with site.Params.author.email }}<author>{{ . }}{{ with site.Params.author.name }} ({{ . }}){{ end }}</author>{{ end }}
+      <guid>{{ .Permalink }}</guid>
+      {{ range .Params.tags }}<category>{{ . }}</category>{{ end }}
+      {{ $img := .Resources.GetMatch "{cover,feature}.{png,jpg,jpeg,webp}" }}
+      {{ with $img }}<media:content url="{{ .Permalink }}" medium="image" />{{ end }}
+      <description>{{ if eq $desc "full" }}{{ .Content | html }}{{ else }}{{ .Summary | html }}{{ end }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>

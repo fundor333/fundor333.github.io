@@ -1,0 +1,13 @@
+{
+  "name": "cyberlavandatea",
+  "version": "0.1.0",
+  "description": "CyberLavandaTea — tema Hugo dark-only con Tailwind v4",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0"
+  },
+  "comments": {
+    "install": "Il tema usa css.TailwindCSS di Hugo: basta che @tailwindcss/cli sia in node_modules. Eseguire `npm install` nella root del sito (o in themes/cyberlavandatea) prima di `hugo`."
+  }
+}

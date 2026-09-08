@@ -1,0 +1,9 @@
+{{- $r := try .Paginator -}}
+{{- with $r.Value -}}
+{{- if gt .TotalPages 1 -}}
+<link rel="first" href="{{ .First.URL }}">
+<link rel="last" href="{{ .Last.URL }}">
+{{ if .HasPrev }}<link rel="prev" href="{{ .Prev.URL }}">{{ end }}
+{{ if .HasNext }}<link rel="next" href="{{ .Next.URL }}">{{ end }}
+{{- end -}}
+{{- end -}}

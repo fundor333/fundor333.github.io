@@ -1,0 +1,9 @@
+{{/* Script in testa al body: fissa lo schema scuro prima del paint. */}}
+{{ with resources.Get "js/theme.js" }}
+  {{ $js := . | js.Build (dict "minify" hugo.IsProduction) }}
+  {{ if hugo.IsProduction }}
+    {{ with $js | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>{{ end }}
+  {{ else }}
+    <script src="{{ $js.RelPermalink }}"></script>
+  {{ end }}
+{{ end }}

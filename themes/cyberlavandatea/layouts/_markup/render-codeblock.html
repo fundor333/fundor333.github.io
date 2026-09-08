@@ -1,0 +1,2 @@
+{{- $result := transform.HighlightCodeBlock . (dict "lineNos" false "wrapperClass" "highlight not-prose") -}}
+{{ $result.Wrapped }}

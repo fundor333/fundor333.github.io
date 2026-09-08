@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main class="wrapper py-8" aria-label="{{ T "content" }}">
+  <article class="h-event">
+    <header class="mb-4">
+      <h1 class="p-name">▣ {{ .Title }}</h1>
+      <div class="post-meta text-sm">
+        {{ $df := site.Params.dateFormat | default "2 Jan 2006" }}
+        {{ with .Params.start }}<time class="dt-start" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" . }}">{{ time.Format $df . }}</time>{{ end }}
+        {{ with .Params.end }} – <time class="dt-end" datetime="{{ dateFormat "2006-01-02T15:04:05Z07:00" . }}">{{ time.Format $df . }}</time>{{ end }}
+        {{ with .Params.location }} · <span class="p-location">{{ . }}</span>{{ end }}
+      </div>
+      {{ partial "tags.html" . }}
+    </header>
+    {{ partial "toc.html" . }}
+    <div class="e-content">{{ partial "bridgy.html" . }}{{ .Content }}</div>
+    {{ partial "series.html" . }}
+    {{ partial "share-buttons.html" . }}
+    {{ partial "cite.html" . }}
+    {{ partial "syndication.html" . }}
+    {{ partial "comments.html" . }}
+  </article>
+</main>
+{{ end }}

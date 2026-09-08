@@ -1,0 +1,10 @@
+{{ define "main" }}
+<main class="wrapper py-8" aria-label="{{ T "content" }}">
+  <header class="mb-6"><h1 class="text-center">{{ .Title }}</h1></header>
+  <div class="post-list">
+    {{ range .Pages.ByDate }}{{ partial "postCard.html" . }}{{ end }}
+  </div>
+  {{ partial "syndication.html" . }}
+  {{ partial "comments.html" . }}
+</main>
+{{ end }}

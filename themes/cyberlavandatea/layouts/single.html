@@ -1,0 +1,46 @@
+{{ define "main" }}
+<main class="wrapper py-8" aria-label="{{ T "content" }}">
+  <article class="h-entry">
+    <header class="mb-6">
+      <h1 class="p-name">{{ .Title }}</h1>
+      {{ partial "micro.html" . }}
+
+      <div class="post-meta mt-2 text-sm">
+        <a class="u-url" href="{{ .Permalink }}" hidden><span class="p-summary">{{ .Description }}</span></a>
+        <a class="p-author h-card" href="{{ site.BaseURL }}" hidden>{{ site.Params.author.name | default site.Title }}</a>
+
+        {{ with site.Params.author.name }}<span>{{ . }}</span> · {{ end }}
+        {{ with .Date }}<time class="dt-published" datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ $.Date | time.Format (site.Params.dateFormat | default "2 January 2006") }}</time>{{ end }}
+        {{ if and .Lastmod (gt (.Lastmod.Unix) (add .Date.Unix 86400)) }}
+        · {{ T "single.updated" }} <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Lastmod | time.Format (site.Params.dateFormat | default "2 January 2006") }}</time>
+        {{ end }}
+        {{ if eq .Type "post" }} · {{ .ReadingTime }} {{ T "single.min_read" }} · {{ .WordCount }} {{ T "single.words" }}{{ end }}
+      </div>
+
+      {{ partial "tags.html" . }}
+
+      {{ $cover := .Resources.GetMatch "{cover,feature}.{webp,jpg,jpeg,png}" }}
+      {{ with $cover }}
+      <figure class="mt-4">
+        <img class="u-photo rounded-lg" loading="lazy" src="{{ .Permalink }}" alt="{{ $.Title }}">
+        {{ with $.Params.feature_link }}<figcaption><a href="{{ . }}">{{ $.Params.feature_text | default . }}</a></figcaption>{{ end }}
+      </figure>
+      {{ end }}
+    </header>
+
+    {{ partial "toc.html" . }}
+
+    <div class="e-content prose-cyberlavandatea">
+      {{ partial "bridgy.html" . }}
+      {{ .Content }}
+      {{ if site.Params.writtenByHuman | default true }}<p class="written-by-human">{{ T "single.written_by_human" }}</p>{{ end }}
+    </div>
+
+    {{ partial "series.html" . }}
+    {{ partial "share-buttons.html" . }}
+    {{ partial "cite.html" . }}
+    {{ partial "syndication.html" . }}
+    {{ partial "comments.html" . }}
+  </article>
+</main>
+{{ end }}

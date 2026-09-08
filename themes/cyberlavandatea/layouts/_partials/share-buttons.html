@@ -1,0 +1,8 @@
+{{- if site.Params.shareButtons | default true -}}
+<div class="share-buttons my-4 flex flex-wrap gap-2 text-sm">
+  {{- $url := .Permalink | safeURL -}}
+  {{- $t := .Title -}}
+  <a class="btn" target="_blank" rel="noopener" href="https://mastodonshare.com/?text={{ printf "%s %s" $t $url | urlquery }}">{{ T "share.mastodon" }}</a>
+  <a class="btn" target="_blank" rel="noopener" href="https://bsky.app/intent/compose?text={{ printf "%s %s" $t $url | urlquery }}">{{ T "share.bluesky" }}</a>
+</div>
+{{- end -}}

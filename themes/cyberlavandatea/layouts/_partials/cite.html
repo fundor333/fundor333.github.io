@@ -1,0 +1,12 @@
+{{- if site.Params.cite | default true -}}
+<details class="cite mt-6 text-sm">
+  <summary>{{ T "cite.summary" }}</summary>
+  <p class="mt-2 text-inactive">{{ T "cite.body" }}</p>
+  <label class="mt-2 block">
+    {{ T "cite.url_label" }}
+    <input id="cite-url" type="text" readonly value="{{ .Permalink }}"
+      class="mt-1 w-full rounded border border-border bg-surface px-2 py-1 text-content">
+  </label>
+  <button id="cite-copy" type="button" class="btn mt-2">{{ T "cite.copy" }}</button>
+</details>
+{{- end -}}

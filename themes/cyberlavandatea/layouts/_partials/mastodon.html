@@ -1,0 +1,48 @@
+{{- /* Thread di risposte da un post Mastodon. ctx: .Params.comments {host, user, id} */ -}}
+<div id="mastodon-comments" data-host="{{ .host }}" data-id="{{ .id }}" data-user="{{ .user }}">
+  <p><button id="load-mastodon-comments" class="btn">{{ T "comments.load" }}</button></p>
+  <div id="mastodon-comments-list"></div>
+  <noscript><p>{{ T "comments.needs_js" }} <a href="https://{{ .host }}/@{{ .user }}/{{ .id }}">{{ T "comments.original_post" }}</a>.</p></noscript>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
+<script>
+(function () {
+  var root = document.getElementById("mastodon-comments");
+  if (!root) return;
+  var host = root.dataset.host, id = root.dataset.id, user = root.dataset.user;
+  var list = document.getElementById("mastodon-comments-list");
+  var btn = document.getElementById("load-mastodon-comments");
+
+  function esc(s){return s.replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+
+  function render(status){
+    var op = status.account.acct === user;
+    var when = new Date(status.created_at).toLocaleString();
+    var html = '<article class="comment' + (op ? " op" : "") + '">'
+      + '<header class="flex items-center gap-2">'
+      + '<img class="h-8 w-8 rounded-full" src="' + esc(status.account.avatar_static) + '" alt="">'
+      + '<a href="' + esc(status.account.url) + '" rel="nofollow noopener">' + esc(status.account.display_name || status.account.username) + '</a>'
+      + '<span class="text-inactive text-sm">@' + esc(status.account.acct) + '</span>'
+      + '</header>'
+      + '<div class="comment-body">' + window.DOMPurify.sanitize(status.content) + '</div>'
+      + '<a class="text-inactive text-sm" href="' + esc(status.url) + '" rel="nofollow noopener">' + esc(when) + '</a>'
+      + '</article>';
+    list.insertAdjacentHTML("beforeend", html);
+  }
+
+  function load(){
+    btn.textContent = "…";
+    fetch("https://" + host + "/api/v1/statuses/" + id + "/context")
+      .then(function(r){return r.json();})
+      .then(function(data){
+        btn.parentNode.remove();
+        (data.descendants || []).forEach(render);
+        if (!data.descendants || !data.descendants.length) {
+          list.innerHTML = '<p class="text-inactive">' + {{ T "comments.none" }} + '</p>';
+        }
+      })
+      .catch(function(){ btn.textContent = {{ T "comments.load_error" }}; });
+  }
+  btn.addEventListener("click", load);
+})();
+</script>

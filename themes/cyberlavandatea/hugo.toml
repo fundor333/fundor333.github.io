@@ -1,0 +1,67 @@
+# Configurazione propria del tema CyberLavandaTea.
+#
+# ATTENZIONE: Hugo eredita dal tema SOLO alcune chiavi (params, related,
+# services, mediaTypes, build, markup…). NON eredita `outputs`,
+# `outputFormats`, `taxonomies`, `security`: quelle vanno messe nel config del
+# SITO — vedi README → "Configurazione minima del sito" (blocco copia-incolla,
+# identico a themes/cyberlavandatea/exampleSite/hugo.toml).
+# ---------------------------------------------------------------------------
+
+# --- Tailwind v4 via css.TailwindCSS ---------------------------------------
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = '(assets/notwatching/hugo_stats|hugo_stats)\.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = 'assets/css/.*\.css'
+    target = 'css'
+
+# --- Related (blocco "See Also") -----------------------------------------
+[related]
+  includeNewer = true
+  threshold = 70
+  toLower = false
+  [[related.indices]]
+    name = 'categories'
+    weight = 40
+  [[related.indices]]
+    name = 'tags'
+    weight = 30
+  [[related.indices]]
+    name = 'title'
+    weight = 20
+  [[related.indices]]
+    name = 'date'
+    weight = 10
+
+[mediaTypes.'application/atom+xml']
+  suffixes = ['xml']
+
+[services.rss]
+  limit = 20
+
+# --- Parametri di default del tema ------------------------------------------
+[params]
+  colorScheme = 'dark'          # tema SEMPRE scuro (docs/THEME.md §4)
+  mainSections = ['post']
+  secondarysections = ['micro']
+  feedSections = ['post', 'micro', 'photos', 'weeknote']
+  commentSections = ['post', 'micro', 'photos', 'weeknote']
+  suggestionSections = ['post']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  dateFormat = '2 January 2006'
+  rssFeedDescription = 'summary'
+  homeRecentCount = 20
+  linkUTM = false
+  writtenByHuman = true
+  shareButtons = true
+  cite = true
+  badges88x31 = true
+
+  [params.fonts]
+    display = 'Audiowide'
+    body = 'Rajdhani:wght@400;500;600;700'

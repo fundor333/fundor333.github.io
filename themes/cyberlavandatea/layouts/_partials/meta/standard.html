@@ -1,0 +1,18 @@
+{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
+{{- $desc := "" -}}
+{{- with .Params.description }}{{ $desc = trim . "\n " }}
+{{- else }}{{ with .Summary }}{{ $desc = trim (. | plainify) "\n " }}{{ else }}{{ $desc = site.Params.description }}{{ end }}{{ end -}}
+{{- $img := "" -}}
+{{- with .Params.image }}{{ $img = . | absURL }}
+{{- else }}{{ with .Resources.GetMatch "{cover,feature,thumbnail}.{png,jpg,jpeg,webp}" }}{{ $img = .Permalink }}
+{{- else }}{{ with site.Params.images }}{{ $img = (index . 0) | absURL }}{{ end }}{{ end }}{{ end -}}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ site.Params.author.name | default site.Title }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:locale" content="{{ site.Language.Lang }}">
+{{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+{{ end }}
+{{ with $img }}<meta property="og:image" content="{{ . }}"><meta name="twitter:image" content="{{ . }}">{{ end }}
+{{ with site.Params.author.fediverseAccount }}<meta name="fediverse:creator" content="{{ . }}">{{ end }}

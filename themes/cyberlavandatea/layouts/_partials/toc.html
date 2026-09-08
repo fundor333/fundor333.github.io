@@ -1,0 +1,8 @@
+{{- $toc := site.Params.toc -}}
+{{- if isset .Params "toc" }}{{ $toc = .Params.toc }}{{ end -}}
+{{- if and $toc (gt (len .TableOfContents) 25) -}}
+<details class="toc my-6"{{ if or .Params.tocOpen site.Params.tocOpen }} open{{ end }}>
+  <summary><strong>{{ T "single.table_of_contents" }}</strong></summary>
+  {{ .TableOfContents }}
+</details>
+{{- end -}}

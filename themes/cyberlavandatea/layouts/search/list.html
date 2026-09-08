@@ -1,0 +1,8 @@
+{{ define "main" }}
+<main class="wrapper py-8" aria-label="{{ T "content" }}">
+  <header class="mb-2"><h1 class="text-center">{{ .Title }}</h1></header>
+  {{ partial "search-form.html" . }}
+  {{ with .Content }}<div class="e-content">{{ . }}</div>{{ end }}
+  {{ partial "search-index.html" . }}
+</main>
+{{ end }}

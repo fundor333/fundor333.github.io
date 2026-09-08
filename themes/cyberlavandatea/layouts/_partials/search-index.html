@@ -1,0 +1,21 @@
+<template id="search-result">
+  <article class="post-item">
+    <h4 class="post-item-title m-0"><a class="search-result-link"></a></h4>
+    <p class="search-result-summary m-0 text-inactive text-sm"></p>
+    <time class="search-result-date post-item-meta text-sm"></time>
+  </article>
+</template>
+<div class="search-results"></div>
+
+{{ $lunr := resources.GetRemote "https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" }}
+{{ with $lunr }}
+  {{ $lunr = . | fingerprint }}
+  <script src="{{ $lunr.RelPermalink }}" integrity="{{ $lunr.Data.Integrity }}"></script>
+{{ else }}
+  <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+{{ end }}
+
+{{ with resources.Get "js/search.js" }}
+  {{ $s := . | js.Build (dict "minify" hugo.IsProduction) }}
+  <script src="{{ $s.RelPermalink }}" defer></script>
+{{ end }}

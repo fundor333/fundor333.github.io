@@ -1,0 +1,88 @@
+content: "Contenuto"
+
+nav:
+  main: "Navigazione principale"
+  toggle: "Apri/chiudi menu"
+  search: "Cerca"
+  language: "Lingua"
+
+home:
+  recent_posts: "Articoli recenti"
+  recent_updates: "Aggiornamenti recenti"
+  see_all_posts: "Vedi tutti gli articoli"
+
+single:
+  table_of_contents: "Indice"
+  updated: "aggiornato"
+  min_read: "min di lettura"
+  words: "parole"
+  written_by_human: "Scritto da un umano"
+
+post:
+  starred: "In evidenza"
+  talk: "Talk / slide"
+
+series:
+  part_of: "Fa parte della serie:"
+
+comments:
+  title: "Commenti"
+  how_to: 'Rispondi con una <a href="https://indieweb.org/Webmention">Webmention</a> o con un toot sul Fediverso.'
+  load: "Carica i commenti"
+  load_error: "Impossibile caricare i commenti"
+  none: "Ancora nessuna risposta."
+  needs_js: "I commenti richiedono JavaScript. Vedi il"
+  original_post: "post originale"
+  see_also: "Vedi anche"
+
+search:
+  label: "Cerca nel sito"
+  placeholder: "Cerca…"
+  submit: "Vai"
+
+syndication:
+  also_on: "Pubblicato anche su:"
+
+cite:
+  summary: "Cita questo post"
+  body: "Per favore linka questa pagina quando la citi."
+  url_label: "URL di questo post:"
+  copy: "Copia"
+
+share:
+  mastodon: "Condividi su Mastodon"
+  bluesky: "Condividi su Bluesky"
+
+backlinks:
+  title: "Citato in"
+
+micro:
+  in_reply_to: "In risposta a"
+  repost_of: "Repost di"
+  like_of: "Like di"
+  bookmark_of: "Bookmark di"
+  rsvp: "RSVP per"
+
+now:
+  updated: "Aggiornato"
+  previously: "In precedenza"
+
+photos:
+  date: "Data"
+  camera: "Fotocamera"
+  lens: "Obiettivo"
+  shutter: "Tempo"
+  aperture: "Diaframma"
+  focal: "Focale"
+
+toot:
+  unavailable: "[Sorgente non raggiungibile durante la build.]"
+
+footer:
+  go_to_top: "Torna su"
+  disclaimer: 'Realizzato con <a href="https://github.com/fundor333/cyberlavandatea">CyberLavandaTea</a>.'
+
+errors:
+  "404": "Non trovato"
+  404_description: "Questa pagina non esiste (o è stata spostata)."
+  404_back: "Torna alla home"

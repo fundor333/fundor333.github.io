@@ -1,0 +1,16 @@
+{{ with site.Params.author -}}
+/* TEAM */
+
+  Name: {{ .name }}
+  Site: {{ .url | default site.BaseURL }}
+  {{ with .fediverseAccount }}Fediverse: {{ . }}
+  {{ end }}{{ with .description }}Bio: {{ . }}
+  {{ end }}
+{{ end -}}
+/* SITE */
+
+  Last update: {{ now.Format "2006/01/02" }}
+  Language: {{ range $i, $s := hugo.Sites }}{{ if $i }}, {{ end }}{{ $s.Language.Label }}{{ end }}
+  Doctype: HTML5
+  Standards: HTML5, CSS3, Open Graph, Schema.org, Microformats2
+  Components: Hugo, Tailwind CSS, Lunr, CyberLavandaTea
