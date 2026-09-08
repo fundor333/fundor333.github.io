@@ -36,8 +36,8 @@
 </a>
 {{- end -}}
 
-{{- $flag := resources.Get "js/codecorner.js" -}}
-<script type="text/javascript" src="{{ $flag.RelPermalink }}"></script>
+{{- $flag := resources.Get "js/codecorner.js" | resources.Minify | resources.Fingerprint -}}
+<script defer src="{{ $flag.RelPermalink }}" integrity="{{ $flag.Data.Integrity }}"></script>
 
 <script defer
   src="https://stats.fundor333.com/script.js"
