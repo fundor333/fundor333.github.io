@@ -37,7 +37,11 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
   `maskIcon`; falls back to the theme's bundled `favicon.svg`.
 - Webmention rendering: `#webmentions` facepile + inline comments are now
   styled in `main.css`; `_partials/webmention.html` keeps the URL scheme when
-  swapping the host and takes `script` / `wordcount` params.
+  swapping the host and takes `script` / `wordcount` params. The client is
+  loaded with `defer` (an `async` script could lose the race for the window
+  `load` event and render nothing); `data-add-urls` is passed with the `|`
+  separator the client expects. The **Responses** (`in-reply-to` / mentions)
+  and **Reactions** (likes / reposts) blocks are both styled.
 - Mastodon comments (`_partials/mastodon.html`): full auto-loading reply thread
   from `<host>/api/v1/statuses/<id>/context` — avatars, instance badges,
   localised dates, favourites count, OP marker, custom emoji, DOMPurify — from

@@ -359,35 +359,34 @@
 /* ---------------------------------------------------------------------------
    9. Webmentions + Mastodon comments
    --------------------------------------------------------------------------- */
-#webmentions { margin: 1rem 0; line-height: 1.4; }
-#webmentions h2, #webmentions h3 { font-size: 1rem; margin: 1.25rem 0 0.5rem; }
+#webmentions { margin: 1.25rem 0; line-height: 1.45; }
+#webmentions h2 { font-size: 1.05rem; margin: 1.5rem 0 0.5rem; }
 #webmentions ul { list-style: none; margin: 0; padding: 0; }
-#webmentions li { margin: 0.35rem 0; }
-
-/* Reactions facepile (likes / reposts / bookmarks) */
-#webmentions .reacts, #webmentions .reactions { display: flex; flex-wrap: wrap; gap: 0.25rem; margin: 0.5rem 0 1rem; }
-#webmentions a.reaction { display: inline-flex; text-decoration: none; }
-#webmentions a.reaction img,
-#webmentions .reacts img,
-#webmentions .facepile img {
-  width: 2.25rem; height: 2.25rem; border-radius: 999px;
-  object-fit: cover; border: 1px solid var(--color-border);
-  margin-right: -0.6rem; background: var(--color-surface);
-}
-#webmentions a.reaction:hover img { z-index: 1; position: relative; }
 #webmentions img.missing { border: 1px dashed var(--color-inactive); }
 #webmentions a.reaction sub { font-size: 0.7em; color: var(--color-inactive); }
 
-/* Inline comments / replies */
-#webmentions .comments li,
-#webmentions .mentions li {
-  display: flex; gap: 0.6rem; align-items: baseline;
-  padding: 0.4rem 0; border-top: 1px solid var(--color-border);
+/* Reactions facepile (<ul class="reacts"> of bare <a class="reaction">) */
+#webmentions .reacts { display: flex; flex-wrap: wrap; align-items: center; margin: 0.25rem 0 1rem; }
+#webmentions .reacts a.reaction { display: inline-flex; text-decoration: none; }
+#webmentions .reacts a.reaction img {
+  width: 2.25rem; height: 2.25rem; border-radius: 999px;
+  object-fit: cover; border: 1px solid var(--color-border);
+  margin-right: -0.55rem; background: var(--color-surface);
+  transition: transform 100ms var(--ease-standard);
 }
-#webmentions .comments img,
-#webmentions .mentions img { width: 1.5rem; height: 1.5rem; border-radius: 999px; flex: none; }
-#webmentions .comments .text,
-#webmentions .mentions .text { color: var(--color-content); }
+#webmentions .reacts a.reaction:hover img { transform: translateY(-2px) scale(1.05); position: relative; z-index: 1; }
+
+/* Responses (<ul class="comments"> of <li>) */
+#webmentions .comments li {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 0.5rem;
+  padding: 0.55rem 0; border-top: 1px solid var(--color-border);
+}
+#webmentions .comments li a.reaction { flex: none; }
+#webmentions .comments li a.reaction img { width: 1.6rem; height: 1.6rem; border-radius: 999px; border: 1px solid var(--color-border); object-fit: cover; }
+#webmentions .comments a.source { font-weight: 700; text-decoration: none; }
+#webmentions .comments .name,
+#webmentions .comments .text { color: var(--color-content); flex: 1 1 100%; }
+#webmentions .comments .text { color: var(--color-inactive); }
 #webmentions time, #webmentions .date { color: var(--color-inactive); font-size: 0.85em; }
 
 /* Mastodon comment thread (partials/mastodon.html) */
