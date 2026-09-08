@@ -1,7 +1,0 @@
-{{ partial "meta/standard.html" . }}
-{{ partial "meta/opengraph.html" . }}
-{{ partial "meta/twitter.html" . }}
-{{ if and (eq .Kind "page") (in (site.Params.mainSections | default (slice "post")) .Section) }}
-{{ partial "meta/schema.html" . }}
-{{ end }}
-{{ if ne .Kind "page" }}{{ partial "meta/pagination.html" . }}{{ end }}

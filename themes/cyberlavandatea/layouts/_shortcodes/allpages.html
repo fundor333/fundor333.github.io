@@ -1,5 +1,0 @@
-<ul class="allpages">
-  {{ range where site.Pages.ByTitle "Params.allpage" true }}
-  <li><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>{{ with .Summary }} — {{ . | plainify | truncate 120 }}{{ end }}</li>
-  {{ end }}
-</ul>

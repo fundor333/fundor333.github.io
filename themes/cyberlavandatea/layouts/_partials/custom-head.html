@@ -1,7 +1,0 @@
-{{- /* Extension hook: a site can create layouts/_partials/custom-head.html
-       to add <link>s, verification meta, webmention/pingback, etc.
-       This theme file is a near no-op by default. */ -}}
-{{ with site.Params.webmention }}
-<link rel="webmention" href="{{ .endpoint | default (printf "https://webmention.io/%s/webmention" .targetDomain) }}">
-<link rel="pingback" href="{{ .pingback | default (printf "https://webmention.io/%s/xmlrpc" .targetDomain) }}">
-{{ end }}

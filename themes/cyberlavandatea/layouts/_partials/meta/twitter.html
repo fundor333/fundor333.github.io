@@ -1,6 +1,0 @@
-{{- $img := "" -}}
-{{- with .Params.image }}{{ $img = . | absURL }}{{ else }}{{ with .Resources.GetMatch "{cover,feature}.{png,jpg,jpeg,webp}" }}{{ $img = .Permalink }}{{ end }}{{ end -}}
-<meta name="twitter:card" content="{{ cond (ne $img "") "summary_large_image" "summary" }}">
-<meta name="twitter:title" content="{{ cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}">
-{{ with .Params.description }}<meta name="twitter:description" content="{{ . }}">{{ else }}{{ with site.Params.description }}<meta name="twitter:description" content="{{ . }}">{{ end }}{{ end }}
-{{ with site.Params.author.twitter }}<meta name="twitter:creator" content="@{{ . }}">{{ end }}

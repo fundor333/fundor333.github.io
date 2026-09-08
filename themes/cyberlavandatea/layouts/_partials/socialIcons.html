@@ -1,8 +1,0 @@
-{{- range . -}}
-<a class="social-icon text-inactive hover:text-primary"
-   href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me"
-   title="{{ (.title | default .name) | title }}"
-   data-umami-event="Social Click" data-umami-event-social="{{ (.title | default .name) | title }}">
-  {{ partial "svgs/social.html" . }}
-</a>
-{{- end -}}

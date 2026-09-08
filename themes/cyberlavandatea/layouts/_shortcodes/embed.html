@@ -1,4 +1,0 @@
-{{- $src := .Get 0 | default (.Get "src") -}}
-{{- $w := .Get 1 | default (.Get "width" | default "100") -}}
-{{- $h := .Get 2 | default (.Get "height" | default "420") -}}
-<iframe class="my-4 w-full rounded-lg border border-border" src="{{ $src }}" style="width:{{ $w }}%;height:{{ $h }}px" loading="lazy" allowfullscreen></iframe>

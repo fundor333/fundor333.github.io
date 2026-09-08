@@ -1,7 +1,0 @@
-{
-  "name": "cyberlavandatea-examplesite",
-  "private": true,
-  "devDependencies": {
-    "@tailwindcss/cli": "^4.1.0"
-  }
-}
