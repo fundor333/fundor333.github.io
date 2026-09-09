@@ -74,7 +74,13 @@ Hcard:
   city: Venice
   region: Ve
   country: IT
+  # Footer h-card toggles (CyberLavandaTea): each block shows only when its
+  # data is present AND its toggle isn't false.
+  showPronouns: true
   showLocation: true
+  showStatus: true
+  # status: "open to freelance"     # short status line in the footer h-card
+  # statusUrl: ""                    # optional link for the status
 
 bridgy:
   - "mastodon"
