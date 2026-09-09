@@ -16,17 +16,18 @@ categories:
 images:
 keywords:
 series:
-- Tech News
-- Printing With ReportLab
-- Hugo tricks
-- Pelican for my site
-- Django tricks
-- Indiweb, webmentions and friends
-- Horror stories
+- A dev need a blog
 - Data and Data Tools
-- Python's Reptile Env
-- My Home Automation Lab
+- Django tricks
 - Hacking stuffs
+- Horror stories
+- Hugo tricks
+- Indiweb, webmentions and friends
+- My Home Automation Lab
+- Pelican for my site
+- Printing With ReportLab
+- Python's Reptile Env
+- Tech News
 reply:
 repost:
 like:
