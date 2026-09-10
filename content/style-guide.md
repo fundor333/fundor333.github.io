@@ -7,7 +7,7 @@ summary: A listing of all the styles and elements used on this site
 
 Inspired by [json.blog's style guide](https://json.blog/style-guide/) and, in turn, [The Frugal Gamer](https://www.thefrugalgamer.net/styleGuide.php), a (not so[^notso]) comprehensive listing of all possible styles and elements on this site.
 
-The site runs the **CyberLavandaTea** theme: dark only, two accent hues (a violet and a green), headings in *Audiowide*, body text in *Rajdhani*.
+The site runs the **CyberLavandaTea** theme: dark only, two accent hues (a green and a blue), headings in *Audiowide*, body text in *Rajdhani*.
 
 [^notso]: Actually, this is also not comprehensive. If you find I forgot something ping me and I will fix it
 
@@ -51,7 +51,7 @@ You can also write some `inline code` when you need it.
 
 ### Links
 
-Links are green. A [visited link](https://en.wikipedia.org/wiki/The_Hobbit) turns lavender, and on hover every link goes violet. External links open in a new tab, get a `↗` marker, and pick up a `utm_source` parameter.
+Links are blue. A [visited link](https://en.wikipedia.org/wiki/The_Hobbit) turns sage green, and on hover every link goes green. External links open in a new tab and get a `↗` marker.
 
 ### Images
 
@@ -65,7 +65,7 @@ A block image is centered inside a `<figure>`; the title, if present, becomes th
 
 > "I wish it need not have happened in my time," said Frodo. "So do I," said Gandalf, "and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us."
 
-Blockquotes have a violet left border on a slightly lifted surface. There are no separate "note / warning / caution" callout boxes — a quote is a quote.
+Blockquotes have a green left border on a slightly lifted surface. There are no separate "note / warning / caution" callout boxes — a quote is a quote.
 
 #### Tables
 
@@ -77,7 +77,7 @@ I don't really use tables much, but here's one anyway. Rows alternate with a fai
 
 #### Code
 
-Code is also rare on the blog, though it's a big part of my "day life". Here's a bit of Python. Syntax highlighting stays inside the two accent hues: keywords are violet, strings green, function names a lighter green, numbers a lighter violet, comments grey.
+Code is also rare on the blog, though it's a big part of my "day life". Here's a bit of Python. Syntax highlighting stays inside the two accent hues: keywords are green, strings blue, function names a lighter blue, numbers a lighter green, comments grey.
 
 ```python
 from pathlib import Path
@@ -103,29 +103,30 @@ def sum_lines(lines: list[str]) -> int:
 
 ### Color Guide
 
-The theme is dark only. Six semantic roles, plus two surfaces derived by opacity — nothing else in the site chrome.
+The theme is dark only. Six semantic roles, plus surfaces derived from Content by opacity — nothing else in the site chrome.
 
 | Role                | Token                 | Hex       |
 | :------------------ | :-------------------- | :-------- |
-| Primary (violet)    | `--color-primary`     | `#9B8CF8` |
-| Content             | `--color-content`     | `#DCDCE4` |
-| Links (green)       | `--color-link`        | `#74D18C` |
-| Visited (lavender)  | `--color-visited`     | `#9E8FBE` |
-| Background          | `--color-background`  | `#1E1E24` |
-| Inactive            | `--color-inactive`    | `#8C8C99` |
-| Surface (derived)   | `--color-surface`     | `#2D2D33` |
-| Border (derived)    | `--color-border`      | `#39393F` |
+| Primary (green)     | `--color-primary`     | `#5FD88F` |
+| Content             | `--color-content`     | `#E6E6EC` |
+| Links (blue)        | `--color-link`        | `#4D9FFF` |
+| Visited (sage)      | `--color-visited`     | `#7EA88E` |
+| Background          | `--color-background`  | `#14151A` |
+| Inactive            | `--color-inactive`    | `#8B8F9A` |
+| Surface (derived)   | `--color-surface`     | `#25262B` |
+| Border (derived)    | `--color-border`      | `#313237` |
+| Surface hover (derived) | `--color-surface-2` | `#2D2E33` |
 
 Syntax highlighting palette:
 
 | Token                     | Hex       |
 | :------------------------ | :-------- |
-| keyword / operator        | `#9B8CF8` |
-| string                    | `#74D18C` |
-| function / class          | `#A6E0B4` |
-| number / constant         | `#C3B8F5` |
-| comment                   | `#8C8C99` |
-| error / removed line      | `#E1808F` |
+| keyword / operator        | `#5FD88F` |
+| string                    | `#4D9FFF` |
+| function / class          | `#A8C9FF` |
+| number / constant         | `#8FE0AF` |
+| comment                   | `#8B8F9A` |
+| error / removed line      | `#FF6F6F` |
 
 Type:
 
