@@ -14,8 +14,6 @@ categories:
 - rant
 - dev
 - tinkering
-images:
-keywords:
 series:
 - My Home Automation Lab
 ---
