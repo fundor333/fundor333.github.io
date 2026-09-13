@@ -106,3 +106,7 @@ security:
       - '^npx$'
       - '^postcss$'
       - '^tailwindcss$'
+  node:
+    permissions:
+      allowRead:
+        - '^/opt/homebrew/'
