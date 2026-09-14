@@ -104,10 +104,18 @@ cite:
 
 # Webmention (webmention.io). Il tema rende la facepile + i commenti in
 # #webmentions e mette <link rel="webmention"> / <link rel="pingback">.
-# `script` omesso -> il tema serve la sua copia bundlata di webmention.js.
+# `script` esplicito perché il modulo tema pinnato (v1.1.3) è stato
+# risolto da proxy.golang.org PRIMA che venisse aggiunto
+# assets/js/vendor/webmention.min.js: resources.Get nel tema fallisce e
+# altrimenti ricade su https://webmention.io/js/webmention.min.js, che
+# risponde 404 (lo script webmention.io "hostato" non esiste più).
+# Usiamo quindi la copia vendorizzata già presente in static/js/.
+# TODO: rimuovere `script` quando il tema verrà bumpato a una versione
+# successiva a v1.1.3 (v1.1.3 è "avvelenata" nella cache del proxy Go).
 webmention:
   targetDomain: "fundor333.com"
   wordcount: 50
+  script: "/js/webmention.min.js"
 
 # Font della firma "Written by a human" (Ocean Trace, personale — sta in
 # static/fonts/). Il tema emette l'@font-face come "Sig Font".
