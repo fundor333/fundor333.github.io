@@ -1,6 +1,6 @@
 ---
 title: "How I Am Building My First Home Lab From Scratch"
-date: 2026-09-15T10:32:09+02:00
+date: 2026-09-14T13:32:09+02:00
 feature_link: https://matteoscarpa.it/
 feature_text: by Fundor333/Matteo Scarpa/Me
 description: "Follow my journey as I build my first home lab from scratch. Discover the hardware I chose, the software I'm running, and why every developer needs one."
