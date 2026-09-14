@@ -512,18 +512,11 @@
     border-top: 1px solid var(--color-border);
     padding-top: 1.5rem;
   }
-  .cite {
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
+  .syndication strong {
+    margin-right: 0.5em;
   }
-  .cite input {
-    margin-top: 0.25rem;
-    width: 100%;
-    border: 1px solid var(--color-border);
-    background: var(--color-surface);
-    color: var(--color-content);
-    border-radius: 4px;
-    padding: 0.25rem 0.5rem;
+  .syndication a {
+    margin: 0 0.2em;
   }
   .toot, figure.toot {
     border: 1px solid var(--color-border);
