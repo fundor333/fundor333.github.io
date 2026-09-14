@@ -117,6 +117,13 @@ webmention:
   wordcount: 50
   script: "/js/webmention.min.js"
 
+# IndieAuth (tema CyberLavandaTea, v1.2.0+). Emette <link rel="authorization_endpoint">
+# e <link rel="token_endpoint"> nell'head. Default del tema: indieauth.com.
+indieauth:
+  enable: true
+  authorizationEndpoint: "https://indieauth.com"
+  tokenEndpoint: "https://indieauth.com"
+
 # Font della firma "Written by a human" (Ocean Trace, personale — sta in
 # static/fonts/). Il tema emette l'@font-face come "Sig Font".
 fonts:
