@@ -23,16 +23,16 @@ comments:
   username: fundor333
   id: '117269191522546262'
 keywords:
-- home lab
+- home labs
 - selfhosting
 - homelab setup
 - virtualization
-- computing
-- storage
-- networking
 - hypervisor
 - containerization
-- IT infrastructure
+- docker
+- local dns
+- private certificate authority
+- home automation
 ---
 
 It is some time I am tinking of selfhosting some stuff and more and more time I read post/see video about HomeLabs. So I start thinking about making one.
