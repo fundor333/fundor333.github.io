@@ -1,9 +1,10 @@
 ---
-title: "How I Am Building My First Home Lab From Scratch"
-date: 2026-09-14T13:32:09+02:00
+title: How I Am Building My First Home Lab From Scratch
+date: 2026-09-14 13:32:09+02:00
 feature_link: https://matteoscarpa.it/
 feature_text: by Fundor333/Matteo Scarpa/Me
-description: "Follow my journey as I build my first home lab from scratch. Discover the hardware I chose, the software I'm running, and why every developer needs one."
+description: Follow my journey as I build my first home lab from scratch. Discover
+  the hardware I chose, the software I'm running, and why every developer needs one.
 isStarred: false
 tags:
 - homelab
@@ -15,6 +16,12 @@ categories:
 - tinkering
 series:
 - My Home Automation Lab
+syndication:
+- https://mastodon.social/@fundor333/117269191522546262
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '117269191522546262'
 ---
 
 It is some time I am tinking of selfhosting some stuff and more and more time I read post/see video about HomeLabs. So I start thinking about making one.
