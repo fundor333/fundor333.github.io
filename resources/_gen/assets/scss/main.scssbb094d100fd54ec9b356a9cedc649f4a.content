@@ -388,6 +388,11 @@
     margin: 0;
     font-size: 0.95rem;
   }
+  .home-social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
   /* Buttons */
   .btn {
     display: inline-block;
@@ -448,6 +453,11 @@
   }
   .social-icon:hover {
     color: var(--color-primary);
+  }
+  .social-icon-glyph {
+    display: inline-block;
+    font-size: 1.15rem;
+    line-height: 1;
   }
   .badges-88x31 {
     display: flex;
