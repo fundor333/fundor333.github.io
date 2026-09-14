@@ -117,17 +117,13 @@ webmention:
   wordcount: 50
   script: "/js/webmention.min.js"
 
-# IndieAuth (tema CyberLavandaTea, v1.2.0+). Emette <link rel="authorization_endpoint">
-# e <link rel="token_endpoint"> nell'head.
-# Disabilitato: indieauth.com è in fase di deprecazione (rimanda a
-# indielogin.com) e comunque l'URL corretto per l'authorization endpoint
-# sarebbe https://indieauth.com/auth, non la root del dominio. Dichiarare
-# questi endpoint qui SOVRASCRIVE il fallback via rel="me" (già presente
-# verso github.com/fundor333), rompendo il login IndieAuth su servizi come
-# webmention.io. Lasciando enable: false, i client IndieAuth fanno discovery
-# via rel="me" e il login funziona.
+# IndieAuth (tema CyberLavandaTea, v1.2.1+). Emette <link rel="authorization_endpoint">
+# e <link rel="token_endpoint"> nell'head, puntando a indielogin.com
+# (default del tema da v1.2.1, che è il servizio a cui indieauth.com stesso
+# rimanda ora che è in deprecazione). Richiede il rel="me" verso GitHub già
+# presente in socialIcons per la discovery lato indielogin.com.
 indieauth:
-  enable: false
+  enable: true
 
 # Font della firma "Written by a human" (Ocean Trace, personale — sta in
 # static/fonts/). Il tema emette l'@font-face come "Sig Font".
