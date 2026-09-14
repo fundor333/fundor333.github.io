@@ -1,12 +1,25 @@
 ---
-title: "Week Note Nº 36/2026"
-date: "2026-09-06T09:00:00+01:00"
-lastmod: "2026-09-06T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 36 of 2026"
-description: "Personal notes for week 36 of 2026"
-draft: False
+title: Week Note Nº 36/2026
+date: '2026-09-06T09:00:00+01:00'
+lastmod: '2026-09-06T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 36 of 2026
+description: Personal notes for week 36 of 2026
+draft: false
+keywords:
+- Tokyo street photography
+- photography moments
+- suggested reading links
+- suggested reading posts
+- street photography moments
+- my blog
+- my newsletter
+- my portfolio
+- support me
+- Tokyo Times
+- steele blue microlighter
 ---
 
 

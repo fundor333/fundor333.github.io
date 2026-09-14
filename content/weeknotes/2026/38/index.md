@@ -1,12 +1,24 @@
 ---
-title: "Week Note Nº 38/2026"
-date: "2026-09-14T09:00:00+01:00"
-lastmod: "2026-09-14T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 38 of 2026"
-description: "Personal notes for week 38 of 2026"
-draft: False
+title: Week Note Nº 38/2026
+date: '2026-09-14T09:00:00+01:00'
+lastmod: '2026-09-14T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 38 of 2026
+description: Personal notes for week 38 of 2026
+draft: false
+keywords:
+- Anime
+- manga
+- Japan
+- Coca-Cola
+- ActivityPub
+- Mastodon
+- Fediverse
+- Profile
+- User
+- Tokyo
 ---
 
 
