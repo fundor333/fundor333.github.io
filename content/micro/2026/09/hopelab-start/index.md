@@ -5,6 +5,7 @@ description: Starting my homelab expirience
 tags:
 categories:
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mvpnomnwx72f
 - https://mastodon.social/@fundor333/117286375600421367
 comments:
   host: mastodon.social
