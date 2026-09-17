@@ -37,6 +37,7 @@ The page is part of the [uses.tech](https://uses.tech/) project.
 * [Canon EOS R5](https://www.canon.it/cameras/eos-r5/)
 * [Canon RF 50MM F1.8 STM](https://www.canon.it/lenses/rf-50mm-f1-8-stm/)
 * [Canon RF 24-105MM F/4L IS USM](https://www.canon.it/lenses/canon-rf-24-105mm-f-4l-is-usm-lens/)
+* [Canon RF 24-70MM F2/8L IS USM](https://www.canon.it/lenses/rf-24-70mm-f2-8l-usm-lens/)
 * [Canon RF 70-200MM F2.8 L IS USM](https://www.canon.it/lenses/rf-70-200mm-f2-8l-is-usm-lens/)
 
 ### FujiFilm
