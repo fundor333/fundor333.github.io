@@ -7,19 +7,131 @@ feature_text: by Fundor333/Matteo Scarpa/Me
 description:
 isStarred: false
 tags:
-categories:
+- activitypub
+- adguard
+- api
+- atom
+- automation
+- barcode
+- bash
+- blog
+- blogging
+- boostrap
+- bot
+- bridgy
+- coding
+- command line
+- command-line
+- convention
+- csv
+- data
+- dataframe
+- datascience
+- dev
+- devops
+- django
+- django filter
+- django rest framework
+- django-filter
+- django-filters
+- django-rest-framework
+- django-table2
+- docker
+- dotfiles
+- ebook
+- ereader
+- export
+- feed
+- flask
+- git
+- github
+- github actiom
+- github copilot
+- github-actiom
+- github-copilot
+- gitops
+- google api
+- google drive
+- google-api
+- google-drive
+- graphql
+- h-entry
+- hackathon
+- hacking
+- home-assistant
+- home-automation
+- homelab
+- htmx
+- hugo
+- image
+- indieweb
+- indiweb
+- instagram
+- juppyter
+- kindle
+- kobo
+- koreader
+- llm
+- make
+- makefile
+- mastodon
+- medium
+- microformat
+- micropub
+- microservice
+- mistral
+- module
+- montharchiveview
+- nginx
+- notebook
+- Ollama
+- pandas
+- pdf
+- photography
+- pipenv
+- poetry
+- post
+- precommit
+- programmazione
+- proxmox
+- pycon
+- pyconit
+- pydatave
+- pyenv
+- pyhton
+- pyproject
+- python
+- qrcode
 - rant
+- raspberry-pi
+- reportlab
+- rest
+- rss
+- script
+- self-hosting
+- selfhosting
+- social
+- socket
+- substack
+- testing
+- tornado
+- tox
+- tutorial
+- twtxt
+- uv
+- webmention
+- webring
+- zsh
+categories:
 - dev
 - fingerfood
+- Hacking stuffs
+- rant
 - tinkering
-
-images:
-keywords:
 series:
 - A dev need a blog
 - Data and Data Tools
 - Django tricks
-- Hacking stuffs
 - Horror stories
 - Hugo tricks
 - Indiweb, webmentions and friends
@@ -28,10 +140,5 @@ series:
 - Printing With ReportLab
 - Python's Reptile Env
 - Tech News
-reply:
-repost:
-like:
-rsvp:
-bookmark:
 ---
 
