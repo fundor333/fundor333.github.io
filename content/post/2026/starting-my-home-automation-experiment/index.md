@@ -14,6 +14,8 @@ categories:
 - tinkering
 series:
 - My Home Automation Lab
+- Hacking and custumize stuffs
+
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3mitg2ahyue2a
 - https://mastodon.social/@fundor333/116318298830055707

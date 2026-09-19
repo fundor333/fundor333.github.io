@@ -12,7 +12,9 @@ tags:
 - kindle
 categories:
 - tinkering
-- Hacking stuffs
+- hacking
+series:
+- Hacking and custumize stuffs
 keywords:
 - EBook Reader
 - Kindle PaperWhite

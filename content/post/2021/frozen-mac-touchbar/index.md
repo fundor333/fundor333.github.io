@@ -26,6 +26,9 @@ keywords:
 - user logout
 - restart
 - Bash command.
+series:
+- Hacking and custumize stuffs
+
 ---
 
 ## The touchbar
