@@ -6,7 +6,7 @@ from categories import known_categories, set_post_categories, update_archetype_c
 from cover import generate_img
 from naming import name_cleaning
 from series import known_series, set_post_series, update_archetype_series
-from tags import known_tags, normalize_tag, set_post_tags, update_archetype_tags
+from tags import known_tags, set_post_tags, update_archetype_tags
 from taxonomy import resolve_against_known
 
 
@@ -88,7 +88,7 @@ def post_fc() -> None:
         return
 
     selected_series = _prompt_series(known_series())
-    selected_tags = _prompt_multi_value("tags", known_tags(), normalize=normalize_tag)
+    selected_tags = known_tags()
     selected_categories = _prompt_multi_value("categories", known_categories())
 
     os.system(f"hugo new post/{year}/{title}/index.md")
