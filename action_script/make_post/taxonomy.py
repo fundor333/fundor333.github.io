@@ -54,6 +54,11 @@ def dedupe_case_insensitive(values) -> set[str]:
     return set(canonical.values())
 
 
+def normalize_spaces_to_dashes(value: str) -> str:
+    """Collapse any run of whitespace in `value` into a single dash."""
+    return re.sub(r"\s+", "-", value.strip())
+
+
 def resolve_against_known(raw_value: str, known: list[str]) -> str:
     """Match `raw_value` against `known` case-insensitively.
 
