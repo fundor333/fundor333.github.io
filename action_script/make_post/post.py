@@ -6,7 +6,7 @@ from categories import known_categories, set_post_categories, update_archetype_c
 from cover import generate_img
 from naming import name_cleaning
 from series import known_series, set_post_series, update_archetype_series
-from tags import known_tags, set_post_tags, update_archetype_tags
+from tags import known_tags, normalize_tag, set_post_tags, update_archetype_tags
 from taxonomy import resolve_against_known
 
 
@@ -39,11 +39,13 @@ def _prompt_series(choices: list[str]) -> list[str]:
     return selected
 
 
-def _prompt_multi_value(label: str, choices: list[str]) -> list[str]:
+def _prompt_multi_value(label: str, choices: list[str], normalize=None) -> list[str]:
     """Ask for one or more values, either picked by number from what's known
     already or typed fresh. A typed value that matches an existing one
     case-insensitively is resolved to the existing spelling, so it never
-    creates a near-duplicate (e.g. typing "Django" reuses "django")."""
+    creates a near-duplicate (e.g. typing "Django" reuses "django"). When
+    `normalize` is given, it's applied to typed values before matching
+    (e.g. tags collapse spaces into dashes)."""
     if choices:
         print(f"Existing {label} (pick by number, or type new ones):")
         for i, choice in enumerate(choices, start=1):
@@ -65,6 +67,8 @@ def _prompt_multi_value(label: str, choices: list[str]) -> list[str]:
                 continue
             value = choices[idx - 1]
         else:
+            if normalize:
+                part = normalize(part)
             value = resolve_against_known(part, choices)
 
         if value.casefold() not in seen:
@@ -84,7 +88,7 @@ def post_fc() -> None:
         return
 
     selected_series = _prompt_series(known_series())
-    selected_tags = _prompt_multi_value("tags", known_tags())
+    selected_tags = _prompt_multi_value("tags", known_tags(), normalize=normalize_tag)
     selected_categories = _prompt_multi_value("categories", known_categories())
 
     os.system(f"hugo new post/{year}/{title}/index.md")
