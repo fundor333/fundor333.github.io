@@ -4,9 +4,9 @@ date: 2023-07-25 12:35:10+02:00
 feature_link: https://www.midjourney.com/home/
 feature_text: by IA Midjourney
 tags:
+- google-api
+- google-drive
 - script
-- google drive
-- google api
 slug: add-data-at-the-end-of-the-google-sheet
 categories:
 - dev

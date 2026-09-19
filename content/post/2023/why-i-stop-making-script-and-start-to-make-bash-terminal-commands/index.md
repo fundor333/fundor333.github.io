@@ -4,9 +4,9 @@ date: 2023-05-19 13:32:33+02:00
 feature_link: https://www.midjourney.com/home/
 feature_text: by IA Midjourney
 tags:
-- script
 - bash
-- command line
+- command-line
+- script
 slug: why-i-stop-making-script-and-start-to-make-bash-terminal-commands
 categories:
 - dev

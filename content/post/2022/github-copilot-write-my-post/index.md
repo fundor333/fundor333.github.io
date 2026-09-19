@@ -5,7 +5,7 @@ feature_link: https://www.midjourney.com/home/
 feature_text: by IA Midjourney
 tags:
 - blogging
-- github copilot
+- github-copilot
 slug: github-copilot-write-my-post
 categories:
 - rant

@@ -2,10 +2,10 @@
 title: 'Django Rest Framework: Multiple post'
 date: 2019-04-23 10:00:00 +0000
 tags:
-- django
-- rest
-- django rest framework
 - api
+- django
+- django-rest-framework
+- rest
 categories:
 - dev
 slug: django-rest-framework-multiple-post

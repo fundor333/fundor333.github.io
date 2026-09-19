@@ -4,10 +4,10 @@ date: 2022-04-23 11:17:15+02:00
 feature_link: https://unsplash.com/photos/iqLnrFnGjGA
 feature_text: Photo by Luc Bercoth on Unsplash
 tags:
-- django
 - coding
+- django
+- django-filter
 - python
-- django filter
 slug: django-filter-list-view-with-show-more
 categories:
 - dev
