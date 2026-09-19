@@ -1,126 +1,94 @@
-.PHONY: help
+MAKE_POST := uv run python3 action_script/make_post
+
+.PHONY: help install cache clean run gomodule update sync_taxonomy submodule \
+	develop developfuture developall broadcast build \
+	new micro now notebook notebook_editor weekly characters meet event eventi \
+	anime photo_exif automation autotag send_webmention weeknote_webmentions \
+	weeknote_webmentions_year hydra deploy deploy_prod precommit changelog
+
 help: ## Show this help
 	@egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
-install: ## Install
+## --- Setup ------------------------------------------------------------
+
+install: sync_taxonomy ## Install project dependencies
 	@npm install
 	@hugo mod get -u
 	@uv sync
 	@uv run pre-commit install
 	@uv run pre-commit autoupdate
 
-cache: ## Clean the cache
-	@hugo --gc
-
-clean: cache gomodule ## Clean the directory of the project of cache e meta file and other things
-	@find . -type d -empty -delete
-
-.PHONY: run
-run: clean ## Build the site cleaning all
-	@hugo --minify
-
-.PHONY: gomodule
-gomodule: ## Update Go Module
-	@hugo mod get -u ./...
-	@hugo mod tidy
-	@hugo mod get -u
-
-update: clean ## Update the site requirements
+update: clean sync_taxonomy ## Update the site requirements
 	@npm update
 	@uv lock --upgrade
 	@uv sync
 	@uv run pre-commit autoupdate
 
-send_webmention: ## Send webmention from feed
-	@uv run python action_script/send_webmention.py
+gomodule: ## Update Go modules
+	@hugo mod get -u ./...
+	@hugo mod tidy
+	@hugo mod get -u
 
-develop: ## Run the site local
-	@hugo server --disableFastRender --renderToMemory
+submodule: ## Get submodules for this repo
+	git submodule update --init --recursive
 
-developfuture: ## Run the site local with all the future article
-	@hugo server --disableFastRender --buildFuture --renderToMemory
+sync_taxonomy: ## Sync known series, tags and categories into the post archetype
+	@$(MAKE_POST) series
+	@$(MAKE_POST) tags
+	@$(MAKE_POST) categories
 
-developall: ## Run the site local with all the article, future or drafts
-	@hugo server --disableFastRender --buildFuture --buildDrafts --renderToMemory
+## --- Build & clean ------------------------------------------------------
 
-.PHONY: hydra
-hydra: ## Check links
-	@python hydra.py http://localhost:1313/ --config ./hydra-config.json
-	@python hydra.py http://fundor333.com/ --config ./hydra-config.json
+cache: ## Clean the Hugo cache
+	@hugo --gc
 
-.PHONY: new
-new: ## Make new object for the blog
-	@uv run python3 action_script/make_post
+clean: cache gomodule ## Clean cache, meta files and other build artifacts
+	@find . -type d -empty -delete
 
-characters: ## Sorting characters
-	@python3 action_script/sorting_characters.py
-
-.PHONY: build
 build: clean ## Build for dev
 	@hugo mod get -u
 	@hugo
 
-.PHONY: anime
-anime: ## Anime script
-	@uv run python action_script/aniist_run.py
-
-.PHONY: photo_exif
-photo_exif: ## Extract EXIF data from all photo posts and save exif.json
-	@uv run python action_script/photo_exif.py
-
-automation: anime photo_exif ## Run all the automation script
-	@uv run python -m syndication_cli all-cmd
-
-
-deploy: update characters meet automation## Ready to deploy
+run: clean ## Build the site, cleaning everything first
 	@hugo --minify
-	@python action_script/mastodon2hugo.py @fundor333@mastodon.social
-	@git add .
-	@uv run pre-commit run
-	@git add .
 
-broadcast: clean ## broadcast the site
+## --- Develop ------------------------------------------------------------
+
+develop: ## Run the site locally
+	@hugo server --disableFastRender --renderToMemory
+
+developfuture: ## Run the site locally, including future posts
+	@hugo server --disableFastRender --buildFuture --renderToMemory
+
+developall: ## Run the site locally, including future posts and drafts
+	@hugo server --disableFastRender --buildFuture --buildDrafts --renderToMemory
+
+broadcast: clean ## Broadcast the site on the local network
 	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
 
-deploy_prod: ## Ready to deploy
-	@npm update
-	@uv sync
-	@uv lock --upgrade
-	@hugo mod get -u
-	@hugo --minify
+## --- Content ------------------------------------------------------------
 
+new: sync_taxonomy ## Make a new object for the blog
+	@$(MAKE_POST)
 
-.PHONY: submodule
-submodule: ## Get submodule for this repo
-	git submodule update --init --recursive
+micro: ## Run the microblog script
+	@$(MAKE_POST) micro
 
-.PHONY: weekly
+now: ## Run the now script
+	@$(MAKE_POST) now
+
+notebook: ## Run the notebook script
+	@$(MAKE_POST) notebook
+
+notebook_editor: ## Run the notebook editor
+	@uv run jupyter lab .
+
 weekly: ## Weekly script
 	@uv run weeknote -config weeknote-config.json
-	@uv run python3 action_script/make_post weekly_cover
+	@$(MAKE_POST) weekly_cover
 
-.PHONY: weeknote_webmentions
-weeknote_webmentions: ## Send webmentions for the latest weeknote post
-	@uv run python action_script/send_weeknote_webmentions.py
-
-.PHONY: weeknote_webmentions_year
-weeknote_webmentions_year: ## Send webmentions for all weeknote posts of the current year
-	@uv run python action_script/send_weeknote_webmentions.py $$(date +%Y)
-
-precommit: ## Run pre-commit hooks
-	@git add . & uv run pre-commit run
-
-micro: ## Run microblog script
-	@uv run python3 action_script/make_post micro
-
-now: ## Run now script
-	@uv run python3 action_script/make_post now
-
-notebook: ## Run notebook script
-	@uv run python3 action_script/make_post notebook
-
-notebook_editor: ## Run notebook editor
-	@uv run jupyter lab .
+characters: ## Sorting characters
+	@python3 action_script/sorting_characters.py
 
 meet: ## Run meet script
 	@uv run python3 action_script/micro_meetup.py --memory True
@@ -129,13 +97,57 @@ event: ## Run event script (passa URL con: make event URL="https://meetup.com/..
 	@echo "Script per i nuovi eventi, usa meet per gli eventi in memoria"
 	@uv run python3 action_script/micro_meetup.py $(URL)
 
-eventi: event ## Run eventi script
+eventi: event ## Alias for event
+
+## --- Automation & syndication ---------------------------------------------
+
+anime: ## Anime script
+	@uv run python action_script/aniist_run.py
+
+photo_exif: ## Extract EXIF data from all photo posts and save exif.json
+	@uv run python action_script/photo_exif.py
+
+automation: anime photo_exif ## Run all the automation scripts
+	@uv run python -m syndication_cli all-cmd
 
 autotag: ## Run autotag script
 	@uv run python -m syndication_cli tag-cmd
 
-.PHONY: changelog ## update CHANGELOG.md and amend it on the commit
-changelog:
+send_webmention: ## Send webmention from feed
+	@uv run python action_script/send_webmention.py
+
+weeknote_webmentions: ## Send webmentions for the latest weeknote post
+	@uv run python action_script/send_weeknote_webmentions.py
+
+weeknote_webmentions_year: ## Send webmentions for all weeknote posts of the current year
+	@uv run python action_script/send_weeknote_webmentions.py $$(date +%Y)
+
+hydra: ## Check links
+	@python hydra.py http://localhost:1313/ --config ./hydra-config.json
+	@python hydra.py http://fundor333.com/ --config ./hydra-config.json
+
+## --- Deploy ------------------------------------------------------------
+
+deploy: update characters meet automation ## Ready to deploy
+	@hugo --minify
+	@python action_script/mastodon2hugo.py @fundor333@mastodon.social
+	@git add .
+	@uv run pre-commit run
+	@git add .
+
+deploy_prod: sync_taxonomy ## Ready to deploy to prod
+	@npm update
+	@uv sync
+	@uv lock --upgrade
+	@hugo mod get -u
+	@hugo --minify
+
+## --- Misc ------------------------------------------------------------------
+
+precommit: ## Run pre-commit hooks
+	@git add . && uv run pre-commit run
+
+changelog: ## Update CHANGELOG.md and amend it onto the last commit
 	git-cliff --config pyproject.toml --output CHANGELOG.md
 	git add CHANGELOG.md
 	git commit --amend --no-edit

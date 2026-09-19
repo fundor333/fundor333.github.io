@@ -2,9 +2,12 @@ import datetime
 import os
 from pathlib import Path
 
+from categories import known_categories, set_post_categories, update_archetype_categories
 from cover import generate_img
 from naming import name_cleaning
 from series import known_series, set_post_series, update_archetype_series
+from tags import known_tags, set_post_tags, update_archetype_tags
+from taxonomy import resolve_against_known
 
 
 def _prompt_series(choices: list[str]) -> list[str]:
@@ -36,6 +39,40 @@ def _prompt_series(choices: list[str]) -> list[str]:
     return selected
 
 
+def _prompt_multi_value(label: str, choices: list[str]) -> list[str]:
+    """Ask for one or more values, either picked by number from what's known
+    already or typed fresh. A typed value that matches an existing one
+    case-insensitively is resolved to the existing spelling, so it never
+    creates a near-duplicate (e.g. typing "Django" reuses "django")."""
+    if choices:
+        print(f"Existing {label} (pick by number, or type new ones):")
+        for i, choice in enumerate(choices, start=1):
+            print(f"{i}. {choice}")
+
+    raw = input(f"{label.capitalize()} (comma-separated numbers and/or names)\n> ").strip()
+    if not raw:
+        return []
+
+    selected: list[str] = []
+    seen = set()
+    for part in raw.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        if part.isdigit():
+            idx = int(part)
+            if not (1 <= idx <= len(choices)):
+                continue
+            value = choices[idx - 1]
+        else:
+            value = resolve_against_known(part, choices)
+
+        if value.casefold() not in seen:
+            seen.add(value.casefold())
+            selected.append(value)
+    return selected
+
+
 def post_fc() -> None:
     year = str(datetime.datetime.now().year)
     name = input("Give me the title\n")
@@ -47,8 +84,14 @@ def post_fc() -> None:
         return
 
     selected_series = _prompt_series(known_series())
+    selected_tags = _prompt_multi_value("tags", known_tags())
+    selected_categories = _prompt_multi_value("categories", known_categories())
 
     os.system(f"hugo new post/{year}/{title}/index.md")
     generate_img(name, f"post/{year}/{title}")
     set_post_series(str(index_path), selected_series)
+    set_post_tags(str(index_path), selected_tags)
+    set_post_categories(str(index_path), selected_categories)
     update_archetype_series()
+    update_archetype_tags()
+    update_archetype_categories()
