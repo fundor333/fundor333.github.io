@@ -75,6 +75,10 @@ def tagger(config, filepath: str | None = None, dry_run: bool = False, force: bo
         logger.info(f"Processing: {file_path}")
 
         clean_text = extract_clean_text(str(file_path))
+        if len(clean_text.strip()) < 50:
+            logger.info(f"Skipping {file_path}: not enough body text to generate keywords from")
+            continue
+
         keywords_str = genera_tag_seo(clean_text, DEFAULT_NUM_TAGS)
 
         if keywords_str.startswith("Errore"):
