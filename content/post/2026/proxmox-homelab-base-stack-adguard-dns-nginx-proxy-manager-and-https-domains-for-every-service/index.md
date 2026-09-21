@@ -39,6 +39,8 @@ After some problem (I only have the TV as monitor and I don't have very long cab
 
 ## The start
 
-I
+Now I all setup (the hardware) I connect it to my local lan and start to toy with ProxMox. First thing it don't have a custom domain... I have ProxMox on a ip and I don't like it. So I need to have a local DNS with a proxy and a domain (for a cert) and it need to work only in my local network.
 
 ![1495 from xkcd](hard_reboot.png)
+
+![1361 from xkcd](google_dns.png)
