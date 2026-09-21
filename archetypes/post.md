@@ -9,6 +9,7 @@ isStarred: false
 tags:
 - activitypub
 - adguard
+- adguard-dns
 - api
 - atom
 - automation
@@ -83,6 +84,7 @@ tags:
 - module
 - montharchiveview
 - nginx
+- nginx-proxy-manager
 - notebook
 - Ollama
 - pandas
@@ -125,6 +127,7 @@ tags:
 categories:
 - dev
 - fingerfood
+- hacking
 - Hacking stuffs
 - rant
 - tinkering
@@ -132,6 +135,7 @@ series:
 - A dev need a blog
 - Data and Data Tools
 - Django tricks
+- Hacking and custumize stuffs
 - Horror stories
 - Hugo tricks
 - Indiweb, webmentions and friends
