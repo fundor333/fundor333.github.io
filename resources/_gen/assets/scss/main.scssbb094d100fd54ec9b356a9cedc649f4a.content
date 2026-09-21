@@ -703,9 +703,13 @@
 }
 
 .e-content {
+  counter-reset: footnote;
   /* Markers read as tech/CLI furniture, not book-style bullets/numerals:
      a disclosure triangle for ul, zero-padded indices for ol — both in
      the mono face and Primary, like a directory tree or an array dump. */
+  /* Footnote references pick up the same mono/Primary/zero-padded
+     treatment as the footnote list's own ::marker, so "¹" in the
+     body and "01" in the list read as one system. */
 }
 
 .e-content > * + * {
@@ -735,6 +739,26 @@
   color: var(--color-primary);
   font-family: var(--font-mono);
   font-weight: 600;
+}
+
+.e-content .footnote-ref {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 0;
+  counter-increment: footnote;
+}
+
+.e-content .footnote-ref::before {
+  content: counter(footnote, decimal-leading-zero);
+  font-size: 0.75rem;
+}
+
+.e-content .footnote-ref:hover, .e-content .footnote-ref:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary);
 }
 
 .e-content h2, .e-content h3, .e-content h4 {
