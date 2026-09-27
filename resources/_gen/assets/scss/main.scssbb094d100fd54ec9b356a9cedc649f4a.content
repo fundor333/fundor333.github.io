@@ -75,15 +75,31 @@
     margin: 1.6em 0 0.5em;
     letter-spacing: -0.01em;
   }
+  /* Each level gets its own voice, not just a smaller size:
+     h1/h2 in the display face, h3 drops to the body face in bold Primary,
+     h4 becomes a mono uppercase label — like a section tag in a config file. */
   h1 {
-    font-size: 2rem;
-    letter-spacing: -0.015em;
+    font-size: 2.25rem;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.55rem;
   }
   h3 {
-    font-size: 1.25rem;
+    font-family: var(--font-sans);
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: var(--color-primary);
+  }
+  h4 {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-inactive);
   }
   a {
     color: var(--color-link);
@@ -315,6 +331,8 @@
     overflow-wrap: break-word;
     font-size: 1rem;
     font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
   }
   .post-item-title a {
     font-family: var(--font-display);
@@ -704,20 +722,30 @@
 
 .e-content {
   counter-reset: footnote;
+  /* An outside ::marker is drawn in the list's left padding, so the
+     padding must be at least as wide as the marker or it
+     hangs out of the text column. "▸ " is 2ch of mono, "01 " is 3ch
+     (ol also covers the footnotes list). */
   /* Markers read as tech/CLI furniture, not book-style bullets/numerals:
      a disclosure triangle for ul, zero-padded indices for ol — both in
      the mono face and Primary, like a directory tree or an array dump. */
   /* Footnote references pick up the same mono/Primary/zero-padded
      treatment as the footnote list's own ::marker, so "¹" in the
      body and "01" in the list read as one system. */
+  /* In prose, h2 opens a section: a hairline underneath with a short
+     Primary segment, so it reads as a divider as well as a title. */
 }
 
 .e-content > * + * {
   margin-top: 1.1rem;
 }
 
-.e-content ul, .e-content ol {
-  padding-left: 1.4rem;
+.e-content ul {
+  padding-left: 1.75rem;
+}
+
+.e-content ol {
+  padding-left: 2.25rem;
 }
 
 .e-content li + li {
@@ -725,7 +753,7 @@
 }
 
 .e-content ul > li::marker {
-  content: "▸  ";
+  content: "▸ ";
   color: var(--color-primary);
   font-family: var(--font-mono);
 }
@@ -735,7 +763,7 @@
 }
 
 .e-content ol > li::marker {
-  content: counter(list-item, decimal-leading-zero) "  ";
+  content: counter(list-item, decimal-leading-zero) " ";
   color: var(--color-primary);
   font-family: var(--font-mono);
   font-weight: 600;
@@ -763,6 +791,17 @@
 
 .e-content h2, .e-content h3, .e-content h4 {
   scroll-margin-top: 5rem;
+}
+
+.e-content h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.4rem;
+  background: linear-gradient(var(--color-primary), var(--color-primary)) left bottom/2.5rem 2px no-repeat, linear-gradient(var(--color-border), var(--color-border)) left bottom/100% 1px no-repeat;
+}
+
+.e-content h4::before {
+  content: "// ";
+  color: var(--color-primary);
 }
 
 .e-content h2 a, .e-content h3 a, .e-content h4 a {

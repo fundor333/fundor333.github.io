@@ -7,17 +7,25 @@ summary: A listing of all the styles and elements used on this site
 
 Inspired by [json.blog's style guide](https://json.blog/style-guide/) and, in turn, [The Frugal Gamer](https://www.thefrugalgamer.net/styleGuide.php), a (not so[^notso]) comprehensive listing of all possible styles and elements on this site.
 
-The site runs the **CyberLavandaTea** theme: dark only, two accent hues (a green and a blue), headings in *Audiowide*, body text in *Rajdhani*.
+The site runs the **CyberLavandaTea** theme (v1.3.1): dark only, two accent hues (a green and a blue), display headings in *Audiowide*, body text in *Rajdhani*.
 
 [^notso]: Actually, this is also not comprehensive. If you find I forgot something ping me and I will fix it
 
 # Heading 1
 
+The display face at its largest. Each heading level has its own voice, not just a smaller size, so the hierarchy reads at a glance.
+
 ## Heading 2
+
+Still the display face, one step down, with a hairline underneath and a short green segment at its start. Inside a post it opens a section, so it also works as a divider.
 
 ### Heading 3
 
+Switches to the body face, bold, in green: a sub-section title that stands out from the paragraph without competing with the h2 above it.
+
 #### Heading 4
+
+A mono, uppercase, letter-spaced label in grey, prefixed with a green `//`, like a comment tag in a config file.
 
 Headings get an `id` and, on hover, a `¶` anchor link to that section.
 
@@ -39,6 +47,14 @@ In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, fill
 1. Ordered List 1
 2. Ordered List 2
 
+List markers look like CLI output, not book-style bullets: a green `▸` for unordered lists and zero-padded indices (`01`, `02`…) for ordered ones, both in the mono face.
+
+### Footnotes
+
+Footnote references[^fn] use the same treatment as ordered lists: a green, mono, zero-padded number. So the `01` in the text matches the `01` in the footnote list at the bottom of the page.
+
+[^fn]: The footnote list is an `<ol>` too, so it gets the same markers as every other numbered list.
+
 ### In-line styles
 
 **Bilbo Baggins:** Good morning!
@@ -58,6 +74,8 @@ Links are blue. A [visited link](https://en.wikipedia.org/wiki/The_Hobbit) turns
 A block image is centered inside a `<figure>`; the title, if present, becomes the caption.
 
 ![A cup of tea](/img/logo.png "This title line renders as the caption")
+
+To center a raw `<img>` outside a figure, add the `center-img` class.
 
 ### Block Styles
 
@@ -130,9 +148,9 @@ Syntax highlighting palette:
 
 Type:
 
-| Use                              | Family      |
-| :------------------------------- | :---------- |
-| Headings, links, bold, footer    | Audiowide   |
-| Body text                        | Rajdhani    |
-| "Written by a human" signature   | Ocean Trace |
-| Code                             | system mono |
+| Use                                        | Family                                  |
+| :----------------------------------------- | :-------------------------------------- |
+| h1, h2, links, bold, footer                | Audiowide                               |
+| Body text, h3                              | Rajdhani                                |
+| Code, list markers, footnote refs, h4      | mono stack (SF Mono / JetBrains Mono…)  |
+| "Written by a human" signature             | Ocean Trace                             |

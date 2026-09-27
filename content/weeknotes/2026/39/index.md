@@ -1,12 +1,27 @@
 ---
-title: "Week Note Nº 39/2026"
-date: "2026-09-27T09:00:00+01:00"
-lastmod: "2026-09-27T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 39 of 2026"
-description: "Personal notes for week 39 of 2026"
-draft: False
+title: Week Note Nº 39/2026
+date: '2026-09-27T09:00:00+01:00'
+lastmod: '2026-09-27T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 39 of 2026
+description: Personal notes for week 39 of 2026
+draft: false
+keywords:
+- Typewriters
+- Zsh
+- macOS Spaces
+- Linux
+- static site
+- prettiest typewriter typeface
+- Week Note
+- Homo Faber
+- anime
+- manga
+- fantasy
+- adventure
+- drama
 ---
 
 
