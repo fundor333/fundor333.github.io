@@ -1,7 +1,9 @@
 import logging
+import time
+from urllib.parse import urlparse
 
+import requests
 from bs4 import BeautifulSoup
-from playwright.sync_api import Error, sync_playwright
 
 from syndication_cli.models import SyndicationConfig
 from syndication_cli.utils import find_post_from_source
@@ -14,34 +16,31 @@ USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 )
+MAX_RETRIES = 4
+FEED_DELAY = 5
 
 
-def _fetch_via_browser(url: str) -> str | None:
-    try:
-        with sync_playwright() as p:
-            browser = p.chromium.launch()
-            try:
-                page = browser.new_context(user_agent=USER_AGENT).new_page()
-                response = page.goto(url, wait_until="domcontentloaded", timeout=15000)
-                logger.info(f"Fetched {url} via browser: status {response.status if response else 'unknown'}")
-                if response is None or not response.ok:
-                    status = response.status if response else "unknown"
-                    logger.error(f"Failed to fetch {url} via browser: status {status}")
-                    return None
-                return response.text()
-            finally:
-                browser.close()
+def _fetch_feed(url: str) -> str | None:
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=15)
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url}: {e}")
+            return None
 
-    except Error as e:
-        # Controlla se il messaggio di errore riguarda l'eseguibile mancante
-        if "Executable doesn't exist" in str(e):
-            print("Errore: I binari del browser non sono installati!")
-            print("Risolvi eseguendo nel terminale: playwright install")
-        else:
-            print(f"Si è verificato un altro errore di Playwright: {e}")
+        if resp.status_code == 429 and attempt < MAX_RETRIES:
+            wait = float(resp.headers.get("x-ratelimit-reset") or 5) + attempt
+            logger.warning(f"Rate limited by Reddit, retrying in {wait:.0f}s ({attempt}/{MAX_RETRIES})")
+            time.sleep(wait)
+            continue
 
-    except Exception as e:
-        print(f"Errore generico non legato a Playwright: {e}")
+        if not resp.ok or not resp.text:
+            logger.error(f"Failed to fetch {url}: status {resp.status_code}")
+            return None
+
+        return resp.text
+
+    return None
 
 
 def process(config: SyndicationConfig) -> list[dict]:
@@ -56,16 +55,31 @@ def process(config: SyndicationConfig) -> list[dict]:
     content_dir = config.site.content_dir
     syndication_dir = config.paths.syndication_dir
 
-    feed_url = f"https://www.reddit.com/user/{reddit_username}.rss"
-    logger.debug(f"Processing Reddit feed via browser: {feed_url}")
+    # The profile feed can silently miss posts, while the domain feed only has link posts:
+    # read both and dedupe by entry id.
+    reddit_domain = config.feeds.reddit_domain or urlparse(domain).netloc or domain
+    feed_urls = [
+        f"https://www.reddit.com/user/{reddit_username}/submitted.rss",
+        f"https://www.reddit.com/domain/{reddit_domain}/new/.rss",
+    ]
 
-    feed_text = _fetch_via_browser(feed_url)
-    if not feed_text:
-        return updates
+    entries = {}
+    for i, feed_url in enumerate(feed_urls):
+        if i:
+            time.sleep(FEED_DELAY)
+        logger.debug(f"Processing Reddit feed: {feed_url}")
+        feed_text = _fetch_feed(feed_url)
+        if not feed_text:
+            continue
+        for entry in BeautifulSoup(feed_text, "xml").find_all("entry"):
+            author = entry.find("author")
+            author_name = author.find("name") if author else None
+            if not author_name or author_name.text.strip().removeprefix("/u/").lower() != reddit_username.lower():
+                continue
+            entry_id = entry.find("id")
+            entries.setdefault(entry_id.text.strip() if entry_id else id(entry), entry)
 
-    soup = BeautifulSoup(feed_text, "xml")
-
-    for entry in soup.find_all("entry"):
+    for entry in entries.values():
         link_elem = entry.find("link")
         if not link_elem or not link_elem.get("href"):
             continue

@@ -13,6 +13,7 @@ class FeedConfig:
     bluesky: str | None
     medium: str | None
     reddit: str | None
+    reddit_domain: str | None = None
     indieweb: list = field(default_factory=list)
 
 
