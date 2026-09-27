@@ -36,6 +36,7 @@ keywords:
 syndication:
 - https://bsky.app/profile/fundor333.bsky.social/post/3mwjrzfmsl626
 - https://mastodon.social/@fundor333/117345227622042808
+- https://www.reddit.com/r/homelab/comments/1wrwtet/proxmox_homelab_base_stack_adguard_dns_nginx
 comments:
   host: mastodon.social
   username: fundor333

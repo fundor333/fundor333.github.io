@@ -18,6 +18,8 @@ series:
 - My Home Automation Lab
 syndication:
 - https://mastodon.social/@fundor333/117269191522546262
+- https://www.reddit.com/r/HomeLabPorn/comments/1wgelyy/starting_my_homelab
+- https://www.reddit.com/r/homelab/comments/1wg1ef0/starting_my_homelab
 comments:
   host: mastodon.social
   username: fundor333
