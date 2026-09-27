@@ -1,7 +1,7 @@
 ---
 title: "Week Note Nº 39/2026"
-date: "2026-09-21T09:00:00+01:00"
-lastmod: "2026-09-21T09:00:00+01:00"
+date: "2026-09-27T09:00:00+01:00"
+lastmod: "2026-09-27T09:00:00+01:00"
 tags: ["weeknote"]
 type : "weeknote"
 summary: "Personal notes for week 39 of 2026"
@@ -11,14 +11,19 @@ draft: False
 
 
 ## Suggested Reading Links/Posts
-- [Best San Francisco Pen Show Ever 2026 Edition](https://thepenguinpost.substack.com/p/best-san-francisco-pen-show-ever?utm_source=fundor333.com)
-- [Stationery Shopping in Tokyo - by Daniela - Journaling Dan](https://journalingdan.substack.com/p/stationery-shopping-in-tokyo?publication_id=2883538&post_id=212702433&isFreemail=true&r=16odki&utm_source=fundor333.com)
-- [Self-Hosting AdGuard Home: The Ultimate DNS Privacy Guide | KD's Blog](https://puvvadi.net/posts/self-hosting-adguard-home-the-ultimate-dns-privacy-guide/?utm_source=fundor333.com)
-- [Installing Portainer in a Proxmox LXC | CynicalSignals](https://www.cynicalsignals.com/installing-portainer-in-a-proxmox-lxc/?utm_source=fundor333.com)
-- [HTTPS for your homelab, at local network speeds — bpaulino.com](https://bpaulino.com/entries/https-for-your-homelab/?utm_source=fundor333.com)
+- [Almost went back to my Mac — baty.net](https://baty.net/posts/2026/09/almost-went-back-to-my-mac/?utm_source=fundor333.com)
+- [Make your website printable - a short guide : Juha-Matti Santala](https://hamatti.org/posts/make-your-website-printable-a-short-guide/?utm_source=fundor333.com)
+- [Zsh: find the largest files with the (OL) glob qualifier - Adam Johnson](https://adamj.eu/tech/2026/09/21/zsh-ol-glob-qualifiers/?utm_source=fundor333.com)
+- [Re: Org mode | Sal's](https://sals.place/blog/re-coyote-org-mode/?utm_source=fundor333.com)
+- [Hello from my new Thinkpad | Sal's](https://sals.place/blog/hello-from-thinkpad/?utm_source=fundor333.com)
+- [Instant workspace switching in Linux | Sal's](https://sals.place/blog/i3-instant-workspace-switching/?utm_source=fundor333.com)
+- [Addendum: macOS Spaces transition time | Sal's](https://sals.place/blog/macos-spaces-addendum/?utm_source=fundor333.com)
+- [Ru - Back on a static site?!](https://www.rusingh.com/back-on-a-static-site/?utm_source=fundor333.com)
+- [What is the prettiest typewriter typeface? | Chris Aldrich](https://boffosocko.com/2026/09/16/what-is-the-prettiest-typewriter-typeface/?utm_source=fundor333.com)
 ## New post from my blog
-- [Week Note Nº 38/2026](https://fundor333.com/weeknotes/2026/38/?utm_source=fundor333.com)
-- [Hopelab Start](https://fundor333.com/micro/2026/09/hopelab-start/?utm_source=fundor333.com)
+- [Week Note Nº 39/2026](https://fundor333.com/weeknotes/2026/39/?utm_source=fundor333.com)
+## My ph portfolio
+- [Homo Faber 2026](http://matteoscarpa.it/homo-faber-2026/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
@@ -36,6 +41,6 @@ draft: False
 
 ### **Manga**
 - Total manga read: **270**
-- Total manga read chapters: **27676**
+- Total manga read chapters: **27680**
 - Total manga read volumes: **654**
 - Top 5 manga genres: 🏷️ Fantasy, 🏷️ Action, 🏷️ Adventure, 🏷️ Comedy, 🏷️ Drama
