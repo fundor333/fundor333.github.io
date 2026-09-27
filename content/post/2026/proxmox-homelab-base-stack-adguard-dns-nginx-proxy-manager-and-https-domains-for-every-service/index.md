@@ -34,6 +34,7 @@ keywords:
 - monitor
 - cable
 syndication:
+- https://bsky.app/profile/fundor333.bsky.social/post/3mwjrzfmsl626
 - https://mastodon.social/@fundor333/117345227622042808
 comments:
   host: mastodon.social
