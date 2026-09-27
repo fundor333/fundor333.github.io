@@ -33,6 +33,12 @@ keywords:
 - tv
 - monitor
 - cable
+syndication:
+- https://mastodon.social/@fundor333/117345227622042808
+comments:
+  host: mastodon.social
+  username: fundor333
+  id: '117345227622042808'
 ---
 
 And after some searching and some buying (and some exchange with sombody I know) I built my HomeLab core/main server.[^1]
