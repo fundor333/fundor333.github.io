@@ -18,7 +18,8 @@
   .recommended .poster img { width: 100%; height: 100%; max-width: none; object-fit: cover; margin: 0; display: block; }
   .recommended .poster.poster-empty { display: grid; place-items: center; padding: 0.75rem; text-align: center;
     color: var(--c-inactive); font-family: var(--font-display); font-size: 0.9rem; }
-  .recommended .badge { position: absolute; top: 0.4rem; right: 0.4rem; padding: 0.1rem 0.45rem; border-radius: 999px;
+  .recommended .p-item { display: flex; flex-direction: column; gap: 0.5rem; }
+  .recommended .badge { position: absolute; z-index: 1; top: 0.4rem; right: 0.4rem; padding: 0.1rem 0.45rem; border-radius: 999px;
     background: var(--c-background); color: var(--c-primary); font-size: 0.85rem; font-weight: 700; line-height: 1.4; }
   .recommended .title { font-weight: 600; line-height: 1.25; overflow-wrap: anywhere;
     display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
@@ -57,32 +58,39 @@
 <ul class="recommended">
   {{- range . }}
   <li class="h-review">
-    <div class="poster{{ if not .cover_url }} poster-empty{{ end }}">
-      {{- with .cover_url }}
-      <img class="u-photo" src="{{ . }}" alt="" loading="lazy" decoding="async">
-      {{- else }}
-      <span aria-hidden="true">{{ .title | htmlUnescape }}</span>
+    {{- /* h-review = my recommendation; p-item h-cite = the reviewed work */}}
+    <a class="p-author h-card" href="{{ site.Home.Permalink }}" hidden>{{ site.Params.author.name }}</a>
+    <div class="p-item h-cite">
+      <div class="poster{{ if not .cover_url }} poster-empty{{ end }}">
+        {{- with .cover_url }}
+        <img class="u-photo" src="{{ . }}" alt="" loading="lazy" decoding="async">
+        {{- else }}
+        <span aria-hidden="true">{{ .title | htmlUnescape }}</span>
+        {{- end }}
+      </div>
+      <span class="title">
+        {{- if .source_url }}
+        <a class="p-name u-url" href="{{ .source_url }}">{{ .title | htmlUnescape }}</a>
+        {{- else }}
+        <span class="p-name">{{ .title | htmlUnescape }}</span>
+        {{- end }}
+      </span>
+      {{- if and .original_title (ne .original_title .title) }}
+      <span class="original">{{ .original_title | htmlUnescape }}</span>
       {{- end }}
-      {{- with .rating }}
-      <span class="badge"><data class="p-rating" value="{{ . }}">{{ . }}</data><data class="p-best" value="10"></data></span>
+      {{- $authors := slice }}
+      {{- with .creator }}{{ range split (htmlUnescape .) "," }}{{ with trim . " " }}{{ $authors = $authors | append . }}{{ end }}{{ end }}{{ end }}
+      {{- $year := .year }}
+      {{- if or $authors $year .length }}
+      <span class="meta">
+        {{- range $i, $a := $authors }}{{ if $i }}, {{ end }}<span class="p-author h-card"><span class="p-name">{{ $a }}</span></span>{{ end }}
+        {{- with .year }}{{ if $authors }} · {{ end }}<time class="dt-published" datetime="{{ . }}">{{ . }}</time>{{ end }}
+        {{- with .length }}{{ if or $authors $year }} · {{ end }}{{ printf "%d %s" (int .) $group.unit }}{{ end }}
+      </span>
       {{- end }}
     </div>
-    <span class="title p-item h-product">
-      {{- if .source_url }}
-      <a class="u-url p-name" href="{{ .source_url }}">{{ .title | htmlUnescape }}</a>
-      {{- else }}
-      <span class="p-name">{{ .title | htmlUnescape }}</span>
-      {{- end }}
-    </span>
-    {{- if and .original_title (ne .original_title .title) }}
-    <span class="original">{{ .original_title | htmlUnescape }}</span>
-    {{- end }}
-    {{- $meta := slice }}
-    {{- with .creator }}{{ $meta = $meta | append (htmlUnescape .) }}{{ end }}
-    {{- with .year }}{{ $meta = $meta | append (string .) }}{{ end }}
-    {{- with .length }}{{ $meta = $meta | append (printf "%d %s" (int .) $group.unit) }}{{ end }}
-    {{- with $meta }}
-    <span class="meta">{{ delimit . " · " }}</span>
+    {{- with .rating }}
+    <span class="badge"><data class="p-rating" value="{{ . }}">{{ . }}</data><data class="p-worst" value="1"></data><data class="p-best" value="10"></data></span>
     {{- end }}
     {{- with .notes }}
     <div class="e-content">{{ . | markdownify }}</div>
