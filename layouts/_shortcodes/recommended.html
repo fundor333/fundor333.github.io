@@ -9,13 +9,13 @@
 
 <style>
   .recommended-count { color: var(--c-inactive); font-size: 0.6em; font-weight: 400; margin-left: 0.4em; }
-  .recommended { list-style: none; padding: 0; margin: 0 0 2.5rem;
+  ul.recommended { list-style: none; padding: 0; margin: 1rem 0 2.5rem; max-width: 100%;
     display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: 1.5rem 1rem; }
-  .recommended li { position: relative; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
+  ul.recommended > li { position: relative; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
   .recommended .poster { position: relative; display: block; aspect-ratio: 2 / 3; overflow: hidden;
     border-radius: 0.5rem; background: var(--c-surface); border: 1px solid var(--c-border);
     transition: transform 200ms var(--ease-standard), border-color 200ms var(--ease-standard); }
-  .recommended .poster img { width: 100%; height: 100%; object-fit: cover; margin: 0; display: block; }
+  .recommended .poster img { width: 100%; height: 100%; max-width: none; object-fit: cover; margin: 0; display: block; }
   .recommended .poster.poster-empty { display: grid; place-items: center; padding: 0.75rem; text-align: center;
     color: var(--c-inactive); font-family: var(--font-display); font-size: 0.9rem; }
   .recommended .badge { position: absolute; top: 0.4rem; right: 0.4rem; padding: 0.1rem 0.45rem; border-radius: 999px;
@@ -35,7 +35,7 @@
     .recommended li:has(a:hover) .poster { transform: translateY(-3px); border-color: var(--c-primary); }
   }
   @media (max-width: 30rem) {
-    .recommended { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 0.75rem; }
+    ul.recommended { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 0.75rem; }
   }
   @media (prefers-reduced-motion: reduce) {
     .recommended .poster { transition: none; }
@@ -78,7 +78,7 @@
     <span class="original">{{ .original_title | htmlUnescape }}</span>
     {{- end }}
     {{- $meta := slice }}
-    {{- with .creator }}{{ $meta = $meta | append . }}{{ end }}
+    {{- with .creator }}{{ $meta = $meta | append (htmlUnescape .) }}{{ end }}
     {{- with .year }}{{ $meta = $meta | append (string .) }}{{ end }}
     {{- with .length }}{{ $meta = $meta | append (printf "%d %s" (int .) $group.unit) }}{{ end }}
     {{- with $meta }}
