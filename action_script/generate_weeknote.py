@@ -3,6 +3,7 @@ import subprocess
 
 import typer
 from generate_cover import generate_img
+from weeknote_stats import update_stats
 
 
 def week_to_date(year: int, week: int) -> datetime.date:
@@ -32,6 +33,7 @@ def main():
     )
     generate_img(f"Week Note Nº {week}/{year}", f"weeknotes/{year}/{week}")
     print(f"Generated content/weeknotes/{year}/{week}/index.md and cover.png")
+    update_stats()
 
 
 if __name__ == "__main__":
