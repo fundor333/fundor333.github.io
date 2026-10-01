@@ -55,16 +55,16 @@ run: clean ## Build the site, cleaning everything first
 ## --- Develop ------------------------------------------------------------
 
 develop: ## Run the site locally
-	@hugo server --disableFastRender --renderToMemory
+	@hugo --ignoreCache server --disableFastRender --renderToMemory
 
 developfuture: ## Run the site locally, including future posts
-	@hugo server --disableFastRender --buildFuture --renderToMemory
+	@hugo --ignoreCache server --disableFastRender --buildFuture --renderToMemory
 
 developall: ## Run the site locally, including future posts and drafts
-	@hugo server --disableFastRender --buildFuture --buildDrafts --renderToMemory
+	@hugo --ignoreCache server --disableFastRender --buildFuture --buildDrafts --renderToMemory
 
 broadcast: clean ## Broadcast the site on the local network
-	@hugo server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
+	@hugo --ignoreCache server --disableFastRender --buildFuture --buildDrafts -bind=0.0.0.0
 
 ## --- Content ------------------------------------------------------------
 
