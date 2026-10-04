@@ -1,12 +1,14 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-04",
   "excluded_domains": [
     "digitaltearoom.com",
-    "fundor333.com"
+    "fundor333.com",
+    "matteoscarpa.com",
+    "matteoscarpa.it"
   ],
   "total_weeknotes": 81,
   "total_links": 523,
-  "unique_blogs": 175,
+  "unique_blogs": 174,
   "blogs": [
     {
       "domain": "rubenerd.com",
@@ -27,31 +29,22 @@
       "rank": 2
     },
     {
+      "domain": "tokyotimes.org",
+      "links": 23,
+      "weeknotes": 17,
+      "weeknotes_share": 0.2099,
+      "first_seen": "2026-04-05",
+      "last_seen": "2026-10-04",
+      "rank": 3
+    },
+    {
       "domain": "penaddict.com",
       "links": 22,
       "weeknotes": 17,
       "weeknotes_share": 0.2099,
       "first_seen": "2025-03-30",
       "last_seen": "2026-06-21",
-      "rank": 3
-    },
-    {
-      "domain": "tokyotimes.org",
-      "links": 22,
-      "weeknotes": 16,
-      "weeknotes_share": 0.1975,
-      "first_seen": "2026-04-05",
-      "last_seen": "2026-09-13",
       "rank": 4
-    },
-    {
-      "domain": "hamatti.org",
-      "links": 17,
-      "weeknotes": 13,
-      "weeknotes_share": 0.1605,
-      "first_seen": "2025-05-11",
-      "last_seen": "2026-09-28",
-      "rank": 5
     },
     {
       "domain": "gentlemanstationer.com",
@@ -60,16 +53,16 @@
       "weeknotes_share": 0.1605,
       "first_seen": "2025-05-11",
       "last_seen": "2026-07-26",
-      "rank": 6
+      "rank": 5
     },
     {
-      "domain": "baty.net",
-      "links": 14,
-      "weeknotes": 14,
-      "weeknotes_share": 0.1728,
-      "first_seen": "2025-07-27",
-      "last_seen": "2026-09-28",
-      "rank": 7
+      "domain": "hamatti.org",
+      "links": 16,
+      "weeknotes": 12,
+      "weeknotes_share": 0.1481,
+      "first_seen": "2025-05-11",
+      "last_seen": "2026-09-27",
+      "rank": 6
     },
     {
       "domain": "boffosocko.com",
@@ -78,7 +71,7 @@
       "weeknotes_share": 0.1605,
       "first_seen": "2025-05-25",
       "last_seen": "2026-09-27",
-      "rank": 8
+      "rank": 7
     },
     {
       "domain": "burgeonlab.com",
@@ -87,6 +80,15 @@
       "weeknotes_share": 0.1358,
       "first_seen": "2025-06-01",
       "last_seen": "2025-10-12",
+      "rank": 8
+    },
+    {
+      "domain": "baty.net",
+      "links": 13,
+      "weeknotes": 13,
+      "weeknotes_share": 0.1605,
+      "first_seen": "2025-07-27",
+      "last_seen": "2026-09-27",
       "rank": 9
     },
     {
@@ -126,21 +128,21 @@
       "rank": 13
     },
     {
+      "domain": "adamj.eu",
+      "links": 11,
+      "weeknotes": 9,
+      "weeknotes_share": 0.1111,
+      "first_seen": "2025-04-20",
+      "last_seen": "2026-10-04",
+      "rank": 14
+    },
+    {
       "domain": "thepenguinpost.substack.com",
       "links": 9,
       "weeknotes": 9,
       "weeknotes_share": 0.1111,
       "first_seen": "2025-03-30",
       "last_seen": "2026-09-20",
-      "rank": 14
-    },
-    {
-      "domain": "adamj.eu",
-      "links": 9,
-      "weeknotes": 8,
-      "weeknotes_share": 0.0988,
-      "first_seen": "2025-04-20",
-      "last_seen": "2026-09-27",
       "rank": 15
     },
     {
@@ -477,12 +479,12 @@
       "rank": 52
     },
     {
-      "domain": "matteoscarpa.it",
+      "domain": "github.blog",
       "links": 2,
       "weeknotes": 2,
       "weeknotes_share": 0.0247,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-28",
+      "first_seen": "2025-06-15",
+      "last_seen": "2026-10-04",
       "rank": 53
     },
     {
@@ -1017,22 +1019,13 @@
       "rank": 112
     },
     {
-      "domain": "github.blog",
-      "links": 1,
-      "weeknotes": 1,
-      "weeknotes_share": 0.0123,
-      "first_seen": "2025-06-15",
-      "last_seen": "2025-06-15",
-      "rank": 113
-    },
-    {
       "domain": "gto76.github.io",
       "links": 1,
       "weeknotes": 1,
       "weeknotes_share": 0.0123,
       "first_seen": "2025-07-13",
       "last_seen": "2025-07-13",
-      "rank": 114
+      "rank": 113
     },
     {
       "domain": "guy-evans.com",
@@ -1041,7 +1034,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-08-23",
       "last_seen": "2026-08-23",
-      "rank": 115
+      "rank": 114
     },
     {
       "domain": "hub.fosstodon.org",
@@ -1050,7 +1043,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-05-11",
       "last_seen": "2025-05-11",
-      "rank": 116
+      "rank": 115
     },
     {
       "domain": "infoworld.com",
@@ -1059,7 +1052,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-05-18",
       "last_seen": "2025-05-18",
-      "rank": 117
+      "rank": 116
     },
     {
       "domain": "inkdependence.com",
@@ -1068,7 +1061,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-04-05",
       "last_seen": "2026-04-05",
-      "rank": 118
+      "rank": 117
     },
     {
       "domain": "jakewharton.com",
@@ -1077,7 +1070,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-05-11",
       "last_seen": "2025-05-11",
-      "rank": 119
+      "rank": 118
     },
     {
       "domain": "jefftriplett.com",
@@ -1086,7 +1079,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-07-26",
       "last_seen": "2026-07-26",
-      "rank": 120
+      "rank": 119
     },
     {
       "domain": "johnhorner.uk",
@@ -1095,7 +1088,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-06-01",
       "last_seen": "2025-06-01",
-      "rank": 121
+      "rank": 120
     },
     {
       "domain": "judy.co.uk",
@@ -1104,7 +1097,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-08-03",
       "last_seen": "2025-08-03",
-      "rank": 122
+      "rank": 121
     },
     {
       "domain": "linevariation.blot.im",
@@ -1113,7 +1106,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-09-14",
       "last_seen": "2025-09-14",
-      "rank": 123
+      "rank": 122
     },
     {
       "domain": "macrumors.com",
@@ -1122,7 +1115,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-04-27",
       "last_seen": "2025-04-27",
-      "rank": 124
+      "rank": 123
     },
     {
       "domain": "maho.dev",
@@ -1131,7 +1124,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-08-09",
       "last_seen": "2026-08-09",
-      "rank": 125
+      "rank": 124
     },
     {
       "domain": "marcogomiero.com",
@@ -1140,7 +1133,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-06-21",
       "last_seen": "2026-06-21",
-      "rank": 126
+      "rank": 125
     },
     {
       "domain": "marcthiele.com",
@@ -1149,7 +1142,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-04-05",
       "last_seen": "2026-04-05",
-      "rank": 127
+      "rank": 126
     },
     {
       "domain": "mastodon.social",
@@ -1158,7 +1151,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-05-18",
       "last_seen": "2025-05-18",
-      "rank": 128
+      "rank": 127
     },
     {
       "domain": "mattlayman.com",
@@ -1167,7 +1160,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-06-22",
       "last_seen": "2025-06-22",
-      "rank": 129
+      "rank": 128
     },
     {
       "domain": "matuzo.at",
@@ -1176,7 +1169,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-06-21",
       "last_seen": "2026-06-21",
-      "rank": 130
+      "rank": 129
     },
     {
       "domain": "medium.com",
@@ -1185,7 +1178,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-04-05",
       "last_seen": "2026-04-05",
-      "rank": 131
+      "rank": 130
     },
     {
       "domain": "moritzfuerst.net",
@@ -1194,7 +1187,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-04-13",
       "last_seen": "2025-04-13",
-      "rank": 132
+      "rank": 131
     },
     {
       "domain": "mutantcybernetics.gitlab.io",
@@ -1203,7 +1196,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-06-01",
       "last_seen": "2025-06-01",
-      "rank": 133
+      "rank": 132
     },
     {
       "domain": "mxb.dev",
@@ -1212,7 +1205,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-04-20",
       "last_seen": "2025-04-20",
-      "rank": 134
+      "rank": 133
     },
     {
       "domain": "neustadt.fr",
@@ -1221,7 +1214,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-04-05",
       "last_seen": "2026-04-05",
-      "rank": 135
+      "rank": 134
     },
     {
       "domain": "newsletters.feedbinusercontent.com",
@@ -1230,7 +1223,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-06-07",
       "last_seen": "2026-06-07",
-      "rank": 136
+      "rank": 135
     },
     {
       "domain": "nicchan.me",
@@ -1239,7 +1232,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-07-27",
       "last_seen": "2025-07-27",
-      "rank": 137
+      "rank": 136
     },
     {
       "domain": "notes.ghed.in",
@@ -1248,7 +1241,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-04-27",
       "last_seen": "2025-04-27",
-      "rank": 138
+      "rank": 137
     },
     {
       "domain": "notes.krueger.ink",
@@ -1257,7 +1250,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-08-03",
       "last_seen": "2025-08-03",
-      "rank": 139
+      "rank": 138
     },
     {
       "domain": "nrennie.rbind.io",
@@ -1266,7 +1259,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-08-03",
       "last_seen": "2025-08-03",
-      "rank": 140
+      "rank": 139
     },
     {
       "domain": "nubecolectiva.com",
@@ -1275,7 +1268,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-09-21",
       "last_seen": "2025-09-21",
-      "rank": 141
+      "rank": 140
     },
     {
       "domain": "palant.info",
@@ -1284,7 +1277,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-04-20",
       "last_seen": "2025-04-20",
-      "rank": 142
+      "rank": 141
     },
     {
       "domain": "paperblogging.com",
@@ -1293,7 +1286,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-05-04",
       "last_seen": "2025-05-04",
-      "rank": 143
+      "rank": 142
     },
     {
       "domain": "passo.uno",
@@ -1302,7 +1295,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-04-12",
       "last_seen": "2026-04-12",
-      "rank": 144
+      "rank": 143
     },
     {
       "domain": "paulox.net",
@@ -1311,7 +1304,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-10-12",
       "last_seen": "2025-10-12",
-      "rank": 145
+      "rank": 144
     },
     {
       "domain": "penchalet.com",
@@ -1320,7 +1313,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-11-16",
       "last_seen": "2025-11-16",
-      "rank": 146
+      "rank": 145
     },
     {
       "domain": "peterbabic.dev",
@@ -1329,7 +1322,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-06-01",
       "last_seen": "2025-06-01",
-      "rank": 147
+      "rank": 146
     },
     {
       "domain": "programmingmylife.com",
@@ -1338,7 +1331,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-05-11",
       "last_seen": "2025-05-11",
-      "rank": 148
+      "rank": 147
     },
     {
       "domain": "puvvadi.net",
@@ -1347,7 +1340,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-09-20",
       "last_seen": "2026-09-20",
-      "rank": 149
+      "rank": 148
     },
     {
       "domain": "pypi.org",
@@ -1356,7 +1349,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-03-23",
       "last_seen": "2025-03-23",
-      "rank": 150
+      "rank": 149
     },
     {
       "domain": "racheldelafuente.com",
@@ -1365,7 +1358,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-06-22",
       "last_seen": "2025-06-22",
-      "rank": 151
+      "rank": 150
     },
     {
       "domain": "reddit.com",
@@ -1374,7 +1367,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-04-05",
       "last_seen": "2026-04-05",
-      "rank": 152
+      "rank": 151
     },
     {
       "domain": "rediscoveranalog.com",
@@ -1383,7 +1376,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-10-26",
       "last_seen": "2025-10-26",
-      "rank": 153
+      "rank": 152
     },
     {
       "domain": "renecoignard.com",
@@ -1392,7 +1385,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-12-07",
       "last_seen": "2025-12-07",
-      "rank": 154
+      "rank": 153
     },
     {
       "domain": "robinrendle.com",
@@ -1401,7 +1394,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-03-01",
       "last_seen": "2026-03-01",
-      "rank": 155
+      "rank": 154
     },
     {
       "domain": "ruk.ca",
@@ -1410,7 +1403,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-06-15",
       "last_seen": "2025-06-15",
-      "rank": 156
+      "rank": 155
     },
     {
       "domain": "rupertarzeian.com",
@@ -1419,7 +1412,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-10-26",
       "last_seen": "2025-10-26",
-      "rank": 157
+      "rank": 156
     },
     {
       "domain": "rusingh.com",
@@ -1428,7 +1421,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-09-27",
       "last_seen": "2026-09-27",
-      "rank": 158
+      "rank": 157
     },
     {
       "domain": "scrapfly.io",
@@ -1437,7 +1430,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-05-03",
       "last_seen": "2026-05-03",
-      "rank": 159
+      "rank": 158
     },
     {
       "domain": "scream.today",
@@ -1446,7 +1439,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-05-25",
       "last_seen": "2025-05-25",
-      "rank": 160
+      "rank": 159
     },
     {
       "domain": "shellsharks.com",
@@ -1455,7 +1448,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-02-01",
       "last_seen": "2026-02-01",
-      "rank": 161
+      "rank": 160
     },
     {
       "domain": "squidfunk.github.io",
@@ -1464,7 +1457,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-05-03",
       "last_seen": "2026-05-03",
-      "rank": 162
+      "rank": 161
     },
     {
       "domain": "stainless.com",
@@ -1473,7 +1466,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-04-05",
       "last_seen": "2026-04-05",
-      "rank": 163
+      "rank": 162
     },
     {
       "domain": "steele.blue",
@@ -1482,7 +1475,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-09-06",
       "last_seen": "2026-09-06",
-      "rank": 164
+      "rank": 163
     },
     {
       "domain": "substack.com",
@@ -1491,7 +1484,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-03-15",
       "last_seen": "2026-03-15",
-      "rank": 165
+      "rank": 164
     },
     {
       "domain": "sujee.dev",
@@ -1500,7 +1493,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-08-03",
       "last_seen": "2025-08-03",
-      "rank": 166
+      "rank": 165
     },
     {
       "domain": "support.mozilla.org",
@@ -1509,7 +1502,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-06-01",
       "last_seen": "2025-06-01",
-      "rank": 167
+      "rank": 166
     },
     {
       "domain": "techcrunch.com",
@@ -1518,7 +1511,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-04-27",
       "last_seen": "2025-04-27",
-      "rank": 168
+      "rank": 167
     },
     {
       "domain": "theguardian.com",
@@ -1527,7 +1520,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-12-14",
       "last_seen": "2025-12-14",
-      "rank": 169
+      "rank": 168
     },
     {
       "domain": "thertwguys.com",
@@ -1536,7 +1529,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-04-06",
       "last_seen": "2025-04-06",
-      "rank": 170
+      "rank": 169
     },
     {
       "domain": "vatican.va",
@@ -1545,7 +1538,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-06-07",
       "last_seen": "2026-06-07",
-      "rank": 171
+      "rank": 170
     },
     {
       "domain": "vice.com",
@@ -1554,7 +1547,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-05-11",
       "last_seen": "2025-05-11",
-      "rank": 172
+      "rank": 171
     },
     {
       "domain": "victoria.dev",
@@ -1563,7 +1556,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-04-20",
       "last_seen": "2025-04-20",
-      "rank": 173
+      "rank": 172
     },
     {
       "domain": "werd.io",
@@ -1572,7 +1565,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2025-12-14",
       "last_seen": "2025-12-14",
-      "rank": 174
+      "rank": 173
     },
     {
       "domain": "wychwitch.neocities.org",
@@ -1581,7 +1574,7 @@
       "weeknotes_share": 0.0123,
       "first_seen": "2026-04-05",
       "last_seen": "2026-04-05",
-      "rank": 175
+      "rank": 174
     }
   ]
 }

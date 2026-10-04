@@ -4,7 +4,7 @@ MAKE_POST := uv run python3 action_script/make_post
 	develop developfuture developall broadcast build \
 	new micro now notebook notebook_editor weekly characters meet event eventi \
 	anime photo_exif automation autotag send_webmention weeknote_webmentions \
-	weeknote_webmentions_year hydra deploy deploy_prod precommit changelog
+	weeknote_webmentions_year weeknote_stats hydra deploy deploy_prod precommit changelog
 
 help: ## Show this help
 	@egrep -h '\s##\s' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
@@ -121,6 +121,9 @@ weeknote_webmentions: ## Send webmentions for the latest weeknote post
 
 weeknote_webmentions_year: ## Send webmentions for all weeknote posts of the current year
 	@uv run python action_script/send_weeknote_webmentions.py $$(date +%Y)
+
+weeknote_stats: ## Recalculate the most linked blogs in weeknotes
+	@uv run python action_script/weeknote_stats.py
 
 hydra: ## Check links
 	@python hydra.py http://localhost:1313/ --config ./hydra-config.json
