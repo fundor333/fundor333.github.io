@@ -1,12 +1,25 @@
 ---
-title: "Week Note Nº 40/2026"
-date: "2026-10-04T09:00:00+01:00"
-lastmod: "2026-10-04T09:00:00+01:00"
-tags: ["weeknote"]
-type : "weeknote"
-summary: "Personal notes for week 40 of 2026"
-description: "Personal notes for week 40 of 2026"
-draft: False
+title: Week Note Nº 40/2026
+date: '2026-10-04T09:00:00+01:00'
+lastmod: '2026-10-04T09:00:00+01:00'
+tags:
+- weeknote
+type: weeknote
+summary: Personal notes for week 40 of 2026
+description: Personal notes for week 40 of 2026
+draft: false
+keywords:
+- Django
+- Apple-app-site-association
+- assetlinks.json
+- Zsh
+- glob
+- Git
+- GitHub
+- Anime
+- Manga
+- Programming
+- Technology
 ---
 
 
