@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "How I Run a Calibre Server on Proxmox Lxc Nginx Proxy Manager and Local Https"
+date: 2026-10-05T15:43:55+02:00
 draft: true
 feature_link: https://matteoscarpa.it/
 feature_text: by Fundor333/Matteo Scarpa/Me
@@ -21,7 +21,6 @@ tags:
 - bot
 - bridgy
 - coding
-- command line
 - command-line
 - convention
 - csv
@@ -31,8 +30,6 @@ tags:
 - dev
 - devops
 - django
-- django filter
-- django rest framework
 - django-filter
 - django-filters
 - django-rest-framework
@@ -46,13 +43,9 @@ tags:
 - flask
 - git
 - github
-- github actiom
-- github copilot
 - github-actiom
 - github-copilot
 - gitops
-- google api
-- google drive
 - google-api
 - google-drive
 - graphql
@@ -125,23 +118,14 @@ tags:
 - webring
 - zsh
 categories:
-- dev
-- fingerfood
 - hacking
-- rant
-- tinkering
 series:
-- A dev need a blog
-- Data and Data Tools
-- Django tricks
 - Hacking and custumize stuffs
-- Horror stories
-- Hugo tricks
-- Indiweb, webmentions and friends
 - My Home Automation Lab
-- Pelican for my site
-- Printing With ReportLab
-- Python's Reptile Env
-- Tech News
 ---
+Installa Autocaliweb
+bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/autocaliweb.sh)"
+
+Annota il nuovo ID del container e il suo IP.
 
