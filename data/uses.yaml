@@ -1,0 +1,152 @@
+# Data for the /uses page, rendered by the `uses` shortcode.
+# Each group is called by key: {{< uses "canon" >}}
+# layout: kit (photo, photo mosaic or glyph panel + spec list) | cards (photo cards) | chips (pills)
+# image: page resource in content/uses/
+
+canon:
+  layout: kit
+  image: eos-r5.png
+  items:
+    - name: Canon EOS R5
+      kind: Body
+      url: https://www.canon.it/cameras/eos-r5/
+    - name: Canon RF 50mm F1.8 STM
+      kind: Prime
+      url: https://www.canon.it/lenses/rf-50mm-f1-8-stm/
+    - name: Canon RF 24-105mm F4L IS USM
+      kind: Zoom
+      url: https://www.canon.it/lenses/canon-rf-24-105mm-f-4l-is-usm-lens/
+    - name: Canon RF 24-70mm F2.8L IS USM
+      kind: Zoom
+      url: https://www.canon.it/lenses/rf-24-70mm-f2-8l-usm-lens/
+    - name: Canon RF 70-200mm F2.8L IS USM
+      kind: Tele
+      url: https://www.canon.it/lenses/rf-70-200mm-f2-8l-is-usm-lens/
+
+fuji:
+  layout: kit
+  image: fujifilm_xt30_ii.jpg
+  items:
+    - name: FujiFilm X-T30 II
+      kind: Body
+      url: https://fujifilm-x.com/it-it/products/cameras/x-t30-ii/
+    - name: Fujinon XF18-55mm F2.8-4 R LM OIS
+      kind: Zoom
+      url: https://fujifilm-x.com/it-it/products/lenses/xf18-55mmf28-4-r-lm-ois/
+    - name: TTArtisan 35mm F1.4 APS-C
+      kind: Prime
+      url: https://ttartisan.com/?aps-c-lenses/Tilt-C-35.html
+
+photo-gadget:
+  layout: chips
+  items:
+    - name: SanDisk 128GB Extreme PRO
+      kind: Card
+      url: https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/sandisk/product/memory-cards/extreme-pro-uhs-ii-sd/data-sheet-extreme-pro-uhs-ii-sd.pdf
+
+hardware:
+  layout: kit
+  image: [split65_pic.jpg, MOJO68_Advance.png, blue_yeti.png]
+  items:
+    - name: Epomaker Split 65
+      kind: Keyboard
+      url: https://epomaker.com/products/epomaker-split-65
+    - name: MelGeek MOJO68 Advance
+      kind: Keyboard
+      url: https://www.melgeek.com/products/melgeek-mojo68-plastic-advance-see-through-custom-programmable-mechanical-keyboard
+    - name: Blue Yeti
+      kind: Mic
+      url: https://www.amazon.it/gp/product/B01LY6Z2M6
+    - name: Smol Lab Keycaps
+      kind: Keycaps
+      url: https://smollab.co/
+
+software:
+  layout: kit
+  glyph: "{ }"
+  caption: code --list-extensions
+  items:
+    - name: VS Code
+      kind: Editor
+      url: https://code.visualstudio.com/
+    - name: Python
+      kind: Ext
+      url: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+    - name: DevGPT
+      kind: Ext
+      url: https://marketplace.visualstudio.com/items?itemName=bogdanaks.devgpt
+    - name: Remote SSH
+      kind: Ext
+      url: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
+    - name: One Dark Pro
+      kind: Theme
+      url: https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme
+    - name: EditorConfig
+      kind: Ext
+      url: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+    - name: .ENV Switcher
+      kind: Ext
+      url: https://marketplace.visualstudio.com/items?itemName=EcksDy.env-switcher
+    - name: Peacock
+      kind: Ext
+      url: https://www.peacockcode.dev/
+
+fonts:
+  layout: kit
+  glyph: Aa
+  caption: 0O il1 => != ->
+  items:
+    - name: MonoLisa
+      kind: Mono
+      url: https://www.monolisa.dev/
+    - name: JetBrains Mono
+      kind: Mono
+      url: https://www.jetbrains.com/lp/mono/
+    - name: Fira Code
+      kind: Mono
+      url: https://github.com/tonsky/FiraCode
+    - name: Operator Mono
+      kind: Mono
+      url: https://www.typography.com/fonts/operator/styles
+
+gadget:
+  layout: chips
+  items:
+    - name: Rubber Duck for Debugging · Oscar, Knight of Astora
+      kind: Duck
+      url: https://tubbz.com/collections/dark-souls-tubbz/products/dark-souls-oscar-knight-of-astora-tubbz-cosplaying-duck-collectible
+
+homelab-hardware:
+  layout: kit
+  image: homelab.jpg
+  items:
+    - name: ZimaBoard 2
+      kind: Server
+      url: https://www.zimaspace.com/it/products/single-board2-server
+    - name: WD Red Plus 4TB · ×2 in RAID1
+      kind: HDD
+      url: https://www.westerndigital.com/products/internal-drives/wd-red-plus-sata-3-5-hdd?sku=WD40EFZZ
+
+homelab-software:
+  layout: kit
+  glyph: "~#"
+  caption: pve · lxc · https
+  items:
+    - name: Proxmox VE
+      kind: OS
+      url: https://pve.proxmox.com/wiki/Main_Page
+    - name: Nginx Proxy Manager
+      kind: Proxy
+      url: https://nginxproxymanager.com/
+    - name: AdGuard Home
+      kind: DNS
+      url: https://adguard.com/
+    - name: Autocaliweb
+      kind: eBooks
+      url: https://github.com/gelbphoenix/autocaliweb
+    - name: FreshRSS
+      kind: Feed Aggregator
+      url: https://freshrss.org/index.html
+    - name: Cloudflare
+      kind: Certs
+      url: https://www.cloudflare.com/

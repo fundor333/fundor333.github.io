@@ -1,0 +1,138 @@
+{{- /* Renders one group of data/uses.yaml: {{< uses "canon" >}} */ -}}
+{{- $key := .Get 0 -}}
+{{- $group := index site.Data.uses $key -}}
+{{- if not $group }}{{ errorf "uses shortcode: unknown group %q in %s" $key .Position }}{{ end -}}
+{{- $page := .Page -}}
+
+{{- if not ($page.Store.Get "uses-css") }}
+{{- $page.Store.Set "uses-css" true }}
+<style>
+  /* undo the theme's prose list furniture (▸ markers, li + li spacing) */
+  ol.uses-list > li, ul.uses-cards > li, ul.uses-chips > li { margin: 0; }
+  ol.uses-list > li::marker, ul.uses-cards > li::marker, ul.uses-chips > li::marker { content: none; }
+  ol.uses-list, ul.uses-cards, ul.uses-chips { padding-left: 0; }
+
+  .uses-kind { display: inline-block; font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em;
+    font-weight: 600; text-transform: uppercase; color: var(--c-primary); }
+
+  /* kit: photo (or mosaic, or glyph panel) + spec list */
+  .uses-kit { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); margin: 1rem 0 2.5rem;
+    border: 1px solid var(--c-border); border-radius: var(--radius-panel, 0.75rem); overflow: hidden; background: var(--c-surface); }
+  .uses-kit .uses-photo { position: relative; min-height: 16rem; overflow: hidden; }
+  .uses-kit .uses-photo img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; margin: 0; object-fit: cover; }
+  .uses-kit .uses-photo::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(90deg, transparent 55%, var(--c-surface)); }
+  .uses-kit .uses-mosaic { display: grid; grid-template-columns: 1.4fr 1fr; grid-auto-rows: 1fr; gap: 2px; background: var(--c-border); }
+  .uses-kit .uses-mosaic img { position: static; min-height: 0; }
+  .uses-kit .uses-mosaic img:first-child { grid-row: span 2; }
+  .uses-kit .uses-glyph { display: grid; place-content: center; gap: 0.75rem; text-align: center; padding: 2rem;
+    background: radial-gradient(circle at 30% 25%, color-mix(in srgb, var(--c-primary) 22%, transparent), transparent 65%), var(--c-background); }
+  .uses-glyph b { font-family: var(--font-display); font-weight: 400; font-size: clamp(4rem, 12vw, 6.5rem); line-height: 1;
+    color: var(--c-primary); text-shadow: 0 0 2rem color-mix(in srgb, var(--c-primary) 45%, transparent); }
+  .uses-glyph span { font-family: var(--font-mono); font-size: 0.85rem; letter-spacing: 0.08em; color: var(--c-inactive); }
+  .uses-kit ol { list-style: none; margin: 0; padding: 0.5rem 0; counter-reset: uses; align-self: center; }
+  .uses-kit li { counter-increment: uses; margin: 0; }
+  .uses-kit li a { display: grid; grid-template-columns: 2rem 1fr auto; align-items: baseline; gap: 0.5rem;
+    padding: 0.7rem 1.25rem; text-decoration: none; color: var(--c-content); font-family: var(--font-sans); font-weight: 600;
+    border-left: 2px solid transparent; transition: background-color 160ms var(--ease-standard), border-color 160ms var(--ease-standard); }
+  .uses-kit li a::before { content: counter(uses, decimal-leading-zero); font-family: var(--font-mono); font-size: 0.75rem; color: var(--c-inactive); }
+  .uses-kit li + li a { border-top: 1px solid var(--c-border); }
+  .uses-kit li:first-child a { font-family: var(--font-display); font-weight: 400; }
+
+  /* cards: photo cards */
+  .uses-cards { list-style: none; padding: 0; margin: 1rem 0 2.5rem; display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: 1rem; }
+  .uses-cards li { margin: 0; position: relative; display: flex; flex-direction: column; overflow: hidden;
+    border: 1px solid var(--c-border); border-radius: var(--radius-panel, 0.75rem); background: var(--c-surface);
+    transition: transform 200ms var(--ease-standard), border-color 200ms var(--ease-standard); }
+  .uses-cards .uses-photo { aspect-ratio: 4 / 3; overflow: hidden; background: var(--c-background); }
+  .uses-cards .uses-photo img { width: 100%; height: 100%; max-width: none; margin: 0; object-fit: cover; display: block;
+    transition: transform 400ms var(--ease-standard); }
+  .uses-cards .uses-photo.uses-empty { display: grid; place-items: center; font-family: var(--font-display); font-size: 3rem;
+    color: var(--c-border); background: radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--c-primary) 18%, transparent), transparent 60%), var(--c-background); }
+  .uses-cards .uses-body { padding: 0.8rem 1rem 1rem; display: flex; flex-direction: column; gap: 0.2rem; }
+  .uses-cards a { text-decoration: none; color: var(--c-content); font-weight: 600; line-height: 1.25; }
+  .uses-cards a::after { content: ""; position: absolute; inset: 0; } /* whole card is the link */
+
+  /* chips: pills */
+  .uses-chips { list-style: none; padding: 0; margin: 0.75rem 0 2rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .uses-chips li { margin: 0; }
+  .uses-chips a { display: inline-flex; align-items: baseline; gap: 0.5rem; padding: 0.4rem 0.9rem; border-radius: 999px;
+    border: 1px solid var(--c-border); background: var(--c-surface); color: var(--c-content); text-decoration: none;
+    font-family: var(--font-sans); font-weight: 600; transition: border-color 160ms var(--ease-standard), color 160ms var(--ease-standard); }
+
+  .uses-kit a:focus-visible, .uses-chips a:focus-visible { outline: 2px solid var(--c-primary); outline-offset: -2px; }
+  .uses-cards li:has(a:focus-visible) { outline: 2px solid var(--c-primary); outline-offset: 2px; }
+
+  @media (hover: hover) and (pointer: fine) {
+    .uses-kit li a:hover { background: color-mix(in srgb, var(--c-primary) 8%, transparent); border-left-color: var(--c-primary); }
+    .uses-cards li:has(a:hover) { transform: translateY(-3px); border-color: var(--c-primary); }
+    .uses-cards li:has(a:hover) .uses-photo img { transform: scale(1.04); }
+    .uses-chips a:hover { border-color: var(--c-primary); color: var(--c-primary); }
+  }
+  @media (max-width: 40rem) {
+    .uses-kit { grid-template-columns: 1fr; }
+    .uses-kit .uses-photo { min-height: 0; aspect-ratio: 4 / 3; }
+    .uses-kit .uses-glyph { aspect-ratio: auto; padding: 2.5rem 1rem 1.5rem; }
+    .uses-kit .uses-photo::after { background: linear-gradient(180deg, transparent 60%, var(--c-surface)); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .uses-kit li a, .uses-cards li, .uses-cards .uses-photo img, .uses-chips a { transition: none; }
+    .uses-cards li:has(a:hover), .uses-cards li:has(a:hover) .uses-photo img { transform: none; }
+  }
+</style>
+{{- end }}
+
+{{- define "_partials/inline/uses-img.html" }}
+  {{- with .page.Resources.Get .src }}
+    {{- $img := . }}
+    {{- if ne .MediaType.SubType "svg" }}{{ $img = .Resize (printf "%dx webp" $.width) }}{{ end }}
+    <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $.alt }}" loading="lazy" decoding="async">
+  {{- else }}
+    {{- errorf "uses shortcode: image %q not found" .src }}
+  {{- end }}
+{{- end }}
+
+{{- if eq $group.layout "kit" }}
+<div class="uses-kit">
+  {{- $imgs := slice }}{{ with $group.image }}{{ $imgs = $imgs | append . }}{{ end }}
+  {{- with $group.glyph }}
+  <div class="uses-photo uses-glyph" aria-hidden="true"><b>{{ . }}</b>{{ with $group.caption }}<span>{{ . }}</span>{{ end }}</div>
+  {{- else }}
+  <div class="uses-photo{{ if gt (len $imgs) 1 }} uses-mosaic{{ end }}">
+    {{- range $i, $src := $imgs }}
+    {{- partial "inline/uses-img.html" (dict "page" $page "src" $src "width" (cond (eq $i 0) 900 500) "alt" (cond (eq $i 0) (index $group.items 0).name "")) }}
+    {{- end }}
+  </div>
+  {{- end }}
+  <ol class="uses-list">
+    {{- range $group.items }}
+    <li><a href="{{ .url }}"><span>{{ .name }}</span>{{ with .kind }}<span class="uses-kind">{{ . }}</span>{{ end }}</a></li>
+    {{- end }}
+  </ol>
+</div>
+
+{{- else if eq $group.layout "cards" }}
+<ul class="uses-cards">
+  {{- range $group.items }}
+  <li>
+    {{- with .image }}
+    <div class="uses-photo">{{ partial "inline/uses-img.html" (dict "page" $page "src" . "width" 640 "alt" "") }}</div>
+    {{- else }}
+    <div class="uses-photo uses-empty" aria-hidden="true">{{ substr .name 0 1 }}</div>
+    {{- end }}
+    <div class="uses-body">
+      {{- with .kind }}<span class="uses-kind">{{ . }}</span>{{ end }}
+      <a href="{{ .url }}">{{ .name }}</a>
+    </div>
+  </li>
+  {{- end }}
+</ul>
+
+{{- else }}
+<ul class="uses-chips">
+  {{- range $group.items }}
+  <li><a href="{{ .url }}">{{ with .kind }}<span class="uses-kind">{{ . }}</span>{{ end }}{{ .name }}</a></li>
+  {{- end }}
+</ul>
+{{- end }}

@@ -7,7 +7,7 @@ summary: A listing of all the styles and elements used on this site
 
 Inspired by [json.blog's style guide](https://json.blog/style-guide/) and, in turn, [The Frugal Gamer](https://www.thefrugalgamer.net/styleGuide.php), a (not so[^notso]) comprehensive listing of all possible styles and elements on this site.
 
-The site runs the **CyberLavandaTea** theme (v1.3.1): dark only, two accent hues (a green and a blue), display headings in *Audiowide*, body text in *Rajdhani*.
+The site runs the **CyberLavandaTea** theme (v1.4.0): dark only, two accent hues (a green and a blue), display headings in *Audiowide*, body text in *Rajdhani*.
 
 [^notso]: Actually, this is also not comprehensive. If you find I forgot something ping me and I will fix it
 
@@ -118,6 +118,30 @@ def combine_first_and_last(numbers: list[str]) -> str:
 def sum_lines(lines: list[str]) -> int:
     return sum(int(line) for line in lines)
 ```
+
+### Gear lists
+
+The [Uses](/uses/) page doesn't use plain lists: each group of gear comes from a data file and is drawn by a `uses` shortcode, in one of three shapes.
+
+#### Kit
+
+A panel on the left and a numbered spec list on the right, like a camera body and its lenses. The first item is the "body", set in the display face; the others are its accessories. Each one can carry a small green tag (`BODY`, `ZOOM`, `EXT`…). The panel can be a product photo, a mosaic of photos, or, when there's nothing to photograph, a big green glyph with a mono caption:
+
+{{< uses "fonts" >}}
+
+On narrow screens the panel moves above the list.
+
+#### Chips
+
+For things that don't need a picture: compact pills, with the tag as a prefix.
+
+{{< uses "photo-gadget" >}}
+
+#### Cards
+
+A grid of photo cards where the whole card is the link. On hover the card lifts, its border turns green and the photo zooms slightly. A card without a photo shows the item's initial on a faint green glow.
+
+All three reuse the same tokens as the rest of the site, so they stay inside the two accent hues. Hover effects only apply with a mouse, and they switch off when the system asks for reduced motion.
 
 ### Color Guide
 
