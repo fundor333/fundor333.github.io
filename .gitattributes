@@ -1,0 +1,62 @@
+# Normalizza i file di testo a LF (coerente con .editorconfig)
+* text=auto eol=lf
+
+# Sorgenti e contenuti
+*.md          text diff=markdown
+*.html        text diff=html
+*.xml         text
+*.xsl         text
+*.svg         text
+*.css         text diff=css
+*.scss        text diff=css
+*.js          text
+*.json        text
+*.webmanifest text
+*.py          text diff=python
+*.ipynb       text
+*.toml        text
+*.yaml        text
+*.yml         text
+*.csv         text
+*.txt         text
+*.sh          text eol=lf
+makefile      text
+Makefile      text
+CNAME         text
+.editorconfig text
+.gitignore    text
+.gitattributes text
+.gitmodules   text
+.flake8       text
+.imgbotconfig text
+go.mod        text
+go.sum        text -diff
+
+# File generati / lock: niente diff rumorosi
+package-lock.json  text -diff linguist-generated
+uv.lock            text -diff linguist-generated
+*.min.js           text -diff
+*.map              text -diff linguist-generated
+resources/_gen/**  linguist-generated
+
+# Binari
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.heic  binary
+*.ico   binary
+*.ttf   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+*.eot   binary
+*.pdf   binary
+*.zip   binary
+*.mp3   binary
+*.mp4   binary
+static/.well-known/avatar binary
+
+# Statistiche linguaggi su GitHub
+*.ipynb linguist-documentation
