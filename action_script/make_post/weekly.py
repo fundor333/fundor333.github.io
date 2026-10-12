@@ -1,4 +1,5 @@
 import datetime
+import os
 from pathlib import Path
 
 from cover import generate_img
@@ -6,7 +7,9 @@ from cover import generate_img
 
 def weeklycover() -> None:
     print("Make a weekly cover")
-    today = datetime.datetime.now()
+    # WEEKNOTE_DATE (YYYY/MM/DD) fissa la settimana, come "-t" di weeknote
+    weeknote_date = os.environ.get("WEEKNOTE_DATE")
+    today = datetime.datetime.strptime(weeknote_date, "%Y/%m/%d") if weeknote_date else datetime.datetime.now()
     year = today.strftime("%Y")
     week = str(int(today.strftime("%W")) + 1)
     target_dir = Path(f"content/weeknotes/{year}/{week}")

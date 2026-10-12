@@ -6,10 +6,12 @@ concurrency:
 on:
   # Testa della catena: la domenica il weekly parte per primo e tutti gli altri
   # workflow del gruppo "cron-pipeline" restano in attesa che finisca.
-  # Orari in Europe/Rome, convertiti in UTC (ora solare, +1h in ora legale).
+  # Orari in UTC (Europe/Rome: +1h in ora solare, +2h in ora legale).
+  # GitHub può ritardare i cron anche di ore, quindi la run notturna può partire
+  # di lunedì: lo step "Data della weekly" la riporta sempre alla domenica.
   schedule:
-    - cron: "15 5 * * 0" # 06:15 Europe/Rome, domenica
-    - cron: "30 22 * * 0" # 23:30 Europe/Rome, domenica
+    - cron: "15 5 * * 0" # domenica mattina
+    - cron: "30 22 * * 0" # domenica notte, rigenera con le aggiunte dalle API
   workflow_dispatch:
 jobs:
   # Task di generazione: nel grafo delle Actions è un nodo a sé, con i suoi log
@@ -29,6 +31,15 @@ jobs:
 
       - name: Install dependencies
         run: uv sync
+
+      # Run schedulate: usa la domenica più recente (Europe/Rome), così una run
+      # slittata a lunedì rigenera la weekly di domenica invece di crearne una
+      # nuova. Le run manuali usano la data corrente.
+      - name: Data della weekly
+        if: github.event_name == 'schedule'
+        run: |
+          export TZ=Europe/Rome
+          echo "WEEKNOTE_DATE=$(date -d "-$(date +%w) days" +%Y/%m/%d)" >> "$GITHUB_ENV"
 
       - name: Generate Weekly
         run: make weekly

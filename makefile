@@ -84,7 +84,7 @@ notebook_editor: ## Run the notebook editor
 	@uv run jupyter lab .
 
 weekly: ## Weekly script
-	@uv run weeknote -config weeknote-config.json
+	@uv run weeknote -config weeknote-config.json $(if $(WEEKNOTE_DATE),-t $(WEEKNOTE_DATE))
 	@$(MAKE_POST) weekly_cover
 
 characters: ## Sorting characters
