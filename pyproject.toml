@@ -3,7 +3,7 @@ name = "fundor333-github-io"
 version = "1.0.0"
 description = ""
 authors = [{ name = "Fundor333", email = "fundor333@fundor333.com" }]
-requires-python = "~=3.14.5"
+requires-python = ">=3.14.5"
 readme = "README.md"
 dependencies = [
     "feedparser",
@@ -14,7 +14,7 @@ dependencies = [
     "beautifulsoup4",
     "pyyaml",
     "lxml",
-    "typer[all]",
+    "typer",
     "python-frontmatter",
     "bleach",
     "pandas",
@@ -33,7 +33,7 @@ dev = [
     "langchain>=0.3.27",
     "langchain-ollama>=0.3.7",
     "pre-commit>=4.1.0,<5",
-        "git-cliff>=2.12.0",
+    "git-cliff>=2.12.0",
 ]
 
 
@@ -73,7 +73,6 @@ convention = "google"
 
 [tool.ruff.lint.mccabe]
 max-complexity = 18
-
 
 
 [tool.git-cliff.changelog]
