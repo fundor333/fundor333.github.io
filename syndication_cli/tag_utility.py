@@ -1,8 +1,6 @@
 import re
 from pathlib import Path
 
-import ollama
-
 
 def genera_tag_seo(testo_input, numero=10):
     # Definizione del prompt per istruire il modello
@@ -15,6 +13,9 @@ def genera_tag_seo(testo_input, numero=10):
     """
 
     try:
+        # Import locale: ollama e' una dipendenza dev, assente nelle Actions.
+        import ollama
+
         response = ollama.generate(model="llama3", prompt=prompt)
 
         return response["response"].strip()
