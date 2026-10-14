@@ -12,6 +12,11 @@ on:
       - main
     types:
       - completed
+# Le dipendenze dev (langchain -> ormsgpack) non hanno wheel per Python 3.15
+# e non servono agli script schedulati: vale sia per `uv sync` sia per `uv run`.
+env:
+  UV_NO_DEV: "1"
+
 jobs:
   # Task di elaborazione: nel grafo delle Actions è un nodo a sé, con i suoi log
   # e il suo esito, separato dal commit.

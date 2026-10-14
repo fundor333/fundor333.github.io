@@ -13,6 +13,11 @@ on:
     - cron: "15 5 * * 0" # domenica mattina
     - cron: "30 22 * * 0" # domenica notte, rigenera con le aggiunte dalle API
   workflow_dispatch:
+# Le dipendenze dev (langchain -> ormsgpack) non hanno wheel per Python 3.15
+# e non servono agli script schedulati: vale sia per `uv sync` sia per `uv run`.
+env:
+  UV_NO_DEV: "1"
+
 jobs:
   # Task di generazione: nel grafo delle Actions è un nodo a sé, con i suoi log
   # e il suo esito, separato dal commit.
