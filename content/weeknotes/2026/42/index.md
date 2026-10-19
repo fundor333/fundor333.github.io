@@ -14,6 +14,8 @@ draft: False
 - [Don’t Fix What’s Not Broken! – The Well-Appointed Desk](https://www.wellappointeddesk.com/2026/10/dont-fix-whats-not-broken/?utm_source=fundor333.com)
 - [Simon Collison | Coastal exposure](https://colly.com/journal/coastal-exposure?utm_source=fundor333.com)
 - [Jeff Triplett](https://jefftriplett.com/2026/moving-my-websites-from-jekyll-and-hugo-to-django/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 42/2026](https://fundor333.com/weeknotes/2026/42/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
