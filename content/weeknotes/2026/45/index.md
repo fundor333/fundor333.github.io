@@ -10,6 +10,8 @@ draft: False
 ---
 
 
+## New post from my blog
+- [Week Note Nº 45/2026](https://fundor333.com/weeknotes/2026/45/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
