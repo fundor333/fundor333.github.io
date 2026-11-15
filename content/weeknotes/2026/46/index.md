@@ -14,6 +14,8 @@ draft: False
 - [Seamless generation of WebP and AVIF images in Hugo | pawelgrzybek.com](https://pawelgrzybek.com/seamless-generation-of-webp-and-avif-images-in-hugo/?utm_source=fundor333.com)
 - [Pen Pals Stationery & Gift Shop - Shop Visit — The Pen Addict](https://www.penaddict.com/blog/2026/11/13/pen-pals-stationery-amp-gift-shop-shop-visit?utm_source=fundor333.com)
 - [Visit to Hachimonjiya Honten, Yamagata, Japan – Inkcredible Colours](https://inkcrediblecolours.com/2026/11/11/hachimonjiya-honten-yamagata-japan-2025/?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 46/2026](https://fundor333.com/weeknotes/2026/46/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
