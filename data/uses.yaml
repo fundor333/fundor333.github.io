@@ -30,12 +30,15 @@ fuji:
     - name: FujiFilm X-T30 II
       kind: Body
       url: https://fujifilm-x.com/it-it/products/cameras/x-t30-ii/
-    - name: Fujinon XF18-55mm F2.8-4 R LM OIS
-      kind: Zoom
-      url: https://fujifilm-x.com/it-it/products/lenses/xf18-55mmf28-4-r-lm-ois/
+    - name: Fujinon XF27mmF2.8 R WR
+      kind: Prime
+      url: https://www.fujifilm-x.com/global/products/lenses/xf27mmf28-r-wr/
     - name: TTArtisan 35mm F1.4 APS-C
       kind: Prime
       url: https://ttartisan.com/?aps-c-lenses/Tilt-C-35.html
+    - name: Fujinon XF18-55mm F2.8-4 R LM OIS
+      kind: Zoom
+      url: https://fujifilm-x.com/it-it/products/lenses/xf18-55mmf28-4-r-lm-ois/
 
 photo-gadget:
   layout: chips
