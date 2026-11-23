@@ -18,6 +18,8 @@ draft: False
 - [Souvenirs from Japan! - by Daniela - Journaling Dan](https://journalingdan.substack.com/p/souvenirs-from-japan?utm_source=fundor333.com)
 - [Apple × Pokémon — Basic Apple Guy](https://basicappleguy.com/basicappleblog/apple-x-pokemon?utm_source=fundor333.com)
 - [A touch grass experiment - by April Wu - The Penguin Post](https://thepenguinpost.substack.com/p/a-touch-grass-experiment?utm_source=fundor333.com)
+## New post from my blog
+- [Week Note Nº 47/2026](https://fundor333.com/weeknotes/2026/47/?utm_source=fundor333.com)
 
 ## My Links
 - [My blog](https://www.fundor333.com)
@@ -28,9 +30,9 @@ draft: False
 ## Anime and manga's stats
 
 ### **Anime**
-- Total anime watched: **124**
-- Total anime watched time: **783h 9m**
-- Total anime watched episodes: **1900**
+- Total anime watched: **126**
+- Total anime watched time: **789h 57m**
+- Total anime watched episodes: **1917**
 - Top 5 anime genres: 🏷️ Action, 🏷️ Adventure, 🏷️ Fantasy, 🏷️ Supernatural, 🏷️ Drama
 
 ### **Manga**
